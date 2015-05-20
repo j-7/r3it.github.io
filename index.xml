@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 15 May 2015 18:42:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Fri, 15 May 2015 18:42:48 +0900</pubDate>
+      
+      <guid>http://localhost:1313/test/</guid>
+      <description>
+
+&lt;h1 id=&#34;hello-test:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;hello test&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Fri, 15 May 2015 18:25:12 +0900</pubDate>
+      
+      <guid>http://localhost:1313/</guid>
+      <description>
+
+&lt;h1 id=&#34;インデックスです:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;インデックスです&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>会社概要</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 15 May 2015 16:37:29 +0900</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;高い問題解決能力を持つパートナー-それがr3です:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;高い問題解決能力を持つパートナー、それがR3です。&lt;/h1&gt;
+
+&lt;h2 id=&#34;少数精鋭-問題解決能力を持ったr3の人財:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;少数精鋭・問題解決能力を持ったR3の人財&lt;/h2&gt;
+
+&lt;h3 id=&#34;一流大学卒のエンジニア集団:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;一流大学卒のエンジニア集団&lt;/h3&gt;
+
+&lt;p&gt;京大・阪大といった各大学院の理系研究室で培った技術へのあくなき探究心
+幅広い分野、新しいものに対する理解スピードの早さ
+知らない分野へも踏み込めるチャレンジ精神と自信&lt;/p&gt;
+
+&lt;h3 id=&#34;大手siからスピンアウト:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;大手SIからスピンアウト&lt;/h3&gt;
+
+&lt;p&gt;大手SIで様々な規模のベーシックな開発方法を経験
+様々なプロジェクトを通じ、理想のシステム開発像を抱く
+大手に安住しないベンチャースピリッツ&lt;/p&gt;
+
+&lt;h3 id=&#34;経営問題の解決能力を充実:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;経営問題の解決能力を充実&lt;/h3&gt;
+
+&lt;p&gt;大手コンサルティング会社出身の社長を擁し、論理的思考に基づく問題解決能力を研鑽
+業務分析からシステム設計にいたる上流工程を仮説思考によりスピーディに実施&lt;/p&gt;
+
+&lt;h1 id=&#34;会社概要:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;会社概要&lt;/h1&gt;
+
+&lt;p&gt;社名
+アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;英語表記
+R3 institute
+設立
+2000年8月
+住所
+〒541-0053　大阪市中央区本町2-3-4-8F
+代表
+加藤忠智
+Tel
+06-6271-3663
+Fax
+06-6271-6061
+代表メール
+info(at)r3it.com
+URL
+&lt;a href=&#34;https://www.r3it.com&#34;&gt;https://www.r3it.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
