@@ -62,8 +62,7 @@ section {
 }
 
 a.list-group-item.active,[class*='-info'] {
-//	background-color: #168ccc;
-	background-color: #22247A;
+	background-color: #168ccc;
     color:#fff;
 }
   
@@ -99,12 +98,6 @@ a.list-group-item.active,[class*='-info'] {
     color:#ddd;
 }
 
-#solutions-top {
-	background-color: #eeeeee;
-    color:#111;
-}
-
-
 footer {
 	background-color:#494949;
     color:#ddd;
@@ -121,5 +114,12 @@ footer .nav>li>a {
 footer .nav>li>a:hover {
     background-color:transparent;
 	color:#fff;
+}
+
+#sidebar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  background: #394a59;
 }
 
