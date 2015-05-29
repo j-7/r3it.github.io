@@ -16,21 +16,78 @@
       <guid>http://www.r3it.com/solutions/</guid>
       <description>
 
-&lt;h2 id=&#34;ハイスピードsiは:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;ハイスピードSIは~~~~&lt;/h2&gt;
+&lt;p&gt;R3 instituteは、設立当初からのテーマとしての、&lt;/p&gt;
 
-&lt;p&gt;Bootstrap is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. It is the No.1 project on GitHub with 65,000+ stars and 23,800 forks (as of March 2014) [1] and has been used by NASA and MSNBC, among many others..&lt;/p&gt;
+&lt;h2 id=&#34;従来のシステム開発の非効率な部分を何とかできないものか:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;「従来のシステム開発の非効率な部分を何とかできないものか」&lt;/h2&gt;
+
+&lt;p&gt;を考え続けてきました。&lt;/p&gt;
+
+&lt;p&gt;営業にいく先々で、「システムというのは、なぜこんなに費用と時間がかかってしまうのか」というご相談をうけ、そこに真剣に向かいあってきました。&lt;/p&gt;
+
+&lt;p&gt;本来ITは、業務を、そして経営を助ける手段でなければならないはずが、
+いつのまにか、「あのシステムを変えるのに費用がかかりすぎるから、業務を変えることが出来ない」
+といった、経営にとってお荷物的な存在となってしまっている話も、幾度となく聞いてきました。&lt;/p&gt;
+
+&lt;p&gt;このままでは、日本企業の国際競争力にすら響いてしまうのではないか、そんな危機感すらあります。&lt;/p&gt;
+
+&lt;p&gt;２０１５年、、、世間では様々なクラウド技術、クラウドサービスがかなり台頭してきました。&lt;/p&gt;
+
+&lt;p&gt;一つ一つは単なる「部分」のサービスですが、「これらのクラウドをどううまく使いこなすか？」と
+いう、我々が得意とする　SI　としてのコーディネート力で考えたときに、
+従来からのSIとしての課題にもフィットすると思えたのです。&lt;/p&gt;
+
+&lt;h1 id=&#34;このコンセプトこそ-ハイスピードsi:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;このコンセプトこそ「ハイスピードSI」&lt;/h1&gt;
+
+&lt;p&gt;構成要素として、我々がもっとも最適だと思っているのは以下の３つです。&lt;/p&gt;
+
+&lt;h3 id=&#34;amazon-web-services-aws:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Amazon Web Services (AWS)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;インフラとしては、クイック、柔軟、多機能かつ低コストなAWSを用いる。&lt;/li&gt;
+&lt;li&gt;従来の様々な面倒なこと、コストがかかっていたことから解放するとともに、従来だとあり得なかったインフラサービスを提供する。&lt;/li&gt;
+&lt;li&gt;AWS前提にしたときには、アプリの作り方も変えられ、新たな世界感が出来てきます。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;サイボウズ-kintone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;サイボウズ kintone&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アプリ部分は、ノンプログラミングで出来る限り行う。&lt;/li&gt;
+&lt;li&gt;kintoneであれば、ミドルLayer、インフラLayerも気にしなくて良くなるため、上流～コーディング～下流の各工程で、かなりの効率化が図れます。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;r3のシステム開発サービス:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;R3のシステム開発サービス&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;設立以来、様々なお客様に評価されてきた、企画力、設計・開発力、柔軟性、コスト、スピード。&lt;/li&gt;
+&lt;li&gt;AWSやkintoneを単なるサービスとして捉えるのではなく、従来のスクラッチ開発とのハイブリッドで考えることにより、クラウドの力を十二分に発揮させることができます。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この世界観をたくさんの方に知っていただきたいと思っています。&lt;/p&gt;
+
+&lt;h2 id=&#34;さぁ-あなたも一歩踏み出してみませんか:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;さぁ、あなたも一歩踏み出してみませんか？&lt;/h2&gt;
+
+&lt;hr /&gt;
 </description>
     </item>
     
     <item>
-      <title>aws</title>
+      <title>AWSについて</title>
       <link>http://www.r3it.com/solutions/aws/</link>
       <pubDate>Thu, 28 May 2015 17:09:23 +0900</pubDate>
       
       <guid>http://www.r3it.com/solutions/aws/</guid>
       <description>
 
-&lt;h1 id=&#34;awsとは:028da4a231a5317af863941c3c91d223&#34;&gt;AWSとは&lt;/h1&gt;
+&lt;h2 id=&#34;r3-instituteのaws関連サービス:028da4a231a5317af863941c3c91d223&#34;&gt;R3 instituteのAWS関連サービス&lt;/h2&gt;
+
+&lt;p&gt;これまでエンタープライズ向けに、様々な業界の様々なシステム開発をしてきた弊社であれば、安全性、費用面、柔軟性など、どこに重点を置くかをお客様と共有することが可能です。その結果として、決まり切った構成ではないご提案やオプション機能のご提案も得意とします。&lt;/p&gt;
+
+&lt;table border=&#34;1&#34;&gt;
+  &lt;tr&gt;&lt;td&gt;a&lt;/td&gt;&lt;td&gt;b&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;a&lt;/td&gt;&lt;td&gt;b&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;awsを利用した構築事例:028da4a231a5317af863941c3c91d223&#34;&gt;AWSを利用した構築事例&lt;/h2&gt;
 </description>
     </item>
     
