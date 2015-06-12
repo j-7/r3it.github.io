@@ -244,6 +244,7 @@ a.list-group-item.active,[class*='-info'] {
 #imbody1 {
 	background-color: #eee;
     color:#444;
+    width: 85%;
 }
 
 #imfooter1 {
