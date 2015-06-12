@@ -277,3 +277,14 @@ footer .nav>li>a:hover {
     text-decoration: none;
     background-color: #fff
 }
+
+.bs-callout-info {
+  border-left-color: #1b809e;
+  padding: 20px;
+  margin: 20px 30px;
+  border: 1px solid #999;
+  border-left-width: 5px;
+  border-radius: 3px;
+  background-color: #eee;
+  color: #686868;
+}
