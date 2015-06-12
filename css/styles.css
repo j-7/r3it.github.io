@@ -9,9 +9,13 @@ license: MIT
 author: bootply.com
 */
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css); 
+
 html,body {
 	height:100%;
 	background-color:#22247A;
+    font-family: Arial, 'Noto Sans Japanese', sans-serif;
+    line-height: 200%;
 }
 
 .h2, h2 {
