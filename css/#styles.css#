@@ -14,6 +14,12 @@ html,body {
 	background-color:#22247A;
 }
 
+.h2, h2 {
+    border-bottom: solid 1px #ddd;
+    border-left: solid 10px #22247A;
+    
+}
+
 .icon-bar {
 	background-color:#fff;
 }
@@ -236,6 +242,11 @@ a.list-group-item.active,[class*='-info'] {
     color:#444;
 }
 
+#imfooter1 {
+	background-color: #fff;
+    color: #111;
+}
+
 footer {
 	background-color:#494949;
     color:#ddd;
@@ -271,4 +282,15 @@ footer .nav>li>a:hover {
 	border-style: none none none solid;
     text-decoration: none;
     background-color: #fff
+}
+
+.bs-callout-info {
+  border-left-color: #1b809e;
+  padding: 20px;
+  margin: 20px 30px;
+  border: 1px solid #999;
+  border-left-width: 5px;
+  border-radius: 3px;
+  background-color: #eee;
+  color: #686868;
 }
