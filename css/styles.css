@@ -11,8 +11,7 @@ author: bootply.com
 
 html,body {
 	height:100%;
-    background:center no-repeat fixed url('/images/page-header_bg.jpg');
-    background-size: cover;
+	background-color:#22247A;
 }
 
 .icon-bar {
@@ -75,7 +74,8 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #section1 {
-//	background-color: #9798C6;
+    background:center no-repeat fixed url('/images/page-header_bg.jpg');
+    background-size: cover;
     color:#fff;
 }
   
@@ -203,15 +203,15 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #single table {
-  border-collapse: collapse;
-  border: 1px solid #b9b9b9;
+    border-collapse: collapse;
+    border: 1px solid #b9b9b9;
 }
 
 #single table th {
 	background-color: #fff;
-  border-collapse: collapse;
-  border: 1px solid #b9b9b9;
-  padding: 5px;
+    border-collapse: collapse;
+    border: 1px solid #b9b9b9;
+    padding: 5px;
 }
 
 #single table tr {
@@ -223,6 +223,22 @@ a.list-group-item.active,[class*='-info'] {
   border-collapse: collapse;
   border: 1px solid #b9b9b9;
   padding: 5px;
+}
+
+#imtop1 {
+    background:center no-repeat fixed url('/images/page-header_bg.jpg');
+    background-size: 100% 100%;
+    color:#fff;
+}
+
+#imbody1 {
+	background-color: #eee;
+    color:#444;
+}
+
+#imfooter1 {
+	background-color: #fff;
+    color: #111;
 }
 
 footer {

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ims on </title>
+    <link>http://www.r3it.com/im/</link>
+    <description>Recent content in Ims on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 29 May 2015 14:52:01 +0900</lastBuildDate>
+    <atom:link href="http://www.r3it.com/im/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ハイスピードSIで「できない」が「できる」に！</title>
+      <link>http://www.r3it.com/im/cdo153/</link>
+      <pubDate>Fri, 29 May 2015 14:52:01 +0900</pubDate>
+      
+      <guid>http://www.r3it.com/im/cdo153/</guid>
+      <description>
+
+&lt;p&gt;アールスリーインスティテュート（R3 institute）の林と申します。&lt;/p&gt;
+
+&lt;h2 id=&#34;ハイスピードsi:b6453531fe4e3e65acbfd8a486f318a8&#34;&gt;「ハイスピードSI」&lt;/h2&gt;
+
+&lt;h2 id=&#34;kintoneを使った既存システムの改良:b6453531fe4e3e65acbfd8a486f318a8&#34;&gt;「kintoneを使った既存システムの改良」&lt;/h2&gt;
+
+&lt;p&gt;という２つのテーマでご案内をさせて頂いておりますSI会社です。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneって名前は聞くけど、どんなことが出来るの？&lt;/li&gt;
+&lt;li&gt;本当に簡単にシステムが作成できるの？&lt;/li&gt;
+&lt;li&gt;どんなところに適用すればいいの？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;という声を聞いておりました。&lt;/p&gt;
+
+&lt;p&gt;そこで弊社とサイボウズ株式会社様と共催で6月11日（木）15時より、【サイボウズ kintone 全国セミナー in 大阪】をサイボウズ様の大阪オフィスにて開催させていただく事になりました。&lt;/p&gt;
+
+&lt;p&gt;詳しい内容、お申し込みはこちら
+&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/511&#34;&gt;https://cybozu.smktg.jp/public/seminar/view/511&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（6月12日追記：上記セミナーは満席・大好評のうちに終了しました。次回開催はこちらです &lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/513&#34;&gt;https://cybozu.smktg.jp/public/seminar/view/513&lt;/a&gt;  ）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/im/seminar_20150611.jpg&#34; alt=&#34;セミナーの様子&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;kintoneに関してはいろんな誤解もありますし、
+まずは、知って頂くだけでも、と思っていますので
+是非、ご参加いただけませんでしょうか？&lt;/p&gt;
+
+&lt;p&gt;もし上記セミナーが定員で入れなかった場合には、
+弊社でも無料体験会を毎週開催しております。
+ぜひこちらの方にも足をお運びください。&lt;/p&gt;
+
+&lt;p&gt;　　kintone無料体験会
+　　&lt;a href=&#34;http://www.r3it.com/freecontact/&#34;&gt;http://www.r3it.com/freecontact/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;では、以降は、&lt;/p&gt;
+
+&lt;p&gt;「kintone公認エヴァンジェリスト」を社内に擁する弊社がお届けする、
+第３回目の配信のテーマは、システム開発において、&lt;/p&gt;
+
+&lt;h1 id=&#34;なぜ-出てきたものがイメージどおりにならないのか:b6453531fe4e3e65acbfd8a486f318a8&#34;&gt;「なぜ、出てきたものがイメージどおりにならないのか？」&lt;/h1&gt;
+
+&lt;p&gt;です。&lt;/p&gt;
+
+&lt;h2 id=&#34;仕様書では-動きがイメージできない:b6453531fe4e3e65acbfd8a486f318a8&#34;&gt;仕様書では、動きがイメージできない！！&lt;/h2&gt;
+
+&lt;p&gt;通常のシステムでは、プログラミングという作業に
+最も時間(＝つまりお金)が費やされるために、
+そこを効率的に行うために、最初にその「仕様」を決めないと
+いけませんよね。&lt;/p&gt;
+
+&lt;p&gt;しかし、その仕様は、ドキュメントとしてのみ作成・提示されるため、
+実際に動くものが出てきた際には、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;　「えっ？！　ここって、こんな動きをするの？」&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;　「実際の画面で見ると、意外と使いにくいので、こう変えたいなぁ」&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;　「触ってみると、こんな検索も必要なことに気付いた！」&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;など、なかなか期待どおりにはならないことは、
+経験された方でしたら、イメージしていただけるかと思います。&lt;/p&gt;
+
+&lt;p&gt;やはり、服でも、試着してみないと分かりませんよね？&lt;/p&gt;
+
+&lt;h1 id=&#34;kintoneの対面開発プロセス:b6453531fe4e3e65acbfd8a486f318a8&#34;&gt;kintoneの対面開発プロセス&lt;/h1&gt;
+
+&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:507px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:66.666667% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/521811631?et=slBWDf7QRuhvu5JH_PdO2Q&amp;viewMoreLink=on&amp;sig=MjmBgNMfUS0hi9tFDOXtkZKK_Qay9jtXWp-N7BXmGUI=&#34; width=&#34;507&#34; height=&#34;338&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/521811631&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;しかし！！！&lt;/p&gt;
+
+&lt;p&gt;kintoneを用いた開発プロセスは、「対面開発」　です。&lt;/p&gt;
+
+&lt;p&gt;一般的にはドキュメントを作成するところですが、その代わりに、ミーティングのその場で、動くものを作りながら仕様を決めていきます&lt;/p&gt;
+
+&lt;p&gt;ので、&lt;/p&gt;
+
+&lt;p&gt;仕様を決めたいユーザとしては、現実の出来事をイメージしながら、使い勝手も意識して、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;　「あっ、そこには、この項目も表示させて！」&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;　「そこの配置だと分かりにくいから、こちらに移動させて目立つようにして」&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;など、その場で伝えて、その場ですぐに反映されたものが出来ます。&lt;/p&gt;
+
+&lt;h2 id=&#34;対面開発を経験したユーザさんの反応:b6453531fe4e3e65acbfd8a486f318a8&#34;&gt;対面開発を経験したユーザさんの反応&lt;/h2&gt;
+
+&lt;p&gt;こういった開発プロセスを経験したクライアントの声としては、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;　「今までの進め方と全然違いますね！すごかったです」&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;　「やっぱり実際に動くものを見ながらだと、いっぱい意見が出せた気がした」&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;　「自分の思い通りのモノができた。満足です」&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;など。&lt;/p&gt;
+
+&lt;h2 id=&#34;実際のミーティングにおける様子の動画はこちら:b6453531fe4e3e65acbfd8a486f318a8&#34;&gt;実際のミーティングにおける様子の動画はこちら&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bit.ly/1IU5Iff&#34;&gt;http://bit.ly/1IU5Iff&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;このプロセスこそ、我々R3が提唱している「ハイスピードSI」の一つであり、プロジェクト全体に与えるインパクトはかなり大きいです。&lt;/p&gt;
+
+&lt;h2 id=&#34;良いものを-早く-安く:b6453531fe4e3e65acbfd8a486f318a8&#34;&gt;良いものを　早く　安く&lt;/h2&gt;
+
+&lt;p&gt;こんなことが出来る時代になってきました。&lt;/p&gt;
+
+&lt;p&gt;ご興味わいていただけた方、事例を知りたいという方、ご紹介にも伺いますので、以下までお問い合わせください。&lt;/p&gt;
+
+&lt;p&gt;アールスリーインスティテュート　林：　
+&lt;a href=&#34;mailto:hayashi@r3it.com&#34;&gt;hayashi@r3it.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ハイスピードSIで「できない」が「できる」に！</title>
+      <link>http://www.r3it.com/im/cdo152/</link>
+      <pubDate>Thu, 16 Apr 2015 14:34:38 +0900</pubDate>
+      
+      <guid>http://www.r3it.com/im/cdo152/</guid>
+      <description>
+
+&lt;h1 id=&#34;仕事中にメール-エクセルに:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;仕事中にメール・エクセルに&lt;/h1&gt;
+
+&lt;h1 id=&#34;振り回されているあなたへ:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;振り回されているあなたへ&lt;/h1&gt;
+
+&lt;p&gt;各企業が一定以上の規模になると、販売、生産、会計、勤怠、人事などの業務システムをお持ちになると思います。&lt;/p&gt;
+
+&lt;p&gt;しかしそういったシステムは、確定した情報が登録されるのが常です。&lt;/p&gt;
+
+&lt;p&gt;でも、考えてみてください。&lt;/p&gt;
+
+&lt;p&gt;情報を確定する前には、確定するまでのプロセスがあり、そこには複数の部門や、社外の人など多くのやり取りと、そのやり取りで発生した情報がたくさん存在しています。&lt;/p&gt;
+
+&lt;p&gt;あなたはこういう問題をお持ちではないですか？&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;業務システムに入力するための情報を管理するためにエクセルファイルを作成しその情報をメンテナンスし続けている&lt;/li&gt;
+&lt;li&gt;作ったエクセルファイルをメールでやりとりするのでどれが最新なのかわからなくなる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こういったプロセス業務にどれだけ多くの時間を使っているかを想像してみてください。&lt;/p&gt;
+
+&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:415px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:100.000000% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/543196451?et=1oNohp7SRzFhw2FkVKBlHQ&amp;viewMoreLink=on&amp;sig=NcT1LB0K1QPjvGNejX8mvOHCCnoit_pcENDnmfRDizk=&#34; width=&#34;415&#34; height=&#34;415&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/543196451&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;たとえば、、、&lt;/p&gt;
+
+&lt;p&gt;メールで１日に何本もやりとりが発生。&lt;/p&gt;
+
+&lt;p&gt;複数案件が同時に進行し、案件ごとの状態も見えないので、対応漏れが起きないように、独自の管理表へ転記したりしていますよね？&lt;/p&gt;
+
+&lt;p&gt;しかし、ミスもあるし、必ず管理表へ記載しているとも限らないので、結局は裏を取るために、埋もれている過去メールをたどったり、紙の帳票を追いかけたり。&lt;/p&gt;
+
+&lt;p&gt;また、これが社外とのやり取りになると、社外には見せられない情報もあるため、取引先用、社内用とほとんど同じ内容なのに、Excelが２重で作成されることになる。&lt;/p&gt;
+
+&lt;p&gt;そうなると余計に、ミスも起こり易く、情報の整合性が取れない状況も出てきて、知ってる人に電話などで聞いて、状況を確認することになる。&lt;/p&gt;
+
+&lt;p&gt;、、、、など。&lt;/p&gt;
+
+&lt;p&gt;こういった、ごちゃごちゃした領域の業務には、改善ポテンシャルがそれなりにあることがイメージしていただけたでしょうか？&lt;/p&gt;
+
+&lt;h1 id=&#34;プロセス業務-excel業務のシステム化はしにくい:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;プロセス業務＝Excel業務のシステム化はしにくい？&lt;/h1&gt;
+
+&lt;p&gt;こういった、ごちゃごちゃした領域の業務は、従来システム化の対象から外されてきたと思います。&lt;/p&gt;
+
+&lt;p&gt;その理由としては幾つかありますが、&lt;/p&gt;
+
+&lt;p&gt;（理由１） 業務プロセスが確立していない（変わり易い）&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;→プロセスや管理項目が決まらないと、システムは構築できない&lt;/p&gt;
+
+&lt;p&gt;（理由２） 各業務単体で見ると、たかだか数名しか携わっていない&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;→単体ごとでは、システム化の投資対効果が低い&lt;/p&gt;
+
+&lt;p&gt;といった評価をする、もしくはそんな評価をされたことは、皆さん、普通にご経験あることかと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;しかし-これら２つの課題は:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;しかし、これら２つの課題は、&lt;/h2&gt;
+
+&lt;h2 id=&#34;kintoneであればカバーできます:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;kintoneであればカバーできます！！&lt;/h2&gt;
+
+&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:507px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:66.666667% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/175140008?et=YykIzoo-SodvNcY9I3bBsA&amp;viewMoreLink=on&amp;sig=XgsH5uIzwhxse5uNXNu4C8Q8BHniumFug4DGpGIcq5E=&#34; width=&#34;507&#34; height=&#34;338&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/175140008&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;しかもクラウドサービスですので、欲しい時にいつでも開始でき、要らなくなればいつでも止めれるので、よりスピーディに導入の決定し、変化にも柔軟に対応していきやすいことになります。&lt;/p&gt;
+
+&lt;p&gt;これで、従来、システム化としては非常に成立しにくかった領域でさえ、kintoneを使うことによって、改善の目が出てくることになります。&lt;/p&gt;
+
+&lt;h1 id=&#34;kintoneはシステム部門要らず:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;kintoneはシステム部門要らず？&lt;/h1&gt;
+
+&lt;p&gt;上のようにあくまでExcelの延長線上の業務ですので、何も仰々しい情報システムを作るわけではありません。&lt;/p&gt;
+
+&lt;p&gt;今までは、Excel＋メールで共有していたその代わりに、ちょっとしたWebのツールにしただけです。&lt;/p&gt;
+
+&lt;p&gt;利用者もそんなにたくさんいない領域ですので、たくさんの人のことを考慮することもなく、Excelと同じように、自分たちのやりたいように、自分たちで決めればいいのです。&lt;/p&gt;
+
+&lt;p&gt;しかも、システムといっても、サーバが必要なわけでもなく、バックアップも気にしなくて良い。月額1500円で使い始めれば良いだけです。&lt;/p&gt;
+
+&lt;p&gt;これって、例えば、コピー機を買って、毎月の月額を払うような感覚と似てませんか？&lt;/p&gt;
+
+&lt;p&gt;そういった部内でのことを、毎日いろいろと忙しいシステム部門の方に頼る必要ありますか？&lt;/p&gt;
+
+&lt;p&gt;会社によって、このあたりの役割分担、費用分担の考え方は変わってくるかと思いますが、&lt;/p&gt;
+
+&lt;h2 id=&#34;自分たち-現場の人間でやれる改善は:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;自分たち、現場の人間でやれる改善は&lt;/h2&gt;
+
+&lt;h2 id=&#34;自分たちで責任もってやる:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;自分たちで責任もってやる&lt;/h2&gt;
+
+&lt;p&gt;といったことがkintoneによって、よりやり易くなってくるのではないでしょうか。&lt;/p&gt;
+
+&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:481px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:74.012474% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/521811331?et=Ln0VT0C9R5lmie2DfghR0Q&amp;viewMoreLink=on&amp;sig=M3HNF60RJlCfBMa3VlneN0vS_shUMOpC7F0hQtbqzNw=&#34; width=&#34;481&#34; height=&#34;356&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/521811331&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;このkintoneの登場は、こういった動きを加速する一つのきっかけになっていくのではないかと我々は思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;最後までお読みいただき-ありがとうございました:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;最後までお読みいただき、ありがとうございました。&lt;/h2&gt;
+
+&lt;p&gt;kintoneの事例紹介資料（PDF）はこちらからダウンロードできます。ぜひご確認ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;事例紹介資料-pdf-ダウンロード-http-bit-ly-1fv7ndd:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;&lt;a href=&#34;http://bit.ly/1FV7NDD&#34;&gt;事例紹介資料（PDF)ダウンロード&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;kintoneに関する無料体験会を毎週実施中です:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;kintoneに関する無料体験会を毎週実施中です！&lt;/h2&gt;
+
+&lt;p&gt;ご興味もって頂けた方、以下からご予約・お問い合わせください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/freecontact/&#34;&gt;https://www.r3it.com/freecontact/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ハイスピードSIで「できない」が「できる」に！</title>
+      <link>http://www.r3it.com/im/cdo151/</link>
+      <pubDate>Thu, 02 Apr 2015 10:47:28 +0900</pubDate>
+      
+      <guid>http://www.r3it.com/im/cdo151/</guid>
+      <description>
+
+&lt;p&gt;アールスリーインスティテュート（R3 institute）の林と申します。&lt;/p&gt;
+
+&lt;p&gt;Cloud Days 2015大阪にて、
+「ハイスピードSI」
+「kintoneを使った既存システムの改良」
+という２つのテーマでご案内をさせて頂いておりましたSI会社です。&lt;/p&gt;
+
+&lt;p&gt;従来のSIに疑問をもち、新しいSIに挑戦しています弊社が実施してきたことを知っていただき、是非とも皆さまのご参考にしていただきたく、以下のようなトピックについて発信していきます。&lt;/p&gt;
+
+&lt;p&gt;またご興味もっていただけた方には、詳しい内容のご案内もさせて頂ければ、と考えています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;驚きのkintone効果&lt;/li&gt;
+&lt;li&gt;SI事業においてkintoneが使える理由、使い易い領域&lt;/li&gt;
+&lt;li&gt;従来のSIに対する疑問と、革新への葛藤&lt;/li&gt;
+&lt;li&gt;「ハイスピードSI」とは。お客様の驚きの声&lt;/li&gt;
+&lt;li&gt;弊社がAWSパートナー、サイボウズパートナーとして重宝される理由&lt;/li&gt;
+&lt;li&gt;既存システムとkintoneとのコラボ適用例&lt;/li&gt;
+&lt;li&gt;kintoneを使ったSIを巧くやるコツ&lt;/li&gt;
+&lt;li&gt;AWSとkintoneとの親和性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:430px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:92.790698% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/174176157?et=06xv819XSEBN6loN8Zcdmg&amp;viewMoreLink=on&amp;sig=T8khzm3gnoGN3323m_QfwnKYFcdIQnrj3eW1FYn5pDE=&#34; width=&#34;430&#34; height=&#34;399&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/174176157&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;kintoneにより従来si費用の１-３以下になる衝撃:b523b4a6190bf80ee240ac72b98db69c&#34;&gt;kintoneにより従来SI費用の１／３以下になる衝撃&lt;/h1&gt;
+
+&lt;p&gt;とある弊社のクライアントへの提案から、その波は動き始めました。&lt;/p&gt;
+
+&lt;p&gt;弊社が開発した基幹業務向けシステムへの機能追加依頼があったが、予算が合わずに話が流れてしまったのが数年前。&lt;/p&gt;
+
+&lt;p&gt;kintoneに出会ってから、フィットする先を考えていた際に、「これだぁーー！！」と思いました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/im/kintonelogo_cloud.png&#34; alt=&#34;kintone&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;社内の技術者に、kintoneを使った概算見積をさせてみたところ、数年前に出した見積の１／３ではないか！&lt;/p&gt;
+
+&lt;p&gt;しかも、既存システムの改修の代わりなので、当然kintoneと既存システムとの連携が必要なのだが、その開発費用も含んでこの価格？！&lt;/p&gt;
+
+&lt;p&gt;しかも、従来Excelで管理していた業務なので、たまに管理項目が変わっていたのを、kintoneなら吸収できるではないか！！&lt;/p&gt;
+
+&lt;p&gt;しかも、（これは実際の構築時に発見したことですが）数年前の提案時に双方で想定していた内容より、ぐんと改善効果アップした機能までその費用内で実現出来るとは！！&lt;br /&gt;
+（※このあたりの秘密はまた追々ご紹介します）&lt;/p&gt;
+
+&lt;p&gt;クライアントにとって、メリットだらけで驚くばかりです。&lt;/p&gt;
+
+&lt;p&gt;営業としては、競合もいない中、自社の売上を１／３にまでして受注するのか？という疑問を持たれる方もいるかもしれませんが、&lt;/p&gt;
+
+&lt;h2 id=&#34;弊社の-クライアント目線で-投資対効果ある提案を-技術に偏りなく-というポリシー:b523b4a6190bf80ee240ac72b98db69c&#34;&gt;弊社の「クライアント目線で、投資対効果ある提案を、技術に偏りなく」というポリシー&lt;/h2&gt;
+
+&lt;p&gt;もあり、このkintoneを使った提案をしたい衝動に駆られました。&lt;/p&gt;
+
+&lt;h1 id=&#34;クライアントが解決したかった課題:b523b4a6190bf80ee240ac72b98db69c&#34;&gt;クライアントが解決したかった課題&lt;/h1&gt;
+
+&lt;p&gt;このクライアントはアルバム制作をする会社であり、写真撮影のために全国の２００名以上のカメラマンに業務委託していました。&lt;/p&gt;
+
+&lt;p&gt;各制作案件に対して、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;もっとも近くて、&lt;/li&gt;
+&lt;li&gt;スキルがあって、&lt;/li&gt;
+&lt;li&gt;必要機材も持っている&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;カメラマンを探して、かつ、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;該当日程で稼働できるか？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;を調整しなくてはなりません。&lt;/p&gt;
+
+&lt;p&gt;こういった調整にかかる業務負荷がかなりのものになっている、とのことでした。&lt;/p&gt;
+
+&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:507px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:66.666667% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/479920183?et=iAfFXaOmQ1xjSNggI4fJmQ&amp;viewMoreLink=on&amp;sig=E6dKVEcbnHYP7aqMxdSeQ-Jh4qQYCt_lQdE94i0g7cw=&#34; width=&#34;507&#34; height=&#34;338&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/479920183&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;従来から、各カメラマンの情報はExcelにて管理され、地域別シートを作成し、そこにカメラマンの基本情報から、得意ジャンルや出張可能地域、過去の経験、評価など様々な情報を記録し、社内担当者間で共有、アップデートをしていました。&lt;/p&gt;
+
+&lt;p&gt;しかし、カメラマンの人数が多いのと、カメラマンのスケジュールまではそのExcelにも管理出来ていなかったため、カメラマン決定までのプロセスが大変であることは想像に難くありません。&lt;/p&gt;
+
+&lt;p&gt;また、どうしても担当者がよく知っているカメラマンにだけ依頼が集中してしまい、他のカメラマンを有効に使えてなかった、という副次的な課題もありました。&lt;/p&gt;
+
+&lt;h1 id=&#34;既存システム改修による提案の限界:b523b4a6190bf80ee240ac72b98db69c&#34;&gt;既存システム改修による提案の限界&lt;/h1&gt;
+
+&lt;p&gt;数年前に、既存システムの改修の提案をし、結局は予算的に合わなかったのですが、今思うと、予算だけでなく、機能面でも幾つか不満の残る提案になっていました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Excelで管理しているスキルなどの項目は、今後も変わっていく。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;その部分をマスタ化し、変化に追従させようと思うと、更に費用がアップするため、マスタ化は諦めて固定化することにしていた。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;スケジュール管理として、案件が決定した予定についてはカメラマン毎に把握できることになるが、その他の予定については、カメラマンに電話などで聞いて、自分達で登録する必要がある。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;しかし:b523b4a6190bf80ee240ac72b98db69c&#34;&gt;しかし！！&lt;/h2&gt;
+
+&lt;h2 id=&#34;こういったことも-kintoneであれば-標準機能で-しかも追加コストなしで対応可能ではないですか:b523b4a6190bf80ee240ac72b98db69c&#34;&gt;こういったことも、kintoneであれば、標準機能で、しかも追加コストなしで対応可能ではないですか！！&lt;/h2&gt;
+
+&lt;p&gt;kintoneでは、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;項目追加がプログラミング無しで行える。しかもその項目は検索でも利用可能&lt;/li&gt;
+&lt;li&gt;画面を作ると、自動的にスマホ用画面も構築されるので、カメラマン自身にスマホで予定を入れてもらうことも可能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;という特徴をモロに活かせることができます。&lt;/p&gt;
+
+&lt;p&gt;これって、もうコスト１／３どころの効果ではないですよね！kintoneを使った提案の圧勝です。&lt;/p&gt;
+
+&lt;p&gt;さらには、構築中にもどんどんと機能アップするアイデアが出てきました。&lt;/p&gt;
+
+&lt;p&gt;こういった経験から言えるメッセージとしては、&lt;/p&gt;
+
+&lt;h2 id=&#34;現在-excelで管理できる程度の業務だと思っていても-実際にkintoneへの移行を検討していくと-思った以上に改善効果が大きい:b523b4a6190bf80ee240ac72b98db69c&#34;&gt;「現在、Excelで管理できる程度の業務だと思っていても、実際にkintoneへの移行を検討していくと、思った以上に改善効果が大きい」&lt;/h2&gt;
+
+&lt;p&gt;ということだと思います。&lt;/p&gt;
+
+&lt;p&gt;そういった改善の発見にもつながるkintone。この感動を皆さんにも味わっていただきたいと思います！&lt;/p&gt;
+
+&lt;p&gt;～～～　&lt;a href=&#34;http://www.r3it.com/im/cdo152/&#34;&gt;第２回へと続く&lt;/a&gt;　～～～&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
