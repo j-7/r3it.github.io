@@ -991,6 +991,15 @@
       <guid>http://www.r3it.com/solutions/aws/</guid>
       <description>
 
+&lt;h2 id=&#34;amazon-web-services-aws-とは:028da4a231a5317af863941c3c91d223&#34;&gt;Amazon Web Services (AWS)とは&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/AWS_Logo_Consulting_Partner_DARK.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;AWSとはAmazon Web Services（アマゾンウェブサービス‎）の略称です。世界最大のパブリッククラウドサービス事業者であり、同社は世界最大級のオンライン小売事業者であるAmazon.comのインフラを支えています。&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートはAWSコンサルティングパートナーに認定されており、過去の実績とともに培ったノウハウで、お客様のAWS導入を支援します。&lt;/p&gt;
+
 &lt;h2 id=&#34;r3-instituteのaws関連サービス:028da4a231a5317af863941c3c91d223&#34;&gt;R3 instituteのAWS関連サービス&lt;/h2&gt;
 
 &lt;p&gt;これまでエンタープライズ向けに、様々な業界の様々なシステム開発をしてきた弊社であれば、安全性、費用面、柔軟性など、どこに重点を置くかをお客様と共有することが可能です。その結果として、決まり切った構成ではないご提案やオプション機能のご提案も得意とします。&lt;/p&gt;
@@ -1034,6 +1043,42 @@
 &lt;/table&gt;
 
 &lt;h1 id=&#34;awsを利用した構築事例:028da4a231a5317af863941c3c91d223&#34;&gt;AWSを利用した構築事例&lt;/h1&gt;
+
+&lt;h2 id=&#34;事例-株式会社夢ふぉと様:028da4a231a5317af863941c3c91d223&#34;&gt;事例：株式会社夢ふぉと様&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.yumephoto.com/&#34;&gt;http://www.yumephoto.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;解決したかった課題:028da4a231a5317af863941c3c91d223&#34;&gt;解決したかった課題&lt;/h3&gt;
+
+&lt;p&gt;株式会社夢ふぉと様では、弊社が開発した顧客管理システムをオフィス内で設置したサーバで運用していました。しかし、オフィス内での運用では、以下のような問題がありました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サーバの老朽化に伴い、サーバのリプレイス作業が必要となる&lt;/li&gt;
+&lt;li&gt;サーバのメンテナンスがリモートで実施できず、訪問しての作業となるため対応に時間がかかる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;このような問題を解消するため、弊社にて顧客管理システムをAWS上に移行しました。&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;以降の詳細は&lt;a href=&#34;http://bit.ly/1cPJvkk&#34;&gt;こちらのPDF&lt;/a&gt;を御覧ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;事例-株式会社トムス-エンタテインメント様:028da4a231a5317af863941c3c91d223&#34;&gt;事例：株式会社トムス・エンタテインメント様&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ani-me.jp/&#34;&gt;http://ani-me.jp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;解決したかった課題-1:028da4a231a5317af863941c3c91d223&#34;&gt;解決したかった課題&lt;/h3&gt;
+
+&lt;p&gt;株式会社トムス・エンタテインメント様では、視聴者が見たアニメを記録管理するサービスとしてアニme &lt;a href=&#34;http://ani-me.jp/&#34;&gt;http://ani-me.jp/&lt;/a&gt; を提供されています。
+このサービスでは、企画当初から以下のような課題がありました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;新規サービスであるためどの程度のアクセスがあるかが予想できない&lt;/li&gt;
+&lt;li&gt;人気アニメの放送中や直後はアクセスが集中する可能性がある&lt;/li&gt;
+&lt;li&gt;サービスを徐々に成長させていくためにも初期投資を抑える必要がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;このような問題を解決するため、当初よりAWS上にシステムを構築することとなりました。&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;以降の詳細は&lt;a href=&#34;http://bit.ly/1GiL7xJ&#34;&gt;こちらのPDF&lt;/a&gt;を御覧ください。&lt;/p&gt;
 </description>
     </item>
     
