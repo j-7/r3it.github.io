@@ -117,7 +117,7 @@ a.list-group-item.active,[class*='-info'] {
 
 #solutions-top {
 	padding-top: 10px;
-	background-color: #eeeeee;
+	background-color: #fff;
     color:#111;
 }
 
@@ -157,7 +157,7 @@ a.list-group-item.active,[class*='-info'] {
 
 #community-top {
 	padding-top: 10px;
-	background-color: #eeeeee;
+	background-color: #fff;
     color:#111;
 }
 
@@ -203,7 +203,7 @@ a.list-group-item.active,[class*='-info'] {
 
 #single {
 	padding-top: 10px;
-	background-color: #eee;
+	background-color: #fff;
     color:#686868;
 }
 
@@ -242,7 +242,7 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #imbody1 {
-	background-color: #eee;
+	background-color: #fff;
     color:#444;
     width: 85%;
 }
