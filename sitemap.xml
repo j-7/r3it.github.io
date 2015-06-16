@@ -2,83 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.r3it.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2015-06-16T15:27:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/freecontact/</loc>
+    <loc>http://localhost:1313/freecontact/</loc>
     <lastmod>2015-06-16T15:27:05+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/community/oss/kc4t/</loc>
+    <loc>http://localhost:1313/community/oss/kc4t/</loc>
     <lastmod>2015-06-08T16:23:36+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/community/oss/</loc>
+    <loc>http://localhost:1313/community/oss/</loc>
     <lastmod>2015-06-08T16:03:26+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/community/kintonecafe/</loc>
+    <loc>http://localhost:1313/community/kintonecafe/</loc>
     <lastmod>2015-06-08T15:00:25+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/community/jawsug/</loc>
+    <loc>http://localhost:1313/community/jawsug/</loc>
     <lastmod>2015-06-08T11:36:43+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/community/</loc>
+    <loc>http://localhost:1313/community/</loc>
     <lastmod>2015-06-08T10:56:09+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/recruitment/</loc>
+    <loc>http://localhost:1313/recruitment/</loc>
     <lastmod>2015-05-29T17:11:59+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/solutions/si/</loc>
+    <loc>http://localhost:1313/solutions/si/</loc>
     <lastmod>2015-05-29T16:14:36+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/solutions/kintone/</loc>
+    <loc>http://localhost:1313/solutions/kintone/</loc>
     <lastmod>2015-05-29T16:04:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/im/cdo153/</loc>
+    <loc>http://localhost:1313/im/cdo153/</loc>
     <lastmod>2015-05-29T14:52:01+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/solutions/</loc>
+    <loc>http://localhost:1313/solutions/</loc>
     <lastmod>2015-05-28T17:55:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/solutions/aws/</loc>
+    <loc>http://localhost:1313/solutions/aws/</loc>
     <lastmod>2015-05-28T17:09:23+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/company/</loc>
+    <loc>http://localhost:1313/company/</loc>
     <lastmod>2015-05-15T16:37:29+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/im/cdo152/</loc>
+    <loc>http://localhost:1313/im/cdo152/</loc>
     <lastmod>2015-04-16T14:34:38+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.r3it.com/im/cdo151/</loc>
+    <loc>http://localhost:1313/im/cdo151/</loc>
     <lastmod>2015-04-02T10:47:28+09:00</lastmod>
   </url>
   
