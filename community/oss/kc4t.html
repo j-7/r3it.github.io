@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kintone Connector for talend | アールスリーインスティテュート</title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:1313/">
+    <meta property="og:title" content="アールスリーインスティテュート"/>
+    <meta property="og:url" content="http://localhost:1313/"/>
+    <meta property="og:image" content="http://localhost:1313//images/r3logo_nav.png"/>   
+    <meta property="og:site_name" content="アールスリーインスティテュート">
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+    
+    <link rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico" />
+</head>
+<body>
+
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><img src="/images/r3logo_nav.png"></a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-collapsible">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/#section5">お知らせ</a></li>
+        <li><a href="/solutions/">ハイスピードSI</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/#section5"><span style="vertical-align: middle;" class="glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせ</a></li>
+        <li>&nbsp;</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section class="container-fluid" id="breadcrumb-section">
+  <ol class="breadcrumb">
+    <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+    <li><a href="/community/">コミュニティ</a></li>
+    <li><a href="/community/oss/">オープンソースへの貢献</a></li>
+    <li class="active">kintone Connector for talend</li>
+  </ol>
+</section>
+
+<section class="container-fluid" id="single">
+  <div class="row">
+  	<div class="col-md-3">
+	
+	<nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+    <ul class="nav bs-docs-sidenav">
+    <li><a href="/community/jawsug/">JAWS-UGについて</a></li>
+    <li><a href="/community/kintonecafe/">kintone Caféについて</a></li>
+    <li><a href="/community/oss/">オープンソースへの貢献</a></li>
+	</ul>
+	</nav>
+
+	</div>
+  	<div class="col-md-8">
+	    <h1>kintone Connector for talend</h1>
+		
+		
+
+<p><img src="/images/community/talend_logo_4c_256.png" alt="talend" title="talend" />
+</p>
+
+<p>kintone Connector for talend <a href="https://github.com/r3it/kc4t">kc4t</a>は <a href="https://jp.talend.com/products/talend-open-studio">Talend Open Studio</a> 用のkintone接続コンポーネントです。</p>
+
+<h2 id="機能:6063a04525bca4bf0d1a86dbe5967d1b">機能</h2>
+
+<ul>
+<li>kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート</li>
+<li>RDBMSからkintoneへレコードのインポート（近日公開予定）</li>
+</ul>
+
+<h2 id="必要な環境:6063a04525bca4bf0d1a86dbe5967d1b">必要な環境</h2>
+
+<ul>
+<li>kintone SDK for Java version 0.6以降 <a href="https://github.com/kintone/java-sdk">https://github.com/kintone/java-sdk</a></li>
+<li>JDK 7以降</li>
+</ul>
+
+<h2 id="機能詳細:6063a04525bca4bf0d1a86dbe5967d1b">機能詳細</h2>
+
+<h3 id="kintoneからjdbc接続可能なrdbmsへのレコードのエクスポート:6063a04525bca4bf0d1a86dbe5967d1b">kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート</h3>
+
+<ul>
+<li>kintoneアプリを元に自動的にテーブルスキーマを作成します</li>
+<li>レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします</li>
+<li>エクスポート時にクエリを指定可能です</li>
+<li>実行ジョブのステータスはジョブステータス格納用テーブルに記録されます</li>
+</ul>
+
+<h2 id="インストールと使い方:6063a04525bca4bf0d1a86dbe5967d1b">インストールと使い方</h2>
+
+<ul>
+<li>ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします <a href="https://github.com/r3it/kc4t">https://github.com/r3it/kc4t</a></li>
+</ul>
+
+<h2 id="ファイルの設置と設定:6063a04525bca4bf0d1a86dbe5967d1b">ファイルの設置と設定</h2>
+
+<ul>
+<li><a href="https://jp.talend.com/products/talend-open-studio">Talend Open Studio</a>を起動します</li>
+<li>&ldquo;カスタムコンポーネント&rdquo; フォルダを設定します
+
+<ul>
+<li>例として&rdquo;Custom Components&rdquo;という名前のフォルダを、ハードディスクのどこかに作成します</li>
+<li>Studioの設定画面で Window-&gt; Preferences-&gt; Talend-&gt; Components と遷移します</li>
+<li>&ldquo;User component folder&rdquo; にいま作成した&rdquo;Custom Components&rdquo;フォルダを設定します</li>
+</ul></li>
+<li>ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput フォルダを、あなたの &ldquo;Custom Components&rdquo; フォルダにコピーします</li>
+</ul>
+
+<h2 id="設定パラメータ:6063a04525bca4bf0d1a86dbe5967d1b">設定パラメータ</h2>
+
+<p><img width="450" src="/images/community/kc4t/config.png" alt="configuration"></p>
+
+<h3 id="jdbc設定:6063a04525bca4bf0d1a86dbe5967d1b">JDBC設定</h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Username</td>
+<td>JDBC接続時のユーザ名</td>
+</tr>
+
+<tr>
+<td align="left">Password</td>
+<td>JDBC接続時のパスワード</td>
+</tr>
+
+<tr>
+<td align="left">JDBC URL</td>
+<td>JDBC URL</td>
+</tr>
+
+<tr>
+<td align="left">Driver Class name</td>
+<td>JDBCドライバのクラス名</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="出力先テーブル名の設定:6063a04525bca4bf0d1a86dbe5967d1b">出力先テーブル名の設定</h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Export table prefix</td>
+<td>データをエクスポートするテーブル名の接頭辞</td>
+</tr>
+
+<tr>
+<td align="left">JobReport table name</td>
+<td>ジョブ結果を格納するテーブル名</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="kintoneの設定:6063a04525bca4bf0d1a86dbe5967d1b">kintoneの設定</h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">API token</td>
+<td>接続するkintoneアプリの API token</td>
+</tr>
+
+<tr>
+<td align="left">Sub domain</td>
+<td>接続するアプリのサブドメイン</td>
+</tr>
+
+<tr>
+<td align="left">kintone AppId</td>
+<td>アプリID（数値で指定します）</td>
+</tr>
+
+<tr>
+<td align="left">Guest SpaceId</td>
+<td>もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します</td>
+</tr>
+
+<tr>
+<td align="left">query</td>
+<td>クエリパラメータを利用する場合、ここに設定します。何も設定しなければ、コンポーネントはすべてのレコードのエクスポートを試みます。</td>
+</tr>
+
+<tr>
+<td align="left">order by field</td>
+<td>デフォルトは &ldquo;RECORD_NUMBER&rdquo; です。あなたのアプリケーションが &ldquo;RECORD_NUMBER&rdquo; を持っていない場合、ソートに利用するフィールド名を指定してください。</td>
+</tr>
+
+<tr>
+<td align="left">retrieve revision field</td>
+<td>デフォルトは &ldquo;true&rdquo; です。チェックを外すと、REVISIONフィールドを取得しません。</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="出力結果:6063a04525bca4bf0d1a86dbe5967d1b">出力結果</h2>
+
+<p><img width="450" src="/images/community/kc4t/schema.png" alt="schema"></p>
+
+<p>エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">JobId</td>
+<td>ジョブID（テーブルの接尾詞になります）</td>
+</tr>
+
+<tr>
+<td align="left">MainTable</td>
+<td>エクスポートされたテーブル名</td>
+</tr>
+
+<tr>
+<td align="left">SubTables</td>
+<td>サブテーブルがあった場合、それらのテーブル名がカンマ区切りで入ります。</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="その他:6063a04525bca4bf0d1a86dbe5967d1b">その他</h2>
+
+<ul>
+<li>現在のところテーブルは削除されません。ジョブが実行されるたびに、新たにテーブルが作成されます。</li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">    
+      <div class="col-xs-12 col-sm-12 col-md-6 column">
+        <p>アールスリーインスティテュート</br>
+        Tel : 06-6271-3663 / Fax : 06-6271-6061 / Mail : <a href="mailto:info@r3it.com">info@r3it.com</a></br>
+		〒541-0053 大阪府大阪市中央区本町2-3-4-8F</p>	  
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img src="/images/AWS_Logo_Consulting_Partner_DARK.png"><br />
+		AWS Partner Network (APN) <br>コンサルティングパートナー
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img src="/images/cop_silver_180.jpg"><br />
+		サイボウズ<br> オフィシャルパートナー
+      </div>
+    </div>
+
+    <div class="row">    
+      <div class="col-xs-6 col-sm-6 col-md-3 column">
+	  
+        </div>
+      <div class="col-xs-6 col-md-3 column">
+	  
+      </div>
+      <div class="col-xs-6 col-md-3 column">
+	  
+      </div>
+      <div class="col-xs-6 col-md-3 column">
+	  
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; padding: 20px">&copy; 2015 R3 institute All Rights Reserved.</div>
+</footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24363556-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
+

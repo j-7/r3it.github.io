@@ -9,7 +9,7 @@ license: MIT
 author: bootply.com
 */
 
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css); 
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css); 
 
 html,body {
 	height:100%;
