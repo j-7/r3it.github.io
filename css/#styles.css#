@@ -243,12 +243,12 @@ a.list-group-item.active,[class*='-info'] {
 
 #imbody1 {
 	background-color: #fff;
-    color:#111;
+    color:#444;
     width: 85%;
 }
 
 #imfooter1 {
-	background-color: #eee;
+	background-color: #fff;
     color: #111;
 }
 
