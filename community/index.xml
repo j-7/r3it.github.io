@@ -9,7 +9,7 @@
     <atom:link href="http://www.r3it.com/community/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>kintone で作ったフォームをHTMLに埋め込む js2kintone</title>
+      <title>kintone で作ったアプリをHTMLに埋め込む js2kintone</title>
       <link>http://www.r3it.com/community/oss/js2kintone/</link>
       <pubDate>Mon, 22 Jun 2015 18:28:47 +0900</pubDate>
       
@@ -19,7 +19,7 @@
 &lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したフォームをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
+&lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したアプリをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
 
 &lt;p&gt;ユーザーが入力した問い合わせフォームの内容は、html(js2kintone) → &lt;a href=&#34;http://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; → kintone と流れてきます。&lt;/p&gt;
 
