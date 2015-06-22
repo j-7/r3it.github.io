@@ -276,7 +276,7 @@
 &lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;kintone で作ったフォームをHTMLに埋め込むJavaScriptライブラリです。これを利用することで手軽に kintone で作ったアプリをあなたのWebサイトに公開できます！&lt;/p&gt;
+&lt;p&gt;kintone で作ったアプリをHTMLに埋め込むJavaScriptライブラリです。これを利用することで手軽に kintoneアプリをあなたのWebサイトに公開できます！&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt;について、詳しくはこちら。&lt;/p&gt;
 </description>
