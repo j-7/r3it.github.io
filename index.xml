@@ -5,8 +5,41 @@
     <link>http://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 18 Jun 2015 19:34:59 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2015 18:28:47 +0900</lastBuildDate>
     <atom:link href="http://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone で作ったフォームをHTMLに埋め込む js2kintone</title>
+      <link>http://www.r3it.com/community/oss/js2kintone/</link>
+      <pubDate>Mon, 22 Jun 2015 18:28:47 +0900</pubDate>
+      
+      <guid>http://www.r3it.com/community/oss/js2kintone/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したフォームをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
+
+&lt;p&gt;ユーザーが入力した問い合わせフォームの内容は、html(js2kintone) → &lt;a href=&#34;http://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; → kintone と流れてきます。&lt;/p&gt;
+
+&lt;p&gt;js2kintone を利用すると、「&lt;a href=&#34;http://aws.amazon.com/jp/s3-hosting/&#34;&gt;月額10円〜レンタルサーバを始める方法&lt;/a&gt;」で活用する Amazon S3 で構築したWebサイトに、ほぼ無料で問い合わせフォームを設置することが出来ます。&lt;/p&gt;
+
+&lt;h2 id=&#34;ダウンロード:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;ダウンロード&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/js2kintone&#34;&gt;https://github.com/r3it/js2kintone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;設置方法と使い方:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;設置方法と使い方&lt;/h2&gt;
+
+&lt;p&gt;詳細は&lt;a href=&#34;https://github.com/r3it/js2kintone/blob/v0.0.1/docs/setup-usage-jp.md&#34;&gt;こちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;有料設置サービスについて:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;有料設置サービスについて&lt;/h2&gt;
+
+&lt;p&gt;上記ドキュメントを読んで設置方法がわからない方は、有料設置サービスを行っておりますので、弊社 &lt;a href=&#34;https://www.r3it.com/&#34;&gt;アールスリーインスティテュート&lt;/a&gt;までお問い合わせください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>弊社の公開情報について</title>
@@ -315,7 +348,16 @@ var js2kintoneConfig = {
 
 &lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4tについて詳しくはこちら&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt;について詳しくはこちらをご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;js2kintone:599583c792ffff6f38c8d57a8a8ff5bf&#34;&gt;js2kintone&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;kintone で作ったフォームをHTMLに埋め込むJavaScriptライブラリです。これを利用することで手軽に kintone で作ったアプリをあなたのWebサイトに公開できます！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt;について、詳しくはこちら。&lt;/p&gt;
 </description>
     </item>
     
@@ -1214,115 +1256,6 @@ var js2kintoneConfig = {
   &lt;tr&gt;&lt;th&gt;代表メール&lt;/th&gt;&lt;td&gt;info(at)r3it.com&lt;/td&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;th&gt;URL&lt;/th&gt;&lt;td&gt;http://www.r3it.com&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ハイスピードSIで「できない」が「できる」に！</title>
-      <link>http://www.r3it.com/im/cdo152/</link>
-      <pubDate>Thu, 16 Apr 2015 14:34:38 +0900</pubDate>
-      
-      <guid>http://www.r3it.com/im/cdo152/</guid>
-      <description>
-
-&lt;h1 id=&#34;仕事中にメール-エクセルに:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;仕事中にメール・エクセルに&lt;/h1&gt;
-
-&lt;h1 id=&#34;振り回されているあなたへ:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;振り回されているあなたへ&lt;/h1&gt;
-
-&lt;p&gt;各企業が一定以上の規模になると、販売、生産、会計、勤怠、人事などの業務システムをお持ちになると思います。&lt;/p&gt;
-
-&lt;p&gt;しかしそういったシステムは、確定した情報が登録されるのが常です。&lt;/p&gt;
-
-&lt;p&gt;でも、考えてみてください。&lt;/p&gt;
-
-&lt;p&gt;情報を確定する前には、確定するまでのプロセスがあり、そこには複数の部門や、社外の人など多くのやり取りと、そのやり取りで発生した情報がたくさん存在しています。&lt;/p&gt;
-
-&lt;p&gt;あなたはこういう問題をお持ちではないですか？&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;業務システムに入力するための情報を管理するためにエクセルファイルを作成しその情報をメンテナンスし続けている&lt;/li&gt;
-&lt;li&gt;作ったエクセルファイルをメールでやりとりするのでどれが最新なのかわからなくなる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;こういったプロセス業務にどれだけ多くの時間を使っているかを想像してみてください。&lt;/p&gt;
-
-&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:415px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:100.000000% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/543196451?et=1oNohp7SRzFhw2FkVKBlHQ&amp;viewMoreLink=on&amp;sig=NcT1LB0K1QPjvGNejX8mvOHCCnoit_pcENDnmfRDizk=&#34; width=&#34;415&#34; height=&#34;415&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/543196451&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;たとえば、、、&lt;/p&gt;
-
-&lt;p&gt;メールで１日に何本もやりとりが発生。&lt;/p&gt;
-
-&lt;p&gt;複数案件が同時に進行し、案件ごとの状態も見えないので、対応漏れが起きないように、独自の管理表へ転記したりしていますよね？&lt;/p&gt;
-
-&lt;p&gt;しかし、ミスもあるし、必ず管理表へ記載しているとも限らないので、結局は裏を取るために、埋もれている過去メールをたどったり、紙の帳票を追いかけたり。&lt;/p&gt;
-
-&lt;p&gt;また、これが社外とのやり取りになると、社外には見せられない情報もあるため、取引先用、社内用とほとんど同じ内容なのに、Excelが２重で作成されることになる。&lt;/p&gt;
-
-&lt;p&gt;そうなると余計に、ミスも起こり易く、情報の整合性が取れない状況も出てきて、知ってる人に電話などで聞いて、状況を確認することになる。&lt;/p&gt;
-
-&lt;p&gt;、、、、など。&lt;/p&gt;
-
-&lt;p&gt;こういった、ごちゃごちゃした領域の業務には、改善ポテンシャルがそれなりにあることがイメージしていただけたでしょうか？&lt;/p&gt;
-
-&lt;h1 id=&#34;プロセス業務-excel業務のシステム化はしにくい:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;プロセス業務＝Excel業務のシステム化はしにくい？&lt;/h1&gt;
-
-&lt;p&gt;こういった、ごちゃごちゃした領域の業務は、従来システム化の対象から外されてきたと思います。&lt;/p&gt;
-
-&lt;p&gt;その理由としては幾つかありますが、&lt;/p&gt;
-
-&lt;p&gt;（理由１） 業務プロセスが確立していない（変わり易い）&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;→プロセスや管理項目が決まらないと、システムは構築できない&lt;/p&gt;
-
-&lt;p&gt;（理由２） 各業務単体で見ると、たかだか数名しか携わっていない&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;→単体ごとでは、システム化の投資対効果が低い&lt;/p&gt;
-
-&lt;p&gt;といった評価をする、もしくはそんな評価をされたことは、皆さん、普通にご経験あることかと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;しかし-これら２つの課題は-kintoneであればカバーできます:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;しかし、これら２つの課題は、kintoneであればカバーできます！！&lt;/h2&gt;
-
-&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:507px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:66.666667% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/175140008?et=YykIzoo-SodvNcY9I3bBsA&amp;viewMoreLink=on&amp;sig=XgsH5uIzwhxse5uNXNu4C8Q8BHniumFug4DGpGIcq5E=&#34; width=&#34;507&#34; height=&#34;338&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/175140008&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;しかもクラウドサービスですので、欲しい時にいつでも開始でき、要らなくなればいつでも止めれるので、よりスピーディに導入の決定し、変化にも柔軟に対応していきやすいことになります。&lt;/p&gt;
-
-&lt;p&gt;これで、従来、システム化としては非常に成立しにくかった領域でさえ、kintoneを使うことによって、改善の目が出てくることになります。&lt;/p&gt;
-
-&lt;h1 id=&#34;kintoneはシステム部門要らず:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;kintoneはシステム部門要らず？&lt;/h1&gt;
-
-&lt;p&gt;上のようにあくまでExcelの延長線上の業務ですので、何も仰々しい情報システムを作るわけではありません。&lt;/p&gt;
-
-&lt;p&gt;今までは、Excel＋メールで共有していたその代わりに、ちょっとしたWebのツールにしただけです。&lt;/p&gt;
-
-&lt;p&gt;利用者もそんなにたくさんいない領域ですので、たくさんの人のことを考慮することもなく、Excelと同じように、自分たちのやりたいように、自分たちで決めればいいのです。&lt;/p&gt;
-
-&lt;p&gt;しかも、システムといっても、サーバが必要なわけでもなく、バックアップも気にしなくて良い。月額1500円で使い始めれば良いだけです。&lt;/p&gt;
-
-&lt;p&gt;これって、例えば、コピー機を買って、毎月の月額を払うような感覚と似てませんか？&lt;/p&gt;
-
-&lt;p&gt;そういった部内でのことを、毎日いろいろと忙しいシステム部門の方に頼る必要ありますか？&lt;/p&gt;
-
-&lt;p&gt;会社によって、このあたりの役割分担、費用分担の考え方は変わってくるかと思いますが、&lt;/p&gt;
-
-&lt;h2 id=&#34;自分たち-現場の人間でやれる改善は自分たちで責任もってやる:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;自分たち、現場の人間でやれる改善は自分たちで責任もってやる&lt;/h2&gt;
-
-&lt;p&gt;といったことがkintoneによって、よりやり易くなってくるのではないでしょうか。&lt;/p&gt;
-
-&lt;div class=&#34;getty embed image&#34; style=&#34;background-color:#fff;display:inline-block;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:481px;&#34;&gt;&lt;div style=&#34;overflow:hidden;position:relative;height:0;padding:74.012474% 0 0 0;width:100%;&#34;&gt;&lt;iframe src=&#34;//embed.gettyimages.com/embed/521811331?et=Ln0VT0C9R5lmie2DfghR0Q&amp;viewMoreLink=on&amp;sig=M3HNF60RJlCfBMa3VlneN0vS_shUMOpC7F0hQtbqzNw=&#34; width=&#34;481&#34; height=&#34;356&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p style=&#34;margin:0;&#34;&gt;&lt;/p&gt;&lt;div style=&#34;padding:0;margin:0 0 0 10px;text-align:left;&#34;&gt;&lt;a href=&#34;http://www.gettyimages.com/detail/521811331&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;View image&lt;/a&gt; | &lt;a href=&#34;http://www.gettyimages.com&#34; target=&#34;_blank&#34; style=&#34;color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;&#34;&gt;gettyimages.com&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;このkintoneの登場は、こういった動きを加速する一つのきっかけになっていくのではないかと我々は思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;最後までお読みいただき-ありがとうございました:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;最後までお読みいただき、ありがとうございました&lt;/h2&gt;
-
-&lt;p&gt;kintoneの事例紹介資料（PDF）はこちらからダウンロードできます。ぜひご確認ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;事例紹介資料-pdf-ダウンロード-http-bit-ly-1fv7ndd:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;&lt;a href=&#34;http://bit.ly/1FV7NDD&#34;&gt;事例紹介資料（PDF)ダウンロード&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&#34;kintoneに関する無料体験会を毎週実施中です:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;kintoneに関する無料体験会を毎週実施中です！&lt;/h2&gt;
-
-&lt;p&gt;ご興味もって頂けた方、以下からご予約・お問い合わせください。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone無料体験会申し込み-freecontact:b7a104fdd2a4f96b76ff8908753c83ba&#34;&gt;&lt;a href=&#34;http://www.r3it.com/freecontact/&#34;&gt;kintone無料体験会申し込み&lt;/a&gt;&lt;/h2&gt;
 </description>
     </item>
     
