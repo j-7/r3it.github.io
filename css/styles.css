@@ -28,6 +28,12 @@ html,body {
 	background-color:#fff;
 }
 
+.wide-image {
+    display:block;
+    margin:auto;
+    max-width:100%;
+}
+
 .navbar-trans {
 	background-color:#22247A;
     color:#fff;
