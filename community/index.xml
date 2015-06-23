@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Communities on </title>
-    <link>http://www.r3it.com/community/</link>
+    <link>https://www.r3it.com/community/</link>
     <description>Recent content in Communities on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 22 Jun 2015 18:28:47 +0900</lastBuildDate>
-    <atom:link href="http://www.r3it.com/community/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.r3it.com/community/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>kintone で作ったアプリをHTMLに埋め込む js2kintone</title>
-      <link>http://www.r3it.com/community/oss/js2kintone/</link>
+      <link>https://www.r3it.com/community/oss/js2kintone/</link>
       <pubDate>Mon, 22 Jun 2015 18:28:47 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/oss/js2kintone/</guid>
+      <guid>https://www.r3it.com/community/oss/js2kintone/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したアプリをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
@@ -43,13 +43,13 @@
     
     <item>
       <title>kintone Connector for talend</title>
-      <link>http://www.r3it.com/community/oss/kc4t/</link>
+      <link>https://www.r3it.com/community/oss/kc4t/</link>
       <pubDate>Mon, 08 Jun 2015 16:23:36 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/oss/kc4t/</guid>
+      <guid>https://www.r3it.com/community/oss/kc4t/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
@@ -101,7 +101,7 @@
 
 &lt;h2 id=&#34;設定パラメータ:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;設定パラメータ&lt;/h2&gt;
 
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;http://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;jdbc設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;JDBC設定&lt;/h3&gt;
 
@@ -209,7 +209,7 @@
 
 &lt;h2 id=&#34;出力結果:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;出力結果&lt;/h2&gt;
 
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;http://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。&lt;/p&gt;
 
@@ -249,13 +249,13 @@
     
     <item>
       <title>オープンソースへの貢献</title>
-      <link>http://www.r3it.com/community/oss/</link>
+      <link>https://www.r3it.com/community/oss/</link>
       <pubDate>Mon, 08 Jun 2015 16:03:26 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/oss/</guid>
+      <guid>https://www.r3it.com/community/oss/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/r3it&#34;&gt;&lt;img src=&#34;http://www.r3it.com/images/community/octocat.png&#34; alt=&#34;GitHub Octocat&#34; title=&#34;GitHub Octocat&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/r3it&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/community/octocat.png&#34; alt=&#34;GitHub Octocat&#34; title=&#34;GitHub Octocat&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;contributions:599583c792ffff6f38c8d57a8a8ff5bf&#34;&gt;Contributions&lt;/h2&gt;
@@ -264,33 +264,33 @@
 
 &lt;h1 id=&#34;kintone-connector-for-talend:599583c792ffff6f38c8d57a8a8ff5bf&#34;&gt;kintone Connector for talend&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt;について詳しくはこちらをご覧ください。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt;について詳しくはこちらをご覧ください。&lt;/p&gt;
 
 &lt;h1 id=&#34;js2kintone:599583c792ffff6f38c8d57a8a8ff5bf&#34;&gt;js2kintone&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;kintone で作ったアプリをHTMLに埋め込むJavaScriptライブラリです。これを利用することで手軽に kintoneアプリをあなたのWebサイトに公開できます！&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt;について、詳しくはこちら。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt;について、詳しくはこちら。&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>kintone Caféへの貢献</title>
-      <link>http://www.r3it.com/community/kintonecafe/</link>
+      <link>https://www.r3it.com/community/kintonecafe/</link>
       <pubDate>Mon, 08 Jun 2015 15:00:25 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/kintonecafe/</guid>
+      <guid>https://www.r3it.com/community/kintonecafe/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone Café&#34; title=&#34;kintone Café&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone Café&#34; title=&#34;kintone Café&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt;（きんとーんかふぇ） とは、まだサイボウズ社の&lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt;に触れたことの無い方から、より高度なカスタマイズを行いたいと考えているプロフェッショナルの方まで幅広い層を対象に、 楽しく学び・教え合うことで、kintoneの魅力や活用法をみんなで共有するための勉強会コミュニティです。&lt;a href=&#34;https://www.facebook.com/kintoneCafe&#34;&gt;Facebookページはこちら&lt;/a&gt;になります。&lt;/p&gt;
@@ -332,13 +332,13 @@
     
     <item>
       <title>JAWS-UGへの貢献</title>
-      <link>http://www.r3it.com/community/jawsug/</link>
+      <link>https://www.r3it.com/community/jawsug/</link>
       <pubDate>Mon, 08 Jun 2015 11:36:43 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/jawsug/</guid>
+      <guid>https://www.r3it.com/community/jawsug/</guid>
       <description>
 
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;http://www.r3it.com/images/community/jawsug-logo_768.png&#34; alt=&#34;JAWS-UG&#34; title=&#34;JAWS-UG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/community/jawsug-logo_768.png&#34; alt=&#34;JAWS-UG&#34; title=&#34;JAWS-UG&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://jaws-ug.jp/&#34;&gt;JAWS-UG&lt;/a&gt;（じょうずゆーじー）とは、日本全国に50以上の支部を持つ Amazon Web Services のユーザーグループです。完全コミュニティ主導で活動しており、全国の各支部では AWS に関する様々な技術勉強会や人材交流が、毎週のように行われています。&lt;/p&gt;
 
@@ -476,10 +476,10 @@
     
     <item>
       <title>コミュニティにフルコミット</title>
-      <link>http://www.r3it.com/community/</link>
+      <link>https://www.r3it.com/community/</link>
       <pubDate>Mon, 08 Jun 2015 10:56:09 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/</guid>
+      <guid>https://www.r3it.com/community/</guid>
       <description>
 
 &lt;p&gt;アールスリーインスティテュートのミッションの一つに、コミュニティへの貢献があります。&lt;/p&gt;
@@ -521,7 +521,7 @@
 
 &lt;h3 id=&#34;池上-緑-https-www-facebook-com-p526ca:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;池上 緑&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/ikegami.png&#34; alt=&#34;池上 緑&#34; title=&#34;池上 緑&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/ikegami.png&#34; alt=&#34;池上 緑&#34; title=&#34;池上 緑&#34; /&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -534,7 +534,7 @@
 
 &lt;h3 id=&#34;金春-利幸-https-www-facebook-com-t-konparu:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://www.facebook.com/t.konparu&#34;&gt;金春 利幸&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/konparu.png&#34; alt=&#34;金春 利幸&#34; title=&#34;金春 利幸&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/konparu.png&#34; alt=&#34;金春 利幸&#34; title=&#34;金春 利幸&#34; /&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -547,7 +547,7 @@
 
 &lt;h3 id=&#34;西島-幸一郎-https-www-facebook-com-nishijima-koichiro:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://www.facebook.com/nishijima.koichiro&#34;&gt;西島 幸一郎&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/nishijima.png&#34; alt=&#34;西島 幸一郎&#34; title=&#34;西島 幸一郎&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/nishijima.png&#34; alt=&#34;西島 幸一郎&#34; title=&#34;西島 幸一郎&#34; /&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;

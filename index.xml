@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://www.r3it.com/</link>
+    <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 22 Jun 2015 18:28:47 +0900</lastBuildDate>
-    <atom:link href="http://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>kintone で作ったアプリをHTMLに埋め込む js2kintone</title>
-      <link>http://www.r3it.com/community/oss/js2kintone/</link>
+      <link>https://www.r3it.com/community/oss/js2kintone/</link>
       <pubDate>Mon, 22 Jun 2015 18:28:47 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/oss/js2kintone/</guid>
+      <guid>https://www.r3it.com/community/oss/js2kintone/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したアプリをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>弊社の公開情報について</title>
-      <link>http://www.r3it.com/security_policy/</link>
+      <link>https://www.r3it.com/security_policy/</link>
       <pubDate>Thu, 18 Jun 2015 19:34:59 +0900</pubDate>
       
-      <guid>http://www.r3it.com/security_policy/</guid>
+      <guid>https://www.r3it.com/security_policy/</guid>
       <description>
 
 &lt;h2 id=&#34;我々のセキュリティポリシーをご理解ください:dd34573f4ddc78348b63c834e5b03ae6&#34;&gt;我々のセキュリティポリシーをご理解ください&lt;/h2&gt;
@@ -96,10 +96,10 @@
     
     <item>
       <title>kintone無料体験会申し込み</title>
-      <link>http://www.r3it.com/freecontact/</link>
+      <link>https://www.r3it.com/freecontact/</link>
       <pubDate>Tue, 16 Jun 2015 15:27:05 +0900</pubDate>
       
-      <guid>http://www.r3it.com/freecontact/</guid>
+      <guid>https://www.r3it.com/freecontact/</guid>
       <description>
 
 &lt;h2 id=&#34;折り返し担当者よりご連絡させていただきます:b27df905cade8b5bbcfd130dabd7d09b&#34;&gt;折り返し担当者よりご連絡させていただきます。&lt;/h2&gt;
@@ -112,7 +112,7 @@ var js2kintoneConfig = {
   successMsg: &#39;お問い合わせいただき、ありがとうございました。&#39;
 };
 &lt;/script&gt;
-&lt;script src=&#34;http://www.r3it.com/js/js2kintone-freecontact.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.r3it.com/js/js2kintone-freecontact.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;js2kintoneRender&#34;&gt;&lt;/div&gt;
 
@@ -122,13 +122,13 @@ var js2kintoneConfig = {
     
     <item>
       <title>kintone Connector for talend</title>
-      <link>http://www.r3it.com/community/oss/kc4t/</link>
+      <link>https://www.r3it.com/community/oss/kc4t/</link>
       <pubDate>Mon, 08 Jun 2015 16:23:36 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/oss/kc4t/</guid>
+      <guid>https://www.r3it.com/community/oss/kc4t/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
@@ -180,7 +180,7 @@ var js2kintoneConfig = {
 
 &lt;h2 id=&#34;設定パラメータ:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;設定パラメータ&lt;/h2&gt;
 
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;http://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;jdbc設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;JDBC設定&lt;/h3&gt;
 
@@ -288,7 +288,7 @@ var js2kintoneConfig = {
 
 &lt;h2 id=&#34;出力結果:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;出力結果&lt;/h2&gt;
 
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;http://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。&lt;/p&gt;
 
@@ -328,13 +328,13 @@ var js2kintoneConfig = {
     
     <item>
       <title>オープンソースへの貢献</title>
-      <link>http://www.r3it.com/community/oss/</link>
+      <link>https://www.r3it.com/community/oss/</link>
       <pubDate>Mon, 08 Jun 2015 16:03:26 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/oss/</guid>
+      <guid>https://www.r3it.com/community/oss/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/r3it&#34;&gt;&lt;img src=&#34;http://www.r3it.com/images/community/octocat.png&#34; alt=&#34;GitHub Octocat&#34; title=&#34;GitHub Octocat&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/r3it&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/community/octocat.png&#34; alt=&#34;GitHub Octocat&#34; title=&#34;GitHub Octocat&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;contributions:599583c792ffff6f38c8d57a8a8ff5bf&#34;&gt;Contributions&lt;/h2&gt;
@@ -343,33 +343,33 @@ var js2kintoneConfig = {
 
 &lt;h1 id=&#34;kintone-connector-for-talend:599583c792ffff6f38c8d57a8a8ff5bf&#34;&gt;kintone Connector for talend&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt;について詳しくはこちらをご覧ください。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt;について詳しくはこちらをご覧ください。&lt;/p&gt;
 
 &lt;h1 id=&#34;js2kintone:599583c792ffff6f38c8d57a8a8ff5bf&#34;&gt;js2kintone&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;kintone で作ったアプリをHTMLに埋め込むJavaScriptライブラリです。これを利用することで手軽に kintoneアプリをあなたのWebサイトに公開できます！&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt;について、詳しくはこちら。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt;について、詳しくはこちら。&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>kintone Caféへの貢献</title>
-      <link>http://www.r3it.com/community/kintonecafe/</link>
+      <link>https://www.r3it.com/community/kintonecafe/</link>
       <pubDate>Mon, 08 Jun 2015 15:00:25 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/kintonecafe/</guid>
+      <guid>https://www.r3it.com/community/kintonecafe/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone Café&#34; title=&#34;kintone Café&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone Café&#34; title=&#34;kintone Café&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt;（きんとーんかふぇ） とは、まだサイボウズ社の&lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt;に触れたことの無い方から、より高度なカスタマイズを行いたいと考えているプロフェッショナルの方まで幅広い層を対象に、 楽しく学び・教え合うことで、kintoneの魅力や活用法をみんなで共有するための勉強会コミュニティです。&lt;a href=&#34;https://www.facebook.com/kintoneCafe&#34;&gt;Facebookページはこちら&lt;/a&gt;になります。&lt;/p&gt;
@@ -411,13 +411,13 @@ var js2kintoneConfig = {
     
     <item>
       <title>JAWS-UGへの貢献</title>
-      <link>http://www.r3it.com/community/jawsug/</link>
+      <link>https://www.r3it.com/community/jawsug/</link>
       <pubDate>Mon, 08 Jun 2015 11:36:43 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/jawsug/</guid>
+      <guid>https://www.r3it.com/community/jawsug/</guid>
       <description>
 
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;http://www.r3it.com/images/community/jawsug-logo_768.png&#34; alt=&#34;JAWS-UG&#34; title=&#34;JAWS-UG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/community/jawsug-logo_768.png&#34; alt=&#34;JAWS-UG&#34; title=&#34;JAWS-UG&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://jaws-ug.jp/&#34;&gt;JAWS-UG&lt;/a&gt;（じょうずゆーじー）とは、日本全国に50以上の支部を持つ Amazon Web Services のユーザーグループです。完全コミュニティ主導で活動しており、全国の各支部では AWS に関する様々な技術勉強会や人材交流が、毎週のように行われています。&lt;/p&gt;
 
@@ -555,10 +555,10 @@ var js2kintoneConfig = {
     
     <item>
       <title>コミュニティにフルコミット</title>
-      <link>http://www.r3it.com/community/</link>
+      <link>https://www.r3it.com/community/</link>
       <pubDate>Mon, 08 Jun 2015 10:56:09 +0900</pubDate>
       
-      <guid>http://www.r3it.com/community/</guid>
+      <guid>https://www.r3it.com/community/</guid>
       <description>
 
 &lt;p&gt;アールスリーインスティテュートのミッションの一つに、コミュニティへの貢献があります。&lt;/p&gt;
@@ -600,7 +600,7 @@ var js2kintoneConfig = {
 
 &lt;h3 id=&#34;池上-緑-https-www-facebook-com-p526ca:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;池上 緑&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/ikegami.png&#34; alt=&#34;池上 緑&#34; title=&#34;池上 緑&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/ikegami.png&#34; alt=&#34;池上 緑&#34; title=&#34;池上 緑&#34; /&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -613,7 +613,7 @@ var js2kintoneConfig = {
 
 &lt;h3 id=&#34;金春-利幸-https-www-facebook-com-t-konparu:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://www.facebook.com/t.konparu&#34;&gt;金春 利幸&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/konparu.png&#34; alt=&#34;金春 利幸&#34; title=&#34;金春 利幸&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/konparu.png&#34; alt=&#34;金春 利幸&#34; title=&#34;金春 利幸&#34; /&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -626,7 +626,7 @@ var js2kintoneConfig = {
 
 &lt;h3 id=&#34;西島-幸一郎-https-www-facebook-com-nishijima-koichiro:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://www.facebook.com/nishijima.koichiro&#34;&gt;西島 幸一郎&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/community/nishijima.png&#34; alt=&#34;西島 幸一郎&#34; title=&#34;西島 幸一郎&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/nishijima.png&#34; alt=&#34;西島 幸一郎&#34; title=&#34;西島 幸一郎&#34; /&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -642,15 +642,15 @@ var js2kintoneConfig = {
     
     <item>
       <title>採用情報</title>
-      <link>http://www.r3it.com/recruitment/</link>
+      <link>https://www.r3it.com/recruitment/</link>
       <pubDate>Fri, 29 May 2015 17:11:59 +0900</pubDate>
       
-      <guid>http://www.r3it.com/recruitment/</guid>
+      <guid>https://www.r3it.com/recruitment/</guid>
       <description>
 
 &lt;h4 id=&#34;アールスリーインスティテュートでは一緒に働く仲間を募集しております:a747c1bf9e7b4a9168ead6f9523cc51b&#34;&gt;アールスリーインスティテュートでは一緒に働く仲間を募集しております。&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/recruitment/recruitment_list.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/recruitment/recruitment_list.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;/p&gt;
 
 &lt;table class=&#34;table&#34;&gt;
@@ -715,10 +715,10 @@ var js2kintoneConfig = {
     
     <item>
       <title>業務システム開発</title>
-      <link>http://www.r3it.com/solutions/si/</link>
+      <link>https://www.r3it.com/solutions/si/</link>
       <pubDate>Fri, 29 May 2015 16:14:36 +0900</pubDate>
       
-      <guid>http://www.r3it.com/solutions/si/</guid>
+      <guid>https://www.r3it.com/solutions/si/</guid>
       <description>
 
 &lt;h2 id=&#34;ハイスピードsiによるシステム開発:0a8c7511ac565aafd01db24b115f1847&#34;&gt;ハイスピードSIによるシステム開発&lt;/h2&gt;
@@ -743,56 +743,56 @@ var js2kintoneConfig = {
 
 &lt;h2 id=&#34;システム開発サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;システム開発サービス&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/si/index_icoon_37.png&#34; alt=&#34;システム開発サービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_37.png&#34; alt=&#34;システム開発サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;システム開発が目的ではなく、問題解決のアプローチから、検討、構築、運用までいたします&lt;/p&gt;
 
 &lt;h2 id=&#34;現行システム対応サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;現行システム対応サービス&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/si/index_icoon_38.png&#34; alt=&#34;現行システム対応サービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_38.png&#34; alt=&#34;現行システム対応サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;ゼロから作ることが良いとも限りません。今の資産をどこまで活かせるかを見極めたうえで、効率良い方法を考えます&lt;/p&gt;
 
 &lt;h2 id=&#34;上流系サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;上流系サービス&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/si/index_icoon_39.png&#34; alt=&#34;上流系サービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_39.png&#34; alt=&#34;上流系サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;IT化の前段階としての、ニーズや課題の整理、解決策の方向性検討を、 IT以外の面も含めて行います&lt;/p&gt;
 
 &lt;h2 id=&#34;評価-診断サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;評価・診断サービス&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/si/index_icoon_40.png&#34; alt=&#34;評価・診断サービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_40.png&#34; alt=&#34;評価・診断サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;様々な経験をしてきたノウハウをもとに、ニュートラルな評価・診断をいたします&lt;/p&gt;
 
 &lt;h2 id=&#34;導入サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;導入サービス&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/si/index_icoon_41.png&#34; alt=&#34;導入サービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_41.png&#34; alt=&#34;導入サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;一般的なITベンダとは違った、お客様側のサポートとなるサービスが可能です&lt;/p&gt;
 
 &lt;h2 id=&#34;サーバ関連サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;サーバ関連サービス&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/si/index_icoon_41.png&#34; alt=&#34;サーバ関連サービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_41.png&#34; alt=&#34;サーバ関連サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;システムの土台となるインフラ部分についても構築や運用のサポートをいたします&lt;/p&gt;
 
 &lt;h2 id=&#34;保守系サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;保守系サービス&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/si/index_icoon_42.png&#34; alt=&#34;保守系サービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_42.png&#34; alt=&#34;保守系サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;システムを維持していくうえでの様々なお困りごとに対応します&lt;/p&gt;
 
 &lt;h2 id=&#34;教育サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;教育サービス&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/si/index_icoon_43.png&#34; alt=&#34;教育サービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_43.png&#34; alt=&#34;教育サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;弊社の開発ノウハウを、お客様ニーズにそった形で、教育プランをカスタマイズしてお伝えします&lt;/p&gt;
@@ -801,15 +801,15 @@ var js2kintoneConfig = {
     
     <item>
       <title>kintoneについて</title>
-      <link>http://www.r3it.com/solutions/kintone/</link>
+      <link>https://www.r3it.com/solutions/kintone/</link>
       <pubDate>Fri, 29 May 2015 16:04:37 +0900</pubDate>
       
-      <guid>http://www.r3it.com/solutions/kintone/</guid>
+      <guid>https://www.r3it.com/solutions/kintone/</guid>
       <description>
 
 &lt;h2 id=&#34;kintoneとは:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneとは？&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ株式会社&lt;/a&gt;が提供する、データベース型のビジネスアプリケーションを、クラウドで作成することが出来る、新しいタイプのアプリ開発プラットフォームです。&lt;/p&gt;
@@ -820,7 +820,7 @@ var js2kintoneConfig = {
 
 &lt;ul&gt;
 &lt;li&gt;「kintoneセミナー」はkintone導入前や導入後の高度な使い方を学習する企業様向けセミナーです。&lt;/li&gt;
-&lt;li&gt;「kintone Café」は&lt;a href=&#34;http://www.r3it.com/community/kintonecafe/&#34;&gt;弊社や弊社社員が貢献しているコミュニティ活動&lt;/a&gt;です。&lt;/li&gt;
+&lt;li&gt;「kintone Café」は&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;弊社や弊社社員が貢献しているコミュニティ活動&lt;/a&gt;です。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;table class=&#34;table&#34;&gt;
@@ -855,7 +855,7 @@ var js2kintoneConfig = {
 
 &lt;h2 id=&#34;打合せ4回でシステムを構築する-ワンタイムサービス:b3f994572158129e07597d19060e2d9b&#34;&gt;打合せ4回でシステムを構築する【ワンタイムサービス】&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/kintone/kintone_onetime.png&#34; alt=&#34;ワンタイムサービス&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintone_onetime.png&#34; alt=&#34;ワンタイムサービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;1回のお打ち合わせが約2時間で10万円、通常4回コース(=40万円)で実施し、必要なカスタマイズも料金表に従った透明な価格体系です。&lt;/p&gt;
@@ -908,10 +908,10 @@ var js2kintoneConfig = {
     
     <item>
       <title>ハイスピードSIで「できない」が「できる」に！</title>
-      <link>http://www.r3it.com/im/cdo153/</link>
+      <link>https://www.r3it.com/im/cdo153/</link>
       <pubDate>Fri, 29 May 2015 14:52:01 +0900</pubDate>
       
-      <guid>http://www.r3it.com/im/cdo153/</guid>
+      <guid>https://www.r3it.com/im/cdo153/</guid>
       <description>
 
 &lt;p&gt;アールスリーインスティテュート（R3 institute）の林と申します。&lt;/p&gt;
@@ -938,7 +938,7 @@ var js2kintoneConfig = {
 
 &lt;p&gt;（6月12日追記：上記セミナーは満席・大好評のうちに終了しました。次回開催はこちらです &lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/513&#34;&gt;https://cybozu.smktg.jp/public/seminar/view/513&lt;/a&gt;  ）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/im/seminar_20150611.jpg&#34; alt=&#34;セミナーの様子&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/im/seminar_20150611.jpg&#34; alt=&#34;セミナーの様子&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;kintoneに関してはいろんな誤解もありますし、
@@ -1041,10 +1041,10 @@ var js2kintoneConfig = {
     
     <item>
       <title>ハイスピードSIとは？</title>
-      <link>http://www.r3it.com/solutions/</link>
+      <link>https://www.r3it.com/solutions/</link>
       <pubDate>Thu, 28 May 2015 17:55:06 +0900</pubDate>
       
-      <guid>http://www.r3it.com/solutions/</guid>
+      <guid>https://www.r3it.com/solutions/</guid>
       <description>
 
 &lt;p&gt;R3 instituteは、設立当初からのテーマとしての、&lt;/p&gt;
@@ -1105,15 +1105,15 @@ var js2kintoneConfig = {
     
     <item>
       <title>AWSについて</title>
-      <link>http://www.r3it.com/solutions/aws/</link>
+      <link>https://www.r3it.com/solutions/aws/</link>
       <pubDate>Thu, 28 May 2015 17:09:23 +0900</pubDate>
       
-      <guid>http://www.r3it.com/solutions/aws/</guid>
+      <guid>https://www.r3it.com/solutions/aws/</guid>
       <description>
 
 &lt;h2 id=&#34;amazon-web-services-aws-とは:028da4a231a5317af863941c3c91d223&#34;&gt;Amazon Web Services (AWS)とは&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.r3it.com/images/AWS_Logo_Consulting_Partner_DARK.png&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/AWS_Logo_Consulting_Partner_DARK.png&#34; alt=&#34;&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;AWSとはAmazon Web Services（アマゾンウェブサービス‎）の略称です。世界最大のパブリッククラウドサービス事業者であり、同社は世界最大級のオンライン小売事業者であるAmazon.comのインフラを支えています。&lt;/p&gt;
@@ -1126,15 +1126,15 @@ var js2kintoneConfig = {
 
 &lt;table border=&#34;0&#34; style=&#34;background-color: #fff;&#34;&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/aws/aws_services_b.png&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/aws/aws_services_b.png&#34;&gt;&lt;/td&gt;
     &lt;td&gt;&lt;h4&gt;&lt;b&gt;AWSコンサルティングサービス&lt;/b&gt;&lt;/h4&gt;
     弊社であれば、AWSに特化せず、様々な他社サービスも視野に入れたうえでのご提案が可能です。&lt;br /&gt;
     お客様のニーズをヒアリングさせて頂いたうえで、AWSを使った最適な構成を設計し、費用面とともにご提案いたします。
     &lt;/td&gt;
-    &lt;td&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/aws/aws_services_c.png&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/aws/aws_services_c.png&#34;&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/aws/aws_services_d.png&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/aws/aws_services_d.png&#34;&gt;&lt;/td&gt;
     &lt;td&gt;&lt;h4&gt;&lt;b&gt;AWS構築サービス&lt;/b&gt;&lt;/h4&gt;
     様々なお客様のニーズに従ったAWSの構築および動作テストを行います。（以下は例）
     &lt;ul&gt;
@@ -1148,17 +1148,17 @@ var js2kintoneConfig = {
     （オプション）AWSの上にのせるアプリケーションの開発およびセットアップも可能です。&lt;br /&gt;
     （他社アプリケーションのセットアップや保守引継も対応可）
     &lt;/td&gt;
-    &lt;td&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/aws/aws_services_f.png&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/aws/aws_services_f.png&#34;&gt;&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/aws/aws_services_g.png&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/aws/aws_services_g.png&#34;&gt;&lt;/td&gt;
     &lt;td&gt;&lt;h4&gt;&lt;b&gt;AWS運用保守サービス&lt;/b&gt;&lt;/h4&gt;
     &lt;ul&gt;
     &lt;li&gt;AWS環境のサーバ運用維持のための監視、保守対応を行います。
     &lt;li&gt;AWSへの支払い代行（ドル・クレジット・変動料金　→　円・請求書・固定料金）
     &lt;/ul&gt;
     &lt;/td&gt;
-    &lt;td&gt;&lt;img src=&#34;http://www.r3it.com/images/solutions/aws/aws_services_h.png&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/aws/aws_services_h.png&#34;&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -1204,15 +1204,15 @@ var js2kintoneConfig = {
     
     <item>
       <title>会社概要</title>
-      <link>http://www.r3it.com/company/</link>
+      <link>https://www.r3it.com/company/</link>
       <pubDate>Fri, 15 May 2015 16:37:29 +0900</pubDate>
       
-      <guid>http://www.r3it.com/company/</guid>
+      <guid>https://www.r3it.com/company/</guid>
       <description>
 
 &lt;h2 id=&#34;高い問題解決能力を持つパートナー-それがr3です:6987eea426d745ed1851414822c2c6fd&#34;&gt;高い問題解決能力を持つパートナー、それがR3です。&lt;/h2&gt;
 
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;http://www.r3it.com/images/company/company_about.jpg&#34; alt=&#34;アールスリーインスティテュート&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/company/company_about.jpg&#34; alt=&#34;アールスリーインスティテュート&#34;&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;少数精鋭-問題解決能力を持ったr3の人財:6987eea426d745ed1851414822c2c6fd&#34;&gt;少数精鋭・問題解決能力を持ったR3の人財&lt;/h2&gt;
 
@@ -1239,7 +1239,7 @@ var js2kintoneConfig = {
 &lt;li&gt;業務分析からシステム設計にいたる上流工程を仮説思考によりスピーディに実施&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;弊社の公開情報について-security-policy:6987eea426d745ed1851414822c2c6fd&#34;&gt;&lt;a href=&#34;http://www.r3it.com/security_policy/&#34;&gt;弊社の公開情報について&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;弊社の公開情報について-security-policy:6987eea426d745ed1851414822c2c6fd&#34;&gt;&lt;a href=&#34;https://www.r3it.com/security_policy/&#34;&gt;弊社の公開情報について&lt;/a&gt;&lt;/h2&gt;
 
 &lt;h2 id=&#34;会社概要:6987eea426d745ed1851414822c2c6fd&#34;&gt;会社概要&lt;/h2&gt;
 
