@@ -61,6 +61,12 @@ html,body {
   height: 80px;
 }
 
+.envelope-style {
+    vertical-align: middle;
+    padding-bottom: 4px;
+    padding-right: 4px;
+}
+
 #breadcrumb-section {
 	background-color: #fff;
 	height: 24px;
