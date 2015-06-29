@@ -104,17 +104,27 @@
 
 &lt;h2 id=&#34;折り返し担当者よりご連絡させていただきます:b27df905cade8b5bbcfd130dabd7d09b&#34;&gt;折り返し担当者よりご連絡させていただきます。&lt;/h2&gt;
 
+&lt;p&gt;&lt;link type=&#34;text/css&#34; href=&#34;//ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css&#34; rel=&#34;stylesheet&#34; /&gt;&lt;/p&gt;
+
 &lt;script type=&#34;text/javascript&#34;&gt;
 var js2kintoneConfig = {
   id: &#39;QUtJQUk3UlRNM1QyWVpZT0RISFE=%a3Q3am5idnUvSlZ2TFFkczhFNkNuaDNEWGZzU3VXNDA5eUw1bkdhWQ==&#39;,
   region: &#39;us-west-2&#39;,
+  lambdaFunc: &#39;js2kintone-freecontact&#39;,
   template: &#39;/kintone-freecontact.html&#39;,
   successMsg: &#39;お問い合わせいただき、ありがとうございました。&#39;
 };
 &lt;/script&gt;
+&lt;!--[if lt IE 10]&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.r3it.com/js/es5-shim.min.js&#34;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
 &lt;script src=&#34;https://www.r3it.com/js/js2kintone-freecontact.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;js2kintoneRender&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;js2kintoneNonsupport&#34; style=&#34;display: none&#34;&gt;
+  &lt;h3&gt;大変申し訳ありません、ご利用のブラウザはお問い合わせフォームに対応していません。&lt;/h3&gt;
+  &lt;p&gt;こちらの&lt;a href=&#34;mailto:info@r3it.com&#34;&gt;メールアドレス&lt;/a&gt;に直接お問い合わせくださいますよう、お願いいたします。&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&#34;入力された情報は暗号化して送信されます:b27df905cade8b5bbcfd130dabd7d09b&#34;&gt;入力された情報は暗号化して送信されます&lt;/h2&gt;
 </description>
