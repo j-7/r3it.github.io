@@ -43,12 +43,45 @@
 
 &lt;p&gt;システム開発が目的ではなく、問題解決のアプローチから、検討、構築、運用までいたします&lt;/p&gt;
 
+&lt;dl&gt;
+  &lt;dt&gt;業務システム&lt;/dt&gt;
+    &lt;dd&gt;弊社での典型的なシステム開発の進め方です お客様により柔軟に変えることも可能です&lt;/dd&gt;
+  &lt;dt&gt;パッケージカスタマイズ&lt;/dt&gt;
+    &lt;dd&gt;オープンソースパッケージをベースに開発します&lt;/dd&gt;
+  &lt;dt&gt;モバイルアプリ&lt;/dt&gt;
+    &lt;dd&gt;入力のハードルを下げるこれらのツールは、今後さらに業務効率化に寄与すると R3では考え、様々な面で取り組んでいます。&lt;/dd&gt;
+  &lt;dt&gt;画像処理システム&lt;/dt&gt;
+    &lt;dd&gt;画像処理技術を利用した業務システムを構築します&lt;/dd&gt;
+  &lt;dt&gt;ハードウェア連携&lt;/dt&gt;
+    &lt;dd&gt;現場にフィットするハードウェアとセットで、スマートなシステムをご提案いたします&lt;/dd&gt;
+  &lt;dt&gt;Excel・Accessツール&lt;/dt&gt;
+    &lt;dd&gt;ExcelやAccessの良さを活かした簡易ツールを作ります&lt;/dd&gt;
+  &lt;dt&gt;研究サポートツール&lt;/dt&gt;
+    &lt;dd&gt;研究の現場での効率化を、理系研究室出身の我々と一緒に行いましょう&lt;/dd&gt;
+&lt;/dl&gt;
+
 &lt;h2 id=&#34;現行システム対応サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;現行システム対応サービス&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_38.png&#34; alt=&#34;現行システム対応サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;ゼロから作ることが良いとも限りません。今の資産をどこまで活かせるかを見極めたうえで、効率良い方法を考えます&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;システム・リノベーション&lt;/dt&gt;
+    &lt;dd&gt;現行システムを維持しながら、革新的に蘇らせます&lt;/dd&gt;
+  &lt;dt&gt;派生ツール&lt;/dt&gt;
+    &lt;dd&gt;現行システムに極力手を加えず、ビジネスのスピードについていくための一つの手法です。&lt;br&gt;R3であればスピード面とコスト面とで意味があります&lt;/dd&gt;
+  &lt;dt&gt;保守引き継ぎ&lt;/dt&gt;
+    &lt;dd&gt;現行システムの保守、改良を、そのまま引き継いで行います&lt;/dd&gt;
+  &lt;dt&gt;ドキュメント起こし&lt;/dt&gt;
+    &lt;dd&gt;現行システムに存在しないドキュメントを作成します&lt;/dd&gt;
+  &lt;dt&gt;&lt;/dt&gt;
+    &lt;dd&gt;&lt;/dd&gt;
+  &lt;dt&gt;&lt;/dt&gt;
+    &lt;dd&gt;&lt;/dd&gt;
+
+&lt;/dl&gt;
 
 &lt;h2 id=&#34;上流系サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;上流系サービス&lt;/h2&gt;
 
@@ -57,12 +90,40 @@
 
 &lt;p&gt;IT化の前段階としての、ニーズや課題の整理、解決策の方向性検討を、 IT以外の面も含めて行います&lt;/p&gt;
 
+&lt;dl&gt;
+  &lt;dt&gt;業務分析・見える化&lt;/dt&gt;
+    &lt;dd&gt;全体が明らかになっていない現状業務を「見える化」し、 問題点・課題を洗い出すことによって、全体改善のきっかけとします&lt;/dd&gt;
+  &lt;dt&gt;データ解析&lt;/dt&gt;
+    &lt;dd&gt;現状の課題を明らかにするために、データ解析を弊社主導で行います&lt;/dd&gt;
+  &lt;dt&gt;システム企画&lt;/dt&gt;
+    &lt;dd&gt;課題を解決するために必要なシステム全体像を設計します&lt;/dd&gt;
+  &lt;dt&gt;プロジェクトマネジメント&lt;/dt&gt;
+    &lt;dd&gt;お客様の立場にたって、ユーザとベンダとの橋渡しを行います&lt;/dd&gt;
+  &lt;dt&gt;フレームワーク設計&lt;/dt&gt;
+    &lt;dd&gt;繰り返し改良したり、お客様ごとにカスタマイズするようなソフトウェアにおいて、その効率をアップさせるために、フレームワーク化を行います&lt;/dd&gt;
+
+&lt;/dl&gt;
+
 &lt;h2 id=&#34;評価-診断サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;評価・診断サービス&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_40.png&#34; alt=&#34;評価・診断サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;様々な経験をしてきたノウハウをもとに、ニュートラルな評価・診断をいたします&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;システム診断&lt;/dt&gt;
+    &lt;dd&gt;お客様の現行システムを第三者の視点で評価し、次のステップへつなげます&lt;/dd&gt;
+  &lt;dt&gt;パッケージ評価&lt;/dt&gt;
+    &lt;dd&gt;パッケージを導入したいと思っているお客様に対し、そのパッケージを第三者の視点で評価をいたします&lt;/dd&gt;
+  &lt;dt&gt;プロトタイプ検証&lt;/dt&gt;
+    &lt;dd&gt;システム性能を最大化し、投資リスクを最小化させるためのプロトタイプをクイックに作ります&lt;/dd&gt;
+  &lt;dt&gt;内部統制・バリデーション&lt;/dt&gt;
+    &lt;dd&gt;JSOX / SOX、FDA / GAMP / GMPなどに対応させるシステム化を検討します&lt;/dd&gt;
+  &lt;dt&gt;ITコンサルティング&lt;/dt&gt;
+    &lt;dd&gt;ITの専門家がお客様のアドバイザーとなります&lt;/dd&gt;
+
+&lt;/dl&gt;
 
 &lt;h2 id=&#34;導入サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;導入サービス&lt;/h2&gt;
 
@@ -71,12 +132,32 @@
 
 &lt;p&gt;一般的なITベンダとは違った、お客様側のサポートとなるサービスが可能です&lt;/p&gt;
 
+&lt;dl&gt;
+  &lt;dt&gt;業務マニュアル作成&lt;/dt&gt;
+    &lt;dd&gt;R3は業務にも強いシステム会社です。R3がシステムだけでなく業務全体のマニュアルを作成いたします&lt;/dd&gt;
+  &lt;dt&gt;ユーザテスト代行&lt;/dt&gt;
+    &lt;dd&gt;システム導入の成功の鍵となる、ユーザテストをR3が代行いたします&lt;/dd&gt;
+  &lt;dt&gt;他社パッケージ導入&lt;/dt&gt;
+    &lt;dd&gt;他社パッケージであっても、R3ではトータルに導入をサポートいたします&lt;/dd&gt;
+  &lt;dt&gt;メンテナンス運用設計&lt;/dt&gt;
+    &lt;dd&gt;オープンソースソフトウェアを積極的に活用した自動監視など、手間をかけずに安定稼働するための運用設計を行います&lt;/dd&gt;
+
+&lt;/dl&gt;
+
 &lt;h2 id=&#34;サーバ関連サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;サーバ関連サービス&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_41.png&#34; alt=&#34;サーバ関連サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;システムの土台となるインフラ部分についても構築や運用のサポートをいたします&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;クラウドサービス&lt;/dt&gt;
+    &lt;dd&gt;クラウドの特徴を最大限に生かした環境構築を行います：&lt;a href=&#34;https://www.r3it.com/solutions/aws/&#34;&gt;AWSについて&lt;/a&gt;&lt;/dd&gt;
+  &lt;dt&gt;インフラ設計&lt;/dt&gt;
+    &lt;dd&gt;コストをかけすぎないちょうどいいインフラ設計を行います&lt;/dd&gt;
+
+&lt;/dl&gt;
 
 &lt;h2 id=&#34;保守系サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;保守系サービス&lt;/h2&gt;
 
@@ -85,12 +166,30 @@
 
 &lt;p&gt;システムを維持していくうえでの様々なお困りごとに対応します&lt;/p&gt;
 
+&lt;dl&gt;
+  &lt;dt&gt;システム保守&lt;/dt&gt;
+    &lt;dd&gt;弊社開発だけでなく、他社が開発したシステムであってもR3で保守を行います&lt;/dd&gt;
+  &lt;dt&gt;ITサポートサービス&lt;/dt&gt;
+    &lt;dd&gt;情報システム部門で発生する雑多な作業をR3が代行いたします&lt;/dd&gt;
+  &lt;dt&gt;テクニカルサポート&lt;/dt&gt;
+    &lt;dd&gt;自社開発をR3が技術的にサポートいたします&lt;/dd&gt;
+
+&lt;/dl&gt;
+
 &lt;h2 id=&#34;教育サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;教育サービス&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_43.png&#34; alt=&#34;教育サービス&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;弊社の開発ノウハウを、お客様ニーズにそった形で、教育プランをカスタマイズしてお伝えします&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;プログラミング演習&lt;/dt&gt;
+    &lt;dd&gt;一般的な例ではなく、お客様に必要な内容をレクチャーいたします&lt;/dd&gt;
+  &lt;dt&gt;OJTトレーニング&lt;/dt&gt;
+    &lt;dd&gt;御社の開発要員に弊社にお越しいただき、開発メンバーの一員としてシステム開発会社の中でシステム開発を学んでいただきます&lt;/dd&gt;
+
+&lt;/dl&gt;
 </description>
     </item>
     

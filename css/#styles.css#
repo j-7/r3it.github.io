@@ -28,6 +28,12 @@ html,body {
 	background-color:#fff;
 }
 
+.wide-image {
+    display:block;
+    margin:auto;
+    max-width:100%;
+}
+
 .navbar-trans {
 	background-color:#22247A;
     color:#fff;
@@ -53,6 +59,12 @@ html,body {
   padding: 18px 15px;
   line-height: 22px;
   height: 80px;
+}
+
+.envelope-style {
+    vertical-align: middle;
+    padding-bottom: 4px;
+    padding-right: 4px;
 }
 
 #breadcrumb-section {
@@ -235,6 +247,11 @@ a.list-group-item.active,[class*='-info'] {
   padding: 5px;
 }
 
+#single dl dt {
+  text-decoration: underline;
+  marg: 0 0 20px 20px;
+}
+
 #imtop1 {
     background:center no-repeat fixed url('/images/page-header_bg.jpg');
     background-size: 100% 100%;
@@ -243,12 +260,12 @@ a.list-group-item.active,[class*='-info'] {
 
 #imbody1 {
 	background-color: #fff;
-    color:#444;
+    color:#111;
     width: 85%;
 }
 
 #imfooter1 {
-	background-color: #fff;
+	background-color: #eee;
     color: #111;
 }
 
