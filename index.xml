@@ -36,6 +36,7 @@
  &lt;div class=&#34;row&#34;&gt;
   &lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;
    &lt;h3 style=&#34;color: #ddd;&#34;&gt;AWSやkintoneといったクラウドサービスを活用し、&lt;br&gt;お客様が今必要なものを、可能な限り早くご提供するサービスです&lt;/h3&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/cloud_integration.png&#34; class=&#34;img-thumbnail wide-image&#34;&gt;
   &lt;/div&gt;
  &lt;/div&gt;
 &lt;/div&gt;
@@ -52,7 +53,7 @@
   &lt;h3 class=&#34;text-center&#34; style=&#34;color: white;&#34;&gt;Tel : 06-6271-3663 / Mail : &lt;a href=&#34;mailto:info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/h3&gt;
   
   &lt;h3 class=&#34;text-center&#34; style=&#34;color: white;&#34;&gt;&lt;a href=&#34;https://www.r3it.com/freecontact/&#34;&gt;kintone無料体験会&lt;/a&gt;のお申し込みはこちら&lt;/h3&gt;
-  &lt;h4 class=&#34;text-center&#34; style=&#34;background-color: white; height: 50%;&#34;&gt;アールスリーインスティテュート&lt;img src=&#34;https://www.r3it.com/images/r3logo.png&#34;&gt;&lt;/h4&gt;
+  &lt;h4 class=&#34;text-center&#34; style=&#34;background-color: white; height: 50%;&#34;&gt;アールスリーインスティテュート&lt;a href=&#34;https://www.r3it.com/&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/r3logo.png&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
 &lt;/div&gt;
 </description>
     </item>
