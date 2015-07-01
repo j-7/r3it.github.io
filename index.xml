@@ -5,8 +5,57 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Jul 2015 11:20:16 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2015 16:51:20 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWSとkintoneで実現するハイスピードSI</title>
+      <link>https://www.r3it.com/solutions/kintone/lp20150701/</link>
+      <pubDate>Wed, 01 Jul 2015 16:51:20 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/solutions/kintone/lp20150701/</guid>
+      <description>&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;AWSとkintoneで実現するハイスピードSI&lt;/h1&gt;
+  &lt;h3 class=&#34;text-center&#34;&gt;&lt;/h3&gt;
+  &lt;h4 class=&#34;text-center&#34; style=&#34;background-color: white; height: 50%;&#34;&gt;アールスリーインスティテュート&lt;img src=&#34;https://www.r3it.com/images/r3logo.png&#34;&gt;&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;クラウドについてよく聞くお話&lt;/h1&gt;
+  &lt;div class=&#34;row&#34;&gt;
+   &lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;
+   &lt;h3&gt;クラウドって結局オンプレのサーバが仮想化されただけでしょ？&lt;/h3&gt;
+   &lt;h3&gt;既存システムの移行はできても&lt;br&gt;新規システムをクラウドに適合した形で作るのって難しいんじゃないの？&lt;/h3&gt;
+   &lt;h3&gt;クラウドですぐにインフラ用意できても&lt;br&gt;開発に時間がかかるなら意味ないんじゃないの？&lt;/h3&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+ &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;そこで、アールスリーのハイスピードSI&lt;/h1&gt;
+ &lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;
+   &lt;h3 style=&#34;color: #ddd;&#34;&gt;AWSやkintoneといったクラウドサービスを活用し、&lt;br&gt;お客様が今必要なものを、可能な限り早くご提供するサービスです&lt;/h3&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+ &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: black;&#34;&gt;開発にかかる時間の違い&lt;/h1&gt;
+ &lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/hssi_graph.png&#34; class=&#34;img-thumbnail wide-image&#34;&gt;
+ &lt;h3 class=&#34;text-center&#34;&gt;【時間をかけて100点を取ろうとするよりも、短時間に80点を取る方がビジネスでは重要】&lt;br&gt;
+ というポリシーのもと、圧倒的なスピードでシステムを提供するハイスピードSI&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px;&#34;&gt;&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;ぜひお問い合わせください&lt;/a&gt;&lt;/h1&gt;
+  &lt;h3 class=&#34;text-center&#34; style=&#34;color: white;&#34;&gt;Tel : 06-6271-3663 / Mail : &lt;a href=&#34;mailto:info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/h3&gt;
+  
+  &lt;h3 class=&#34;text-center&#34; style=&#34;color: white;&#34;&gt;&lt;a href=&#34;https://www.r3it.com/freecontact/&#34;&gt;kintone無料体験会&lt;/a&gt;のお申し込みはこちら&lt;/h3&gt;
+  &lt;h4 class=&#34;text-center&#34; style=&#34;background-color: white; height: 50%;&#34;&gt;アールスリーインスティテュート&lt;img src=&#34;https://www.r3it.com/images/r3logo.png&#34;&gt;&lt;/h4&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>開発事例</title>
@@ -1316,70 +1365,6 @@ var js2kintoneConfig = {
 
 &lt;p&gt;アールスリーインスティテュート　林：　
 &lt;a href=&#34;mailto:hayashi@r3it.com&#34;&gt;hayashi@r3it.com&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ハイスピードSIとは？</title>
-      <link>https://www.r3it.com/solutions/</link>
-      <pubDate>Thu, 28 May 2015 17:55:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/</guid>
-      <description>
-
-&lt;p&gt;R3 instituteは、設立当初からのテーマとしての、&lt;/p&gt;
-
-&lt;h2 id=&#34;従来のシステム開発の非効率な部分を何とかできないものか:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;従来のシステム開発の非効率な部分を何とかできないものか&lt;/h2&gt;
-
-&lt;p&gt;を考え続けてきました。&lt;/p&gt;
-
-&lt;p&gt;営業にいく先々で、「システムというのは、なぜこんなに費用と時間がかかってしまうのか」というご相談をうけ、そこに真剣に向かいあってきました。&lt;/p&gt;
-
-&lt;p&gt;本来ITは、業務を、そして経営を助ける手段でなければならないはずが、
-いつのまにか、「あのシステムを変えるのに費用がかかりすぎるから、業務を変えることが出来ない」
-といった、経営にとってお荷物的な存在となってしまっている話も、幾度となく聞いてきました。&lt;/p&gt;
-
-&lt;p&gt;このままでは、日本企業の国際競争力にすら響いてしまうのではないか、そんな危機感すらあります。&lt;/p&gt;
-
-&lt;p&gt;２０１５年、、、世間では様々なクラウド技術、クラウドサービスがかなり台頭してきました。&lt;/p&gt;
-
-&lt;p&gt;一つ一つは単なる「部分」のサービスですが、「これらのクラウドをどううまく使いこなすか？」と
-いう、我々が得意とする　SI　としてのコーディネート力で考えたときに、
-従来からのSIとしての課題にもフィットすると思えたのです。&lt;/p&gt;
-
-&lt;p&gt;このコンセプトこそ&lt;/p&gt;
-
-&lt;h1 id=&#34;ハイスピードsi:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;「ハイスピードSI」&lt;/h1&gt;
-
-&lt;p&gt;構成要素として、我々がもっとも最適だと思っているのは以下の３つです。&lt;/p&gt;
-
-&lt;h3 id=&#34;amazon-web-services-aws:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Amazon Web Services (AWS)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;インフラとしては、クイック、柔軟、多機能かつ低コストなAWSを用いる。&lt;/li&gt;
-&lt;li&gt;従来の様々な面倒なこと、コストがかかっていたことから解放するとともに、従来だとあり得なかったインフラサービスを提供する。&lt;/li&gt;
-&lt;li&gt;AWS前提にしたときには、アプリの作り方も変えられ、新たな世界感が出来てきます。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;サイボウズ-kintone:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;サイボウズ kintone&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;アプリ部分は、ノンプログラミングで出来る限り行う。&lt;/li&gt;
-&lt;li&gt;kintoneであれば、ミドルLayer、インフラLayerも気にしなくて良くなるため、上流～コーディング～下流の各工程で、かなりの効率化が図れます。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;r3のシステム開発サービス:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;R3のシステム開発サービス&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;設立以来、様々なお客様に評価されてきた、企画力、設計・開発力、柔軟性、コスト、スピード。&lt;/li&gt;
-&lt;li&gt;AWSやkintoneを単なるサービスとして捉えるのではなく、従来のスクラッチ開発とのハイブリッドで考えることにより、クラウドの力を十二分に発揮させることができます。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;この世界観をたくさんの方に知っていただきたいと思っています。&lt;/p&gt;
-
-&lt;h2 id=&#34;さぁ-あなたも一歩踏み出してみませんか:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;さぁ、あなたも一歩踏み出してみませんか？&lt;/h2&gt;
-
-&lt;hr /&gt;
 </description>
     </item>
     

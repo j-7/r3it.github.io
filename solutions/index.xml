@@ -5,8 +5,57 @@
     <link>https://www.r3it.com/solutions/</link>
     <description>Recent content in Solutions on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Jul 2015 11:20:16 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2015 16:51:20 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/solutions/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWSとkintoneで実現するハイスピードSI</title>
+      <link>https://www.r3it.com/solutions/kintone/lp20150701/</link>
+      <pubDate>Wed, 01 Jul 2015 16:51:20 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/solutions/kintone/lp20150701/</guid>
+      <description>&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;AWSとkintoneで実現するハイスピードSI&lt;/h1&gt;
+  &lt;h3 class=&#34;text-center&#34;&gt;&lt;/h3&gt;
+  &lt;h4 class=&#34;text-center&#34; style=&#34;background-color: white; height: 50%;&#34;&gt;アールスリーインスティテュート&lt;img src=&#34;https://www.r3it.com/images/r3logo.png&#34;&gt;&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;クラウドについてよく聞くお話&lt;/h1&gt;
+  &lt;div class=&#34;row&#34;&gt;
+   &lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;
+   &lt;h3&gt;クラウドって結局オンプレのサーバが仮想化されただけでしょ？&lt;/h3&gt;
+   &lt;h3&gt;既存システムの移行はできても&lt;br&gt;新規システムをクラウドに適合した形で作るのって難しいんじゃないの？&lt;/h3&gt;
+   &lt;h3&gt;クラウドですぐにインフラ用意できても&lt;br&gt;開発に時間がかかるなら意味ないんじゃないの？&lt;/h3&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+ &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;そこで、アールスリーのハイスピードSI&lt;/h1&gt;
+ &lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;
+   &lt;h3 style=&#34;color: #ddd;&#34;&gt;AWSやkintoneといったクラウドサービスを活用し、&lt;br&gt;お客様が今必要なものを、可能な限り早くご提供するサービスです&lt;/h3&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+ &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: black;&#34;&gt;開発にかかる時間の違い&lt;/h1&gt;
+ &lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/hssi_graph.png&#34; class=&#34;img-thumbnail wide-image&#34;&gt;
+ &lt;h3 class=&#34;text-center&#34;&gt;【時間をかけて100点を取ろうとするよりも、短時間に80点を取る方がビジネスでは重要】&lt;br&gt;
+ というポリシーのもと、圧倒的なスピードでシステムを提供するハイスピードSI&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px;&#34;&gt;&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;ぜひお問い合わせください&lt;/a&gt;&lt;/h1&gt;
+  &lt;h3 class=&#34;text-center&#34; style=&#34;color: white;&#34;&gt;Tel : 06-6271-3663 / Mail : &lt;a href=&#34;mailto:info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/h3&gt;
+  
+  &lt;h3 class=&#34;text-center&#34; style=&#34;color: white;&#34;&gt;&lt;a href=&#34;https://www.r3it.com/freecontact/&#34;&gt;kintone無料体験会&lt;/a&gt;のお申し込みはこちら&lt;/h3&gt;
+  &lt;h4 class=&#34;text-center&#34; style=&#34;background-color: white; height: 50%;&#34;&gt;アールスリーインスティテュート&lt;img src=&#34;https://www.r3it.com/images/r3logo.png&#34;&gt;&lt;/h4&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>開発事例</title>

@@ -90,7 +90,6 @@ section {
 }
 
 a.list-group-item.active,[class*='-info'] {
-//	background-color: #168ccc;
 	background-color: #22247A;
     color:#fff;
 }

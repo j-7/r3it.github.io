@@ -90,7 +90,6 @@ section {
 }
 
 a.list-group-item.active,[class*='-info'] {
-//	background-color: #168ccc;
 	background-color: #22247A;
     color:#fff;
 }
@@ -248,8 +247,16 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #single dl dt {
+  font-size: 18px;
   text-decoration: underline;
-  marg: 0 0 20px 20px;
+  margin: 0 0 20px 20px;
+}
+
+#single dl dd {
+  margin: 0 0 20px 20px;
+  line-height: 200%;
+  font-size: 15px;
+  color: #444;
 }
 
 #imtop1 {
