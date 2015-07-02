@@ -58,6 +58,51 @@
     </item>
     
     <item>
+      <title>プレスリリース：Talend用 kintoneコネクターを開発しGitHubに公開</title>
+      <link>https://www.r3it.com/info/2015/kintone-connector-for-talend/</link>
+      <pubDate>Tue, 23 Jun 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/kintone-connector-for-talend/</guid>
+      <description>
+
+&lt;p&gt;ビックデータインテグレーションのリーダーであるTalend株式会社（本社：東京都港区、代表取締役社長：有延敬三、以下「Talend」）と、ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は本日、オープンソースソフトウェア版であるTalend Open Studio（以下「TOS」）を活用して、迅速かつ合理的な費用でのオンプレミスとクラウドのデータ連携、移行を推進するために技術、マーケティング面で協業することを発表いたしました。&lt;/p&gt;
+
+&lt;p&gt;Amazon Web Services (AWS)のコンサルティングパートナーであり、サイボウズ（kintone）パートナーでもあるR3は、kintone開発の魅力であるスピードを最大限に発揮するために、カスタマイズを最小限にとどめたハイスピードなシステムインテグレーションを提供しています。R3はTOSを利用して、ハンドコーディングせず、かつ安価に基幹システムとkintoneのデータ連携を実現し、その開発で得られた知見を元にTalend用のkintoneコネクター（kintone connector for talend: kc4t）を今年5月にオープンソースソフトウェアとしてGitHub上に公開しました。（ &lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;https://www.r3it.com/community/oss/kc4t/&lt;/a&gt; ）&lt;/p&gt;
+
+&lt;p&gt;Talend 製品は世界最大規模のユーザーコミュニティを基盤とし、800 以上のコンポーネントを持つ商用オープンソースソフトウェアです。Talend は、多くの企業ユーザーから要望のある kintone のコネクターを開発した R3 と協業することにより、Talend 製品によるオンプレミスとクラウドのデータ連携がさらに加速することを期待しています。&lt;/p&gt;
+
+&lt;p&gt;R3 は kc4t の第一弾として kintone からデータを抽出するコンポーネントを実現していますが、Talend との協業により、さらなる機能追加を予定しています。Talend と R3 は協業に基づき、データ連携に手間とコストをかけずにクラウドへの移行を実現するハイスピードかつハイクオリティなシステムインテグレーションを提供し、 顧客企業のデータドリブン経営を支援します。
+Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Japan Community: &lt;a href=&#34;https://talend.jp/&#34;&gt;https://talend.jp/&lt;/a&gt;)でもご紹介を予定しています。&lt;/p&gt;
+
+&lt;h2 id=&#34;talend-について:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;Talend について&lt;/h2&gt;
+
+&lt;p&gt;2006 年フランスで創業した Talend 社は、あらゆる情報資産の効率的な活用を可能にするビックデータ統合/ アプリケーション統合/ビジネスプロセス統合のためのソリューションを開発・提供し、データドリブン経営を支 援しています。Talend の統合ソリューションにより、データドリブンの組織は、あらゆるデータから価値を得ることが出来ます。Talend は、最新のビッグデータプラットフォームをネイティブにサポートすることで、データ統合にまつわる複雑さを排除出来るため、IT 部門は、ビジネス要求により迅速に対応可能になり、発生する費用も想定することが出来ます。Talend のソリューションは、オープンソースのテクノロジーをベースとしており、 拡張性が高く、常に最新であり、データ統合に関する、今後も増大するあらゆる要求を解決します。Talend は米国カリフォルニア州レッドウッド市に本社をおく非公開企業です。&lt;/p&gt;
+
+&lt;h2 id=&#34;r3-について:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;R3 について&lt;/h2&gt;
+
+&lt;p&gt;2000年に創業したアールスリーインスティテュートは、関西を中心に全国で活動している、システムによる問題解決チームです。クラウドファースト時代のシステム開発の考え方である「ハイスピードSI」を提唱し、お客様の問題を最も効率的に解決するためのアイデアを、考えに考えるのが弊社のスタンスです。
+既存のデータセンターにあるオンプレミスのシステム構築だけではなく、AWSパートナー・kintoneパートナーとしてクラウドを活用した問題解決をご提案しています。
+また、「コミュニティにフルコミット」を合言葉に、社員のコミュニティ活動を積極的に支援し、会社としても各種コミュニティ活動を強力に支援しています。&lt;/p&gt;
+
+&lt;h2 id=&#34;報道関係者-読者お問い合わせ先:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;報道関係者・読者お問い合わせ先&lt;/h2&gt;
+
+&lt;h3 id=&#34;talend-株式会社:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;Talend 株式会社&lt;/h3&gt;
+
+&lt;p&gt;マーケティング 重見英子&lt;/p&gt;
+
+&lt;p&gt;TEL:03-6427-6370 / E-mail:&lt;a href=&#34;prjp@talend.com&#34;&gt;prjp@talend.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;アールスリーインスティテュート:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;アールスリーインスティテュート&lt;/h3&gt;
+
+&lt;p&gt;クライアントディベロップメント 林 宏樹&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663 / Email : &lt;a href=&#34;info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>kintone Café 名古屋 Vol.1 参加レポート</title>
       <link>https://www.r3it.com/info/2015/0617_kintonecafe-nagoya/</link>
       <pubDate>Wed, 17 Jun 2015 17:06:49 +0900</pubDate>
