@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kintone on </title>
+    <link>https://www.r3it.com/tags/kintone/</link>
+    <description>Recent content in Kintone on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 14 Jan 2015 10:54:10 +0900</lastBuildDate>
+    <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintoneでテーブルの各行に連番をつける</title>
+      <link>https://www.r3it.com/blog/kintone/autonumbering/</link>
+      <pubDate>Wed, 14 Jan 2015 10:54:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/autonumbering/</guid>
+      <description>
+
+&lt;p&gt;元投稿はQiitaの&lt;a href=&#34;http://qiita.com/t_konparu/items/8bd1da40d0896c3da917&#34;&gt;記事&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;h1 id=&#34;課題:cad6ae68911e167affcf3011f83a9164&#34;&gt;課題&lt;/h1&gt;
+
+&lt;p&gt;kintoneでシステムを作っていると、項目をまとめてテーブル化することがよくあります。
+このとき、テーブルの各行に1行目から順に連番をつけたいということはよくあると思います。&lt;/p&gt;
+
+&lt;p&gt;kintoneの標準の機能ではこれはできないため、JavaScriptでのカスタマイズが必要です。&lt;/p&gt;
+
+&lt;h1 id=&#34;javascriptカスタマイズ:cad6ae68911e167affcf3011f83a9164&#34;&gt;JavaScriptカスタマイズ&lt;/h1&gt;
+
+&lt;p&gt;フィールドコード「receipts」というテーブルの中にフィールドコード「no」というフィールドがあるとします。
+このフィールドに対して保存のタイミングで連番を付与します。&lt;/p&gt;
+
+&lt;p&gt;まず、作成時の編集時のイベントを取得するために、kintone.events.on()でイベントハンドラを登録します。&lt;/p&gt;
+
+&lt;p&gt;イベントハンドラの中では、eventに含まれるrecordオブジェクトを取得し、そこに含まれるreceiptsテーブルのvalueの数を数えておきます。これが行数になります。&lt;/p&gt;
+
+&lt;p&gt;あとは、ループを回しながら各行のnoのvalueに連番を設定していきます。&lt;/p&gt;
+
+&lt;p&gt;コードは以下のようになります。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;
+(function() {
+    &#34;use strict&#34;;
+    var events = [
+        &#39;app.record.create.submit&#39;,
+        &#39;app.record.edit.submit&#39;
+    ];
+    kintone.events.on(events, function(event) {
+        var record = event.record;
+        // receiptsテーブルのno欄を自動採番する
+        var count = record.receipts.value.length;
+        for( var i = 0; i &lt; count; i++ ){
+            record.receipts.value[i].value.no.value = i + 1;
+        }
+
+        return event;
+    });
+})();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;簡単ですね。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cybozu.com developer networkについて</title>
+      <link>https://www.r3it.com/blog/kintone/cybozu-com-developer-network/</link>
+      <pubDate>Mon, 01 Dec 2014 20:02:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/cybozu-com-developer-network/</guid>
+      <description>
+
+&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
+
+&lt;p&gt;kintoneを始めたいと思っている方、「お試し期間1ヶ月じゃ試しきれない」という方、
+意外と知らない方も多いかもしれませんので、&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja&#34;&gt;cybozu.com developer network&lt;/a&gt;をご紹介します&lt;/p&gt;
+
+&lt;h1 id=&#34;cybozu-com-developer-networkとは:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;cybozu.com developer networkとは？&lt;/h1&gt;
+
+&lt;p&gt;cybozu.com developer network（長いの以降、CDNと略します）は、cybozu.comの開発者が集まるコミュニティサイトです。
+kintoneなどのカスタマイズ方法について、フォーラムで質問したりすることができます。&lt;/p&gt;
+
+&lt;p&gt;わからないことなどあれば、ここで聞いていただくと、kintoneエバンジェリストの方々などから回答もらえるかもしれません。&lt;/p&gt;
+
+&lt;h1 id=&#34;開発者ライセンスを取得しよう:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;開発者ライセンスを取得しよう&lt;/h1&gt;
+
+&lt;p&gt;CDNのすごいのは、開発者ライセンスがもらえるということです。
+開発者ライセンスをもらうと、1年間kintoneのスタンダードコースが使い放題です。&lt;/p&gt;
+
+&lt;p&gt;ひとまず、CDNのアカウントを取得しましょう。「メンバーになる」をクリックしてください。
+Facebookのアカウントがあれば、すぐにメンバー登録できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network-1024x838.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;メンバー登録ができたら、登録したアカウントでログインしてください。&lt;/p&gt;
+
+&lt;p&gt;次に赤枠のところをクリック！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network2.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network2-1024x715.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;そして、画面の下の方にある申込みフォームを埋めます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network3.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network3-1024x491.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+ 
+
+&lt;p&gt;「確認する」をクリックして、送信すれば、２〜３日でアカウントがもらえます！
+これでkintone触り放題です！&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;CDNで開発者ライセンスをもらえばじっくりとkintoneを触ることができますので、
+是非お試しください。&lt;/p&gt;
+
+&lt;p&gt;通常のライセンスとは異なるいくつかの制約がありますが、開発上困ることはないと思います。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kintoneアプリに登録したデータ（レコード）を、一括で削除する方法</title>
+      <link>https://www.r3it.com/blog/kintone/tips0010/</link>
+      <pubDate>Thu, 13 Nov 2014 21:25:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/tips0010/</guid>
+      <description>
+
+&lt;p&gt;kintoneでデータの「一括削除機能」を有効にする方法をご紹介します。&lt;/p&gt;
+
+&lt;h1 id=&#34;最初は表示されていない:cd5c4e1bb5bc04026c7a8345753a8c56&#34;&gt;最初は表示されていない&lt;/h1&gt;
+
+&lt;p&gt;下図のようにアプリには一見したところ、「一括削除機能」は見当たりません。
+「一括削除機能」には、以下のような条件（設定）があります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0000.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0000-1024x805.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;アプリの管理権限が必要。&lt;/li&gt;
+&lt;li&gt;あらかじめアプリの設定を変更し、一括削除機能を有効にする必要がある。&lt;/li&gt;
+&lt;li&gt;１度に削除できるレコード数は４万件まで。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ここでは（２）の「一括削除機能を有効」にする方法を説明します。
+（kintoneユーザーヘルプにも記述されています）&lt;/p&gt;
+
+&lt;p&gt;一括削除機能を有効にする
+1. アプリの設定画面を開きます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0001.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0001-1024x761.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;[高度な設定]をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0002.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0002-1024x761.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+ 
+
+&lt;ol&gt;
+&lt;li&gt;「レコード一括削除を有効にする」のチェックボックスを選択します。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0003.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0003-1024x765.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+ 
+
+&lt;p&gt;設定を完了したら、アプリのレコードの一覧画面を開いてください。
+下図のように「一括削除」が選択できるようになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0004.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0004-1024x758.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintoneって何？</title>
+      <link>https://www.r3it.com/blog/kintone/what_is_kintone/</link>
+      <pubDate>Mon, 10 Nov 2014 18:27:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/what_is_kintone/</guid>
+      <description>
+
+&lt;p&gt;こんにちは、金春です。
+今日は、kintoneって何？っていう方のために、簡単にkintoneのご紹介をしたいと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;kintoneとは:b93b2aa5941c0c97148bd5c82bf8d0c7&#34;&gt;kintoneとは？&lt;/h1&gt;
+
+&lt;p&gt;kintoneはサイボウズ株式会社が運営する「ファストシステムプラットフォーム」です。
+「ファストシステム？」と思われた方も多いと思います。&lt;/p&gt;
+
+&lt;p&gt;「ファストシステム」とは、ファストフードのように短時間に提供されるシステムのことです。&lt;/p&gt;
+
+&lt;h1 id=&#34;kintoneで何ができるの:b93b2aa5941c0c97148bd5c82bf8d0c7&#34;&gt;kintoneで何ができるの？&lt;/h1&gt;
+
+&lt;p&gt;アプリテンプレートとして用意されている案件管理をみてみましょう。&lt;/p&gt;
+
+&lt;p&gt;アプリを起動すると案件のリストが表示されています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone_list.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone_list-300x233.png&#34; alt=&#34;kintone_list&#34; width=&#34;300&#34; height=&#34;233&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+ 
+
+&lt;p&gt;このうち１つをクリックすると、詳細画面になりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone_detail.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone_detail-300x227.png&#34; alt=&#34;kintone_detail&#34; width=&#34;300&#34; height=&#34;227&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;編集ボタンをクリックすると&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone_edit.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone_edit-300x228.png&#34; alt=&#34;kintone_edit&#34; width=&#34;300&#34; height=&#34;228&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;編集画面になりましたね。&lt;/p&gt;
+
+&lt;p&gt;こういったアプリがとても簡単に作成できます。&lt;/p&gt;
+
+&lt;h1 id=&#34;kintoneを始めるには:b93b2aa5941c0c97148bd5c82bf8d0c7&#34;&gt;kintoneを始めるには？&lt;/h1&gt;
+
+&lt;p&gt;kintoneは30日間無料でお試しができます。&lt;/p&gt;
+
+&lt;p&gt;kintoneのウェブサイトから登録することで30日間利用できますので、まずはお試してアカウントを取得してみて試してみてください。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:b93b2aa5941c0c97148bd5c82bf8d0c7&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;kintoneを使うと、業務アプリを非常に短時間で開発することができます。
+このブログでは、これからkintoneの様々な使い方をご紹介していきます。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on </title>
+    <link>https://www.r3it.com/tags/aws/</link>
+    <description>Recent content in Aws on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 29 Nov 2014 14:43:15 +0900</lastBuildDate>
+    <atom:link href="https://www.r3it.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS KeyMangementServiceを使ってみた</title>
+      <link>https://www.r3it.com/blog/aws/kms/</link>
+      <pubDate>Sat, 29 Nov 2014 14:43:15 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/kms/</guid>
+      <description>
+
+&lt;p&gt;こんにちは金春です。&lt;/p&gt;
+
+&lt;p&gt;AWSでは、従来よりS3に保存したファイルは、EBSに記録したデータを暗号化できるようになっています。
+ただこの時に使われる暗号鍵はAWSが管理する鍵でした。&lt;/p&gt;
+
+&lt;p&gt;自分の家の鍵だけど、鍵は自分では持っていなくていつも開けてもらうようなイメージです。
+でも、鍵は自分で持ちたいですよね？&lt;/p&gt;
+
+&lt;h1 id=&#34;自分で鍵を持つ:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;自分で鍵を持つ&lt;/h1&gt;
+
+&lt;p&gt;AWSが鍵を管理する形でも問題ないケースも多いのですが、企業によってはセキュリティポリシーの規定（例えば、鍵のローテーションポリシーがあるなど）によってこれでは使えないケースというのがあります。&lt;/p&gt;
+
+&lt;p&gt;これを解決しようというのが、AWS KeyManagementServiceです。&lt;/p&gt;
+
+&lt;p&gt;AWSが鍵を管理するのではなく、ユーザが自分で鍵を管理できるようになります。
+早速みてみましょう。&lt;/p&gt;
+
+&lt;h1 id=&#34;自分の鍵を作る:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;自分の鍵を作る&lt;/h1&gt;
+
+&lt;p&gt;AWS KeyMenegemtServiceは、IAMの機能に統合されています。
+IAMの管理画面に入ると、左のメニューの一番下にメニューが増えています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms00.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms00-144x300.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;これをクリックを鍵の一覧画面が表示されます。
+どうもこの画面、常にデフォルトがUS-Eastになっているようです。
+ここでは、Tokyoに変えておきましょう。&lt;/p&gt;
+
+&lt;p&gt;一覧画面にある「Create Key」をクリックして鍵を作成してみましょう。&lt;/p&gt;
+
+&lt;p&gt;鍵の名前（Alias）と説明を入力します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms01.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms01-300x174.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;次に、この鍵を管理することができるIAMユーザを選択します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms02.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms02-300x164.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;次に、この鍵を使うことができるIAMユーザ、IAM Roleを選択します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms03.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms03-300x164.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ここでは、自アカウントのIAMユーザ等以外に、他のアカウントに鍵の使用を許可することもできます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms04.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms04-300x99.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;次に進みます。この画面ではここまで設定した内容をポリシーとして確認します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms05.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms05-300x165.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ここまで設定すると鍵が作成されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms06.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms06-300x149.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こんな感じで作成されました。&lt;/p&gt;
+
+&lt;h1 id=&#34;作成した鍵を使う:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;作成した鍵を使う&lt;/h1&gt;
+
+&lt;p&gt;EBSの暗号化で先ほど作成した鍵を使ってみましょう。
+EC2の管理画面でVolumesを選択し、Create Volumeしてみましょう。&lt;/p&gt;
+
+&lt;p&gt;「Encrypt this volume」をチェックすると、「Master Key」のプルダウンが表示されます。
+プルダウンを見てみると、先ほど作成した鍵が表示されていますね！&lt;/p&gt;
+
+&lt;p&gt;これを選択することで自分で作成した鍵で暗号化が行えるようになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/ebs01.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/ebs01-300x211.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;次、S3で使ってみましょう。
+S3 のUpload画面で、ファイルを選択後に、「Set Details」を選択してみてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms07.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms07-300x179.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;詳細設定画面が開きますので、そこの暗号化設定でEBSのときと同じように作成した鍵が選べるようになっています。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;暗号鍵を自分で管理できるようになることで、自分のルールで鍵を運用できるようになります。
+これができるようになることで、今までセキュリティポリシーに適合できないがためにAWSの利用が難しかった会社でも利用できるようになり、AWSの利用機会が広がるのではないかと思います。&lt;/p&gt;
+
+&lt;p&gt;今回は、Management Consoleで操作しましたが、AWSでの当然APIやCLIからも操作できますので、鍵管理を自動化することもできますね！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AWS Cloud Roadshow 2014に出展します</title>
+      <link>https://www.r3it.com/blog/aws/cloudroadshow-2014/</link>
+      <pubDate>Mon, 17 Nov 2014 09:49:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/cloudroadshow-2014/</guid>
+      <description>
+
+&lt;h1 id=&#34;aws-cloud-roadshow2014:2b81f077773729e19a431ae047cc9fbf&#34;&gt;AWS Cloud Roadshow2014&lt;/h1&gt;
+
+&lt;p&gt;AWS Cloud Roadshow2014とは、AWSが実施する展示会です。
+全国４都市で実施されており、12/2の大阪が最後となります。&lt;/p&gt;
+
+&lt;p&gt;弊社も出展します。&lt;/p&gt;
+
+&lt;p&gt;詳細は、&lt;a href=&#34;http://roadshow.awseventsjapan.com/osaka/index.html&#34;&gt;こちら&lt;/a&gt;にあります。&lt;/p&gt;
+
+&lt;h1 id=&#34;弊社の出展内容:2b81f077773729e19a431ae047cc9fbf&#34;&gt;弊社の出展内容&lt;/h1&gt;
+
+&lt;p&gt;今回は、”「AWS x kintone」でいままでにないシステム開発を!” として、cybozu社のkintoneとAWSを掛け合わせるソリューションについてご紹介いたします。
+&lt;a href=&#34;https://www.r3it.com/blog/aws/hybrid_cloud/&#34;&gt;こちらの記事&lt;/a&gt;でも触れましたが、これからは複数のクラウドサービスを組みあせて使う形の「ハイブリッドクラウド」が盛り上がってくると考えています。&lt;/p&gt;
+
+&lt;p&gt;また、これらのクラウドの組合せをオープンソース・ソフトウェアを駆使した形で、できるだけスピーディにかつ安価にご提供できるようにしていきたいと考えております。&lt;/p&gt;
+
+&lt;p&gt;来場された皆様には、日頃のシステム開発でのお悩み事についてお聞かせ願えれば幸いです。
+そのお悩みをハイブリッドクラウドで解決するべく弊社とともに解決していきましょう。&lt;/p&gt;
+
+&lt;h1 id=&#34;当日にはjaws-ug-kansaiもあります:2b81f077773729e19a431ae047cc9fbf&#34;&gt;当日にはJAWS-UG Kansaiもあります&lt;/h1&gt;
+
+&lt;p&gt;AWS Cloud Roadshowの後には同会場にて「JAWS-UG Knasai」も実施されます。
+今回は、「AWS ゆく年、くる年」として今年のAWSを振り返り、来年の展望をみなさんでお話します。&lt;/p&gt;
+
+&lt;p&gt;AWSには非常に強力なユーザグループがあり、エンジニアの方だけではなくAWSに興味のある方々が全国でたくさん参加しています。
+有志の集まったユーザグループですので、非常に和やかな雰囲気の中でAWSについて最新事例や他のユーザが何を思ってAWSを使っているかなどを知るいい機会になっています。&lt;/p&gt;
+
+&lt;p&gt;こちらのご参加もお願いいたします。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>re:Invent2014 報告会のご紹介</title>
+      <link>https://www.r3it.com/blog/aws/jaws_ug_reinvent2014/</link>
+      <pubDate>Tue, 11 Nov 2014 16:04:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/jaws_ug_reinvent2014/</guid>
+      <description>
+
+&lt;h1 id=&#34;re-invent2014:df3a58c2cfa3e24505e41e1d34a339fa&#34;&gt;re:Invent2014&lt;/h1&gt;
+
+&lt;p&gt;現在、アメリカラスベガスでAWSの世界規模イベント「re:Invent2014」が開催されています。
+昨年は私も参加しましたが、今年は残念ながら参加できません。&lt;/p&gt;
+
+&lt;p&gt;re:Inventでは、AWSの新サービスが発表されたり、既存のサービスの事例や技術的に深いセッション等興味深い内容が盛り沢山です。&lt;/p&gt;
+
+&lt;p&gt;KeyNoteや一部のセッションはストリーミングもされるのでご興味のある方は、是非ご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;jaws-ug大阪-re-invent2014-報告会:df3a58c2cfa3e24505e41e1d34a339fa&#34;&gt;JAWS-UG大阪 re:Invent2014 報告会&lt;/h1&gt;
+
+&lt;p&gt;re:Inventに参加するには費用もかかりますし、なかなか気軽に参加するというわけにもいかないと思います。
+そういった方に向けて、JAWS-UG大阪で、11/26(Wed）にre:Invent報告会を実施します。&lt;/p&gt;
+
+&lt;p&gt;re:Invent報告会では、re:Inventに参加される関西の3名の方に登壇していただき、現地の様子をレポートしていただきます。
+re:Inventがどういうところなのかを知りたい方にはうってつけのイベントになっていますので、是非ご参加ください。&lt;/p&gt;
+
+&lt;p&gt;参加申込は doorkeeper で受け付けていますので、下のJAWS-UGのロゴをクリックして登録してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/jawsug-square.png&#34; alt=&#34;JAWS-UG関西&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ハイブリッドクラウドのこれから | アールスリーインスティテュート</title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    
+    
+
+    <link rel="canonical" href="https://www.r3it.com/">
+    <meta property="og:title" content="アールスリーインスティテュート"/>
+    <meta property="og:url" content="https://www.r3it.com/"/>
+    <meta property="og:image" content="https://www.r3it.com/images/r3_logo_wide_og.png"/>
+    <meta property="og:site_name" content="アールスリーインスティテュート">
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+    
+    <link rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico" />
+</head>
+<body>
+
+<header class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><img src="/images/r3logo_nav.png"></a>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="navbar-collapse collapse" id="bs-navbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/#info">お知らせ</a></li>
+        <li><a href="/solutions/">ハイスピードSI</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="/blog/">ブログ</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/#inquiry"><span class="envelope-style glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="container-fluid" id="breadcrumb-section">
+  <ol class="breadcrumb">
+    <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+    <li><a href="/blog/">R3 Cloud Developers Blog</a></li>
+    <li class="active">ハイブリッドクラウドのこれから</li>
+  </ol>
+</section>
+
+<section class="container-fluid" id="single">
+  <div class="row">
+  	<div class="col-md-3">
+	
+      <h4><small>タグ一覧</small></h4>
+	  <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+        <ul class="nav bs-docs-sidenav">
+          
+          <li><a href="/tags/aws"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a></li>
+          
+          <li><a href="/tags/cloud"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a></li>
+          
+          <li><a href="/tags/jawsug"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> jawsug</a></li>
+          
+          <li><a href="/tags/kintone"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> kintone</a></li>
+          
+        </ul>
+	  </nav>
+
+	</div>
+  	<div class="col-md-8">
+	  <h1>ハイブリッドクラウドのこれから</h1>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        <img src="/images/blog/author/konparu-100x100.jpg" class="img-circle pull-left" style="margin-right: 20px;">
+  	    <h5>Posted on 2014-11-11 09:36</h5>
+        <h4><a href="/blog/author/konparu/">Toshiyuki Konparu</a></h4>
+      </div>
+      
+		
+		
+
+<p>こんにちは、金春です。</p>
+
+<p>クラウドファーストが当たり前の時代になりつつありますが、今後大きな流れになりそうなハイブリッドクラウド。
+弊社の考えるハイブリッドクラウドについてお話したいと思います。</p>
+
+<h1 id="ハイブリッドクラウドって:878afd0a4ac7d3ee8ce606737216d31d">ハイブリッドクラウドって？</h1>
+
+<p>現在、ハイブリッドクラウドと言えばこんな感じです。</p>
+
+<p><img class="img-thumbnail img-responsive" src="/images/blog/aws/hyvrid_cloud.png" /></p>
+
+<p>既存のデータセンターとクラウド（ここではAWS）を専用線で接続（AWS Direct Connect）あるいはインターネット経由でVPNで接続してシームレースに利用するパターンですね。</p>
+
+<p>これにより、既存資産とクラウド上に構築した資産を柔軟に連携させて利用することができます。</p>
+
+<p>企業によっては情報の種類によってはクラウドに置けないルールになっているというような場合でも、データに合わせて置き場所が違うというだけで、クラウドに置けるものはクラウドに置くことによってIT投資を最適化することができます。</p>
+
+<p>例えば、</p>
+
+<ul>
+<li>顧客情報はデータセンターの置く</li>
+<li>重い分析処理はクラウドを利用して効率よく計算する</li>
+</ul>
+
+<p>というようなことができるようになります。</p>
+
+<h1 id="これからのハイブリッドクラウド:878afd0a4ac7d3ee8ce606737216d31d">これからのハイブリッドクラウド</h1>
+
+<p>さて、上のハイブリッドクラウドもとても良いものですが、これからのハイブリッドクラウドは少し違った形になると考えています。</p>
+
+<p><img class="img-thumbnail img-responsive" src="/images/blog/aws/new_hybrid_cloud.png" /></p>
+
+<p>上の図と比べると要素が増えています。
+増えたのは「Other Cloud Service」と書いている他のクラウドサービスです。
+弊社ではここに、kintoneを利用することをお勧めしています。</p>
+
+<p>上で、「情報の種類によってはクラウドに置けないルール」というお話をしましたが、これは今後変わってくると考えています。
+まだなかなか認知されていない感じはしますが、クラウドのセキュリティは一般的に企業が独自に構築するデータセンターより高いものになっています。</p>
+
+<p>想像してみてください。</p>
+
+<ul>
+<li>御社にセキュリティ専門のエンジニアはいますか？</li>
+<li>セキュリティ対策のためにどれだけのコストをかけられますか？</li>
+<li>御社に銀行にお金を預けるより高いセキュリティで現金を保管できますか？（それがデータでも同じです）</li>
+</ul>
+
+<p>クラウドのセキュリティの高さは徐々に認知されつつあります。</p>
+
+<p>そうなると、左にある既存のデータセンターが担う役割はどんどん小さくなると考えられます。</p>
+
+<p>その次に起こるのは、単一のクラウドではできないことを他のクラウドを利用して補完しようという動きです。</p>
+
+<p>弊社では、kintoneとAWSを連動させたシステム開発を推奨しています。</p>
+
+<p>kintoneを用いて高速にシステム開発を行い、kintoneにはできないことをAWSで補完する。
+まだ残っている既存データセンターについてもAWSを介してkintoneと連携させることで既存資産も有効に活用する。</p>
+
+<p>これからのハイブリッドクラウドは、「クラウドとクラウドのハイブリッド」になると考えています。</p>
+
+<h1 id="まとめ:878afd0a4ac7d3ee8ce606737216d31d">まとめ</h1>
+
+<p>これからのハイブリッドクラウドは「クラウドとクラウドのハイブリッド」になると考えています。
+しかし、すべてのクラウドサービスを完全に把握してシステムを構築することは容易ではなく、
+また、あまり多くのクラウドサービスを統合しすぎてもシステムが複雑化するだけになってしまいます。
+弊社では、AWS、kintoneを駆使するシステム開発をおすすめしています。</p>
+
+<p>両者のパートナーである弊社にしかできない、今後のサービス展開にご期待ください。</p>
+
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col-md-3">
+  	</div>
+  	<div class="col-md-8">
+
+      <hr noshade>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        関連タグ：
+        <ul class="list-inline">
+          
+          <li><a href="/tags/cloud/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a> </li>
+          
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">    
+      <div class="col-xs-12 col-sm-12 col-md-6 column">
+        <p>アールスリーインスティテュート<br />
+        Tel : 06-6271-3663 / Fax : 06-6271-6061 / Mail : <a href="mailto:info@r3it.com">info@r3it.com</a><br />
+		〒541-0053 大阪府大阪市中央区本町2-3-4-8F</p>	  
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/AWS_Logo_Consulting_Partner_DARK.png"><br />
+		AWS Partner Network (APN) <br>コンサルティングパートナー
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/cop_silver_180.jpg"><br />
+		サイボウズ<br> オフィシャルパートナー
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; padding: 20px">&copy; 2015 R3 institute All Rights Reserved.</div>
+</footer>
+
+
+<script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24363556-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+

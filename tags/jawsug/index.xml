@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jawsug on </title>
+    <link>https://www.r3it.com/tags/jawsug/</link>
+    <description>Recent content in Jawsug on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 17 Nov 2014 09:49:13 +0900</lastBuildDate>
+    <atom:link href="https://www.r3it.com/tags/jawsug/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS Cloud Roadshow 2014に出展します</title>
+      <link>https://www.r3it.com/blog/aws/cloudroadshow-2014/</link>
+      <pubDate>Mon, 17 Nov 2014 09:49:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/cloudroadshow-2014/</guid>
+      <description>
+
+&lt;h1 id=&#34;aws-cloud-roadshow2014:2b81f077773729e19a431ae047cc9fbf&#34;&gt;AWS Cloud Roadshow2014&lt;/h1&gt;
+
+&lt;p&gt;AWS Cloud Roadshow2014とは、AWSが実施する展示会です。
+全国４都市で実施されており、12/2の大阪が最後となります。&lt;/p&gt;
+
+&lt;p&gt;弊社も出展します。&lt;/p&gt;
+
+&lt;p&gt;詳細は、&lt;a href=&#34;http://roadshow.awseventsjapan.com/osaka/index.html&#34;&gt;こちら&lt;/a&gt;にあります。&lt;/p&gt;
+
+&lt;h1 id=&#34;弊社の出展内容:2b81f077773729e19a431ae047cc9fbf&#34;&gt;弊社の出展内容&lt;/h1&gt;
+
+&lt;p&gt;今回は、”「AWS x kintone」でいままでにないシステム開発を!” として、cybozu社のkintoneとAWSを掛け合わせるソリューションについてご紹介いたします。
+&lt;a href=&#34;https://www.r3it.com/blog/aws/hybrid_cloud/&#34;&gt;こちらの記事&lt;/a&gt;でも触れましたが、これからは複数のクラウドサービスを組みあせて使う形の「ハイブリッドクラウド」が盛り上がってくると考えています。&lt;/p&gt;
+
+&lt;p&gt;また、これらのクラウドの組合せをオープンソース・ソフトウェアを駆使した形で、できるだけスピーディにかつ安価にご提供できるようにしていきたいと考えております。&lt;/p&gt;
+
+&lt;p&gt;来場された皆様には、日頃のシステム開発でのお悩み事についてお聞かせ願えれば幸いです。
+そのお悩みをハイブリッドクラウドで解決するべく弊社とともに解決していきましょう。&lt;/p&gt;
+
+&lt;h1 id=&#34;当日にはjaws-ug-kansaiもあります:2b81f077773729e19a431ae047cc9fbf&#34;&gt;当日にはJAWS-UG Kansaiもあります&lt;/h1&gt;
+
+&lt;p&gt;AWS Cloud Roadshowの後には同会場にて「JAWS-UG Knasai」も実施されます。
+今回は、「AWS ゆく年、くる年」として今年のAWSを振り返り、来年の展望をみなさんでお話します。&lt;/p&gt;
+
+&lt;p&gt;AWSには非常に強力なユーザグループがあり、エンジニアの方だけではなくAWSに興味のある方々が全国でたくさん参加しています。
+有志の集まったユーザグループですので、非常に和やかな雰囲気の中でAWSについて最新事例や他のユーザが何を思ってAWSを使っているかなどを知るいい機会になっています。&lt;/p&gt;
+
+&lt;p&gt;こちらのご参加もお願いいたします。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>re:Invent2014 報告会のご紹介</title>
+      <link>https://www.r3it.com/blog/aws/jaws_ug_reinvent2014/</link>
+      <pubDate>Tue, 11 Nov 2014 16:04:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/jaws_ug_reinvent2014/</guid>
+      <description>
+
+&lt;h1 id=&#34;re-invent2014:df3a58c2cfa3e24505e41e1d34a339fa&#34;&gt;re:Invent2014&lt;/h1&gt;
+
+&lt;p&gt;現在、アメリカラスベガスでAWSの世界規模イベント「re:Invent2014」が開催されています。
+昨年は私も参加しましたが、今年は残念ながら参加できません。&lt;/p&gt;
+
+&lt;p&gt;re:Inventでは、AWSの新サービスが発表されたり、既存のサービスの事例や技術的に深いセッション等興味深い内容が盛り沢山です。&lt;/p&gt;
+
+&lt;p&gt;KeyNoteや一部のセッションはストリーミングもされるのでご興味のある方は、是非ご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;jaws-ug大阪-re-invent2014-報告会:df3a58c2cfa3e24505e41e1d34a339fa&#34;&gt;JAWS-UG大阪 re:Invent2014 報告会&lt;/h1&gt;
+
+&lt;p&gt;re:Inventに参加するには費用もかかりますし、なかなか気軽に参加するというわけにもいかないと思います。
+そういった方に向けて、JAWS-UG大阪で、11/26(Wed）にre:Invent報告会を実施します。&lt;/p&gt;
+
+&lt;p&gt;re:Invent報告会では、re:Inventに参加される関西の3名の方に登壇していただき、現地の様子をレポートしていただきます。
+re:Inventがどういうところなのかを知りたい方にはうってつけのイベントになっていますので、是非ご参加ください。&lt;/p&gt;
+
+&lt;p&gt;参加申込は doorkeeper で受け付けていますので、下のJAWS-UGのロゴをクリックして登録してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/jawsug-square.png&#34; alt=&#34;JAWS-UG関西&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
