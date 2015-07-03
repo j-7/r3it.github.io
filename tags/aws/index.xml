@@ -27,6 +27,39 @@
     </item>
     
     <item>
+      <title>kintone で作ったアプリをHTMLに埋め込む js2kintone</title>
+      <link>https://www.r3it.com/community/oss/js2kintone/</link>
+      <pubDate>Mon, 22 Jun 2015 18:28:47 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/community/oss/js2kintone/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したアプリをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
+
+&lt;p&gt;ユーザーが入力した問い合わせフォームの内容は、html(js2kintone) → &lt;a href=&#34;http://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; → kintone と流れてきます。&lt;/p&gt;
+
+&lt;p&gt;js2kintone を利用すると、「&lt;a href=&#34;http://aws.amazon.com/jp/s3-hosting/&#34;&gt;月額10円〜レンタルサーバを始める方法&lt;/a&gt;」で活用する Amazon S3 で構築したWebサイトに、ほぼ無料で問い合わせフォームを設置することが出来ます。&lt;/p&gt;
+
+&lt;h2 id=&#34;ダウンロード:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;ダウンロード&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/js2kintone&#34;&gt;https://github.com/r3it/js2kintone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;設置方法と使い方:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;設置方法と使い方&lt;/h2&gt;
+
+&lt;p&gt;詳細は&lt;a href=&#34;https://github.com/r3it/js2kintone/blob/v0.0.1/docs/setup-usage-jp.md&#34;&gt;こちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;有料設置サービスについて:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;有料設置サービスについて&lt;/h2&gt;
+
+&lt;p&gt;上記ドキュメントを読んで設置方法がわからない方は、有料設置サービスを行っておりますので、弊社 &lt;a href=&#34;https://www.r3it.com/&#34;&gt;アールスリーインスティテュート&lt;/a&gt;までお問い合わせください。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Cloud Days 名古屋 2015 に出展&amp;弊社金春が登壇いたします</title>
       <link>https://www.r3it.com/info/2015/clouddays-nagoya/</link>
       <pubDate>Tue, 16 Jun 2015 17:06:49 +0900</pubDate>
