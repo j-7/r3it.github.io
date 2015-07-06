@@ -5,8 +5,41 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Jun 2015 21:06:49 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2015 09:36:13 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>執筆者Profile : 西島 幸一郎</title>
+      <link>https://www.r3it.com/blog/author/nishijima/</link>
+      <pubDate>Wed, 01 Jul 2015 09:36:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/author/nishijima/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪の会社であるアールスリーインスティテュートに、沖縄のワンコ×2がいる部屋からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。&lt;/p&gt;
+
+&lt;p&gt;オープンソースとクラフトビールをこよなく愛する。&lt;/p&gt;
+
+&lt;h2 id=&#34;コミュニティ活動:2e5d4427da0df1a4fa21acbfbca81f5d&#34;&gt;コミュニティ活動&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/okinawa/&#34;&gt;JAWS-UG沖縄&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;アマゾンデータサービスジャパン公認 AWSサムライ2013および2014&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hackers-champloo.org/&#34;&gt;ハッカーズチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cloud-champloo.org/&#34;&gt;クラウドチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/nishijima.koichiro&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/k_nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 福岡 Vol.5 参加レポート</title>
@@ -501,45 +534,6 @@ S3 のUpload画面で、ファイルを選択後に、「Set Details」を選択
 これができるようになることで、今までセキュリティポリシーに適合できないがためにAWSの利用が難しかった会社でも利用できるようになり、AWSの利用機会が広がるのではないかと思います。&lt;/p&gt;
 
 &lt;p&gt;今回は、Management Consoleで操作しましたが、AWSでの当然APIやCLIからも操作できますので、鍵管理を自動化することもできますね！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AWS Cloud Roadshow 2014に出展します</title>
-      <link>https://www.r3it.com/blog/aws/cloudroadshow-2014/</link>
-      <pubDate>Mon, 17 Nov 2014 09:49:13 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/cloudroadshow-2014/</guid>
-      <description>
-
-&lt;h1 id=&#34;aws-cloud-roadshow2014:2b81f077773729e19a431ae047cc9fbf&#34;&gt;AWS Cloud Roadshow2014&lt;/h1&gt;
-
-&lt;p&gt;AWS Cloud Roadshow2014とは、AWSが実施する展示会です。
-全国４都市で実施されており、12/2の大阪が最後となります。&lt;/p&gt;
-
-&lt;p&gt;弊社も出展します。&lt;/p&gt;
-
-&lt;p&gt;詳細は、&lt;a href=&#34;http://roadshow.awseventsjapan.com/osaka/index.html&#34;&gt;こちら&lt;/a&gt;にあります。&lt;/p&gt;
-
-&lt;h1 id=&#34;弊社の出展内容:2b81f077773729e19a431ae047cc9fbf&#34;&gt;弊社の出展内容&lt;/h1&gt;
-
-&lt;p&gt;今回は、”「AWS x kintone」でいままでにないシステム開発を!” として、cybozu社のkintoneとAWSを掛け合わせるソリューションについてご紹介いたします。
-&lt;a href=&#34;https://www.r3it.com/blog/aws/hybrid_cloud/&#34;&gt;こちらの記事&lt;/a&gt;でも触れましたが、これからは複数のクラウドサービスを組みあせて使う形の「ハイブリッドクラウド」が盛り上がってくると考えています。&lt;/p&gt;
-
-&lt;p&gt;また、これらのクラウドの組合せをオープンソース・ソフトウェアを駆使した形で、できるだけスピーディにかつ安価にご提供できるようにしていきたいと考えております。&lt;/p&gt;
-
-&lt;p&gt;来場された皆様には、日頃のシステム開発でのお悩み事についてお聞かせ願えれば幸いです。
-そのお悩みをハイブリッドクラウドで解決するべく弊社とともに解決していきましょう。&lt;/p&gt;
-
-&lt;h1 id=&#34;当日にはjaws-ug-kansaiもあります:2b81f077773729e19a431ae047cc9fbf&#34;&gt;当日にはJAWS-UG Kansaiもあります&lt;/h1&gt;
-
-&lt;p&gt;AWS Cloud Roadshowの後には同会場にて「JAWS-UG Knasai」も実施されます。
-今回は、「AWS ゆく年、くる年」として今年のAWSを振り返り、来年の展望をみなさんでお話します。&lt;/p&gt;
-
-&lt;p&gt;AWSには非常に強力なユーザグループがあり、エンジニアの方だけではなくAWSに興味のある方々が全国でたくさん参加しています。
-有志の集まったユーザグループですので、非常に和やかな雰囲気の中でAWSについて最新事例や他のユーザが何を思ってAWSを使っているかなどを知るいい機会になっています。&lt;/p&gt;
-
-&lt;p&gt;こちらのご参加もお願いいたします。&lt;/p&gt;
 </description>
     </item>
     

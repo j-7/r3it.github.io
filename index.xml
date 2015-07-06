@@ -5,8 +5,78 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Jul 2015 16:51:20 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2015 18:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone で作ったアプリを HTML に埋め込む js2kintone のご紹介</title>
+      <link>https://www.r3it.com/blog/kintone/js2kintone/</link>
+      <pubDate>Mon, 06 Jul 2015 18:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/js2kintone/</guid>
+      <description>
+
+&lt;p&gt;西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;今日は少し出遅れましたが AWS Lambda available in Tokyo! を記念しまして、先日オープンソースで公開しました &lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt; のご紹介をしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;その前に、kintone とは？という方がいらっしゃいましたら、&lt;a href=&#34;https://www.r3it.com/blog/kintone/what_is_kintone/&#34;&gt;こちらの弊社ブログ&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;js2kintone-とは:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;js2kintone とは？&lt;/h1&gt;
+
+&lt;p&gt;js2kintone は kintone で作成したアプリを HTML ファイルに埋め込むことが出来る JavaScript ライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
+
+&lt;h1 id=&#34;システム概要:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;システム概要&lt;/h1&gt;
+
+&lt;p&gt;システム概要は、以下のようになっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/js2kintone-overview.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/js2kintone-overview.png&#34; width=&#34;640&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;これ、いまご覧の弊社Webサイトが、この構成になっています。技術要素をかいつまんで説明しますと、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;HUGO&lt;/a&gt; でHTMLファイル生成&lt;/li&gt;
+&lt;li&gt;Amazon S3 にてWebホスティング&lt;/li&gt;
+&lt;li&gt;Amazon CloudFront でコンテンツ配信 + Server Name Indication（SNI）独自 SSL&lt;/li&gt;
+&lt;li&gt;問い合わせフォームでブラウザが直接 AWS Lambda を呼び出し、内容は最終的に kintone のアプリに格納&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;という流れです。&lt;/p&gt;
+
+&lt;p&gt;ブラウザから直接 Lambda を呼び出す例は、意外とまだ少ないようですので、参考にして頂ければと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;格安でのキャンペーン-コーポレートサイトのホスティングに最適:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;格安でのキャンペーン/コーポレートサイトのホスティングに最適&lt;/h1&gt;
+
+&lt;p&gt;「&lt;a href=&#34;http://aws.amazon.com/jp/s3-hosting/&#34;&gt;月額10円〜レンタルサーバを始める方法&lt;/a&gt;」を活用する際にいつもお困りネタの「お問い合わせフォームどうするの？」という問題に対して js2kintone を利用すると、ほぼ無料でお問い合わせフォーム付きのコーポレートサイトを作ることが出来ます（勿論、若干のAWS費用と、そもそもの kintone の費用は掛かりますよ！）。&lt;/p&gt;
+
+&lt;h1 id=&#34;以下いくつかのfaqにお応えしていきます:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;以下いくつかのFAQにお応えしていきます。&lt;/h1&gt;
+
+&lt;h2 id=&#34;古いブラウザはどうするの:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;古いブラウザはどうするの？&lt;/h2&gt;
+
+&lt;p&gt;いいところに気づきましたね。 AWS SDK for JavaScript in the Browser の &lt;a href=&#34;http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/browser-intro.html&#34;&gt;Browser Support&lt;/a&gt; はこちらにあるとおりです。いわゆるモダンブラウザ、ですね。&lt;/p&gt;
+
+&lt;p&gt;js2kintone では、モダンではないブラウザに対しては、以下の様なアプローチで対応しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/es-shims/es5-shim&#34;&gt;es5-shim.js&lt;/a&gt; を使って、スクリプト読み込み時にエラーを出さない&lt;/li&gt;
+&lt;li&gt;ブラウザを判別して、ごめんなさいメッセージを出す。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;es5-shim.jsで AWS SDK が動くかどうかまでは流石に調べる気にならず、戦略的撤退ということで、お願いします・・・。&lt;/p&gt;
+
+&lt;h2 id=&#34;設置方法がなに言ってるかわからない:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;設置方法がなに言ってるかわからない&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt; のページからダウンロードや設置方法にリンクが張られてるのですが、うーん、難しくないものの確かに少し面倒かもしれないですね。&lt;/p&gt;
+
+&lt;p&gt;もし js2kintone を使ってみたいんだけどよく分からん、という方がいらっしゃいましたら、有料設置サービスも行っておりますので、ぜひ&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;AWS Lambda available in Tokyo! を記念しているのに、 js2kintone がオレゴンをオススメしているのは仕様です。探さないでください(^_^;&lt;/p&gt;
+
+&lt;p&gt;ドキュメントはいつも最後なんです、ソース読みましょう。ではでは (^^)/&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AWSとkintoneで実現するハイスピードSI</title>
@@ -203,6 +273,39 @@
 &lt;h2 id=&#34;その他開発実績-抜粋:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;その他開発実績（抜粋）&lt;/h2&gt;
 
 &lt;div id=&#34;caselist&#34;&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>執筆者Profile : 西島 幸一郎</title>
+      <link>https://www.r3it.com/blog/author/nishijima/</link>
+      <pubDate>Wed, 01 Jul 2015 09:36:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/author/nishijima/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪の会社であるアールスリーインスティテュートに、沖縄のワンコ×2がいる部屋からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。&lt;/p&gt;
+
+&lt;p&gt;オープンソースとクラフトビールをこよなく愛する。&lt;/p&gt;
+
+&lt;h2 id=&#34;コミュニティ活動:2e5d4427da0df1a4fa21acbfbca81f5d&#34;&gt;コミュニティ活動&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/okinawa/&#34;&gt;JAWS-UG沖縄&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;アマゾンデータサービスジャパン公認 AWSサムライ2013および2014&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hackers-champloo.org/&#34;&gt;ハッカーズチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cloud-champloo.org/&#34;&gt;クラウドチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/nishijima.koichiro&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/k_nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -837,206 +940,6 @@ var js2kintoneConfig = {
 &lt;p&gt;kintone で作ったアプリをHTMLに埋め込むJavaScriptライブラリです。これを利用することで手軽に kintoneアプリをあなたのWebサイトに公開できます！&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt;について、詳しくはこちら。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Caféへの貢献</title>
-      <link>https://www.r3it.com/community/kintonecafe/</link>
-      <pubDate>Mon, 08 Jun 2015 15:00:25 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/kintonecafe/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone Café&#34; title=&#34;kintone Café&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt;（きんとーんかふぇ） とは、まだサイボウズ社の&lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt;に触れたことの無い方から、より高度なカスタマイズを行いたいと考えているプロフェッショナルの方まで幅広い層を対象に、 楽しく学び・教え合うことで、kintoneの魅力や活用法をみんなで共有するための勉強会コミュニティです。&lt;a href=&#34;https://www.facebook.com/kintoneCafe&#34;&gt;Facebookページはこちら&lt;/a&gt;になります。&lt;/p&gt;
-
-&lt;p&gt;北は北海道（札幌）から、南は沖縄まで、日本全国で勉強会を開催しておりますので、ぜひご参加ください。&lt;a href=&#34;http://kintonecafe.com/category/kintonecafe_schedule/&#34;&gt;勉強会の開催日程&lt;/a&gt;はこちらになります。&lt;/p&gt;
-
-&lt;h2 id=&#34;contributions:68e1c82aa3cd089025badfc61727e4d5&#34;&gt;Contributions&lt;/h2&gt;
-
-&lt;p&gt;弊社の金春（こんぱる）がkintone Café全国事務局メンバーを努めさせて頂いております。また金春はサイボウズ社公認の「kintone エバンジェリスト」として任命されております。
-池上はkintone Café運営メンバーとして、イベント運営に協力しています。&lt;/p&gt;
-
-&lt;p&gt;また、アールスリーインスティテュートとしてkintone CaféのWebサーバ&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;http://kintonecafe.com/&lt;/a&gt;を提供させて頂いております。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-café-およびサイボウズ社のイベント登壇資料:68e1c82aa3cd089025badfc61727e4d5&#34;&gt;kintone Café およびサイボウズ社のイベント登壇資料&lt;/h2&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-&lt;tbody&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年6月24日&lt;/td&gt;
-  &lt;td&gt;kintone Café 福岡&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150624-kintone-caf&#34; target=&#34;_blank&#34;&gt;
-    ハイスピードSIの世界へようこそ&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年5月22日&lt;/td&gt;
-  &lt;td&gt;kintone hive&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150522-kintone-hive&#34; target=&#34;_blank&#34;&gt;
-    R3のkintone活用法&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td nowrap&gt;2015年5月30日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG高知 第6回&lt;br&gt;kintone Café 高知 Vol.2&lt;br&gt;合同勉強会&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150530-jawsug-kintone-cafkochi&#34; target=&#34;_blank&#34;&gt;
-    AWSとハイスピードSIの世界へようこそ&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JAWS-UGへの貢献</title>
-      <link>https://www.r3it.com/community/jawsug/</link>
-      <pubDate>Mon, 08 Jun 2015 11:36:43 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/jawsug/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/community/jawsug-logo_768.png&#34; alt=&#34;JAWS-UG&#34; title=&#34;JAWS-UG&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jaws-ug.jp/&#34;&gt;JAWS-UG&lt;/a&gt;（じょうずゆーじー）とは、日本全国に50以上の支部を持つ Amazon Web Services のユーザーグループです。完全コミュニティ主導で活動しており、全国の各支部では AWS に関する様々な技術勉強会や人材交流が、毎週のように行われています。&lt;/p&gt;
-
-&lt;h2 id=&#34;contributions:e3fa96a76d3011a52c8f9efc79b98207&#34;&gt;Contributions&lt;/h2&gt;
-
-&lt;p&gt;弊社の金春（こんぱる）がJAWS-UG全国代表・JAWS-UG大阪のコアメンバー、池上がJAWS-UG関西女子会のコアメンバー、西島がJAWS-UG沖縄のコアメンバーとして活動しております。&lt;/p&gt;
-
-&lt;p&gt;また、GitHub上のJAWS-UGリポジトリへの&lt;a href=&#34;https://github.com/jaws-ug&#34;&gt;コンテンツコントリビュート&lt;/a&gt;も積極的に行っています。&lt;/p&gt;
-
-&lt;p&gt;アールスリーインスティテュートとしては、コミュニティ主催のイベントへのスポンサードや、各種イベントへの社員の登壇、イベント運営を積極的に支援しています。&lt;/p&gt;
-
-&lt;h2 id=&#34;jaws-ug登壇資料:e3fa96a76d3011a52c8f9efc79b98207&#34;&gt;JAWS-UG登壇資料&lt;/h2&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-&lt;tbody&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年6月3日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG東京&lt;br&gt;(AWS Summit Tokyo2015)&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150603-jawsug-tokyo-aws-summit&#34;&gt;
-    JAWS-UGやってると起きたこと&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td nowrap&gt;2015年5月30日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG高知 第6回&lt;br&gt;kintone Café 高知 Vol.2&lt;br&gt;合同勉強会&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150530-jawsug-kintone-cafkochi&#34;&gt;
-    AWSとハイスピードSIの世界へようこそ&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年4月25日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG沖縄&lt;br&gt;Cloud on the Beach 2015&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150425-jawsug-okinawa&#34;&gt;
-    ハイスピードSIの世界へようこそ&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年3月22日&lt;/td&gt;
-  &lt;td&gt;JAWS DAYS 2015&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/KoichiroNishijima/jaws-days-2015-r3&#34;&gt;
-    アールスリーインスティテュート ランチセッション&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Koichiro Nishijima&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年3月21日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG総会&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/KoichiroNishijima/jawsug2015&#34;&gt;
-    地方のコミュニティドライブについて&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Koichiro Nishijima&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年3月21日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG総会&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150321-jawsug-leaders-meeting&#34;&gt;
-    JAWS-UGやってたら起きたこと&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年3月7日&lt;/td&gt;
-  &lt;td&gt;Fukuoka Meetup Community&lt;br&gt;クラウド呉越同舟&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150307-fukuoka-meetup-community-jawsug&#34;&gt;
-    今からはじめるAWS乱舞&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年2月21日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG広島&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/jaws-ug-hiroshima20150221&#34;&gt;
-    AWSはどういうところから&lt;br&gt;使いはじめられているのか？&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年2月7日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG関西 Special&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/KoichiroNishijima/20150207-sqs&#34;&gt;
-    Amazon SQS&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Koichiro Nishijima&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年2月7日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG関西 Special&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/jawsug-kansaispecialkinesis20150207&#34;&gt;
-    Amazon Kinesis&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年2月7日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG関西 Special&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/jawsug-kansaispecialaurora20150207&#34;&gt;
-    Amazon RDS for Aurora&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年1月24日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG沖縄&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/KoichiroNishijima/20150124-cdp&#34;&gt;
-    CDP道場 in JAWS-UG沖縄&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Koichiro Nishijima&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年1月21日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG関西女子会&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/dolly6ca/20150121-jawsug-43786912&#34;&gt;
-    えーだぶりゅーえすを完全初心者が触ってみた！&lt;br&gt;Amazon S3編&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Midori Ikegami&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2015年1月21日&lt;/td&gt;
-  &lt;td&gt;JAWS-UG関西女子会&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://www.slideshare.net/tkonparu/20150121-jawsug&#34;&gt;
-    AWSをはじめよう&lt;/a&gt;&lt;/td&gt;
-  &lt;td&gt;Toshiyuki Konparu&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;（2014年以前も多数ありますが省略）&lt;/p&gt;
 </description>
     </item>
     

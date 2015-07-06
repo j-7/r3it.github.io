@@ -5,8 +5,111 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Jun 2015 21:06:49 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2015 18:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone で作ったアプリを HTML に埋め込む js2kintone のご紹介</title>
+      <link>https://www.r3it.com/blog/kintone/js2kintone/</link>
+      <pubDate>Mon, 06 Jul 2015 18:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/js2kintone/</guid>
+      <description>
+
+&lt;p&gt;西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;今日は少し出遅れましたが AWS Lambda available in Tokyo! を記念しまして、先日オープンソースで公開しました &lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt; のご紹介をしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;その前に、kintone とは？という方がいらっしゃいましたら、&lt;a href=&#34;https://www.r3it.com/blog/kintone/what_is_kintone/&#34;&gt;こちらの弊社ブログ&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;js2kintone-とは:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;js2kintone とは？&lt;/h1&gt;
+
+&lt;p&gt;js2kintone は kintone で作成したアプリを HTML ファイルに埋め込むことが出来る JavaScript ライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
+
+&lt;h1 id=&#34;システム概要:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;システム概要&lt;/h1&gt;
+
+&lt;p&gt;システム概要は、以下のようになっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/js2kintone-overview.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/js2kintone-overview.png&#34; width=&#34;640&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;これ、いまご覧の弊社Webサイトが、この構成になっています。技術要素をかいつまんで説明しますと、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;HUGO&lt;/a&gt; でHTMLファイル生成&lt;/li&gt;
+&lt;li&gt;Amazon S3 にてWebホスティング&lt;/li&gt;
+&lt;li&gt;Amazon CloudFront でコンテンツ配信 + Server Name Indication（SNI）独自 SSL&lt;/li&gt;
+&lt;li&gt;問い合わせフォームでブラウザが直接 AWS Lambda を呼び出し、内容は最終的に kintone のアプリに格納&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;という流れです。&lt;/p&gt;
+
+&lt;p&gt;ブラウザから直接 Lambda を呼び出す例は、意外とまだ少ないようですので、参考にして頂ければと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;格安でのキャンペーン-コーポレートサイトのホスティングに最適:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;格安でのキャンペーン/コーポレートサイトのホスティングに最適&lt;/h1&gt;
+
+&lt;p&gt;「&lt;a href=&#34;http://aws.amazon.com/jp/s3-hosting/&#34;&gt;月額10円〜レンタルサーバを始める方法&lt;/a&gt;」を活用する際にいつもお困りネタの「お問い合わせフォームどうするの？」という問題に対して js2kintone を利用すると、ほぼ無料でお問い合わせフォーム付きのコーポレートサイトを作ることが出来ます（勿論、若干のAWS費用と、そもそもの kintone の費用は掛かりますよ！）。&lt;/p&gt;
+
+&lt;h1 id=&#34;以下いくつかのfaqにお応えしていきます:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;以下いくつかのFAQにお応えしていきます。&lt;/h1&gt;
+
+&lt;h2 id=&#34;古いブラウザはどうするの:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;古いブラウザはどうするの？&lt;/h2&gt;
+
+&lt;p&gt;いいところに気づきましたね。 AWS SDK for JavaScript in the Browser の &lt;a href=&#34;http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/browser-intro.html&#34;&gt;Browser Support&lt;/a&gt; はこちらにあるとおりです。いわゆるモダンブラウザ、ですね。&lt;/p&gt;
+
+&lt;p&gt;js2kintone では、モダンではないブラウザに対しては、以下の様なアプローチで対応しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/es-shims/es5-shim&#34;&gt;es5-shim.js&lt;/a&gt; を使って、スクリプト読み込み時にエラーを出さない&lt;/li&gt;
+&lt;li&gt;ブラウザを判別して、ごめんなさいメッセージを出す。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;es5-shim.jsで AWS SDK が動くかどうかまでは流石に調べる気にならず、戦略的撤退ということで、お願いします・・・。&lt;/p&gt;
+
+&lt;h2 id=&#34;設置方法がなに言ってるかわからない:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;設置方法がなに言ってるかわからない&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt; のページからダウンロードや設置方法にリンクが張られてるのですが、うーん、難しくないものの確かに少し面倒かもしれないですね。&lt;/p&gt;
+
+&lt;p&gt;もし js2kintone を使ってみたいんだけどよく分からん、という方がいらっしゃいましたら、有料設置サービスも行っておりますので、ぜひ&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;AWS Lambda available in Tokyo! を記念しているのに、 js2kintone がオレゴンをオススメしているのは仕様です。探さないでください(^_^;&lt;/p&gt;
+
+&lt;p&gt;ドキュメントはいつも最後なんです、ソース読みましょう。ではでは (^^)/&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>執筆者Profile : 西島 幸一郎</title>
+      <link>https://www.r3it.com/blog/author/nishijima/</link>
+      <pubDate>Wed, 01 Jul 2015 09:36:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/author/nishijima/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪の会社であるアールスリーインスティテュートに、沖縄のワンコ×2がいる部屋からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。&lt;/p&gt;
+
+&lt;p&gt;オープンソースとクラフトビールをこよなく愛する。&lt;/p&gt;
+
+&lt;h2 id=&#34;コミュニティ活動:2e5d4427da0df1a4fa21acbfbca81f5d&#34;&gt;コミュニティ活動&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/okinawa/&#34;&gt;JAWS-UG沖縄&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;アマゾンデータサービスジャパン公認 AWSサムライ2013および2014&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hackers-champloo.org/&#34;&gt;ハッカーズチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cloud-champloo.org/&#34;&gt;クラウドチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/nishijima.koichiro&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/k_nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 福岡 Vol.5 参加レポート</title>
@@ -598,110 +701,6 @@ Facebookのアカウントがあれば、すぐにメンバー登録できます
 是非お試しください。&lt;/p&gt;
 
 &lt;p&gt;通常のライセンスとは異なるいくつかの制約がありますが、開発上困ることはないと思います。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Kintoneアプリに登録したデータ（レコード）を、一括で削除する方法</title>
-      <link>https://www.r3it.com/blog/kintone/tips0010/</link>
-      <pubDate>Thu, 13 Nov 2014 21:25:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/tips0010/</guid>
-      <description>
-
-&lt;p&gt;kintoneでデータの「一括削除機能」を有効にする方法をご紹介します。&lt;/p&gt;
-
-&lt;h1 id=&#34;最初は表示されていない:cd5c4e1bb5bc04026c7a8345753a8c56&#34;&gt;最初は表示されていない&lt;/h1&gt;
-
-&lt;p&gt;下図のようにアプリには一見したところ、「一括削除機能」は見当たりません。
-「一括削除機能」には、以下のような条件（設定）があります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0000.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0000-1024x805.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;アプリの管理権限が必要。&lt;/li&gt;
-&lt;li&gt;あらかじめアプリの設定を変更し、一括削除機能を有効にする必要がある。&lt;/li&gt;
-&lt;li&gt;１度に削除できるレコード数は４万件まで。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;ここでは（２）の「一括削除機能を有効」にする方法を説明します。
-（kintoneユーザーヘルプにも記述されています）&lt;/p&gt;
-
-&lt;p&gt;一括削除機能を有効にする
-1. アプリの設定画面を開きます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0001.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0001-1024x761.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;[高度な設定]をクリックします。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0002.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0002-1024x761.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
- 
-
-&lt;ol&gt;
-&lt;li&gt;「レコード一括削除を有効にする」のチェックボックスを選択します。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0003.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0003-1024x765.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
- 
-
-&lt;p&gt;設定を完了したら、アプリのレコードの一覧画面を開いてください。
-下図のように「一括削除」が選択できるようになります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone0004.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone0004-1024x758.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintoneって何？</title>
-      <link>https://www.r3it.com/blog/kintone/what_is_kintone/</link>
-      <pubDate>Mon, 10 Nov 2014 18:27:13 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/what_is_kintone/</guid>
-      <description>
-
-&lt;p&gt;こんにちは、金春です。
-今日は、kintoneって何？っていう方のために、簡単にkintoneのご紹介をしたいと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;kintoneとは:b93b2aa5941c0c97148bd5c82bf8d0c7&#34;&gt;kintoneとは？&lt;/h1&gt;
-
-&lt;p&gt;kintoneはサイボウズ株式会社が運営する「ファストシステムプラットフォーム」です。
-「ファストシステム？」と思われた方も多いと思います。&lt;/p&gt;
-
-&lt;p&gt;「ファストシステム」とは、ファストフードのように短時間に提供されるシステムのことです。&lt;/p&gt;
-
-&lt;h1 id=&#34;kintoneで何ができるの:b93b2aa5941c0c97148bd5c82bf8d0c7&#34;&gt;kintoneで何ができるの？&lt;/h1&gt;
-
-&lt;p&gt;アプリテンプレートとして用意されている案件管理をみてみましょう。&lt;/p&gt;
-
-&lt;p&gt;アプリを起動すると案件のリストが表示されています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone_list.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone_list-300x233.png&#34; alt=&#34;kintone_list&#34; width=&#34;300&#34; height=&#34;233&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
- 
-
-&lt;p&gt;このうち１つをクリックすると、詳細画面になりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone_detail.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone_detail-300x227.png&#34; alt=&#34;kintone_detail&#34; width=&#34;300&#34; height=&#34;227&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;編集ボタンをクリックすると&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintone_edit.png&#34; data-lightbox=&#34;kintone&#34;&gt;&lt;img class=&#34;img-thumbnail&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintone_edit-300x228.png&#34; alt=&#34;kintone_edit&#34; width=&#34;300&#34; height=&#34;228&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;編集画面になりましたね。&lt;/p&gt;
-
-&lt;p&gt;こういったアプリがとても簡単に作成できます。&lt;/p&gt;
-
-&lt;h1 id=&#34;kintoneを始めるには:b93b2aa5941c0c97148bd5c82bf8d0c7&#34;&gt;kintoneを始めるには？&lt;/h1&gt;
-
-&lt;p&gt;kintoneは30日間無料でお試しができます。&lt;/p&gt;
-
-&lt;p&gt;kintoneのウェブサイトから登録することで30日間利用できますので、まずはお試してアカウントを取得してみて試してみてください。&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ:b93b2aa5941c0c97148bd5c82bf8d0c7&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;kintoneを使うと、業務アプリを非常に短時間で開発することができます。
-このブログでは、これからkintoneの様々な使い方をご紹介していきます。&lt;/p&gt;
 </description>
     </item>
     
