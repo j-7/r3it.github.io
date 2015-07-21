@@ -5,8 +5,196 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jul 2015 17:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2015 14:04:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について</title>
+      <link>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/</link>
+      <pubDate>Tue, 21 Jul 2015 14:04:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/</guid>
+      <description>
+
+&lt;p&gt;2015年7月15日水曜日に、kintone Café 大阪 Vol.3でJavaScriptを利用したカスタマイズハンズオンを行いました。&lt;/p&gt;
+
+&lt;p&gt;今回はその時のハンズオンの内容を少し補足した形でブログを書こうと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;わたしのこと:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;わたしのこと&lt;/h1&gt;
+
+&lt;p&gt;kintone Café大阪には前職の時から参加はしていたものの、早々と登壇デビューを飾ることになってしまったいけがみみどりです。&lt;/p&gt;
+
+&lt;p&gt;まだまだサンプルコードに毛が生えた程度のスクリプトしか書けないわたしが、公開処刑のごとくカスタマイズハンズオンに挑戦することに！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-002.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-002.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ということで、kintone Café大阪で行ってきたカスタマイズハンズオンの概要について、ざっくりブログでご報告したいと思います( ˘ ³˘)❤ ﾟ+｡:.ﾟ&lt;/p&gt;
+
+&lt;h1 id=&#34;そもそもカスタマイズってどんなこと:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;そもそもカスタマイズってどんなこと？&lt;/h1&gt;
+
+&lt;p&gt;kintoneにおけるカスタマイズは、ざっくり説明すると以下のようなことを指します。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;データの取り込み、外部システムとの連携&lt;/li&gt;
+&lt;li&gt;JavaScript/CSSを利用して高度な機能を利用する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-003.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-003.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;要は画面上で行える設定以上のことをするイメージですね(&amp;lsquo;ω&amp;rsquo;*)&lt;/p&gt;
+
+&lt;p&gt;もちろん、標準機能だけでもそれなりに見た目の良いアプリがノンプログラミングで簡単に作れてしまいます。&lt;/p&gt;
+
+&lt;p&gt;Excelやcsv形式のデータであればそのままの形式を維持してインポート出来たりもするので、既存の管理方法から大きな変更を加えることなくクラウドにデータを移行することも可能になります。&lt;/p&gt;
+
+&lt;p&gt;しかし今回のkintone Caféは少し応用編！
+…ということで、今回は参加者の皆様に、JavaScriptを利用したカスタマイズに挑戦して頂きました。&lt;/p&gt;
+
+&lt;h1 id=&#34;用意したアプリについて:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;用意したアプリについて&lt;/h1&gt;
+
+&lt;p&gt;今回そんな参加者の方々にご用意させて頂いたのは、当方で予め作成したJavaScriptのサンプルコード。&lt;/p&gt;
+
+&lt;p&gt;以下の2つです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;バリデーション&lt;/li&gt;
+&lt;li&gt;住所から地図を表示するアプリ（OpenLayerを利用）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;このサンプルコードを、用意した顧客リストアプリに登録して挙動を確認します。&lt;/p&gt;
+
+&lt;p&gt;顧客リストは、一般的な名前や住所等を登録することが出来るものです。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-001.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-001.jpg&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;サンプルコードの説明に入る前に、まずはkintoneにおけるJavaScriptのカスタマイズのルールについて簡単におさらいしましょう。&lt;/p&gt;
+
+&lt;h1 id=&#34;javascriptの記述ルール:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;javascriptの記述ルール&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;拡張子は.jsで保存&lt;/li&gt;
+&lt;li&gt;ファイル名の拡張子は表示しておいたほうが良い。
+（じゃないとテキストとかで保存されててスクリプト動かないよ！なんてことも…）&lt;/li&gt;
+&lt;li&gt;文字コードはUTF-8で保存
+（異なる文字コードで保存すると文字化けする原因に！）&lt;/li&gt;
+&lt;li&gt;即時関数パターンで記述&lt;/li&gt;
+&lt;li&gt;strictモードを使用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;即時関数パターンとは:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;即時関数パターンとは&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;関数を定義するのと同時に実行もする。&lt;/li&gt;
+&lt;li&gt;スコープ汚染防止（kintoneで即時関数を採用している一番の理由）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;スコープ汚染についての説明は以下のサイトに詳しく書かれています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://analogic.jp/immediate-function/#scope&#34;&gt;http://analogic.jp/immediate-function/#scope&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;記述方法&lt;/b&gt;
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
+    // 処理の内容を記述する
+}());
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;strictモードとは:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;strictモードとは&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“use strict”と宣言する&lt;/li&gt;
+&lt;li&gt;記述ミス防止目的&lt;/li&gt;
+&lt;li&gt;明示的に「使う」と宣言しないと使えないモード&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;記述方法&lt;/b&gt;
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
+　　&amp;rdquo;use strict&amp;rdquo;;
+    // 処理の内容を記述する
+}());
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;kintone独自のイベント処理について:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;kintone独自のイベント処理について&lt;/h1&gt;
+
+&lt;p&gt;kintoneにはkintone独自のイベントがあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/sections/200418540&#34;&gt;https://cybozudev.zendesk.com/hc/ja/sections/200418540&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;レコード一覧イベント（表示、保存、変更など）&lt;/li&gt;
+&lt;li&gt;レコード表示イベント（詳細画面表示、削除前など）&lt;/li&gt;
+&lt;li&gt;レコード追加イベント（表示、保存など）&lt;/li&gt;
+&lt;li&gt;レコード編集イベント（表示、保存など）&lt;/li&gt;
+&lt;li&gt;グラフ表示イベント （PC用のみ）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;どのタイミングで「処理を実行するか」&lt;/b&gt;ということを宣言するものです。&lt;/p&gt;
+
+&lt;p&gt;例えば…&lt;/p&gt;
+
+&lt;p&gt;レコード追加時、保存するタイミングで処理を実行させたい場合は、下記のような書き方になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ex.新規レコード追加時、保存するタイミングで処理Aを実行する。&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
+　　&#34;use strict&#34;;
+　　// 新規レコード追加時のイベント
+    kintone.events.on(&#39;app.record.create.submit&#39;, function (event){
+
+    // （処理A）
+    ・・・
+}());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ここでは、複数イベント指定することも可能です。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ex.新規レコード追加時または既存レコード編集時、保存するタイミングで処理Aを実行する。&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
+　　&#34;use strict&#34;;
+　　// 新規レコード追加時または既存レコード編集時のイベント
+    kintone.events.on([&#39;app.record.create.submit&#39;, &#39;app.record.edit.submit&#39;], function (event){
+
+    // （処理A）
+    ・・・
+}());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以上が、kintoneにおける基本的なJavaScriptによるカスタマイズのルールになります。&lt;/p&gt;
+
+&lt;p&gt;次回は、実際にカスタマイズで利用したサンプルコードの説明をしていきたいと思います！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>執筆者Profile : 池上 緑</title>
+      <link>https://www.r3it.com/blog/author/ikegami/</link>
+      <pubDate>Fri, 17 Jul 2015 19:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/author/ikegami/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;よく間違われるが正真正銘のエンジニア。肩書きはクラウドエンジニア。アールスリーでは（kintone専属？）フロントエンジニアやってるよ！コミュニティの運営したり、勉強会やハッカソンでコスプレして参加したり。&lt;/p&gt;
+
+&lt;p&gt;もはや中の人が認知されないレベルになっているという説も。&lt;/p&gt;
+
+&lt;h2 id=&#34;コミュニティ活動:8be94feebe910eded9cd4fd0997ca245&#34;&gt;コミュニティ活動&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/JAWSUG.KGA&#34;&gt;JAWS-UG関西女子会&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt; 運営メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vmware-usergroup.jp/&#34;&gt;VMUG（VMwareユーザー会）&lt;/a&gt; 関西部会メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;phpカンファレンス関西&lt;/a&gt; 運営スタッフ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>第5回JAWS-UGくまもと　クラウド勉強会に参加しました</title>
@@ -723,248 +911,6 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
 &lt;p&gt;&lt;a href=&#34;https://event.nikkeibp.co.jp/reg/contents/cd_n_2015/index.html#C-13B&#34;&gt;https://event.nikkeibp.co.jp/reg/contents/cd_n_2015/index.html#C-13B&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;皆様のお越しを心よりお待ちしております。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone無料体験会申し込み</title>
-      <link>https://www.r3it.com/freecontact/</link>
-      <pubDate>Tue, 16 Jun 2015 15:27:05 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/freecontact/</guid>
-      <description>
-
-&lt;h2 id=&#34;折り返し担当者よりご連絡させていただきます:b27df905cade8b5bbcfd130dabd7d09b&#34;&gt;折り返し担当者よりご連絡させていただきます。&lt;/h2&gt;
-
-&lt;p&gt;&lt;link type=&#34;text/css&#34; href=&#34;//ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css&#34; rel=&#34;stylesheet&#34; /&gt;&lt;/p&gt;
-
-&lt;script type=&#34;text/javascript&#34;&gt;
-var js2kintoneConfig = {
-  id: &#39;QUtJQUk3UlRNM1QyWVpZT0RISFE=%a3Q3am5idnUvSlZ2TFFkczhFNkNuaDNEWGZzU3VXNDA5eUw1bkdhWQ==&#39;,
-  region: &#39;us-west-2&#39;,
-  lambdaFunc: &#39;js2kintone-freecontact&#39;,
-  template: &#39;/kintone-freecontact.html&#39;,
-  successMsg: &#39;お問い合わせいただき、ありがとうございました。&#39;
-};
-&lt;/script&gt;
-&lt;!--[if lt IE 10]&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.r3it.com/js/es5-shim.min.js&#34;&gt;&lt;/script&gt;
-&lt;![endif]--&gt;
-&lt;script src=&#34;https://www.r3it.com/js/js2kintone-freecontact.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;js2kintoneRender&#34;&gt;&lt;/div&gt;
-&lt;div id=&#34;js2kintoneNonsupport&#34; style=&#34;display: none&#34;&gt;
-  &lt;h3&gt;大変申し訳ありません、ご利用のブラウザはお問い合わせフォームに対応していません。&lt;/h3&gt;
-  &lt;p&gt;こちらの&lt;a href=&#34;mailto:info@r3it.com&#34;&gt;メールアドレス&lt;/a&gt;に直接お問い合わせくださいますよう、お願いいたします。&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;入力された情報は暗号化して送信されます:b27df905cade8b5bbcfd130dabd7d09b&#34;&gt;入力された情報は暗号化して送信されます&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Connector for talend</title>
-      <link>https://www.r3it.com/community/oss/kc4t/</link>
-      <pubDate>Mon, 08 Jun 2015 16:23:36 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/oss/kc4t/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
-
-&lt;h2 id=&#34;機能:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;機能&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/li&gt;
-&lt;li&gt;RDBMSからkintoneへレコードのインポート（近日公開予定）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;必要な環境:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;必要な環境&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintone SDK for Java version 0.6以降 &lt;a href=&#34;https://github.com/kintone/java-sdk&#34;&gt;https://github.com/kintone/java-sdk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JDK 7以降&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;機能詳細:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;機能詳細&lt;/h2&gt;
-
-&lt;h3 id=&#34;kintoneからjdbc接続可能なrdbmsへのレコードのエクスポート:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneアプリを元に自動的にテーブルスキーマを作成します&lt;/li&gt;
-&lt;li&gt;レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします&lt;/li&gt;
-&lt;li&gt;エクスポート時にクエリを指定可能です&lt;/li&gt;
-&lt;li&gt;実行ジョブのステータスはジョブステータス格納用テーブルに記録されます&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;インストールと使い方:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;インストールと使い方&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;https://github.com/r3it/kc4t&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;ファイルの設置と設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;ファイルの設置と設定&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt;を起動します&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;カスタムコンポーネント&amp;rdquo; フォルダを設定します
-
-&lt;ul&gt;
-&lt;li&gt;例として&amp;rdquo;Custom Components&amp;rdquo;という名前のフォルダを、ハードディスクのどこかに作成します&lt;/li&gt;
-&lt;li&gt;Studioの設定画面で Window-&amp;gt; Preferences-&amp;gt; Talend-&amp;gt; Components と遷移します&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;User component folder&amp;rdquo; にいま作成した&amp;rdquo;Custom Components&amp;rdquo;フォルダを設定します&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;設定パラメータ:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;設定パラメータ&lt;/h2&gt;
-
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;jdbc設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;JDBC設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Username&lt;/td&gt;
-&lt;td&gt;JDBC接続時のユーザ名&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Password&lt;/td&gt;
-&lt;td&gt;JDBC接続時のパスワード&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JDBC URL&lt;/td&gt;
-&lt;td&gt;JDBC URL&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Driver Class name&lt;/td&gt;
-&lt;td&gt;JDBCドライバのクラス名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;出力先テーブル名の設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;出力先テーブル名の設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Export table prefix&lt;/td&gt;
-&lt;td&gt;データをエクスポートするテーブル名の接頭辞&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JobReport table name&lt;/td&gt;
-&lt;td&gt;ジョブ結果を格納するテーブル名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;kintoneの設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;kintoneの設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;API token&lt;/td&gt;
-&lt;td&gt;接続するkintoneアプリの API token&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Sub domain&lt;/td&gt;
-&lt;td&gt;接続するアプリのサブドメイン&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;kintone AppId&lt;/td&gt;
-&lt;td&gt;アプリID（数値で指定します）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Guest SpaceId&lt;/td&gt;
-&lt;td&gt;もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;query&lt;/td&gt;
-&lt;td&gt;クエリパラメータを利用する場合、ここに設定します。何も設定しなければ、コンポーネントはすべてのレコードのエクスポートを試みます。&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;order by field&lt;/td&gt;
-&lt;td&gt;デフォルトは &amp;ldquo;RECORD_NUMBER&amp;rdquo; です。あなたのアプリケーションが &amp;ldquo;RECORD_NUMBER&amp;rdquo; を持っていない場合、ソートに利用するフィールド名を指定してください。&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;retrieve revision field&lt;/td&gt;
-&lt;td&gt;デフォルトは &amp;ldquo;true&amp;rdquo; です。チェックを外すと、REVISIONフィールドを取得しません。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;出力結果:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;出力結果&lt;/h2&gt;
-
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JobId&lt;/td&gt;
-&lt;td&gt;ジョブID（テーブルの接尾詞になります）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;MainTable&lt;/td&gt;
-&lt;td&gt;エクスポートされたテーブル名&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;SubTables&lt;/td&gt;
-&lt;td&gt;サブテーブルがあった場合、それらのテーブル名がカンマ区切りで入ります。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;その他:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;その他&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;現在のところテーブルは削除されません。ジョブが実行されるたびに、新たにテーブルが作成されます。&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

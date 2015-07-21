@@ -5,8 +5,196 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Jul 2015 18:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2015 14:04:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について</title>
+      <link>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/</link>
+      <pubDate>Tue, 21 Jul 2015 14:04:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/</guid>
+      <description>
+
+&lt;p&gt;2015年7月15日水曜日に、kintone Café 大阪 Vol.3でJavaScriptを利用したカスタマイズハンズオンを行いました。&lt;/p&gt;
+
+&lt;p&gt;今回はその時のハンズオンの内容を少し補足した形でブログを書こうと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;わたしのこと:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;わたしのこと&lt;/h1&gt;
+
+&lt;p&gt;kintone Café大阪には前職の時から参加はしていたものの、早々と登壇デビューを飾ることになってしまったいけがみみどりです。&lt;/p&gt;
+
+&lt;p&gt;まだまだサンプルコードに毛が生えた程度のスクリプトしか書けないわたしが、公開処刑のごとくカスタマイズハンズオンに挑戦することに！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-002.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-002.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ということで、kintone Café大阪で行ってきたカスタマイズハンズオンの概要について、ざっくりブログでご報告したいと思います( ˘ ³˘)❤ ﾟ+｡:.ﾟ&lt;/p&gt;
+
+&lt;h1 id=&#34;そもそもカスタマイズってどんなこと:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;そもそもカスタマイズってどんなこと？&lt;/h1&gt;
+
+&lt;p&gt;kintoneにおけるカスタマイズは、ざっくり説明すると以下のようなことを指します。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;データの取り込み、外部システムとの連携&lt;/li&gt;
+&lt;li&gt;JavaScript/CSSを利用して高度な機能を利用する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-003.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-003.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;要は画面上で行える設定以上のことをするイメージですね(&amp;lsquo;ω&amp;rsquo;*)&lt;/p&gt;
+
+&lt;p&gt;もちろん、標準機能だけでもそれなりに見た目の良いアプリがノンプログラミングで簡単に作れてしまいます。&lt;/p&gt;
+
+&lt;p&gt;Excelやcsv形式のデータであればそのままの形式を維持してインポート出来たりもするので、既存の管理方法から大きな変更を加えることなくクラウドにデータを移行することも可能になります。&lt;/p&gt;
+
+&lt;p&gt;しかし今回のkintone Caféは少し応用編！
+…ということで、今回は参加者の皆様に、JavaScriptを利用したカスタマイズに挑戦して頂きました。&lt;/p&gt;
+
+&lt;h1 id=&#34;用意したアプリについて:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;用意したアプリについて&lt;/h1&gt;
+
+&lt;p&gt;今回そんな参加者の方々にご用意させて頂いたのは、当方で予め作成したJavaScriptのサンプルコード。&lt;/p&gt;
+
+&lt;p&gt;以下の2つです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;バリデーション&lt;/li&gt;
+&lt;li&gt;住所から地図を表示するアプリ（OpenLayerを利用）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;このサンプルコードを、用意した顧客リストアプリに登録して挙動を確認します。&lt;/p&gt;
+
+&lt;p&gt;顧客リストは、一般的な名前や住所等を登録することが出来るものです。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-001.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-001.jpg&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;サンプルコードの説明に入る前に、まずはkintoneにおけるJavaScriptのカスタマイズのルールについて簡単におさらいしましょう。&lt;/p&gt;
+
+&lt;h1 id=&#34;javascriptの記述ルール:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;javascriptの記述ルール&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;拡張子は.jsで保存&lt;/li&gt;
+&lt;li&gt;ファイル名の拡張子は表示しておいたほうが良い。
+（じゃないとテキストとかで保存されててスクリプト動かないよ！なんてことも…）&lt;/li&gt;
+&lt;li&gt;文字コードはUTF-8で保存
+（異なる文字コードで保存すると文字化けする原因に！）&lt;/li&gt;
+&lt;li&gt;即時関数パターンで記述&lt;/li&gt;
+&lt;li&gt;strictモードを使用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;即時関数パターンとは:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;即時関数パターンとは&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;関数を定義するのと同時に実行もする。&lt;/li&gt;
+&lt;li&gt;スコープ汚染防止（kintoneで即時関数を採用している一番の理由）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;スコープ汚染についての説明は以下のサイトに詳しく書かれています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://analogic.jp/immediate-function/#scope&#34;&gt;http://analogic.jp/immediate-function/#scope&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;記述方法&lt;/b&gt;
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
+    // 処理の内容を記述する
+}());
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;strictモードとは:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;strictモードとは&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“use strict”と宣言する&lt;/li&gt;
+&lt;li&gt;記述ミス防止目的&lt;/li&gt;
+&lt;li&gt;明示的に「使う」と宣言しないと使えないモード&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;記述方法&lt;/b&gt;
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
+　　&amp;rdquo;use strict&amp;rdquo;;
+    // 処理の内容を記述する
+}());
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;kintone独自のイベント処理について:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;kintone独自のイベント処理について&lt;/h1&gt;
+
+&lt;p&gt;kintoneにはkintone独自のイベントがあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/sections/200418540&#34;&gt;https://cybozudev.zendesk.com/hc/ja/sections/200418540&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;レコード一覧イベント（表示、保存、変更など）&lt;/li&gt;
+&lt;li&gt;レコード表示イベント（詳細画面表示、削除前など）&lt;/li&gt;
+&lt;li&gt;レコード追加イベント（表示、保存など）&lt;/li&gt;
+&lt;li&gt;レコード編集イベント（表示、保存など）&lt;/li&gt;
+&lt;li&gt;グラフ表示イベント （PC用のみ）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;どのタイミングで「処理を実行するか」&lt;/b&gt;ということを宣言するものです。&lt;/p&gt;
+
+&lt;p&gt;例えば…&lt;/p&gt;
+
+&lt;p&gt;レコード追加時、保存するタイミングで処理を実行させたい場合は、下記のような書き方になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ex.新規レコード追加時、保存するタイミングで処理Aを実行する。&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
+　　&#34;use strict&#34;;
+　　// 新規レコード追加時のイベント
+    kintone.events.on(&#39;app.record.create.submit&#39;, function (event){
+
+    // （処理A）
+    ・・・
+}());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ここでは、複数イベント指定することも可能です。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ex.新規レコード追加時または既存レコード編集時、保存するタイミングで処理Aを実行する。&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
+　　&#34;use strict&#34;;
+　　// 新規レコード追加時または既存レコード編集時のイベント
+    kintone.events.on([&#39;app.record.create.submit&#39;, &#39;app.record.edit.submit&#39;], function (event){
+
+    // （処理A）
+    ・・・
+}());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以上が、kintoneにおける基本的なJavaScriptによるカスタマイズのルールになります。&lt;/p&gt;
+
+&lt;p&gt;次回は、実際にカスタマイズで利用したサンプルコードの説明をしていきたいと思います！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>執筆者Profile : 池上 緑</title>
+      <link>https://www.r3it.com/blog/author/ikegami/</link>
+      <pubDate>Fri, 17 Jul 2015 19:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/author/ikegami/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;よく間違われるが正真正銘のエンジニア。肩書きはクラウドエンジニア。アールスリーでは（kintone専属？）フロントエンジニアやってるよ！コミュニティの運営したり、勉強会やハッカソンでコスプレして参加したり。&lt;/p&gt;
+
+&lt;p&gt;もはや中の人が認知されないレベルになっているという説も。&lt;/p&gt;
+
+&lt;h2 id=&#34;コミュニティ活動:8be94feebe910eded9cd4fd0997ca245&#34;&gt;コミュニティ活動&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/JAWSUG.KGA&#34;&gt;JAWS-UG関西女子会&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt; 運営メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vmware-usergroup.jp/&#34;&gt;VMUG（VMwareユーザー会）&lt;/a&gt; 関西部会メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;phpカンファレンス関西&lt;/a&gt; 運営スタッフ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone で作ったアプリを HTML に埋め込む js2kintone のご紹介</title>
@@ -594,113 +782,6 @@ kintoneを触ってみたい
 という方は、是非ご参加ください。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café公式サイト&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintoneでテーブルの各行に連番をつける</title>
-      <link>https://www.r3it.com/blog/kintone/autonumbering/</link>
-      <pubDate>Wed, 14 Jan 2015 10:54:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/autonumbering/</guid>
-      <description>
-
-&lt;p&gt;元投稿はQiitaの&lt;a href=&#34;http://qiita.com/t_konparu/items/8bd1da40d0896c3da917&#34;&gt;記事&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;h1 id=&#34;課題:cad6ae68911e167affcf3011f83a9164&#34;&gt;課題&lt;/h1&gt;
-
-&lt;p&gt;kintoneでシステムを作っていると、項目をまとめてテーブル化することがよくあります。
-このとき、テーブルの各行に1行目から順に連番をつけたいということはよくあると思います。&lt;/p&gt;
-
-&lt;p&gt;kintoneの標準の機能ではこれはできないため、JavaScriptでのカスタマイズが必要です。&lt;/p&gt;
-
-&lt;h1 id=&#34;javascriptカスタマイズ:cad6ae68911e167affcf3011f83a9164&#34;&gt;JavaScriptカスタマイズ&lt;/h1&gt;
-
-&lt;p&gt;フィールドコード「receipts」というテーブルの中にフィールドコード「no」というフィールドがあるとします。
-このフィールドに対して保存のタイミングで連番を付与します。&lt;/p&gt;
-
-&lt;p&gt;まず、作成時の編集時のイベントを取得するために、kintone.events.on()でイベントハンドラを登録します。&lt;/p&gt;
-
-&lt;p&gt;イベントハンドラの中では、eventに含まれるrecordオブジェクトを取得し、そこに含まれるreceiptsテーブルのvalueの数を数えておきます。これが行数になります。&lt;/p&gt;
-
-&lt;p&gt;あとは、ループを回しながら各行のnoのvalueに連番を設定していきます。&lt;/p&gt;
-
-&lt;p&gt;コードは以下のようになります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;
-(function() {
-    &#34;use strict&#34;;
-    var events = [
-        &#39;app.record.create.submit&#39;,
-        &#39;app.record.edit.submit&#39;
-    ];
-    kintone.events.on(events, function(event) {
-        var record = event.record;
-        // receiptsテーブルのno欄を自動採番する
-        var count = record.receipts.value.length;
-        for( var i = 0; i &lt; count; i++ ){
-            record.receipts.value[i].value.no.value = i + 1;
-        }
-
-        return event;
-    });
-})();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;簡単ですね。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>cybozu.com developer networkについて</title>
-      <link>https://www.r3it.com/blog/kintone/cybozu-com-developer-network/</link>
-      <pubDate>Mon, 01 Dec 2014 20:02:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/cybozu-com-developer-network/</guid>
-      <description>
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;kintoneを始めたいと思っている方、「お試し期間1ヶ月じゃ試しきれない」という方、
-意外と知らない方も多いかもしれませんので、&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja&#34;&gt;cybozu.com developer network&lt;/a&gt;をご紹介します&lt;/p&gt;
-
-&lt;h1 id=&#34;cybozu-com-developer-networkとは:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;cybozu.com developer networkとは？&lt;/h1&gt;
-
-&lt;p&gt;cybozu.com developer network（長いの以降、CDNと略します）は、cybozu.comの開発者が集まるコミュニティサイトです。
-kintoneなどのカスタマイズ方法について、フォーラムで質問したりすることができます。&lt;/p&gt;
-
-&lt;p&gt;わからないことなどあれば、ここで聞いていただくと、kintoneエバンジェリストの方々などから回答もらえるかもしれません。&lt;/p&gt;
-
-&lt;h1 id=&#34;開発者ライセンスを取得しよう:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;開発者ライセンスを取得しよう&lt;/h1&gt;
-
-&lt;p&gt;CDNのすごいのは、開発者ライセンスがもらえるということです。
-開発者ライセンスをもらうと、1年間kintoneのスタンダードコースが使い放題です。&lt;/p&gt;
-
-&lt;p&gt;ひとまず、CDNのアカウントを取得しましょう。「メンバーになる」をクリックしてください。
-Facebookのアカウントがあれば、すぐにメンバー登録できます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network-1024x838.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;メンバー登録ができたら、登録したアカウントでログインしてください。&lt;/p&gt;
-
-&lt;p&gt;次に赤枠のところをクリック！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network2.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network2-1024x715.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;そして、画面の下の方にある申込みフォームを埋めます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network3.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network3-1024x491.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
- 
-
-&lt;p&gt;「確認する」をクリックして、送信すれば、２〜３日でアカウントがもらえます！
-これでkintone触り放題です！&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;CDNで開発者ライセンスをもらえばじっくりとkintoneを触ることができますので、
-是非お試しください。&lt;/p&gt;
-
-&lt;p&gt;通常のライセンスとは異なるいくつかの制約がありますが、開発上困ることはないと思います。&lt;/p&gt;
 </description>
     </item>
     

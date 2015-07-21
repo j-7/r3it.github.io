@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について | アールスリーインスティテュート</title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    
+    
+
+    <link rel="canonical" href="http://localhost:1313/blog/kintone/20150715_kintonecafe-osaka3/">
+    <meta content="kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について | アールスリーインスティテュート" name="title">
+    
+    <meta name="description" content="2015年7月15日水曜日に、kintone Café 大阪 Vol.3でJavaScriptを利用したカスタマイズハンズオンを行いました。今回はその時のハンズオンの内容を少し補足した形でブログを書こうと思います。">
+
+    <meta name="keywords" content="kintone, 勉強会, javascript, ">
+
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について | アールスリーインスティテュート"/>
+    <meta property="og:description" content="2015年7月15日水曜日に、kintone Café 大阪 Vol.3でJavaScriptを利用したカスタマイズハンズオンを行いました。今回はその時のハンズオンの内容を少し補足した形でブログを書こうと思います。" />
+
+    <meta property="og:url" content="http://localhost:1313/blog/kintone/20150715_kintonecafe-osaka3/" />
+    
+    <meta property="og:image" content="http://localhost:1313/images/r3_logo_wide_og.png"/>
+    
+    <meta property="og:site_name" content="アールスリーインスティテュート">
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+    
+    <link rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-24363556-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+
+<header class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><img src="/images/r3logo_nav.png"></a>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="navbar-collapse collapse" id="bs-navbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/#info">お知らせ</a></li>
+        <li><a href="/solutions/">ハイスピードSI</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="/blog/">ブログ</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/#inquiry"><span class="envelope-style glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="container-fluid" id="breadcrumb-section">
+  <ol class="breadcrumb">
+    <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+    <li><a href="/blog/">R3 Cloud Developers Blog</a></li>
+    <li class="active">kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について</li>
+  </ol>
+</section>
+
+<section class="container-fluid" id="blog-article">
+  <div class="row">
+  	<div class="col-md-3">
+	
+      <h4><small>タグ一覧</small></h4>
+	  <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+        <ul class="nav bs-docs-sidenav">
+          
+          <li><a href="/tags/aws"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a></li>
+          
+          <li><a href="/tags/cloud"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a></li>
+          
+          <li><a href="/tags/etc"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> etc</a></li>
+          
+          <li><a href="/tags/jawsug"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> jawsug</a></li>
+          
+          <li><a href="/tags/kintone"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> kintone</a></li>
+          
+          <li><a href="/tags/oss"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> oss</a></li>
+          
+          <li><a href="/tags/talend"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> talend</a></li>
+          
+        </ul>
+	  </nav>
+
+	</div>
+  	<div class="col-md-8">
+	  <h1>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について</h1>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        <img src="/images/blog/author/ikegami-100x100.png" class="img-circle pull-left" style="margin-right: 20px;">
+  	    <h5>Posted on 2015-07-21 14:04</h5>
+        <h4><a href="/blog/author/ikegami/">Ikegami MIdori</a></h4>
+      </div>
+      
+		
+		
+
+<h1 id="わたしのこと:d26d2bba14e59f98f83e834b0d7ebe8f">わたしのこと</h1>
+
+<p>kintone Café大阪には前職の時から参加はしていたものの、早々と登壇デビューを飾ることになってしまったいけがみみどりです。</p>
+
+<p>まだまだサンプルコードに毛が生えた程度のスクリプトしか書けないわたしが、公開処刑のごとくカスタマイズハンズオンに挑戦することに！</p>
+
+<p><a href="/images/blog/kintone/kintonecafe0715-3-002.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/kintone/kintonecafe0715-3-002.jpg" width="400" /></a></p>
+<br>
+ということで、kintone Café大阪で行ってきたカスタマイズハンズオンの概要について、ざっくりブログでご報告したいと思います( ˘ ³˘)❤ ﾟ+｡:.ﾟ
+<p>
+# そもそもカスタマイズってどんなこと？
+kintoneにおけるカスタマイズは、ざっくり説明すると以下のようなことを指します。
+
+ * データの取り込み、外部システムとの連携
+ * JavaScript/CSSを利用して高度な機能を利用する
+<p><a href="/images/blog/kintone/kintonecafe0715-3-003.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/kintone/kintonecafe0715-3-003.jpg" width="300" /></a></p>
+
+<p><br>
+要は画面上で行える設定以上のことをするイメージですね(&lsquo;ω&rsquo;*)
+<br>
+もちろん、標準機能だけでもそれなりに見た目の良いアプリがノンプログラミングで簡単に作れてしまいます。<br>
+Excelやcsv形式のデータであればそのままの形式を維持してインポート出来たりもするので、既存の管理方法から大きな変更を加えることなくクラウドにデータを移行することも可能になります。<br></p>
+
+<p>しかし今回のkintone Caféは少し応用編！<br>
+…ということで、今回は参加者の皆様に、JavaScriptを利用したカスタマイズに挑戦して頂きました。<br></p>
+
+<p><p></p>
+
+<h1 id="用意したアプリについて-br:d26d2bba14e59f98f83e834b0d7ebe8f">用意したアプリについて<br></h1>
+
+<p>今回そんな参加者の方々にご用意させて頂いたのは、当方で予め作成したJavaScriptのサンプルコード。<br>
+以下の2つです。<br></p>
+
+<p>　* バリデーション
+　* 住所から地図を表示するアプリ（OpenLayerを利用）</p>
+
+<p>　
+このサンプルコードを、用意した顧客リストアプリに登録して挙動を確認します。<br>
+顧客リストは、一般的な名前や住所等を登録することが出来るものです。<br>
+<p><a href="/images/blog/kintone/kintonecafe0715-3-001.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/kintone/kintonecafe0715-3-001.jpg" width="300" /></a></p><br></p>
+
+<p>サンプルコードの説明に入る前に、まずはkintoneにおけるJavaScriptのカスタマイズのルールについて簡単におさらいしましょう。
+<p></p>
+
+<h1 id="javascriptの記述ルール:d26d2bba14e59f98f83e834b0d7ebe8f">javascriptの記述ルール</h1>
+
+<ul>
+<li>拡張子は.jsで保存</li>
+<li>ファイル名の拡張子は表示しておいたほうが良い。
+　（じゃないとテキストとかで保存されててスクリプト動かないよ！なんてことも…）</li>
+<li>文字コードはUTF-8で保存
+　（異なる文字コードで保存すると文字化けする原因に！）</li>
+<li>即時関数パターンで記述</li>
+
+<li><p>strictモードを使用
+<p></p>
+
+<h2 id="即時関数パターンとは:d26d2bba14e59f98f83e834b0d7ebe8f">即時関数パターンとは</h2></li>
+
+<li><p>関数を定義するのと同時に実行もする。</p></li>
+
+<li><p>スコープ汚染防止（kintoneで即時関数を採用している一番の理由）</p></li>
+</ul>
+
+<p>スコープ汚染についての説明は以下のサイトに詳しく書かれています。<br>
+<a href="http://analogic.jp/immediate-function/#scope">http://analogic.jp/immediate-function/#scope</a><br>
+<p>
+<b>記述方法</b>
+<pre><code class="javascript">
+(function () {
+    // 処理の内容を記述する
+}());
+</code></pre></p>
+
+<p><p></p>
+
+<h2 id="strictモードとは:d26d2bba14e59f98f83e834b0d7ebe8f">strictモードとは</h2>
+
+<ul>
+<li>“use strict”と宣言する</li>
+<li>記述ミス防止目的</li>
+<li>明示的に「使う」と宣言しないと使えないモード</li>
+</ul>
+
+<p><b>記述方法</b>
+<pre><code class="javascript">
+(function () {
+　　&rdquo;use strict&rdquo;;
+    // 処理の内容を記述する
+}());
+</code></pre></p>
+
+<p><p></p>
+
+<h1 id="kintone独自のイベント処理について:d26d2bba14e59f98f83e834b0d7ebe8f">kintone独自のイベント処理について</h1>
+
+<p>kintoneにはkintone独自のイベントがあります。<br>
+<a href="https://cybozudev.zendesk.com/hc/ja/sections/200418540">https://cybozudev.zendesk.com/hc/ja/sections/200418540</a><br></p>
+
+<ul>
+<li>レコード一覧イベント（表示、保存、変更など）</li>
+<li>レコード表示イベント（詳細画面表示、削除前など）</li>
+<li>レコード追加イベント（表示、保存など）</li>
+<li>レコード編集イベント（表示、保存など）</li>
+<li>グラフ表示イベント （PC用のみ）</li>
+</ul>
+
+<p>どのタイミングで、「処理を実行するか」ということを宣言するものです。</p>
+
+<p>例えば…</p>
+
+<p>レコード追加時、保存するタイミングで処理を実行させたい場合は、下記のような書き方になります。</p>
+
+<p>ex) 新規レコード追加時、保存するタイミングで処理Aを実行する。
+<pre><code class="javascript">
+(function () {
+　　&rdquo;use strict&rdquo;;
+　　// 新規レコード追加時のイベント
+    kintone.events.on(&lsquo;app.record.create.submit&rsquo;, function (event){</p>
+
+<pre><code>// （処理A）
+・・・
+</code></pre>
+
+<p>}());
+</code></pre></p>
+
+<p>ここでは、複数イベント指定することも可能です。</p>
+
+<p>ex.新規レコード追加時または既存レコード編集時、保存するタイミングで処理Aを実行する。
+<pre><code class="javascript">
+(function () {
+　　&rdquo;use strict&rdquo;;
+　　// 新規レコード追加時または既存レコード編集時のイベント
+    kintone.events.on([&lsquo;app.record.create.submit&rsquo;, &lsquo;app.record.edit.submit&rsquo;], function (event){</p>
+
+<pre><code>// （処理A）
+・・・
+</code></pre>
+
+<p>}());
+</code></pre></p>
+
+<p>以上が、kintoneにおける基本的なJavaScriptによるカスタマイズのルールになります。
+次回は、実際にカスタマイズで利用したサンプルコードの説明をしていきたいと思います！</p>
+
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col-md-3">
+  	</div>
+  	<div class="col-md-8">
+
+      <hr noshade>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        関連タグ：
+        <ul class="list-inline">
+          
+          <li><a href="/tags/kintone/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> kintone</a> </li>
+          
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">    
+      <div class="col-xs-12 col-sm-12 col-md-6 column">
+        <p>アールスリーインスティテュート<br />
+        Tel : 06-6271-3663 / Fax : 06-6271-6061 / Mail : <a href="mailto:info@r3it.com">info@r3it.com</a><br />
+		〒541-0053 大阪府大阪市中央区本町2-3-4-8F</p>	  
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/AWS_Logo_Consulting_Partner_DARK.png"><br />
+		AWS Partner Network (APN) <br>コンサルティングパートナー
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/cop_silver_180.jpg"><br />
+		サイボウズ<br> オフィシャルパートナー
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; padding: 20px">&copy; 2015 R3 institute All Rights Reserved.</div>
+</footer>
+
+
+<script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/lightbox.css" />
+    <script type="text/javascript" src="/js/lightbox.min.js" charset="utf-8"></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
+

@@ -5,8 +5,39 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Jul 2015 09:36:13 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2015 19:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>執筆者Profile : 池上 緑</title>
+      <link>https://www.r3it.com/blog/author/ikegami/</link>
+      <pubDate>Fri, 17 Jul 2015 19:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/author/ikegami/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;よく間違われるが正真正銘のエンジニア。肩書きはクラウドエンジニア。アールスリーでは（kintone専属？）フロントエンジニアやってるよ！コミュニティの運営したり、勉強会やハッカソンでコスプレして参加したり。&lt;/p&gt;
+
+&lt;p&gt;もはや中の人が認知されないレベルになっているという説も。&lt;/p&gt;
+
+&lt;h2 id=&#34;コミュニティ活動:8be94feebe910eded9cd4fd0997ca245&#34;&gt;コミュニティ活動&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/JAWSUG.KGA&#34;&gt;JAWS-UG関西女子会&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt; 運営メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vmware-usergroup.jp/&#34;&gt;VMUG（VMwareユーザー会）&lt;/a&gt; 関西部会メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;phpカンファレンス関西&lt;/a&gt; 運営スタッフ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>執筆者Profile : 西島 幸一郎</title>
@@ -442,98 +473,6 @@ Facebookのアカウントがあれば、すぐにメンバー登録できます
 是非お試しください。&lt;/p&gt;
 
 &lt;p&gt;通常のライセンスとは異なるいくつかの制約がありますが、開発上困ることはないと思います。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AWS KeyMangementServiceを使ってみた</title>
-      <link>https://www.r3it.com/blog/aws/kms/</link>
-      <pubDate>Sat, 29 Nov 2014 14:43:15 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/kms/</guid>
-      <description>
-
-&lt;p&gt;こんにちは金春です。&lt;/p&gt;
-
-&lt;p&gt;AWSでは、従来よりS3に保存したファイルは、EBSに記録したデータを暗号化できるようになっています。
-ただこの時に使われる暗号鍵はAWSが管理する鍵でした。&lt;/p&gt;
-
-&lt;p&gt;自分の家の鍵だけど、鍵は自分では持っていなくていつも開けてもらうようなイメージです。
-でも、鍵は自分で持ちたいですよね？&lt;/p&gt;
-
-&lt;h1 id=&#34;自分で鍵を持つ:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;自分で鍵を持つ&lt;/h1&gt;
-
-&lt;p&gt;AWSが鍵を管理する形でも問題ないケースも多いのですが、企業によってはセキュリティポリシーの規定（例えば、鍵のローテーションポリシーがあるなど）によってこれでは使えないケースというのがあります。&lt;/p&gt;
-
-&lt;p&gt;これを解決しようというのが、AWS KeyManagementServiceです。&lt;/p&gt;
-
-&lt;p&gt;AWSが鍵を管理するのではなく、ユーザが自分で鍵を管理できるようになります。
-早速みてみましょう。&lt;/p&gt;
-
-&lt;h1 id=&#34;自分の鍵を作る:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;自分の鍵を作る&lt;/h1&gt;
-
-&lt;p&gt;AWS KeyMenegemtServiceは、IAMの機能に統合されています。
-IAMの管理画面に入ると、左のメニューの一番下にメニューが増えています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms00.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms00-144x300.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;これをクリックを鍵の一覧画面が表示されます。
-どうもこの画面、常にデフォルトがUS-Eastになっているようです。
-ここでは、Tokyoに変えておきましょう。&lt;/p&gt;
-
-&lt;p&gt;一覧画面にある「Create Key」をクリックして鍵を作成してみましょう。&lt;/p&gt;
-
-&lt;p&gt;鍵の名前（Alias）と説明を入力します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms01.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms01-300x174.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;次に、この鍵を管理することができるIAMユーザを選択します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms02.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms02-300x164.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;次に、この鍵を使うことができるIAMユーザ、IAM Roleを選択します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms03.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms03-300x164.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ここでは、自アカウントのIAMユーザ等以外に、他のアカウントに鍵の使用を許可することもできます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms04.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms04-300x99.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;次に進みます。この画面ではここまで設定した内容をポリシーとして確認します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms05.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms05-300x165.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ここまで設定すると鍵が作成されます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms06.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms06-300x149.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こんな感じで作成されました。&lt;/p&gt;
-
-&lt;h1 id=&#34;作成した鍵を使う:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;作成した鍵を使う&lt;/h1&gt;
-
-&lt;p&gt;EBSの暗号化で先ほど作成した鍵を使ってみましょう。
-EC2の管理画面でVolumesを選択し、Create Volumeしてみましょう。&lt;/p&gt;
-
-&lt;p&gt;「Encrypt this volume」をチェックすると、「Master Key」のプルダウンが表示されます。
-プルダウンを見てみると、先ほど作成した鍵が表示されていますね！&lt;/p&gt;
-
-&lt;p&gt;これを選択することで自分で作成した鍵で暗号化が行えるようになります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/ebs01.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/ebs01-300x211.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;次、S3で使ってみましょう。
-S3 のUpload画面で、ファイルを選択後に、「Set Details」を選択してみてください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms07.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms07-300x179.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;詳細設定画面が開きますので、そこの暗号化設定でEBSのときと同じように作成した鍵が選べるようになっています。&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;暗号鍵を自分で管理できるようになることで、自分のルールで鍵を運用できるようになります。
-これができるようになることで、今までセキュリティポリシーに適合できないがためにAWSの利用が難しかった会社でも利用できるようになり、AWSの利用機会が広がるのではないかと思います。&lt;/p&gt;
-
-&lt;p&gt;今回は、Management Consoleで操作しましたが、AWSでの当然APIやCLIからも操作できますので、鍵管理を自動化することもできますね！&lt;/p&gt;
 </description>
     </item>
     
