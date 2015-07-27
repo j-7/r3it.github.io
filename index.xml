@@ -5,11 +5,110 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Jul 2015 14:04:30 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2015 17:04:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について</title>
+      <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について(後編)</title>
+      <link>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_02/</link>
+      <pubDate>Fri, 24 Jul 2015 17:04:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_02/</guid>
+      <description>
+
+&lt;p&gt;2015年7月15日水曜日に、kintone Café 大阪 Vol.3でJavaScriptを利用したカスタマイズハンズオンを行いました。&lt;/p&gt;
+
+&lt;p&gt;前回のブログでは、kintoneにおけるJavaScriptのカスタマイズルールについて少し説明させて頂きましたが、今回は実際にハンズオンで利用したサンプルコードについてもう少し理解を深めていきたいと思います(&amp;lsquo;ω&amp;rsquo;*)&lt;/p&gt;
+
+&lt;h1 id=&#34;用意したアプリについて:714d1dfd375dbca2c00cd5e93c1814c6&#34;&gt;用意したアプリについて&lt;/h1&gt;
+
+&lt;p&gt;前半もお伝えした通り、こちらで予め作成させて頂いたJavaScriptのサンプルコード。ひとつずつどんな風に記述されているか見ていきましょう(⑅っˇωˇ )っ&lt;/p&gt;
+
+&lt;h2 id=&#34;バリデーション:714d1dfd375dbca2c00cd5e93c1814c6&#34;&gt;バリデーション&lt;/h2&gt;
+
+&lt;p&gt;そもそも&lt;b&gt;&lt;font color=&#34;red&#34;&gt;バリデーション&lt;/font&gt;&lt;/b&gt;とは何でしょう？&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;規定された要求事項がその記述された使用に対して適切であることを検証すること。&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;…とかググると小難しいことが書かれていたりしますが、要は入力された値の&lt;b&gt;&lt;font color=&#34;red&#34;&gt;○×チェック&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
+
+&lt;p&gt;入力された値が条件に合ってなければ、エラーを返すようなしくみになります。&lt;/p&gt;
+
+&lt;h3 id=&#34;記述方法:714d1dfd375dbca2c00cd5e93c1814c6&#34;&gt;記述方法&lt;/h3&gt;
+
+&lt;p&gt;では実際にどんな書き方をするのか見ていきましょう！&lt;/p&gt;
+
+&lt;p&gt;ハンズオンの中では、郵便番号、TEL/FAX番号、メールアドレスの半角/全角チェックを入れていました。&lt;/p&gt;
+
+&lt;p&gt;半角/全角チェックとはいいますが、郵便番号、TEL/FAX番号に関しては、半角数字で決まった桁数入っているかをチェックしているだけです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;// 郵便番号の書き方ルール(ハイフン必須。7桁の半角数字)
+var zip_pattern = /^\d{3}-\d{4}$/;
+
+// TEL番号, FAX番号の書き方ルール(ハイフン必須。10桁または 11桁の半角数字)
+var telfax_pattern = /^(0\d{1,4}-\d{1,4}-\d{4})$/;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;メールアドレスに関してのみ、半角英数字と@を利用するので、少しルールが複雑になっています。&lt;/p&gt;
+
+&lt;p&gt;このルールでは、半角英数字と、@が必ず入っていないとエラーになります。
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;// メールアドレスの書き方ルール (一般的な書き方)
+var mail&lt;em&gt;pattern = /^([a-zA-Z0-9])+([a-zA-Z0-9.&lt;/em&gt;-])*@([a-zA-Z0-9&lt;em&gt;-])+([a-zA-Z0-9.&lt;/em&gt;-]+)+$/;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;入力された値が、上記で定めたルールにマッチしているかを下記のように書いて確認しています。&lt;/p&gt;
+
+&lt;p&gt;　※ここではTEL番号を例に挙げていますが、郵便番号、FAX番号、メールアドレスも書き方は一緒です。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;if (tel_value.length &gt; 0){
+    // TEL番号のルールにマッチしているかをチェックしています。
+    if (!(tel_value.match(telfax_pattern))){
+        // マッチしない場合は、エラーの内容を記載します。
+        record.TEL.error = &#39;10桁 または 11桁の半角数字（ハイフン有り）で入力して下さい。&#39;;
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;バリデーションという言葉は聞き慣れない方もいるかもしれませんが、コードの書き方としては、郵便番号、TEL/FAX番号、メールアドレスそれぞれに対して、上記のようなチェックを繰り返しているだけです。&lt;/p&gt;
+
+&lt;p&gt;シンプルでわかりやすいですね！&lt;/p&gt;
+
+&lt;p&gt;尚、&lt;b&gt;cybozu.com developer network&lt;/b&gt;にも同じような記事がありますので、もう少し深く理解されたい方は記事をご覧になって頂くことをお薦め致します(๑´ڡ`๑)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/articles/202640890&#34;&gt;https://cybozudev.zendesk.com/hc/ja/articles/202640890&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;住所から地図を表示する:714d1dfd375dbca2c00cd5e93c1814c6&#34;&gt;住所から地図を表示する&lt;/h2&gt;
+
+&lt;p&gt;2つ目は、住所フィールドに入力した情報から緯度経度情報を取得し、赤枠で示したスペースフィールド（Maps）に地図を表示するというものです。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-004.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-004.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;以下の記事と同じような考え方になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/articles/202640950&#34;&gt;https://cybozudev.zendesk.com/hc/ja/articles/202640950&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;これは解説していると少し長くなってしまうので省略しますが、この「要素」を使った書き方はわりとkintoneでもよく使うので、押さえておくと良いかもしれませんね！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;要素（エレメント） = 見出し、段落などのパーツ。&lt;/li&gt;
+&lt;li&gt;div要素 = スタイルシートの適用や、JavaScriptで操作する時によく利用される&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;記述方法-1:714d1dfd375dbca2c00cd5e93c1814c6&#34;&gt;記述方法&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;// 地図を表示するdiv要素を作成します。
+var elMap = document.createElement(&#39;div&#39;);
+elMap.setAttribute(&#39;id&#39;, &#39;map&#39;);
+elMap.setAttribute(&#39;name&#39;, &#39;map&#39;);
+
+// 地図表示用に追加した空白スペース（Maps）にelMapで設定した要素を追加します。
+var elMapContainer = kintone.app.record.getSpaceElement(&#39;Maps&#39;);
+
+// 地図用div要素をこのMaps要素の子要素として追加します。
+elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;今後もkintoneのカスタマイズについてブログ記事をupしていきたいと思いますので、気になる方は是非定期的にチェックして頂けたらありがたいです！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について(前編)</title>
       <link>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/</link>
       <pubDate>Tue, 21 Jul 2015 14:04:30 +0900</pubDate>
       
@@ -69,7 +168,7 @@
 
 &lt;p&gt;サンプルコードの説明に入る前に、まずはkintoneにおけるJavaScriptのカスタマイズのルールについて簡単におさらいしましょう。&lt;/p&gt;
 
-&lt;h1 id=&#34;javascriptの記述ルール:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;javascriptの記述ルール&lt;/h1&gt;
+&lt;h1 id=&#34;javascriptの記述ルール:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;JavaScriptの記述ルール&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;拡張子は.jsで保存&lt;/li&gt;
@@ -889,28 +988,6 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
 &lt;p&gt;そんな中、弊社の強みである &amp;ldquo;ハイスピードSI&amp;rdquo; について熱弁してきました。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/kintone-cafe-nagoya-0617.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/kintone-cafe-nagoya-0617.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Days 名古屋 2015 に出展&amp;弊社金春が登壇いたします</title>
-      <link>https://www.r3it.com/info/2015/clouddays-nagoya/</link>
-      <pubDate>Tue, 16 Jun 2015 17:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/clouddays-nagoya/</guid>
-      <description>&lt;p&gt;Cloud Days 名古屋 2015 は明日6月17日から2日間にわたって、名古屋市のウインクあいちにて開催されます。&lt;/p&gt;
-
-&lt;p&gt;是非弊社のハイスピードSIブースへお立ち寄りください。&lt;/p&gt;
-
-&lt;p&gt;kintoneを利用して、3分で業務アプリを作るデモなどで、皆様をお迎えいたします。&lt;/p&gt;
-
-&lt;p&gt;また、17日の13時からは、【クラウド時代に選ぶべきSIerとは －kintoneがSIのあり方を変える－】と題しまして、サイボウズ kintone プロダクトマネージャー 伊佐様、ソニックガーデン 代表取締役社長CEO 倉貫様とともに、弊社の金春（こんぱる）が登壇いたしますので、是非こちらのセミナーにもご参加ください。&lt;/p&gt;
-
-&lt;p&gt;お申し込みはこちらから。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://event.nikkeibp.co.jp/reg/contents/cd_n_2015/index.html#C-13B&#34;&gt;https://event.nikkeibp.co.jp/reg/contents/cd_n_2015/index.html#C-13B&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;皆様のお越しを心よりお待ちしております。&lt;/p&gt;
 </description>
     </item>
     
