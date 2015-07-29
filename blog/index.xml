@@ -5,8 +5,80 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Jul 2015 17:04:30 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2015 17:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>社内活動：IoT部のご紹介</title>
+      <link>https://www.r3it.com/blog/etc/iot-circle-meetup/</link>
+      <pubDate>Wed, 29 Jul 2015 17:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/iot-circle-meetup/</guid>
+      <description>
+
+&lt;p&gt;たった1ヶ月前のイベントが遠い昔のように思える西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;今日はアールスリーの社内部活動である「IoT部」のミートアップの様子と、先月6月24−27日にわたって開催されたイベント、&lt;a href=&#34;http://hackers-champloo.org/2015/&#34;&gt;ハッカーズチャンプルー2015&lt;/a&gt;の報告をします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;iot部のご紹介:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;IoT部のご紹介&lt;/h1&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートの社内部活動である「IoT部」が先日発足しまして、その初回のミートアップがありました。部員は&lt;/p&gt;
+
+&lt;p&gt;今回のミートアップの内容は、&lt;a href=&#34;http://hackers-champloo.org/2015/camp.html&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;で作成した「なんでやねんロボット」の詳細な情報共有でした。&lt;/p&gt;
+
+&lt;p&gt;なんでやねんロボットとは、&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Twitterで「nandeyanen」と入力すると、「なんでやねん」とつぶやきながら、ハリセン風の何かを振り回す紙製の何か&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;のことです。&lt;/p&gt;
+
+&lt;p&gt;RaspberryPiとサーボモーター、音声合成モジュールで出来ているとのこと。部員一同ソースコード(Ruby)の解説をうんうん言いながらきいていましたよ！（ソースコードは近日公開予定）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/nandeyanen_sketch.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/nandeyanen_sketch.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/breadboad.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/breadboad.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;動作のでも動画はこちらです。どうです、この（昭和の）近未来感あふれる音声！素敵です（笑）。&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/J3EdvSWkRho&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&#34;ハッカーズチャンプルー2015開発合宿-成果報告:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;ハッカーズチャンプルー2015開発合宿　成果報告&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hackers-champloo.org/2015/camp.html&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;には、弊社からは浅利さん、大澤さんの2名が参加しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/asari-and-osawa.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/asari-and-osawa.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;IoT部の部長は浅利さんです。合宿最終日の夜みんな寝たあとに、何もないところからダンボール一枚でナンデヤネンロボットのボディを作ったのは、相部屋の皆様には伝説となったそうです。
+浅利さんとともに開発合宿に参加したのは大澤さんです。最終日6月27日のカンファレンスでライトニングトークした資料はこちらです（西島の代理アップロードです）。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/c90WRqMjVF8ncR&#34; width=&#34;510&#34; height=&#34;420&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/ss-51049059&#34; title=&#34;大阪からやってきて開発してみた&#34; target=&#34;_blank&#34;&gt;大阪からやってきて開発してみた&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KoichiroNishijima&#34; target=&#34;_blank&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらのなんでやねんロボットの配線図・回路図ですが、こちらにアップロードしました。これは &lt;a href=&#34;http://fritzing.org/&#34;&gt;Fritzing&lt;/a&gt; というオープンソースのツールで読み込むことが可能です。このような感じで見えるはずです！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/nandeyanen_robot.fzz&#34;&gt;nandeyanen_robot.fzz (19KB)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/fritzing-nandeyanenrobot.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/fritzing-nandeyanenrobot.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;iot部の今後の活動:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;IoT部の今後の活動&lt;/h1&gt;
+
+&lt;p&gt;社内部活動の割にいろいろ機材を買ったりしている各部員ですが、今後の活動としてはもやっとしております。取り急ぎ直近では、&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;nriハッカソン-ceatec-japan-2015-http-www-nri-aitd-com-201510hackathon-に参戦予定です:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; に参戦予定です！！&lt;/h2&gt;
+
+&lt;p&gt;皆様、お手柔らかに〜(^_^;)&lt;/p&gt;
+
+&lt;p&gt;ではでは。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について(後編)</title>
@@ -908,39 +980,6 @@ re:Inventがどういうところなのかを知りたい方にはうってつ�
 
 &lt;p&gt;kintoneを使うと、業務アプリを非常に短時間で開発することができます。
 このブログでは、これからkintoneの様々な使い方をご紹介していきます。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>執筆者Profile : 金春 利幸</title>
-      <link>https://www.r3it.com/blog/author/konparu/</link>
-      <pubDate>Sat, 01 Nov 2014 09:36:13 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/author/konparu/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/konparu-100x100.jpg&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;アールスリーインスティテュートでマネージャーを担当。&lt;/p&gt;
-
-&lt;p&gt;AWSやkintoneなどのクラウドの普及活動に力を入れています。&lt;/p&gt;
-
-&lt;p&gt;最近は圧力おじさんと呼ばれています。&lt;/p&gt;
-
-&lt;h2 id=&#34;コミュニティ活動:4ba4b629823bfe1f0054aab760df7db5&#34;&gt;コミュニティ活動&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/&#34;&gt;JAWS-UG&lt;/a&gt; 全国代表（2015年）&lt;/li&gt;
-&lt;li&gt;サイボウズ公認 &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone エバンジェリスト&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/osaka/&#34;&gt;JAWS-UG大阪&lt;/a&gt; コアメンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jawsdays2015.jaws-ug.jp/&#34;&gt;JAWS DAYS 2015&lt;/a&gt; 実行委員長&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://santo2014.jaws-ug.jp/&#34;&gt;JAWS-UG三都物語 2014&lt;/a&gt; 実行委員長&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/t.konparu&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/t_konparu&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
