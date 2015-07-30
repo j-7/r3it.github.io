@@ -23,9 +23,11 @@
 &lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;
 &lt;/p&gt;
 
+&lt;p&gt;（これはLEDで表現したIoT部のロゴ（仮）です。）&lt;/p&gt;
+
 &lt;h1 id=&#34;iot部のご紹介:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;IoT部のご紹介&lt;/h1&gt;
 
-&lt;p&gt;弊社アールスリーインスティテュートの社内部活動である「IoT部」が先日発足しまして、その初回のミートアップがありました。部員は&lt;/p&gt;
+&lt;p&gt;弊社アールスリーインスティテュートの社内部活動である「IoT部」が先日発足しまして、その初回のミートアップがありました。部員は4名です！&lt;/p&gt;
 
 &lt;p&gt;今回のミートアップの内容は、&lt;a href=&#34;http://hackers-champloo.org/2015/camp.html&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;で作成した「なんでやねんロボット」の詳細な情報共有でした。&lt;/p&gt;
 
@@ -48,12 +50,13 @@
 
 &lt;h1 id=&#34;ハッカーズチャンプルー2015開発合宿-成果報告:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;ハッカーズチャンプルー2015開発合宿　成果報告&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://hackers-champloo.org/2015/camp.html&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;には、弊社からは浅利さん、大澤さんの2名が参加しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://hackers-champloo.org/2015/camp.html&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;には、弊社からはIoT部の浅利さん、大澤さんの2名が参加しました。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/asari-and-osawa.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/asari-and-osawa.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;IoT部の部長は浅利さんです。合宿最終日の夜みんな寝たあとに、何もないところからダンボール一枚でナンデヤネンロボットのボディを作ったのは、相部屋の皆様には伝説となったそうです。
-浅利さんとともに開発合宿に参加したのは大澤さんです。最終日6月27日のカンファレンスでライトニングトークした資料はこちらです（西島の代理アップロードです）。&lt;/p&gt;
+&lt;p&gt;IoT部の部長は浅利さん（写真右側：あさりの味噌汁のほう）です。合宿最終日の夜みんな寝たあとに、何もないところからダンボール一枚でなんでやねんロボットのボディを作ったのは、相部屋の皆様には伝説となったそうです。&lt;/p&gt;
+
+&lt;p&gt;浅利さんとともに開発合宿に参加したのは大澤さん（写真左側）です。最終日6月27日のカンファレンスでライトニングトークした資料はこちらです（西島の代理アップロードです）。&lt;/p&gt;
 
 &lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/c90WRqMjVF8ncR&#34; width=&#34;510&#34; height=&#34;420&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/ss-51049059&#34; title=&#34;大阪からやってきて開発してみた&#34; target=&#34;_blank&#34;&gt;大阪からやってきて開発してみた&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KoichiroNishijima&#34; target=&#34;_blank&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
 
@@ -69,10 +72,12 @@
 
 &lt;p&gt;社内部活動の割にいろいろ機材を買ったりしている各部員ですが、今後の活動としてはもやっとしております。取り急ぎ直近では、&lt;/p&gt;
 
+&lt;h2 id=&#34;nriハッカソン-ceatec-japan-2015-http-www-nri-aitd-com-201510hackathon-に参戦予定です:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; に参戦予定です！！&lt;/h2&gt;
+
 &lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;
 &lt;/p&gt;
 
-&lt;h2 id=&#34;nriハッカソン-ceatec-japan-2015-http-www-nri-aitd-com-201510hackathon-に参戦予定です:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; に参戦予定です！！&lt;/h2&gt;
+&lt;p&gt;↑こんな感じのTシャツを作って着ていく予定です！&lt;/p&gt;
 
 &lt;p&gt;皆様、お手柔らかに〜(^_^;)&lt;/p&gt;
 
