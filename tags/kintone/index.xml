@@ -5,8 +5,79 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Jul 2015 17:04:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2015 14:41:07 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintoneをより便利にするgusukuのご紹介</title>
+      <link>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</link>
+      <pubDate>Tue, 04 Aug 2015 14:41:07 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</guid>
+      <description>
+
+&lt;h2 id=&#34;kintoneをより便利にするために:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;kintoneをより便利にするために&lt;/h2&gt;
+
+&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
+
+&lt;p&gt;弊社ではサイボウズ社のkintoneを利用したシステム開発サービスとして「&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;ハイスピードSI&lt;/a&gt;」をご提供しております。
+&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;ハイスピードSI&lt;/a&gt;では、対面開発によりアプリケーションをどんどん変更していきます。&lt;/p&gt;
+
+&lt;h3 id=&#34;ステージングの重要性:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;ステージングの重要性&lt;/h3&gt;
+
+&lt;p&gt;本番運用がスタートした後にも、システムは変化し続ける必要があります。
+アプリケーションをする場合、いきなり本番環境を修正するわけにはいかず、通常は開発環境を用意してそこでまず修正を行います。&lt;/p&gt;
+
+&lt;p&gt;その後、本番環境に近いデータが入っているテスト環境にアプリケーションを入れ、最終的な動作確認を行い、ようやく本番環境にアプリケーションを入れることができます。&lt;/p&gt;
+
+&lt;p&gt;従来、kintoneではこのような段階を経て本番環境にアプリケーションを入れていく（ステージングと呼ばれます）ことはできませんした。&lt;/p&gt;
+
+&lt;p&gt;このような作業をするには以下のような手順が必要でした。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;開発用アプリで修正をする&lt;/li&gt;
+&lt;li&gt;修正結果を確認する&lt;/li&gt;
+&lt;li&gt;テスト用アプリに1で実施した修正を同じ修正を行う&lt;/li&gt;
+&lt;li&gt;テスト環境で動作確認する（ここで問題があれば1に戻る）&lt;/li&gt;
+&lt;li&gt;本番環境に1と同じ修正を行う&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;この手順は同じ作業を繰り返す必要があるため、手間がかかる上にミスする可能性も極めて大きいものでした。&lt;/p&gt;
+
+&lt;h3 id=&#34;gusukuサービスをスタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;gusukuサービスをスタートします&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusukuロゴ&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;2015年7月のkintoneの機能アップにより、このステージングをAPIを使ってできるようになりました。
+弊社では、この新APIを活用し、kintoneにステージング環境を提供するサービス（gusuku）を開発しています。&lt;/p&gt;
+
+&lt;p&gt;gusukuは、以下のような機能の提供を予定しておりkintoneをより便利に使えるようにしていきます&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定できます）&lt;/li&gt;
+&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
+&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
+&lt;li&gt;ある環境から別の環境への設計情報の配布（これにより開発環境での修正をテスト環境に反映というのが簡単にできます）&lt;/li&gt;
+&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ところでgusukuって何:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;ところでgusukuって何？&lt;/h3&gt;
+
+&lt;p&gt;「gusuku」ひらがなだと「ぐすく」は、沖縄の言葉で「城」です。首里城もぐすくの一種で有名ですね。&lt;/p&gt;
+
+&lt;p&gt;こんな感じです。（これは城跡ですが）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku01.jpg&#34; alt=&#34;gusuku&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;kintoneで開発するアプリを守る城になりたいとの想いから、本サービスをgusukuと命名しました。&lt;/p&gt;
+
+&lt;h2 id=&#34;近日中にβサービススタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;近日中にβサービススタートします&lt;/h2&gt;
+
+&lt;p&gt;gusukuは鋭意開発中です。近日中にβサービスを開始しますのでご期待ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について(後編)</title>
@@ -820,45 +891,6 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/freecontact/&#34;&gt;kintone無料体験会&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;皆様のお越しをお待ちしております。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Days 大阪 2015 に出展&amp;弊社金春が登壇いたします</title>
-      <link>https://www.r3it.com/info/2015/clouddays-osaka/</link>
-      <pubDate>Fri, 27 Feb 2015 17:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/clouddays-osaka/</guid>
-      <description>
-
-&lt;p&gt;CloudDays大阪が3/5〜6に開催されます。
-弊社はアマゾンデータサービスジャパン様と一緒に出展いたします。&lt;/p&gt;
-
-&lt;p&gt;AWSとkintoneを組合せてハイスピードSIを実現する方法について出展いたしますのでご興味のある方は是非お越しください。&lt;/p&gt;
-
-&lt;p&gt;事前申込は
-&lt;a href=&#34;http://expo.nikkeibp.co.jp/cloud/2015spring/osaka/&#34;&gt;http://expo.nikkeibp.co.jp/cloud/2015spring/osaka/&lt;/a&gt;
-からお願いいたします。&lt;/p&gt;
-
-&lt;p&gt;AWSブースでは、&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;3月5日 13:00〜&lt;/li&gt;
-&lt;li&gt;3月6日 14:30〜&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;の2回ステージセッションにて弊社金春がハイスピードSIについて講演いたしますので是非お越しください。&lt;/p&gt;
-
-&lt;h1 id=&#34;弊社金春がセミナーに登壇いたします:49236b7726f2e356c5d77d7b16471999&#34;&gt;弊社金春がセミナーに登壇いたします&lt;/h1&gt;
-
-&lt;p&gt;3月5日 15:00よりQ会場にて弊社金春がサイボウズ様のセミナーにゲストスピーカーとして登壇いたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintoneで既存のsiモデルからの脱却-クラウド時代に生き残れるsiビジネスとは-https-event-nikkeibp-co-jp-reg-contents-cd-o-2015-index-html-c-15q:49236b7726f2e356c5d77d7b16471999&#34;&gt;&lt;a href=&#34;https://event.nikkeibp.co.jp/reg/contents/cd_o_2015/index.html#C-15Q&#34;&gt;「kintoneで既存のSIモデルからの脱却～クラウド時代に生き残れるSIビジネスとは～」&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;として、弊社がkintoneをAWSを使ってどのように新しいSIを実現しようとしているかについてお話する予定です。
-こちらのセミナーは事前申込が必要となっておりますので、上記URLで事前登録をお願いいたします。&lt;/p&gt;
-
-&lt;p&gt;当日、会場にて皆様にお会いできるのを楽しみにしております。&lt;/p&gt;
 </description>
     </item>
     
