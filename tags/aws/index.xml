@@ -5,8 +5,125 @@
     <link>https://www.r3it.com/tags/aws/</link>
     <description>Recent content in Aws on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Jul 2015 19:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2015 10:04:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JAWS-UG関西女子会第3回勉強会の開催レポート</title>
+      <link>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</link>
+      <pubDate>Wed, 05 Aug 2015 10:04:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</guid>
+      <description>
+
+&lt;p&gt;2015年8月1日土曜日、運営しているJAWS-UG関西女子会で第3回勉強会&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/26344&#34;&gt;事例から学ぶもくもく＆もぐもぐ会&lt;/a&gt;を開催しました！
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;もくもく-もぐもぐ会とは:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;もくもく＆もぐもぐ会とは？&lt;/h1&gt;
+
+&lt;p&gt;もくもく会は勉強会ではおなじみ(？)、参加者が自分達のペースで作業をすすめる勉強会の形式のことです。&lt;/p&gt;
+
+&lt;p&gt;今回の女子会では、ただのもくもく会では楽しくない！と、各参加者がひとつ食べ物を持ち寄ってもぐもぐしながらもくもく作業しよう！というコンセプトで行いました(๑・౩・๑）&lt;/p&gt;
+
+&lt;p&gt;みんなどんな食べ物を持ってくるんだろうとドキドキしながら待っていたんですが&amp;hellip;&lt;b&gt;いやー出るわ出るわ！&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;violet&#34;&gt;フルーツからデパ地下スイーツ、地域名産品の数々！&lt;/font&gt;&lt;/b&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみにわたしはアップルパイを持参したので、ナイフを使って一生懸命わけわけしてました！&lt;/p&gt;
+
+&lt;p&gt;（でもうまく切れなかったので最終的に交代してもらったのは内緒ｗｗ
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そしてヤムウンセンを作って来てくれたのは参加者の女子ではなく、なぜかサポメンｗｗｗｗ
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34;&gt;&lt;/p&gt;
+男性なのにこの女子力の高さ&amp;hellip;マジ尊敬しますლ(⁰⊖⁰ლ)&lt;/p&gt;
+
+&lt;p&gt;ちなみに運営なのを良いことに、事例紹介中ずっともぐもぐしていたわたしです（
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;勉強会の内容:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;勉強会の内容&lt;/h1&gt;
+
+&lt;p&gt;第3回勉強会の内容は以下の通りです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;事例紹介&lt;/li&gt;
+&lt;li&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/li&gt;
+&lt;li&gt;フリータイム（懇親や飛び込みLTなど）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;事例紹介:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介&lt;/h2&gt;
+
+&lt;p&gt;JAWS-UG初心者支部より山崎奈緒美さんを講師としてお招きし、会社でのAWSの活用事例をお話頂きました！&lt;/p&gt;
+
+&lt;p&gt;コーポレートサイトやシステムで、ほんとにたくさんのAWS製品を組み合わせて活用されていました。&lt;/p&gt;
+
+&lt;h2 id=&#34;事例紹介からいくつか構成をピックアップしてハンズオン:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/h2&gt;
+
+&lt;p&gt;活用事例の中から、いくつか構成をピックアップし、ハンズオン形式で実際に参加者の皆さんに構築してもらいました。&lt;/p&gt;
+
+&lt;p&gt;当日実際に使用したハンズオン資料は&lt;a href=&#34;http://bit.ly/1LUhmXi&#34;&gt;こちら。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;かなり盛りだくさんなコンテンツだったので時間内に最後まで構築するのは難しかったものの、それでも皆さんかなり集中して取り組んでいた様子。&lt;/p&gt;
+
+&lt;p&gt;まずは好きな食べ物を取りに行って。。。
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;作業を始めてからの皆さんの集中力の凄さには脱帽です(｡ω｡；)
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;個人的には、AWSマネジメントコンソール上の作業は比較的スムーズにできた（若干トラブルにも見まわれましたが&amp;hellip;）&lt;/p&gt;
+
+&lt;p&gt;んですが、EC2のインスタンスを起動してAmazon LinuxにSSHでログインして行う作業は、日頃CLIを利用しているかしていないかで差が出た部分だったんじゃないかなと思いました。&lt;/p&gt;
+
+&lt;p&gt;通常ハンズオンで使用するAMIは、環境がある程度整ったAMIを使用するケースが多いのですが、今回使用したAMIは実は事前に何も仕込んでいない生のAMI！&lt;/p&gt;
+
+&lt;p&gt;必要なパッケージはすべて手動でインストールして環境を整える必要がありました。&lt;/p&gt;
+
+&lt;p&gt;実は今回、&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;EC2＋RDS（postgreSQL）&lt;/font&gt;&lt;/b&gt;の環境を構築したのですが、動作確認のため、&lt;b&gt;EC-CUBE&lt;/b&gt;をインストールするという選択をしたのですｗ&lt;/p&gt;
+
+&lt;p&gt;マニアックでしょ？ &lt;del&gt;なんでWordPress入れないんだよクソがぁぁ！！！！&lt;/del&gt; って思うでしょ？ちゃんと理由あるのですよｗ&lt;/p&gt;
+
+&lt;p&gt;その&lt;a href=&#34;http://qiita.com/rocca0504/private/be654e50ab480d156207&#34;&gt;EC-CUBEのインストール手順部分&lt;/a&gt;は実はわたしが作ったりしてますｗ&lt;/p&gt;
+
+&lt;p&gt;そんなとこアピールするなって石投げられるかもしれませんがすみません(´A｀*)･ﾟ｡&lt;/p&gt;
+
+&lt;p&gt;突っ込みでもdisりでも指摘でも何でも受け付けますのでお許し下さい&amp;hellip;っ！！！！&lt;/p&gt;
+
+&lt;p&gt;ほぼほぼCLIです。しかもおそらくvi慣れしていない参加者が多いのではと（勝手に）思い、viを文章で表現するのは大変だと感じたので、viで編集しなくてもいいように&lt;b&gt;sed&lt;/b&gt;というおまじないコマンドを使ってますｗ&lt;/p&gt;
+
+&lt;p&gt;なんかほぼ自己満のマニュアルですね。いやほんとすみません。一応何かの参考にはなれば(๑´╹‸╹`๑)&lt;/p&gt;
+
+&lt;p&gt;コマンドたのしーなー（違&lt;/p&gt;
+
+&lt;h2 id=&#34;フリータイム-懇親や飛び込みltなど:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;フリータイム（懇親や飛び込みLTなど）&lt;/h2&gt;
+
+&lt;p&gt;頭を使ったあとはアルコール飲みながらもぐもぐしつつ飛び込みLTを聞きながらまったり楽しく過ごす時間です。
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;こんな感じでLTも盛り上がってましたよ٩(●˙▿˙●)۶
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;山崎さんからはAWS-HUBのご紹介もありました！
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34;&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そんなこんなで今回も大盛況だった&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;lightpink&#34;&gt;JAWS-UG関西女子会&lt;/font&gt;&lt;/b&gt;です(๑´ㅂ`๑)&lt;/p&gt;
+
+&lt;h1 id=&#34;次回の勉強会の告知:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;次回の勉強会の告知&lt;/h1&gt;
+
+&lt;p&gt;次回は &lt;b&gt;&lt;font size=&#34;5&#34;&gt;1ヶ月後！&lt;/font&gt;&lt;/b&gt; &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;JAWS re:Mote&lt;/a&gt;です！&lt;/p&gt;
+
+&lt;p&gt;全国の支部同士をオンラインで繋いた勉強会になります。&lt;/p&gt;
+
+&lt;p&gt;最寄りの会場で普段なかなかお目にかかれない他の支部のスピーカーさんのセッションを聞ける大チャンス(๑˃́ꇴ˂̀๑)&lt;/p&gt;
+
+&lt;p&gt;関西女子会は女子会用の会場を用意しますが、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;JAWS-UG大阪会場&lt;/a&gt;もありますよ！&lt;/p&gt;
+
+&lt;p&gt;何人の人が参加してくれるのか、今からすごく楽しみです+。:.ﾟ(๑＞◡╹๑)(๑╹◡＜๑):.｡+ﾟ&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>執筆者Profile : 池上 緑</title>
