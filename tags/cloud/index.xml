@@ -5,8 +5,39 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Aug 2015 14:41:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2015 17:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Talend Open Studio パートナーに登録されました</title>
+      <link>https://www.r3it.com/info/2015/join-to-tosp/</link>
+      <pubDate>Thu, 06 Aug 2015 17:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/join-to-tosp/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/TOSP_logo_4c.png&#34; alt=&#34;TOSP&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートはこの度、 Talend Open Studio パートナーに登録されました。&lt;/p&gt;
+
+&lt;h1 id=&#34;talend-open-studio-パートナー-tosp-とは:60be785fc3713ba04f8c68da6af8f085&#34;&gt;Talend Open Studio パートナー（TOSP）とは&lt;/h1&gt;
+
+&lt;p&gt;Talend Open Studio (TOS)のトレーニング、サポート、コネクタやモジュールの受託開発などを提供するパートナーです。公式サイトはこちらのURLになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://talend.jp/tosp&#34;&gt;https://talend.jp/tosp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートでは、以下のコンポーネント・サービスを提供しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 向けの &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ kintone&lt;/a&gt; と接続するためのオープンソース コンポーネント&amp;rdquo;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kintone Connector for talend&lt;/a&gt;&amp;rdquo; の提供&lt;/li&gt;
+&lt;li&gt;上記コンポーネントを利用した kintone と既存システムのデータ連携システムの構築&lt;/li&gt;
+&lt;li&gt;Talend Open Studio を利用した基幹システムと Amazon Web Services (AWS) との間でのシステム・データ連携&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;システム間のデータ連携にご興味があるお客様は、&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;是非お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintoneをより便利にするgusukuのご紹介</title>
@@ -437,60 +468,6 @@ kintoneを触ってみたい
 &lt;p&gt;EC2およびS3を中心としたハンズオンを実施させていただきます。&lt;/p&gt;
 
 &lt;p&gt;申込はすでに完了していますが、ご興味のある方は、結果等の情報も公開されると思いますので、ご注目ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintoneでテーブルの各行に連番をつける</title>
-      <link>https://www.r3it.com/blog/kintone/autonumbering/</link>
-      <pubDate>Wed, 14 Jan 2015 10:54:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/autonumbering/</guid>
-      <description>
-
-&lt;p&gt;元投稿はQiitaの&lt;a href=&#34;http://qiita.com/t_konparu/items/8bd1da40d0896c3da917&#34;&gt;記事&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;h1 id=&#34;課題:cad6ae68911e167affcf3011f83a9164&#34;&gt;課題&lt;/h1&gt;
-
-&lt;p&gt;kintoneでシステムを作っていると、項目をまとめてテーブル化することがよくあります。
-このとき、テーブルの各行に1行目から順に連番をつけたいということはよくあると思います。&lt;/p&gt;
-
-&lt;p&gt;kintoneの標準の機能ではこれはできないため、JavaScriptでのカスタマイズが必要です。&lt;/p&gt;
-
-&lt;h1 id=&#34;javascriptカスタマイズ:cad6ae68911e167affcf3011f83a9164&#34;&gt;JavaScriptカスタマイズ&lt;/h1&gt;
-
-&lt;p&gt;フィールドコード「receipts」というテーブルの中にフィールドコード「no」というフィールドがあるとします。
-このフィールドに対して保存のタイミングで連番を付与します。&lt;/p&gt;
-
-&lt;p&gt;まず、作成時の編集時のイベントを取得するために、kintone.events.on()でイベントハンドラを登録します。&lt;/p&gt;
-
-&lt;p&gt;イベントハンドラの中では、eventに含まれるrecordオブジェクトを取得し、そこに含まれるreceiptsテーブルのvalueの数を数えておきます。これが行数になります。&lt;/p&gt;
-
-&lt;p&gt;あとは、ループを回しながら各行のnoのvalueに連番を設定していきます。&lt;/p&gt;
-
-&lt;p&gt;コードは以下のようになります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;
-(function() {
-    &#34;use strict&#34;;
-    var events = [
-        &#39;app.record.create.submit&#39;,
-        &#39;app.record.edit.submit&#39;
-    ];
-    kintone.events.on(events, function(event) {
-        var record = event.record;
-        // receiptsテーブルのno欄を自動採番する
-        var count = record.receipts.value.length;
-        for( var i = 0; i &lt; count; i++ ){
-            record.receipts.value[i].value.no.value = i + 1;
-        }
-
-        return event;
-    });
-})();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;簡単ですね。&lt;/p&gt;
 </description>
     </item>
     

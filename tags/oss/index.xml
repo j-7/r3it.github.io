@@ -5,8 +5,39 @@
     <link>https://www.r3it.com/tags/oss/</link>
     <description>Recent content in Oss on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 30 Jul 2015 10:23:10 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2015 17:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/oss/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Talend Open Studio パートナーに登録されました</title>
+      <link>https://www.r3it.com/info/2015/join-to-tosp/</link>
+      <pubDate>Thu, 06 Aug 2015 17:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/join-to-tosp/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/TOSP_logo_4c.png&#34; alt=&#34;TOSP&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートはこの度、 Talend Open Studio パートナーに登録されました。&lt;/p&gt;
+
+&lt;h1 id=&#34;talend-open-studio-パートナー-tosp-とは:60be785fc3713ba04f8c68da6af8f085&#34;&gt;Talend Open Studio パートナー（TOSP）とは&lt;/h1&gt;
+
+&lt;p&gt;Talend Open Studio (TOS)のトレーニング、サポート、コネクタやモジュールの受託開発などを提供するパートナーです。公式サイトはこちらのURLになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://talend.jp/tosp&#34;&gt;https://talend.jp/tosp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートでは、以下のコンポーネント・サービスを提供しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 向けの &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ kintone&lt;/a&gt; と接続するためのオープンソース コンポーネント&amp;rdquo;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kintone Connector for talend&lt;/a&gt;&amp;rdquo; の提供&lt;/li&gt;
+&lt;li&gt;上記コンポーネントを利用した kintone と既存システムのデータ連携システムの構築&lt;/li&gt;
+&lt;li&gt;Talend Open Studio を利用した基幹システムと Amazon Web Services (AWS) との間でのシステム・データ連携&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;システム間のデータ連携にご興味があるお客様は、&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;是非お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>社内活動：IoT部のご紹介</title>

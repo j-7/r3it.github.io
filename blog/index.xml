@@ -5,135 +5,8 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 05 Aug 2015 10:04:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2015 14:41:07 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>JAWS-UG関西女子会第3回勉強会の開催レポート</title>
-      <link>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</link>
-      <pubDate>Wed, 05 Aug 2015 10:04:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</guid>
-      <description>
-
-&lt;p&gt;2015年8月1日土曜日、運営しているJAWS-UG関西女子会で第3回勉強会&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/26344&#34;&gt;事例から学ぶもくもく＆もぐもぐ会&lt;/a&gt;を開催しました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;もくもく-もぐもぐ会とは:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;もくもく＆もぐもぐ会とは？&lt;/h1&gt;
-
-&lt;p&gt;もくもく会は勉強会ではおなじみ(？)、参加者が自分達のペースで作業をすすめる勉強会の形式のことです。&lt;/p&gt;
-
-&lt;p&gt;今回の女子会では、ただのもくもく会では楽しくない！と、各参加者がひとつ食べ物を持ち寄ってもぐもぐしながらもくもく作業しよう！というコンセプトで行いました(๑・౩・๑）&lt;/p&gt;
-
-&lt;p&gt;みんなどんな食べ物を持ってくるんだろうとドキドキしながら待っていたんですが&amp;hellip;&lt;b&gt;いやー出るわ出るわ！&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;violet&#34;&gt;フルーツからデパ地下スイーツ、地域名産品の数々！&lt;/font&gt;&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets02.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets03.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ちなみにわたしはアップルパイを持参したので、ナイフを使って一生懸命わけわけしてました！&lt;/p&gt;
-
-&lt;p&gt;（でもうまく切れなかったので最終的に交代してもらったのは内緒ｗｗ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そしてヤムウンセンを作って来てくれたのは参加者の女子ではなく、なぜかサポメンｗｗｗｗ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-男性なのにこの女子力の高さ&amp;hellip;マジ尊敬しますლ(⁰⊖⁰ლ)&lt;/p&gt;
-
-&lt;p&gt;ちなみに運営なのを良いことに、事例紹介中ずっともぐもぐしていたわたしです（
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;勉強会の内容:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;勉強会の内容&lt;/h1&gt;
-
-&lt;p&gt;第3回勉強会の内容は以下の通りです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;事例紹介&lt;/li&gt;
-&lt;li&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/li&gt;
-&lt;li&gt;フリータイム（懇親や飛び込みLTなど）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;事例紹介:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介&lt;/h2&gt;
-
-&lt;p&gt;JAWS-UG初心者支部より山崎奈緒美さんを講師としてお招きし、会社でのAWSの活用事例をお話頂きました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_naotan.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_naotan.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;コーポレートサイトやシステムで、ほんとにたくさんのAWS製品を組み合わせて活用されていました。&lt;/p&gt;
-
-&lt;h2 id=&#34;事例紹介からいくつか構成をピックアップしてハンズオン:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/h2&gt;
-
-&lt;p&gt;活用事例の中から、いくつか構成をピックアップし、ハンズオン形式で実際に参加者の皆さんに構築してもらいました。&lt;/p&gt;
-
-&lt;p&gt;当日実際に使用したハンズオン資料は&lt;a href=&#34;http://bit.ly/1LUhmXi&#34;&gt;こちら。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;すべて講師の山崎さんにご用意頂きました！&lt;/p&gt;
-
-&lt;p&gt;お仕事や初心者支部の勉強会の準備等もある中で、これだけ関西女子会のためにいろいろご尽力頂いてほんとにほんとに感謝してもしきれないくらいです(つ﹏&amp;lt;)･ﾟ｡&lt;/p&gt;
-
-&lt;p&gt;かなり盛りだくさんなコンテンツだったので時間内に最後まで構築するのは難しかったものの、それでも皆さんかなり集中して取り組んでいた様子。&lt;/p&gt;
-
-&lt;p&gt;まずは好きな食べ物を取りに行って。。。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt; &lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;作業を始めてからの皆さんの集中力の凄さには脱帽です(｡ω｡；)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;個人的には、AWSマネジメントコンソール上の作業は比較的スムーズにできた（若干トラブルにも見まわれましたが&amp;hellip;）&lt;/p&gt;
-
-&lt;p&gt;んですが、EC2のインスタンスを起動してAmazon LinuxにSSHでログインして行う作業は、日頃CLIを利用しているかしていないかで差が出た部分だったんじゃないかなと思いました。&lt;/p&gt;
-
-&lt;p&gt;通常ハンズオンで使用するAMIは、環境がある程度整ったAMIを使用するケースが多いのですが、今回使用したAMIは実は事前に何も仕込んでいない生のAMI！&lt;/p&gt;
-
-&lt;p&gt;必要なパッケージはすべて手動でインストールして環境を整える必要がありました。&lt;/p&gt;
-
-&lt;p&gt;実は今回、&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;EC2＋RDS（postgreSQL）&lt;/font&gt;&lt;/b&gt;の環境を構築したのですが、動作確認のため、&lt;b&gt;EC-CUBE&lt;/b&gt;をインストールするという選択をしたのですｗ&lt;/p&gt;
-
-&lt;p&gt;マニアックでしょ？ &lt;del&gt;なんでWordPress入れないんだよクソがぁぁ！！！！&lt;/del&gt; って思うでしょ？ちゃんと理由あるのですよｗ&lt;/p&gt;
-
-&lt;p&gt;その&lt;a href=&#34;http://qiita.com/rocca0504/private/be654e50ab480d156207&#34;&gt;EC-CUBEのインストール手順&lt;/a&gt;部分は実はわたしが作ったりしてますｗ&lt;/p&gt;
-
-&lt;p&gt;そんなとこアピールするなって石投げられるかもしれませんがすみません(´A｀*)･ﾟ｡&lt;/p&gt;
-
-&lt;p&gt;突っ込みでもdisりでも指摘でも何でも受け付けますのでお許し下さい&amp;hellip;っ！！！！&lt;/p&gt;
-
-&lt;p&gt;ほぼほぼCLIです。しかもおそらくvi慣れしていない参加者が多いのではと（勝手に）思い、viを文章で表現するのは大変だと感じたので、viで編集しなくてもいいように&lt;b&gt;sed&lt;/b&gt;というおまじないコマンドを使ってますｗ&lt;/p&gt;
-
-&lt;p&gt;なんかほぼ自己満のマニュアルですね。いやほんとすみません。一応何かの参考にはなれば(๑´╹‸╹`๑)&lt;/p&gt;
-
-&lt;p&gt;コマンドたのしーなー（違&lt;/p&gt;
-
-&lt;h2 id=&#34;フリータイム-懇親や飛び込みltなど:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;フリータイム（懇親や飛び込みLTなど）&lt;/h2&gt;
-
-&lt;p&gt;頭を使ったあとはアルコール飲みながらもぐもぐしつつ飛び込みLTを聞きながらまったり楽しく過ごす時間です。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;こんな感じでLTも盛り上がってましたよ٩(●˙▿˙●)۶
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;山崎さんからは&lt;a href=&#34;http://jaws-ug.jp/ec/aws-hub/&#34;&gt;AWS-HUBのご紹介&lt;/a&gt;もありました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そんなこんなで今回も大盛況だった&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;lightpink&#34;&gt;JAWS-UG関西女子会&lt;/font&gt;&lt;/b&gt;です(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;こんなにたくさんの女子達が参加してくれて、いつもほんと運営冥利に尽きますね！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_all.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_all.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;次回の勉強会の告知:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;次回の勉強会の告知&lt;/h1&gt;
-
-&lt;p&gt;次回は &lt;b&gt;&lt;font size=&#34;5&#34;&gt;1ヶ月後！&lt;/font&gt;&lt;/b&gt; &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;JAWS re:Mote&lt;/a&gt;です！&lt;/p&gt;
-
-&lt;p&gt;全国の支部同士をオンラインで繋いた勉強会になります。&lt;/p&gt;
-
-&lt;p&gt;最寄りの会場で普段なかなかお目にかかれない他の支部のスピーカーさんのセッションを聞ける大チャンス(๑˃́ꇴ˂̀๑)&lt;/p&gt;
-
-&lt;p&gt;関西女子会は女子会用の会場を用意しますが、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;JAWS-UG大阪会場&lt;/a&gt;もありますよ！&lt;/p&gt;
-
-&lt;p&gt;何人の人が参加してくれるのか、今からすごく楽しみです+。:.ﾟ(๑＞◡╹๑)(๑╹◡＜๑):.｡+ﾟ&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>kintoneをより便利にするgusukuのご紹介</title>
@@ -1052,6 +925,85 @@ re:Inventがどういうところなのかを知りたい方にはうってつ�
 
 &lt;p&gt;&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/jawsug-square.png&#34; alt=&#34;JAWS-UG関西&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ハイブリッドクラウドのこれから</title>
+      <link>https://www.r3it.com/blog/aws/hybrid_cloud/</link>
+      <pubDate>Tue, 11 Nov 2014 09:36:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/hybrid_cloud/</guid>
+      <description>
+
+&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
+
+&lt;p&gt;クラウドファーストが当たり前の時代になりつつありますが、今後大きな流れになりそうなハイブリッドクラウド。
+弊社の考えるハイブリッドクラウドについてお話したいと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;ハイブリッドクラウドって:878afd0a4ac7d3ee8ce606737216d31d&#34;&gt;ハイブリッドクラウドって？&lt;/h1&gt;
+
+&lt;p&gt;現在、ハイブリッドクラウドと言えばこんな感じです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/hyvrid_cloud.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;既存のデータセンターとクラウド（ここではAWS）を専用線で接続（AWS Direct Connect）あるいはインターネット経由でVPNで接続してシームレースに利用するパターンですね。&lt;/p&gt;
+
+&lt;p&gt;これにより、既存資産とクラウド上に構築した資産を柔軟に連携させて利用することができます。&lt;/p&gt;
+
+&lt;p&gt;企業によっては情報の種類によってはクラウドに置けないルールになっているというような場合でも、データに合わせて置き場所が違うというだけで、クラウドに置けるものはクラウドに置くことによってIT投資を最適化することができます。&lt;/p&gt;
+
+&lt;p&gt;例えば、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;顧客情報はデータセンターの置く&lt;/li&gt;
+&lt;li&gt;重い分析処理はクラウドを利用して効率よく計算する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;というようなことができるようになります。&lt;/p&gt;
+
+&lt;h1 id=&#34;これからのハイブリッドクラウド:878afd0a4ac7d3ee8ce606737216d31d&#34;&gt;これからのハイブリッドクラウド&lt;/h1&gt;
+
+&lt;p&gt;さて、上のハイブリッドクラウドもとても良いものですが、これからのハイブリッドクラウドは少し違った形になると考えています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/new_hybrid_cloud.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;上の図と比べると要素が増えています。
+増えたのは「Other Cloud Service」と書いている他のクラウドサービスです。
+弊社ではここに、kintoneを利用することをお勧めしています。&lt;/p&gt;
+
+&lt;p&gt;上で、「情報の種類によってはクラウドに置けないルール」というお話をしましたが、これは今後変わってくると考えています。
+まだなかなか認知されていない感じはしますが、クラウドのセキュリティは一般的に企業が独自に構築するデータセンターより高いものになっています。&lt;/p&gt;
+
+&lt;p&gt;想像してみてください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;御社にセキュリティ専門のエンジニアはいますか？&lt;/li&gt;
+&lt;li&gt;セキュリティ対策のためにどれだけのコストをかけられますか？&lt;/li&gt;
+&lt;li&gt;御社に銀行にお金を預けるより高いセキュリティで現金を保管できますか？（それがデータでも同じです）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;クラウドのセキュリティの高さは徐々に認知されつつあります。&lt;/p&gt;
+
+&lt;p&gt;そうなると、左にある既存のデータセンターが担う役割はどんどん小さくなると考えられます。&lt;/p&gt;
+
+&lt;p&gt;その次に起こるのは、単一のクラウドではできないことを他のクラウドを利用して補完しようという動きです。&lt;/p&gt;
+
+&lt;p&gt;弊社では、kintoneとAWSを連動させたシステム開発を推奨しています。&lt;/p&gt;
+
+&lt;p&gt;kintoneを用いて高速にシステム開発を行い、kintoneにはできないことをAWSで補完する。
+まだ残っている既存データセンターについてもAWSを介してkintoneと連携させることで既存資産も有効に活用する。&lt;/p&gt;
+
+&lt;p&gt;これからのハイブリッドクラウドは、「クラウドとクラウドのハイブリッド」になると考えています。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:878afd0a4ac7d3ee8ce606737216d31d&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;これからのハイブリッドクラウドは「クラウドとクラウドのハイブリッド」になると考えています。
+しかし、すべてのクラウドサービスを完全に把握してシステムを構築することは容易ではなく、
+また、あまり多くのクラウドサービスを統合しすぎてもシステムが複雑化するだけになってしまいます。
+弊社では、AWS、kintoneを駆使するシステム開発をおすすめしています。&lt;/p&gt;
+
+&lt;p&gt;両者のパートナーである弊社にしかできない、今後のサービス展開にご期待ください。&lt;/p&gt;
 </description>
     </item>
     

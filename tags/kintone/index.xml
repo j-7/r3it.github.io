@@ -5,8 +5,39 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Aug 2015 14:41:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2015 17:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Talend Open Studio パートナーに登録されました</title>
+      <link>https://www.r3it.com/info/2015/join-to-tosp/</link>
+      <pubDate>Thu, 06 Aug 2015 17:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/join-to-tosp/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/TOSP_logo_4c.png&#34; alt=&#34;TOSP&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートはこの度、 Talend Open Studio パートナーに登録されました。&lt;/p&gt;
+
+&lt;h1 id=&#34;talend-open-studio-パートナー-tosp-とは:60be785fc3713ba04f8c68da6af8f085&#34;&gt;Talend Open Studio パートナー（TOSP）とは&lt;/h1&gt;
+
+&lt;p&gt;Talend Open Studio (TOS)のトレーニング、サポート、コネクタやモジュールの受託開発などを提供するパートナーです。公式サイトはこちらのURLになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://talend.jp/tosp&#34;&gt;https://talend.jp/tosp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートでは、以下のコンポーネント・サービスを提供しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 向けの &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ kintone&lt;/a&gt; と接続するためのオープンソース コンポーネント&amp;rdquo;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kintone Connector for talend&lt;/a&gt;&amp;rdquo; の提供&lt;/li&gt;
+&lt;li&gt;上記コンポーネントを利用した kintone と既存システムのデータ連携システムの構築&lt;/li&gt;
+&lt;li&gt;Talend Open Studio を利用した基幹システムと Amazon Web Services (AWS) との間でのシステム・データ連携&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;システム間のデータ連携にご興味があるお客様は、&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;是非お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintoneをより便利にするgusukuのご紹介</title>
@@ -863,34 +894,6 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
 &lt;p&gt;大勢の皆様にご参加いただき、ありがとうございました！&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/kintone-hive1-003.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/kintone-hive1-003.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>サイボウズ kintone 全国セミナー in 大阪開催のお知らせ</title>
-      <link>https://www.r3it.com/info/2015/kintone-seminar/</link>
-      <pubDate>Thu, 28 May 2015 17:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/kintone-seminar/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;アールスリーインスティテュートとサイボウズ株式会社様との共催で、6月11日（木）15時より【サイボウズ kintone 全国セミナー in 大阪】をサイボウズ様の大阪オフィスにて開催させていただく事になりました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;「kintoneってよく聞くけど何が出来るんだろう？」&lt;/li&gt;
-&lt;li&gt;「kintoneの効果的な利用方法を知りたい」&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;など、kintoneにご興味のあるエンドユーザー様は、ぜひご参加ください。&lt;/p&gt;
-
-&lt;p&gt;6月以降毎月開催予定ですので、スケジュール等の詳しい内容、お申し込みは&lt;a href=&#34;https://www.r3it.com/solutions/kintone/&#34;&gt;こちら&lt;/a&gt;よりご確認ください。&lt;/p&gt;
-
-&lt;p&gt;※ もし上記セミナーが定員が少数のため、すぐ満員になってしまいます。もし入れなかった場合には、弊社でも無料体験会を毎週開催しております。こちらの方にもぜひご参加ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/freecontact/&#34;&gt;kintone無料体験会&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;皆様のお越しをお待ちしております。&lt;/p&gt;
 </description>
     </item>
     

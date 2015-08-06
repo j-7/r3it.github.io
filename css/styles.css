@@ -133,7 +133,7 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #solutions-top h1 {
-	font-size: 48px;
+	font-size: 36px;
 	border-bottom: 1px solid #686868;
 }
 
@@ -173,7 +173,7 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #community-top h1 {
-	font-size: 48px;
+	font-size: 36px;
 	border-bottom: 1px solid #686868;
 }
 
@@ -219,7 +219,7 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #single h1 {
-	font-size: 48px;
+	font-size: 36px;
 	border-bottom: 1px solid #686868;
 }
 
@@ -266,7 +266,7 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #blog-article h1 {
-	font-size: 34px;
+	font-size: 36px;
 	border-bottom: 1px solid #686868;
 }
 
