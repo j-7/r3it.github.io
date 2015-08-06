@@ -45,6 +45,133 @@
     </item>
     
     <item>
+      <title>JAWS-UG関西女子会第3回勉強会の開催レポート</title>
+      <link>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</link>
+      <pubDate>Wed, 05 Aug 2015 10:04:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</guid>
+      <description>
+
+&lt;p&gt;2015年8月1日土曜日、運営しているJAWS-UG関西女子会で第3回勉強会&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/26344&#34;&gt;事例から学ぶもくもく＆もぐもぐ会&lt;/a&gt;を開催しました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;もくもく-もぐもぐ会とは:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;もくもく＆もぐもぐ会とは？&lt;/h1&gt;
+
+&lt;p&gt;もくもく会は勉強会ではおなじみ(？)、参加者が自分達のペースで作業をすすめる勉強会の形式のことです。&lt;/p&gt;
+
+&lt;p&gt;今回の女子会では、ただのもくもく会では楽しくない！と、各参加者がひとつ食べ物を持ち寄ってもぐもぐしながらもくもく作業しよう！というコンセプトで行いました(๑・౩・๑）&lt;/p&gt;
+
+&lt;p&gt;みんなどんな食べ物を持ってくるんだろうとドキドキしながら待っていたんですが&amp;hellip;&lt;b&gt;いやー出るわ出るわ！&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;violet&#34;&gt;フルーツからデパ地下スイーツ、地域名産品の数々！&lt;/font&gt;&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets02.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets03.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみにわたしはアップルパイを持参したので、ナイフを使って一生懸命わけわけしてました！&lt;/p&gt;
+
+&lt;p&gt;（でもうまく切れなかったので最終的に交代してもらったのは内緒ｗｗ
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そしてヤムウンセンを作って来てくれたのは参加者の女子ではなく、なぜかサポメンｗｗｗｗ
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+男性なのにこの女子力の高さ&amp;hellip;マジ尊敬しますლ(⁰⊖⁰ლ)&lt;/p&gt;
+
+&lt;p&gt;ちなみに運営なのを良いことに、事例紹介中ずっともぐもぐしていたわたしです（
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;勉強会の内容:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;勉強会の内容&lt;/h1&gt;
+
+&lt;p&gt;第3回勉強会の内容は以下の通りです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;事例紹介&lt;/li&gt;
+&lt;li&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/li&gt;
+&lt;li&gt;フリータイム（懇親や飛び込みLTなど）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;事例紹介:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介&lt;/h2&gt;
+
+&lt;p&gt;JAWS-UG初心者支部より山崎奈緒美さんを講師としてお招きし、会社でのAWSの活用事例をお話頂きました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_naotan.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_naotan.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;コーポレートサイトやシステムで、ほんとにたくさんのAWS製品を組み合わせて活用されていました。&lt;/p&gt;
+
+&lt;h2 id=&#34;事例紹介からいくつか構成をピックアップしてハンズオン:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/h2&gt;
+
+&lt;p&gt;活用事例の中から、いくつか構成をピックアップし、ハンズオン形式で実際に参加者の皆さんに構築してもらいました。&lt;/p&gt;
+
+&lt;p&gt;当日実際に使用したハンズオン資料は&lt;a href=&#34;http://bit.ly/1LUhmXi&#34;&gt;こちら。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;すべて講師の山崎さんにご用意頂きました！&lt;/p&gt;
+
+&lt;p&gt;お仕事や初心者支部の勉強会の準備等もある中で、これだけ関西女子会のためにいろいろご尽力頂いてほんとにほんとに感謝してもしきれないくらいです(つ﹏&amp;lt;)･ﾟ｡&lt;/p&gt;
+
+&lt;p&gt;かなり盛りだくさんなコンテンツだったので時間内に最後まで構築するのは難しかったものの、それでも皆さんかなり集中して取り組んでいた様子。&lt;/p&gt;
+
+&lt;p&gt;まずは好きな食べ物を取りに行って。。。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt; &lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;作業を始めてからの皆さんの集中力の凄さには脱帽です(｡ω｡；)
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;個人的には、AWSマネジメントコンソール上の作業は比較的スムーズにできた（若干トラブルにも見まわれましたが&amp;hellip;）&lt;/p&gt;
+
+&lt;p&gt;んですが、EC2のインスタンスを起動してAmazon LinuxにSSHでログインして行う作業は、日頃CLIを利用しているかしていないかで差が出た部分だったんじゃないかなと思いました。&lt;/p&gt;
+
+&lt;p&gt;通常ハンズオンで使用するAMIは、環境がある程度整ったAMIを使用するケースが多いのですが、今回使用したAMIは実は事前に何も仕込んでいない生のAMI！&lt;/p&gt;
+
+&lt;p&gt;必要なパッケージはすべて手動でインストールして環境を整える必要がありました。&lt;/p&gt;
+
+&lt;p&gt;実は今回、&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;EC2＋RDS（postgreSQL）&lt;/font&gt;&lt;/b&gt;の環境を構築したのですが、動作確認のため、&lt;b&gt;EC-CUBE&lt;/b&gt;をインストールするという選択をしたのですｗ&lt;/p&gt;
+
+&lt;p&gt;マニアックでしょ？ &lt;del&gt;なんでWordPress入れないんだよクソがぁぁ！！！！&lt;/del&gt; って思うでしょ？ちゃんと理由あるのですよｗ&lt;/p&gt;
+
+&lt;p&gt;その&lt;a href=&#34;http://qiita.com/rocca0504/private/be654e50ab480d156207&#34;&gt;EC-CUBEのインストール手順&lt;/a&gt;部分は実はわたしが作ったりしてますｗ&lt;/p&gt;
+
+&lt;p&gt;そんなとこアピールするなって石投げられるかもしれませんがすみません(´A｀*)･ﾟ｡&lt;/p&gt;
+
+&lt;p&gt;突っ込みでもdisりでも指摘でも何でも受け付けますのでお許し下さい&amp;hellip;っ！！！！&lt;/p&gt;
+
+&lt;p&gt;ほぼほぼCLIです。しかもおそらくvi慣れしていない参加者が多いのではと（勝手に）思い、viを文章で表現するのは大変だと感じたので、viで編集しなくてもいいように&lt;b&gt;sed&lt;/b&gt;というおまじないコマンドを使ってますｗ&lt;/p&gt;
+
+&lt;p&gt;なんかほぼ自己満のマニュアルですね。いやほんとすみません。一応何かの参考にはなれば(๑´╹‸╹`๑)&lt;/p&gt;
+
+&lt;p&gt;コマンドたのしーなー（違&lt;/p&gt;
+
+&lt;h2 id=&#34;フリータイム-懇親や飛び込みltなど:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;フリータイム（懇親や飛び込みLTなど）&lt;/h2&gt;
+
+&lt;p&gt;頭を使ったあとはアルコール飲みながらもぐもぐしつつ飛び込みLTを聞きながらまったり楽しく過ごす時間です。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;こんな感じでLTも盛り上がってましたよ٩(●˙▿˙●)۶
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;山崎さんからは&lt;a href=&#34;http://jaws-ug.jp/ec/aws-hub/&#34;&gt;AWS-HUBのご紹介&lt;/a&gt;もありました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そんなこんなで今回も大盛況だった&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;lightpink&#34;&gt;JAWS-UG関西女子会&lt;/font&gt;&lt;/b&gt;です(๑´ㅂ`๑)&lt;/p&gt;
+
+&lt;p&gt;こんなにたくさんの女子達が参加してくれて、いつもほんと運営冥利に尽きますね！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_all.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_all.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;次回の勉強会の告知:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;次回の勉強会の告知&lt;/h1&gt;
+
+&lt;p&gt;次回は &lt;b&gt;&lt;font size=&#34;5&#34;&gt;1ヶ月後！&lt;/font&gt;&lt;/b&gt; &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;JAWS re:Mote&lt;/a&gt;です！&lt;/p&gt;
+
+&lt;p&gt;全国の支部同士をオンラインで繋いた勉強会になります。&lt;/p&gt;
+
+&lt;p&gt;最寄りの会場で普段なかなかお目にかかれない他の支部のスピーカーさんのセッションを聞ける大チャンス(๑˃́ꇴ˂̀๑)&lt;/p&gt;
+
+&lt;p&gt;関西女子会は女子会用の会場を用意しますが、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;JAWS-UG大阪会場&lt;/a&gt;もありますよ！&lt;/p&gt;
+
+&lt;p&gt;何人の人が参加してくれるのか、今からすごく楽しみです+。:.ﾟ(๑＞◡╹๑)(๑╹◡＜๑):.｡+ﾟ&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>kintoneをより便利にするgusukuのご紹介</title>
       <link>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</link>
       <pubDate>Tue, 04 Aug 2015 14:41:07 +0900</pubDate>
@@ -1022,51 +1149,6 @@ elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;会場はほぼ満席！参加者の皆さんの関心の高さが窺えるセミナーでした。&lt;/p&gt;
 
 &lt;p&gt;お越しいただいた皆様、ありがとうございました。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>プレスリリース：Talend用 kintoneコネクターを開発しGitHubに公開</title>
-      <link>https://www.r3it.com/info/2015/kintone-connector-for-talend/</link>
-      <pubDate>Tue, 23 Jun 2015 17:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/kintone-connector-for-talend/</guid>
-      <description>
-
-&lt;p&gt;ビックデータインテグレーションのリーダーであるTalend株式会社（本社：東京都港区、代表取締役社長：有延敬三、以下「Talend」）と、ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は本日、オープンソースソフトウェア版であるTalend Open Studio（以下「TOS」）を活用して、迅速かつ合理的な費用でのオンプレミスとクラウドのデータ連携、移行を推進するために技術、マーケティング面で協業することを発表いたしました。&lt;/p&gt;
-
-&lt;p&gt;Amazon Web Services (AWS)のコンサルティングパートナーであり、サイボウズ（kintone）パートナーでもあるR3は、kintone開発の魅力であるスピードを最大限に発揮するために、カスタマイズを最小限にとどめたハイスピードなシステムインテグレーションを提供しています。R3はTOSを利用して、ハンドコーディングせず、かつ安価に基幹システムとkintoneのデータ連携を実現し、その開発で得られた知見を元にTalend用のkintoneコネクター（kintone connector for talend: kc4t）を今年5月にオープンソースソフトウェアとしてGitHub上に公開しました。（ &lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;https://www.r3it.com/community/oss/kc4t/&lt;/a&gt; ）&lt;/p&gt;
-
-&lt;p&gt;Talend 製品は世界最大規模のユーザーコミュニティを基盤とし、800 以上のコンポーネントを持つ商用オープンソースソフトウェアです。Talend は、多くの企業ユーザーから要望のある kintone のコネクターを開発した R3 と協業することにより、Talend 製品によるオンプレミスとクラウドのデータ連携がさらに加速することを期待しています。&lt;/p&gt;
-
-&lt;p&gt;R3 は kc4t の第一弾として kintone からデータを抽出するコンポーネントを実現していますが、Talend との協業により、さらなる機能追加を予定しています。Talend と R3 は協業に基づき、データ連携に手間とコストをかけずにクラウドへの移行を実現するハイスピードかつハイクオリティなシステムインテグレーションを提供し、 顧客企業のデータドリブン経営を支援します。
-Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Japan Community: &lt;a href=&#34;https://talend.jp/&#34;&gt;https://talend.jp/&lt;/a&gt;)でもご紹介を予定しています。&lt;/p&gt;
-
-&lt;h2 id=&#34;talend-について:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;Talend について&lt;/h2&gt;
-
-&lt;p&gt;2006 年フランスで創業した Talend 社は、あらゆる情報資産の効率的な活用を可能にするビックデータ統合/ アプリケーション統合/ビジネスプロセス統合のためのソリューションを開発・提供し、データドリブン経営を支 援しています。Talend の統合ソリューションにより、データドリブンの組織は、あらゆるデータから価値を得ることが出来ます。Talend は、最新のビッグデータプラットフォームをネイティブにサポートすることで、データ統合にまつわる複雑さを排除出来るため、IT 部門は、ビジネス要求により迅速に対応可能になり、発生する費用も想定することが出来ます。Talend のソリューションは、オープンソースのテクノロジーをベースとしており、 拡張性が高く、常に最新であり、データ統合に関する、今後も増大するあらゆる要求を解決します。Talend は米国カリフォルニア州レッドウッド市に本社をおく非公開企業です。&lt;/p&gt;
-
-&lt;h2 id=&#34;r3-について:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;R3 について&lt;/h2&gt;
-
-&lt;p&gt;2000年に創業したアールスリーインスティテュートは、関西を中心に全国で活動している、システムによる問題解決チームです。クラウドファースト時代のシステム開発の考え方である「ハイスピードSI」を提唱し、お客様の問題を最も効率的に解決するためのアイデアを、考えに考えるのが弊社のスタンスです。
-既存のデータセンターにあるオンプレミスのシステム構築だけではなく、AWSパートナー・kintoneパートナーとしてクラウドを活用した問題解決をご提案しています。
-また、「コミュニティにフルコミット」を合言葉に、社員のコミュニティ活動を積極的に支援し、会社としても各種コミュニティ活動を強力に支援しています。&lt;/p&gt;
-
-&lt;h2 id=&#34;報道関係者-読者お問い合わせ先:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;報道関係者・読者お問い合わせ先&lt;/h2&gt;
-
-&lt;h3 id=&#34;talend-株式会社:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;Talend 株式会社&lt;/h3&gt;
-
-&lt;p&gt;マーケティング 重見英子&lt;/p&gt;
-
-&lt;p&gt;TEL:03-6427-6370 / E-mail:&lt;a href=&#34;prjp@talend.com&#34;&gt;prjp@talend.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;アールスリーインスティテュート:f7b7ad5cbfbfd227c39c60564c8b0c29&#34;&gt;アールスリーインスティテュート&lt;/h3&gt;
-
-&lt;p&gt;クライアントディベロップメント 林 宏樹&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663 / Email : &lt;a href=&#34;info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。&lt;/p&gt;
 </description>
     </item>
     
