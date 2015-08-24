@@ -5,8 +5,80 @@
     <link>https://www.r3it.com/info/</link>
     <description>Recent content in Infos on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Aug 2015 17:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2015 11:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>gusukuプライベートベータ開始のお知らせ</title>
+      <link>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</link>
+      <pubDate>Tue, 25 Aug 2015 11:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;gusukuプライベートベータ開始のお知らせ:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuプライベートベータ開始のお知らせ&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート（大阪府大阪市、代表取締役 加藤忠智、以下当社）は、本日kintoneでの開発を強力にサポートする「gusuku（グスク）」サービスのプライベートベータの提供を開始いたしました。&lt;/p&gt;
+
+&lt;p&gt;gusuku Webサイト: &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gusuku開発の背景:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusuku開発の背景&lt;/h2&gt;
+
+&lt;p&gt;kintoneは、サイボウズ株式会社の提供するファストシステム開発プラットフォームです。基本的な要素はブラウザ上でドラッグ＆ドロップだけで開発することができ、またクラウドサービスであるため運用環境を用意することなく、すぐに利用を開始することができます。&lt;/p&gt;
+
+&lt;p&gt;当社では、このkintoneを活用し「ハイスピードSI」という開発サービスを提供しておりますが、その中で実際に開発作業を行っていると今のkintoneでは解決できないいくつかの問題が発生します&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;簡単に安全にアプリを修正できるとはいえ本番運用しているアプリの上で試行錯誤するわけにはいかない&lt;/li&gt;
+&lt;li&gt;試行錯誤用に開発用アプリを別に作成したとしても、そこで実施した変更を再度本番環境のアプリで行わないといけなくなり、作業漏れやミスの可能性がある&lt;/li&gt;
+&lt;li&gt;変更した結果が、まずいとなった場合に元に戻す手段がない。最後に行った変更を手作業で１つ１つ戻していく必要がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こういった問題を解消することを目的に、gusukuを開発いたしました。&lt;/p&gt;
+
+&lt;h2 id=&#34;gusukuを利用していただきたい方:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuを利用していただきたい方&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneで運用しているアプリをお持ちで、頻繁にアプリに変更を加える方&lt;/li&gt;
+&lt;li&gt;kintoneで運用しているアプリが多く、それぞれのアプリの管理に手間がかかると感じられている方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;プライベートベータへの参加方法:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;プライベートベータへの参加方法&lt;/h2&gt;
+
+&lt;p&gt;gusukuプライベートベータサービスへの参加は、 &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt; より利用規約をご確認の上、ご登録ください。
+現在、FacebookまたはGoogleアカウントでのご利用が可能となっております。&lt;/p&gt;
+
+&lt;p&gt;準備が整い次第、順次ご連絡をさせていただきます。&lt;/p&gt;
+
+&lt;h2 id=&#34;gusukuの今後について:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuの今後について&lt;/h2&gt;
+
+&lt;p&gt;プライベートベータにてご意見をいただき必要な改修を行った後、本番リリースを行います。本番リリースでは、無料プランと有料プランの両方をご用意する予定となっております。
+有料プランの内容・金額等については、順次公開して参ります。&lt;/p&gt;
+
+&lt;h2 id=&#34;アールスリーインスティテュートについて:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;アールスリーインスティテュートについて&lt;/h2&gt;
+
+&lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。
+当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
+
+&lt;p&gt;Web: &lt;a href=&#34;https:/www.r3it.com/&#34;&gt;https:/www.r3it.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;本件に関するお問い合わせ先:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;本件に関するお問い合わせ先&lt;/h2&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
+
+&lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
+
+&lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
+
+&lt;h2 id=&#34;サービス画像:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;サービス画像&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34; data-lightbox=&#34;pics&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Talend Open Studio パートナーに登録されました</title>
@@ -50,8 +122,7 @@
       <pubDate>Wed, 24 Jun 2015 21:06:49 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2015/0624_kintonecafe-fukuoka/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;6月24日（水）の夜には、Cloud Days 九州の開催に併せて「kintone」の勉強会『kintone Café 福岡 Vol.5』が開かれました。
 従来設定していた定員数より上回り、開催直前になって急遽増枠となるなど、名古屋の時同様に大盛況でした！&lt;/p&gt;
@@ -139,8 +210,7 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
       <pubDate>Wed, 17 Jun 2015 17:06:49 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2015/0617_kintonecafe-nagoya/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;6月17日（水）の夜は、サイボウズ様が提供するクラウド型データベース「kintone」の勉強会『kintone Café 名古屋 Vol.1』にて弊社金春がセッションを行いました。&lt;/p&gt;
 
@@ -208,8 +278,7 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
       <pubDate>Thu, 28 May 2015 17:06:49 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2015/kintone-seminar/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;アールスリーインスティテュートとサイボウズ株式会社様との共催で、6月11日（木）15時より【サイボウズ kintone 全国セミナー in 大阪】をサイボウズ様の大阪オフィスにて開催させていただく事になりました。&lt;/p&gt;
 
@@ -317,8 +386,7 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
       <guid>https://www.r3it.com/info/2015/0207_jaws-ug_kansai_special/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/jawsug-square.png&#34; alt=&#34;JAWS-UG&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/jawsug-square.png&#34; alt=&#34;JAWS-UG&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;jaws-ugとは:6b1d8d10e122c8972fdbbecbe19071d3&#34;&gt;JAWS-UGとは？&lt;/h1&gt;
 
@@ -349,8 +417,7 @@ JAWS-UG Kansai 特別編 「AWSを使い倒せ。AWSのフルマネージドサ�
       <pubDate>Mon, 19 Jan 2015 17:06:49 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2015/kintone-cafe-official-site/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;
-&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;kintone Caféとはkintoneを勉強したいあるいはもっと深く勉強したい方が集まるコミュニティです。&lt;/p&gt;
 

@@ -5,8 +5,80 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Aug 2015 12:14:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2015 11:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>gusukuプライベートベータ開始のお知らせ</title>
+      <link>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</link>
+      <pubDate>Tue, 25 Aug 2015 11:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;gusukuプライベートベータ開始のお知らせ:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuプライベートベータ開始のお知らせ&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート（大阪府大阪市、代表取締役 加藤忠智、以下当社）は、本日kintoneでの開発を強力にサポートする「gusuku（グスク）」サービスのプライベートベータの提供を開始いたしました。&lt;/p&gt;
+
+&lt;p&gt;gusuku Webサイト: &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gusuku開発の背景:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusuku開発の背景&lt;/h2&gt;
+
+&lt;p&gt;kintoneは、サイボウズ株式会社の提供するファストシステム開発プラットフォームです。基本的な要素はブラウザ上でドラッグ＆ドロップだけで開発することができ、またクラウドサービスであるため運用環境を用意することなく、すぐに利用を開始することができます。&lt;/p&gt;
+
+&lt;p&gt;当社では、このkintoneを活用し「ハイスピードSI」という開発サービスを提供しておりますが、その中で実際に開発作業を行っていると今のkintoneでは解決できないいくつかの問題が発生します&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;簡単に安全にアプリを修正できるとはいえ本番運用しているアプリの上で試行錯誤するわけにはいかない&lt;/li&gt;
+&lt;li&gt;試行錯誤用に開発用アプリを別に作成したとしても、そこで実施した変更を再度本番環境のアプリで行わないといけなくなり、作業漏れやミスの可能性がある&lt;/li&gt;
+&lt;li&gt;変更した結果が、まずいとなった場合に元に戻す手段がない。最後に行った変更を手作業で１つ１つ戻していく必要がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こういった問題を解消することを目的に、gusukuを開発いたしました。&lt;/p&gt;
+
+&lt;h2 id=&#34;gusukuを利用していただきたい方:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuを利用していただきたい方&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneで運用しているアプリをお持ちで、頻繁にアプリに変更を加える方&lt;/li&gt;
+&lt;li&gt;kintoneで運用しているアプリが多く、それぞれのアプリの管理に手間がかかると感じられている方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;プライベートベータへの参加方法:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;プライベートベータへの参加方法&lt;/h2&gt;
+
+&lt;p&gt;gusukuプライベートベータサービスへの参加は、 &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt; より利用規約をご確認の上、ご登録ください。
+現在、FacebookまたはGoogleアカウントでのご利用が可能となっております。&lt;/p&gt;
+
+&lt;p&gt;準備が整い次第、順次ご連絡をさせていただきます。&lt;/p&gt;
+
+&lt;h2 id=&#34;gusukuの今後について:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuの今後について&lt;/h2&gt;
+
+&lt;p&gt;プライベートベータにてご意見をいただき必要な改修を行った後、本番リリースを行います。本番リリースでは、無料プランと有料プランの両方をご用意する予定となっております。
+有料プランの内容・金額等については、順次公開して参ります。&lt;/p&gt;
+
+&lt;h2 id=&#34;アールスリーインスティテュートについて:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;アールスリーインスティテュートについて&lt;/h2&gt;
+
+&lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。
+当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
+
+&lt;p&gt;Web: &lt;a href=&#34;https:/www.r3it.com/&#34;&gt;https:/www.r3it.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;本件に関するお問い合わせ先:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;本件に関するお問い合わせ先&lt;/h2&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
+
+&lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
+
+&lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
+
+&lt;h2 id=&#34;サービス画像:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;サービス画像&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34; data-lightbox=&#34;pics&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NRIハッカソン＠CEATEC JAPAN 2015 大阪予選に当選しました</title>
@@ -316,8 +388,7 @@
 
 &lt;h3 id=&#34;gusukuサービスをスタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;gusukuサービスをスタートします&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusukuロゴ&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusukuロゴ&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;2015年7月のkintoneの機能アップにより、このステージングをAPIを使ってできるようになりました。
 弊社では、この新APIを活用し、kintoneにステージング環境を提供するサービス（gusuku）を開発しています。&lt;/p&gt;
@@ -338,8 +409,7 @@
 
 &lt;p&gt;こんな感じです。（これは城跡ですが）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku01.jpg&#34; alt=&#34;gusuku&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku01.jpg&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;kintoneで開発するアプリを守る城になりたいとの想いから、本サービスをgusukuと命名しました。&lt;/p&gt;
 
@@ -361,8 +431,7 @@
 
 &lt;p&gt;今日はアールスリーの社内部活動である「IoT部」のミートアップの様子と、先月6月24−27日にわたって開催されたイベント、&lt;a href=&#34;http://hackers-champloo.org/2015/&#34;&gt;ハッカーズチャンプルー2015&lt;/a&gt;の報告をします。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;（これはLEDで表現したIoT部のロゴ（仮）です。）&lt;/p&gt;
 
@@ -415,8 +484,7 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; に参戦予定です！！&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;↑こんな感じのTシャツを作って着ていく予定です！&lt;/p&gt;
 
@@ -1069,149 +1137,7 @@ elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/k_nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>各種アウトソーシング</title>
-      <link>https://www.r3it.com/solutions/outsourcing/</link>
-      <pubDate>Tue, 30 Jun 2015 19:16:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/outsourcing/</guid>
-      <description>
-
-&lt;h2 id=&#34;現行システム対応サービス:8a0e782de720c77deb643dad8cefa2e7&#34;&gt;現行システム対応サービス&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_38.png&#34; alt=&#34;現行システム対応サービス&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;ゼロから作ることが良いとも限りません。今の資産をどこまで活かせるかを見極めたうえで、効率良い方法を考えます&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;システム・リノベーション&lt;/dt&gt;
-    &lt;dd&gt;現行システムを維持しながら、革新的に蘇らせます&lt;/dd&gt;
-  &lt;dt&gt;派生ツール&lt;/dt&gt;
-    &lt;dd&gt;現行システムに極力手を加えず、ビジネスのスピードについていくための一つの手法です。&lt;br&gt;R3であればスピード面とコスト面とで意味があります&lt;/dd&gt;
-  &lt;dt&gt;保守引き継ぎ&lt;/dt&gt;
-    &lt;dd&gt;現行システムの保守、改良を、そのまま引き継いで行います&lt;/dd&gt;
-  &lt;dt&gt;ドキュメント起こし&lt;/dt&gt;
-    &lt;dd&gt;現行システムに存在しないドキュメントを作成します&lt;/dd&gt;
-  &lt;dt&gt;&lt;/dt&gt;
-    &lt;dd&gt;&lt;/dd&gt;
-  &lt;dt&gt;&lt;/dt&gt;
-    &lt;dd&gt;&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;h2 id=&#34;上流系サービス:8a0e782de720c77deb643dad8cefa2e7&#34;&gt;上流系サービス&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_39.png&#34; alt=&#34;上流系サービス&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;IT化の前段階としての、ニーズや課題の整理、解決策の方向性検討を、 IT以外の面も含めて行います&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;業務分析・見える化&lt;/dt&gt;
-    &lt;dd&gt;全体が明らかになっていない現状業務を「見える化」し、 問題点・課題を洗い出すことによって、全体改善のきっかけとします&lt;/dd&gt;
-  &lt;dt&gt;データ解析&lt;/dt&gt;
-    &lt;dd&gt;現状の課題を明らかにするために、データ解析を弊社主導で行います&lt;/dd&gt;
-  &lt;dt&gt;システム企画&lt;/dt&gt;
-    &lt;dd&gt;課題を解決するために必要なシステム全体像を設計します&lt;/dd&gt;
-  &lt;dt&gt;プロジェクトマネジメント&lt;/dt&gt;
-    &lt;dd&gt;お客様の立場にたって、ユーザとベンダとの橋渡しを行います&lt;/dd&gt;
-  &lt;dt&gt;フレームワーク設計&lt;/dt&gt;
-    &lt;dd&gt;繰り返し改良したり、お客様ごとにカスタマイズするようなソフトウェアにおいて、その効率をアップさせるために、フレームワーク化を行います&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;h2 id=&#34;評価-診断サービス:8a0e782de720c77deb643dad8cefa2e7&#34;&gt;評価・診断サービス&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_40.png&#34; alt=&#34;評価・診断サービス&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;様々な経験をしてきたノウハウをもとに、ニュートラルな評価・診断をいたします&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;システム診断&lt;/dt&gt;
-    &lt;dd&gt;お客様の現行システムを第三者の視点で評価し、次のステップへつなげます&lt;/dd&gt;
-  &lt;dt&gt;パッケージ評価&lt;/dt&gt;
-    &lt;dd&gt;パッケージを導入したいと思っているお客様に対し、そのパッケージを第三者の視点で評価をいたします&lt;/dd&gt;
-  &lt;dt&gt;プロトタイプ検証&lt;/dt&gt;
-    &lt;dd&gt;システム性能を最大化し、投資リスクを最小化させるためのプロトタイプをクイックに作ります&lt;/dd&gt;
-  &lt;dt&gt;内部統制・バリデーション&lt;/dt&gt;
-    &lt;dd&gt;JSOX / SOX、FDA / GAMP / GMPなどに対応させるシステム化を検討します&lt;/dd&gt;
-  &lt;dt&gt;ITコンサルティング&lt;/dt&gt;
-    &lt;dd&gt;ITの専門家がお客様のアドバイザーとなります&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;h2 id=&#34;導入サービス:8a0e782de720c77deb643dad8cefa2e7&#34;&gt;導入サービス&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_41.png&#34; alt=&#34;導入サービス&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;一般的なITベンダとは違った、お客様側のサポートとなるサービスが可能です&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;業務マニュアル作成&lt;/dt&gt;
-    &lt;dd&gt;R3は業務にも強いシステム会社です。R3がシステムだけでなく業務全体のマニュアルを作成いたします&lt;/dd&gt;
-  &lt;dt&gt;ユーザテスト代行&lt;/dt&gt;
-    &lt;dd&gt;システム導入の成功の鍵となる、ユーザテストをR3が代行いたします&lt;/dd&gt;
-  &lt;dt&gt;他社パッケージ導入&lt;/dt&gt;
-    &lt;dd&gt;他社パッケージであっても、R3ではトータルに導入をサポートいたします&lt;/dd&gt;
-  &lt;dt&gt;メンテナンス運用設計&lt;/dt&gt;
-    &lt;dd&gt;オープンソースソフトウェアを積極的に活用した自動監視など、手間をかけずに安定稼働するための運用設計を行います&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;h2 id=&#34;サーバ関連サービス:8a0e782de720c77deb643dad8cefa2e7&#34;&gt;サーバ関連サービス&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_41.png&#34; alt=&#34;サーバ関連サービス&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;システムの土台となるインフラ部分についても構築や運用のサポートをいたします&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;クラウドサービス&lt;/dt&gt;
-    &lt;dd&gt;クラウドの特徴を最大限に生かした環境構築を行います：&lt;a href=&#34;https://www.r3it.com/solutions/aws/&#34;&gt;AWSについて&lt;/a&gt;&lt;/dd&gt;
-  &lt;dt&gt;インフラ設計&lt;/dt&gt;
-    &lt;dd&gt;コストをかけすぎないちょうどいいインフラ設計を行います&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;h2 id=&#34;保守系サービス:8a0e782de720c77deb643dad8cefa2e7&#34;&gt;保守系サービス&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_42.png&#34; alt=&#34;保守系サービス&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;システムを維持していくうえでの様々なお困りごとに対応します&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;システム保守&lt;/dt&gt;
-    &lt;dd&gt;弊社開発だけでなく、他社が開発したシステムであってもR3で保守を行います&lt;/dd&gt;
-  &lt;dt&gt;ITサポートサービス&lt;/dt&gt;
-    &lt;dd&gt;情報システム部門で発生する雑多な作業をR3が代行いたします&lt;/dd&gt;
-  &lt;dt&gt;テクニカルサポート&lt;/dt&gt;
-    &lt;dd&gt;自社開発をR3が技術的にサポートいたします&lt;/dd&gt;
-
-&lt;/dl&gt;
-
-&lt;h2 id=&#34;教育サービス:8a0e782de720c77deb643dad8cefa2e7&#34;&gt;教育サービス&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/index_icoon_43.png&#34; alt=&#34;教育サービス&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;弊社の開発ノウハウを、お客様ニーズにそった形で、教育プランをカスタマイズしてお伝えします&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;プログラミング演習&lt;/dt&gt;
-    &lt;dd&gt;一般的な例ではなく、お客様に必要な内容をレクチャーいたします&lt;/dd&gt;
-  &lt;dt&gt;OJTトレーニング&lt;/dt&gt;
-    &lt;dd&gt;御社の開発要員に弊社にお越しいただき、開発メンバーの一員としてシステム開発会社の中でシステム開発を学んでいただきます&lt;/dd&gt;
-
-&lt;/dl&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

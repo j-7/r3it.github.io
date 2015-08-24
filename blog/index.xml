@@ -280,8 +280,7 @@
 
 &lt;h3 id=&#34;gusukuサービスをスタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;gusukuサービスをスタートします&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusukuロゴ&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusukuロゴ&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;2015年7月のkintoneの機能アップにより、このステージングをAPIを使ってできるようになりました。
 弊社では、この新APIを活用し、kintoneにステージング環境を提供するサービス（gusuku）を開発しています。&lt;/p&gt;
@@ -302,8 +301,7 @@
 
 &lt;p&gt;こんな感じです。（これは城跡ですが）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku01.jpg&#34; alt=&#34;gusuku&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku01.jpg&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;kintoneで開発するアプリを守る城になりたいとの想いから、本サービスをgusukuと命名しました。&lt;/p&gt;
 
@@ -325,8 +323,7 @@
 
 &lt;p&gt;今日はアールスリーの社内部活動である「IoT部」のミートアップの様子と、先月6月24−27日にわたって開催されたイベント、&lt;a href=&#34;http://hackers-champloo.org/2015/&#34;&gt;ハッカーズチャンプルー2015&lt;/a&gt;の報告をします。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;（これはLEDで表現したIoT部のロゴ（仮）です。）&lt;/p&gt;
 
@@ -379,8 +376,7 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; に参戦予定です！！&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;↑こんな感じのTシャツを作って着ていく予定です！&lt;/p&gt;
 
@@ -835,8 +831,7 @@ elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/k_nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

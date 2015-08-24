@@ -56,8 +56,7 @@
 
 &lt;p&gt;今日はアールスリーの社内部活動である「IoT部」のミートアップの様子と、先月6月24−27日にわたって開催されたイベント、&lt;a href=&#34;http://hackers-champloo.org/2015/&#34;&gt;ハッカーズチャンプルー2015&lt;/a&gt;の報告をします。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;（これはLEDで表現したIoT部のロゴ（仮）です。）&lt;/p&gt;
 
@@ -110,8 +109,7 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; に参戦予定です！！&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;↑こんな感じのTシャツを作って着ていく予定です！&lt;/p&gt;
 
@@ -219,8 +217,7 @@
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/k_nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -277,8 +274,7 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
       <guid>https://www.r3it.com/community/oss/js2kintone/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したアプリをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
 
@@ -310,8 +306,7 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
       <guid>https://www.r3it.com/community/oss/kc4t/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
 
