@@ -5,8 +5,62 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Aug 2015 12:14:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2015 16:51:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>東北IT物産展2015でkintoneのハンズオンを実施しました</title>
+      <link>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</link>
+      <pubDate>Wed, 02 Sep 2015 16:51:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</guid>
+      <description>
+
+&lt;h1 id=&#34;東北it物産展2015にてkintoneハンズオンを実施しました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;東北IT物産展2015にてkintoneハンズオンを実施しました&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北IT物産展&lt;/a&gt;は、昨年JAWS-UGの全国イベントJAWS Festaとして仙台で実施されたイベントの副題として始まったイベントです。&lt;/p&gt;
+
+&lt;p&gt;今年は、JAWS-UGの枠を超えて東北のITを盛り上げようということで、東北IT物産展というメインタイトルで実施されました。&lt;/p&gt;
+
+&lt;p&gt;青森に東北内外から100名の参加者が集まり盛大に実施されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten2.jpg&#34; alt=&#34;物産展入り口&#34; /&gt;
+&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten1.jpg&#34; alt=&#34;物産展Tシャツ&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;kintoneハンズオン:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;kintoneハンズオン&lt;/h1&gt;
+
+&lt;p&gt;この東北IT物産展の1セッションとして、kintoneの勉強会コミュニティであるkintone Caféとしてkintoneのハンズオンを実施してきました。
+参加者のほとんどがkintoneを触ったことがないという中で、経費精算アプリを作るというハンズオンにてkintoneの便利さを体感していただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/au0Tp9I8VYXNnZ&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150829-tohoku-itbussanten&#34; title=&#34;20150829 tohoku it_bussanten&#34; target=&#34;_blank&#34;&gt;20150829 tohoku it_bussanten&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;参加者のみなさんほとんど詰まることもなくハンズオンはスムーズに進みました。
+このハンズオンでお伝えしたかったのは以下の点です。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneは驚くほど簡単にフォームとデータベースを作成することができる&lt;/li&gt;
+&lt;li&gt;ミスがあったとしてもすぐに修正することができる&lt;/li&gt;
+&lt;li&gt;実際に動くものを見るとどんどんやりたいことが生まれ、またそれをすぐに実現できること&lt;/li&gt;
+&lt;li&gt;簡単なだけでなく企業で必要とされるセキュリティなども確保できること&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;ltでもお話してきました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;LTでもお話してきました&lt;/h1&gt;
+
+&lt;p&gt;懇親会で実施されたLT（Lightning Talk）でも発表をさせていただきました。
+LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt;を紹介させていただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;なぜ、gusukuが必要なのか、ないと何が起きるのか、どうしてgusukuという名前なのかという内容を5分という短い時間でしたがお伝えできたのではないかと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;来年は秋田で開催です:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;来年は秋田で開催です&lt;/h1&gt;
+
+&lt;p&gt;運営スタッフのみなさん、準備作業からとても大変だったと思いますが本当のお疲れ様でした。すばらしいイベントでした。
+懇親会の場で来年は秋田で開催されることが決定されましたので、今から楽しみです。&lt;/p&gt;
+
+&lt;p&gt;東北在住でない方も、他の地域の状況を見知ることはとても勉強になりますので来年はぜひご参加ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NRIハッカソン＠CEATEC JAPAN 2015 大阪予選に当選しました</title>
@@ -1031,45 +1085,6 @@ S3 のUpload画面で、ファイルを選択後に、「Set Details」を選択
 これができるようになることで、今までセキュリティポリシーに適合できないがためにAWSの利用が難しかった会社でも利用できるようになり、AWSの利用機会が広がるのではないかと思います。&lt;/p&gt;
 
 &lt;p&gt;今回は、Management Consoleで操作しましたが、AWSでの当然APIやCLIからも操作できますので、鍵管理を自動化することもできますね！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AWS Cloud Roadshow 2014に出展します</title>
-      <link>https://www.r3it.com/blog/aws/cloudroadshow-2014/</link>
-      <pubDate>Mon, 17 Nov 2014 09:49:13 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/cloudroadshow-2014/</guid>
-      <description>
-
-&lt;h1 id=&#34;aws-cloud-roadshow2014:2b81f077773729e19a431ae047cc9fbf&#34;&gt;AWS Cloud Roadshow2014&lt;/h1&gt;
-
-&lt;p&gt;AWS Cloud Roadshow2014とは、AWSが実施する展示会です。
-全国４都市で実施されており、12/2の大阪が最後となります。&lt;/p&gt;
-
-&lt;p&gt;弊社も出展します。&lt;/p&gt;
-
-&lt;p&gt;詳細は、&lt;a href=&#34;http://roadshow.awseventsjapan.com/osaka/index.html&#34;&gt;こちら&lt;/a&gt;にあります。&lt;/p&gt;
-
-&lt;h1 id=&#34;弊社の出展内容:2b81f077773729e19a431ae047cc9fbf&#34;&gt;弊社の出展内容&lt;/h1&gt;
-
-&lt;p&gt;今回は、”「AWS x kintone」でいままでにないシステム開発を!” として、cybozu社のkintoneとAWSを掛け合わせるソリューションについてご紹介いたします。
-&lt;a href=&#34;https://www.r3it.com/blog/aws/hybrid_cloud/&#34;&gt;こちらの記事&lt;/a&gt;でも触れましたが、これからは複数のクラウドサービスを組みあせて使う形の「ハイブリッドクラウド」が盛り上がってくると考えています。&lt;/p&gt;
-
-&lt;p&gt;また、これらのクラウドの組合せをオープンソース・ソフトウェアを駆使した形で、できるだけスピーディにかつ安価にご提供できるようにしていきたいと考えております。&lt;/p&gt;
-
-&lt;p&gt;来場された皆様には、日頃のシステム開発でのお悩み事についてお聞かせ願えれば幸いです。
-そのお悩みをハイブリッドクラウドで解決するべく弊社とともに解決していきましょう。&lt;/p&gt;
-
-&lt;h1 id=&#34;当日にはjaws-ug-kansaiもあります:2b81f077773729e19a431ae047cc9fbf&#34;&gt;当日にはJAWS-UG Kansaiもあります&lt;/h1&gt;
-
-&lt;p&gt;AWS Cloud Roadshowの後には同会場にて「JAWS-UG Knasai」も実施されます。
-今回は、「AWS ゆく年、くる年」として今年のAWSを振り返り、来年の展望をみなさんでお話します。&lt;/p&gt;
-
-&lt;p&gt;AWSには非常に強力なユーザグループがあり、エンジニアの方だけではなくAWSに興味のある方々が全国でたくさん参加しています。
-有志の集まったユーザグループですので、非常に和やかな雰囲気の中でAWSについて最新事例や他のユーザが何を思ってAWSを使っているかなどを知るいい機会になっています。&lt;/p&gt;
-
-&lt;p&gt;こちらのご参加もお願いいたします。&lt;/p&gt;
 </description>
     </item>
     

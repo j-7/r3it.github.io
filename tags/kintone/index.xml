@@ -5,13 +5,67 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Aug 2015 11:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2015 16:51:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>東北IT物産展2015でkintoneのハンズオンを実施しました</title>
+      <link>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</link>
+      <pubDate>Wed, 02 Sep 2015 16:51:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</guid>
+      <description>
+
+&lt;h1 id=&#34;東北it物産展2015にてkintoneハンズオンを実施しました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;東北IT物産展2015にてkintoneハンズオンを実施しました&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北IT物産展&lt;/a&gt;は、昨年JAWS-UGの全国イベントJAWS Festaとして仙台で実施されたイベントの副題として始まったイベントです。&lt;/p&gt;
+
+&lt;p&gt;今年は、JAWS-UGの枠を超えて東北のITを盛り上げようということで、東北IT物産展というメインタイトルで実施されました。&lt;/p&gt;
+
+&lt;p&gt;青森に東北内外から100名の参加者が集まり盛大に実施されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten2.jpg&#34; alt=&#34;物産展入り口&#34; /&gt;
+&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten1.jpg&#34; alt=&#34;物産展Tシャツ&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;kintoneハンズオン:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;kintoneハンズオン&lt;/h1&gt;
+
+&lt;p&gt;この東北IT物産展の1セッションとして、kintoneの勉強会コミュニティであるkintone Caféとしてkintoneのハンズオンを実施してきました。
+参加者のほとんどがkintoneを触ったことがないという中で、経費精算アプリを作るというハンズオンにてkintoneの便利さを体感していただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/au0Tp9I8VYXNnZ&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150829-tohoku-itbussanten&#34; title=&#34;20150829 tohoku it_bussanten&#34; target=&#34;_blank&#34;&gt;20150829 tohoku it_bussanten&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;参加者のみなさんほとんど詰まることもなくハンズオンはスムーズに進みました。
+このハンズオンでお伝えしたかったのは以下の点です。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneは驚くほど簡単にフォームとデータベースを作成することができる&lt;/li&gt;
+&lt;li&gt;ミスがあったとしてもすぐに修正することができる&lt;/li&gt;
+&lt;li&gt;実際に動くものを見るとどんどんやりたいことが生まれ、またそれをすぐに実現できること&lt;/li&gt;
+&lt;li&gt;簡単なだけでなく企業で必要とされるセキュリティなども確保できること&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;ltでもお話してきました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;LTでもお話してきました&lt;/h1&gt;
+
+&lt;p&gt;懇親会で実施されたLT（Lightning Talk）でも発表をさせていただきました。
+LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt;を紹介させていただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;なぜ、gusukuが必要なのか、ないと何が起きるのか、どうしてgusukuという名前なのかという内容を5分という短い時間でしたがお伝えできたのではないかと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;来年は秋田で開催です:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;来年は秋田で開催です&lt;/h1&gt;
+
+&lt;p&gt;運営スタッフのみなさん、準備作業からとても大変だったと思いますが本当のお疲れ様でした。すばらしいイベントでした。
+懇親会の場で来年は秋田で開催されることが決定されましたので、今から楽しみです。&lt;/p&gt;
+
+&lt;p&gt;東北在住でない方も、他の地域の状況を見知ることはとても勉強になりますので来年はぜひご参加ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>gusukuプライベートベータ開始のお知らせ</title>
       <link>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</link>
-      <pubDate>Tue, 25 Aug 2015 11:30:00 +0900</pubDate>
+      <pubDate>Tue, 25 Aug 2015 10:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</guid>
       <description>
@@ -62,7 +116,7 @@
 &lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。
 当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
 
-&lt;p&gt;Web: &lt;a href=&#34;https:/www.r3it.com/&#34;&gt;https:/www.r3it.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;本件に関するお問い合わせ先:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;本件に関するお問い合わせ先&lt;/h2&gt;
 
@@ -731,211 +785,6 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
 &lt;p&gt;&lt;a href=&#34;https://event.nikkeibp.co.jp/reg/contents/cd_n_2015/index.html#C-13B&#34;&gt;https://event.nikkeibp.co.jp/reg/contents/cd_n_2015/index.html#C-13B&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;皆様のお越しを心よりお待ちしております。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Connector for talend</title>
-      <link>https://www.r3it.com/community/oss/kc4t/</link>
-      <pubDate>Mon, 08 Jun 2015 16:23:36 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/oss/kc4t/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
-
-&lt;h2 id=&#34;機能:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;機能&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/li&gt;
-&lt;li&gt;RDBMSからkintoneへレコードのインポート（近日公開予定）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;必要な環境:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;必要な環境&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintone SDK for Java version 0.6以降 &lt;a href=&#34;https://github.com/kintone/java-sdk&#34;&gt;https://github.com/kintone/java-sdk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JDK 7以降&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;機能詳細:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;機能詳細&lt;/h2&gt;
-
-&lt;h3 id=&#34;kintoneからjdbc接続可能なrdbmsへのレコードのエクスポート:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneアプリを元に自動的にテーブルスキーマを作成します&lt;/li&gt;
-&lt;li&gt;レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします&lt;/li&gt;
-&lt;li&gt;エクスポート時にクエリを指定可能です&lt;/li&gt;
-&lt;li&gt;実行ジョブのステータスはジョブステータス格納用テーブルに記録されます&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;インストールと使い方:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;インストールと使い方&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;https://github.com/r3it/kc4t&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;ファイルの設置と設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;ファイルの設置と設定&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt;を起動します&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;カスタムコンポーネント&amp;rdquo; フォルダを設定します
-
-&lt;ul&gt;
-&lt;li&gt;例として&amp;rdquo;Custom Components&amp;rdquo;という名前のフォルダを、ハードディスクのどこかに作成します&lt;/li&gt;
-&lt;li&gt;Studioの設定画面で Window-&amp;gt; Preferences-&amp;gt; Talend-&amp;gt; Components と遷移します&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;User component folder&amp;rdquo; にいま作成した&amp;rdquo;Custom Components&amp;rdquo;フォルダを設定します&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;設定パラメータ:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;設定パラメータ&lt;/h2&gt;
-
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;jdbc設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;JDBC設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Username&lt;/td&gt;
-&lt;td&gt;JDBC接続時のユーザ名&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Password&lt;/td&gt;
-&lt;td&gt;JDBC接続時のパスワード&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JDBC URL&lt;/td&gt;
-&lt;td&gt;JDBC URL&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Driver Class name&lt;/td&gt;
-&lt;td&gt;JDBCドライバのクラス名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;出力先テーブル名の設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;出力先テーブル名の設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Export table prefix&lt;/td&gt;
-&lt;td&gt;データをエクスポートするテーブル名の接頭辞&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JobReport table name&lt;/td&gt;
-&lt;td&gt;ジョブ結果を格納するテーブル名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;kintoneの設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;kintoneの設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;API token&lt;/td&gt;
-&lt;td&gt;接続するkintoneアプリの API token&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Sub domain&lt;/td&gt;
-&lt;td&gt;接続するアプリのサブドメイン&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;kintone AppId&lt;/td&gt;
-&lt;td&gt;アプリID（数値で指定します）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Guest SpaceId&lt;/td&gt;
-&lt;td&gt;もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;query&lt;/td&gt;
-&lt;td&gt;クエリパラメータを利用する場合、ここに設定します。何も設定しなければ、コンポーネントはすべてのレコードのエクスポートを試みます。&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;order by field&lt;/td&gt;
-&lt;td&gt;デフォルトは &amp;ldquo;RECORD_NUMBER&amp;rdquo; です。あなたのアプリケーションが &amp;ldquo;RECORD_NUMBER&amp;rdquo; を持っていない場合、ソートに利用するフィールド名を指定してください。&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;retrieve revision field&lt;/td&gt;
-&lt;td&gt;デフォルトは &amp;ldquo;true&amp;rdquo; です。チェックを外すと、REVISIONフィールドを取得しません。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;出力結果:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;出力結果&lt;/h2&gt;
-
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JobId&lt;/td&gt;
-&lt;td&gt;ジョブID（テーブルの接尾詞になります）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;MainTable&lt;/td&gt;
-&lt;td&gt;エクスポートされたテーブル名&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;SubTables&lt;/td&gt;
-&lt;td&gt;サブテーブルがあった場合、それらのテーブル名がカンマ区切りで入ります。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;その他:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;その他&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;現在のところテーブルは削除されません。ジョブが実行されるたびに、新たにテーブルが作成されます。&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
