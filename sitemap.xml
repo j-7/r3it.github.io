@@ -3,8 +3,18 @@
   
   <url>
     <loc>https://www.r3it.com/</loc>
-    <lastmod>2015-09-02T16:51:06+09:00</lastmod>
+    <lastmod>2015-09-08T16:04:37+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/solutions/kintone/</loc>
+    <lastmod>2015-09-08T16:04:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/solutions/kintone/inprogress/</loc>
+    <lastmod>2015-09-08T16:04:37+09:00</lastmod>
   </url>
   
   <url>
@@ -170,11 +180,6 @@
   <url>
     <loc>https://www.r3it.com/solutions/si/</loc>
     <lastmod>2015-05-29T16:14:36+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.r3it.com/solutions/kintone/</loc>
-    <lastmod>2015-05-29T16:04:37+09:00</lastmod>
   </url>
   
   <url>
