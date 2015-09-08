@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on </title>
-    <link>https://www.r3it.com/blog/</link>
-    <description>Recent content in Blogs on </description>
+    <title>Community on </title>
+    <link>https://www.r3it.com/tags/community/</link>
+    <description>Recent content in Community on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 08 Sep 2015 14:12:30 +0900</lastBuildDate>
-    <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.r3it.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CoderDojo＋αのご紹介</title>
@@ -89,167 +89,6 @@
 &lt;p&gt;弊社オフィスのある大阪からも電車で1時間かからない。そして京都からも…言わずもがな٩(●˙▿˙●)۶&lt;/p&gt;
 
 &lt;p&gt;以上、CoderDojo＋αのご紹介でした(⑅っˇωˇ )っ&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>東北IT物産展2015でkintoneのハンズオンを実施しました</title>
-      <link>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</link>
-      <pubDate>Wed, 02 Sep 2015 16:51:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</guid>
-      <description>
-
-&lt;h1 id=&#34;東北it物産展2015にてkintoneハンズオンを実施しました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;東北IT物産展2015にてkintoneハンズオンを実施しました&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北IT物産展&lt;/a&gt;は、昨年JAWS-UGの全国イベントJAWS Festaとして仙台で実施されたイベントの副題として始まったイベントです。&lt;/p&gt;
-
-&lt;p&gt;今年は、JAWS-UGの枠を超えて東北のITを盛り上げようということで、東北IT物産展というメインタイトルで実施されました。&lt;/p&gt;
-
-&lt;p&gt;青森に東北内外から100名の参加者が集まり盛大に実施されました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten2.jpg&#34; alt=&#34;物産展入り口&#34; /&gt;
-&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten1.jpg&#34; alt=&#34;物産展Tシャツ&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;kintoneハンズオン:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;kintoneハンズオン&lt;/h1&gt;
-
-&lt;p&gt;この東北IT物産展の1セッションとして、kintoneの勉強会コミュニティであるkintone Caféとしてkintoneのハンズオンを実施してきました。
-参加者のほとんどがkintoneを触ったことがないという中で、経費精算アプリを作るというハンズオンにてkintoneの便利さを体感していただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/au0Tp9I8VYXNnZ&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150829-tohoku-itbussanten&#34; title=&#34;20150829 tohoku it_bussanten&#34; target=&#34;_blank&#34;&gt;20150829 tohoku it_bussanten&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;参加者のみなさんほとんど詰まることもなくハンズオンはスムーズに進みました。
-このハンズオンでお伝えしたかったのは以下の点です。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneは驚くほど簡単にフォームとデータベースを作成することができる&lt;/li&gt;
-&lt;li&gt;ミスがあったとしてもすぐに修正することができる&lt;/li&gt;
-&lt;li&gt;実際に動くものを見るとどんどんやりたいことが生まれ、またそれをすぐに実現できること&lt;/li&gt;
-&lt;li&gt;簡単なだけでなく企業で必要とされるセキュリティなども確保できること&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;ltでもお話してきました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;LTでもお話してきました&lt;/h1&gt;
-
-&lt;p&gt;懇親会で実施されたLT（Lightning Talk）でも発表をさせていただきました。
-LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt;を紹介させていただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;なぜ、gusukuが必要なのか、ないと何が起きるのか、どうしてgusukuという名前なのかという内容を5分という短い時間でしたがお伝えできたのではないかと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;来年は秋田で開催です:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;来年は秋田で開催です&lt;/h1&gt;
-
-&lt;p&gt;運営スタッフのみなさん、準備作業からとても大変だったと思いますが本当のお疲れ様でした。すばらしいイベントでした。
-懇親会の場で来年は秋田で開催されることが決定されましたので、今から楽しみです。&lt;/p&gt;
-
-&lt;p&gt;東北在住でない方も、他の地域の状況を見知ることはとても勉強になりますので来年はぜひご参加ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NRIハッカソン＠CEATEC JAPAN 2015 大阪予選に当選しました</title>
-      <link>https://www.r3it.com/blog/etc/hack-for-money/</link>
-      <pubDate>Fri, 21 Aug 2015 12:14:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/hack-for-money/</guid>
-      <description>
-
-&lt;h1 id=&#34;nriハッカソン-ceatec-japan-2015-のアイデアソン当選のご報告:a79fd55691459dab283dc2c8fb326954&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015 のアイデアソン当選のご報告&lt;/h1&gt;
-
-&lt;p&gt;先日ブログ記事&lt;a href=&#34;https://www.r3it.com/blog/etc/iot-circle-meetup/&#34;&gt;社内活動：IoT部のご紹介&lt;/a&gt;でも少しご報告させて頂いていたのですが、厳選なる抽選をくぐり抜けまして、無事NRIハッカソン＠CEATEC JAPAN 2015 の大阪予選参加が確定致しました(っ´ω`c)♡&lt;/p&gt;
-
-&lt;p&gt;今回のハッカソンのコンセプトは&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;gold&#34;&gt; “Money（お金）”&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;みんなでアイデアを出しあって、IoTを活用してカタチにしていきます。&lt;/p&gt;
-
-&lt;p&gt;どんなアイデアが出るのか今から楽しみです！&lt;/p&gt;
-
-&lt;p&gt;大阪予選は8月30日まで募集しているみたいですよ！個人でもチームでもエントリーが可能となっておりますので、皆さんもお申込みされてみては如何でしょうか？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;Hack for Money IoT  - NRIハッカソン＠CEATEC JAPAN 2015 -&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;tシャツ作ってkiaiも十分:a79fd55691459dab283dc2c8fb326954&#34;&gt;Tシャツ作ってKIAIも十分！&lt;/h1&gt;
-
-&lt;p&gt;ということで、めでたく参加も確定したので&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;SlateBlue&#34;&gt;IoT部の公式Tシャツ&lt;/font&gt;&lt;/b&gt;を作ることになりました！&lt;/p&gt;
-
-&lt;p&gt;試作段階のものですが、デザインはこんな感じになるみたいですね|･`ω･)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;女子用は色もロボットのデザインも&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;HotPink&#34;&gt;女子仕様&lt;/font&gt;&lt;/b&gt;です٩(๑&amp;gt;∀&amp;lt;๑)۶&lt;/p&gt;
-
-&lt;p&gt;リボンはうちのIoT部の偉大なるぶちょーがかわいくデザインしてくれました！&lt;/p&gt;
-
-&lt;p&gt;いやー絵心ある御方まじ尊敬します。ﾟ+.ﾟヽ(●´ω｀●)ﾉ。ﾟ+.ﾟ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design2.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;その他の勉強会の告知など:a79fd55691459dab283dc2c8fb326954&#34;&gt;その他の勉強会の告知など&lt;/h1&gt;
-
-&lt;p&gt;NRIハッカソン＠CEATEC JAPAN 2015 までにも、実は弊社社員が関わる勉強会が開催されます！&lt;/p&gt;
-
-&lt;p&gt;以下はほんの一部です。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;8月29日（土）&lt;/b&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北 IT物産展 2015青森&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;東北で行われるITの祭典で、弊社金春がkintoneハンズオンを行います！他にもラズパイハンズオンや多彩なセッション、パネルディスカッション等コンテンツも目白押し！&lt;/p&gt;
-
-&lt;p&gt;東北界隈の皆さん是非足を運んでみてください╭( ･ㅂ･)و ̑̑ ｸﾞｯ !&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;9月5日（土）&lt;/b&gt;&lt;a href=&#34;http://jaws-ug.jp/es/jaws-remote-2015/&#34;&gt;JAWS re:Mote 2015&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;全国の支部をネット会議システムで相互接続し勉強会を実施します！&lt;/p&gt;
-
-&lt;p&gt;最寄りの会場に参加しながら、普段なかなかお目にかかれない各地のスピーカーのセッションが聞けるお得なイベントとなっております！&lt;/p&gt;
-
-&lt;p&gt;会場は全国十数箇所あるので、最寄りの会場にお申込み頂けますよ٩(*˘ ³˘)۶&lt;/p&gt;
-
-&lt;p&gt;弊社社員は、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;大阪会場&lt;/a&gt;、&lt;a href=&#34;https://jaws-ug-okinawa.doorkeeper.jp/events/29148&#34;&gt;沖縄会場&lt;/a&gt;、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;関西女子会会場&lt;/a&gt;から参加します！&lt;/p&gt;
-
-&lt;h1 id=&#34;gusukuのステッカーも完成:a79fd55691459dab283dc2c8fb326954&#34;&gt;gusukuのステッカーも完成！&lt;/h1&gt;
-
-&lt;p&gt;最後になってしまいましたが、先日&lt;a href=&#34;https://www.r3it.com/blog/kintone/introduction_to_gusuku/&#34;&gt;kintoneをより便利にするgusukuのご紹介&lt;/a&gt;と題してご紹介したkintoneにステージング環境を提供するサービス&lt;b&gt;gusuku&lt;/b&gt;のステッカーも完成しました！&lt;/p&gt;
-
-&lt;p&gt;イベントや勉強会に参加する際には持参しますので、ほしいよ！って方はお気軽にお声掛け下さいね！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/gusuku20150821.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/gusuku20150821.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>リモートワークを理解するための社内制度のご紹介</title>
-      <link>https://www.r3it.com/blog/etc/the-new-system-to-improve-our-remote-work/</link>
-      <pubDate>Thu, 13 Aug 2015 15:40:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/the-new-system-to-improve-our-remote-work/</guid>
-      <description>
-
-&lt;p&gt;日本の避暑地・沖縄からこんにちは、西島です。&lt;/p&gt;
-
-&lt;p&gt;さて今日は弊社アールスリーの一風変わった（かもしれない）社内制度の、「リモートワークを理解しよう」という制度をご紹介します。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/the-new-system-to-improve-our-remote-work.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/the-new-system-to-improve-our-remote-work.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;事の始まり:dc9fb2a039a9605d267564c17ffea912&#34;&gt;事の始まり&lt;/h1&gt;
-
-&lt;p&gt;始まりは、そう他でもない西島が弊社にジョインしたところから始まります。それまでアールスリー社内では、週2日出社などのリモートワークが取り入れられていた実績がありましたが、「明日ちょっと来て〜」「了解」ということが不可能な距離に住む社員の採用は初めてでした。&lt;/p&gt;
-
-&lt;p&gt;当然、「普段沖縄で仕事しててもらって、定期的に大阪にも来てくださいね」という話になり、毎月1回出張しよう、という話が出ていたのですが、これを機に「もっとリモートワークを進め、理解しよう！」という試みを行うことにしました。&lt;/p&gt;
-
-&lt;h1 id=&#34;どういう制度なの:dc9fb2a039a9605d267564c17ffea912&#34;&gt;どういう制度なの？&lt;/h1&gt;
-
-&lt;p&gt;制度の中身は単純で、「奇数月は西島が大阪へ出張、偶数月は大阪から誰かが沖縄に出張してきて、西島と一緒にリモートで仕事をする」というものです。今月は偶数月なので大阪から沖縄へ出張の月です。来月は西島が大阪に伺います！ 勿論出張扱いになるので経費は出ますよ。&lt;/p&gt;
-
-&lt;p&gt;普段ローカルで（大阪オフィスのことを敢えてローカルと言いますが）仕事をしている社員全員が、順番で、ある意味強制的にリモート側で働くという体験をすることで、普段得られない気付きや振り返りが出来たり、そして沖縄でちょっとリフレッシュして帰れる、というわけです。&lt;/p&gt;
-
-&lt;p&gt;また沖縄に来ると、いつもと違った場所で違った仕事をすることになりますので気分も変わりますし、携帯電話などを仕舞っておけば割り込みが極端に少なくなりますので、ガッツリ合宿的に詰め込んで仕事をして、夜はのんびり〜というパターンが多くなります。労働時間が長くなりがちな我々の業界には、たまには必要なワークフローですね(^_^;&lt;/p&gt;
-
-&lt;p&gt;最近では、対顧客向けの打合せもテレビ会議などのリモート機材を使って行うことが増えていますので、リモート側の経験を積む、と言うのはとても重要な要素になってくるかと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;というわけで:dc9fb2a039a9605d267564c17ffea912&#34;&gt;というわけで&lt;/h1&gt;
-
-&lt;p&gt;へ〜とご興味を持たれた方は、是非こちらの &lt;a href=&#34;https://www.r3it.com/recruitment/&#34;&gt;採用情報&lt;/a&gt; をチェックしてみてください。&lt;/p&gt;
-
-&lt;p&gt;なんだか世の中が夏休みモードなので、今日のところはこんな小ネタでお届けしました。&lt;/p&gt;
-
-&lt;p&gt;ではでは。&lt;/p&gt;
 </description>
     </item>
     
@@ -377,150 +216,6 @@ LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.i
 &lt;p&gt;関西女子会は女子会用の会場を用意しますが、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;JAWS-UG大阪会場&lt;/a&gt;もありますよ！&lt;/p&gt;
 
 &lt;p&gt;何人の人が参加してくれるのか、今からすごく楽しみです+。:.ﾟ(๑＞◡╹๑)(๑╹◡＜๑):.｡+ﾟ&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintoneをより便利にするgusukuのご紹介</title>
-      <link>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</link>
-      <pubDate>Tue, 04 Aug 2015 14:41:07 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</guid>
-      <description>
-
-&lt;h2 id=&#34;kintoneをより便利にするために:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;kintoneをより便利にするために&lt;/h2&gt;
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;弊社ではサイボウズ社のkintoneを利用したシステム開発サービスとして「&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;ハイスピードSI&lt;/a&gt;」をご提供しております。
-&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;ハイスピードSI&lt;/a&gt;では、対面開発によりアプリケーションをどんどん変更していきます。&lt;/p&gt;
-
-&lt;h3 id=&#34;ステージングの重要性:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;ステージングの重要性&lt;/h3&gt;
-
-&lt;p&gt;本番運用がスタートした後にも、システムは変化し続ける必要があります。
-アプリケーションをする場合、いきなり本番環境を修正するわけにはいかず、通常は開発環境を用意してそこでまず修正を行います。&lt;/p&gt;
-
-&lt;p&gt;その後、本番環境に近いデータが入っているテスト環境にアプリケーションを入れ、最終的な動作確認を行い、ようやく本番環境にアプリケーションを入れることができます。&lt;/p&gt;
-
-&lt;p&gt;従来、kintoneではこのような段階を経て本番環境にアプリケーションを入れていく（ステージングと呼ばれます）ことはできませんした。&lt;/p&gt;
-
-&lt;p&gt;このような作業をするには以下のような手順が必要でした。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;開発用アプリで修正をする&lt;/li&gt;
-&lt;li&gt;修正結果を確認する&lt;/li&gt;
-&lt;li&gt;テスト用アプリに1で実施した修正を同じ修正を行う&lt;/li&gt;
-&lt;li&gt;テスト環境で動作確認する（ここで問題があれば1に戻る）&lt;/li&gt;
-&lt;li&gt;本番環境に1と同じ修正を行う&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;この手順は同じ作業を繰り返す必要があるため、手間がかかる上にミスする可能性も極めて大きいものでした。&lt;/p&gt;
-
-&lt;h3 id=&#34;gusukuサービスをスタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;gusukuサービスをスタートします&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusukuロゴ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2015年7月のkintoneの機能アップにより、このステージングをAPIを使ってできるようになりました。
-弊社では、この新APIを活用し、kintoneにステージング環境を提供するサービス（gusuku）を開発しています。&lt;/p&gt;
-
-&lt;p&gt;gusukuは、以下のような機能の提供を予定しておりkintoneをより便利に使えるようにしていきます&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定できます）&lt;/li&gt;
-&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
-&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
-&lt;li&gt;ある環境から別の環境への設計情報の配布（これにより開発環境での修正をテスト環境に反映というのが簡単にできます）&lt;/li&gt;
-&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;ところでgusukuって何:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;ところでgusukuって何？&lt;/h3&gt;
-
-&lt;p&gt;「gusuku」ひらがなだと「ぐすく」は、沖縄の言葉で「城」です。首里城もぐすくの一種で有名ですね。&lt;/p&gt;
-
-&lt;p&gt;こんな感じです。（これは城跡ですが）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku01.jpg&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kintoneで開発するアプリを守る城になりたいとの想いから、本サービスをgusukuと命名しました。&lt;/p&gt;
-
-&lt;h2 id=&#34;近日中にβサービススタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;近日中にβサービススタートします&lt;/h2&gt;
-
-&lt;p&gt;gusukuは鋭意開発中です。近日中にβサービスを開始しますのでご期待ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>社内活動：IoT部のご紹介</title>
-      <link>https://www.r3it.com/blog/etc/iot-circle-meetup/</link>
-      <pubDate>Thu, 30 Jul 2015 10:23:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/iot-circle-meetup/</guid>
-      <description>
-
-&lt;p&gt;たった1ヶ月前のイベントが遠い昔のように思える西島です、こんにちは。&lt;/p&gt;
-
-&lt;p&gt;今日はアールスリーの社内部活動である「IoT部」のミートアップの様子と、先月6月24−27日にわたって開催されたイベント、&lt;a href=&#34;http://hackers-champloo.org/2015/&#34;&gt;ハッカーズチャンプルー2015&lt;/a&gt;の報告をします。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/iot-logo.png&#34; alt=&#34;iot-logo.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;（これはLEDで表現したIoT部のロゴ（仮）です。）&lt;/p&gt;
-
-&lt;h1 id=&#34;iot部のご紹介:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;IoT部のご紹介&lt;/h1&gt;
-
-&lt;p&gt;弊社アールスリーインスティテュートの社内部活動である「IoT部」が先日発足しまして、その初回のミートアップがありました。部員は4名です！&lt;/p&gt;
-
-&lt;p&gt;今回のミートアップの内容は、&lt;a href=&#34;http://hackers-champloo.org/2015/camp.html&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;で作成した「なんでやねんロボット」の詳細な情報共有でした。&lt;/p&gt;
-
-&lt;p&gt;なんでやねんロボットとは、&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Twitterで「nandeyanen」と入力すると、「なんでやねん」とつぶやきながら、ハリセン風の何かを振り回す紙製の何か&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;のことです。&lt;/p&gt;
-
-&lt;p&gt;RaspberryPiとサーボモーター、音声合成モジュールで出来ているとのこと。部員一同ソースコード(Ruby)の解説をうんうん言いながらきいていましたよ！（ソースコードは近日公開予定）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/nandeyanen_sketch.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/nandeyanen_sketch.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/breadboad.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/breadboad.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;動作のデモ動画はこちらです。どうです、この（昭和の）近未来感あふれる音声！素敵です（笑）。&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/J3EdvSWkRho&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&#34;ハッカーズチャンプルー2015開発合宿-成果報告:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;ハッカーズチャンプルー2015開発合宿　成果報告&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hackers-champloo.org/2015/camp.html&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;には、弊社からはIoT部の浅利さん、大澤さんの2名が参加しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/asari-and-osawa.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/asari-and-osawa.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;IoT部の部長は浅利さん（写真右側：あさりの味噌汁のほう）です。合宿最終日の夜みんな寝たあとに、何もないところからダンボール一枚でなんでやねんロボットのボディを作ったのは、相部屋の皆様には伝説となったそうです。&lt;/p&gt;
-
-&lt;p&gt;浅利さんとともに開発合宿に参加したのは大澤さん（写真左側）です。最終日6月27日のカンファレンスでライトニングトークした資料はこちらです（西島の代理アップロードです）。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/c90WRqMjVF8ncR&#34; width=&#34;510&#34; height=&#34;420&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/ss-51049059&#34; title=&#34;大阪からやってきて開発してみた&#34; target=&#34;_blank&#34;&gt;大阪からやってきて開発してみた&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KoichiroNishijima&#34; target=&#34;_blank&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;こちらのなんでやねんロボットの配線図・回路図ですが、こちらにアップロードしました。これは &lt;a href=&#34;http://fritzing.org/&#34;&gt;Fritzing&lt;/a&gt; というオープンソースのツールで読み込むことが可能です。このような感じで見えるはずです！&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/nandeyanen_robot.fzz&#34;&gt;nandeyanen_robot.fzz (19KB)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/fritzing-nandeyanenrobot.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/fritzing-nandeyanenrobot.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;iot部の今後の活動:f74316f8de3268871c6ef242ccbd8f79&#34;&gt;IoT部の今後の活動&lt;/h1&gt;
-
-&lt;p&gt;社内部活動の割にいろいろ機材を買ったりしている各部員ですが、今後の活動としてはもやっとしております。取り急ぎ直近では、&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; に参戦予定です！！&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/iot-circle-meetup/t.png&#34; alt=&#34;部員Tシャツ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;↑こんな感じのTシャツを作って着ていく予定です！&lt;/p&gt;
-
-&lt;p&gt;皆様、お手柔らかに〜(^_^;)&lt;/p&gt;
-
-&lt;p&gt;ではでは。&lt;/p&gt;
 </description>
     </item>
     
@@ -781,37 +476,6 @@ elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>執筆者Profile : 池上 緑</title>
-      <link>https://www.r3it.com/blog/author/ikegami/</link>
-      <pubDate>Fri, 17 Jul 2015 19:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/author/ikegami/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;よく間違われるが正真正銘のエンジニア。肩書きはクラウドエンジニア。アールスリーでは（kintone専属？）フロントエンジニアやってるよ！コミュニティの運営したり、勉強会やハッカソンでコスプレして参加したり。&lt;/p&gt;
-
-&lt;p&gt;もはや中の人が認知されないレベルになっているという説も。&lt;/p&gt;
-
-&lt;h2 id=&#34;コミュニティ活動:8be94feebe910eded9cd4fd0997ca245&#34;&gt;コミュニティ活動&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/JAWSUG.KGA&#34;&gt;JAWS-UG関西女子会&lt;/a&gt; コアメンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt; 運営メンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.vmware-usergroup.jp/&#34;&gt;VMUG（VMwareユーザー会）&lt;/a&gt; 関西部会メンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;phpカンファレンス関西&lt;/a&gt; 運営スタッフ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>第5回JAWS-UGくまもと　クラウド勉強会に参加しました</title>
       <link>https://www.r3it.com/blog/aws/20150711_jawsug-kumamoto/</link>
       <pubDate>Sat, 11 Jul 2015 17:30:10 +0900</pubDate>
@@ -872,211 +536,115 @@ elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>kintone で作ったアプリを HTML に埋め込む js2kintone のご紹介</title>
-      <link>https://www.r3it.com/blog/kintone/js2kintone/</link>
-      <pubDate>Mon, 06 Jul 2015 18:30:10 +0900</pubDate>
+      <title>kintone Café 福岡 Vol.5 参加レポート</title>
+      <link>https://www.r3it.com/info/2015/0624_kintonecafe-fukuoka/</link>
+      <pubDate>Wed, 24 Jun 2015 21:06:49 +0900</pubDate>
       
-      <guid>https://www.r3it.com/blog/kintone/js2kintone/</guid>
-      <description>
+      <guid>https://www.r3it.com/info/2015/0624_kintonecafe-fukuoka/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;西島です、こんにちは。&lt;/p&gt;
+&lt;p&gt;6月24日（水）の夜には、Cloud Days 九州の開催に併せて「kintone」の勉強会『kintone Café 福岡 Vol.5』が開かれました。
+従来設定していた定員数より上回り、開催直前になって急遽増枠となるなど、名古屋の時同様に大盛況でした！&lt;/p&gt;
 
-&lt;p&gt;今日は少し出遅れましたが AWS Lambda available in Tokyo! を記念しまして、先日オープンソースで公開しました &lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt; のご紹介をしたいと思います。&lt;/p&gt;
+&lt;p&gt;こちらでも、名古屋の時同様に弊社の強みである &amp;ldquo;ハイスピードSI&amp;rdquo; について金春がお話させて頂きました。
+その際の登壇資料はこちらです。皆様是非ご確認ください。&lt;/p&gt;
 
-&lt;p&gt;その前に、kintone とは？という方がいらっしゃいましたら、&lt;a href=&#34;https://www.r3it.com/blog/kintone/what_is_kintone/&#34;&gt;こちらの弊社ブログ&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/w9ZwsLB57KdQ7p&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150624-kintone-caf&#34; title=&#34;20150624 kintone Café 福岡&#34; target=&#34;_blank&#34;&gt;20150624 kintone Café 福岡&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;js2kintone-とは:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;js2kintone とは？&lt;/h1&gt;
+&lt;p&gt;また普段から kintone Café のようなコミュニティの勉強会に参加されていない方も多かった模様。いろいろ気付いたり、刺激を受けたと仰っていました。&lt;/p&gt;
 
-&lt;p&gt;js2kintone は kintone で作成したアプリを HTML ファイルに埋め込むことが出来る JavaScript ライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/0624_kintonecafe-fukuoka-001.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/0624_kintonecafe-fukuoka-001.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;システム概要:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;システム概要&lt;/h1&gt;
-
-&lt;p&gt;システム概要は、以下のようになっています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/js2kintone-overview.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/js2kintone-overview.png&#34; width=&#34;640&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;これ、いまご覧の弊社Webサイトが、この構成になっています。技術要素をかいつまんで説明しますと、&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;HUGO&lt;/a&gt; でHTMLファイル生成&lt;/li&gt;
-&lt;li&gt;Amazon S3 にてWebホスティング&lt;/li&gt;
-&lt;li&gt;Amazon CloudFront でコンテンツ配信 + Server Name Indication（SNI）独自 SSL&lt;/li&gt;
-&lt;li&gt;問い合わせフォームでブラウザが直接 AWS Lambda を呼び出し、内容は最終的に kintone のアプリに格納&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;という流れです。&lt;/p&gt;
-
-&lt;p&gt;ブラウザから直接 Lambda を呼び出す例は、意外とまだ少ないようですので、参考にして頂ければと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;格安でのキャンペーン-コーポレートサイトのホスティングに最適:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;格安でのキャンペーン/コーポレートサイトのホスティングに最適&lt;/h1&gt;
-
-&lt;p&gt;「&lt;a href=&#34;http://aws.amazon.com/jp/s3-hosting/&#34;&gt;月額10円〜レンタルサーバを始める方法&lt;/a&gt;」を活用する際にいつもお困りネタの「お問い合わせフォームどうするの？」という問題に対して js2kintone を利用すると、ほぼ無料でお問い合わせフォーム付きのコーポレートサイトを作ることが出来ます（勿論、若干のAWS費用と、そもそもの kintone の費用は掛かりますよ！）。&lt;/p&gt;
-
-&lt;h1 id=&#34;以下いくつかのfaqにお応えしていきます:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;以下いくつかのFAQにお応えしていきます。&lt;/h1&gt;
-
-&lt;h2 id=&#34;古いブラウザはどうするの:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;古いブラウザはどうするの？&lt;/h2&gt;
-
-&lt;p&gt;いいところに気づきましたね。 AWS SDK for JavaScript in the Browser の &lt;a href=&#34;http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/browser-intro.html&#34;&gt;Browser Support&lt;/a&gt; はこちらにあるとおりです。いわゆるモダンブラウザ、ですね。&lt;/p&gt;
-
-&lt;p&gt;js2kintone では、モダンではないブラウザに対しては、以下の様なアプローチで対応しています。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/es-shims/es5-shim&#34;&gt;es5-shim.js&lt;/a&gt; を使って、スクリプト読み込み時にエラーを出さない&lt;/li&gt;
-&lt;li&gt;ブラウザを判別して、ごめんなさいメッセージを出す。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;es5-shim.jsで AWS SDK が動くかどうかまでは流石に調べる気にならず、戦略的撤退ということで、お願いします・・・。&lt;/p&gt;
-
-&lt;h2 id=&#34;設置方法がなに言ってるかわからない:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;設置方法がなに言ってるかわからない&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt; のページからダウンロードや設置方法にリンクが張られてるのですが、うーん、難しくないものの確かに少し面倒かもしれないですね。&lt;/p&gt;
-
-&lt;p&gt;もし js2kintone を使ってみたいんだけどよく分からん、という方がいらっしゃいましたら、有料設置サービスも行っておりますので、ぜひ&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;AWS Lambda available in Tokyo! を記念しているのに、 js2kintone がオレゴンをオススメしているのは仕様です。探さないでください(^_^;&lt;/p&gt;
-
-&lt;p&gt;ドキュメントはいつも最後なんです、ソース読みましょう。ではでは (^^)/&lt;/p&gt;
+&lt;p&gt;今回の勉強会をきっかけに、コミュニティに興味を持って頂けたら良いですね。
+弊社はコミュニティに積極的に関わる人達を応援しております！&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>執筆者Profile : 西島 幸一郎</title>
-      <link>https://www.r3it.com/blog/author/nishijima/</link>
-      <pubDate>Wed, 01 Jul 2015 09:36:13 +0900</pubDate>
+      <title>kintone Café 名古屋 Vol.1 参加レポート</title>
+      <link>https://www.r3it.com/info/2015/0617_kintonecafe-nagoya/</link>
+      <pubDate>Wed, 17 Jun 2015 17:06:49 +0900</pubDate>
       
-      <guid>https://www.r3it.com/blog/author/nishijima/</guid>
-      <description>
+      <guid>https://www.r3it.com/info/2015/0617_kintonecafe-nagoya/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;6月17日（水）の夜は、サイボウズ様が提供するクラウド型データベース「kintone」の勉強会『kintone Café 名古屋 Vol.1』にて弊社金春がセッションを行いました。&lt;/p&gt;
 
-&lt;p&gt;大阪の会社であるアールスリーインスティテュートに、沖縄のワンコ×2がいる部屋からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。&lt;/p&gt;
+&lt;p&gt;名古屋では初の開催であるにもかかわらず、会場に人が入りきらず立ち見が発生するほど。&lt;/p&gt;
 
-&lt;p&gt;オープンソースとクラフトビールをこよなく愛する。&lt;/p&gt;
+&lt;p&gt;そんな中、弊社の強みである &amp;ldquo;ハイスピードSI&amp;rdquo; について熱弁してきました。&lt;/p&gt;
 
-&lt;h2 id=&#34;コミュニティ活動:2e5d4427da0df1a4fa21acbfbca81f5d&#34;&gt;コミュニティ活動&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/okinawa/&#34;&gt;JAWS-UG沖縄&lt;/a&gt; コアメンバー&lt;/li&gt;
-&lt;li&gt;アマゾンデータサービスジャパン公認 AWSサムライ2013および2014&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://hackers-champloo.org/&#34;&gt;ハッカーズチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cloud-champloo.org/&#34;&gt;クラウドチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/nishijima.koichiro&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/k_nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/kintone-cafe-nagoya-0617.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/kintone-cafe-nagoya-0617.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>kintoneでテーブルの各行に連番をつける</title>
-      <link>https://www.r3it.com/blog/kintone/autonumbering/</link>
-      <pubDate>Wed, 14 Jan 2015 10:54:10 +0900</pubDate>
+      <title>JAWS-UG Kansai 特別編に弊社金春、大澤が登壇いたします</title>
+      <link>https://www.r3it.com/info/2015/0207_jaws-ug_kansai_special/</link>
+      <pubDate>Mon, 02 Feb 2015 17:06:49 +0900</pubDate>
       
-      <guid>https://www.r3it.com/blog/kintone/autonumbering/</guid>
+      <guid>https://www.r3it.com/info/2015/0207_jaws-ug_kansai_special/</guid>
       <description>
 
-&lt;p&gt;元投稿はQiitaの&lt;a href=&#34;http://qiita.com/t_konparu/items/8bd1da40d0896c3da917&#34;&gt;記事&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/jawsug-square.png&#34; alt=&#34;JAWS-UG&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;課題:cad6ae68911e167affcf3011f83a9164&#34;&gt;課題&lt;/h1&gt;
+&lt;h1 id=&#34;jaws-ugとは:6b1d8d10e122c8972fdbbecbe19071d3&#34;&gt;JAWS-UGとは？&lt;/h1&gt;
 
-&lt;p&gt;kintoneでシステムを作っていると、項目をまとめてテーブル化することがよくあります。
-このとき、テーブルの各行に1行目から順に連番をつけたいということはよくあると思います。&lt;/p&gt;
+&lt;p&gt;JAWS-UG（Japan AWS User Group）は、AWSを利用するユーザの集まりで、全国に50の支部を持つ世界でも有数のAWSのユーザグループです。&lt;/p&gt;
 
-&lt;p&gt;kintoneの標準の機能ではこれはできないため、JavaScriptでのカスタマイズが必要です。&lt;/p&gt;
+&lt;h2 id=&#34;jaws-ug-kansai-特別編-awsを使い倒せ-awsのフルマネージドサービス活用によるネイティブクラウドシステムへの誘い:6b1d8d10e122c8972fdbbecbe19071d3&#34;&gt;JAWS-UG Kansai 特別編 「AWSを使い倒せ。AWSのフルマネージドサービス活用によるネイティブクラウドシステムへの誘い」&lt;/h2&gt;
 
-&lt;h1 id=&#34;javascriptカスタマイズ:cad6ae68911e167affcf3011f83a9164&#34;&gt;JavaScriptカスタマイズ&lt;/h1&gt;
+&lt;p&gt;2015年2月7日(土)に開催される、
+JAWS-UG Kansai 特別編 「AWSを使い倒せ。AWSのフルマネージドサービス活用によるネイティブクラウドシステムへの誘い」
+に弊社金春、大澤がスピーカーとして登壇します。&lt;/p&gt;
 
-&lt;p&gt;フィールドコード「receipts」というテーブルの中にフィールドコード「no」というフィールドがあるとします。
-このフィールドに対して保存のタイミングで連番を付与します。&lt;/p&gt;
+&lt;p&gt;この勉強会では、AWSのフルマネージドサービス（運用はAWSが実施しお客様はサービスを利用するだけで使えるサービス群）についての紹介や、ビッグトラックでは、東急ハンズ様やあきんどスシロー様といったクラウド先進企業の方から、どのようにAWSを利用しているかのご公演もあります。&lt;/p&gt;
 
-&lt;p&gt;まず、作成時の編集時のイベントを取得するために、kintone.events.on()でイベントハンドラを登録します。&lt;/p&gt;
+&lt;p&gt;金春は、
+15:00〜15:30 Amazon RDS for Aurora
+17:30〜18:00 Amazon Kinesis&lt;/p&gt;
 
-&lt;p&gt;イベントハンドラの中では、eventに含まれるrecordオブジェクトを取得し、そこに含まれるreceiptsテーブルのvalueの数を数えておきます。これが行数になります。&lt;/p&gt;
+&lt;p&gt;大澤は、
+15:30〜16:00 Amazon SES&lt;/p&gt;
 
-&lt;p&gt;あとは、ループを回しながら各行のnoのvalueに連番を設定していきます。&lt;/p&gt;
-
-&lt;p&gt;コードは以下のようになります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;
-(function() {
-    &#34;use strict&#34;;
-    var events = [
-        &#39;app.record.create.submit&#39;,
-        &#39;app.record.edit.submit&#39;
-    ];
-    kintone.events.on(events, function(event) {
-        var record = event.record;
-        // receiptsテーブルのno欄を自動採番する
-        var count = record.receipts.value.length;
-        for( var i = 0; i &lt; count; i++ ){
-            record.receipts.value[i].value.no.value = i + 1;
-        }
-
-        return event;
-    });
-})();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;簡単ですね。&lt;/p&gt;
+&lt;p&gt;にて、各サービスのご紹介をいたします。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>cybozu.com developer networkについて</title>
-      <link>https://www.r3it.com/blog/kintone/cybozu-com-developer-network/</link>
-      <pubDate>Mon, 01 Dec 2014 20:02:10 +0900</pubDate>
+      <title>kintone Caféの公式ページが立ち上がりました</title>
+      <link>https://www.r3it.com/info/2015/kintone-cafe-official-site/</link>
+      <pubDate>Mon, 19 Jan 2015 17:06:49 +0900</pubDate>
       
-      <guid>https://www.r3it.com/blog/kintone/cybozu-com-developer-network/</guid>
-      <description>
+      <guid>https://www.r3it.com/info/2015/kintone-cafe-official-site/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
+&lt;p&gt;kintone Caféとはkintoneを勉強したいあるいはもっと深く勉強したい方が集まるコミュニティです。&lt;/p&gt;
 
-&lt;p&gt;kintoneを始めたいと思っている方、「お試し期間1ヶ月じゃ試しきれない」という方、
-意外と知らない方も多いかもしれませんので、&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja&#34;&gt;cybozu.com developer network&lt;/a&gt;をご紹介します&lt;/p&gt;
+&lt;p&gt;弊社ではコミュニティ活動を積極的にサポートしており、kintone Caféにおいても、サイボウズ認定kintoneエバンジェリストである金春が、kintone Café大阪、kintone Café運営事務局をサポートしています。&lt;/p&gt;
 
-&lt;h1 id=&#34;cybozu-com-developer-networkとは:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;cybozu.com developer networkとは？&lt;/h1&gt;
+&lt;p&gt;kintoneってどんなもの？
+kintoneで何ができるの？
+kintoneを触ってみたい
+という方は、是非ご参加ください。&lt;/p&gt;
 
-&lt;p&gt;cybozu.com developer network（長いの以降、CDNと略します）は、cybozu.comの開発者が集まるコミュニティサイトです。
-kintoneなどのカスタマイズ方法について、フォーラムで質問したりすることができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café公式サイト&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title> 青森ハッカソンで講師として弊社金春が登壇します</title>
+      <link>https://www.r3it.com/info/2015/aomori_hackathon/</link>
+      <pubDate>Wed, 14 Jan 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/aomori_hackathon/</guid>
+      <description>&lt;p&gt;2015年1月16日〜18日に開催される青森県主催の&lt;a href=&#34;https://www.facebook.com/events/1507353932880080/permalink/1516184455330361/&#34;&gt;青森ハッカソン&lt;/a&gt;に、弊社金春がAWSのハンズオン講師として登壇いたします。&lt;/p&gt;
 
-&lt;p&gt;わからないことなどあれば、ここで聞いていただくと、kintoneエバンジェリストの方々などから回答もらえるかもしれません。&lt;/p&gt;
+&lt;p&gt;青森県の地域資源の活用をテーマにした大変興味深いハッカソンです。&lt;/p&gt;
 
-&lt;h1 id=&#34;開発者ライセンスを取得しよう:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;開発者ライセンスを取得しよう&lt;/h1&gt;
+&lt;p&gt;EC2およびS3を中心としたハンズオンを実施させていただきます。&lt;/p&gt;
 
-&lt;p&gt;CDNのすごいのは、開発者ライセンスがもらえるということです。
-開発者ライセンスをもらうと、1年間kintoneのスタンダードコースが使い放題です。&lt;/p&gt;
-
-&lt;p&gt;ひとまず、CDNのアカウントを取得しましょう。「メンバーになる」をクリックしてください。
-Facebookのアカウントがあれば、すぐにメンバー登録できます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network-1024x838.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;メンバー登録ができたら、登録したアカウントでログインしてください。&lt;/p&gt;
-
-&lt;p&gt;次に赤枠のところをクリック！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network2.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network2-1024x715.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;そして、画面の下の方にある申込みフォームを埋めます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network3.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network3-1024x491.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
- 
-
-&lt;p&gt;「確認する」をクリックして、送信すれば、２〜３日でアカウントがもらえます！
-これでkintone触り放題です！&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;CDNで開発者ライセンスをもらえばじっくりとkintoneを触ることができますので、
-是非お試しください。&lt;/p&gt;
-
-&lt;p&gt;通常のライセンスとは異なるいくつかの制約がありますが、開発上困ることはないと思います。&lt;/p&gt;
+&lt;p&gt;申込はすでに完了していますが、ご興味のある方は、結果等の情報も公開されると思いますので、ご注目ください。&lt;/p&gt;
 </description>
     </item>
     

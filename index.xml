@@ -5,202 +5,90 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Sep 2015 16:04:37 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2015 14:12:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>kintone による業務改善事例：進捗管理編</title>
-      <link>https://www.r3it.com/solutions/kintone/inprogress/</link>
-      <pubDate>Tue, 08 Sep 2015 16:04:37 +0900</pubDate>
+      <title>CoderDojo＋αのご紹介</title>
+      <link>https://www.r3it.com/blog/etc/20150908_coderdojo-nagaokakyo/</link>
+      <pubDate>Tue, 08 Sep 2015 14:12:30 +0900</pubDate>
       
-      <guid>https://www.r3it.com/solutions/kintone/inprogress/</guid>
+      <guid>https://www.r3it.com/blog/etc/20150908_coderdojo-nagaokakyo/</guid>
       <description>
 
-&lt;h2 id=&#34;進捗管理にお困りのシステム部門-ユーザ部門の方へ:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;進捗管理にお困りのシステム部門/ユーザ部門の方へ&lt;/h2&gt;
+&lt;p&gt;メンターとしてお手伝いさせて頂いているCoderDojo+αについてのご紹介です。&lt;/p&gt;
 
-&lt;p&gt;多くの案件が同時並行に走り、進捗状況が見えない、そんな状況に陥っていませんか？&lt;/p&gt;
+&lt;h2 id=&#34;そもそもcoderdojoって:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;そもそもCoderDojoって？&lt;/h2&gt;
 
-&lt;p&gt;また、このような状況でお困りの方に、ぜひこの活用方法を転送してください！&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;CoderDojo&lt;/b&gt;は&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#333399&#34;&gt;7～17歳の子どもを対象にしたプログラミング道場&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
 
-&lt;h2 id=&#34;問題点:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;問題点&lt;/h2&gt;
+&lt;p&gt;2011年にアイルランドで始まり、世界では59カ国・750の道場、日本では全国に21の道場があります (2015年7月現在)。&lt;/p&gt;
 
-&lt;h3 id=&#34;メールや紙-fax-電話などで情報が飛び交い-進捗状況が見えづらい:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;メールや紙（FAX）・電話などで情報が飛び交い、進捗状況が見えづらい&lt;/h3&gt;
+&lt;p&gt;子ども達にプログラミングを教える先生は&lt;b&gt;メンター&lt;/b&gt;と呼ばれています。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;作業や確認の漏れや優先順序の間違いなどが発生してしまう。&lt;/li&gt;
-&lt;li&gt;各関係者がそれぞれの状況が心配になって、余計に電話などが増える。&lt;/li&gt;
-&lt;li&gt;多大な作業待ちが発生したり、後工程へのしわ寄せが発生したりする。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;完全非営利で運営されていて、メンターは全員ボランティアです。&lt;/p&gt;
 
-&lt;h3 id=&#34;仕様変更が多発し-最新の情報や仕様などが分かりにくい:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;仕様変更が多発し、最新の情報や仕様などが分かりにくい&lt;/h3&gt;
+&lt;p&gt;各地域の道場は独立しており、道場ごとにやり方が違います。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;正しい情報を探すために、過去のメールや紙などを順に辿っていくのにかなりの時間を要していた。&lt;/li&gt;
-&lt;li&gt;勘違いした情報で作業してしまい、手戻りや重大な事故が発生していた。&lt;/li&gt;
-&lt;li&gt;（事故を受けて）各自が個別の管理票を作成してしまうことになるが、その情報自体が更新されたりされなかったりと不確実な状態になっていた。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;北は北海道から南は九州まで、ほんとに幅広く開催されていますので、興味がある方、またメンターとして是非お手伝いしたいという方がいらっしゃいましたら、是非最寄りのDojoまで足を運んでみて下さい！&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/solutions/kintone/inprogress.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/inprogress.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;熱意のある子どもたちが多い中、メンターの数はまだまだ足りない現状があります…(´-ω-`)&lt;/p&gt;
 
-&lt;h2 id=&#34;kintone-導入後は:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;kintone 導入後は&lt;/h2&gt;
+&lt;p&gt;どんな風に教えているんだろう？と少しでも興味をお持ちの方は、まずは見学から入ってみてイメージを掴んでみて下さい！&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;情報が1箇所に集約され、今どの案件を優先的に進めれば良いかが分かりやすくなった（納期から考えたら、今はこの案件を止めてでもこちらを先に進めるべき、など）。&lt;/li&gt;
-&lt;li&gt;最新の仕様としての成果物がデータベース化され、変更履歴も残るため、仕様データとして信頼あるものになった（どんな経緯でその仕様になったかのトレースまででき、電話などで各所に確認しなくても良くなった）。&lt;/li&gt;
-&lt;li&gt;情報更新時の連絡もメールではなく、kintone上のコメント欄で周知できるので、管理者にも後からでも状況が分かり易くなった。&lt;/li&gt;
-&lt;li&gt;各自が自分が持つ情報を更新していくことが案件の成功に直結することを意識できるようになったため、以前よりもより細かい情報が共有されることになった（そのための画面の入力項目変更にも費用発生させずに対応可能）。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;詳細は&lt;a href=&#34;http://coderdojo.jp/&#34;&gt;CoderDojo Japan&lt;/a&gt;のページを御覧くださいね！&lt;/p&gt;
 
-&lt;h2 id=&#34;アールスリーの-kintone-を使ったハイスピードsiが提供する価値:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;アールスリーの kintone を使ったハイスピードSIが提供する価値&lt;/h2&gt;
+&lt;h2 id=&#34;わたしがお手伝いしているcoderdojo長岡京の話:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;わたしがお手伝いしているCoderDojo長岡京の話&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;問題解決のアプローチによる現場状況のヒアリング、改善ポイントの明確化と、可能な限りシンプルな改善策の提案。&lt;/li&gt;
-&lt;li&gt;改善策を kintone でどのように実現するかの設計および実装。&lt;/li&gt;
-&lt;li&gt;kintone のカスタマイズによる、見やすい進捗管理画面。&lt;/li&gt;
-&lt;li&gt;一気に大規模なシステム改修を行うのではなく、実運用をしながら低予算でシステムを少しずつ改修する&lt;a href=&#34;../onetime/&#34;&gt;ワンタイムサービス&lt;/a&gt;の適用も可能です。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;その中で、わたしがメンターとして主にお手伝いさせて頂いているのは&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt;です。&lt;/p&gt;
 
-&lt;h2 id=&#34;導入までの流れ:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;導入までの流れ&lt;/h2&gt;
+&lt;p&gt;長岡京は今年の4月以降、月1回のペースで開催しています。初めて見学に行ったのがちょうど4月。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;下記にあります電話番号までお電話、またはこちらより&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;お問い合わせ&lt;/a&gt;ください。お困りの内容が具体的に説明できなくても、弊社でヒアリングさせていただき課題を明確にしていきます。&lt;/li&gt;
-&lt;li&gt;弊社より解決方法をご提案させていただきます。&lt;/li&gt;
-&lt;li&gt;kintone 導入〜導入教育（操作方法など）を必要に応じて実施します。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;そしてその時の感想も実は個人ブログでupしてたり|･`ω･)&lt;/p&gt;
 
-&lt;h1 id=&#34;あなたのお困り事を-ぜひご相談ください:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;あなたのお困り事を、ぜひご相談ください。&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>あなたのお困り事を kintone による ハイスピードSI で解決します</title>
-      <link>https://www.r3it.com/solutions/kintone/</link>
-      <pubDate>Tue, 08 Sep 2015 16:04:37 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/kintone/</guid>
-      <description>
+&lt;p&gt;&lt;a href=&#34;http://dolly6ca.hatenablog.jp/entry/20150413/1428855637&#34;&gt;CoderDojo長岡京に見学に行ってきた٩(ˊᗜˋ*)و - 2.5次元を生きるCOS☆PLAYエンジニアの雑記&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;進捗管理にお困りのシステム部門の方へ:b3f994572158129e07597d19060e2d9b&#34;&gt;進捗管理にお困りのシステム部門の方へ&lt;/h2&gt;
+&lt;p&gt;他のDojoだと、HTML/CSSやJavaScript、電子工作系など、幅広く教えられているDojoも多いのですが、長岡京は今のところScratchを教えています。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/solutions/kintone/inprogress/&#34;&gt;&lt;img class=&#34;img-circle wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/thumbnail_inprogress.png&#34; alt=&#34;進捗管理にお困りのシステム部門の方へ&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;scratchって:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;Scratchって？&lt;/h3&gt;
 
-&lt;p&gt;多くの案件が同時並行に走り、進捗状況が見えない、そんな状況に陥っていませんか？&lt;/p&gt;
+&lt;p&gt;Scratchとは、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3366CC&#34;&gt;MITメディアラボが開発したオブジェクト指向の子供向けビジュアルプログラミング言語&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;inprogress/&#34;&gt;こちらの事例&lt;/a&gt;では、その混乱を解決するための kintone の活用方法をご紹介します。&lt;/p&gt;
+&lt;p&gt;GUI上でアクションのブロックを、選択したスプライトやステージにD&amp;amp;Dすることで、インタラクティブなアニメーションやゲームなどを作ることができ、プログラミングのロジックを学習できます。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/scratch.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/scratch.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;kintoneとは:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneとは？&lt;/h2&gt;
+&lt;p&gt;また、作った作品はScratchのオンラインコミュニティ上で共有が出来ます。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;共有されている他の作品で気に入ったものがあれば、ソースを自分の勉強用にDLしたり、別のプロジェクトで利用することも可能です。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ株式会社&lt;/a&gt;が提供する、データベース型のビジネスアプリケーションを、クラウドで作成することが出来る、新しいタイプのアプリ開発プラットフォームです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://scratch.mit.edu/&#34;&gt;https://scratch.mit.edu/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;従来紙媒体やエクセルファイルの共有などで実行していたアナログなワークフローや業務プロセスを置き換えることによって、圧倒的な業務改善が見込めます。&lt;/p&gt;
+&lt;p&gt;長岡京では、1回ごとにつどテーマを決めて進めます。&lt;/p&gt;
 
-&lt;h2 id=&#34;kintoneセミナー-kintone-café開催中です:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneセミナー/kintone Café開催中です&lt;/h2&gt;
+&lt;p&gt;その回が終わると、メンターの振り返りの時間を設け、次に向けての課題点や良かったことを議論します。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;「kintoneセミナー」はkintone導入前や導入後の高度な使い方を学習する企業様向けセミナーです。&lt;/li&gt;
-&lt;li&gt;「kintone Café」は&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;弊社や弊社社員が貢献しているコミュニティ活動&lt;/a&gt;です。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;他のDojoはどうかわからないのですが、わりと近辺にお住まいのメンターさんが多いので、終わってからもコミュニケーションのためにお茶したりもします。&lt;/p&gt;
 
-&lt;table class=&#34;table&#34;&gt;
-&lt;tbody&gt;
+&lt;p&gt;メンターさんとして参加されている方の職業も年齢も様々で、みんなで話をしているだけでもいろいろ刺激になります(っ´ω`c)♡&lt;/p&gt;
 
-&lt;tr&gt;
-  &lt;td&gt;2015年10月 2日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;
-    &lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/546&#34; target=&#34;_blank&#34;&gt;お申込み受付中&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 9月18日&lt;/td&gt;
-  &lt;td&gt;kintone Café大阪 Vol.4&lt;/td&gt;
-  &lt;td&gt;
-    &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/30055&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 8月21日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 7月15日&lt;/td&gt;
-  &lt;td&gt;kintone Café大阪 Vol.3&lt;/td&gt;
-  &lt;td&gt;
-    &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/27685&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;br&gt;
-    カスタマイズ内容解説：&lt;a href=&#34;https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/&#34;&gt;前編&lt;/a&gt; / &lt;a href=&#34;https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_02/&#34;&gt;後編&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 7月 7日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼 / &lt;a href=&#34;https://www.facebook.com/r3institute/posts/958263934195857&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 6月12日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼 / &lt;a href=&#34;https://www.facebook.com/media/set/?set=a.941388759216708.1073741828.225790337443224&amp;type=3&#34; target=&#34;_blank&#34;&gt;
-    セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
+&lt;h3 id=&#34;長岡京にこんなコワーキングスペースが:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;長岡京にこんなコワーキングスペースが！&lt;/h3&gt;
 
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;そして先日、そんな長岡京に&lt;a href=&#34;http://coworking-nagaokakyo.jp/&#34;&gt;コワーキングスペース&lt;/a&gt;がオープンしたので見学に行ってきました！&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;次回以降のCoderDojo長岡京は、このコワーキングスペースをお借りして開催することになります٩(ˊᗜˋ*)و
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;kintone関連サービス:b3f994572158129e07597d19060e2d9b&#34;&gt;kintone関連サービス&lt;/h1&gt;
+&lt;p&gt;技術書やムックもたくさん！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo5.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;打合せ4回でシステムを構築する-ワンタイムサービス:b3f994572158129e07597d19060e2d9b&#34;&gt;打合せ4回でシステムを構築する【ワンタイムサービス】&lt;/h2&gt;
+&lt;p&gt;木造でオシャレな内装！&lt;font size=&#34;3&#34;&gt;（個人的にノマドが捗りそう&lt;/font&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintone_onetime.png&#34; alt=&#34;ワンタイムサービス&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;コワーキングスペースとしての利用は平日で、土日はイベントや勉強会用にお借りすることも可能なようです。&lt;/p&gt;
 
-&lt;p&gt;1回のお打ち合わせが約2時間で10万円、通常4回コース(=40万円)で実施し、必要なカスタマイズも料金表に従った透明な価格体系です。&lt;/p&gt;
+&lt;p&gt;弊社オフィスのある大阪からも電車で1時間かからない。そして京都からも…言わずもがな٩(●˙▿˙●)۶&lt;/p&gt;
 
-&lt;p&gt;近隣であれば訪問して実施することも可能ですが、基本的には来社いただくかTV会議での実施を想定しています。&lt;/p&gt;
-
-&lt;p&gt;初回お打ち合わせである程度構築したシステムをお試し期間（約1ヶ月）で実際にお客様に触っていただき、 &lt;strong&gt;システム化が不要ということであれば料金はいただきません。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;（2回目以降のお打ち合せに進む際に、初回と2回目分の費用が発生）&lt;/p&gt;
-
-&lt;p&gt;検討から構築、サポート対応まで、すべてをクイックに、お手軽に!&lt;/p&gt;
-
-&lt;div class=&#34;bs-callout-info&#34;&gt;
-  &lt;b&gt;メニュー料金表&lt;/b&gt;
-  &lt;p&gt;JavaScriptカスタマイズ：5万円/イベント&lt;/p&gt;
-  &lt;p&gt;訪問打合せ：2万円/回&lt;/p&gt;
-  &lt;p&gt;サポート：1万円/月&lt;/p&gt;
-  &lt;p&gt;システム間連携&lt;/p&gt;
-  &lt;ul&gt;
-  &lt;li&gt;基盤構築20万円
-  &lt;li&gt;データ連携 10万円/1テーブル（kintoneアプリ）
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;契約期間中は継続的に開発を行う-継続サービス:b3f994572158129e07597d19060e2d9b&#34;&gt;契約期間中は継続的に開発を行う【継続サービス】&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;50万円/月 で隔週の打合せで継続的に開発を行います&lt;/li&gt;
-&lt;li&gt;JavaScriptのカスタマイズもこの中で実施していきます&lt;/li&gt;
-&lt;li&gt;システム間連携についてはワンタイムサービスと同様の費用が必要となります&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;システムを使いながら進化させ続けていく、継続サービスをぜひご利用ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;お客様自身の開発を支援する-サポートサービス:b3f994572158129e07597d19060e2d9b&#34;&gt;お客様自身の開発を支援する【サポートサービス】&lt;/h2&gt;
-
-&lt;p&gt;システム構築を弊社で行ったアプリについて、その後の修正などをサポートするサービスとなります。&lt;/p&gt;
-
-&lt;p&gt;一つの質問ごとに課金されるチケット制となります。&lt;/p&gt;
-
-&lt;p&gt;→ こちらをお客様自身もしくは他のベンダーが構築したケースについても、適用可能になりました！&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1ヶ月あたり2回まで：　1万円&lt;/li&gt;
-&lt;li&gt;10回まで：　5万円&lt;/li&gt;
-&lt;li&gt;無制限：　10万円&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;以上、CoderDojo＋αのご紹介でした(⑅っˇωˇ )っ&lt;/p&gt;
 </description>
     </item>
     
@@ -1158,6 +1046,56 @@ elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;AWS Lambda available in Tokyo! を記念しているのに、 js2kintone がオレゴンをオススメしているのは仕様です。探さないでください(^_^;&lt;/p&gt;
 
 &lt;p&gt;ドキュメントはいつも最後なんです、ソース読みましょう。ではでは (^^)/&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AWSとkintoneで実現するハイスピードSI</title>
+      <link>https://www.r3it.com/solutions/kintone/lp20150701/</link>
+      <pubDate>Wed, 01 Jul 2015 16:51:20 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/solutions/kintone/lp20150701/</guid>
+      <description>&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;AWSとkintoneで実現するハイスピードSI&lt;/h1&gt;
+  &lt;h3 class=&#34;text-center&#34;&gt;&lt;/h3&gt;
+  &lt;h4 class=&#34;text-center&#34; style=&#34;background-color: white; height: 50%;&#34;&gt;アールスリーインスティテュート&lt;img src=&#34;https://www.r3it.com/images/r3logo.png&#34;&gt;&lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;クラウドについてよく聞くお話&lt;/h1&gt;
+  &lt;div class=&#34;row&#34;&gt;
+   &lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;
+   &lt;h3&gt;クラウドって結局オンプレのサーバが仮想化されただけでしょ？&lt;/h3&gt;
+   &lt;h3&gt;既存システムの移行はできても&lt;br&gt;新規システムをクラウドに適合した形で作るのって難しいんじゃないの？&lt;/h3&gt;
+   &lt;h3&gt;クラウドですぐにインフラ用意できても&lt;br&gt;開発に時間がかかるなら意味ないんじゃないの？&lt;/h3&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+ &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: white;&#34;&gt;そこで、アールスリーのハイスピードSI&lt;/h1&gt;
+ &lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;
+   &lt;h3 style=&#34;color: #ddd;&#34;&gt;AWSやkintoneといったクラウドサービスを活用し、&lt;br&gt;お客様が今必要なものを、可能な限り早くご提供するサービスです&lt;/h3&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/cloud_integration.png&#34; class=&#34;img-thumbnail wide-image&#34;&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+ &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px; color: black;&#34;&gt;開発にかかる時間の違い&lt;/h1&gt;
+ &lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/hssi_graph.png&#34; class=&#34;img-thumbnail wide-image&#34;&gt;
+ &lt;h3 class=&#34;text-center&#34;&gt;【時間をかけて100点を取ろうとするよりも、短時間に80点を取る方がビジネスでは重要】&lt;br&gt;
+ というポリシーのもと、圧倒的なスピードでシステムを提供するハイスピードSI&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;section&#34;&gt;
+  &lt;h1 class=&#34;text-center v-center&#34; style=&#34;font-size:40px;&#34;&gt;&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;ぜひお問い合わせください&lt;/a&gt;&lt;/h1&gt;
+  &lt;h3 class=&#34;text-center&#34; style=&#34;color: white;&#34;&gt;Tel : 06-6271-3663 / Mail : &lt;a href=&#34;mailto:info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/h3&gt;
+  
+  &lt;h3 class=&#34;text-center&#34; style=&#34;color: white;&#34;&gt;&lt;a href=&#34;https://www.r3it.com/freecontact/&#34;&gt;kintone無料体験会&lt;/a&gt;のお申し込みはこちら&lt;/h3&gt;
+  &lt;h4 class=&#34;text-center&#34; style=&#34;background-color: white; height: 50%;&#34;&gt;アールスリーインスティテュート&lt;a href=&#34;https://www.r3it.com/&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/r3logo.png&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
 </description>
     </item>
     
