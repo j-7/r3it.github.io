@@ -9,6 +9,70 @@
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>kintone による業務改善事例：進捗管理編</title>
+      <link>https://www.r3it.com/solutions/kintone/inprogress/</link>
+      <pubDate>Tue, 08 Sep 2015 16:04:37 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/solutions/kintone/inprogress/</guid>
+      <description>
+
+&lt;h2 id=&#34;進捗管理にお困りのシステム部門-ユーザ部門の方へ:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;進捗管理にお困りのシステム部門/ユーザ部門の方へ&lt;/h2&gt;
+
+&lt;p&gt;多くの案件が同時並行に走り、進捗状況が見えない、そんな状況に陥っていませんか？&lt;/p&gt;
+
+&lt;p&gt;また、このような状況でお困りの方に、ぜひこの活用方法を転送してください！&lt;/p&gt;
+
+&lt;h2 id=&#34;問題点:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;問題点&lt;/h2&gt;
+
+&lt;h3 id=&#34;メールや紙-fax-電話などで情報が飛び交い-進捗状況が見えづらい:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;メールや紙（FAX）・電話などで情報が飛び交い、進捗状況が見えづらい&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;作業や確認の漏れや優先順序の間違いなどが発生してしまう。&lt;/li&gt;
+&lt;li&gt;各関係者がそれぞれの状況が心配になって、余計に電話などが増える。&lt;/li&gt;
+&lt;li&gt;多大な作業待ちが発生したり、後工程へのしわ寄せが発生したりする。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;仕様変更が多発し-最新の情報や仕様などが分かりにくい:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;仕様変更が多発し、最新の情報や仕様などが分かりにくい&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正しい情報を探すために、過去のメールや紙などを順に辿っていくのにかなりの時間を要していた。&lt;/li&gt;
+&lt;li&gt;勘違いした情報で作業してしまい、手戻りや重大な事故が発生していた。&lt;/li&gt;
+&lt;li&gt;（事故を受けて）各自が個別の管理票を作成してしまうことになるが、その情報自体が更新されたりされなかったりと不確実な状態になっていた。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/solutions/kintone/inprogress.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/inprogress.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-導入後は:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;kintone 導入後は&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;情報が1箇所に集約され、今どの案件を優先的に進めれば良いかが分かりやすくなった（納期から考えたら、今はこの案件を止めてでもこちらを先に進めるべき、など）。&lt;/li&gt;
+&lt;li&gt;最新の仕様としての成果物がデータベース化され、変更履歴も残るため、仕様データとして信頼あるものになった（どんな経緯でその仕様になったかのトレースまででき、電話などで各所に確認しなくても良くなった）。&lt;/li&gt;
+&lt;li&gt;情報更新時の連絡もメールではなく、kintone上のコメント欄で周知できるので、管理者にも後からでも状況が分かり易くなった。&lt;/li&gt;
+&lt;li&gt;各自が自分が持つ情報を更新していくことが案件の成功に直結することを意識できるようになったため、以前よりもより細かい情報が共有されることになった（そのための画面の入力項目変更にも費用発生させずに対応可能）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;アールスリーの-kintone-を使ったハイスピードsiが提供する価値:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;アールスリーの kintone を使ったハイスピードSIが提供する価値&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;問題解決のアプローチによる現場状況のヒアリング、改善ポイントの明確化と、可能な限りシンプルな改善策の提案。&lt;/li&gt;
+&lt;li&gt;改善策を kintone でどのように実現するかの設計および実装。&lt;/li&gt;
+&lt;li&gt;kintone のカスタマイズによる、見やすい進捗管理画面。&lt;/li&gt;
+&lt;li&gt;一気に大規模なシステム改修を行うのではなく、実運用をしながら低予算でシステムを少しずつ改修する&lt;a href=&#34;../onetime/&#34;&gt;ワンタイムサービス&lt;/a&gt;の適用も可能です。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;導入までの流れ:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;導入までの流れ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;下記にあります電話番号までお電話、またはこちらより&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;お問い合わせ&lt;/a&gt;ください。お困りの内容が具体的に説明できなくても、弊社でヒアリングさせていただき課題を明確にしていきます。&lt;/li&gt;
+&lt;li&gt;弊社より解決方法をご提案させていただきます。&lt;/li&gt;
+&lt;li&gt;kintone 導入〜導入教育（操作方法など）を必要に応じて実施します。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;あなたのお困り事を-ぜひご相談ください:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;あなたのお困り事を、ぜひご相談ください。&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
       <title>あなたのお困り事を kintone による ハイスピードSI で解決します</title>
       <link>https://www.r3it.com/solutions/kintone/</link>
       <pubDate>Tue, 08 Sep 2015 16:04:37 +0900</pubDate>
@@ -137,70 +201,6 @@
 &lt;li&gt;10回まで：　5万円&lt;/li&gt;
 &lt;li&gt;無制限：　10万円&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone による業務改善事例：進捗管理編</title>
-      <link>https://www.r3it.com/solutions/kintone/inprogress/</link>
-      <pubDate>Tue, 08 Sep 2015 16:04:37 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/kintone/inprogress/</guid>
-      <description>
-
-&lt;h2 id=&#34;進捗管理にお困りのシステム部門-ユーザ部門の方へ:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;進捗管理にお困りのシステム部門/ユーザ部門の方へ&lt;/h2&gt;
-
-&lt;p&gt;多くの案件が同時並行に走り、進捗状況が見えない、そんな状況に陥っていませんか？&lt;/p&gt;
-
-&lt;p&gt;また、このような状況でお困りの方に、ぜひこの活用方法を転送してください！&lt;/p&gt;
-
-&lt;h2 id=&#34;問題点:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;問題点&lt;/h2&gt;
-
-&lt;h3 id=&#34;メールや紙-fax-電話などで情報が飛び交い-進捗状況が見えづらい:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;メールや紙（FAX）・電話などで情報が飛び交い、進捗状況が見えづらい&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;作業や確認の漏れや優先順序の間違いなどが発生してしまう。&lt;/li&gt;
-&lt;li&gt;各関係者がそれぞれの状況が心配になって、余計に電話などが増える。&lt;/li&gt;
-&lt;li&gt;多大な作業待ちが発生したり、後工程へのしわ寄せが発生したりする。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;仕様変更が多発し-最新の情報や仕様などが分かりにくい:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;仕様変更が多発し、最新の情報や仕様などが分かりにくい&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;正しい情報を探すために、過去のメールや紙などを順に辿っていくのにかなりの時間を要していた。&lt;/li&gt;
-&lt;li&gt;勘違いした情報で作業してしまい、手戻りや重大な事故が発生していた。&lt;/li&gt;
-&lt;li&gt;（事故を受けて）各自が個別の管理票を作成してしまうことになるが、その情報自体が更新されたりされなかったりと不確実な状態になっていた。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/solutions/kintone/inprogress.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/inprogress.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-導入後は:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;kintone 導入後は&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;情報が1箇所に集約され、今どの案件を優先的に進めれば良いかが分かりやすくなった（納期から考えたら、今はこの案件を止めてでもこちらを先に進めるべき、など）。&lt;/li&gt;
-&lt;li&gt;最新の仕様としての成果物がデータベース化され、変更履歴も残るため、仕様データとして信頼あるものになった（どんな経緯でその仕様になったかのトレースまででき、電話などで各所に確認しなくても良くなった）。&lt;/li&gt;
-&lt;li&gt;情報更新時の連絡もメールではなく、kintone上のコメント欄で周知できるので、管理者にも後からでも状況が分かり易くなった。&lt;/li&gt;
-&lt;li&gt;各自が自分が持つ情報を更新していくことが案件の成功に直結することを意識できるようになったため、以前よりもより細かい情報が共有されることになった（そのための画面の入力項目変更にも費用発生させずに対応可能）。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;アールスリーの-kintone-を使ったハイスピードsiが提供する価値:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;アールスリーの kintone を使ったハイスピードSIが提供する価値&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;問題解決のアプローチによる現場状況のヒアリング、情報の整理。&lt;/li&gt;
-&lt;li&gt;改善策を kintone でどのように実現するかの設計および実装。&lt;/li&gt;
-&lt;li&gt;kintone のカスタマイズによる、見やすい進捗管理画面。&lt;/li&gt;
-&lt;li&gt;一気に大規模なシステム改修を行うのではなく、実運用をしながら低予算でシステムを少しずつ改修する&lt;a href=&#34;../onetime/&#34;&gt;ワンタイムサービス&lt;/a&gt;の適用も可能です。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;導入までの流れ:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;導入までの流れ&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;下記にあります電話番号までお電話、またはこちらより&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;お問い合わせ&lt;/a&gt;ください。お困りの内容が具体的に説明できなくても、弊社でヒアリングさせていただき課題を明確にしていきます。&lt;/li&gt;
-&lt;li&gt;弊社より解決方法をご提案させていただきます。&lt;/li&gt;
-&lt;li&gt;kintone 導入〜導入教育（操作方法など）を必要に応じて実施します。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;あなたのお困り事を-ぜひご相談ください:aa3aa989e59fd01783405b93f45cfc61&#34;&gt;あなたのお困り事を、ぜひご相談ください。&lt;/h1&gt;
 </description>
     </item>
     
