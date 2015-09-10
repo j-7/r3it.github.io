@@ -413,6 +413,23 @@
       <guid>https://www.r3it.com/solutions/kintone/services/</guid>
       <description>
 
+&lt;p&gt;&lt;a name=&#34;custom&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ハイスピードsiによるフルカスタマイズサービス:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;ハイスピードSIによるフルカスタマイズサービス&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/highspeedSI-world.png&#34; alt=&#34;ハイスピードSIが提供する世界観&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーが提唱する「ハイスピードSI」の世界観に基づき、お客様に最適なシステムをインテグレーションするサービスです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アプリケーション（GUI）部分には kintone&lt;/li&gt;
+&lt;li&gt;kintone アプリケーション開発支援・デプロイ管理には gusuku.io（自社サービス）&lt;/li&gt;
+&lt;li&gt;インフラストラクチャ部分には Amazon Web Services (AWS)&lt;/li&gt;
+&lt;li&gt;オンプレミス・kintone とのデータ連携には Talend&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;これらを組み合わせ、出来る限り素早くお客様の問題を解決します。&lt;/p&gt;
+
 &lt;p&gt;&lt;a name=&#34;onetime&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;打合せ4回でシステムを構築する-ワンタイムサービス:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;打合せ4回でシステムを構築する【ワンタイムサービス】&lt;/h2&gt;
@@ -577,6 +594,18 @@
       <guid>https://www.r3it.com/solutions/kintone/</guid>
       <description>
 
+&lt;h2 id=&#34;kintoneとは:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneとは？&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ株式会社&lt;/a&gt;が提供する、データベース型のビジネスアプリケーションを、クラウドで作成することが出来る、新しいタイプのアプリ開発プラットフォームです。&lt;/p&gt;
+
+&lt;p&gt;従来紙媒体やエクセルファイルの共有などで実行していたアナログなワークフローや業務プロセスを置き換えることによって、圧倒的な業務改善が見込めます。&lt;/p&gt;
+
+&lt;p&gt;具体的な活用事例について、以下よりご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;kintoneによる業務改善-事例集:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneによる業務改善 事例集&lt;/h1&gt;
+
 &lt;h2 id=&#34;excel-accessで作られたツールをwebシステム化したい:b3f994572158129e07597d19060e2d9b&#34;&gt;Excel・Accessで作られたツールをWebシステム化したい&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/solutions/kintone/share/&#34;&gt;&lt;img width=&#34;250&#34; class=&#34;img-circle wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/thumbnail_share.png&#34; alt=&#34;Excel・Accessで作られたツールをWebシステム化したい&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -626,13 +655,16 @@
 
 &lt;p&gt;&lt;a href=&#34;antipackage/&#34;&gt;こちらの事例&lt;/a&gt;をぜひご覧ください。&lt;/p&gt;
 
-&lt;h2 id=&#34;kintoneとは:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneとは？&lt;/h2&gt;
+&lt;h1 id=&#34;kintone関連サービス:b3f994572158129e07597d19060e2d9b&#34;&gt;kintone関連サービス&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;弊社が提供する&lt;a href=&#34;services/&#34;&gt;定額の kintone 開発・アウトソーシングサービス&lt;/a&gt;は以下のとおりとなっております。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ株式会社&lt;/a&gt;が提供する、データベース型のビジネスアプリケーションを、クラウドで作成することが出来る、新しいタイプのアプリ開発プラットフォームです。&lt;/p&gt;
-
-&lt;p&gt;従来紙媒体やエクセルファイルの共有などで実行していたアナログなワークフローや業務プロセスを置き換えることによって、圧倒的な業務改善が見込めます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ハイスピードSIによるフルカスタマイズサービス&lt;/li&gt;
+&lt;li&gt;打合せ4回でシステムを構築する【ワンタイムサービス】&lt;/li&gt;
+&lt;li&gt;契約期間中は継続的に開発を行う【継続サービス】&lt;/li&gt;
+&lt;li&gt;お客様自身の開発を支援する【サポートサービス】&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;kintoneセミナー-kintone-café開催中です:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneセミナー/kintone Café開催中です&lt;/h2&gt;
 
@@ -685,18 +717,6 @@
 
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;kintone関連サービス:b3f994572158129e07597d19060e2d9b&#34;&gt;kintone関連サービス&lt;/h1&gt;
-
-&lt;p&gt;弊社が提供する&lt;a href=&#34;services/&#34;&gt;定額の kintone 開発・アウトソーシングサービス&lt;/a&gt;は以下のとおりとなっております。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;打合せ4回でシステムを構築する【ワンタイムサービス】&lt;/li&gt;
-&lt;li&gt;契約期間中は継続的に開発を行う【継続サービス】&lt;/li&gt;
-&lt;li&gt;お客様自身の開発を支援する【サポートサービス】&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
