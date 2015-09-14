@@ -5,8 +5,168 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Sep 2015 16:51:06 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2015 19:23:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NRIハッカソン＠CEATEC JAPAN2015 大阪予選を突破しました！</title>
+      <link>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</link>
+      <pubDate>Mon, 14 Sep 2015 19:23:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</guid>
+      <description>
+
+&lt;p&gt;「大阪に出張で来るとき、いつも体調悪いね」って言われて凹んだ西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;さて、先日より&lt;a href=&#34;../hack-for-money/&#34;&gt;こちらの記事&lt;/a&gt;などでお知らせしていた &lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; 大阪予選ですが、見事弊社IoT部のアイデアが予選通過しました！ 今日はそのイベントの様子をご報告します。&lt;/p&gt;
+
+&lt;p&gt;イベントの様子は他の会社様のサイトでも報告されていますので、こちらも合わせてご覧ください（見つけ次第随時追加予定）。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.val.co.jp/2015/09/hackathon-qualifier-osaka.html&#34;&gt;駅すぱあとWebサービスをMoneyハッカソンに提供！大阪予選レポート&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;アイデアソンの会場は大阪グランフロントにある大阪イノベーションハブでした。土曜日の朝9時半開始というなかなかのスケジュールで、あんまり人が来ないかな〜と思いきや、皆さん気合入ってます、しっかり時間キッチリにほぼ満員で始まりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪予選はチーム参加＆個人参加の方々のチームビルディングの結果、16チームで争われることになりました。ちなみに我らのチーム名は「ナンデヤネンボット」でして、「ぽっと」ではありません。部長もお怒りです。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみにこの「なんでやねんボット」は、&lt;a href=&#34;../iot-circle-meetup/&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;で生まれた、IoT部のマスコット兼影の部長です。沖縄から大阪、更に当日の人混みをかいくぐってのグランフロントと、移動を経てきてかなりボロボロです・・・。&lt;/p&gt;
+
+&lt;p&gt;午前中は、チームビルドやアイデア出し、素材提供企業のプレゼンや質疑応答などなどに費やされ、お昼前から15時までがプレゼン作成の勝負です。&lt;/p&gt;
+
+&lt;h2 id=&#34;アイデア検討-プレゼン作成:ceb2116a6a68ff065a78911e0ae7489b&#34;&gt;アイデア検討＆プレゼン作成&lt;/h2&gt;
+
+&lt;p&gt;お弁当を食べながら、コーヒーを飲みながら、アイデアを膨らませつつブラッシュアップ、資料作成〜とプレゼン発表まではあっという間でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;西島は、IoT部での参加ではなく、個人参加した前日夜の&lt;a href=&#34;https://mashupawards.doorkeeper.jp/events/29392&#34;&gt;某アイデアソンの惜敗・惨敗&lt;/a&gt;を受けて、ざっくりしたアイデアと実現可能性を確認したあとは、ただひたすら寸劇の効果を最大化すべくアイデア出しと資料の作成をしておりました（前日夜は、ここは大阪ということをすっかり忘れておりました・・・）。&lt;/p&gt;
+
+&lt;p&gt;で、出来た資料はこちらです。厳格に3分で切られるということだったので、寸劇のリハーサルも含めてきっちり行いました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/tq5FRYYQa2MSCN&#34; width=&#34;510&#34; height=&#34;420&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/hack-for-money-201509-osaka&#34; title=&#34;Hack for Money 201509 osaka&#34; target=&#34;_blank&#34;&gt;Hack for Money 201509 osaka&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KoichiroNishijima&#34; target=&#34;_blank&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;どうですかこのすぐに役立つロボットと、タイム・トラベルのSF無限ループのミックス！（会場でプレゼン＋寸劇を見て、すぐ背景まで意図が分かった人は居たんでしょうか・・・）。&lt;/p&gt;
+
+&lt;h2 id=&#34;ドキドキのプレゼンテーション-結果発表:ceb2116a6a68ff065a78911e0ae7489b&#34;&gt;ドキドキのプレゼンテーション〜結果発表&lt;/h2&gt;
+
+&lt;p&gt;さて、プレゼン発表は、やはり半分以上のチームが寸劇を入れてくる、なかなか見応えのある内容でした。さすが大阪・・・。&lt;/p&gt;
+
+&lt;p&gt;（すみません、このあたりから大解像度の画像はありません）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/presentation.jpg&#34; alt=&#34;若干緊張気味の面々&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;で、結果は、無事予選突破の3チームの中に選ばれました！&lt;/p&gt;
+
+&lt;p&gt;いや〜、良かったよかった、という言葉しか出てきませんでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/result.jpg&#34; alt=&#34;予選突破！&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;分厚い賞品には、中身が何かかドキドキしましたが・・・&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize1.jpg&#34; alt=&#34;賞品1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;本戦の入場パスでした！&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本戦は 10月6日(火)～7日(水)に幕張メッセ　CEATEC JAPAN 2015会場内にて行われます。果たして部員一同ちゃんと仕事を整理して、会社の支援で幕張メッセに行けるのか！？乞うご期待！&lt;/p&gt;
+
+&lt;p&gt;（西島は特に沖縄からなので、とんでもなくお金と時間がかかります。前泊後泊必須だし・・・幕張不便です(;_;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CoderDojo＋αのご紹介</title>
+      <link>https://www.r3it.com/blog/etc/20150908_coderdojo-nagaokakyo/</link>
+      <pubDate>Tue, 08 Sep 2015 14:12:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20150908_coderdojo-nagaokakyo/</guid>
+      <description>
+
+&lt;p&gt;メンターとしてお手伝いさせて頂いているCoderDojo+αについてのご紹介です。&lt;/p&gt;
+
+&lt;h2 id=&#34;そもそもcoderdojoって:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;そもそもCoderDojoって？&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;CoderDojo&lt;/b&gt;は&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#333399&#34;&gt;7～17歳の子どもを対象にしたプログラミング道場&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
+
+&lt;p&gt;2011年にアイルランドで始まり、世界では59カ国・750の道場、日本では全国に21の道場があります (2015年7月現在)。&lt;/p&gt;
+
+&lt;p&gt;子ども達にプログラミングを教える先生は&lt;b&gt;メンター&lt;/b&gt;と呼ばれています。&lt;/p&gt;
+
+&lt;p&gt;完全非営利で運営されていて、メンターは全員ボランティアです。&lt;/p&gt;
+
+&lt;p&gt;各地域の道場は独立しており、道場ごとにやり方が違います。&lt;/p&gt;
+
+&lt;p&gt;北は北海道から南は九州まで、ほんとに幅広く開催されていますので、興味がある方、またメンターとして是非お手伝いしたいという方がいらっしゃいましたら、是非最寄りのDojoまで足を運んでみて下さい！&lt;/p&gt;
+
+&lt;p&gt;熱意のある子どもたちが多い中、メンターの数はまだまだ足りない現状があります…(´-ω-`)&lt;/p&gt;
+
+&lt;p&gt;どんな風に教えているんだろう？と少しでも興味をお持ちの方は、まずは見学から入ってみてイメージを掴んでみて下さい！&lt;/p&gt;
+
+&lt;p&gt;詳細は&lt;a href=&#34;http://coderdojo.jp/&#34;&gt;CoderDojo Japan&lt;/a&gt;のページを御覧くださいね！&lt;/p&gt;
+
+&lt;h2 id=&#34;わたしがお手伝いしているcoderdojo長岡京の話:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;わたしがお手伝いしているCoderDojo長岡京の話&lt;/h2&gt;
+
+&lt;p&gt;その中で、わたしがメンターとして主にお手伝いさせて頂いているのは&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;長岡京は今年の4月以降、月1回のペースで開催しています。初めて見学に行ったのがちょうど4月。&lt;/p&gt;
+
+&lt;p&gt;そしてその時の感想も実は個人ブログでupしてたり|･`ω･)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dolly6ca.hatenablog.jp/entry/20150413/1428855637&#34;&gt;CoderDojo長岡京に見学に行ってきた٩(ˊᗜˋ*)و - 2.5次元を生きるCOS☆PLAYエンジニアの雑記&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;他のDojoだと、HTML/CSSやJavaScript、電子工作系など、幅広く教えられているDojoも多いのですが、長岡京は今のところScratchを教えています。&lt;/p&gt;
+
+&lt;h3 id=&#34;scratchって:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;Scratchって？&lt;/h3&gt;
+
+&lt;p&gt;Scratchとは、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3366CC&#34;&gt;MITメディアラボが開発したオブジェクト指向の子供向けビジュアルプログラミング言語&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
+
+&lt;p&gt;GUI上でアクションのブロックを、選択したスプライトやステージにD&amp;amp;Dすることで、インタラクティブなアニメーションやゲームなどを作ることができ、プログラミングのロジックを学習できます。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/scratch.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/scratch.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;また、作った作品はScratchのオンラインコミュニティ上で共有が出来ます。&lt;/p&gt;
+
+&lt;p&gt;共有されている他の作品で気に入ったものがあれば、ソースを自分の勉強用にDLしたり、別のプロジェクトで利用することも可能です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://scratch.mit.edu/&#34;&gt;https://scratch.mit.edu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;長岡京では、1回ごとにつどテーマを決めて進めます。&lt;/p&gt;
+
+&lt;p&gt;その回が終わると、メンターの振り返りの時間を設け、次に向けての課題点や良かったことを議論します。&lt;/p&gt;
+
+&lt;p&gt;他のDojoはどうかわからないのですが、わりと近辺にお住まいのメンターさんが多いので、終わってからもコミュニケーションのためにお茶したりもします。&lt;/p&gt;
+
+&lt;p&gt;メンターさんとして参加されている方の職業も年齢も様々で、みんなで話をしているだけでもいろいろ刺激になります(っ´ω`c)♡&lt;/p&gt;
+
+&lt;h3 id=&#34;長岡京にこんなコワーキングスペースが:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;長岡京にこんなコワーキングスペースが！&lt;/h3&gt;
+
+&lt;p&gt;そして先日、そんな長岡京に&lt;a href=&#34;http://coworking-nagaokakyo.jp/&#34;&gt;コワーキングスペース&lt;/a&gt;がオープンしたので見学に行ってきました！&lt;/p&gt;
+
+&lt;p&gt;次回以降のCoderDojo長岡京は、このコワーキングスペースをお借りして開催することになります٩(ˊᗜˋ*)و
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;技術書やムックもたくさん！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo5.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;木造でオシャレな内装！&lt;font size=&#34;3&#34;&gt;（個人的にノマドが捗りそう&lt;/font&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;コワーキングスペースとしての利用は平日で、土日はイベントや勉強会用にお借りすることも可能なようです。&lt;/p&gt;
+
+&lt;p&gt;弊社オフィスのある大阪からも電車で1時間かからない。そして京都からも…言わずもがな٩(●˙▿˙●)۶&lt;/p&gt;
+
+&lt;p&gt;以上、CoderDojo＋αのご紹介でした(⑅っˇωˇ )っ&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>東北IT物産展2015でkintoneのハンズオンを実施しました</title>
@@ -940,151 +1100,6 @@ elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;簡単ですね。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>cybozu.com developer networkについて</title>
-      <link>https://www.r3it.com/blog/kintone/cybozu-com-developer-network/</link>
-      <pubDate>Mon, 01 Dec 2014 20:02:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/cybozu-com-developer-network/</guid>
-      <description>
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;kintoneを始めたいと思っている方、「お試し期間1ヶ月じゃ試しきれない」という方、
-意外と知らない方も多いかもしれませんので、&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja&#34;&gt;cybozu.com developer network&lt;/a&gt;をご紹介します&lt;/p&gt;
-
-&lt;h1 id=&#34;cybozu-com-developer-networkとは:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;cybozu.com developer networkとは？&lt;/h1&gt;
-
-&lt;p&gt;cybozu.com developer network（長いの以降、CDNと略します）は、cybozu.comの開発者が集まるコミュニティサイトです。
-kintoneなどのカスタマイズ方法について、フォーラムで質問したりすることができます。&lt;/p&gt;
-
-&lt;p&gt;わからないことなどあれば、ここで聞いていただくと、kintoneエバンジェリストの方々などから回答もらえるかもしれません。&lt;/p&gt;
-
-&lt;h1 id=&#34;開発者ライセンスを取得しよう:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;開発者ライセンスを取得しよう&lt;/h1&gt;
-
-&lt;p&gt;CDNのすごいのは、開発者ライセンスがもらえるということです。
-開発者ライセンスをもらうと、1年間kintoneのスタンダードコースが使い放題です。&lt;/p&gt;
-
-&lt;p&gt;ひとまず、CDNのアカウントを取得しましょう。「メンバーになる」をクリックしてください。
-Facebookのアカウントがあれば、すぐにメンバー登録できます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network-1024x838.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;メンバー登録ができたら、登録したアカウントでログインしてください。&lt;/p&gt;
-
-&lt;p&gt;次に赤枠のところをクリック！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network2.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network2-1024x715.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;そして、画面の下の方にある申込みフォームを埋めます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network3.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cybozu_com_developer_network3-1024x491.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
- 
-
-&lt;p&gt;「確認する」をクリックして、送信すれば、２〜３日でアカウントがもらえます！
-これでkintone触り放題です！&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ:fffd0a708aac05f7074e7c35d128b82e&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;CDNで開発者ライセンスをもらえばじっくりとkintoneを触ることができますので、
-是非お試しください。&lt;/p&gt;
-
-&lt;p&gt;通常のライセンスとは異なるいくつかの制約がありますが、開発上困ることはないと思います。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AWS KeyMangementServiceを使ってみた</title>
-      <link>https://www.r3it.com/blog/aws/kms/</link>
-      <pubDate>Sat, 29 Nov 2014 14:43:15 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/kms/</guid>
-      <description>
-
-&lt;p&gt;こんにちは金春です。&lt;/p&gt;
-
-&lt;p&gt;AWSでは、従来よりS3に保存したファイルは、EBSに記録したデータを暗号化できるようになっています。
-ただこの時に使われる暗号鍵はAWSが管理する鍵でした。&lt;/p&gt;
-
-&lt;p&gt;自分の家の鍵だけど、鍵は自分では持っていなくていつも開けてもらうようなイメージです。
-でも、鍵は自分で持ちたいですよね？&lt;/p&gt;
-
-&lt;h1 id=&#34;自分で鍵を持つ:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;自分で鍵を持つ&lt;/h1&gt;
-
-&lt;p&gt;AWSが鍵を管理する形でも問題ないケースも多いのですが、企業によってはセキュリティポリシーの規定（例えば、鍵のローテーションポリシーがあるなど）によってこれでは使えないケースというのがあります。&lt;/p&gt;
-
-&lt;p&gt;これを解決しようというのが、AWS KeyManagementServiceです。&lt;/p&gt;
-
-&lt;p&gt;AWSが鍵を管理するのではなく、ユーザが自分で鍵を管理できるようになります。
-早速みてみましょう。&lt;/p&gt;
-
-&lt;h1 id=&#34;自分の鍵を作る:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;自分の鍵を作る&lt;/h1&gt;
-
-&lt;p&gt;AWS KeyMenegemtServiceは、IAMの機能に統合されています。
-IAMの管理画面に入ると、左のメニューの一番下にメニューが増えています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms00.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms00-144x300.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;これをクリックを鍵の一覧画面が表示されます。
-どうもこの画面、常にデフォルトがUS-Eastになっているようです。
-ここでは、Tokyoに変えておきましょう。&lt;/p&gt;
-
-&lt;p&gt;一覧画面にある「Create Key」をクリックして鍵を作成してみましょう。&lt;/p&gt;
-
-&lt;p&gt;鍵の名前（Alias）と説明を入力します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms01.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms01-300x174.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;次に、この鍵を管理することができるIAMユーザを選択します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms02.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms02-300x164.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;次に、この鍵を使うことができるIAMユーザ、IAM Roleを選択します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms03.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms03-300x164.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ここでは、自アカウントのIAMユーザ等以外に、他のアカウントに鍵の使用を許可することもできます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms04.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms04-300x99.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;次に進みます。この画面ではここまで設定した内容をポリシーとして確認します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms05.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms05-300x165.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ここまで設定すると鍵が作成されます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms06.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms06-300x149.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こんな感じで作成されました。&lt;/p&gt;
-
-&lt;h1 id=&#34;作成した鍵を使う:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;作成した鍵を使う&lt;/h1&gt;
-
-&lt;p&gt;EBSの暗号化で先ほど作成した鍵を使ってみましょう。
-EC2の管理画面でVolumesを選択し、Create Volumeしてみましょう。&lt;/p&gt;
-
-&lt;p&gt;「Encrypt this volume」をチェックすると、「Master Key」のプルダウンが表示されます。
-プルダウンを見てみると、先ほど作成した鍵が表示されていますね！&lt;/p&gt;
-
-&lt;p&gt;これを選択することで自分で作成した鍵で暗号化が行えるようになります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/ebs01.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/ebs01-300x211.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;次、S3で使ってみましょう。
-S3 のUpload画面で、ファイルを選択後に、「Set Details」を選択してみてください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kms07.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kms07-300x179.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;詳細設定画面が開きますので、そこの暗号化設定でEBSのときと同じように作成した鍵が選べるようになっています。&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ:e26f644e3fc1f09fdf0898d2062f4905&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;暗号鍵を自分で管理できるようになることで、自分のルールで鍵を運用できるようになります。
-これができるようになることで、今までセキュリティポリシーに適合できないがためにAWSの利用が難しかった会社でも利用できるようになり、AWSの利用機会が広がるのではないかと思います。&lt;/p&gt;
-
-&lt;p&gt;今回は、Management Consoleで操作しましたが、AWSでの当然APIやCLIからも操作できますので、鍵管理を自動化することもできますね！&lt;/p&gt;
 </description>
     </item>
     

@@ -5,8 +5,84 @@
     <link>https://www.r3it.com/tags/etc/</link>
     <description>Recent content in Etc on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 13 Aug 2015 15:40:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2015 19:23:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/etc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NRIハッカソン＠CEATEC JAPAN2015 大阪予選を突破しました！</title>
+      <link>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</link>
+      <pubDate>Mon, 14 Sep 2015 19:23:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</guid>
+      <description>
+
+&lt;p&gt;「大阪に出張で来るとき、いつも体調悪いね」って言われて凹んだ西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;さて、先日より&lt;a href=&#34;../hack-for-money/&#34;&gt;こちらの記事&lt;/a&gt;などでお知らせしていた &lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; 大阪予選ですが、見事弊社IoT部のアイデアが予選通過しました！ 今日はそのイベントの様子をご報告します。&lt;/p&gt;
+
+&lt;p&gt;イベントの様子は他の会社様のサイトでも報告されていますので、こちらも合わせてご覧ください（見つけ次第随時追加予定）。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.val.co.jp/2015/09/hackathon-qualifier-osaka.html&#34;&gt;駅すぱあとWebサービスをMoneyハッカソンに提供！大阪予選レポート&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;アイデアソンの会場は大阪グランフロントにある大阪イノベーションハブでした。土曜日の朝9時半開始というなかなかのスケジュールで、あんまり人が来ないかな〜と思いきや、皆さん気合入ってます、しっかり時間キッチリにほぼ満員で始まりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪予選はチーム参加＆個人参加の方々のチームビルディングの結果、16チームで争われることになりました。ちなみに我らのチーム名は「ナンデヤネンボット」でして、「ぽっと」ではありません。部長もお怒りです。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみにこの「なんでやねんボット」は、&lt;a href=&#34;../iot-circle-meetup/&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;で生まれた、IoT部のマスコット兼影の部長です。沖縄から大阪、更に当日の人混みをかいくぐってのグランフロントと、移動を経てきてかなりボロボロです・・・。&lt;/p&gt;
+
+&lt;p&gt;午前中は、チームビルドやアイデア出し、素材提供企業のプレゼンや質疑応答などなどに費やされ、お昼前から15時までがプレゼン作成の勝負です。&lt;/p&gt;
+
+&lt;h2 id=&#34;アイデア検討-プレゼン作成:ceb2116a6a68ff065a78911e0ae7489b&#34;&gt;アイデア検討＆プレゼン作成&lt;/h2&gt;
+
+&lt;p&gt;お弁当を食べながら、コーヒーを飲みながら、アイデアを膨らませつつブラッシュアップ、資料作成〜とプレゼン発表まではあっという間でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;西島は、IoT部での参加ではなく、個人参加した前日夜の&lt;a href=&#34;https://mashupawards.doorkeeper.jp/events/29392&#34;&gt;某アイデアソンの惜敗・惨敗&lt;/a&gt;を受けて、ざっくりしたアイデアと実現可能性を確認したあとは、ただひたすら寸劇の効果を最大化すべくアイデア出しと資料の作成をしておりました（前日夜は、ここは大阪ということをすっかり忘れておりました・・・）。&lt;/p&gt;
+
+&lt;p&gt;で、出来た資料はこちらです。厳格に3分で切られるということだったので、寸劇のリハーサルも含めてきっちり行いました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/tq5FRYYQa2MSCN&#34; width=&#34;510&#34; height=&#34;420&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/hack-for-money-201509-osaka&#34; title=&#34;Hack for Money 201509 osaka&#34; target=&#34;_blank&#34;&gt;Hack for Money 201509 osaka&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KoichiroNishijima&#34; target=&#34;_blank&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;どうですかこのすぐに役立つロボットと、タイム・トラベルのSF無限ループのミックス！（会場でプレゼン＋寸劇を見て、すぐ背景まで意図が分かった人は居たんでしょうか・・・）。&lt;/p&gt;
+
+&lt;h2 id=&#34;ドキドキのプレゼンテーション-結果発表:ceb2116a6a68ff065a78911e0ae7489b&#34;&gt;ドキドキのプレゼンテーション〜結果発表&lt;/h2&gt;
+
+&lt;p&gt;さて、プレゼン発表は、やはり半分以上のチームが寸劇を入れてくる、なかなか見応えのある内容でした。さすが大阪・・・。&lt;/p&gt;
+
+&lt;p&gt;（すみません、このあたりから大解像度の画像はありません）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/presentation.jpg&#34; alt=&#34;若干緊張気味の面々&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;で、結果は、無事予選突破の3チームの中に選ばれました！&lt;/p&gt;
+
+&lt;p&gt;いや〜、良かったよかった、という言葉しか出てきませんでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/result.jpg&#34; alt=&#34;予選突破！&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;分厚い賞品には、中身が何かかドキドキしましたが・・・&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize1.jpg&#34; alt=&#34;賞品1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;本戦の入場パスでした！&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本戦は 10月6日(火)～7日(水)に幕張メッセ　CEATEC JAPAN 2015会場内にて行われます。果たして部員一同ちゃんと仕事を整理して、会社の支援で幕張メッセに行けるのか！？乞うご期待！&lt;/p&gt;
+
+&lt;p&gt;（西島は特に沖縄からなので、とんでもなくお金と時間がかかります。前泊後泊必須だし・・・幕張不便です(;_;)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>リモートワークを理解するための社内制度のご紹介</title>

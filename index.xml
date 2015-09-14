@@ -5,8 +5,84 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 10 Sep 2015 12:06:37 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2015 19:23:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NRIハッカソン＠CEATEC JAPAN2015 大阪予選を突破しました！</title>
+      <link>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</link>
+      <pubDate>Mon, 14 Sep 2015 19:23:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</guid>
+      <description>
+
+&lt;p&gt;「大阪に出張で来るとき、いつも体調悪いね」って言われて凹んだ西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;さて、先日より&lt;a href=&#34;../hack-for-money/&#34;&gt;こちらの記事&lt;/a&gt;などでお知らせしていた &lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; 大阪予選ですが、見事弊社IoT部のアイデアが予選通過しました！ 今日はそのイベントの様子をご報告します。&lt;/p&gt;
+
+&lt;p&gt;イベントの様子は他の会社様のサイトでも報告されていますので、こちらも合わせてご覧ください（見つけ次第随時追加予定）。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.val.co.jp/2015/09/hackathon-qualifier-osaka.html&#34;&gt;駅すぱあとWebサービスをMoneyハッカソンに提供！大阪予選レポート&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;アイデアソンの会場は大阪グランフロントにある大阪イノベーションハブでした。土曜日の朝9時半開始というなかなかのスケジュールで、あんまり人が来ないかな〜と思いきや、皆さん気合入ってます、しっかり時間キッチリにほぼ満員で始まりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪予選はチーム参加＆個人参加の方々のチームビルディングの結果、16チームで争われることになりました。ちなみに我らのチーム名は「ナンデヤネンボット」でして、「ぽっと」ではありません。部長もお怒りです。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみにこの「なんでやねんボット」は、&lt;a href=&#34;../iot-circle-meetup/&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;で生まれた、IoT部のマスコット兼影の部長です。沖縄から大阪、更に当日の人混みをかいくぐってのグランフロントと、移動を経てきてかなりボロボロです・・・。&lt;/p&gt;
+
+&lt;p&gt;午前中は、チームビルドやアイデア出し、素材提供企業のプレゼンや質疑応答などなどに費やされ、お昼前から15時までがプレゼン作成の勝負です。&lt;/p&gt;
+
+&lt;h2 id=&#34;アイデア検討-プレゼン作成:ceb2116a6a68ff065a78911e0ae7489b&#34;&gt;アイデア検討＆プレゼン作成&lt;/h2&gt;
+
+&lt;p&gt;お弁当を食べながら、コーヒーを飲みながら、アイデアを膨らませつつブラッシュアップ、資料作成〜とプレゼン発表まではあっという間でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;西島は、IoT部での参加ではなく、個人参加した前日夜の&lt;a href=&#34;https://mashupawards.doorkeeper.jp/events/29392&#34;&gt;某アイデアソンの惜敗・惨敗&lt;/a&gt;を受けて、ざっくりしたアイデアと実現可能性を確認したあとは、ただひたすら寸劇の効果を最大化すべくアイデア出しと資料の作成をしておりました（前日夜は、ここは大阪ということをすっかり忘れておりました・・・）。&lt;/p&gt;
+
+&lt;p&gt;で、出来た資料はこちらです。厳格に3分で切られるということだったので、寸劇のリハーサルも含めてきっちり行いました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/tq5FRYYQa2MSCN&#34; width=&#34;510&#34; height=&#34;420&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/hack-for-money-201509-osaka&#34; title=&#34;Hack for Money 201509 osaka&#34; target=&#34;_blank&#34;&gt;Hack for Money 201509 osaka&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KoichiroNishijima&#34; target=&#34;_blank&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;どうですかこのすぐに役立つロボットと、タイム・トラベルのSF無限ループのミックス！（会場でプレゼン＋寸劇を見て、すぐ背景まで意図が分かった人は居たんでしょうか・・・）。&lt;/p&gt;
+
+&lt;h2 id=&#34;ドキドキのプレゼンテーション-結果発表:ceb2116a6a68ff065a78911e0ae7489b&#34;&gt;ドキドキのプレゼンテーション〜結果発表&lt;/h2&gt;
+
+&lt;p&gt;さて、プレゼン発表は、やはり半分以上のチームが寸劇を入れてくる、なかなか見応えのある内容でした。さすが大阪・・・。&lt;/p&gt;
+
+&lt;p&gt;（すみません、このあたりから大解像度の画像はありません）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/presentation.jpg&#34; alt=&#34;若干緊張気味の面々&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;で、結果は、無事予選突破の3チームの中に選ばれました！&lt;/p&gt;
+
+&lt;p&gt;いや〜、良かったよかった、という言葉しか出てきませんでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/result.jpg&#34; alt=&#34;予選突破！&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;分厚い賞品には、中身が何かかドキドキしましたが・・・&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize1.jpg&#34; alt=&#34;賞品1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;本戦の入場パスでした！&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本戦は 10月6日(火)～7日(水)に幕張メッセ　CEATEC JAPAN 2015会場内にて行われます。果たして部員一同ちゃんと仕事を整理して、会社の支援で幕張メッセに行けるのか！？乞うご期待！&lt;/p&gt;
+
+&lt;p&gt;（西島は特に沖縄からなので、とんでもなくお金と時間がかかります。前泊後泊必須だし・・・幕張不便です(;_;)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone による業務改善事例：多部門・外注業者・お客様との情報共有編</title>
@@ -721,6 +797,90 @@
     </item>
     
     <item>
+      <title>CoderDojo＋αのご紹介</title>
+      <link>https://www.r3it.com/blog/etc/20150908_coderdojo-nagaokakyo/</link>
+      <pubDate>Tue, 08 Sep 2015 14:12:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20150908_coderdojo-nagaokakyo/</guid>
+      <description>
+
+&lt;p&gt;メンターとしてお手伝いさせて頂いているCoderDojo+αについてのご紹介です。&lt;/p&gt;
+
+&lt;h2 id=&#34;そもそもcoderdojoって:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;そもそもCoderDojoって？&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;CoderDojo&lt;/b&gt;は&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#333399&#34;&gt;7～17歳の子どもを対象にしたプログラミング道場&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
+
+&lt;p&gt;2011年にアイルランドで始まり、世界では59カ国・750の道場、日本では全国に21の道場があります (2015年7月現在)。&lt;/p&gt;
+
+&lt;p&gt;子ども達にプログラミングを教える先生は&lt;b&gt;メンター&lt;/b&gt;と呼ばれています。&lt;/p&gt;
+
+&lt;p&gt;完全非営利で運営されていて、メンターは全員ボランティアです。&lt;/p&gt;
+
+&lt;p&gt;各地域の道場は独立しており、道場ごとにやり方が違います。&lt;/p&gt;
+
+&lt;p&gt;北は北海道から南は九州まで、ほんとに幅広く開催されていますので、興味がある方、またメンターとして是非お手伝いしたいという方がいらっしゃいましたら、是非最寄りのDojoまで足を運んでみて下さい！&lt;/p&gt;
+
+&lt;p&gt;熱意のある子どもたちが多い中、メンターの数はまだまだ足りない現状があります…(´-ω-`)&lt;/p&gt;
+
+&lt;p&gt;どんな風に教えているんだろう？と少しでも興味をお持ちの方は、まずは見学から入ってみてイメージを掴んでみて下さい！&lt;/p&gt;
+
+&lt;p&gt;詳細は&lt;a href=&#34;http://coderdojo.jp/&#34;&gt;CoderDojo Japan&lt;/a&gt;のページを御覧くださいね！&lt;/p&gt;
+
+&lt;h2 id=&#34;わたしがお手伝いしているcoderdojo長岡京の話:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;わたしがお手伝いしているCoderDojo長岡京の話&lt;/h2&gt;
+
+&lt;p&gt;その中で、わたしがメンターとして主にお手伝いさせて頂いているのは&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;長岡京は今年の4月以降、月1回のペースで開催しています。初めて見学に行ったのがちょうど4月。&lt;/p&gt;
+
+&lt;p&gt;そしてその時の感想も実は個人ブログでupしてたり|･`ω･)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dolly6ca.hatenablog.jp/entry/20150413/1428855637&#34;&gt;CoderDojo長岡京に見学に行ってきた٩(ˊᗜˋ*)و - 2.5次元を生きるCOS☆PLAYエンジニアの雑記&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;他のDojoだと、HTML/CSSやJavaScript、電子工作系など、幅広く教えられているDojoも多いのですが、長岡京は今のところScratchを教えています。&lt;/p&gt;
+
+&lt;h3 id=&#34;scratchって:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;Scratchって？&lt;/h3&gt;
+
+&lt;p&gt;Scratchとは、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3366CC&#34;&gt;MITメディアラボが開発したオブジェクト指向の子供向けビジュアルプログラミング言語&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
+
+&lt;p&gt;GUI上でアクションのブロックを、選択したスプライトやステージにD&amp;amp;Dすることで、インタラクティブなアニメーションやゲームなどを作ることができ、プログラミングのロジックを学習できます。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/scratch.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/scratch.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;また、作った作品はScratchのオンラインコミュニティ上で共有が出来ます。&lt;/p&gt;
+
+&lt;p&gt;共有されている他の作品で気に入ったものがあれば、ソースを自分の勉強用にDLしたり、別のプロジェクトで利用することも可能です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://scratch.mit.edu/&#34;&gt;https://scratch.mit.edu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;長岡京では、1回ごとにつどテーマを決めて進めます。&lt;/p&gt;
+
+&lt;p&gt;その回が終わると、メンターの振り返りの時間を設け、次に向けての課題点や良かったことを議論します。&lt;/p&gt;
+
+&lt;p&gt;他のDojoはどうかわからないのですが、わりと近辺にお住まいのメンターさんが多いので、終わってからもコミュニケーションのためにお茶したりもします。&lt;/p&gt;
+
+&lt;p&gt;メンターさんとして参加されている方の職業も年齢も様々で、みんなで話をしているだけでもいろいろ刺激になります(っ´ω`c)♡&lt;/p&gt;
+
+&lt;h3 id=&#34;長岡京にこんなコワーキングスペースが:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;長岡京にこんなコワーキングスペースが！&lt;/h3&gt;
+
+&lt;p&gt;そして先日、そんな長岡京に&lt;a href=&#34;http://coworking-nagaokakyo.jp/&#34;&gt;コワーキングスペース&lt;/a&gt;がオープンしたので見学に行ってきました！&lt;/p&gt;
+
+&lt;p&gt;次回以降のCoderDojo長岡京は、このコワーキングスペースをお借りして開催することになります٩(ˊᗜˋ*)و
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;技術書やムックもたくさん！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo5.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;木造でオシャレな内装！&lt;font size=&#34;3&#34;&gt;（個人的にノマドが捗りそう&lt;/font&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;コワーキングスペースとしての利用は平日で、土日はイベントや勉強会用にお借りすることも可能なようです。&lt;/p&gt;
+
+&lt;p&gt;弊社オフィスのある大阪からも電車で1時間かからない。そして京都からも…言わずもがな٩(●˙▿˙●)۶&lt;/p&gt;
+
+&lt;p&gt;以上、CoderDojo＋αのご紹介でした(⑅っˇωˇ )っ&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>東北IT物産展2015でkintoneのハンズオンを実施しました</title>
       <link>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</link>
       <pubDate>Wed, 02 Sep 2015 16:51:06 +0900</pubDate>
@@ -986,202 +1146,6 @@ LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.i
 &lt;p&gt;Talend Open Studio と kintone を利用したデータ連携システムの概要は、上記のとおりです。AWS上に構築した基幹システムと、サイボウズ側ネットワークにある kintone アプリ群を、 Talend でデータ連携するイメージです。&lt;/p&gt;
 
 &lt;p&gt;システム間のデータ連携にご興味があるお客様は、&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;是非お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JAWS-UG関西女子会第3回勉強会の開催レポート</title>
-      <link>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</link>
-      <pubDate>Wed, 05 Aug 2015 10:04:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</guid>
-      <description>
-
-&lt;p&gt;2015年8月1日土曜日、運営しているJAWS-UG関西女子会で第3回勉強会&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/26344&#34;&gt;事例から学ぶもくもく＆もぐもぐ会&lt;/a&gt;を開催しました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;もくもく-もぐもぐ会とは:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;もくもく＆もぐもぐ会とは？&lt;/h1&gt;
-
-&lt;p&gt;もくもく会は勉強会ではおなじみ(？)、参加者が自分達のペースで作業をすすめる勉強会の形式のことです。&lt;/p&gt;
-
-&lt;p&gt;今回の女子会では、ただのもくもく会では楽しくない！と、各参加者がひとつ食べ物を持ち寄ってもぐもぐしながらもくもく作業しよう！というコンセプトで行いました(๑・౩・๑）&lt;/p&gt;
-
-&lt;p&gt;みんなどんな食べ物を持ってくるんだろうとドキドキしながら待っていたんですが&amp;hellip;&lt;b&gt;いやー出るわ出るわ！&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;violet&#34;&gt;フルーツからデパ地下スイーツ、地域名産品の数々！&lt;/font&gt;&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets02.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets03.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ちなみにわたしはアップルパイを持参したので、ナイフを使って一生懸命わけわけしてました！&lt;/p&gt;
-
-&lt;p&gt;（でもうまく切れなかったので最終的に交代してもらったのは内緒ｗｗ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そしてヤムウンセンを作って来てくれたのは参加者の女子ではなく、なぜかサポメンｗｗｗｗ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-男性なのにこの女子力の高さ&amp;hellip;マジ尊敬しますლ(⁰⊖⁰ლ)&lt;/p&gt;
-
-&lt;p&gt;ちなみに運営なのを良いことに、事例紹介中ずっともぐもぐしていたわたしです（
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;勉強会の内容:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;勉強会の内容&lt;/h1&gt;
-
-&lt;p&gt;第3回勉強会の内容は以下の通りです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;事例紹介&lt;/li&gt;
-&lt;li&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/li&gt;
-&lt;li&gt;フリータイム（懇親や飛び込みLTなど）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;事例紹介:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介&lt;/h2&gt;
-
-&lt;p&gt;JAWS-UG初心者支部より山崎奈緒美さんを講師としてお招きし、会社でのAWSの活用事例をお話頂きました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_naotan.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_naotan.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;コーポレートサイトやシステムで、ほんとにたくさんのAWS製品を組み合わせて活用されていました。&lt;/p&gt;
-
-&lt;h2 id=&#34;事例紹介からいくつか構成をピックアップしてハンズオン:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/h2&gt;
-
-&lt;p&gt;活用事例の中から、いくつか構成をピックアップし、ハンズオン形式で実際に参加者の皆さんに構築してもらいました。&lt;/p&gt;
-
-&lt;p&gt;当日実際に使用したハンズオン資料は&lt;a href=&#34;http://bit.ly/1LUhmXi&#34;&gt;こちら。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;すべて講師の山崎さんにご用意頂きました！&lt;/p&gt;
-
-&lt;p&gt;お仕事や初心者支部の勉強会の準備等もある中で、これだけ関西女子会のためにいろいろご尽力頂いてほんとにほんとに感謝してもしきれないくらいです(つ﹏&amp;lt;)･ﾟ｡&lt;/p&gt;
-
-&lt;p&gt;かなり盛りだくさんなコンテンツだったので時間内に最後まで構築するのは難しかったものの、それでも皆さんかなり集中して取り組んでいた様子。&lt;/p&gt;
-
-&lt;p&gt;まずは好きな食べ物を取りに行って。。。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt; &lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;作業を始めてからの皆さんの集中力の凄さには脱帽です(｡ω｡；)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;個人的には、AWSマネジメントコンソール上の作業は比較的スムーズにできた（若干トラブルにも見まわれましたが&amp;hellip;）&lt;/p&gt;
-
-&lt;p&gt;んですが、EC2のインスタンスを起動してAmazon LinuxにSSHでログインして行う作業は、日頃CLIを利用しているかしていないかで差が出た部分だったんじゃないかなと思いました。&lt;/p&gt;
-
-&lt;p&gt;通常ハンズオンで使用するAMIは、環境がある程度整ったAMIを使用するケースが多いのですが、今回使用したAMIは実は事前に何も仕込んでいない生のAMI！&lt;/p&gt;
-
-&lt;p&gt;必要なパッケージはすべて手動でインストールして環境を整える必要がありました。&lt;/p&gt;
-
-&lt;p&gt;実は今回、&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;EC2＋RDS（postgreSQL）&lt;/font&gt;&lt;/b&gt;の環境を構築したのですが、動作確認のため、&lt;b&gt;EC-CUBE&lt;/b&gt;をインストールするという選択をしたのですｗ&lt;/p&gt;
-
-&lt;p&gt;マニアックでしょ？ &lt;del&gt;なんでWordPress入れないんだよクソがぁぁ！！！！&lt;/del&gt; って思うでしょ？ちゃんと理由あるのですよｗ&lt;/p&gt;
-
-&lt;p&gt;その&lt;a href=&#34;http://qiita.com/rocca0504/private/be654e50ab480d156207&#34;&gt;EC-CUBEのインストール手順&lt;/a&gt;部分は実はわたしが作ったりしてますｗ&lt;/p&gt;
-
-&lt;p&gt;そんなとこアピールするなって石投げられるかもしれませんがすみません(´A｀*)･ﾟ｡&lt;/p&gt;
-
-&lt;p&gt;突っ込みでもdisりでも指摘でも何でも受け付けますのでお許し下さい&amp;hellip;っ！！！！&lt;/p&gt;
-
-&lt;p&gt;ほぼほぼCLIです。しかもおそらくvi慣れしていない参加者が多いのではと（勝手に）思い、viを文章で表現するのは大変だと感じたので、viで編集しなくてもいいように&lt;b&gt;sed&lt;/b&gt;というおまじないコマンドを使ってますｗ&lt;/p&gt;
-
-&lt;p&gt;なんかほぼ自己満のマニュアルですね。いやほんとすみません。一応何かの参考にはなれば(๑´╹‸╹`๑)&lt;/p&gt;
-
-&lt;p&gt;コマンドたのしーなー（違&lt;/p&gt;
-
-&lt;h2 id=&#34;フリータイム-懇親や飛び込みltなど:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;フリータイム（懇親や飛び込みLTなど）&lt;/h2&gt;
-
-&lt;p&gt;頭を使ったあとはアルコール飲みながらもぐもぐしつつ飛び込みLTを聞きながらまったり楽しく過ごす時間です。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;こんな感じでLTも盛り上がってましたよ٩(●˙▿˙●)۶
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;山崎さんからは&lt;a href=&#34;http://jaws-ug.jp/ec/aws-hub/&#34;&gt;AWS-HUBのご紹介&lt;/a&gt;もありました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そんなこんなで今回も大盛況だった&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;lightpink&#34;&gt;JAWS-UG関西女子会&lt;/font&gt;&lt;/b&gt;です(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;こんなにたくさんの女子達が参加してくれて、いつもほんと運営冥利に尽きますね！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_all.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_all.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;次回の勉強会の告知:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;次回の勉強会の告知&lt;/h1&gt;
-
-&lt;p&gt;次回は &lt;b&gt;&lt;font size=&#34;5&#34;&gt;1ヶ月後！&lt;/font&gt;&lt;/b&gt; &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;JAWS re:Mote&lt;/a&gt;です！&lt;/p&gt;
-
-&lt;p&gt;全国の支部同士をオンラインで繋いた勉強会になります。&lt;/p&gt;
-
-&lt;p&gt;最寄りの会場で普段なかなかお目にかかれない他の支部のスピーカーさんのセッションを聞ける大チャンス(๑˃́ꇴ˂̀๑)&lt;/p&gt;
-
-&lt;p&gt;関西女子会は女子会用の会場を用意しますが、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;JAWS-UG大阪会場&lt;/a&gt;もありますよ！&lt;/p&gt;
-
-&lt;p&gt;何人の人が参加してくれるのか、今からすごく楽しみです+。:.ﾟ(๑＞◡╹๑)(๑╹◡＜๑):.｡+ﾟ&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintoneをより便利にするgusukuのご紹介</title>
-      <link>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</link>
-      <pubDate>Tue, 04 Aug 2015 14:41:07 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</guid>
-      <description>
-
-&lt;h2 id=&#34;kintoneをより便利にするために:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;kintoneをより便利にするために&lt;/h2&gt;
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;弊社ではサイボウズ社のkintoneを利用したシステム開発サービスとして「&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;ハイスピードSI&lt;/a&gt;」をご提供しております。
-&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;ハイスピードSI&lt;/a&gt;では、対面開発によりアプリケーションをどんどん変更していきます。&lt;/p&gt;
-
-&lt;h3 id=&#34;ステージングの重要性:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;ステージングの重要性&lt;/h3&gt;
-
-&lt;p&gt;本番運用がスタートした後にも、システムは変化し続ける必要があります。
-アプリケーションをする場合、いきなり本番環境を修正するわけにはいかず、通常は開発環境を用意してそこでまず修正を行います。&lt;/p&gt;
-
-&lt;p&gt;その後、本番環境に近いデータが入っているテスト環境にアプリケーションを入れ、最終的な動作確認を行い、ようやく本番環境にアプリケーションを入れることができます。&lt;/p&gt;
-
-&lt;p&gt;従来、kintoneではこのような段階を経て本番環境にアプリケーションを入れていく（ステージングと呼ばれます）ことはできませんした。&lt;/p&gt;
-
-&lt;p&gt;このような作業をするには以下のような手順が必要でした。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;開発用アプリで修正をする&lt;/li&gt;
-&lt;li&gt;修正結果を確認する&lt;/li&gt;
-&lt;li&gt;テスト用アプリに1で実施した修正を同じ修正を行う&lt;/li&gt;
-&lt;li&gt;テスト環境で動作確認する（ここで問題があれば1に戻る）&lt;/li&gt;
-&lt;li&gt;本番環境に1と同じ修正を行う&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;この手順は同じ作業を繰り返す必要があるため、手間がかかる上にミスする可能性も極めて大きいものでした。&lt;/p&gt;
-
-&lt;h3 id=&#34;gusukuサービスをスタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;gusukuサービスをスタートします&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusukuロゴ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2015年7月のkintoneの機能アップにより、このステージングをAPIを使ってできるようになりました。
-弊社では、この新APIを活用し、kintoneにステージング環境を提供するサービス（gusuku）を開発しています。&lt;/p&gt;
-
-&lt;p&gt;gusukuは、以下のような機能の提供を予定しておりkintoneをより便利に使えるようにしていきます&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定できます）&lt;/li&gt;
-&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
-&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
-&lt;li&gt;ある環境から別の環境への設計情報の配布（これにより開発環境での修正をテスト環境に反映というのが簡単にできます）&lt;/li&gt;
-&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;ところでgusukuって何:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;ところでgusukuって何？&lt;/h3&gt;
-
-&lt;p&gt;「gusuku」ひらがなだと「ぐすく」は、沖縄の言葉で「城」です。首里城もぐすくの一種で有名ですね。&lt;/p&gt;
-
-&lt;p&gt;こんな感じです。（これは城跡ですが）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku01.jpg&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kintoneで開発するアプリを守る城になりたいとの想いから、本サービスをgusukuと命名しました。&lt;/p&gt;
-
-&lt;h2 id=&#34;近日中にβサービススタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;近日中にβサービススタートします&lt;/h2&gt;
-
-&lt;p&gt;gusukuは鋭意開発中です。近日中にβサービスを開始しますのでご期待ください。&lt;/p&gt;
 </description>
     </item>
     
