@@ -5,8 +5,78 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Sep 2015 16:51:06 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2015 13:14:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 大阪 Vol.4が開催されました！</title>
+      <link>https://www.r3it.com/blog/kintone/20150918_kintonecafe-osaka4/</link>
+      <pubDate>Fri, 25 Sep 2015 13:14:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20150918_kintonecafe-osaka4/</guid>
+      <description>
+
+&lt;p&gt;2ヶ月に1回のペースで開催されているkintone Café 大阪4回目の勉強会の様子をお伝えします！&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-café-大阪-vol-4-が開催されました:6ed5655ec190c34dbad5a060c0f80370&#34;&gt;kintone Café 大阪 Vol.4 が開催されました&lt;/h2&gt;
+
+&lt;p&gt;kintone Café 大阪もついに4回目の開催！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-2.jpg&#34; data-lightbox=&#34;kintonecafe4&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF6633&#34;&gt;2ヶ月に1回&lt;/font&gt;&lt;/b&gt;というペースが崩れていないことが凄いですね⊂(　っ☉ω☉;)っ&lt;/p&gt;
+
+&lt;p&gt;登壇者の面々も固定ではなくいろんな立場の方々が登壇されるので、毎回参加させて頂く度に新しい発見があります٩(*˘ ³˘)۶&lt;/p&gt;
+
+&lt;p&gt;今回のkintone Caféは&lt;b&gt;『初心忘れるべからず！』&lt;/b&gt;ということで初心者向けの内容でした。&lt;/p&gt;
+
+&lt;p&gt;お申し込み頂いた方々の参加率も非常に高かったです！&lt;/p&gt;
+
+&lt;p&gt;皆さん集中してセッションに聞き入っていた様子。&lt;/p&gt;
+
+&lt;p&gt;今回はサイボウズで広報をされている方からの実際の事例もあり、より敷居も低く感じられたのではないでしょうか？
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-6.jpg&#34; data-lightbox=&#34;kintonecafe4&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-6.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone標準の機能だけでも、アプリとして十分使える機能を実装することが可能です！&lt;/p&gt;
+
+&lt;p&gt;JavaScriptを絶対に使わないといけないのかというと、必ずしもそうとは限りません。&lt;/p&gt;
+
+&lt;p&gt;保守性の観点から考えても、非エンジニアの方にとっては、出来るだけ使わずにすむのであればそのほうが嬉しいですよね٩(●˙▿˙●)۶&lt;/p&gt;
+
+&lt;p&gt;私達エンジニアの観点では、なんでもかんでもJavaScriptって考えになりがちですが（わたしだけ？&lt;/p&gt;
+
+&lt;p&gt;弊社金春も今回登壇させて頂き、社内でのいろんなカスタマイズ事例をご紹介させて頂きました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-5.jpg&#34; data-lightbox=&#34;kintonecafe4&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-5.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;2&#34; color=&#34;#FF0000&#34;&gt;※ ここだけの話、かなりぶっちゃけた内容になってます！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/n7BNDDDzV0IJ2l&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150918-kintonecafe-osakavol4&#34; title=&#34;20150918 kintonecafe osaka_vol4&#34; target=&#34;_blank&#34;&gt;kintone Café 大阪 Vol.4 kintoneこういう使い方もあるよ！&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社サイトの&lt;a href=&#34;https://www.r3it.com/info/2015/gusuku-privatebeta-release/&#34;&gt;お知らせ&lt;/a&gt;でもお伝えしている&lt;b&gt;&lt;font size =&#34;6&#34; color=&#34;#008000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;についてもしっかりPR( ∩ˇωˇ∩)
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-4.jpg&#34; data-lightbox=&#34;kintonecafe4&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-4.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;あ、みなさん是非gusukuお試しででも利用してみて下さいね！(&lt;em&gt;´˘`&lt;/em&gt;)♡&lt;/p&gt;
+
+&lt;h3 id=&#34;勉強会の後は:6ed5655ec190c34dbad5a060c0f80370&#34;&gt;勉強会の後は…&lt;/h3&gt;
+
+&lt;p&gt;懇親会で親睦を深めました！（写真はなし&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;今回がkintone Café初参加の方もけっこういらっしゃったようで、運営側の人間としても嬉しい限りです٩(๑&amp;gt;∀&amp;lt;๑)۶&lt;/p&gt;
+
+&lt;p&gt;今後もこういった勉強会をきっかけにkintoneに興味を持って頂く方が増えてくれたらなーと思います！&lt;/p&gt;
+
+&lt;h2 id=&#34;最後にちょっとだけお知らせ:6ed5655ec190c34dbad5a060c0f80370&#34;&gt;最後にちょっとだけお知らせ&lt;/h2&gt;
+
+&lt;p&gt;弊社サイボウズさんと一緒に今後もいろいろ行わせて頂く予定がありますので、この場をお借りして少しだけ告知させて頂きますね！&lt;/p&gt;
+
+&lt;p&gt;残席もあと少しとなっておりますが、kintoneについてまず知りたいということならこちらがオススメです✩˚₊‧(&lt;em&gt;ˊᗜ​ˋ&lt;/em&gt;)‧₊˚☆&lt;/p&gt;
+
+&lt;p&gt;個別相談会の時間も設けておりますので、社内でのお困りごとや疑問点、不安に思っていること等、お気軽に質問して頂くことも可能ですよー！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/546&#34;&gt;kintone 全国セミナー in大阪&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;以上、簡単ですがkintone Café 大阪 Vol.4の開催報告でした！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>東北IT物産展2015でkintoneのハンズオンを実施しました</title>
@@ -763,28 +833,6 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
 &lt;p&gt;そんな中、弊社の強みである &amp;ldquo;ハイスピードSI&amp;rdquo; について熱弁してきました。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/kintone-cafe-nagoya-0617.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/kintone-cafe-nagoya-0617.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Days 名古屋 2015 に出展&amp;弊社金春が登壇いたします</title>
-      <link>https://www.r3it.com/info/2015/clouddays-nagoya/</link>
-      <pubDate>Tue, 16 Jun 2015 17:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/clouddays-nagoya/</guid>
-      <description>&lt;p&gt;Cloud Days 名古屋 2015 は明日6月17日から2日間にわたって、名古屋市のウインクあいちにて開催されます。&lt;/p&gt;
-
-&lt;p&gt;是非弊社のハイスピードSIブースへお立ち寄りください。&lt;/p&gt;
-
-&lt;p&gt;kintoneを利用して、3分で業務アプリを作るデモなどで、皆様をお迎えいたします。&lt;/p&gt;
-
-&lt;p&gt;また、17日の13時からは、【クラウド時代に選ぶべきSIerとは －kintoneがSIのあり方を変える－】と題しまして、サイボウズ kintone プロダクトマネージャー 伊佐様、ソニックガーデン 代表取締役社長CEO 倉貫様とともに、弊社の金春（こんぱる）が登壇いたしますので、是非こちらのセミナーにもご参加ください。&lt;/p&gt;
-
-&lt;p&gt;お申し込みはこちらから。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://event.nikkeibp.co.jp/reg/contents/cd_n_2015/index.html#C-13B&#34;&gt;https://event.nikkeibp.co.jp/reg/contents/cd_n_2015/index.html#C-13B&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;皆様のお越しを心よりお待ちしております。&lt;/p&gt;
 </description>
     </item>
     
