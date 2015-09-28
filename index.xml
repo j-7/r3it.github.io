@@ -5,8 +5,76 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Sep 2015 13:37:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2015 14:04:37 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>gusuku（グスク） はkintoneアプリ開発を支援します</title>
+      <link>https://www.r3it.com/solutions/kintone/gusuku/</link>
+      <pubDate>Mon, 28 Sep 2015 14:04:37 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/solutions/kintone/gusuku/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）は kintoneアプリケーションの開発を強力にサポートするプラットフォームサービスです。
+ハイスピードSIを提唱するアールスリーインスティテュートが提供します。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusukuが提供する機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;gusukuが提供する機能&lt;/h1&gt;
+
+&lt;p&gt;kintoneアプリケーション開発時に必要な、バージョン管理や実行環境の管理などを一貫して提供するサービスです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定できます）&lt;/li&gt;
+&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
+&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
+&lt;li&gt;ある環境から別の環境への設計情報の配布&lt;/li&gt;
+&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;これらの開発支援機能の他に、kintoneを更に便利に活用できる機能を随時追加していく予定です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;近日公開予定の機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;近日公開予定の機能&lt;/h2&gt;
+
+&lt;h3 id=&#34;大容量-大量の添付ファイル保存機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;大容量・大量の添付ファイル保存機能&lt;/h3&gt;
+
+&lt;p&gt;kintoneのレコードに画像などのファイルを添付する機能がありますが、これには100MBまでという容量制限があります。これを gusuku kintoneプラグインを利用することで、1ファイル辺り最大5テラバイト、保存容量無限のストレージとして活用することが可能です。&lt;/p&gt;
+
+&lt;p&gt;（※ストレージ利用料が別途必要となります）&lt;/p&gt;
+
+&lt;h3 id=&#34;レコードデータのバックアップ:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;レコードデータのバックアップ&lt;/h3&gt;
+
+&lt;p&gt;kintoneに保存されているデータを、添付ファイルも含めた全てのデータを外部にバックアップします。これにより、人的ミスにより削除されてしまったデータを復活させたり、意図せぬアプリケーションの削除からデータを保護することが可能となります。&lt;/p&gt;
+
+&lt;p&gt;（※ストレージ利用料が別途必要となります）&lt;/p&gt;
+
+&lt;h1 id=&#34;導入が有効なケース:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;導入が有効なケース&lt;/h1&gt;
+
+&lt;p&gt;以下に該当する企業様・部門様は、是非導入をご検討ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自社で幾つかのkintoneアプリケーションを開発・運用している。&lt;/li&gt;
+&lt;li&gt;外部ベンダーに作成してもらったkintoneアプリケーションを、自分たちで改良しつつ、利用している。&lt;/li&gt;
+&lt;li&gt;kintoneアプリの添付ファイルを活用してファイル共有を行っている。もしくは行っていきたいと考えている。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-usecase.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;お問い合わせ:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;お問い合わせ&lt;/h1&gt;
+
+&lt;p&gt;gusuku にご興味いただいた皆様は、是非お問い合わせいただけますと幸いです。
+現在、プライベートベータサービスを実施しております。 &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt; より利用規約をご確認の上、ご登録ください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>会社概要</title>
@@ -544,7 +612,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;アプリケーション（GUI）部分には kintone&lt;/li&gt;
-&lt;li&gt;kintone アプリケーション開発支援・デプロイ管理には gusuku.io（自社サービス）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../gusuku/&#34;&gt;kintone アプリケーション開発支援・デプロイ管理には gusuku.io（自社サービス）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;インフラストラクチャ部分には Amazon Web Services (AWS)&lt;/li&gt;
 &lt;li&gt;オンプレミス・kintone とのデータ連携には Talend&lt;/li&gt;
 &lt;/ul&gt;
@@ -879,6 +947,7 @@
 &lt;li&gt;打合せ4回でシステムを構築する【ワンタイムサービス】&lt;/li&gt;
 &lt;li&gt;契約期間中は継続的に開発を行う【継続サービス】&lt;/li&gt;
 &lt;li&gt;お客様自身の開発を支援する【サポートサービス】&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;gusuku/&#34;&gt;アプリ開発を強力に支援するgusuku（グスク）&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;kintoneセミナー-kintone-café開催中です:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneセミナー/kintone Café開催中です&lt;/h2&gt;
@@ -1142,73 +1211,6 @@ LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.i
 &lt;h2 id=&#34;サービス画像:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;サービス画像&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34; data-lightbox=&#34;pics&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NRIハッカソン＠CEATEC JAPAN 2015 大阪予選に当選しました</title>
-      <link>https://www.r3it.com/blog/etc/hack-for-money/</link>
-      <pubDate>Fri, 21 Aug 2015 12:14:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/hack-for-money/</guid>
-      <description>
-
-&lt;h1 id=&#34;nriハッカソン-ceatec-japan-2015-のアイデアソン当選のご報告:a79fd55691459dab283dc2c8fb326954&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015 のアイデアソン当選のご報告&lt;/h1&gt;
-
-&lt;p&gt;先日ブログ記事&lt;a href=&#34;https://www.r3it.com/blog/etc/iot-circle-meetup/&#34;&gt;社内活動：IoT部のご紹介&lt;/a&gt;でも少しご報告させて頂いていたのですが、厳選なる抽選をくぐり抜けまして、無事NRIハッカソン＠CEATEC JAPAN 2015 の大阪予選参加が確定致しました(っ´ω`c)♡&lt;/p&gt;
-
-&lt;p&gt;今回のハッカソンのコンセプトは&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;gold&#34;&gt; “Money（お金）”&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;みんなでアイデアを出しあって、IoTを活用してカタチにしていきます。&lt;/p&gt;
-
-&lt;p&gt;どんなアイデアが出るのか今から楽しみです！&lt;/p&gt;
-
-&lt;p&gt;大阪予選は8月30日まで募集しているみたいですよ！個人でもチームでもエントリーが可能となっておりますので、皆さんもお申込みされてみては如何でしょうか？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;Hack for Money IoT  - NRIハッカソン＠CEATEC JAPAN 2015 -&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;tシャツ作ってkiaiも十分:a79fd55691459dab283dc2c8fb326954&#34;&gt;Tシャツ作ってKIAIも十分！&lt;/h1&gt;
-
-&lt;p&gt;ということで、めでたく参加も確定したので&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;SlateBlue&#34;&gt;IoT部の公式Tシャツ&lt;/font&gt;&lt;/b&gt;を作ることになりました！&lt;/p&gt;
-
-&lt;p&gt;試作段階のものですが、デザインはこんな感じになるみたいですね|･`ω･)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;女子用は色もロボットのデザインも&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;HotPink&#34;&gt;女子仕様&lt;/font&gt;&lt;/b&gt;です٩(๑&amp;gt;∀&amp;lt;๑)۶&lt;/p&gt;
-
-&lt;p&gt;リボンはうちのIoT部の偉大なるぶちょーがかわいくデザインしてくれました！&lt;/p&gt;
-
-&lt;p&gt;いやー絵心ある御方まじ尊敬します。ﾟ+.ﾟヽ(●´ω｀●)ﾉ。ﾟ+.ﾟ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design2.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;その他の勉強会の告知など:a79fd55691459dab283dc2c8fb326954&#34;&gt;その他の勉強会の告知など&lt;/h1&gt;
-
-&lt;p&gt;NRIハッカソン＠CEATEC JAPAN 2015 までにも、実は弊社社員が関わる勉強会が開催されます！&lt;/p&gt;
-
-&lt;p&gt;以下はほんの一部です。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;8月29日（土）&lt;/b&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北 IT物産展 2015青森&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;東北で行われるITの祭典で、弊社金春がkintoneハンズオンを行います！他にもラズパイハンズオンや多彩なセッション、パネルディスカッション等コンテンツも目白押し！&lt;/p&gt;
-
-&lt;p&gt;東北界隈の皆さん是非足を運んでみてください╭( ･ㅂ･)و ̑̑ ｸﾞｯ !&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;9月5日（土）&lt;/b&gt;&lt;a href=&#34;http://jaws-ug.jp/es/jaws-remote-2015/&#34;&gt;JAWS re:Mote 2015&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;全国の支部をネット会議システムで相互接続し勉強会を実施します！&lt;/p&gt;
-
-&lt;p&gt;最寄りの会場に参加しながら、普段なかなかお目にかかれない各地のスピーカーのセッションが聞けるお得なイベントとなっております！&lt;/p&gt;
-
-&lt;p&gt;会場は全国十数箇所あるので、最寄りの会場にお申込み頂けますよ٩(*˘ ³˘)۶&lt;/p&gt;
-
-&lt;p&gt;弊社社員は、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;大阪会場&lt;/a&gt;、&lt;a href=&#34;https://jaws-ug-okinawa.doorkeeper.jp/events/29148&#34;&gt;沖縄会場&lt;/a&gt;、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;関西女子会会場&lt;/a&gt;から参加します！&lt;/p&gt;
-
-&lt;h1 id=&#34;gusukuのステッカーも完成:a79fd55691459dab283dc2c8fb326954&#34;&gt;gusukuのステッカーも完成！&lt;/h1&gt;
-
-&lt;p&gt;最後になってしまいましたが、先日&lt;a href=&#34;https://www.r3it.com/blog/kintone/introduction_to_gusuku/&#34;&gt;kintoneをより便利にするgusukuのご紹介&lt;/a&gt;と題してご紹介したkintoneにステージング環境を提供するサービス&lt;b&gt;gusuku&lt;/b&gt;のステッカーも完成しました！&lt;/p&gt;
-
-&lt;p&gt;イベントや勉強会に参加する際には持参しますので、ほしいよ！って方はお気軽にお声掛け下さいね！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/gusuku20150821.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/gusuku20150821.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     

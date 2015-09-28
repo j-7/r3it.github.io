@@ -5,8 +5,76 @@
     <link>https://www.r3it.com/solutions/</link>
     <description>Recent content in Solutions on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 10 Sep 2015 12:06:37 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2015 14:04:37 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/solutions/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>gusuku（グスク） はkintoneアプリ開発を支援します</title>
+      <link>https://www.r3it.com/solutions/kintone/gusuku/</link>
+      <pubDate>Mon, 28 Sep 2015 14:04:37 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/solutions/kintone/gusuku/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）は kintoneアプリケーションの開発を強力にサポートするプラットフォームサービスです。
+ハイスピードSIを提唱するアールスリーインスティテュートが提供します。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusukuが提供する機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;gusukuが提供する機能&lt;/h1&gt;
+
+&lt;p&gt;kintoneアプリケーション開発時に必要な、バージョン管理や実行環境の管理などを一貫して提供するサービスです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定できます）&lt;/li&gt;
+&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
+&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
+&lt;li&gt;ある環境から別の環境への設計情報の配布&lt;/li&gt;
+&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;これらの開発支援機能の他に、kintoneを更に便利に活用できる機能を随時追加していく予定です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;近日公開予定の機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;近日公開予定の機能&lt;/h2&gt;
+
+&lt;h3 id=&#34;大容量-大量の添付ファイル保存機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;大容量・大量の添付ファイル保存機能&lt;/h3&gt;
+
+&lt;p&gt;kintoneのレコードに画像などのファイルを添付する機能がありますが、これには100MBまでという容量制限があります。これを gusuku kintoneプラグインを利用することで、1ファイル辺り最大5テラバイト、保存容量無限のストレージとして活用することが可能です。&lt;/p&gt;
+
+&lt;p&gt;（※ストレージ利用料が別途必要となります）&lt;/p&gt;
+
+&lt;h3 id=&#34;レコードデータのバックアップ:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;レコードデータのバックアップ&lt;/h3&gt;
+
+&lt;p&gt;kintoneに保存されているデータを、添付ファイルも含めた全てのデータを外部にバックアップします。これにより、人的ミスにより削除されてしまったデータを復活させたり、意図せぬアプリケーションの削除からデータを保護することが可能となります。&lt;/p&gt;
+
+&lt;p&gt;（※ストレージ利用料が別途必要となります）&lt;/p&gt;
+
+&lt;h1 id=&#34;導入が有効なケース:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;導入が有効なケース&lt;/h1&gt;
+
+&lt;p&gt;以下に該当する企業様・部門様は、是非導入をご検討ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自社で幾つかのkintoneアプリケーションを開発・運用している。&lt;/li&gt;
+&lt;li&gt;外部ベンダーに作成してもらったkintoneアプリケーションを、自分たちで改良しつつ、利用している。&lt;/li&gt;
+&lt;li&gt;kintoneアプリの添付ファイルを活用してファイル共有を行っている。もしくは行っていきたいと考えている。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-usecase.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;お問い合わせ:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;お問い合わせ&lt;/h1&gt;
+
+&lt;p&gt;gusuku にご興味いただいた皆様は、是非お問い合わせいただけますと幸いです。
+現在、プライベートベータサービスを実施しております。 &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt; より利用規約をご確認の上、ご登録ください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone による業務改善事例：多部門・外注業者・お客様との情報共有編</title>
@@ -423,7 +491,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;アプリケーション（GUI）部分には kintone&lt;/li&gt;
-&lt;li&gt;kintone アプリケーション開発支援・デプロイ管理には gusuku.io（自社サービス）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../gusuku/&#34;&gt;kintone アプリケーション開発支援・デプロイ管理には gusuku.io（自社サービス）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;インフラストラクチャ部分には Amazon Web Services (AWS)&lt;/li&gt;
 &lt;li&gt;オンプレミス・kintone とのデータ連携には Talend&lt;/li&gt;
 &lt;/ul&gt;
@@ -664,6 +732,7 @@
 &lt;li&gt;打合せ4回でシステムを構築する【ワンタイムサービス】&lt;/li&gt;
 &lt;li&gt;契約期間中は継続的に開発を行う【継続サービス】&lt;/li&gt;
 &lt;li&gt;お客様自身の開発を支援する【サポートサービス】&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;gusuku/&#34;&gt;アプリ開発を強力に支援するgusuku（グスク）&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;kintoneセミナー-kintone-café開催中です:b3f994572158129e07597d19060e2d9b&#34;&gt;kintoneセミナー/kintone Café開催中です&lt;/h2&gt;
