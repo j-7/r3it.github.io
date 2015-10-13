@@ -515,23 +515,13 @@
 
 &lt;table class=&#34;table table-bordered table-hover&#34;&gt;
 &lt;thead&gt;&lt;tr&gt;
-&lt;th class=&#34;text-center&#34;&gt;サービス&lt;/th&gt;
 &lt;th class=&#34;text-center&#34;&gt;ワンタイムプラン&lt;/td&gt;
 &lt;th class=&#34;text-center&#34;&gt;継続プラン&lt;/th&gt;
 &lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;初回（２時間）&lt;/td&gt;&lt;td&gt;10万円*1&lt;/td&gt;&lt;td&gt;無料&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;2回目以降（1回2時間）&lt;/td&gt;&lt;td&gt;10万円/回&lt;/td&gt;&lt;td&gt;50万円/月&lt;br&gt;（月2回の打合せ*3）&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;追加開発（1回2時間）*2&lt;/td&gt;&lt;td&gt;10万円/回&lt;/td&gt;&lt;td&gt;月額料金に含む*4&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10万円/回&lt;/td&gt;&lt;td&gt;50万円/月（月2回の打合せ）&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;ul&gt;
-&lt;li&gt;*1: お試し期間（30日）で終了する場合は料金はかかりません&lt;/li&gt;
-&lt;li&gt;*2: 4回の打合せ後、アプリの利用を開始した後に追加開発を行う場合にかかります&lt;/li&gt;
-&lt;li&gt;*3: 月2回以上の打合せを希望される場合は「追加開発」料金をいただきます&lt;/li&gt;
-&lt;li&gt;*4: 継続プランを続けて頂いている間は、開発済アプリに対する改修も月額料金の中で実施します&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h2 id=&#34;オプションサービス:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;オプションサービス&lt;/h2&gt;
 
@@ -539,44 +529,17 @@
 &lt;thead&gt;&lt;tr&gt;
 &lt;th class=&#34;text-center&#34;&gt;サービス&lt;/th&gt;
 &lt;th class=&#34;text-center&#34;&gt;ワンタイムプラン&lt;/td&gt;
-&lt;th class=&#34;text-center&#34;&gt;継続プラン&lt;/th&gt;
 &lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;JavaScriptアドオン*1&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;JavaScriptアドオン&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;li&gt;画面装飾：　5万円/画面
 &lt;li&gt;ロジック追加（データ更新のない入力補助など）：　8万円/イベント
-&lt;li&gt;ロジック追加（単一アプリのデータ更新）：　10万円/イベント
-&lt;li&gt;ロジック追加（複数アプリのデータ更新）：　20万円～/イベント
-&lt;/ul&gt;
-&lt;/td&gt;&lt;td&gt;月額料金に含む&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;CSS変更&lt;/td&gt;&lt;td&gt;5万円/画面&lt;/td&gt;&lt;td&gt;月額料金に含む&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;帳票作成&lt;/td&gt;
-&lt;td&gt;PDF版：　初期7万円～/個&lt;br&gt;
-Excel版：　初期10万円～/個
-&lt;/td&gt;&lt;td&gt;月額料金に含む&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;帳票出力用エンジン&lt;/td&gt;&lt;td colspan=&#34;2&#34;&gt;月額6,000円～　（月額は出力ボリュームによります）&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;S3バックアップ&lt;/td&gt;&lt;td colspan=&#34;2&#34;&gt;5,000円/GB・月*2&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;既存システム連携*3&lt;br&gt;（基盤構築）&lt;/td&gt;&lt;td colspan=&#34;2&#34;&gt;20万円&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;既存システムデータ連携&lt;br&gt;（連携プログラム開発）&lt;/td&gt;
-&lt;td colspan=&#34;2&#34;&gt;10万円～/テーブル&lt;br&gt;
-（複雑な組み合わせ/データフローがある場合、別途費用）&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;カスタム画面開発*4&lt;/td&gt;&lt;td colspan=&#34;2&#34;&gt;20万円～/画面&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;訪問打合せ*5&lt;/td&gt;&lt;td colspan=&#34;2&#34;&gt;大阪近郊 2万円/1名1回&lt;br&gt;それ以外 5万円/1名1回&lt;br&gt;（通常2名体制）&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;SSO環境構築*6&lt;/td&gt;&lt;td colspan=&#34;2&#34;&gt;20万円&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;仕様書作成&lt;/td&gt;&lt;td colspan=&#34;2&#34;&gt;10万円/kintoneアプリ&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;プロジェクト推進費*7&lt;/td&gt;&lt;td colspan=&#34;2&#34;&gt;合計金額（訪問打合せ除く）が51万円以上でその3割&lt;/td&gt;&lt;/tr&gt;
+&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;帳票作成&lt;/td&gt;&lt;td&gt;初期7万円～/個&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;既存システムデータ連携&lt;br&gt;（連携プログラム開発）&lt;/td&gt;&lt;td&gt;10万円～/テーブル&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;SSO環境構築&lt;/td&gt;&lt;td&gt;20万円&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;ul&gt;
-&lt;li&gt;*1：「ボタンの追加」、「登録時の追加処理等」1つのユーザ操作によって起きる処理を「1イベント」とカウントします。kintoneの特性上、1イベント内でたくさんの処理をすることはお勧めしません&lt;/li&gt;
-&lt;li&gt;*2：1GBに満たない場合は、1GBとして計算します&lt;/li&gt;
-&lt;li&gt;*3：既存システム連携を行う場合は必須のオプションとなります。連携プログラムを稼働させるために、別途AWS EC2利用料、VPN利用料が必要となります（料金は連携プログラムの数・規模により変わります）&lt;/li&gt;
-&lt;li&gt;*4：kintoneをバックエンドとするものに限ります。RDBMS等をバックエンドする場合は別途お見積いたします。また開発の前に仕様作成をさせて頂く場合もあります（別途費用）&lt;/li&gt;
-&lt;li&gt;*5：大阪近郊以外の場合は必要に応じて別途交通費、宿泊費をご請求させていただきます&lt;/li&gt;
-&lt;li&gt;*6：SSO環境はOpenAMを利用して構築します。既存ActiveDirectoryがある場合はそれを利用します。ActiveDirectoryがない場合は、AWSのDirectory Serviceを利用しActiveDirectory環境を構築します。OpenAMの稼働のためのAWS EC2利用料、Directory Service利用料、VPN利用料が別途かかります&lt;/li&gt;
-&lt;li&gt;*7：プロジェクトを円滑に進めるための、事前準備、持ち帰り作業、ミーティング用資料の作成、基本サービス以外のミーティング実施、社内マネジメントなどが必要な場合の費用です&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;p&gt;&lt;a name=&#34;support&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -596,28 +559,6 @@ Excel版：　初期10万円～/個
 &lt;tr&gt;&lt;td&gt;アンリミテッドサポート&lt;br&gt;（回数無制限）&lt;/td&gt;&lt;td&gt;10万円/月&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;h2 id=&#34;保守サービス-オプション:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;保守サービス（オプション）&lt;/h2&gt;
-
-&lt;p&gt;アドオン開発やシステム連携、カスタム開発が一定以上発生する場合には、導入後のトラブル対応、kintone自体のバージョンアップ時のアプリ影響調査、別サーバ利用する際の運用監視などの保守をリモートにて対応させていただきます。&lt;/p&gt;
-
-&lt;table class=&#34;table table-bordered table-hover&#34;&gt;
-&lt;thead&gt;&lt;tr&gt;
-&lt;th class=&#34;text-center&#34;&gt;サービス&lt;/th&gt;
-&lt;th class=&#34;text-center&#34;&gt;ワンタイムプラン&lt;/td&gt;
-&lt;th class=&#34;text-center&#34;&gt;継続プラン&lt;/th&gt;
-&lt;/tr&gt;&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;保守サービス&lt;/td&gt;&lt;td&gt;5万円～/月&lt;/td&gt;&lt;td&gt;別途ご相談&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-&lt;li&gt;保守サービスの最低契約期間は半年です&lt;/li&gt;
-&lt;li&gt;保守の対応時間は翌営業日までに着手とします&lt;/li&gt;
-&lt;li&gt;保守サービスにご契約頂ければ、上記サポートサービスのご契約は不要です&lt;/li&gt;
-&lt;li&gt;kintone バージョンアップに伴いアプリに改修が必要になった場合は別途改修費用をいただきます。&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;p&gt;&lt;a name=&#34;custom&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
