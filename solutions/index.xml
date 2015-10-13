@@ -491,39 +491,17 @@
       <guid>https://www.r3it.com/solutions/kintone/services/</guid>
       <description>
 
-&lt;h2 id=&#34;2つメニュー制プラン:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;2つメニュー制プラン&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2つメニュー制プラン&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;定額のメニュー制プランはワンタイムプランと継続プランの2つのプランをご用意しております。&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;onetime&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;ワンタイムプラン:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;ワンタイムプラン&lt;/h2&gt;
+&lt;h2 id=&#34;ワンタイムプラン-基本サービス1回10万円:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;ワンタイムプラン　基本サービス1回10万円&lt;/h2&gt;
 
 &lt;p&gt;１つのアプリを完成させることを目的に開発を行います。基本的に4回の打合せでの完成を前提とします（4回以上必要な場合は、追加開発となります）。&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/kintone_onetime_201509.png&#34; alt=&#34;ワンタイムプラン&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;continuation&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;継続プラン:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;継続プラン&lt;/h2&gt;
-
-&lt;p&gt;月額料金を継続的にお支払いいただいている間はアプリ数によらずに開発を継続いたします（最低継続期間を3ヶ月とさせていただいています）。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/kintone_continuation_201509.png&#34; alt=&#34;継続プラン&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;プラン共通の基本サービス:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;プラン共通の基本サービス&lt;/h2&gt;
-
-&lt;table class=&#34;table table-bordered table-hover&#34;&gt;
-&lt;thead&gt;&lt;tr&gt;
-&lt;th class=&#34;text-center&#34;&gt;ワンタイムプラン&lt;/td&gt;
-&lt;th class=&#34;text-center&#34;&gt;継続プラン&lt;/th&gt;
-&lt;/tr&gt;&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;10万円/回&lt;/td&gt;&lt;td&gt;50万円/月（月2回の打合せ）&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;オプションサービス:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;オプションサービス&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;オプションサービス&lt;/strong&gt;&lt;/p&gt;
 
 &lt;table class=&#34;table table-bordered table-hover&#34;&gt;
 &lt;thead&gt;&lt;tr&gt;
@@ -543,7 +521,7 @@
 
 &lt;p&gt;&lt;a name=&#34;support&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;サポートサービス-オプション:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;サポートサービス（オプション）&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;サポートサービス（オプション）&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;サポートサービスでは、kintoneで開発したアプリを利用していく上での問合せや、ご自身で改良される場合の技術的な問合せにメールもしくは電話で対応させていただきます。&lt;/p&gt;
 
@@ -559,6 +537,14 @@
 &lt;tr&gt;&lt;td&gt;アンリミテッドサポート&lt;br&gt;（回数無制限）&lt;/td&gt;&lt;td&gt;10万円/月&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;a name=&#34;continuation&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;継続プラン-基本サービス1ヶ月50万円:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;継続プラン　基本サービス1ヶ月50万円&lt;/h2&gt;
+
+&lt;p&gt;月額料金を継続的にお支払いいただいている間はアプリ数によらずに開発を継続いたします（最低継続期間を3ヶ月とさせていただいています）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/kintone_continuation_201509.png&#34; alt=&#34;継続プラン&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;custom&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
