@@ -729,7 +729,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;JavaScriptアドオン&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;li&gt;画面装飾：　5万円/画面
-&lt;li&gt;ロジック追加（データ更新のない入力補助など）：　8万円/イベント
+&lt;li&gt;ロジック追加：　8万円/イベント
 &lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;帳票作成&lt;/td&gt;&lt;td&gt;初期7万円～/個&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;既存システムデータ連携&lt;br&gt;（連携プログラム開発）&lt;/td&gt;&lt;td&gt;10万円～/テーブル&lt;/td&gt;&lt;/tr&gt;
@@ -745,14 +745,15 @@
 &lt;thead&gt;&lt;tr&gt;
 &lt;th class=&#34;text-center&#34;&gt;サービス&lt;/th&gt;
 &lt;th class=&#34;text-center&#34;&gt;ワンタイムプラン&lt;/td&gt;
-&lt;th class=&#34;text-center&#34;&gt;継続プラン&lt;/th&gt;
 &lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;ベーシックサポート&lt;br&gt;（月2回まで）&lt;/td&gt;&lt;td&gt;1万円/月&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;アドバンスドサポート&lt;br&gt;（月10回まで）&lt;/td&gt;&lt;td&gt;5万円/月&lt;/td&gt;&lt;td&gt;月額料金に含む&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;アンリミテッドサポート&lt;br&gt;（回数無制限）&lt;/td&gt;&lt;td&gt;10万円/月&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ベーシックサポート&lt;br&gt;（月2回まで）&lt;/td&gt;&lt;td&gt;1万円/月&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;アドバンスドサポート&lt;br&gt;（月10回まで）&lt;/td&gt;&lt;td&gt;5万円/月&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;アンリミテッドサポート&lt;br&gt;（回数無制限）&lt;/td&gt;&lt;td&gt;10万円/月&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;（上記価格表は抜粋です。詳細はお問い合わせください）&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;continuation&#34;&gt;&lt;/p&gt;
 
@@ -765,23 +766,6 @@
 &lt;p&gt;月額料金を継続的にお支払いいただいている間はアプリ数によらずに開発を継続いたします（最低継続期間を3ヶ月とさせていただいています）。&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/kintone_continuation_201509.png&#34; alt=&#34;継続プラン&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;custom&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;ハイスピードsiによるフルカスタマイズサービス:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;ハイスピードSIによるフルカスタマイズサービス&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/highspeedSI-world.png&#34; alt=&#34;ハイスピードSIが提供する世界観&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社アールスリーが提唱する「ハイスピードSI」の世界観に基づき、お客様に最適なシステムをインテグレーションするサービスです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;アプリケーション（GUI）部分には kintone&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../gusuku/&#34;&gt;kintone アプリケーション開発支援・デプロイ管理には gusuku.io（自社サービス）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;インフラストラクチャ部分には Amazon Web Services (AWS)&lt;/li&gt;
-&lt;li&gt;オンプレミス・kintone とのデータ連携には Talend&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;これらを組み合わせ、出来る限り素早くお客様の問題を解決します。&lt;/p&gt;
 
 &lt;h2 id=&#34;導入までの流れ:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;導入までの流れ&lt;/h2&gt;
 
