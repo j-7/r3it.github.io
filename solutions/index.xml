@@ -491,15 +491,16 @@
       <guid>https://www.r3it.com/solutions/kintone/services/</guid>
       <description>
 
-&lt;p&gt;&lt;strong&gt;2つメニュー制プラン&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;定額のメニュー制プランはワンタイムプランと継続プランの2つのプランをご用意しております。&lt;/p&gt;
-
 &lt;p&gt;&lt;a name=&#34;onetime&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;定額のメニュー制プランは &lt;a href=&#34;#onetime&#34;&gt;ワンタイムプラン&lt;/a&gt; と &lt;a href=&#34;#continuation&#34;&gt;継続プラン&lt;/a&gt; の2つのプランをご用意しております。&lt;/p&gt;
 
 &lt;h2 id=&#34;ワンタイムプラン-基本サービス1回10万円:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;ワンタイムプラン　基本サービス1回10万円&lt;/h2&gt;
 
 &lt;p&gt;１つのアプリを完成させることを目的に開発を行います。基本的に4回の打合せでの完成を前提とします（4回以上必要な場合は、追加開発となります）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/kintone_onetime_201509.png&#34; alt=&#34;ワ
+ンタイムプラン&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;オプションサービス&lt;/strong&gt;&lt;/p&gt;
 
@@ -519,8 +520,6 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;a name=&#34;support&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;サポートサービス（オプション）&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;サポートサービスでは、kintoneで開発したアプリを利用していく上での問合せや、ご自身で改良される場合の技術的な問合せにメールもしくは電話で対応させていただきます。&lt;/p&gt;
@@ -538,7 +537,11 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;a name=&#34;continuation&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name=&#34;continuation&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;継続プラン-基本サービス1ヶ月50万円:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;継続プラン　基本サービス1ヶ月50万円&lt;/h2&gt;
 
