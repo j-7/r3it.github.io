@@ -5,8 +5,119 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Oct 2015 11:54:10 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2015 15:23:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NRIハッカソン＠CEATEC JAPAN2015 本選結果報告</title>
+      <link>https://www.r3it.com/blog/etc/20151007_hack-for-money-result/</link>
+      <pubDate>Fri, 16 Oct 2015 15:23:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20151007_hack-for-money-result/</guid>
+      <description>
+
+&lt;p&gt;久しぶりの秋冬の東京出張で見事に風邪をひきかけた西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;はや1週間以上過ぎてしまいましたが、先日よりご報告していました、&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; の本選に部員全員で行ってきましたので、イベントの様子をご報告します。&lt;/p&gt;
+
+&lt;p&gt;2日間に渡るイベント全体の様子はグッドウェイさんのサイトのこちらの記事がとても良くまとまっていますので、そちらをご覧ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://goodway.co.jp/fip/htdocs/jop9lcfn7-3636/&#34;&gt;http://goodway.co.jp/fip/htdocs/jop9lcfn7-3636/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;会場はceatec-japan-2015:59fbd3b34639f74cb93c1f3d68c0d4ca&#34;&gt;会場はCEATEC JAPAN 2015&lt;/h2&gt;
+
+&lt;p&gt;NRIハッカソン本選の会場となったのは、CEATEC JAPAN 2015が行われている幕張メッセの端っこにあるブースでした。ハッカソン初日はイベントの前の日で、各ブース設営中のところで黙々とハッカソンが開始しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/buildingbooth.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/buildingbooth.jpg&#34; width=&#34;500&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ドリルやらトンカチやらの音がドカドカしてる中、熱いハッカソンの戦いが開始です。&lt;/p&gt;
+
+&lt;p&gt;ちなみにブースは外から見るとこんな感じで、2日目には普通にCEATECの来場者が「何だこの窓は？」と覗きこむ動物園状態！何人も知り合いが来て覗きこまれて挨拶しました（笑）。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/hackathonbooth.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/hackathonbooth.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ブースの中は各チームで机が分かれて作業していました。ディスプレイや薄型の液晶テレビ、3Dプリンタを持ち込むチームや、寝泊まり用のテントと寝袋を持ち込む猛者までいるカオスっぷりでした。。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/inbooth1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/inbooth1.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/inbooth2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/inbooth2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我々のテーブルには部長謹製のLED看板がありました。&lt;/p&gt;
+
+&lt;p&gt;これにより、ひとまずハッカソン関係者の皆さんには、「アールスリーは大阪にあるシステム開発をしている会社で、IoT部は社内部活動です！」と掴みが出来て、非常に良かったと思います。IoT関連なので、こういうのがいっぱいあるのかと思ったんですけどね。。。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/ourtable.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/ourtable.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;初日から色々と想定外が:59fbd3b34639f74cb93c1f3d68c0d4ca&#34;&gt;初日から色々と想定外が・・・&lt;/h2&gt;
+
+&lt;p&gt;そんな中我々IoT部は、&lt;a href=&#34;../20150912_hack-for-money-osaka-result/&#34;&gt;大阪予選&lt;/a&gt; で計画したとおり、お金を数えるロボットを粛々と作っておりました。システム構成としては、以下のとおりです。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/system.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/system.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ナンデヤネンボットの制御をするのは Raspberry pi です。処理の流れとしては、以下の様な感じでした。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ボットにボタンを付けて、お金を数えるリクエストを発行、AWS側にキューを発行します。&lt;/li&gt;
+&lt;li&gt;オムロンさんから素材提供いただいた &lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&#34;&gt;HVC-C2W&lt;/a&gt; を制御するAndroidアプリがそのキューをポーリングして、要求があったらカメラを作動させて、お札を数え、AWS側に結果を返します。&lt;/li&gt;
+&lt;li&gt;AWS側は EC2 上に構築した Sinatra で書かれたサーバです。ここで最終結果を kintone に蓄積していきます。&lt;/li&gt;
+&lt;li&gt;最後にナンデヤネンボットが結果を音声合成モジュールを使って喋ります。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;これらをロボットのボディ外装から含め、いちからスクラッチでガリガリ作っていました！&lt;/p&gt;
+
+&lt;h2 id=&#34;えっ-android-開発ですか:59fbd3b34639f74cb93c1f3d68c0d4ca&#34;&gt;「えっ Android 開発ですか！？」&lt;/h2&gt;
+
+&lt;p&gt;西島の担当は顔認識カメラであるオムロンHVCの制御でしたが、SDKがまさかのiOS or Android! ということで、Android Studioをダウンロードするところからの始まりでした・・・。&lt;/p&gt;
+
+&lt;p&gt;ちなみに弊社では、 iOS向け / Android向けアプリも作ってますし、オムロンHVCに頼らず画像認識も出来るソフトウェアを開発していますし（本当はマル秘：&lt;a href=&#34;https://www.r3it.com/solutions/si/&#34;&gt;この辺りに少し&lt;/a&gt;書いてます）、勿論 kintone を利用した開発もしますし、AWSを使ったシステム構築も当然行っています。&lt;/p&gt;
+
+&lt;p&gt;ですが！ 西島に分担されたカメラ制御が、Androidアプリ開発必須というのは予想外でした。実は事前調査ではRESTのAPIがある想定でした。Androidの開発環境触ったの、何年ぶりだろう・・・。こういう普段の業務では触らない技術を触るのも、ハッカソンの醍醐味ですね（ということにしておいてください、お願いします）。&lt;/p&gt;
+
+&lt;p&gt;取り敢えず、カメラ制御と画像の認識＆学習させるところまでは初日で出来ました。他のメンバーもそれぞれ頑張っていましたが、部長担当のロボットのボディを作るのが、工作機材が少ないこともありとてもとても大変そうでした・・・。&lt;/p&gt;
+
+&lt;p&gt;そんなこんなで、各自自分の分担を黙々と作業していて、区切りがつくいたのは深夜1時前。中は照明が付いてましたが、外は真っ暗＆めちゃくちゃ寒い中、幕張メッセを後にしたのでした（と言ってもホテルに戻ったのは西島と池上だけで、部長の浅利と大澤は、ハッカソン会場に泊まりこみでした。彼らの本番はこれから・・・）。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/makuhari-night.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/makuhari-night.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;2日目:59fbd3b34639f74cb93c1f3d68c0d4ca&#34;&gt;2日目&lt;/h1&gt;
+
+&lt;p&gt;2日目は、何も食べてない様子だったのでご飯とレッドブルの差し入れから始めました。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/day2-redbull.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/day2-redbull.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;昨日からそうでしたが、会場の幕張メッセ、じっと作業してると寒い寒い。チームウェアのTシャツを下に着ていたのですが、それを見せることもなくどんどん厚着になっていきます。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/day2-develop.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/day2-develop.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;そんなこんなで「あっ」という間にお昼の締め切りがやって来まして、作業はぎりぎり、全体的な流しのテストも出来ず、開発場所と発表場所が違うため、発表場所で再度カメラに画像を学習させる必要があるなど、とんでもないドタバタでしたが取り敢えず完成しました。みんなボロボロです（涙）。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/try-booth.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/try-booth.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;発表会場はこのような大きなイベントスペースで、周りに書くチームのブースが取り囲んで、実際のプロダクトを触れる、という状態になっていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/eventspace.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/eventspace.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我々のナンデヤネンボットは、機嫌がいい時にはちゃんとお札を数えてくれるのですが、審査委員の方が見に来てくれた時には機嫌が悪く（笑）、なかなかデモンストレーションには向かない感じの仕上がりとなってしまいました。プロダクトとしては、ちゃんとお金を数えて喋る、保存する、という一連の流れは動いてましたよ！&lt;/p&gt;
+
+&lt;h2 id=&#34;結果は:59fbd3b34639f74cb93c1f3d68c0d4ca&#34;&gt;結果は・・・&lt;/h2&gt;
+
+&lt;p&gt;というわけで「アイデアソンで構想したプロダクトを作る」ということに関しては善戦しましたが、結果としては何も賞を取れず惨敗、ということに相成りました。無念です。。。&lt;/p&gt;
+
+&lt;p&gt;アイデアとしては良かったのかな〜と思いますが、他の各チームがわりとIoTとか無関係にサービスとかビジネスモデルを突き詰めていたのに対して、我々は単にプロダクトを作っていただけでしたからね！ なんというか、賞を狙うならもう少し審査員受けの良いスパイスを入れたら良かったのかな、というのは事後の反省点のひとつです。&lt;/p&gt;
+
+&lt;p&gt;こちらは燃え尽きたおつかれ写真です。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/teamphoto.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-result/teamphoto.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;総評と今後の予定:59fbd3b34639f74cb93c1f3d68c0d4ca&#34;&gt;総評と今後の予定&lt;/h2&gt;
+
+&lt;p&gt;今後の予定ですが、部長の「僕しかハードウェア出来ないのはイカン！」という鶴の一声により、みんなでLED時計を作成する予定です。ハンダごての扱いや、マイコンの基本的な知識、制御が必要になってきますね。&lt;/p&gt;
+
+&lt;p&gt;それではまた！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2015年秋のイベントのお知らせ</title>
@@ -1168,60 +1279,6 @@
 &lt;p&gt;弊社オフィスのある大阪からも電車で1時間かからない。そして京都からも…言わずもがな٩(●˙▿˙●)۶&lt;/p&gt;
 
 &lt;p&gt;以上、CoderDojo＋αのご紹介でした(⑅っˇωˇ )っ&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>東北IT物産展2015でkintoneのハンズオンを実施しました</title>
-      <link>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</link>
-      <pubDate>Wed, 02 Sep 2015 16:51:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</guid>
-      <description>
-
-&lt;h1 id=&#34;東北it物産展2015にてkintoneハンズオンを実施しました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;東北IT物産展2015にてkintoneハンズオンを実施しました&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北IT物産展&lt;/a&gt;は、昨年JAWS-UGの全国イベントJAWS Festaとして仙台で実施されたイベントの副題として始まったイベントです。&lt;/p&gt;
-
-&lt;p&gt;今年は、JAWS-UGの枠を超えて東北のITを盛り上げようということで、東北IT物産展というメインタイトルで実施されました。&lt;/p&gt;
-
-&lt;p&gt;青森に東北内外から100名の参加者が集まり盛大に実施されました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten2.jpg&#34; alt=&#34;物産展入り口&#34; /&gt;
-&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten1.jpg&#34; alt=&#34;物産展Tシャツ&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;kintoneハンズオン:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;kintoneハンズオン&lt;/h1&gt;
-
-&lt;p&gt;この東北IT物産展の1セッションとして、kintoneの勉強会コミュニティであるkintone Caféとしてkintoneのハンズオンを実施してきました。
-参加者のほとんどがkintoneを触ったことがないという中で、経費精算アプリを作るというハンズオンにてkintoneの便利さを体感していただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/au0Tp9I8VYXNnZ&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150829-tohoku-itbussanten&#34; title=&#34;20150829 tohoku it_bussanten&#34; target=&#34;_blank&#34;&gt;20150829 tohoku it_bussanten&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;参加者のみなさんほとんど詰まることもなくハンズオンはスムーズに進みました。
-このハンズオンでお伝えしたかったのは以下の点です。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneは驚くほど簡単にフォームとデータベースを作成することができる&lt;/li&gt;
-&lt;li&gt;ミスがあったとしてもすぐに修正することができる&lt;/li&gt;
-&lt;li&gt;実際に動くものを見るとどんどんやりたいことが生まれ、またそれをすぐに実現できること&lt;/li&gt;
-&lt;li&gt;簡単なだけでなく企業で必要とされるセキュリティなども確保できること&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;ltでもお話してきました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;LTでもお話してきました&lt;/h1&gt;
-
-&lt;p&gt;懇親会で実施されたLT（Lightning Talk）でも発表をさせていただきました。
-LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt;を紹介させていただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;なぜ、gusukuが必要なのか、ないと何が起きるのか、どうしてgusukuという名前なのかという内容を5分という短い時間でしたがお伝えできたのではないかと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;来年は秋田で開催です:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;来年は秋田で開催です&lt;/h1&gt;
-
-&lt;p&gt;運営スタッフのみなさん、準備作業からとても大変だったと思いますが本当のお疲れ様でした。すばらしいイベントでした。
-懇親会の場で来年は秋田で開催されることが決定されましたので、今から楽しみです。&lt;/p&gt;
-
-&lt;p&gt;東北在住でない方も、他の地域の状況を見知ることはとても勉強になりますので来年はぜひご参加ください。&lt;/p&gt;
 </description>
     </item>
     
