@@ -5,13 +5,90 @@
     <link>https://www.r3it.com/solutions/</link>
     <description>Recent content in Solutions on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Oct 2015 14:04:37 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2015 14:05:37 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/solutions/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>gusuku（グスク） はkintoneをもっともっと使いやすくします</title>
+      <link>https://www.r3it.com/solutions/kintone/gusuku/</link>
+      <pubDate>Tue, 10 Nov 2015 14:05:37 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/solutions/kintone/gusuku/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;サービスサイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）は kintoneアプリケーションの開発を強力にサポートするプラットフォームサービスです。
+ハイスピードSIを提唱するアールスリーインスティテュートが提供します。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusukuが提供する機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;gusukuが提供する機能&lt;/h1&gt;
+
+&lt;p&gt;kintoneアプリケーション開発時に必要な、デプロイ・バージョン管理や実行環境の管理などを一貫して提供するサービスです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定できます）&lt;/li&gt;
+&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
+&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
+&lt;li&gt;ある環境から別の環境への設計情報の配布&lt;/li&gt;
+&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;これらの開発支援機能の他に、kintoneを更に便利に活用できる機能を随時追加していく予定です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;kintoneプラグインでもっとkintoneを便利に活用:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;kintoneプラグインでもっとkintoneを便利に活用&lt;/h2&gt;
+
+&lt;h3 id=&#34;大容量-大量の添付ファイル保存機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;大容量・大量の添付ファイル保存機能&lt;/h3&gt;
+
+&lt;p&gt;kintoneのレコードに画像などのファイルを添付する機能がありますが、これには100MBまでという容量制限があります。これを gusuku kintoneプラグインを利用することで、1ファイル辺り最大5テラバイト、保存容量無限のストレージとして活用することが可能です。&lt;/p&gt;
+
+&lt;p&gt;（※ストレージ利用料が別途必要となります）&lt;/p&gt;
+
+&lt;h3 id=&#34;レコードデータのバックアップ-近日提供予定:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;レコードデータのバックアップ（近日提供予定）&lt;/h3&gt;
+
+&lt;p&gt;kintoneに保存されているデータを、添付ファイルも含めた全てのデータを外部にバックアップします。これにより、人的ミスにより削除されてしまったデータを復活させたり、意図せぬアプリケーションの削除からデータを保護することが可能となります。&lt;/p&gt;
+
+&lt;p&gt;（※ストレージ利用料が別途必要となります）&lt;/p&gt;
+
+&lt;p&gt;詳細はサービスサイト  &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;導入を検討すべき-または非常に効果が出るケース:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;導入を検討すべき、または非常に効果が出るケース&lt;/h1&gt;
+
+&lt;h2 id=&#34;こんなときに便利:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;こんなときに便利&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;本番稼働しているアプリの改修時に、いったんテスト環境で改修し、本番環境へアップする際に、手作業で一つ一つ設定し直さないといけなかったが、それを一発で反映できる。&lt;/li&gt;
+&lt;li&gt;本番環境に反映したアプリで、何か問題があった場合に、すぐに元に戻すことができる。&lt;/li&gt;
+&lt;li&gt;ある部門向けに作ったアプリを、別部門向けに、少し異なる仕様にして構築するのもゼロから設定し直さなくて良い。&lt;/li&gt;
+&lt;li&gt;アプリをワークスペース間で移動させることができる（データは別途手動移行必要）。&lt;/li&gt;
+&lt;li&gt;アカウントが異なる環境間でも、アプリをコピーや移動させることができる（データは別途手動移行必要）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;以下に該当する企業様-部門様は-是非導入をご検討ください:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;以下に該当する企業様・部門様は、是非導入をご検討ください&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自社で幾つかのkintoneアプリケーションを開発・運用している。&lt;/li&gt;
+&lt;li&gt;外部ベンダーに作成してもらったkintoneアプリケーションを、自分たちで改良しつつ、利用している。&lt;/li&gt;
+&lt;li&gt;kintoneアプリの添付ファイルを活用してファイル共有を行っている。もしくは行っていきたいと考えている。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-usecase.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;お問い合わせ:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;お問い合わせ&lt;/h1&gt;
+
+&lt;p&gt;gusuku にご興味いただいた皆様は、下記連絡先または &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;  より是非お問い合わせいただけますと幸いです。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>あなたのお困り事を kintone による ハイスピードSI で解決します</title>
       <link>https://www.r3it.com/solutions/kintone/</link>
-      <pubDate>Wed, 28 Oct 2015 14:04:37 +0900</pubDate>
+      <pubDate>Tue, 10 Nov 2015 14:04:37 +0900</pubDate>
       
       <guid>https://www.r3it.com/solutions/kintone/</guid>
       <description>
@@ -26,7 +103,7 @@
 
 &lt;h3 id=&#34;弊社では-kintone-を利用した業務システムの開発をしております:b3f994572158129e07597d19060e2d9b&#34;&gt;弊社では kintone を利用した業務システムの開発をしております&lt;/h3&gt;
 
-&lt;p&gt;簡単なExcelの代わりに使えるのは分かるが、もっと他に、使える適用例を知りたい、との声をよく聞きます。&lt;/p&gt;
+&lt;p&gt;簡単なExcelの代わりに使えるのは分かるが、もっと他に、業務改善に使える適用例を知りたい、との声をよく聞きます。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;今までシステム化しにくかった領域&lt;/li&gt;
@@ -44,7 +121,7 @@
 &lt;ul&gt;
 &lt;li&gt;打合せ4回でシステムを構築する【ワンタイムプラン】&lt;/li&gt;
 &lt;li&gt;契約期間中は継続的に開発を行う【継続プラン】&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;gusuku/&#34;&gt;アプリ開発を強力に支援するgusuku（グスク）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;gusuku/&#34;&gt;kintoneアプリのデプロイや開発を強力に支援するgusuku（グスク）&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;あなたのお困り事を、ぜひご相談ください。こちらから&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;お問い合わせ&lt;/a&gt;もしくは、お電話にてお待ちしております。&lt;/p&gt;
@@ -167,84 +244,6 @@
 &lt;p&gt;パッケージソフトを選定/導入したものの、思ったよりカスタマイズ工数がかさんだり、多機能すぎて使いこなせなかったりと、上手く活用できなかった経験はありませんか？&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;antipackage/&#34;&gt;こちらの事例&lt;/a&gt;をぜひご覧ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>gusuku（グスク） はkintoneアプリ開発を支援します</title>
-      <link>https://www.r3it.com/solutions/kintone/gusuku/</link>
-      <pubDate>Mon, 28 Sep 2015 14:04:37 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/kintone/gusuku/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）は kintoneアプリケーションの開発を強力にサポートするプラットフォームサービスです。
-ハイスピードSIを提唱するアールスリーインスティテュートが提供します。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusukuが提供する機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;gusukuが提供する機能&lt;/h1&gt;
-
-&lt;p&gt;kintoneアプリケーション開発時に必要な、バージョン管理や実行環境の管理などを一貫して提供するサービスです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定できます）&lt;/li&gt;
-&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
-&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
-&lt;li&gt;ある環境から別の環境への設計情報の配布&lt;/li&gt;
-&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;これらの開発支援機能の他に、kintoneを更に便利に活用できる機能を随時追加していく予定です。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;近日公開予定の機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;近日公開予定の機能&lt;/h2&gt;
-
-&lt;h3 id=&#34;大容量-大量の添付ファイル保存機能:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;大容量・大量の添付ファイル保存機能&lt;/h3&gt;
-
-&lt;p&gt;kintoneのレコードに画像などのファイルを添付する機能がありますが、これには100MBまでという容量制限があります。これを gusuku kintoneプラグインを利用することで、1ファイル辺り最大5テラバイト、保存容量無限のストレージとして活用することが可能です。&lt;/p&gt;
-
-&lt;p&gt;（※ストレージ利用料が別途必要となります）&lt;/p&gt;
-
-&lt;h3 id=&#34;レコードデータのバックアップ:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;レコードデータのバックアップ&lt;/h3&gt;
-
-&lt;p&gt;kintoneに保存されているデータを、添付ファイルも含めた全てのデータを外部にバックアップします。これにより、人的ミスにより削除されてしまったデータを復活させたり、意図せぬアプリケーションの削除からデータを保護することが可能となります。&lt;/p&gt;
-
-&lt;p&gt;（※ストレージ利用料が別途必要となります）&lt;/p&gt;
-
-&lt;h1 id=&#34;導入を検討すべき-または非常に効果が出るケース:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;導入を検討すべき、または非常に効果が出るケース&lt;/h1&gt;
-
-&lt;h2 id=&#34;こんなときに便利:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;こんなときに便利&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;本番稼働しているアプリの改修時に、いったんテスト環境で改修し、本番環境へアップする際に、手作業で一つ一つ設定し直さないといけなかったが、それを一発で反映できる。&lt;/li&gt;
-&lt;li&gt;本番環境に反映したアプリで、何か問題があった場合に、すぐに元に戻すことができる。&lt;/li&gt;
-&lt;li&gt;ある部門向けに作ったアプリを、別部門向けに、少し異なる仕様にして構築するのもゼロから設定し直さなくて良い。&lt;/li&gt;
-&lt;li&gt;アプリをワークスペース間で移動させることができる（データは別途手動移行必要）。&lt;/li&gt;
-&lt;li&gt;アカウントが異なる環境間でも、アプリをコピーや移動させることができる（データは別途手動移行必要）。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;以下に該当する企業様-部門様は-是非導入をご検討ください:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;以下に該当する企業様・部門様は、是非導入をご検討ください&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;自社で幾つかのkintoneアプリケーションを開発・運用している。&lt;/li&gt;
-&lt;li&gt;外部ベンダーに作成してもらったkintoneアプリケーションを、自分たちで改良しつつ、利用している。&lt;/li&gt;
-&lt;li&gt;kintoneアプリの添付ファイルを活用してファイル共有を行っている。もしくは行っていきたいと考えている。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-usecase.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;お問い合わせ:e2677efa040c0b3c2da40bd16f7020ba&#34;&gt;お問い合わせ&lt;/h1&gt;
-
-&lt;p&gt;gusuku にご興味いただいた皆様は、是非お問い合わせいただけますと幸いです。
-現在、プライベートベータサービスを実施しております。 &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt; より利用規約をご確認の上、ご登録ください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -5,8 +5,45 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Oct 2015 15:55:02 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2015 10:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>cybozu.comカンファレンス2015東京 出展報告</title>
+      <link>https://www.r3it.com/blog/kintone/20151106_cybozu-conference-tokyo/</link>
+      <pubDate>Fri, 13 Nov 2015 10:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20151106_cybozu-conference-tokyo/</guid>
+      <description>&lt;p&gt;そろそろ夜は涼しくなってきた沖縄よりこんにちは、西島です。&lt;/p&gt;
+
+&lt;p&gt;さて、今日は11月3日に開催されたcybozu.com カンファレンス 2015 東京のレポートをしたいと思います。弊社のブースではこのように皆様をお迎えしておりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/booth.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/booth.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社の当日の朝は、&lt;a href=&#34;https://www.r3it.com/info/2015/tokyo-branch/&#34;&gt;東京支社開設のお知らせ&lt;/a&gt;とkintoneをもっと便利に！を合言葉に開発された、&lt;a href=&#34;https://www.r3it.com/info/2015/gusuku-release/&#34;&gt;gusuku（グスク）の正式リリース&lt;/a&gt;で開幕しました。お知らせを見てご声援、ご来場いただいた皆様、ありがとうございました。&lt;/p&gt;
+
+&lt;p&gt;イベント初めのプログラムの基調講演のゲストとして、巨大液晶スクリーンの真ん中がパカっと割れて、弊社金春が登場しました。ブースに居たので実物は見られなかったものの、写真で見ても物凄いインパクト・・・。会場最後列から撮影していただいた写真がこちら（サイボウズ浅賀様より写真を頂きました。ありがとうございます！）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen1.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;サイボウズ青野社長と共に「変える覚悟、変わる覚悟」「新しいSI」について語りましたが、いかがでしたでしょうか？いろいろと感じるところがあったかと思います。もし何かひとつでも、御社のビジネス上の問題解決のヒントをお持ち帰りいただくことが出来たら、幸いに思っております。&lt;/p&gt;
+
+&lt;p&gt;来週11月20日（金）には大阪にて開催されます。大阪でも基調講演と、弊社ブースにてお待ちしております。大阪にてお時間のあるからはぜひ、お越しください。詳しい情報、お申込はこちらです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozuconf.com/&#34;&gt;https://cybozuconf.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ブースの方では、業種ごとのkintoneの活用事例や、当日正式リリースした&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku（グスク）&lt;/a&gt;に関するお問い合わせで盛り上がっていました。&lt;/p&gt;
+
+&lt;p&gt;特にgusukuの注目度は高く、kintoneアプリのデプロイでお困りの方や、大容量添付ファイルをご利用の方は興味津々で話を聞きに来てくださいました。&lt;/p&gt;
+
+&lt;p&gt;既にkintoneアプリを使いこなしている皆様は、是非お試し頂き（無料版からあります！）、ここが良かった、これが動かなかったなど、フィードバックをどんどんいただけますと、幸いです。&lt;/p&gt;
+
+&lt;p&gt;kintoneの活用方法については、業種別に色々取り揃えておりますので、気になった方はぜひお気軽にお問い合わせください。&lt;/p&gt;
+
+&lt;p&gt;それでは、次回のイベント会場でお会いしましょう！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>連載：kintoneでのPromise入門 Vol.1</title>
@@ -1155,163 +1192,6 @@ var elMapContainer = kintone.app.record.getSpaceElement(&#39;Maps&#39;);
 elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;今後もkintoneのカスタマイズについてブログ記事をupしていきたいと思いますので、気になる方は是非定期的にチェックして頂けたらありがたいです！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 大阪 Vol.3で実施したカスタマイズハンズオンの概要について(前編)</title>
-      <link>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/</link>
-      <pubDate>Tue, 21 Jul 2015 14:04:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/</guid>
-      <description>
-
-&lt;p&gt;2015年7月15日水曜日に、kintone Café 大阪 Vol.3でJavaScriptを利用したカスタマイズハンズオンを行いました。&lt;/p&gt;
-
-&lt;p&gt;今回はその時のハンズオンの内容を少し補足した形でブログを書こうと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;わたしのこと:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;わたしのこと&lt;/h1&gt;
-
-&lt;p&gt;kintone Café大阪には前職の時から参加はしていたものの、早々と登壇デビューを飾ることになってしまったいけがみみどりです。&lt;/p&gt;
-
-&lt;p&gt;まだまだサンプルコードに毛が生えた程度のスクリプトしか書けないわたしが、公開処刑のごとくカスタマイズハンズオンに挑戦することに！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-002.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-002.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ということで、kintone Café大阪で行ってきたカスタマイズハンズオンの概要について、ざっくりブログでご報告したいと思います( ˘ ³˘)❤ ﾟ+｡:.ﾟ&lt;/p&gt;
-
-&lt;h1 id=&#34;そもそもカスタマイズってどんなこと:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;そもそもカスタマイズってどんなこと？&lt;/h1&gt;
-
-&lt;p&gt;kintoneにおけるカスタマイズは、ざっくり説明すると以下のようなことを指します。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;データの取り込み、外部システムとの連携&lt;/li&gt;
-&lt;li&gt;JavaScript/CSSを利用して高度な機能を利用する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-003.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-003.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;要は画面上で行える設定以上のことをするイメージですね(&amp;lsquo;ω&amp;rsquo;*)&lt;/p&gt;
-
-&lt;p&gt;もちろん、標準機能だけでもそれなりに見た目の良いアプリがノンプログラミングで簡単に作れてしまいます。&lt;/p&gt;
-
-&lt;p&gt;Excelやcsv形式のデータであればそのままの形式を維持してインポート出来たりもするので、既存の管理方法から大きな変更を加えることなくクラウドにデータを移行することも可能になります。&lt;/p&gt;
-
-&lt;p&gt;しかし今回のkintone Caféは少し応用編！
-…ということで、今回は参加者の皆様に、JavaScriptを利用したカスタマイズに挑戦して頂きました。&lt;/p&gt;
-
-&lt;h1 id=&#34;用意したアプリについて:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;用意したアプリについて&lt;/h1&gt;
-
-&lt;p&gt;今回そんな参加者の方々にご用意させて頂いたのは、当方で予め作成したJavaScriptのサンプルコード。&lt;/p&gt;
-
-&lt;p&gt;以下の2つです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;バリデーション&lt;/li&gt;
-&lt;li&gt;住所から地図を表示するアプリ（OpenLayerを利用）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;このサンプルコードを、用意した顧客リストアプリに登録して挙動を確認します。&lt;/p&gt;
-
-&lt;p&gt;顧客リストは、一般的な名前や住所等を登録することが出来るものです。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-001.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kintonecafe0715-3-001.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;サンプルコードの説明に入る前に、まずはkintoneにおけるJavaScriptのカスタマイズのルールについて簡単におさらいしましょう。&lt;/p&gt;
-
-&lt;h1 id=&#34;javascriptの記述ルール:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;JavaScriptの記述ルール&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;拡張子は.jsで保存&lt;/li&gt;
-&lt;li&gt;ファイル名の拡張子は表示しておいたほうが良い。
-（じゃないとテキストとかで保存されててスクリプト動かないよ！なんてことも…）&lt;/li&gt;
-&lt;li&gt;文字コードはUTF-8で保存
-（異なる文字コードで保存すると文字化けする原因に！）&lt;/li&gt;
-&lt;li&gt;即時関数パターンで記述&lt;/li&gt;
-&lt;li&gt;strictモードを使用&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;即時関数パターンとは:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;即時関数パターンとは&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;関数を定義するのと同時に実行もする。&lt;/li&gt;
-&lt;li&gt;スコープ汚染防止（kintoneで即時関数を採用している一番の理由）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;スコープ汚染についての説明は以下のサイトに詳しく書かれています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://analogic.jp/immediate-function/#scope&#34;&gt;http://analogic.jp/immediate-function/#scope&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;記述方法&lt;/b&gt;
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
-    // 処理の内容を記述する
-}());
-&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;strictモードとは:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;strictモードとは&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;“use strict”と宣言する&lt;/li&gt;
-&lt;li&gt;記述ミス防止目的&lt;/li&gt;
-&lt;li&gt;明示的に「使う」と宣言しないと使えないモード&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;記述方法&lt;/b&gt;
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
-　　&amp;rdquo;use strict&amp;rdquo;;
-    // 処理の内容を記述する
-}());
-&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;kintone独自のイベント処理について:2cf2e2e6c640e2a980f0e3c8852f343e&#34;&gt;kintone独自のイベント処理について&lt;/h1&gt;
-
-&lt;p&gt;kintoneにはkintone独自のイベントがあります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/sections/200418540&#34;&gt;https://cybozudev.zendesk.com/hc/ja/sections/200418540&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;レコード一覧イベント（表示、保存、変更など）&lt;/li&gt;
-&lt;li&gt;レコード表示イベント（詳細画面表示、削除前など）&lt;/li&gt;
-&lt;li&gt;レコード追加イベント（表示、保存など）&lt;/li&gt;
-&lt;li&gt;レコード編集イベント（表示、保存など）&lt;/li&gt;
-&lt;li&gt;グラフ表示イベント （PC用のみ）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;どのタイミングで「処理を実行するか」&lt;/b&gt;ということを宣言するものです。&lt;/p&gt;
-
-&lt;p&gt;例えば…&lt;/p&gt;
-
-&lt;p&gt;レコード追加時、保存するタイミングで処理を実行させたい場合は、下記のような書き方になります。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;ex.新規レコード追加時、保存するタイミングで処理Aを実行する。&lt;/b&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
-　　&#34;use strict&#34;;
-　　// 新規レコード追加時のイベント
-    kintone.events.on(&#39;app.record.create.submit&#39;, function (event){
-
-    // （処理A）
-    ・・・
-}());
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;ここでは、複数イベント指定することも可能です。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;ex.新規レコード追加時または既存レコード編集時、保存するタイミングで処理Aを実行する。&lt;/b&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;javascript&#34;&gt;(function () {
-　　&#34;use strict&#34;;
-　　// 新規レコード追加時または既存レコード編集時のイベント
-    kintone.events.on([&#39;app.record.create.submit&#39;, &#39;app.record.edit.submit&#39;], function (event){
-
-    // （処理A）
-    ・・・
-}());
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;以上が、kintoneにおける基本的なJavaScriptによるカスタマイズのルールになります。&lt;/p&gt;
-
-&lt;p&gt;次回は、実際にカスタマイズで利用したサンプルコードの説明をしていきたいと思います！&lt;/p&gt;
 </description>
     </item>
     
