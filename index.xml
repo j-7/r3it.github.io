@@ -5,8 +5,107 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 27 Nov 2015 10:27:10 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Dec 2015 15:30:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS Cloud Roadshow 2015 大阪に出展しました！</title>
+      <link>https://www.r3it.com/blog/aws/20151202_awscloudroadshow2015-osaka/</link>
+      <pubDate>Thu, 03 Dec 2015 15:30:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/20151202_awscloudroadshow2015-osaka/</guid>
+      <description>
+
+&lt;p&gt;2015年12月2日水曜日（昨日ですよ昨日！）&lt;a href=&#34;http://roadshow.awseventsjapan.com/osaka/index.html&#34;&gt;AWS Cloud Roadshow 2015 大阪&lt;/a&gt;にスポンサーとして出展してまいりました！&lt;/p&gt;
+
+&lt;h1 id=&#34;aws-cloud-roadshow-2015-大阪-に出展:e861cc895ae8413206b9420feacc3a2a&#34;&gt;AWS Cloud Roadshow 2015 大阪 に出展！！&lt;/h1&gt;
+
+&lt;p&gt;去年のRoadshowは &lt;del&gt;&lt;font size=&#34;2&#34;&gt;会社が違ったので&lt;/font&gt;&lt;/del&gt; 夜のJAWS-UG大阪のLT大会しか参加出来ず。関西でのパイ姫デビューを飾った記念すべき日だったのですが、今年はR3にJOINして初のスポンサーとしての出展でテンションも上がりまくりでした∠( &amp;lsquo;ω&amp;rsquo;)／ｷﾘｯ
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka1.jpg&#34; data-lightbox=&#34;roadshowpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka1.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;スポンサーさんも豪華です！弊社のロゴも上のほうに並んでいてﾆﾖﾆﾖしてしまいます…！（そこか
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka2.jpg&#34; data-lightbox=&#34;roadshowpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ブースも受付を入ってすぐの場所で、スペースも広々！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka3.jpg&#34; data-lightbox=&#34;roadshowpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;看板の代わりに&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#336666&#34;&gt;大きなスクリーン&lt;/font&gt;&lt;/b&gt;を使ってプロジェクタで投影して弊社サービスを紹介するという初の試みを行ったのですが、通りすがりの参加者の人たちの中には&lt;b&gt;「このプロジェクタどこのですか？型番教えて下さい」&lt;/b&gt;と寄ってくる方もいらっしゃいました。&lt;/p&gt;
+
+&lt;p&gt;いろんな意味で目立っていたようです（いろんな意味で&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34;&gt;「ほむらとサービス関係あるんですか？」&lt;/font&gt;&lt;/b&gt;と聞かれたり、&lt;b&gt;&lt;font size=&#34;5&#34;&gt;「時間止められるサービスなんですか？」&lt;/font&gt;&lt;/b&gt;（ほむの能力）と聞かれたり。。。&lt;/p&gt;
+
+&lt;p&gt;もちろん&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#808000&#34;&gt;た　だ　の　趣　味　&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;参加者の皆さんの関心事:e861cc895ae8413206b9420feacc3a2a&#34;&gt;参加者の皆さんの関心事&lt;/h2&gt;
+
+&lt;p&gt;今回は&lt;b&gt;OpenBlock + SORACOM + AWS IoT&lt;/b&gt;を使ったデモもお見せしたのですが、わりと参加者の皆さん興味を持たれてました！&lt;/p&gt;
+
+&lt;p&gt;SORACOMとIoTはやはり関西でも関心度が高いですねー（SORACOMさんブースの人だかりも凄かった。。。&lt;/p&gt;
+
+&lt;p&gt;ブースに立ち寄られた方といろいろお話もしましたが、関西はまだまだオンプレで運用されている方も多く、これからクラウドに移行していかないといけないなーという意識を持っている方もけっこう多かったです。&lt;/p&gt;
+
+&lt;p&gt;でもそこって人や時間のコストがかかるから足踏みしちゃうとこなんですよね・・・&lt;/p&gt;
+
+&lt;p&gt;具体的にAWSのサービスを使ったらどういうことが出来るのか、どのプロダクトを使うことで自社のシステムと同じような環境を実現出来るのか、そのあたりを模索されている方が多かった印象です。&lt;/p&gt;
+
+&lt;p&gt;でもひとつひとつの製品について教えてもらえるセミナーとか勉強会ってなかなかないので、ほんとのほんとの基本の部分や、クラウドを知るきっかけになるような勉強会が開催出来たら、もう少し関西でのクラウド化の敷居も下がるのかもなーと思いました。&lt;/p&gt;
+
+&lt;h2 id=&#34;夜はナイトイベント-jaws-ug大阪:e861cc895ae8413206b9420feacc3a2a&#34;&gt;夜はナイトイベント＠JAWS-UG大阪&lt;/h2&gt;
+
+&lt;h3 id=&#34;前半-パネルディスカッション:e861cc895ae8413206b9420feacc3a2a&#34;&gt;前半：パネルディスカッション&lt;/h3&gt;
+
+&lt;p&gt;本編終了後はJAWS-UG大阪のイベントが開催されました。&lt;/p&gt;
+
+&lt;p&gt;前半は各コミュニティの代表が一堂に会するパネルディスカッション！&lt;/p&gt;
+
+&lt;p&gt;パネルディスカッションでは弊社西島がJAWS-UG代表として、金春がkintone代表として登壇！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka5.jpg&#34; data-lightbox=&#34;roadshowpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+（わたしはなんちゃってプレス風にもなれない程度の撮影班）&lt;/p&gt;
+
+&lt;p&gt;西島はイベント開催5分前に登壇が決まったようで・・・&lt;del&gt;&lt;font size=&#34;2&#34;&gt;いやー圧力こわいこわい。。。&lt;/font&gt;&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;コミュニティの実状から方向性まで、パネリスト達が赤裸々に語り尽くした1時間！&lt;/p&gt;
+
+&lt;p&gt;西島は開催5分前に登壇が決まったにもかかわらず、安定の飲みっぷり＆語りっぷり( ∩ˇωˇ∩)
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka6.jpg&#34; data-lightbox=&#34;roadshowpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka6.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;金春はこの時にはわりとできあがっていたようです。。。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka9.jpg&#34; data-lightbox=&#34;roadshowpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka9.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;コミュニティを知らない人達にも入ってもらいやすい雰囲気づくりを改めて考えるきっかけになった時間でした（｡╹ω╹｡）&lt;/p&gt;
+
+&lt;h3 id=&#34;後半-lt大会:e861cc895ae8413206b9420feacc3a2a&#34;&gt;後半：LT大会&lt;/h3&gt;
+
+&lt;p&gt;後半は&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF5192&#34;&gt;華麗なるLTer達のLT大会&lt;/font&gt;&lt;/b&gt;です！&lt;/p&gt;
+
+&lt;p&gt;去年は&lt;b&gt;関西パイ姫&lt;/b&gt;という名誉ある称号を頂いたのですが、今回は残念ながらパイはなかったため、ドラ娘が&lt;b&gt;エアパイ&lt;/b&gt;っぽく頑張りました！（意味がry
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka7.jpg&#34; data-lightbox=&#34;roadshowpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;目の前でドラを叩かれる恐怖…！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka8.jpg&#34; data-lightbox=&#34;roadshowpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20151202/awscloudroadshow2015-osaka8.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;しかしなんと最後の最後でドラを叩く時に自分の指を叩いてしまって指の皮が剥がれ、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#CC0000&#34;&gt;ドラに血がががががが！！！！！！&lt;/font&gt;&lt;/b&gt;（ただし肝心の写真がない&lt;/p&gt;
+
+&lt;p&gt;いわくつきのドラになってしまいました。サーバーワークスさんハンズラボさんごめんなさい（&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF5192&#34;&gt;華麗なるLTer達&lt;/font&gt;&lt;/b&gt;のLT資料はこちら↓（※現時点でupされている人のみ）
+&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/fVMpqb6b5I6kSM&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/mitsuhiroyamashita90/2awsjawsug-in-aws-cloud-roadshow-2015&#34; title=&#34;2人情シスとAWS(JAWS-UG 大阪 in AWS Cloud Roadshow 2015)&#34; target=&#34;_blank&#34;&gt;2人情シスとAWS(JAWS-UG 大阪 in AWS Cloud Roadshow 2015)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/mitsuhiroyamashita90&#34; target=&#34;_blank&#34;&gt;Mitsuhiro Yamashita&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/7qKBQFDKmUkYWb&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/okeee0315/20151202-jawsug-awsjawsug2015-jawsug-awsroadshow&#34; title=&#34;20151202 jawsug AWSとJAWS-UG振り返り2015 - #jawsug #AWSRoadshow&#34; target=&#34;_blank&#34;&gt;20151202 jawsug AWSとJAWS-UG振り返り2015 - #jawsug #AWSRoadshow&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/okeee0315&#34; target=&#34;_blank&#34;&gt;Takuya Oketani&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;このあとは懇親会も盛り上がりましたよー！&lt;/p&gt;
+
+&lt;h1 id=&#34;最後に:e861cc895ae8413206b9420feacc3a2a&#34;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;年内の（会社として）出展するイベントは落ち着きましたが、（個人的には）まだまだ終わりません！！！！&lt;/p&gt;
+
+&lt;p&gt;年末までこのペースで突っ走ります✿(ღ✪ｖ✪)&lt;/p&gt;
+
+&lt;p&gt;皆さん&lt;b&gt;コスプレした人&lt;/b&gt;を見かけたらお気軽に声をかけてやってくださいね！&lt;/p&gt;
+
+&lt;p&gt;きっとそこから生まれる新しい繋がりもたくさんありますよ！ｲｪｲL(&amp;lsquo;ω&amp;rsquo;)┘三└(&amp;lsquo;ω&amp;rsquo;)｣ｲｪｲ&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>cybozu.comカンファレンス2015大阪にご来場頂いた皆様ありがとうございました！</title>
@@ -1171,86 +1270,6 @@ Promiseオブジェクトにはthen()というメソッドがあり、このthen
 &lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/546&#34;&gt;kintone 全国セミナー in大阪&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;以上、簡単ですがkintone Café 大阪 Vol.4の開催報告でした！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NRIハッカソン＠CEATEC JAPAN2015 大阪予選を突破しました！</title>
-      <link>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</link>
-      <pubDate>Mon, 14 Sep 2015 19:23:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</guid>
-      <description>
-
-&lt;p&gt;「大阪に出張で来るとき、いつも体調悪いね」って言われて凹んだ西島です、こんにちは。&lt;/p&gt;
-
-&lt;p&gt;さて、先日より&lt;a href=&#34;../hack-for-money/&#34;&gt;こちらの記事&lt;/a&gt;などでお知らせしていた &lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; 大阪予選ですが、見事弊社IoT部のアイデアが予選通過しました！ 今日はそのイベントの様子をご報告します。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/board.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/board.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;イベントの様子は他の会社様のサイトでも報告されていますので、こちらも合わせてご覧ください（見つけ次第随時追加予定）。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.val.co.jp/2015/09/hackathon-qualifier-osaka.html&#34;&gt;駅すぱあとWebサービスをMoneyハッカソンに提供！大阪予選レポート&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;アイデアソンの会場は大阪グランフロントにある大阪イノベーションハブでした。土曜日の朝9時半開始というなかなかのスケジュールで、あんまり人が来ないかな〜と思いきや、皆さん気合入ってます、しっかり時間キッチリにほぼ満員で始まりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;大阪予選はチーム参加＆個人参加の方々のチームビルディングの結果、16チームで争われることになりました。ちなみに我らのチーム名は「ナンデヤネンボット」でして、「ぽっと」ではありません。部長もお怒りです。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ちなみにこの「なんでやねんボット」は、&lt;a href=&#34;../iot-circle-meetup/&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;で生まれた、IoT部のマスコット兼影の部長です。沖縄から大阪、更に当日の人混みをかいくぐってのグランフロントと、移動を経てきてかなりボロボロです・・・。&lt;/p&gt;
-
-&lt;p&gt;午前中は、チームビルドやアイデア出し、素材提供企業のプレゼンや質疑応答などなどに費やされ、お昼前から15時までがプレゼン作成の勝負です。&lt;/p&gt;
-
-&lt;h2 id=&#34;アイデア検討-プレゼン作成:ceb2116a6a68ff065a78911e0ae7489b&#34;&gt;アイデア検討＆プレゼン作成&lt;/h2&gt;
-
-&lt;p&gt;お弁当を食べながら、コーヒーを飲みながら、アイデアを膨らませつつブラッシュアップ、資料作成〜とプレゼン発表まではあっという間でした。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;西島は、IoT部での参加ではなく、個人参加した前日夜の&lt;a href=&#34;https://mashupawards.doorkeeper.jp/events/29392&#34;&gt;某アイデアソンの惜敗・惨敗&lt;/a&gt;を受けて、ざっくりしたアイデアと実現可能性を確認したあとは、ただひたすら寸劇の効果を最大化すべくアイデア出しと資料の作成をしておりました（前日夜は、ここは大阪ということをすっかり忘れておりました・・・）。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;で、出来た資料はこちらです。厳格に3分で切られるということだったので、寸劇のリハーサルも含めてきっちり行いました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/tq5FRYYQa2MSCN&#34; width=&#34;510&#34; height=&#34;420&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/hack-for-money-201509-osaka&#34; title=&#34;Hack for Money 201509 osaka&#34; target=&#34;_blank&#34;&gt;Hack for Money 201509 osaka&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KoichiroNishijima&#34; target=&#34;_blank&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;どうですかこのすぐに役立つロボットと、タイム・トラベルのSF無限ループのミックス！（会場でプレゼン＋寸劇を見て、すぐ背景まで意図が分かった人は居たんでしょうか・・・）。&lt;/p&gt;
-
-&lt;h2 id=&#34;ドキドキのプレゼンテーション-結果発表:ceb2116a6a68ff065a78911e0ae7489b&#34;&gt;ドキドキのプレゼンテーション〜結果発表&lt;/h2&gt;
-
-&lt;p&gt;さて、プレゼン発表は、やはり半分以上のチームが寸劇を入れてくる、なかなか見応えのある内容でした。さすが大阪・・・。&lt;/p&gt;
-
-&lt;p&gt;（すみません、このあたりから大解像度の画像はありません）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/presentation.jpg&#34; alt=&#34;若干緊張気味の面々&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;で、結果は、無事予選突破の3チームの中に選ばれました！&lt;/p&gt;
-
-&lt;p&gt;いや〜、良かったよかった、という言葉しか出てきませんでした。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/result.jpg&#34; alt=&#34;予選突破！&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;分厚い賞品には、中身が何かドキドキしましたが・・・&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize1.jpg&#34; alt=&#34;賞品1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;本戦の入場パスでした！&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本戦は10月6日(火)～7日(水)に幕張メッセ　CEATEC JAPAN 2015会場内にて行われます。果たして部員一同ちゃんと仕事を整理して、会社の支援で幕張メッセに行けるのか！？乞うご期待！&lt;/p&gt;
-
-&lt;p&gt;（西島は特に沖縄からなので、とんでもなくお金と時間がかかります。前泊後泊必須だし・・・幕張不便です(;_;)&lt;/p&gt;
 </description>
     </item>
     
