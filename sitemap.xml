@@ -3,8 +3,13 @@
   
   <url>
     <loc>https://www.r3it.com/</loc>
-    <lastmod>2015-12-03T15:30:30+09:00</lastmod>
+    <lastmod>2015-12-11T10:15:02+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/blog/kintone/20151211_beyond-the-limit/</loc>
+    <lastmod>2015-12-11T10:15:02+09:00</lastmod>
   </url>
   
   <url>
@@ -108,12 +113,12 @@
   </url>
   
   <url>
-    <loc>https://www.r3it.com/solutions/kintone/systemupdate/</loc>
+    <loc>https://www.r3it.com/solutions/kintone/services/</loc>
     <lastmod>2015-09-09T16:04:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.r3it.com/solutions/kintone/services/</loc>
+    <loc>https://www.r3it.com/solutions/kintone/systemupdate/</loc>
     <lastmod>2015-09-09T16:04:37+09:00</lastmod>
   </url>
   

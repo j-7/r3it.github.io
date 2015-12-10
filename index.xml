@@ -5,8 +5,178 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Dec 2015 15:30:30 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Dec 2015 10:15:02 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintoneの限界を知る</title>
+      <link>https://www.r3it.com/blog/kintone/20151211_beyond-the-limit/</link>
+      <pubDate>Fri, 11 Dec 2015 10:15:02 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20151211_beyond-the-limit/</guid>
+      <description>
+
+&lt;p&gt;この記事は、&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kintone&#34;&gt;kintone Advent Calendar 2015&lt;/a&gt;参加の記事です。&lt;/p&gt;
+
+&lt;h1 id=&#34;己の限界を知る:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;己の限界を知る&lt;/h1&gt;
+
+&lt;p&gt;kintone楽しいですよね？
+Advent Calendarにも連日、システム連携やkintoneの便利な機能の紹介など、楽しい記事が掲載されています。&lt;/p&gt;
+
+&lt;p&gt;でも、それでいいんですか？&lt;/p&gt;
+
+&lt;p&gt;例えば、お酒を飲むときは己の限界を知った上で飲むのが大人というものですよね？
+スポーツ選手は、今の自分の限界を知った上で、そこを越えていく練習をするわけですよね？&lt;/p&gt;
+
+&lt;p&gt;そう、我々もkintoneの限界を知る必要があるのです。&lt;/p&gt;
+
+&lt;h1 id=&#34;限界を知ってどうするのか:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界を知ってどうするのか？&lt;/h1&gt;
+
+&lt;p&gt;もちろん、圧力です。
+（圧力の詳細は、&lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/column/14/346926/022700183/&#34;&gt;この記事&lt;/a&gt;を参照してください）&lt;/p&gt;
+
+&lt;p&gt;kintoneにより便利になってほしい、より高度なことができるようになってほしい、M◯のPowerAppsなんかに負けてほしくない、という願いを込めて、kintoneに己の限界を超えてもらうべく、サイ◯ウズさんに圧力をかけるわけです。&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その1-サブテーブルの行数:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その1（サブテーブルの行数）&lt;/h1&gt;
+
+&lt;p&gt;kintoneは、データ構造中にサブテーブルが持てて便利ですよね。
+Master-Slave型のデータ構造が簡単に表現できます。&lt;/p&gt;
+
+&lt;p&gt;でも、このSlave側行数が増えるとどうなるか、ご存知ですか？&lt;/p&gt;
+
+&lt;p&gt;例えば、こんなコードでがっつりサブテーブルに行を入れてみます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;for(var i = 0; i &amp;lt; 100; i++ ){
+	record.record.subTable.value.push(
+                {
+                    &#39;value&#39;: {
+                        &#39;no&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: &#39;&#39;
+                        },
+                        &#39;price&#39;: {
+                            &#39;type&#39; : &#39;NUMBER&#39;,
+                            &#39;value&#39;: price
+                        },
+                        &#39;remarks1&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remarks1
+                        },
+                        &#39;remarks2&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remarks2
+                        },
+                        &#39;remarks3&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remakrs3
+                        },
+                        //列はもっとある
+                    }
+                });
+}
+
+// これが鬼門
+kintone.app.record.set(record);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;はい、死亡しましたね。
+このデータを開くと、画面に行がぴろぴろ表示されていくのが見えます。&lt;/p&gt;
+
+&lt;p&gt;しかも、&lt;code&gt;kintone.app.record.set()&lt;/code&gt;というJavaScriptから変更したレコードを画面に反映するこの関数、すごい遅いです。
+100行追加したら、軽く数分帰ってこないことがあります。&lt;/p&gt;
+
+&lt;h2 id=&#34;こうしてほしい:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;リバースするほど解析したわけではないですが、ぴろぴろ表示されるということは、データを読みながらDOMを更新してるんじゃないかと推測されます。
+そうなると、都度reflowが起きるので遅くなるんじゃないかと。
+更新する部分はフラグメントにしておいて、あとで一気にDOMに追加する形になれば速くなるんじゃないかなと。&lt;/p&gt;
+
+&lt;p&gt;これ速くなると喜ぶ人多数いると思います。ね、サイ◯ウズさん&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その2-upsertは慎重に:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その2（UpSertは慎重に）&lt;/h1&gt;
+
+&lt;p&gt;kintoneでJSカスタマイズしていると、UpSert処理をよく使います。
+UpSert処理というのは、あるデータがあれば更新、なければ挿入というやつですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Promise&lt;/code&gt; 使って、こんな感じのコード書く方多いと思います。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;// 同じキーのデータがあるか検索する
+kintone.api(&amp;quot;/k/v1/records&amp;quot;, &amp;quot;GET&amp;quot;, searchParam).then(function (searchResp) {
+	if (searchResp.totalCount === &amp;quot;0&amp;quot;) {
+		// ないのでPost（=挿入）する
+		return kintone.api(&amp;quot;/k/v1/record&amp;quot;, &amp;quot;POST&amp;quot;, postData).then(function (postResp) {
+			console.log(&amp;quot;Post result:&amp;quot; + JSON.stringify(postResp));
+		});
+	} else {
+		// あるのでidを設定してPut（＝更新）する
+		postData[&amp;quot;id&amp;quot;] = loopResp.records[0].$id.value;
+		return kintone.api(&amp;quot;/k/v1/record&amp;quot;, &amp;quot;PUT&amp;quot;, postData).then(function (putResp) {
+			console.log(&amp;quot;Put result:&amp;quot; + JSON.stringify(putResp));
+		});
+	}
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ここで、最初の検索で、2件ヒットしたらどうなるでしょうか？
+（2件ヒットさせる時点でプログラムが間違っているわけですが・・・）
+下の更新の場合に &lt;code&gt;records[0]&lt;/code&gt; で１つ目のid使ってるので問題ないように見えますよね？&lt;/p&gt;
+
+&lt;p&gt;これ、kintoneが、「不正なリクエストです」って返す場合があります。&lt;/p&gt;
+
+&lt;p&gt;理由は・・・ここには書けませんが、何か裏でkintoneがヒーヒー言っちゃうようです。
+これが起きると、なぜかしばらくスペースにコメントが書き込めなくなったりもします。&lt;/p&gt;
+
+&lt;h2 id=&#34;こうしてほしい-1:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;2件ヒットさせる私が悪いです。すいません。
+だけど、2件ヒットしても大丈夫にしてほしい。
+（おそらく、これが解消されるとkintoneのパフォーマンスが上がる）&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その3-chromeだって神じゃない:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その3（Chromeだって神じゃない）&lt;/h1&gt;
+
+&lt;p&gt;これは、kintoneの限界というより、Chromeの限界です。でもkintoneでコード書いてると無意識にこの限界に到達することがあります。&lt;/p&gt;
+
+&lt;p&gt;例えば、以下のようなコード&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;var listA = [&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;, &amp;quot;E&amp;quot;,.....]; // 7000個要素がある
+
+return kintone.Promise.all($.map(listA, function(aItem, index){
+	return asyncFunctionForEachItem(aItem); // これはエラーになる
+})).then(function(){
+	// ここはlistAの要素全てに対する非同期呼び出しが終わってから呼ばれる
+});;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これChromeではエラーになります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$.map()&lt;/code&gt;は全要素を非同期に一斉に処理しようとする&lt;/li&gt;
+&lt;li&gt;非同期呼び出し内で外部のAPIの呼び出しがあると、7000個を同時に呼ぶことはできないのでブラウザ内で待ち行列が作られて順次処理される&lt;/li&gt;
+&lt;li&gt;Chromeの場合は、この待ち行列用に確保できるメモリが25MBまでと決まっている（変更もできないハードコーディング）&lt;/li&gt;
+&lt;li&gt;25MBでおよそ6000個に相当するため、これを超える呼び出しを行うと、&lt;code&gt;net::ERR_INSUFFICIENT_RESOURCES&lt;/code&gt;というエラーが続発する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;こうしてほしい-2:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;Chromeがんばれとしか言いようがない・・・ちなみに、Firefoxだと意外といけたりします。
+kintoneの限界じゃなかったですね、すいません。
+でも、ふんふん♪てコード書いてるとあっさりこの限界を迎えることがあります。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;disりたいわけじゃないです。
+kintoneをもっと良くしたいんです。&lt;/p&gt;
+
+&lt;p&gt;この想いが、サイ◯ウズさんに伝われば光栄です。&lt;/p&gt;
+
+&lt;p&gt;明日は、ミスターkintone ジョイゾーの四宮さんです。&lt;/p&gt;
+
+&lt;h1 id=&#34;元記事はこちら:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;元記事はこちら&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/t_konparu/items/01c9a6d9bfee119f578d&#34;&gt;kintoneの限界を知る&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AWS Cloud Roadshow 2015 大阪に出展しました！</title>
@@ -210,6 +380,32 @@
 &lt;h2 id=&#34;2015年12月14日-月-13時-ハイスピードsi導入相談会-in-東京:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;2015年12月14日（月） 13時〜 【ハイスピードSI導入相談会 in 東京】&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://coubic.com/r3institute/311345/express&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;　お申込はこちら　&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;開催概要:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;開催概要&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td&gt;日時&lt;/td&gt;
+  &lt;td&gt;2015年12月14日（月） 13時〜18時&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;会場&lt;/td&gt;
+  &lt;td&gt;&lt;a href=&#34;http://cybozu.co.jp/company/info/map_tokyo.html&#34;&gt;サイボウズ株式会社(本社：日本橋オフィス） &lt;/a&gt;&lt;br&gt;
+  〒103-6028 東京都 中央区日本橋2-7-1　東京日本橋タワー27F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;定員&lt;/td&gt;
+  &lt;td&gt;1時間1社様（1社3−4名までとさせていただきます）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;主催&lt;/td&gt;
+  &lt;td&gt;アールスリーインスティテュート&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;セッション内容:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;セッション内容&lt;/h3&gt;
 
 &lt;p&gt;ハイスピードSI導入相談会は、kintoneをはじめさまざまなクラウドツールを駆使し、皆様のお悩み事相談をお気軽に受け付ける、相談会です。1社様最大1時間程度のゆったりとした時間配分を取っておりますので、お気軽にご来場ください。&lt;/p&gt;
 
@@ -1200,76 +1396,6 @@ Promiseオブジェクトにはthen()というメソッドがあり、このthen
 &lt;p&gt;以上、駆け足でご紹介してきました。四国・東京・九州・大阪と、コミュニティイベントや展示会など、あちこちのイベントで皆様とお会いできることを、楽しみにしております！&lt;/p&gt;
 
 &lt;p&gt;そして、弊社社員を見かけた際には、ぜひお気軽にお声がけください！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 大阪 Vol.4が開催されました！</title>
-      <link>https://www.r3it.com/blog/kintone/20150918_kintonecafe-osaka4/</link>
-      <pubDate>Fri, 25 Sep 2015 13:14:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20150918_kintonecafe-osaka4/</guid>
-      <description>
-
-&lt;p&gt;2ヶ月に1回のペースで開催されているkintone Café 大阪4回目の勉強会の様子をお伝えします！&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-café-大阪-vol-4-が開催されました:6ed5655ec190c34dbad5a060c0f80370&#34;&gt;kintone Café 大阪 Vol.4 が開催されました&lt;/h2&gt;
-
-&lt;p&gt;kintone Café 大阪もついに4回目の開催！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-2.jpg&#34; data-lightbox=&#34;kintonecafe4&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF6633&#34;&gt;2ヶ月に1回&lt;/font&gt;&lt;/b&gt;というペースが崩れていないことが凄いですね⊂(　っ☉ω☉;)っ&lt;/p&gt;
-
-&lt;p&gt;登壇者の面々も固定ではなくいろんな立場の方々が登壇されるので、毎回参加させて頂く度に新しい発見があります٩(*˘ ³˘)۶&lt;/p&gt;
-
-&lt;p&gt;今回のkintone Caféは&lt;b&gt;『初心忘れるべからず！』&lt;/b&gt;ということで初心者向けの内容でした。&lt;/p&gt;
-
-&lt;p&gt;お申し込み頂いた方々の参加率も非常に高かったです！&lt;/p&gt;
-
-&lt;p&gt;皆さん集中してセッションに聞き入っていた様子。&lt;/p&gt;
-
-&lt;p&gt;今回はサイボウズで広報をされている方からの実際の事例もあり、より敷居も低く感じられたのではないでしょうか？
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-6.jpg&#34; data-lightbox=&#34;kintonecafe4&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-6.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;kintone標準の機能だけでも、アプリとして十分使える機能を実装することが可能です！&lt;/p&gt;
-
-&lt;p&gt;JavaScriptを絶対に使わないといけないのかというと、必ずしもそうとは限りません。&lt;/p&gt;
-
-&lt;p&gt;保守性の観点から考えても、非エンジニアの方にとっては、出来るだけ使わずにすむのであればそのほうが嬉しいですよね٩(●˙▿˙●)۶&lt;/p&gt;
-
-&lt;p&gt;私達エンジニアの観点では、なんでもかんでもJavaScriptって考えになりがちですが（わたしだけ？&lt;/p&gt;
-
-&lt;p&gt;弊社金春も今回登壇させて頂き、社内でのいろんなカスタマイズ事例をご紹介させて頂きました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-5.jpg&#34; data-lightbox=&#34;kintonecafe4&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-5.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;2&#34; color=&#34;#FF0000&#34;&gt;※ ここだけの話、かなりぶっちゃけた内容になってます！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/n7BNDDDzV0IJ2l&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150918-kintonecafe-osakavol4&#34; title=&#34;20150918 kintonecafe osaka_vol4&#34; target=&#34;_blank&#34;&gt;kintone Café 大阪 Vol.4 kintoneこういう使い方もあるよ！&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社サイトの&lt;a href=&#34;https://www.r3it.com/info/2015/gusuku-privatebeta-release/&#34;&gt;お知らせ&lt;/a&gt;でもお伝えしている&lt;b&gt;&lt;font size =&#34;6&#34; color=&#34;#008000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;についてもしっかりPR( ∩ˇωˇ∩)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-4.jpg&#34; data-lightbox=&#34;kintonecafe4&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20150918/kintonecafe0918-4.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;あ、みなさん是非gusukuお試しででも利用してみて下さいね！(&lt;em&gt;´˘`&lt;/em&gt;)♡&lt;/p&gt;
-
-&lt;h3 id=&#34;勉強会の後は:6ed5655ec190c34dbad5a060c0f80370&#34;&gt;勉強会の後は…&lt;/h3&gt;
-
-&lt;p&gt;懇親会で親睦を深めました！（写真はなし&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;今回がkintone Café初参加の方もけっこういらっしゃったようで、運営側の人間としても嬉しい限りです٩(๑&amp;gt;∀&amp;lt;๑)۶&lt;/p&gt;
-
-&lt;p&gt;今後もこういった勉強会をきっかけにkintoneに興味を持って頂く方が増えてくれたらなーと思います！&lt;/p&gt;
-
-&lt;h2 id=&#34;最後にちょっとだけお知らせ:6ed5655ec190c34dbad5a060c0f80370&#34;&gt;最後にちょっとだけお知らせ&lt;/h2&gt;
-
-&lt;p&gt;弊社サイボウズさんと一緒に今後もいろいろ行わせて頂く予定がありますので、この場をお借りして少しだけ告知させて頂きますね！&lt;/p&gt;
-
-&lt;p&gt;残席もあと少しとなっておりますが、kintoneについてまず知りたいということならこちらがオススメです✩˚₊‧(&lt;em&gt;ˊᗜ​ˋ&lt;/em&gt;)‧₊˚☆&lt;/p&gt;
-
-&lt;p&gt;個別相談会の時間も設けておりますので、社内でのお困りごとや疑問点、不安に思っていること等、お気軽に質問して頂くことも可能ですよー！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/546&#34;&gt;kintone 全国セミナー in大阪&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;以上、簡単ですがkintone Café 大阪 Vol.4の開催報告でした！&lt;/p&gt;
 </description>
     </item>
     

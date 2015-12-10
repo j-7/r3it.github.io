@@ -5,8 +5,178 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Dec 2015 15:30:30 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Dec 2015 10:15:02 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintoneの限界を知る</title>
+      <link>https://www.r3it.com/blog/kintone/20151211_beyond-the-limit/</link>
+      <pubDate>Fri, 11 Dec 2015 10:15:02 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20151211_beyond-the-limit/</guid>
+      <description>
+
+&lt;p&gt;この記事は、&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kintone&#34;&gt;kintone Advent Calendar 2015&lt;/a&gt;参加の記事です。&lt;/p&gt;
+
+&lt;h1 id=&#34;己の限界を知る:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;己の限界を知る&lt;/h1&gt;
+
+&lt;p&gt;kintone楽しいですよね？
+Advent Calendarにも連日、システム連携やkintoneの便利な機能の紹介など、楽しい記事が掲載されています。&lt;/p&gt;
+
+&lt;p&gt;でも、それでいいんですか？&lt;/p&gt;
+
+&lt;p&gt;例えば、お酒を飲むときは己の限界を知った上で飲むのが大人というものですよね？
+スポーツ選手は、今の自分の限界を知った上で、そこを越えていく練習をするわけですよね？&lt;/p&gt;
+
+&lt;p&gt;そう、我々もkintoneの限界を知る必要があるのです。&lt;/p&gt;
+
+&lt;h1 id=&#34;限界を知ってどうするのか:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界を知ってどうするのか？&lt;/h1&gt;
+
+&lt;p&gt;もちろん、圧力です。
+（圧力の詳細は、&lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/column/14/346926/022700183/&#34;&gt;この記事&lt;/a&gt;を参照してください）&lt;/p&gt;
+
+&lt;p&gt;kintoneにより便利になってほしい、より高度なことができるようになってほしい、M◯のPowerAppsなんかに負けてほしくない、という願いを込めて、kintoneに己の限界を超えてもらうべく、サイ◯ウズさんに圧力をかけるわけです。&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その1-サブテーブルの行数:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その1（サブテーブルの行数）&lt;/h1&gt;
+
+&lt;p&gt;kintoneは、データ構造中にサブテーブルが持てて便利ですよね。
+Master-Slave型のデータ構造が簡単に表現できます。&lt;/p&gt;
+
+&lt;p&gt;でも、このSlave側行数が増えるとどうなるか、ご存知ですか？&lt;/p&gt;
+
+&lt;p&gt;例えば、こんなコードでがっつりサブテーブルに行を入れてみます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;for(var i = 0; i &amp;lt; 100; i++ ){
+	record.record.subTable.value.push(
+                {
+                    &#39;value&#39;: {
+                        &#39;no&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: &#39;&#39;
+                        },
+                        &#39;price&#39;: {
+                            &#39;type&#39; : &#39;NUMBER&#39;,
+                            &#39;value&#39;: price
+                        },
+                        &#39;remarks1&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remarks1
+                        },
+                        &#39;remarks2&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remarks2
+                        },
+                        &#39;remarks3&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remakrs3
+                        },
+                        //列はもっとある
+                    }
+                });
+}
+
+// これが鬼門
+kintone.app.record.set(record);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;はい、死亡しましたね。
+このデータを開くと、画面に行がぴろぴろ表示されていくのが見えます。&lt;/p&gt;
+
+&lt;p&gt;しかも、&lt;code&gt;kintone.app.record.set()&lt;/code&gt;というJavaScriptから変更したレコードを画面に反映するこの関数、すごい遅いです。
+100行追加したら、軽く数分帰ってこないことがあります。&lt;/p&gt;
+
+&lt;h2 id=&#34;こうしてほしい:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;リバースするほど解析したわけではないですが、ぴろぴろ表示されるということは、データを読みながらDOMを更新してるんじゃないかと推測されます。
+そうなると、都度reflowが起きるので遅くなるんじゃないかと。
+更新する部分はフラグメントにしておいて、あとで一気にDOMに追加する形になれば速くなるんじゃないかなと。&lt;/p&gt;
+
+&lt;p&gt;これ速くなると喜ぶ人多数いると思います。ね、サイ◯ウズさん&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その2-upsertは慎重に:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その2（UpSertは慎重に）&lt;/h1&gt;
+
+&lt;p&gt;kintoneでJSカスタマイズしていると、UpSert処理をよく使います。
+UpSert処理というのは、あるデータがあれば更新、なければ挿入というやつですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Promise&lt;/code&gt; 使って、こんな感じのコード書く方多いと思います。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;// 同じキーのデータがあるか検索する
+kintone.api(&amp;quot;/k/v1/records&amp;quot;, &amp;quot;GET&amp;quot;, searchParam).then(function (searchResp) {
+	if (searchResp.totalCount === &amp;quot;0&amp;quot;) {
+		// ないのでPost（=挿入）する
+		return kintone.api(&amp;quot;/k/v1/record&amp;quot;, &amp;quot;POST&amp;quot;, postData).then(function (postResp) {
+			console.log(&amp;quot;Post result:&amp;quot; + JSON.stringify(postResp));
+		});
+	} else {
+		// あるのでidを設定してPut（＝更新）する
+		postData[&amp;quot;id&amp;quot;] = loopResp.records[0].$id.value;
+		return kintone.api(&amp;quot;/k/v1/record&amp;quot;, &amp;quot;PUT&amp;quot;, postData).then(function (putResp) {
+			console.log(&amp;quot;Put result:&amp;quot; + JSON.stringify(putResp));
+		});
+	}
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ここで、最初の検索で、2件ヒットしたらどうなるでしょうか？
+（2件ヒットさせる時点でプログラムが間違っているわけですが・・・）
+下の更新の場合に &lt;code&gt;records[0]&lt;/code&gt; で１つ目のid使ってるので問題ないように見えますよね？&lt;/p&gt;
+
+&lt;p&gt;これ、kintoneが、「不正なリクエストです」って返す場合があります。&lt;/p&gt;
+
+&lt;p&gt;理由は・・・ここには書けませんが、何か裏でkintoneがヒーヒー言っちゃうようです。
+これが起きると、なぜかしばらくスペースにコメントが書き込めなくなったりもします。&lt;/p&gt;
+
+&lt;h2 id=&#34;こうしてほしい-1:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;2件ヒットさせる私が悪いです。すいません。
+だけど、2件ヒットしても大丈夫にしてほしい。
+（おそらく、これが解消されるとkintoneのパフォーマンスが上がる）&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その3-chromeだって神じゃない:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その3（Chromeだって神じゃない）&lt;/h1&gt;
+
+&lt;p&gt;これは、kintoneの限界というより、Chromeの限界です。でもkintoneでコード書いてると無意識にこの限界に到達することがあります。&lt;/p&gt;
+
+&lt;p&gt;例えば、以下のようなコード&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;var listA = [&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;, &amp;quot;E&amp;quot;,.....]; // 7000個要素がある
+
+return kintone.Promise.all($.map(listA, function(aItem, index){
+	return asyncFunctionForEachItem(aItem); // これはエラーになる
+})).then(function(){
+	// ここはlistAの要素全てに対する非同期呼び出しが終わってから呼ばれる
+});;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これChromeではエラーになります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$.map()&lt;/code&gt;は全要素を非同期に一斉に処理しようとする&lt;/li&gt;
+&lt;li&gt;非同期呼び出し内で外部のAPIの呼び出しがあると、7000個を同時に呼ぶことはできないのでブラウザ内で待ち行列が作られて順次処理される&lt;/li&gt;
+&lt;li&gt;Chromeの場合は、この待ち行列用に確保できるメモリが25MBまでと決まっている（変更もできないハードコーディング）&lt;/li&gt;
+&lt;li&gt;25MBでおよそ6000個に相当するため、これを超える呼び出しを行うと、&lt;code&gt;net::ERR_INSUFFICIENT_RESOURCES&lt;/code&gt;というエラーが続発する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;こうしてほしい-2:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;Chromeがんばれとしか言いようがない・・・ちなみに、Firefoxだと意外といけたりします。
+kintoneの限界じゃなかったですね、すいません。
+でも、ふんふん♪てコード書いてるとあっさりこの限界を迎えることがあります。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;disりたいわけじゃないです。
+kintoneをもっと良くしたいんです。&lt;/p&gt;
+
+&lt;p&gt;この想いが、サイ◯ウズさんに伝われば光栄です。&lt;/p&gt;
+
+&lt;p&gt;明日は、ミスターkintone ジョイゾーの四宮さんです。&lt;/p&gt;
+
+&lt;h1 id=&#34;元記事はこちら:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;元記事はこちら&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/t_konparu/items/01c9a6d9bfee119f578d&#34;&gt;kintoneの限界を知る&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AWS Cloud Roadshow 2015 大阪に出展しました！</title>
@@ -1144,75 +1314,6 @@ LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.i
 &lt;p&gt;関西女子会は女子会用の会場を用意しますが、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;JAWS-UG大阪会場&lt;/a&gt;もありますよ！&lt;/p&gt;
 
 &lt;p&gt;何人の人が参加してくれるのか、今からすごく楽しみです+。:.ﾟ(๑＞◡╹๑)(๑╹◡＜๑):.｡+ﾟ&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintoneをより便利にするgusukuのご紹介</title>
-      <link>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</link>
-      <pubDate>Tue, 04 Aug 2015 14:41:07 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/introduction_to_gusuku/</guid>
-      <description>
-
-&lt;h2 id=&#34;kintoneをより便利にするために:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;kintoneをより便利にするために&lt;/h2&gt;
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;弊社ではサイボウズ社のkintoneを利用したシステム開発サービスとして「&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;ハイスピードSI&lt;/a&gt;」をご提供しております。
-&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;ハイスピードSI&lt;/a&gt;では、対面開発によりアプリケーションをどんどん変更していきます。&lt;/p&gt;
-
-&lt;h3 id=&#34;ステージングの重要性:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;ステージングの重要性&lt;/h3&gt;
-
-&lt;p&gt;本番運用がスタートした後にも、システムは変化し続ける必要があります。
-アプリケーションをする場合、いきなり本番環境を修正するわけにはいかず、通常は開発環境を用意してそこでまず修正を行います。&lt;/p&gt;
-
-&lt;p&gt;その後、本番環境に近いデータが入っているテスト環境にアプリケーションを入れ、最終的な動作確認を行い、ようやく本番環境にアプリケーションを入れることができます。&lt;/p&gt;
-
-&lt;p&gt;従来、kintoneではこのような段階を経て本番環境にアプリケーションを入れていく（ステージングと呼ばれます）ことはできませんした。&lt;/p&gt;
-
-&lt;p&gt;このような作業をするには以下のような手順が必要でした。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;開発用アプリで修正をする&lt;/li&gt;
-&lt;li&gt;修正結果を確認する&lt;/li&gt;
-&lt;li&gt;テスト用アプリに1で実施した修正を同じ修正を行う&lt;/li&gt;
-&lt;li&gt;テスト環境で動作確認する（ここで問題があれば1に戻る）&lt;/li&gt;
-&lt;li&gt;本番環境に1と同じ修正を行う&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;この手順は同じ作業を繰り返す必要があるため、手間がかかる上にミスする可能性も極めて大きいものでした。&lt;/p&gt;
-
-&lt;h3 id=&#34;gusukuサービスをスタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;gusukuサービスをスタートします&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusukuロゴ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2015年7月のkintoneの機能アップにより、このステージングをAPIを使ってできるようになりました。
-弊社では、この新APIを活用し、kintoneにステージング環境を提供するサービス（gusuku）を開発しています。&lt;/p&gt;
-
-&lt;p&gt;gusukuは、以下のような機能の提供を予定しておりkintoneをより便利に使えるようにしていきます&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定できます）&lt;/li&gt;
-&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
-&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
-&lt;li&gt;ある環境から別の環境への設計情報の配布（これにより開発環境での修正をテスト環境に反映というのが簡単にできます）&lt;/li&gt;
-&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;ところでgusukuって何:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;ところでgusukuって何？&lt;/h3&gt;
-
-&lt;p&gt;「gusuku」ひらがなだと「ぐすく」は、沖縄の言葉で「城」です。首里城もぐすくの一種で有名ですね。&lt;/p&gt;
-
-&lt;p&gt;こんな感じです。（これは城跡ですが）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku01.jpg&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kintoneで開発するアプリを守る城になりたいとの想いから、本サービスをgusukuと命名しました。&lt;/p&gt;
-
-&lt;h2 id=&#34;近日中にβサービススタートします:6ef987821d631d2bfc4cdf003b7bf1de&#34;&gt;近日中にβサービススタートします&lt;/h2&gt;
-
-&lt;p&gt;gusukuは鋭意開発中です。近日中にβサービスを開始しますのでご期待ください。&lt;/p&gt;
 </description>
     </item>
     

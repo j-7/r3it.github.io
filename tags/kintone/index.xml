@@ -5,8 +5,178 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 27 Nov 2015 10:27:10 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Dec 2015 10:15:02 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintoneの限界を知る</title>
+      <link>https://www.r3it.com/blog/kintone/20151211_beyond-the-limit/</link>
+      <pubDate>Fri, 11 Dec 2015 10:15:02 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20151211_beyond-the-limit/</guid>
+      <description>
+
+&lt;p&gt;この記事は、&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kintone&#34;&gt;kintone Advent Calendar 2015&lt;/a&gt;参加の記事です。&lt;/p&gt;
+
+&lt;h1 id=&#34;己の限界を知る:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;己の限界を知る&lt;/h1&gt;
+
+&lt;p&gt;kintone楽しいですよね？
+Advent Calendarにも連日、システム連携やkintoneの便利な機能の紹介など、楽しい記事が掲載されています。&lt;/p&gt;
+
+&lt;p&gt;でも、それでいいんですか？&lt;/p&gt;
+
+&lt;p&gt;例えば、お酒を飲むときは己の限界を知った上で飲むのが大人というものですよね？
+スポーツ選手は、今の自分の限界を知った上で、そこを越えていく練習をするわけですよね？&lt;/p&gt;
+
+&lt;p&gt;そう、我々もkintoneの限界を知る必要があるのです。&lt;/p&gt;
+
+&lt;h1 id=&#34;限界を知ってどうするのか:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界を知ってどうするのか？&lt;/h1&gt;
+
+&lt;p&gt;もちろん、圧力です。
+（圧力の詳細は、&lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/column/14/346926/022700183/&#34;&gt;この記事&lt;/a&gt;を参照してください）&lt;/p&gt;
+
+&lt;p&gt;kintoneにより便利になってほしい、より高度なことができるようになってほしい、M◯のPowerAppsなんかに負けてほしくない、という願いを込めて、kintoneに己の限界を超えてもらうべく、サイ◯ウズさんに圧力をかけるわけです。&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その1-サブテーブルの行数:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その1（サブテーブルの行数）&lt;/h1&gt;
+
+&lt;p&gt;kintoneは、データ構造中にサブテーブルが持てて便利ですよね。
+Master-Slave型のデータ構造が簡単に表現できます。&lt;/p&gt;
+
+&lt;p&gt;でも、このSlave側行数が増えるとどうなるか、ご存知ですか？&lt;/p&gt;
+
+&lt;p&gt;例えば、こんなコードでがっつりサブテーブルに行を入れてみます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;for(var i = 0; i &amp;lt; 100; i++ ){
+	record.record.subTable.value.push(
+                {
+                    &#39;value&#39;: {
+                        &#39;no&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: &#39;&#39;
+                        },
+                        &#39;price&#39;: {
+                            &#39;type&#39; : &#39;NUMBER&#39;,
+                            &#39;value&#39;: price
+                        },
+                        &#39;remarks1&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remarks1
+                        },
+                        &#39;remarks2&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remarks2
+                        },
+                        &#39;remarks3&#39;: {
+                            &#39;type&#39; : &#39;SINGLE_LINE_TEXT&#39;,
+                            &#39;value&#39;: remakrs3
+                        },
+                        //列はもっとある
+                    }
+                });
+}
+
+// これが鬼門
+kintone.app.record.set(record);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;はい、死亡しましたね。
+このデータを開くと、画面に行がぴろぴろ表示されていくのが見えます。&lt;/p&gt;
+
+&lt;p&gt;しかも、&lt;code&gt;kintone.app.record.set()&lt;/code&gt;というJavaScriptから変更したレコードを画面に反映するこの関数、すごい遅いです。
+100行追加したら、軽く数分帰ってこないことがあります。&lt;/p&gt;
+
+&lt;h2 id=&#34;こうしてほしい:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;リバースするほど解析したわけではないですが、ぴろぴろ表示されるということは、データを読みながらDOMを更新してるんじゃないかと推測されます。
+そうなると、都度reflowが起きるので遅くなるんじゃないかと。
+更新する部分はフラグメントにしておいて、あとで一気にDOMに追加する形になれば速くなるんじゃないかなと。&lt;/p&gt;
+
+&lt;p&gt;これ速くなると喜ぶ人多数いると思います。ね、サイ◯ウズさん&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その2-upsertは慎重に:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その2（UpSertは慎重に）&lt;/h1&gt;
+
+&lt;p&gt;kintoneでJSカスタマイズしていると、UpSert処理をよく使います。
+UpSert処理というのは、あるデータがあれば更新、なければ挿入というやつですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Promise&lt;/code&gt; 使って、こんな感じのコード書く方多いと思います。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;// 同じキーのデータがあるか検索する
+kintone.api(&amp;quot;/k/v1/records&amp;quot;, &amp;quot;GET&amp;quot;, searchParam).then(function (searchResp) {
+	if (searchResp.totalCount === &amp;quot;0&amp;quot;) {
+		// ないのでPost（=挿入）する
+		return kintone.api(&amp;quot;/k/v1/record&amp;quot;, &amp;quot;POST&amp;quot;, postData).then(function (postResp) {
+			console.log(&amp;quot;Post result:&amp;quot; + JSON.stringify(postResp));
+		});
+	} else {
+		// あるのでidを設定してPut（＝更新）する
+		postData[&amp;quot;id&amp;quot;] = loopResp.records[0].$id.value;
+		return kintone.api(&amp;quot;/k/v1/record&amp;quot;, &amp;quot;PUT&amp;quot;, postData).then(function (putResp) {
+			console.log(&amp;quot;Put result:&amp;quot; + JSON.stringify(putResp));
+		});
+	}
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ここで、最初の検索で、2件ヒットしたらどうなるでしょうか？
+（2件ヒットさせる時点でプログラムが間違っているわけですが・・・）
+下の更新の場合に &lt;code&gt;records[0]&lt;/code&gt; で１つ目のid使ってるので問題ないように見えますよね？&lt;/p&gt;
+
+&lt;p&gt;これ、kintoneが、「不正なリクエストです」って返す場合があります。&lt;/p&gt;
+
+&lt;p&gt;理由は・・・ここには書けませんが、何か裏でkintoneがヒーヒー言っちゃうようです。
+これが起きると、なぜかしばらくスペースにコメントが書き込めなくなったりもします。&lt;/p&gt;
+
+&lt;h2 id=&#34;こうしてほしい-1:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;2件ヒットさせる私が悪いです。すいません。
+だけど、2件ヒットしても大丈夫にしてほしい。
+（おそらく、これが解消されるとkintoneのパフォーマンスが上がる）&lt;/p&gt;
+
+&lt;h1 id=&#34;限界その3-chromeだって神じゃない:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;限界その3（Chromeだって神じゃない）&lt;/h1&gt;
+
+&lt;p&gt;これは、kintoneの限界というより、Chromeの限界です。でもkintoneでコード書いてると無意識にこの限界に到達することがあります。&lt;/p&gt;
+
+&lt;p&gt;例えば、以下のようなコード&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;var listA = [&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;, &amp;quot;E&amp;quot;,.....]; // 7000個要素がある
+
+return kintone.Promise.all($.map(listA, function(aItem, index){
+	return asyncFunctionForEachItem(aItem); // これはエラーになる
+})).then(function(){
+	// ここはlistAの要素全てに対する非同期呼び出しが終わってから呼ばれる
+});;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これChromeではエラーになります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$.map()&lt;/code&gt;は全要素を非同期に一斉に処理しようとする&lt;/li&gt;
+&lt;li&gt;非同期呼び出し内で外部のAPIの呼び出しがあると、7000個を同時に呼ぶことはできないのでブラウザ内で待ち行列が作られて順次処理される&lt;/li&gt;
+&lt;li&gt;Chromeの場合は、この待ち行列用に確保できるメモリが25MBまでと決まっている（変更もできないハードコーディング）&lt;/li&gt;
+&lt;li&gt;25MBでおよそ6000個に相当するため、これを超える呼び出しを行うと、&lt;code&gt;net::ERR_INSUFFICIENT_RESOURCES&lt;/code&gt;というエラーが続発する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;こうしてほしい-2:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;こうしてほしい&lt;/h2&gt;
+
+&lt;p&gt;Chromeがんばれとしか言いようがない・・・ちなみに、Firefoxだと意外といけたりします。
+kintoneの限界じゃなかったですね、すいません。
+でも、ふんふん♪てコード書いてるとあっさりこの限界を迎えることがあります。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;disりたいわけじゃないです。
+kintoneをもっと良くしたいんです。&lt;/p&gt;
+
+&lt;p&gt;この想いが、サイ◯ウズさんに伝われば光栄です。&lt;/p&gt;
+
+&lt;p&gt;明日は、ミスターkintone ジョイゾーの四宮さんです。&lt;/p&gt;
+
+&lt;h1 id=&#34;元記事はこちら:1f4b1fe4f2896cea9cd8107709dc4562&#34;&gt;元記事はこちら&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/t_konparu/items/01c9a6d9bfee119f578d&#34;&gt;kintoneの限界を知る&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>cybozu.comカンファレンス2015大阪にご来場頂いた皆様ありがとうございました！</title>
@@ -1128,76 +1298,6 @@ elMapContainer.appendChild(elMap);&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
 &lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone で作ったアプリを HTML に埋め込む js2kintone のご紹介</title>
-      <link>https://www.r3it.com/blog/kintone/js2kintone/</link>
-      <pubDate>Mon, 06 Jul 2015 18:30:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/js2kintone/</guid>
-      <description>
-
-&lt;p&gt;西島です、こんにちは。&lt;/p&gt;
-
-&lt;p&gt;今日は少し出遅れましたが AWS Lambda available in Tokyo! を記念しまして、先日オープンソースで公開しました &lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt; のご紹介をしたいと思います。&lt;/p&gt;
-
-&lt;p&gt;その前に、kintone とは？という方がいらっしゃいましたら、&lt;a href=&#34;https://www.r3it.com/blog/kintone/what_is_kintone/&#34;&gt;こちらの弊社ブログ&lt;/a&gt;をご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;js2kintone-とは:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;js2kintone とは？&lt;/h1&gt;
-
-&lt;p&gt;js2kintone は kintone で作成したアプリを HTML ファイルに埋め込むことが出来る JavaScript ライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
-
-&lt;h1 id=&#34;システム概要:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;システム概要&lt;/h1&gt;
-
-&lt;p&gt;システム概要は、以下のようになっています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/js2kintone-overview.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/js2kintone-overview.png&#34; width=&#34;640&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;これ、いまご覧の弊社Webサイトが、この構成になっています。技術要素をかいつまんで説明しますと、&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;HUGO&lt;/a&gt; でHTMLファイル生成&lt;/li&gt;
-&lt;li&gt;Amazon S3 にてWebホスティング&lt;/li&gt;
-&lt;li&gt;Amazon CloudFront でコンテンツ配信 + Server Name Indication（SNI）独自 SSL&lt;/li&gt;
-&lt;li&gt;問い合わせフォームでブラウザが直接 AWS Lambda を呼び出し、内容は最終的に kintone のアプリに格納&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;という流れです。&lt;/p&gt;
-
-&lt;p&gt;ブラウザから直接 Lambda を呼び出す例は、意外とまだ少ないようですので、参考にして頂ければと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;格安でのキャンペーン-コーポレートサイトのホスティングに最適:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;格安でのキャンペーン/コーポレートサイトのホスティングに最適&lt;/h1&gt;
-
-&lt;p&gt;「&lt;a href=&#34;http://aws.amazon.com/jp/s3-hosting/&#34;&gt;月額10円〜レンタルサーバを始める方法&lt;/a&gt;」を活用する際にいつもお困りネタの「お問い合わせフォームどうするの？」という問題に対して js2kintone を利用すると、ほぼ無料でお問い合わせフォーム付きのコーポレートサイトを作ることが出来ます（勿論、若干のAWS費用と、そもそもの kintone の費用は掛かりますよ！）。&lt;/p&gt;
-
-&lt;h1 id=&#34;以下いくつかのfaqにお応えしていきます:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;以下いくつかのFAQにお応えしていきます。&lt;/h1&gt;
-
-&lt;h2 id=&#34;古いブラウザはどうするの:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;古いブラウザはどうするの？&lt;/h2&gt;
-
-&lt;p&gt;いいところに気づきましたね。 AWS SDK for JavaScript in the Browser の &lt;a href=&#34;http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/browser-intro.html&#34;&gt;Browser Support&lt;/a&gt; はこちらにあるとおりです。いわゆるモダンブラウザ、ですね。&lt;/p&gt;
-
-&lt;p&gt;js2kintone では、モダンではないブラウザに対しては、以下の様なアプローチで対応しています。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/es-shims/es5-shim&#34;&gt;es5-shim.js&lt;/a&gt; を使って、スクリプト読み込み時にエラーを出さない&lt;/li&gt;
-&lt;li&gt;ブラウザを判別して、ごめんなさいメッセージを出す。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;es5-shim.jsで AWS SDK が動くかどうかまでは流石に調べる気にならず、戦略的撤退ということで、お願いします・・・。&lt;/p&gt;
-
-&lt;h2 id=&#34;設置方法がなに言ってるかわからない:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;設置方法がなに言ってるかわからない&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/js2kintone/&#34;&gt;js2kintone&lt;/a&gt; のページからダウンロードや設置方法にリンクが張られてるのですが、うーん、難しくないものの確かに少し面倒かもしれないですね。&lt;/p&gt;
-
-&lt;p&gt;もし js2kintone を使ってみたいんだけどよく分からん、という方がいらっしゃいましたら、有料設置サービスも行っておりますので、ぜひ&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;AWS Lambda available in Tokyo! を記念しているのに、 js2kintone がオレゴンをオススメしているのは仕様です。探さないでください(^_^;&lt;/p&gt;
-
-&lt;p&gt;ドキュメントはいつも最後なんです、ソース読みましょう。ではでは (^^)/&lt;/p&gt;
 </description>
     </item>
     
