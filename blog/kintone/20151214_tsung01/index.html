@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kintone環境の負荷テストをする（その1） | アールスリーインスティテュート</title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    
+    
+
+    <link rel="canonical" href="https://www.r3it.com/blog/kintone/20151214_tsung01/">
+    <meta content="kintone環境の負荷テストをする（その1） | アールスリーインスティテュート" name="title">
+    
+    <meta name="description" content="この記事は、kintone Advent Calendar 2015参加の記事です">
+
+    <meta name="keywords" content="kintone, JavaScript, ">
+
+    <meta property="fb:app_id" content="478756785605950"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="kintone環境の負荷テストをする（その1） | アールスリーインスティテュート"/>
+    <meta property="og:description" content="この記事は、kintone Advent Calendar 2015参加の記事です" />
+
+    <meta property="og:url" content="https://www.r3it.com/blog/kintone/20151214_tsung01/" />
+    
+    <meta property="og:image" content="https://www.r3it.com/images/blog/kintone/20151214-1.png" />
+    
+    <meta property="og:site_name" content="アールスリーインスティテュート">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <link rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-24363556-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+
+<header class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><img src="/images/r3logo_nav.png"></a>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="navbar-collapse collapse" id="bs-navbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/info/">お知らせ</a></li>
+        <li><a href="/solutions/">ハイスピードSI</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="/blog/">ブログ</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/#inquiry"><span class="envelope-style glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="container-fluid" id="breadcrumb-section">
+  <ol class="breadcrumb">
+    <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+    <li><a href="/blog/">R3 Cloud Developers Blog</a></li>
+    <li class="active">kintone環境の負荷テストをする（その1）</li>
+  </ol>
+</section>
+
+<section class="container-fluid" id="blog-article">
+  <div class="row">
+  	<div class="col-md-3">
+	
+      <h4><small>タグ一覧</small></h4>
+	  <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+        <ul class="nav bs-docs-sidenav">
+          
+          <li><a href="/tags/aws"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a></li>
+          
+          <li><a href="/tags/cloud"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a></li>
+          
+          <li><a href="/tags/community"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> community</a></li>
+          
+          <li><a href="/tags/etc"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> etc</a></li>
+          
+          <li><a href="/tags/hackathon"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> hackathon</a></li>
+          
+          <li><a href="/tags/jawsug"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> jawsug</a></li>
+          
+          <li><a href="/tags/kintone"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> kintone</a></li>
+          
+          <li><a href="/tags/oss"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> oss</a></li>
+          
+          <li><a href="/tags/talend"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> talend</a></li>
+          
+        </ul>
+	  </nav>
+
+	</div>
+  	<div class="col-md-8">
+	  <h1>kintone環境の負荷テストをする（その1）</h1>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        <img src="/images/blog/author/ikegami-100x100.png" class="img-circle pull-left" style="margin-right: 20px;">
+  	    <h5>Posted on 2015-12-15 13:50</h5>
+        <h4><a href="/blog/author/ikegami/">Ikegami MIdori</a></h4>
+      </div>
+      
+		
+		
+
+<h2 id="はじめに:7091683e56e9952ad905b8fce9a0ddf0">はじめに</h2>
+
+<p>この記事は<a href="http://qiita.com/advent-calendar/2015/kintone">kintone Advent Calendar 2015</a>12/14分の記事です。</p>
+
+<p>そしてうｐするのが0時回って涙目です。。。</p>
+
+<p>皆さんわりと真面目な記事をうｐされているようなので、ちょっと異なった切り口でkintoneにアプローチしてみようと思いました。マネージドなSaaSサービスを利用していた場合、普通の人なら考えないかもしれません。。。</p>
+
+<p>はい。自滅の覚悟で自虐ネタです（サイボウズさんほんとごめんなさい…</p>
+
+<p>今回は己の身を犠牲にして検証しているので
+良い子は真似しちゃ<b><font color="red">だめ！ゼッタイ！！！！！！！</font></b></p>
+
+<h2 id="事前準備:7091683e56e9952ad905b8fce9a0ddf0">事前準備</h2>
+
+<p>まずはkintone開発者アカウントを取得。
+※アカウント取得には <strong>cybozu.com developer network</strong> への登録が必要です。
+<a href="https://cybozudev.zendesk.com">https://cybozudev.zendesk.com</a></p>
+
+<p><img src="/images/blog/kintone/20151214-1.png" alt="" /></p>
+
+<p>しっかり利用規約は読んで下さい！利用規約マジ大事。</p>
+
+<h3 id="第３条-開発者ライセンスの利用条件:7091683e56e9952ad905b8fce9a0ddf0">第３条（開発者ライセンスの利用条件）</h3>
+
+<pre><code>開発者ライセンスに基づき対象サービスを利用する場合には、以下の全ての条件に従うものとします。
+    対象サービスに関する疑問等 については、cybozu.comサービス説明書の定めに関わらずテクニカルサポートサービスを利用することはできず、developer networkのコミュニティで質問をし、利用者自身で解決するものとします。
+    ・・・　中略　・・・
+    前項に定めるものの他、開発者ライセンスに基づく対象サービスの利用が、他の利用ユーザーに影響を及ぼす場合またはその恐れが有る場合、サイボウズは開発者ライセンスに基づく対象サービスの利用の停止、または利用者開発環境の削除をすることができるものとします。
+</code></pre>
+
+<h3 id="開発者アカウントでkintoneにログインできるか確認:7091683e56e9952ad905b8fce9a0ddf0">開発者アカウントでkintoneにログインできるか確認</h3>
+
+<p>ポータル画面にログイン出来るようになればkintone側の準備はOKです(๑´ㅂ`๑)</p>
+
+<p><img src="/images/blog/kintone/20151214-2.png" alt="" /></p>
+
+<h2 id="負荷テスト用ツールの準備:7091683e56e9952ad905b8fce9a0ddf0">負荷テスト用ツールの準備</h2>
+
+<p>負荷テストを実施するためには、計測するための環境が必要です。
+kintoneはSaaS環境なので、もちろんkintone環境にそんなツールを仕込むわけにはいきません。
+ということで、外部サーバーに環境を構築します。</p>
+
+<h2 id="外部サーバーに負荷ツールをインストール:7091683e56e9952ad905b8fce9a0ddf0">外部サーバーに負荷ツールをインストール</h2>
+
+<p>負荷ツールはオープンソースでもいろいろあるのですが、今回は<a href="http://tsung.erlang-projects.org/">Tsung</a>を採用してみました。</p>
+
+<h3 id="負荷ツールに必要なパッケージのインストール:7091683e56e9952ad905b8fce9a0ddf0">負荷ツールに必要なパッケージのインストール</h3>
+
+<p>Erlangで記述されているため、Erlangのインストールが必須です。
+<strong>Amazon Linux</strong>だと標準のレポジトリからインストール出来るんですね。お手軽！
+（EPEL必要かと思ってレポジトリ追加してから気づいた&hellip;）</p>
+
+<pre><code class="language-bash:">$ sudo yum list erlang
+Loaded plugins: priorities, protectbase, update-motd, upgrade-helper
+0 packages excluded due to repository protections
+Available Packages
+erlang.x86_64                                                                                               R14B-04.2.7.amzn1                                                                                               amzn-main
+
+
+$ sudo yum -y install erlang.x86_64
+Loaded plugins: priorities, protectbase, update-motd, upgrade-helper
+0 packages excluded due to repository protections
+Resolving Dependencies
+--&gt; Running transaction check
+---&gt; Package erlang.x86_64 0:R14B-04.2.7.amzn1 will be installed
+
+　・・・　中略　・・・
+
+Dependency Installed:
+  erlang-appmon.x86_64 0:R14B-04.2.7.amzn1               erlang-asn1.x86_64 0:R14B-04.2.7.amzn1                   erlang-common_test.x86_64 0:R14B-04.2.7.amzn1             erlang-compiler.x86_64 0:R14B-04.2.7.amzn1
+  erlang-cosEvent.x86_64 0:R14B-04.2.7.amzn1             erlang-cosEventDomain.x86_64 0:R14B-04.2.7.amzn1         erlang-cosFileTransfer.x86_64 0:R14B-04.2.7.amzn1         erlang-cosNotification.x86_64 0:R14B-04.2.7.amzn1
+  erlang-cosProperty.x86_64 0:R14B-04.2.7.amzn1          erlang-cosTime.x86_64 0:R14B-04.2.7.amzn1                erlang-cosTransactions.x86_64 0:R14B-04.2.7.amzn1         erlang-crypto.x86_64 0:R14B-04.2.7.amzn1
+  erlang-debugger.x86_64 0:R14B-04.2.7.amzn1             erlang-dialyzer.x86_64 0:R14B-04.2.7.amzn1               erlang-diameter.x86_64 0:R14B-04.2.7.amzn1                erlang-docbuilder.x86_64 0:R14B-04.2.7.amzn1
+  erlang-edoc.x86_64 0:R14B-04.2.7.amzn1                 erlang-erl_docgen.x86_64 0:R14B-04.2.7.amzn1             erlang-erl_interface.x86_64 0:R14B-04.2.7.amzn1           erlang-erts.x86_64 0:R14B-04.2.7.amzn1
+  erlang-et.x86_64 0:R14B-04.2.7.amzn1                   erlang-eunit.x86_64 0:R14B-04.2.7.amzn1                  erlang-examples.x86_64 0:R14B-04.2.7.amzn1                erlang-gs.x86_64 0:R14B-04.2.7.amzn1
+  erlang-hipe.x86_64 0:R14B-04.2.7.amzn1                 erlang-ic.x86_64 0:R14B-04.2.7.amzn1                     erlang-inets.x86_64 0:R14B-04.2.7.amzn1                   erlang-inviso.x86_64 0:R14B-04.2.7.amzn1
+  erlang-jinterface.x86_64 0:R14B-04.2.7.amzn1           erlang-kernel.x86_64 0:R14B-04.2.7.amzn1                 erlang-megaco.x86_64 0:R14B-04.2.7.amzn1                  erlang-mnesia.x86_64 0:R14B-04.2.7.amzn1
+  erlang-observer.x86_64 0:R14B-04.2.7.amzn1             erlang-odbc.x86_64 0:R14B-04.2.7.amzn1                   erlang-orber.x86_64 0:R14B-04.2.7.amzn1                   erlang-os_mon.x86_64 0:R14B-04.2.7.amzn1
+  erlang-otp_mibs.x86_64 0:R14B-04.2.7.amzn1             erlang-parsetools.x86_64 0:R14B-04.2.7.amzn1             erlang-percept.x86_64 0:R14B-04.2.7.amzn1                 erlang-pman.x86_64 0:R14B-04.2.7.amzn1
+  erlang-public_key.x86_64 0:R14B-04.2.7.amzn1           erlang-reltool.x86_64 0:R14B-04.2.7.amzn1                erlang-runtime_tools.x86_64 0:R14B-04.2.7.amzn1           erlang-sasl.x86_64 0:R14B-04.2.7.amzn1
+  erlang-snmp.x86_64 0:R14B-04.2.7.amzn1                 erlang-ssh.x86_64 0:R14B-04.2.7.amzn1                    erlang-ssl.x86_64 0:R14B-04.2.7.amzn1                     erlang-stdlib.x86_64 0:R14B-04.2.7.amzn1
+  erlang-syntax_tools.x86_64 0:R14B-04.2.7.amzn1         erlang-test_server.x86_64 0:R14B-04.2.7.amzn1            erlang-toolbar.x86_64 0:R14B-04.2.7.amzn1                 erlang-tools.x86_64 0:R14B-04.2.7.amzn1
+  erlang-tv.x86_64 0:R14B-04.2.7.amzn1                   erlang-typer.x86_64 0:R14B-04.2.7.amzn1                  erlang-webtool.x86_64 0:R14B-04.2.7.amzn1                 erlang-xmerl.x86_64 0:R14B-04.2.7.amzn1
+  libtool-ltdl.x86_64 0:2.4.2-20.4.8.3.31.amzn1          unixODBC.x86_64 0:2.2.14-14.7.amzn1
+
+Complete!
+
+</code></pre>
+
+<h4 id="tsungのダウンロード:7091683e56e9952ad905b8fce9a0ddf0">Tsungのダウンロード</h4>
+
+<p>サイトからパッケージをDLします。</p>
+
+<pre><code class="language-bash:">$ wget -P /tmp http://tsung.erlang-projects.org/dist/tsung-1.6.0.tar.gz
+--2015-12-14 13:52:02--  http://tsung.erlang-projects.org/dist/tsung-1.6.0.tar.gz
+Resolving tsung.erlang-projects.org (tsung.erlang-projects.org)... 37.187.100.238
+Connecting to tsung.erlang-projects.org (tsung.erlang-projects.org)|37.187.100.238|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1585794 (1.5M) [application/x-gzip]
+Saving to: ‘/tmp/tsung-1.6.0.tar.gz’
+
+tsung-1.6.0.tar.gz                                        100%[====================================================================================================================================&gt;]   1.51M   858KB/s   in 1.8s
+
+2015-12-14 13:52:04 (858 KB/s) - ‘/tmp/tsung-1.6.0.tar.gz’ saved [1585794/1585794]
+
+</code></pre>
+
+<h4 id="tsungの展開-コンパイル:7091683e56e9952ad905b8fce9a0ddf0">Tsungの展開＆コンパイル</h4>
+
+<p>DLしたパッケージを展開してコンパイルします。
+今回はテストなので、プレフィックス等コンパイル時にオプションは指定していません。
+（デフォルトの設定でインストールされる関係で、手間なのでrootにスイッチしてインストールしています）</p>
+
+<pre><code class="language-bash:">$ tar zxf tsung-1.6.0.tar.gz
+$ sudo su -（※ここでrootにスイッチ）
+
+# cd /home/ec2-user
+# ./configure &amp;&amp; make &amp;&amp; make install
+</code></pre>
+
+<h2 id="tsungを使用した負荷テスト:7091683e56e9952ad905b8fce9a0ddf0">Tsungを使用した負荷テスト</h2>
+
+<p>では、パッケージのインストールも完了したところで、早速負荷テストのための設定を行います。
+/usr/share/doc/tsung/examples 配下にサンプルのxmlファイルがあるので、これを参考にしたいと思います。</p>
+
+<h3 id="負荷テスト用のパラメータ設定:7091683e56e9952ad905b8fce9a0ddf0">負荷テスト用のパラメータ設定</h3>
+
+<p>記述方法は<a href="http://tsung.erlang-projects.org/user_manual/index.html">こちら</a>を参考にしながら。
+（※下記はサンプルです）</p>
+
+<pre><code class="language-diff:">$ diff -u /usr/share/doc/tsung/examples/http_simple.xml /home/ec2-user/tsung-1.6.0/http_simple.xml
+--- /usr/share/doc/tsung/examples/http_simple.xml       2015-12-14 14:10:31.191237188 +0000
++++ /home/ec2-user/tsung-1.6.0/http_simple.xml  2015-12-14 14:32:32.807241774 +0000
+@@ -9,22 +9,22 @@
+
+   &lt;!-- Server side setup --&gt;
+ &lt;servers&gt;
+-  &lt;server host=&quot;myserver&quot; port=&quot;80&quot; type=&quot;tcp&quot;&gt;&lt;/server&gt;
++  &lt;server host=&quot;***.cybozu.com&quot; port=&quot;443&quot; type=&quot;ssl&quot;&gt;&lt;/server&gt;
+ &lt;/servers&gt;
+
+   &lt;!-- to start os monitoring (cpu, network, memory). Use an erlang
+-  agent on the remote machine or SNMP. erlang is the default --&gt;
++  agent on the remote machine or SNMP. erlang is th default --&gt;
+   &lt;monitoring&gt;
+-    &lt;monitor host=&quot;myserver&quot; type=&quot;snmp&quot;&gt;&lt;/monitor&gt;
++    &lt;monitor host=&quot;***.cybozu.com&quot; type=&quot;snmp&quot;&gt;&lt;/monitor&gt;
+   &lt;/monitoring&gt;
+
+   &lt;load&gt;
+   &lt;!-- several arrival phases can be set: for each phase, you can set
+   the mean inter-arrival time between new clients and the phase
+   duration --&gt;
+-   &lt;arrivalphase phase=&quot;1&quot; duration=&quot;10&quot; unit=&quot;minute&quot;&gt;
+-     &lt;users interarrival=&quot;2&quot; unit=&quot;second&quot;&gt;&lt;/users&gt;
+-   &lt;/arrivalphase&gt;
++   &lt;arrivalphase phase=&quot;1&quot; duration=&quot;5&quot; unit=&quot;minute&quot;&gt;
++      &lt;users arrivalrate=&quot;10&quot; unit=&quot;minute&quot; maxnumber=&quot;50&quot; &gt;&lt;/users&gt;
++    &lt;/arrivalphase&gt;
+   &lt;/load&gt;
+
+   &lt;options&gt;
+
+</code></pre>
+
+<h3 id="ログファイルのパス:7091683e56e9952ad905b8fce9a0ddf0">ログファイルのパス</h3>
+
+<p>ログファイルは指定しなければ下記ディレクトリ配下に生成されます。
+ちゃんとサーバーに到達してるかリアルタイムで確認しながら実行するといいかもしれないですね。</p>
+
+<pre><code class="language-bash:"># ll /root/.tsung/log/20151214-1433/
+total 1820
+-rw-r--r-- 1 root root    1533 Dec 14 14:33 http_simple.xml
+-rw-r--r-- 1 root root      63 Dec 14 14:33 index.html
+-rw-r--r-- 1 root root       0 Dec 14 14:33 inets_error.log
+-rw-r--r-- 1 root root      62 Dec 14 14:34 match.log
+drwxr-xr-x 2 root root    4096 Dec 14 14:33 style
+-rw-r--r-- 1 root root       0 Dec 14 14:33 tsung-123456.dump
+-rw-r--r-- 1 root root 1819542 Dec 14 14:39 tsung_controller@ip-172-31-6-98.log
+-rw-r--r-- 1 root root   21142 Dec 14 14:39 tsung.log
+</code></pre>
+
+<pre><code class="language-bash:tsung.log"># stats: dump at 1450103940
+stats: users 0 1
+stats: {load,&quot;tsung_controller@ip-********&quot;} 1 0.0 0.0 0.0 0.0 0.0 30
+stats: {recvpackets,&quot;tsung_controller@ip-********&quot;} 1 11.0 0.0 82 1 24.724137931034488 29
+stats: {sentpackets,&quot;tsung_controller@ip-********&quot;} 1 23.0 0.0 53 1 30.275862068965516 29
+stats: {cpu,&quot;tsung_controller@ip-********&quot;} 1 0.3 0.0 0.7021063189568706 0.0 0.3420084262531492 30
+stats: {freemem,&quot;tsung_controller@ip-********&quot;} 1 917.98046875 0.0 926.50390625 913.51171875 917.7651041666667 30
+stats: session 0 0 0 38.845947265625 13.171142578125 14.41109375 50
+stats: users_count 0 50
+stats: finish_users_count 0 50
+stats: error_unknown 0 50
+EndMonitor:{1450,103940,410434}
+</code></pre>
+
+<p>次回はパラメータ設定していよいよ負荷テストします…うまくいくかどうか（</p>
+
+<p>その2につづく★</p>
+
+<h1 id="元記事はこちら:7091683e56e9952ad905b8fce9a0ddf0">元記事はこちら</h1>
+
+<p><a href="http://qiita.com/rocca0504/items/a33882887aa59e3fae66">kintone環境の負荷テストをする（その1）
+</a></p>
+
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col-md-3">
+  	</div>
+  	<div class="col-md-8">
+
+      <hr noshade>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        関連タグ：
+        <ul class="list-inline">
+          
+          <li><a href="/tags/kintone/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> kintone</a> </li>
+          
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">    
+      <div class="col-xs-12 col-sm-12 col-md-6 column">
+        <p>アールスリーインスティテュート  / Mail : <a href="mailto:info@r3it.com">info@r3it.com</a><br />
+        大阪本社<br />
+        Tel : 06-6271-3663 / Fax : 06-6271-6061<br />
+		  〒541-0053<br>
+          大阪府大阪市中央区本町2-3-4-8F</p>
+        <hr noshade>
+        <p>東京支社<br />
+          Tel : 03-6869-6891 / Fax : 03-6869-6892<br>
+          〒108-0023<br>
+          東京都港区芝浦三丁目14番19号 大成企業ビル6階</p>
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/AWS_Logo_Consulting_Partner_DARK.png"><br />
+		AWS Partner Network (APN) <br>コンサルティングパートナー
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/cop_silver_180.jpg"><br />
+		サイボウズ<br> オフィシャルパートナー
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; padding: 20px">&copy; 2015 R3 institute All Rights Reserved.</div>
+</footer>
+
+
+<script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/lightbox.css" />
+    <script type="text/javascript" src="/js/lightbox.min.js" charset="utf-8"></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+</body>
+</html>
+

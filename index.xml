@@ -5,8 +5,224 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Dec 2015 10:15:02 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2015 13:50:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone環境の負荷テストをする（その1）</title>
+      <link>https://www.r3it.com/blog/kintone/20151214_tsung01/</link>
+      <pubDate>Tue, 15 Dec 2015 13:50:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20151214_tsung01/</guid>
+      <description>
+
+&lt;h2 id=&#34;はじめに:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kintone&#34;&gt;kintone Advent Calendar 2015&lt;/a&gt;12/14分の記事です。&lt;/p&gt;
+
+&lt;p&gt;そしてうｐするのが0時回って涙目です。。。&lt;/p&gt;
+
+&lt;p&gt;皆さんわりと真面目な記事をうｐされているようなので、ちょっと異なった切り口でkintoneにアプローチしてみようと思いました。マネージドなSaaSサービスを利用していた場合、普通の人なら考えないかもしれません。。。&lt;/p&gt;
+
+&lt;p&gt;はい。自滅の覚悟で自虐ネタです（サイボウズさんほんとごめんなさい…&lt;/p&gt;
+
+&lt;p&gt;今回は己の身を犠牲にして検証しているので
+良い子は真似しちゃ&lt;b&gt;&lt;font color=&#34;red&#34;&gt;だめ！ゼッタイ！！！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;事前準備:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;事前準備&lt;/h2&gt;
+
+&lt;p&gt;まずはkintone開発者アカウントを取得。
+※アカウント取得には &lt;strong&gt;cybozu.com developer network&lt;/strong&gt; への登録が必要です。
+&lt;a href=&#34;https://cybozudev.zendesk.com&#34;&gt;https://cybozudev.zendesk.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20151214-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;しっかり利用規約は読んで下さい！利用規約マジ大事。&lt;/p&gt;
+
+&lt;h3 id=&#34;第３条-開発者ライセンスの利用条件:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;第３条（開発者ライセンスの利用条件）&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;開発者ライセンスに基づき対象サービスを利用する場合には、以下の全ての条件に従うものとします。
+    対象サービスに関する疑問等 については、cybozu.comサービス説明書の定めに関わらずテクニカルサポートサービスを利用することはできず、developer networkのコミュニティで質問をし、利用者自身で解決するものとします。
+    ・・・　中略　・・・
+    前項に定めるものの他、開発者ライセンスに基づく対象サービスの利用が、他の利用ユーザーに影響を及ぼす場合またはその恐れが有る場合、サイボウズは開発者ライセンスに基づく対象サービスの利用の停止、または利用者開発環境の削除をすることができるものとします。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;開発者アカウントでkintoneにログインできるか確認:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;開発者アカウントでkintoneにログインできるか確認&lt;/h3&gt;
+
+&lt;p&gt;ポータル画面にログイン出来るようになればkintone側の準備はOKです(๑´ㅂ`๑)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20151214-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;負荷テスト用ツールの準備:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷テスト用ツールの準備&lt;/h2&gt;
+
+&lt;p&gt;負荷テストを実施するためには、計測するための環境が必要です。
+kintoneはSaaS環境なので、もちろんkintone環境にそんなツールを仕込むわけにはいきません。
+ということで、外部サーバーに環境を構築します。&lt;/p&gt;
+
+&lt;h2 id=&#34;外部サーバーに負荷ツールをインストール:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;外部サーバーに負荷ツールをインストール&lt;/h2&gt;
+
+&lt;p&gt;負荷ツールはオープンソースでもいろいろあるのですが、今回は&lt;a href=&#34;http://tsung.erlang-projects.org/&#34;&gt;Tsung&lt;/a&gt;を採用してみました。&lt;/p&gt;
+
+&lt;h3 id=&#34;負荷ツールに必要なパッケージのインストール:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷ツールに必要なパッケージのインストール&lt;/h3&gt;
+
+&lt;p&gt;Erlangで記述されているため、Erlangのインストールが必須です。
+&lt;strong&gt;Amazon Linux&lt;/strong&gt;だと標準のレポジトリからインストール出来るんですね。お手軽！
+（EPEL必要かと思ってレポジトリ追加してから気づいた&amp;hellip;）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ sudo yum list erlang
+Loaded plugins: priorities, protectbase, update-motd, upgrade-helper
+0 packages excluded due to repository protections
+Available Packages
+erlang.x86_64                                                                                               R14B-04.2.7.amzn1                                                                                               amzn-main
+
+
+$ sudo yum -y install erlang.x86_64
+Loaded plugins: priorities, protectbase, update-motd, upgrade-helper
+0 packages excluded due to repository protections
+Resolving Dependencies
+--&amp;gt; Running transaction check
+---&amp;gt; Package erlang.x86_64 0:R14B-04.2.7.amzn1 will be installed
+
+　・・・　中略　・・・
+
+Dependency Installed:
+  erlang-appmon.x86_64 0:R14B-04.2.7.amzn1               erlang-asn1.x86_64 0:R14B-04.2.7.amzn1                   erlang-common_test.x86_64 0:R14B-04.2.7.amzn1             erlang-compiler.x86_64 0:R14B-04.2.7.amzn1
+  erlang-cosEvent.x86_64 0:R14B-04.2.7.amzn1             erlang-cosEventDomain.x86_64 0:R14B-04.2.7.amzn1         erlang-cosFileTransfer.x86_64 0:R14B-04.2.7.amzn1         erlang-cosNotification.x86_64 0:R14B-04.2.7.amzn1
+  erlang-cosProperty.x86_64 0:R14B-04.2.7.amzn1          erlang-cosTime.x86_64 0:R14B-04.2.7.amzn1                erlang-cosTransactions.x86_64 0:R14B-04.2.7.amzn1         erlang-crypto.x86_64 0:R14B-04.2.7.amzn1
+  erlang-debugger.x86_64 0:R14B-04.2.7.amzn1             erlang-dialyzer.x86_64 0:R14B-04.2.7.amzn1               erlang-diameter.x86_64 0:R14B-04.2.7.amzn1                erlang-docbuilder.x86_64 0:R14B-04.2.7.amzn1
+  erlang-edoc.x86_64 0:R14B-04.2.7.amzn1                 erlang-erl_docgen.x86_64 0:R14B-04.2.7.amzn1             erlang-erl_interface.x86_64 0:R14B-04.2.7.amzn1           erlang-erts.x86_64 0:R14B-04.2.7.amzn1
+  erlang-et.x86_64 0:R14B-04.2.7.amzn1                   erlang-eunit.x86_64 0:R14B-04.2.7.amzn1                  erlang-examples.x86_64 0:R14B-04.2.7.amzn1                erlang-gs.x86_64 0:R14B-04.2.7.amzn1
+  erlang-hipe.x86_64 0:R14B-04.2.7.amzn1                 erlang-ic.x86_64 0:R14B-04.2.7.amzn1                     erlang-inets.x86_64 0:R14B-04.2.7.amzn1                   erlang-inviso.x86_64 0:R14B-04.2.7.amzn1
+  erlang-jinterface.x86_64 0:R14B-04.2.7.amzn1           erlang-kernel.x86_64 0:R14B-04.2.7.amzn1                 erlang-megaco.x86_64 0:R14B-04.2.7.amzn1                  erlang-mnesia.x86_64 0:R14B-04.2.7.amzn1
+  erlang-observer.x86_64 0:R14B-04.2.7.amzn1             erlang-odbc.x86_64 0:R14B-04.2.7.amzn1                   erlang-orber.x86_64 0:R14B-04.2.7.amzn1                   erlang-os_mon.x86_64 0:R14B-04.2.7.amzn1
+  erlang-otp_mibs.x86_64 0:R14B-04.2.7.amzn1             erlang-parsetools.x86_64 0:R14B-04.2.7.amzn1             erlang-percept.x86_64 0:R14B-04.2.7.amzn1                 erlang-pman.x86_64 0:R14B-04.2.7.amzn1
+  erlang-public_key.x86_64 0:R14B-04.2.7.amzn1           erlang-reltool.x86_64 0:R14B-04.2.7.amzn1                erlang-runtime_tools.x86_64 0:R14B-04.2.7.amzn1           erlang-sasl.x86_64 0:R14B-04.2.7.amzn1
+  erlang-snmp.x86_64 0:R14B-04.2.7.amzn1                 erlang-ssh.x86_64 0:R14B-04.2.7.amzn1                    erlang-ssl.x86_64 0:R14B-04.2.7.amzn1                     erlang-stdlib.x86_64 0:R14B-04.2.7.amzn1
+  erlang-syntax_tools.x86_64 0:R14B-04.2.7.amzn1         erlang-test_server.x86_64 0:R14B-04.2.7.amzn1            erlang-toolbar.x86_64 0:R14B-04.2.7.amzn1                 erlang-tools.x86_64 0:R14B-04.2.7.amzn1
+  erlang-tv.x86_64 0:R14B-04.2.7.amzn1                   erlang-typer.x86_64 0:R14B-04.2.7.amzn1                  erlang-webtool.x86_64 0:R14B-04.2.7.amzn1                 erlang-xmerl.x86_64 0:R14B-04.2.7.amzn1
+  libtool-ltdl.x86_64 0:2.4.2-20.4.8.3.31.amzn1          unixODBC.x86_64 0:2.2.14-14.7.amzn1
+
+Complete!
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;tsungのダウンロード:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungのダウンロード&lt;/h4&gt;
+
+&lt;p&gt;サイトからパッケージをDLします。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ wget -P /tmp http://tsung.erlang-projects.org/dist/tsung-1.6.0.tar.gz
+--2015-12-14 13:52:02--  http://tsung.erlang-projects.org/dist/tsung-1.6.0.tar.gz
+Resolving tsung.erlang-projects.org (tsung.erlang-projects.org)... 37.187.100.238
+Connecting to tsung.erlang-projects.org (tsung.erlang-projects.org)|37.187.100.238|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1585794 (1.5M) [application/x-gzip]
+Saving to: ‘/tmp/tsung-1.6.0.tar.gz’
+
+tsung-1.6.0.tar.gz                                        100%[====================================================================================================================================&amp;gt;]   1.51M   858KB/s   in 1.8s
+
+2015-12-14 13:52:04 (858 KB/s) - ‘/tmp/tsung-1.6.0.tar.gz’ saved [1585794/1585794]
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;tsungの展開-コンパイル:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungの展開＆コンパイル&lt;/h4&gt;
+
+&lt;p&gt;DLしたパッケージを展開してコンパイルします。
+今回はテストなので、プレフィックス等コンパイル時にオプションは指定していません。
+（デフォルトの設定でインストールされる関係で、手間なのでrootにスイッチしてインストールしています）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ tar zxf tsung-1.6.0.tar.gz
+$ sudo su -（※ここでrootにスイッチ）
+
+# cd /home/ec2-user
+# ./configure &amp;amp;&amp;amp; make &amp;amp;&amp;amp; make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;tsungを使用した負荷テスト:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungを使用した負荷テスト&lt;/h2&gt;
+
+&lt;p&gt;では、パッケージのインストールも完了したところで、早速負荷テストのための設定を行います。
+/usr/share/doc/tsung/examples 配下にサンプルのxmlファイルがあるので、これを参考にしたいと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;負荷テスト用のパラメータ設定:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷テスト用のパラメータ設定&lt;/h3&gt;
+
+&lt;p&gt;記述方法は&lt;a href=&#34;http://tsung.erlang-projects.org/user_manual/index.html&#34;&gt;こちら&lt;/a&gt;を参考にしながら。
+（※下記はサンプルです）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff:&#34;&gt;$ diff -u /usr/share/doc/tsung/examples/http_simple.xml /home/ec2-user/tsung-1.6.0/http_simple.xml
+--- /usr/share/doc/tsung/examples/http_simple.xml       2015-12-14 14:10:31.191237188 +0000
++++ /home/ec2-user/tsung-1.6.0/http_simple.xml  2015-12-14 14:32:32.807241774 +0000
+@@ -9,22 +9,22 @@
+
+   &amp;lt;!-- Server side setup --&amp;gt;
+ &amp;lt;servers&amp;gt;
+-  &amp;lt;server host=&amp;quot;myserver&amp;quot; port=&amp;quot;80&amp;quot; type=&amp;quot;tcp&amp;quot;&amp;gt;&amp;lt;/server&amp;gt;
++  &amp;lt;server host=&amp;quot;***.cybozu.com&amp;quot; port=&amp;quot;443&amp;quot; type=&amp;quot;ssl&amp;quot;&amp;gt;&amp;lt;/server&amp;gt;
+ &amp;lt;/servers&amp;gt;
+
+   &amp;lt;!-- to start os monitoring (cpu, network, memory). Use an erlang
+-  agent on the remote machine or SNMP. erlang is the default --&amp;gt;
++  agent on the remote machine or SNMP. erlang is th default --&amp;gt;
+   &amp;lt;monitoring&amp;gt;
+-    &amp;lt;monitor host=&amp;quot;myserver&amp;quot; type=&amp;quot;snmp&amp;quot;&amp;gt;&amp;lt;/monitor&amp;gt;
++    &amp;lt;monitor host=&amp;quot;***.cybozu.com&amp;quot; type=&amp;quot;snmp&amp;quot;&amp;gt;&amp;lt;/monitor&amp;gt;
+   &amp;lt;/monitoring&amp;gt;
+
+   &amp;lt;load&amp;gt;
+   &amp;lt;!-- several arrival phases can be set: for each phase, you can set
+   the mean inter-arrival time between new clients and the phase
+   duration --&amp;gt;
+-   &amp;lt;arrivalphase phase=&amp;quot;1&amp;quot; duration=&amp;quot;10&amp;quot; unit=&amp;quot;minute&amp;quot;&amp;gt;
+-     &amp;lt;users interarrival=&amp;quot;2&amp;quot; unit=&amp;quot;second&amp;quot;&amp;gt;&amp;lt;/users&amp;gt;
+-   &amp;lt;/arrivalphase&amp;gt;
++   &amp;lt;arrivalphase phase=&amp;quot;1&amp;quot; duration=&amp;quot;5&amp;quot; unit=&amp;quot;minute&amp;quot;&amp;gt;
++      &amp;lt;users arrivalrate=&amp;quot;10&amp;quot; unit=&amp;quot;minute&amp;quot; maxnumber=&amp;quot;50&amp;quot; &amp;gt;&amp;lt;/users&amp;gt;
++    &amp;lt;/arrivalphase&amp;gt;
+   &amp;lt;/load&amp;gt;
+
+   &amp;lt;options&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ログファイルのパス:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;ログファイルのパス&lt;/h3&gt;
+
+&lt;p&gt;ログファイルは指定しなければ下記ディレクトリ配下に生成されます。
+ちゃんとサーバーに到達してるかリアルタイムで確認しながら実行するといいかもしれないですね。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;# ll /root/.tsung/log/20151214-1433/
+total 1820
+-rw-r--r-- 1 root root    1533 Dec 14 14:33 http_simple.xml
+-rw-r--r-- 1 root root      63 Dec 14 14:33 index.html
+-rw-r--r-- 1 root root       0 Dec 14 14:33 inets_error.log
+-rw-r--r-- 1 root root      62 Dec 14 14:34 match.log
+drwxr-xr-x 2 root root    4096 Dec 14 14:33 style
+-rw-r--r-- 1 root root       0 Dec 14 14:33 tsung-123456.dump
+-rw-r--r-- 1 root root 1819542 Dec 14 14:39 tsung_controller@ip-172-31-6-98.log
+-rw-r--r-- 1 root root   21142 Dec 14 14:39 tsung.log
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:tsung.log&#34;&gt;# stats: dump at 1450103940
+stats: users 0 1
+stats: {load,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 0.0 0.0 0.0 0.0 0.0 30
+stats: {recvpackets,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 11.0 0.0 82 1 24.724137931034488 29
+stats: {sentpackets,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 23.0 0.0 53 1 30.275862068965516 29
+stats: {cpu,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 0.3 0.0 0.7021063189568706 0.0 0.3420084262531492 30
+stats: {freemem,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 917.98046875 0.0 926.50390625 913.51171875 917.7651041666667 30
+stats: session 0 0 0 38.845947265625 13.171142578125 14.41109375 50
+stats: users_count 0 50
+stats: finish_users_count 0 50
+stats: error_unknown 0 50
+EndMonitor:{1450,103940,410434}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;次回はパラメータ設定していよいよ負荷テストします…うまくいくかどうか（&lt;/p&gt;
+
+&lt;p&gt;その2につづく★&lt;/p&gt;
+
+&lt;h1 id=&#34;元記事はこちら:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;元記事はこちら&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/rocca0504/items/a33882887aa59e3fae66&#34;&gt;kintone環境の負荷テストをする（その1）
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintoneの限界を知る</title>
@@ -377,64 +593,6 @@ kintoneをもっと良くしたいんです。&lt;/p&gt;
       <guid>https://www.r3it.com/solutions/kintone/event-seminar/</guid>
       <description>
 
-&lt;h2 id=&#34;2015年12月14日-月-13時-ハイスピードsi導入相談会-in-東京:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;2015年12月14日（月） 13時〜 【ハイスピードSI導入相談会 in 東京】&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://coubic.com/r3institute/311345/express&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;　お申込はこちら　&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;開催概要:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;開催概要&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-  &lt;td&gt;日時&lt;/td&gt;
-  &lt;td&gt;2015年12月14日（月） 13時〜18時&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;会場&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;http://cybozu.co.jp/company/info/map_tokyo.html&#34;&gt;サイボウズ株式会社(本社：日本橋オフィス） &lt;/a&gt;&lt;br&gt;
-  〒103-6028 東京都 中央区日本橋2-7-1　東京日本橋タワー27F&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;定員&lt;/td&gt;
-  &lt;td&gt;1時間1社様（1社3−4名までとさせていただきます）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;主催&lt;/td&gt;
-  &lt;td&gt;アールスリーインスティテュート&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;セッション内容:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;セッション内容&lt;/h3&gt;
-
-&lt;p&gt;ハイスピードSI導入相談会は、kintoneをはじめさまざまなクラウドツールを駆使し、皆様のお悩み事相談をお気軽に受け付ける、相談会です。1社様最大1時間程度のゆったりとした時間配分を取っておりますので、お気軽にご来場ください。&lt;/p&gt;
-
-&lt;p&gt;先日11月6日（東京）、20日（大阪）で開催されました、cybozu.comカンファレンス2015の基調講演で弊社 金春（こんぱる）がお話させていただいた「ハイスピードSI」について、もっと突っ込んで話を聞きたいという方、ぜひお越しください。&lt;/p&gt;
-
-&lt;p&gt;参加費用は無料です。会場はサイボウズ株式会社(本社：日本橋オフィス）となります。&lt;/p&gt;
-
-&lt;p&gt;参考：&lt;a href=&#34;http://japan.zdnet.com/article/35073326/&#34;&gt;ZDNet Japan / ワークスタイル変革がもたらす可能性を模索せよ&amp;ndash;サイボウズ青野氏 -&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://coubic.com/r3institute/311345/express&#34;&gt;お時間のご予約はこちら&lt;/a&gt;からお願いいたします。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-circle wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/cybozuconf2015.png&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;2015年12月11日-金-15時-kintone-全国セミナー-in-大阪:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;2015年12月11日（金） 15時〜 【kintone 全国セミナー in 大阪】&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/579&#34;&gt;https://cybozu.smktg.jp/public/seminar/view/579&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ハイスピードsiで実現する具体的な活用事例解説:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;ハイスピードSIで実現する具体的な活用事例解説&lt;/h3&gt;
-
-&lt;p&gt;をテーマに、従来のSIと比べたハイスピードSIの世界観を知っていただくとともに、その手段としてのkintoneをどんなところに活用すれば効果的かについて、事例を交えてご紹介します。&lt;/p&gt;
-
-&lt;p&gt;参加費用は無料です。会場はサイボウズ株式会社大阪オフィス（梅田阪急ビル） となります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/579&#34;&gt;詳細やお申込はこちら&lt;/a&gt;からお願いいたします。&lt;/p&gt;
-
-&lt;hr /&gt;
-
 &lt;h2 id=&#34;2015年12月21日-月-16時-kintone-全国セミナー-in-東京:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;2015年12月21日（月） 16時〜 【kintone 全国セミナー in 東京】&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/594&#34;&gt;https://cybozu.smktg.jp/public/seminar/view/594&lt;/a&gt;&lt;/p&gt;
@@ -449,6 +607,8 @@ kintoneをもっと良くしたいんです。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/594&#34;&gt;詳細やお申込はこちら&lt;/a&gt;からお願いいたします。&lt;/p&gt;
 
+&lt;p&gt;&lt;img class=&#34;img-circle wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/cybozuconf2015.png&#34;&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;kintoneセミナー-kintone-café-その他イベント開催報告:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;kintoneセミナー / kintone Café / その他イベント開催報告&lt;/h2&gt;
@@ -461,6 +621,13 @@ kintoneをもっと良くしたいんです。&lt;/p&gt;
 &lt;table class=&#34;table&#34;&gt;
 &lt;tbody&gt;
 
+&lt;tr&gt;
+  &lt;td&gt;2015年12月11日&lt;/td&gt;
+  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
+  &lt;td&gt;
+  満員御礼 / &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1038056139549969&#34; target=&#34;_blank&#34;&gt;セミナーの様子
+  &lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;2015年11月20日&lt;/td&gt;
   &lt;td&gt;kintone Café大阪 Vol.5&lt;/td&gt;
@@ -1300,102 +1467,6 @@ Promiseオブジェクトにはthen()というメソッドがあり、このthen
 &lt;p&gt;今後の予定ですが、部長の「僕しかハードウェア出来ないのはイカン！」という鶴の一声により、みんなでLED時計を作成する予定です。ハンダごての扱いや、マイコンの基本的な知識、制御が必要になってきますね。&lt;/p&gt;
 
 &lt;p&gt;それではまた！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2015年秋のイベントのお知らせ</title>
-      <link>https://www.r3it.com/blog/etc/201510-11_events_support/</link>
-      <pubDate>Mon, 05 Oct 2015 11:54:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/201510-11_events_support/</guid>
-      <description>
-
-&lt;p&gt;NRIハッカソン＠CEATEC JAPAN2015の東京本選会場へ移動中の機内からこんにちは、西島です（こちらの結果報告はまた別のブログで・・・）。&lt;/p&gt;
-
-&lt;p&gt;2015年も気が付くと10月に入っておりまして、秋の展示会シーズンが迫っておりその準備でてんてこ舞いです。その他にも、弊社がサポーターをさせていただいているコミュニティイベントも色々有りますので、ここでまとめてご報告します。&lt;/p&gt;
-
-&lt;p&gt;いずれかの会場にてアールスリーのメンバーとお会いしましょう！&lt;/p&gt;
-
-&lt;h2 id=&#34;2015年10月10日-土曜日-四国クラウドお遍路-2015:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;2015年10月10日（土曜日） 四国クラウドお遍路 2015&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ohenro.jaws-ug.jp/&#34;&gt;http://ohenro.jaws-ug.jp/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;（&lt;a href=&#34;https://jawsohenro.doorkeeper.jp/events/30061&#34;&gt;イベントのお申し込みはこちら&lt;/a&gt;）&lt;/p&gt;
-
-&lt;p&gt;今週の土曜日ですね！&lt;/p&gt;
-
-&lt;p&gt;四国クラウドお遍路は&lt;a href=&#34;http://ohenro.jaws-ug.jp/?p=455&#34;&gt;弊社がサポーターとして支援&lt;/a&gt;させていただいております、四国各県のJAWS-UGが合同で主催するのコミュニティイベントとなります。弊社からは金春（こんぱる）が【個人・経営者・コミュニティメンバーの各視点から見たクラウドでの働き方】というタイトルで登壇させていただきます。また、池上もライトニングトークさせていただくことに（本日）決まったようです！&lt;/p&gt;
-
-&lt;p&gt;四国の皆様是非お越しください！&lt;/p&gt;
-
-&lt;h2 id=&#34;2015年10月15日-木曜日-kintone-hive-vol-2:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;2015年10月15日（木曜日） kintone hive vol.2&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://kintone.cybozu.com/jp/event/hive2015/10/&#34;&gt;https://kintone.cybozu.com/jp/event/hive2015/10/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;新社屋のエントランスが公園状態との噂のサイボウズさんで懇親会が開催される、kintone hive vol.2 です！&lt;/p&gt;
-
-&lt;p&gt;初開催となった&lt;a href=&#34;https://www.r3it.com/info/2015/kintone-hive/&#34;&gt;前回のvol.1&lt;/a&gt;に引き続き、弊社金春（こんぱる）が &amp;ldquo;kintone hack&amp;rdquo; というお題でライトニングトークさせていただきます。また、kintoneユーザーの生の声をヒアリングしに kintone 専属エンジニアの池上がお伺いします。彼女がコスプレ・・・してるかどうかは諸々の圧力により分かりませんが、会場でお見かけの際にはぜひお気軽にお声がけください！&lt;/p&gt;
-
-&lt;h2 id=&#34;2015年11月2日-月曜日-jaws-ug大分:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;2015年11月2日（月曜日） JAWS-UG大分&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/oita/&#34;&gt;http://jaws-ug.jp/bc/oita/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;翌日のJAWS Festa 九州の前日入りしてJAWS-UG大分に参戦します。&lt;/p&gt;
-
-&lt;p&gt;弊社からはまたまた金春がお邪魔します！大分の皆様、よろしくお願い致します。&lt;/p&gt;
-
-&lt;h2 id=&#34;2015年11月3日-火曜日-文化の日-jaws-festa-九州-2015:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;2015年11月3日（火曜日・文化の日） JAWS Festa 九州 2015&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jft2015.jaws-ug.jp/&#34;&gt;&lt;img src=&#34;http://jft2015.jaws-ug.jp/wp-content/uploads/2015/09/fb_jaws_kyushu_950x340px.png&#34; alt=&#34;JAWS FESTA Kyusyu 2015&#34; class=&#34;img-thumbnail img-responsive&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;JAWS-UG秋の祭典、JAWS Festaは今年は九州博多で開催されます！&lt;/p&gt;
-
-&lt;p&gt;弊社からは金春とAWSサムライ西島が参戦し、西島は「帰ってきたCDP道場」と題しまして、AWSを使ったアーキテクチャ設計のグループワークのファシリテーターとしてサポートさせて頂きます！&lt;/p&gt;
-
-&lt;p&gt;この日は日本全国からJAWS-UGの同志たちが福岡に集結します。九州近隣の皆様は是非ご参加ください！&lt;/p&gt;
-
-&lt;h2 id=&#34;2015年11月6日-金曜日-cybozu-com-カンファレンス-2015-東京:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;2015年11月6日（金曜日） cybozu.com カンファレンス 2015 東京&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozuconf.com/&#34;&gt;https://cybozuconf.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;11月6日、東京のホテルニューオータニで行われる cybozu.com カンファレンス 2015 にゴールドスポンサーとして出展いたします！&lt;/p&gt;
-
-&lt;p&gt;ブースの場所は・・・まだ分かりませんが、いつもの2倍のスペースで皆様をお迎えします。【「だけじゃない」kintone】を全面に、kintone のちょっと高度な、凝った使い方の事例をご覧頂けるようになっております。関東にお住まいの方は、是非お越しください！&lt;/p&gt;
-
-&lt;p&gt;そしてなんと弊社金春が基調講演のゲストとして、そうそうたる豪華なゲストとともに講演します！様々な切り口で迎えられたゲストを見るだけでもビックリです。&lt;/p&gt;
-
-&lt;p&gt;各セッションの解説をされている、こちらの&lt;a href=&#34;https://www.facebook.com/cybozu.comconference&#34;&gt;Facebookページ&lt;/a&gt;もぜひご覧ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;2015年11月7日-土曜日-神戸itフェスティバル:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;2015年11月7日（土曜日） 神戸ITフェスティバル&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kobe-it-fes.org/&#34;&gt;&lt;img src=&#34;http://kobe-it-fes.org/etc/kif2015_bnr640x280.png&#34; alt=&#34;神戸ITフェスティバル2015：11月6・7日開催！&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;翌日の土曜日は神戸にて神戸ITフェスティバルが開催されます！&lt;/p&gt;
-
-&lt;p&gt;弊社はサポーターとして協賛させていただいており、展示物はありませんがパンフレット配布の予定があります。どこかに（コスプレした）弊社社員が潜り込んでいるかも！？&lt;/p&gt;
-
-&lt;h2 id=&#34;2015年11月20日-金曜日-cybozu-com-カンファレンス-2015-大阪:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;2015年11月20日（金曜日） cybozu.com カンファレンス 2015 大阪&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozuconf.com/&#34;&gt;https://cybozuconf.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;11月20日は大阪にてcybozu.com カンファレンスです！&lt;/p&gt;
-
-&lt;p&gt;こちらもゴールドスポンサーにて出展いたしますので、みなさまのご来場をお待ちしております。地元大阪での開催ですからね、東京よりも気合入ってブース展開します！&lt;/p&gt;
-
-&lt;p&gt;大阪でも、基調講演のゲストとして弊社金春が登壇させていただきます。もし東京でお見逃しになった場合でも、大阪で再度ご覧になるチャンスがあります！&lt;/p&gt;
-
-&lt;h2 id=&#34;2015年12月2日-水曜日-aws-cloud-roadshow-2015-大阪:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;2015年12月2日（水曜日） AWS Cloud Roadshow 2015 大阪&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://roadshow.awseventsjapan.com/&#34;&gt;http://roadshow.awseventsjapan.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;秋の展示会シーズンの最後を飾るのは、AWS Cloud Roadshow 2015 大阪です。こちらも大阪での開催、昨年同様気合入ってますよ！&lt;/p&gt;
-
-&lt;h1 id=&#34;各会場にてお待ちしております:c1a7f0b3e91f7124d5166792c1355e95&#34;&gt;各会場にてお待ちしております！&lt;/h1&gt;
-
-&lt;p&gt;以上、駆け足でご紹介してきました。四国・東京・九州・大阪と、コミュニティイベントや展示会など、あちこちのイベントで皆様とお会いできることを、楽しみにしております！&lt;/p&gt;
-
-&lt;p&gt;そして、弊社社員を見かけた際には、ぜひお気軽にお声がけください！&lt;/p&gt;
 </description>
     </item>
     

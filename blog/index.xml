@@ -5,8 +5,224 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Dec 2015 10:15:02 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2015 13:50:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone環境の負荷テストをする（その1）</title>
+      <link>https://www.r3it.com/blog/kintone/20151214_tsung01/</link>
+      <pubDate>Tue, 15 Dec 2015 13:50:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20151214_tsung01/</guid>
+      <description>
+
+&lt;h2 id=&#34;はじめに:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kintone&#34;&gt;kintone Advent Calendar 2015&lt;/a&gt;12/14分の記事です。&lt;/p&gt;
+
+&lt;p&gt;そしてうｐするのが0時回って涙目です。。。&lt;/p&gt;
+
+&lt;p&gt;皆さんわりと真面目な記事をうｐされているようなので、ちょっと異なった切り口でkintoneにアプローチしてみようと思いました。マネージドなSaaSサービスを利用していた場合、普通の人なら考えないかもしれません。。。&lt;/p&gt;
+
+&lt;p&gt;はい。自滅の覚悟で自虐ネタです（サイボウズさんほんとごめんなさい…&lt;/p&gt;
+
+&lt;p&gt;今回は己の身を犠牲にして検証しているので
+良い子は真似しちゃ&lt;b&gt;&lt;font color=&#34;red&#34;&gt;だめ！ゼッタイ！！！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;事前準備:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;事前準備&lt;/h2&gt;
+
+&lt;p&gt;まずはkintone開発者アカウントを取得。
+※アカウント取得には &lt;strong&gt;cybozu.com developer network&lt;/strong&gt; への登録が必要です。
+&lt;a href=&#34;https://cybozudev.zendesk.com&#34;&gt;https://cybozudev.zendesk.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20151214-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;しっかり利用規約は読んで下さい！利用規約マジ大事。&lt;/p&gt;
+
+&lt;h3 id=&#34;第３条-開発者ライセンスの利用条件:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;第３条（開発者ライセンスの利用条件）&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;開発者ライセンスに基づき対象サービスを利用する場合には、以下の全ての条件に従うものとします。
+    対象サービスに関する疑問等 については、cybozu.comサービス説明書の定めに関わらずテクニカルサポートサービスを利用することはできず、developer networkのコミュニティで質問をし、利用者自身で解決するものとします。
+    ・・・　中略　・・・
+    前項に定めるものの他、開発者ライセンスに基づく対象サービスの利用が、他の利用ユーザーに影響を及ぼす場合またはその恐れが有る場合、サイボウズは開発者ライセンスに基づく対象サービスの利用の停止、または利用者開発環境の削除をすることができるものとします。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;開発者アカウントでkintoneにログインできるか確認:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;開発者アカウントでkintoneにログインできるか確認&lt;/h3&gt;
+
+&lt;p&gt;ポータル画面にログイン出来るようになればkintone側の準備はOKです(๑´ㅂ`๑)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20151214-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;負荷テスト用ツールの準備:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷テスト用ツールの準備&lt;/h2&gt;
+
+&lt;p&gt;負荷テストを実施するためには、計測するための環境が必要です。
+kintoneはSaaS環境なので、もちろんkintone環境にそんなツールを仕込むわけにはいきません。
+ということで、外部サーバーに環境を構築します。&lt;/p&gt;
+
+&lt;h2 id=&#34;外部サーバーに負荷ツールをインストール:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;外部サーバーに負荷ツールをインストール&lt;/h2&gt;
+
+&lt;p&gt;負荷ツールはオープンソースでもいろいろあるのですが、今回は&lt;a href=&#34;http://tsung.erlang-projects.org/&#34;&gt;Tsung&lt;/a&gt;を採用してみました。&lt;/p&gt;
+
+&lt;h3 id=&#34;負荷ツールに必要なパッケージのインストール:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷ツールに必要なパッケージのインストール&lt;/h3&gt;
+
+&lt;p&gt;Erlangで記述されているため、Erlangのインストールが必須です。
+&lt;strong&gt;Amazon Linux&lt;/strong&gt;だと標準のレポジトリからインストール出来るんですね。お手軽！
+（EPEL必要かと思ってレポジトリ追加してから気づいた&amp;hellip;）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ sudo yum list erlang
+Loaded plugins: priorities, protectbase, update-motd, upgrade-helper
+0 packages excluded due to repository protections
+Available Packages
+erlang.x86_64                                                                                               R14B-04.2.7.amzn1                                                                                               amzn-main
+
+
+$ sudo yum -y install erlang.x86_64
+Loaded plugins: priorities, protectbase, update-motd, upgrade-helper
+0 packages excluded due to repository protections
+Resolving Dependencies
+--&amp;gt; Running transaction check
+---&amp;gt; Package erlang.x86_64 0:R14B-04.2.7.amzn1 will be installed
+
+　・・・　中略　・・・
+
+Dependency Installed:
+  erlang-appmon.x86_64 0:R14B-04.2.7.amzn1               erlang-asn1.x86_64 0:R14B-04.2.7.amzn1                   erlang-common_test.x86_64 0:R14B-04.2.7.amzn1             erlang-compiler.x86_64 0:R14B-04.2.7.amzn1
+  erlang-cosEvent.x86_64 0:R14B-04.2.7.amzn1             erlang-cosEventDomain.x86_64 0:R14B-04.2.7.amzn1         erlang-cosFileTransfer.x86_64 0:R14B-04.2.7.amzn1         erlang-cosNotification.x86_64 0:R14B-04.2.7.amzn1
+  erlang-cosProperty.x86_64 0:R14B-04.2.7.amzn1          erlang-cosTime.x86_64 0:R14B-04.2.7.amzn1                erlang-cosTransactions.x86_64 0:R14B-04.2.7.amzn1         erlang-crypto.x86_64 0:R14B-04.2.7.amzn1
+  erlang-debugger.x86_64 0:R14B-04.2.7.amzn1             erlang-dialyzer.x86_64 0:R14B-04.2.7.amzn1               erlang-diameter.x86_64 0:R14B-04.2.7.amzn1                erlang-docbuilder.x86_64 0:R14B-04.2.7.amzn1
+  erlang-edoc.x86_64 0:R14B-04.2.7.amzn1                 erlang-erl_docgen.x86_64 0:R14B-04.2.7.amzn1             erlang-erl_interface.x86_64 0:R14B-04.2.7.amzn1           erlang-erts.x86_64 0:R14B-04.2.7.amzn1
+  erlang-et.x86_64 0:R14B-04.2.7.amzn1                   erlang-eunit.x86_64 0:R14B-04.2.7.amzn1                  erlang-examples.x86_64 0:R14B-04.2.7.amzn1                erlang-gs.x86_64 0:R14B-04.2.7.amzn1
+  erlang-hipe.x86_64 0:R14B-04.2.7.amzn1                 erlang-ic.x86_64 0:R14B-04.2.7.amzn1                     erlang-inets.x86_64 0:R14B-04.2.7.amzn1                   erlang-inviso.x86_64 0:R14B-04.2.7.amzn1
+  erlang-jinterface.x86_64 0:R14B-04.2.7.amzn1           erlang-kernel.x86_64 0:R14B-04.2.7.amzn1                 erlang-megaco.x86_64 0:R14B-04.2.7.amzn1                  erlang-mnesia.x86_64 0:R14B-04.2.7.amzn1
+  erlang-observer.x86_64 0:R14B-04.2.7.amzn1             erlang-odbc.x86_64 0:R14B-04.2.7.amzn1                   erlang-orber.x86_64 0:R14B-04.2.7.amzn1                   erlang-os_mon.x86_64 0:R14B-04.2.7.amzn1
+  erlang-otp_mibs.x86_64 0:R14B-04.2.7.amzn1             erlang-parsetools.x86_64 0:R14B-04.2.7.amzn1             erlang-percept.x86_64 0:R14B-04.2.7.amzn1                 erlang-pman.x86_64 0:R14B-04.2.7.amzn1
+  erlang-public_key.x86_64 0:R14B-04.2.7.amzn1           erlang-reltool.x86_64 0:R14B-04.2.7.amzn1                erlang-runtime_tools.x86_64 0:R14B-04.2.7.amzn1           erlang-sasl.x86_64 0:R14B-04.2.7.amzn1
+  erlang-snmp.x86_64 0:R14B-04.2.7.amzn1                 erlang-ssh.x86_64 0:R14B-04.2.7.amzn1                    erlang-ssl.x86_64 0:R14B-04.2.7.amzn1                     erlang-stdlib.x86_64 0:R14B-04.2.7.amzn1
+  erlang-syntax_tools.x86_64 0:R14B-04.2.7.amzn1         erlang-test_server.x86_64 0:R14B-04.2.7.amzn1            erlang-toolbar.x86_64 0:R14B-04.2.7.amzn1                 erlang-tools.x86_64 0:R14B-04.2.7.amzn1
+  erlang-tv.x86_64 0:R14B-04.2.7.amzn1                   erlang-typer.x86_64 0:R14B-04.2.7.amzn1                  erlang-webtool.x86_64 0:R14B-04.2.7.amzn1                 erlang-xmerl.x86_64 0:R14B-04.2.7.amzn1
+  libtool-ltdl.x86_64 0:2.4.2-20.4.8.3.31.amzn1          unixODBC.x86_64 0:2.2.14-14.7.amzn1
+
+Complete!
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;tsungのダウンロード:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungのダウンロード&lt;/h4&gt;
+
+&lt;p&gt;サイトからパッケージをDLします。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ wget -P /tmp http://tsung.erlang-projects.org/dist/tsung-1.6.0.tar.gz
+--2015-12-14 13:52:02--  http://tsung.erlang-projects.org/dist/tsung-1.6.0.tar.gz
+Resolving tsung.erlang-projects.org (tsung.erlang-projects.org)... 37.187.100.238
+Connecting to tsung.erlang-projects.org (tsung.erlang-projects.org)|37.187.100.238|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1585794 (1.5M) [application/x-gzip]
+Saving to: ‘/tmp/tsung-1.6.0.tar.gz’
+
+tsung-1.6.0.tar.gz                                        100%[====================================================================================================================================&amp;gt;]   1.51M   858KB/s   in 1.8s
+
+2015-12-14 13:52:04 (858 KB/s) - ‘/tmp/tsung-1.6.0.tar.gz’ saved [1585794/1585794]
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;tsungの展開-コンパイル:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungの展開＆コンパイル&lt;/h4&gt;
+
+&lt;p&gt;DLしたパッケージを展開してコンパイルします。
+今回はテストなので、プレフィックス等コンパイル時にオプションは指定していません。
+（デフォルトの設定でインストールされる関係で、手間なのでrootにスイッチしてインストールしています）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ tar zxf tsung-1.6.0.tar.gz
+$ sudo su -（※ここでrootにスイッチ）
+
+# cd /home/ec2-user
+# ./configure &amp;amp;&amp;amp; make &amp;amp;&amp;amp; make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;tsungを使用した負荷テスト:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungを使用した負荷テスト&lt;/h2&gt;
+
+&lt;p&gt;では、パッケージのインストールも完了したところで、早速負荷テストのための設定を行います。
+/usr/share/doc/tsung/examples 配下にサンプルのxmlファイルがあるので、これを参考にしたいと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;負荷テスト用のパラメータ設定:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷テスト用のパラメータ設定&lt;/h3&gt;
+
+&lt;p&gt;記述方法は&lt;a href=&#34;http://tsung.erlang-projects.org/user_manual/index.html&#34;&gt;こちら&lt;/a&gt;を参考にしながら。
+（※下記はサンプルです）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff:&#34;&gt;$ diff -u /usr/share/doc/tsung/examples/http_simple.xml /home/ec2-user/tsung-1.6.0/http_simple.xml
+--- /usr/share/doc/tsung/examples/http_simple.xml       2015-12-14 14:10:31.191237188 +0000
++++ /home/ec2-user/tsung-1.6.0/http_simple.xml  2015-12-14 14:32:32.807241774 +0000
+@@ -9,22 +9,22 @@
+
+   &amp;lt;!-- Server side setup --&amp;gt;
+ &amp;lt;servers&amp;gt;
+-  &amp;lt;server host=&amp;quot;myserver&amp;quot; port=&amp;quot;80&amp;quot; type=&amp;quot;tcp&amp;quot;&amp;gt;&amp;lt;/server&amp;gt;
++  &amp;lt;server host=&amp;quot;***.cybozu.com&amp;quot; port=&amp;quot;443&amp;quot; type=&amp;quot;ssl&amp;quot;&amp;gt;&amp;lt;/server&amp;gt;
+ &amp;lt;/servers&amp;gt;
+
+   &amp;lt;!-- to start os monitoring (cpu, network, memory). Use an erlang
+-  agent on the remote machine or SNMP. erlang is the default --&amp;gt;
++  agent on the remote machine or SNMP. erlang is th default --&amp;gt;
+   &amp;lt;monitoring&amp;gt;
+-    &amp;lt;monitor host=&amp;quot;myserver&amp;quot; type=&amp;quot;snmp&amp;quot;&amp;gt;&amp;lt;/monitor&amp;gt;
++    &amp;lt;monitor host=&amp;quot;***.cybozu.com&amp;quot; type=&amp;quot;snmp&amp;quot;&amp;gt;&amp;lt;/monitor&amp;gt;
+   &amp;lt;/monitoring&amp;gt;
+
+   &amp;lt;load&amp;gt;
+   &amp;lt;!-- several arrival phases can be set: for each phase, you can set
+   the mean inter-arrival time between new clients and the phase
+   duration --&amp;gt;
+-   &amp;lt;arrivalphase phase=&amp;quot;1&amp;quot; duration=&amp;quot;10&amp;quot; unit=&amp;quot;minute&amp;quot;&amp;gt;
+-     &amp;lt;users interarrival=&amp;quot;2&amp;quot; unit=&amp;quot;second&amp;quot;&amp;gt;&amp;lt;/users&amp;gt;
+-   &amp;lt;/arrivalphase&amp;gt;
++   &amp;lt;arrivalphase phase=&amp;quot;1&amp;quot; duration=&amp;quot;5&amp;quot; unit=&amp;quot;minute&amp;quot;&amp;gt;
++      &amp;lt;users arrivalrate=&amp;quot;10&amp;quot; unit=&amp;quot;minute&amp;quot; maxnumber=&amp;quot;50&amp;quot; &amp;gt;&amp;lt;/users&amp;gt;
++    &amp;lt;/arrivalphase&amp;gt;
+   &amp;lt;/load&amp;gt;
+
+   &amp;lt;options&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ログファイルのパス:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;ログファイルのパス&lt;/h3&gt;
+
+&lt;p&gt;ログファイルは指定しなければ下記ディレクトリ配下に生成されます。
+ちゃんとサーバーに到達してるかリアルタイムで確認しながら実行するといいかもしれないですね。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;# ll /root/.tsung/log/20151214-1433/
+total 1820
+-rw-r--r-- 1 root root    1533 Dec 14 14:33 http_simple.xml
+-rw-r--r-- 1 root root      63 Dec 14 14:33 index.html
+-rw-r--r-- 1 root root       0 Dec 14 14:33 inets_error.log
+-rw-r--r-- 1 root root      62 Dec 14 14:34 match.log
+drwxr-xr-x 2 root root    4096 Dec 14 14:33 style
+-rw-r--r-- 1 root root       0 Dec 14 14:33 tsung-123456.dump
+-rw-r--r-- 1 root root 1819542 Dec 14 14:39 tsung_controller@ip-172-31-6-98.log
+-rw-r--r-- 1 root root   21142 Dec 14 14:39 tsung.log
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash:tsung.log&#34;&gt;# stats: dump at 1450103940
+stats: users 0 1
+stats: {load,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 0.0 0.0 0.0 0.0 0.0 30
+stats: {recvpackets,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 11.0 0.0 82 1 24.724137931034488 29
+stats: {sentpackets,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 23.0 0.0 53 1 30.275862068965516 29
+stats: {cpu,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 0.3 0.0 0.7021063189568706 0.0 0.3420084262531492 30
+stats: {freemem,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 917.98046875 0.0 926.50390625 913.51171875 917.7651041666667 30
+stats: session 0 0 0 38.845947265625 13.171142578125 14.41109375 50
+stats: users_count 0 50
+stats: finish_users_count 0 50
+stats: error_unknown 0 50
+EndMonitor:{1450,103940,410434}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;次回はパラメータ設定していよいよ負荷テストします…うまくいくかどうか（&lt;/p&gt;
+
+&lt;p&gt;その2につづく★&lt;/p&gt;
+
+&lt;h1 id=&#34;元記事はこちら:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;元記事はこちら&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/rocca0504/items/a33882887aa59e3fae66&#34;&gt;kintone環境の負荷テストをする（その1）
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintoneの限界を知る</title>
@@ -1187,133 +1403,6 @@ LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.i
 &lt;p&gt;なんだか世の中が夏休みモードなので、今日のところはこんな小ネタでお届けしました。&lt;/p&gt;
 
 &lt;p&gt;ではでは。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JAWS-UG関西女子会第3回勉強会の開催レポート</title>
-      <link>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</link>
-      <pubDate>Wed, 05 Aug 2015 10:04:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/20150801_jawsug-kgirls3/</guid>
-      <description>
-
-&lt;p&gt;2015年8月1日土曜日、運営しているJAWS-UG関西女子会で第3回勉強会&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/26344&#34;&gt;事例から学ぶもくもく＆もぐもぐ会&lt;/a&gt;を開催しました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson01.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;もくもく-もぐもぐ会とは:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;もくもく＆もぐもぐ会とは？&lt;/h1&gt;
-
-&lt;p&gt;もくもく会は勉強会ではおなじみ(？)、参加者が自分達のペースで作業をすすめる勉強会の形式のことです。&lt;/p&gt;
-
-&lt;p&gt;今回の女子会では、ただのもくもく会では楽しくない！と、各参加者がひとつ食べ物を持ち寄ってもぐもぐしながらもくもく作業しよう！というコンセプトで行いました(๑・౩・๑）&lt;/p&gt;
-
-&lt;p&gt;みんなどんな食べ物を持ってくるんだろうとドキドキしながら待っていたんですが&amp;hellip;&lt;b&gt;いやー出るわ出るわ！&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;violet&#34;&gt;フルーツからデパ地下スイーツ、地域名産品の数々！&lt;/font&gt;&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets02.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets03.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ちなみにわたしはアップルパイを持参したので、ナイフを使って一生懸命わけわけしてました！&lt;/p&gt;
-
-&lt;p&gt;（でもうまく切れなかったので最終的に交代してもらったのは内緒ｗｗ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets01.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そしてヤムウンセンを作って来てくれたのは参加者の女子ではなく、なぜかサポメンｗｗｗｗ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/yumwunsen.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-男性なのにこの女子力の高さ&amp;hellip;マジ尊敬しますლ(⁰⊖⁰ლ)&lt;/p&gt;
-
-&lt;p&gt;ちなみに運営なのを良いことに、事例紹介中ずっともぐもぐしていたわたしです（
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_sweets04.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;勉強会の内容:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;勉強会の内容&lt;/h1&gt;
-
-&lt;p&gt;第3回勉強会の内容は以下の通りです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;事例紹介&lt;/li&gt;
-&lt;li&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/li&gt;
-&lt;li&gt;フリータイム（懇親や飛び込みLTなど）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;事例紹介:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介&lt;/h2&gt;
-
-&lt;p&gt;JAWS-UG初心者支部より山崎奈緒美さんを講師としてお招きし、会社でのAWSの活用事例をお話頂きました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_naotan.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_naotan.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;コーポレートサイトやシステムで、ほんとにたくさんのAWS製品を組み合わせて活用されていました。&lt;/p&gt;
-
-&lt;h2 id=&#34;事例紹介からいくつか構成をピックアップしてハンズオン:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;事例紹介からいくつか構成をピックアップしてハンズオン&lt;/h2&gt;
-
-&lt;p&gt;活用事例の中から、いくつか構成をピックアップし、ハンズオン形式で実際に参加者の皆さんに構築してもらいました。&lt;/p&gt;
-
-&lt;p&gt;当日実際に使用したハンズオン資料は&lt;a href=&#34;http://bit.ly/1LUhmXi&#34;&gt;こちら。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;すべて講師の山崎さんにご用意頂きました！&lt;/p&gt;
-
-&lt;p&gt;お仕事や初心者支部の勉強会の準備等もある中で、これだけ関西女子会のためにいろいろご尽力頂いてほんとにほんとに感謝してもしきれないくらいです(つ﹏&amp;lt;)･ﾟ｡&lt;/p&gt;
-
-&lt;p&gt;かなり盛りだくさんなコンテンツだったので時間内に最後まで構築するのは難しかったものの、それでも皆さんかなり集中して取り組んでいた様子。&lt;/p&gt;
-
-&lt;p&gt;まずは好きな食べ物を取りに行って。。。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt; &lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson02.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;作業を始めてからの皆さんの集中力の凄さには脱帽です(｡ω｡；)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson03.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_handson04.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;個人的には、AWSマネジメントコンソール上の作業は比較的スムーズにできた（若干トラブルにも見まわれましたが&amp;hellip;）&lt;/p&gt;
-
-&lt;p&gt;んですが、EC2のインスタンスを起動してAmazon LinuxにSSHでログインして行う作業は、日頃CLIを利用しているかしていないかで差が出た部分だったんじゃないかなと思いました。&lt;/p&gt;
-
-&lt;p&gt;通常ハンズオンで使用するAMIは、環境がある程度整ったAMIを使用するケースが多いのですが、今回使用したAMIは実は事前に何も仕込んでいない生のAMI！&lt;/p&gt;
-
-&lt;p&gt;必要なパッケージはすべて手動でインストールして環境を整える必要がありました。&lt;/p&gt;
-
-&lt;p&gt;実は今回、&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;EC2＋RDS（postgreSQL）&lt;/font&gt;&lt;/b&gt;の環境を構築したのですが、動作確認のため、&lt;b&gt;EC-CUBE&lt;/b&gt;をインストールするという選択をしたのですｗ&lt;/p&gt;
-
-&lt;p&gt;マニアックでしょ？ &lt;del&gt;なんでWordPress入れないんだよクソがぁぁ！！！！&lt;/del&gt; って思うでしょ？ちゃんと理由あるのですよｗ&lt;/p&gt;
-
-&lt;p&gt;その&lt;a href=&#34;http://qiita.com/rocca0504/private/be654e50ab480d156207&#34;&gt;EC-CUBEのインストール手順&lt;/a&gt;部分は実はわたしが作ったりしてますｗ&lt;/p&gt;
-
-&lt;p&gt;そんなとこアピールするなって石投げられるかもしれませんがすみません(´A｀*)･ﾟ｡&lt;/p&gt;
-
-&lt;p&gt;突っ込みでもdisりでも指摘でも何でも受け付けますのでお許し下さい&amp;hellip;っ！！！！&lt;/p&gt;
-
-&lt;p&gt;ほぼほぼCLIです。しかもおそらくvi慣れしていない参加者が多いのではと（勝手に）思い、viを文章で表現するのは大変だと感じたので、viで編集しなくてもいいように&lt;b&gt;sed&lt;/b&gt;というおまじないコマンドを使ってますｗ&lt;/p&gt;
-
-&lt;p&gt;なんかほぼ自己満のマニュアルですね。いやほんとすみません。一応何かの参考にはなれば(๑´╹‸╹`๑)&lt;/p&gt;
-
-&lt;p&gt;コマンドたのしーなー（違&lt;/p&gt;
-
-&lt;h2 id=&#34;フリータイム-懇親や飛び込みltなど:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;フリータイム（懇親や飛び込みLTなど）&lt;/h2&gt;
-
-&lt;p&gt;頭を使ったあとはアルコール飲みながらもぐもぐしつつ飛び込みLTを聞きながらまったり楽しく過ごす時間です。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt04.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;こんな感じでLTも盛り上がってましたよ٩(●˙▿˙●)۶
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt02.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt03.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;山崎さんからは&lt;a href=&#34;http://jaws-ug.jp/ec/aws-hub/&#34;&gt;AWS-HUBのご紹介&lt;/a&gt;もありました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_lt01.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そんなこんなで今回も大盛況だった&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;lightpink&#34;&gt;JAWS-UG関西女子会&lt;/font&gt;&lt;/b&gt;です(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;こんなにたくさんの女子達が参加してくれて、いつもほんと運営冥利に尽きますね！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_all.jpg&#34; data-lightbox=&#34;kgirls&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls3_all.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;次回の勉強会の告知:b6a47e81d126eec8e62cd342b4e78dd9&#34;&gt;次回の勉強会の告知&lt;/h1&gt;
-
-&lt;p&gt;次回は &lt;b&gt;&lt;font size=&#34;5&#34;&gt;1ヶ月後！&lt;/font&gt;&lt;/b&gt; &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;JAWS re:Mote&lt;/a&gt;です！&lt;/p&gt;
-
-&lt;p&gt;全国の支部同士をオンラインで繋いた勉強会になります。&lt;/p&gt;
-
-&lt;p&gt;最寄りの会場で普段なかなかお目にかかれない他の支部のスピーカーさんのセッションを聞ける大チャンス(๑˃́ꇴ˂̀๑)&lt;/p&gt;
-
-&lt;p&gt;関西女子会は女子会用の会場を用意しますが、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;JAWS-UG大阪会場&lt;/a&gt;もありますよ！&lt;/p&gt;
-
-&lt;p&gt;何人の人が参加してくれるのか、今からすごく楽しみです+。:.ﾟ(๑＞◡╹๑)(๑╹◡＜๑):.｡+ﾟ&lt;/p&gt;
 </description>
     </item>
     
