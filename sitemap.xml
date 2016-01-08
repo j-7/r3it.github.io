@@ -3,8 +3,13 @@
   
   <url>
     <loc>https://www.r3it.com/</loc>
-    <lastmod>2016-01-07T16:38:10+09:00</lastmod>
+    <lastmod>2016-01-08T10:04:37+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/solutions/kintone/event-seminar/</loc>
+    <lastmod>2016-01-08T10:04:37+09:00</lastmod>
   </url>
   
   <url>
@@ -30,11 +35,6 @@
   <url>
     <loc>https://www.r3it.com/blog/kintone/20151120_cybozu-conference-osaka/</loc>
     <lastmod>2015-11-27T10:27:10+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.r3it.com/solutions/kintone/event-seminar/</loc>
-    <lastmod>2015-11-25T12:04:37+09:00</lastmod>
   </url>
   
   <url>
@@ -123,12 +123,12 @@
   </url>
   
   <url>
-    <loc>https://www.r3it.com/solutions/kintone/services/</loc>
+    <loc>https://www.r3it.com/solutions/kintone/systemupdate/</loc>
     <lastmod>2015-09-09T16:04:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.r3it.com/solutions/kintone/systemupdate/</loc>
+    <loc>https://www.r3it.com/solutions/kintone/services/</loc>
     <lastmod>2015-09-09T16:04:37+09:00</lastmod>
   </url>
   
