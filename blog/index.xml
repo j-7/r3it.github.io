@@ -5,8 +5,100 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Jan 2016 16:38:10 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jan 2016 10:23:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>家族目線（HVC-C2W）SDKモニターしました</title>
+      <link>https://www.r3it.com/blog/etc/20160114_hvc-c2w-monitor/</link>
+      <pubDate>Thu, 14 Jan 2016 10:23:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20160114_hvc-c2w-monitor/</guid>
+      <description>
+
+&lt;p&gt;昨年11月末のある日、弊社の池上が「家族目線モニターが当たったので、後よろしく♡」と箱を置いて、社内IoT部のメンバーに言い出したのが始まりでした。&lt;/p&gt;
+
+&lt;h2 id=&#34;家族目線とは:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;家族目線とは？&lt;/h2&gt;
+
+&lt;p&gt;オムロン社製の認識機能を搭載したカメラです！詳しくは本家サイトへどうぞ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&#34;&gt;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/package.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;この家族目線（HVC-C2W）をAndroid/iOSからカメラ自体を制御できるSDKの正式版が昨年12月にリリースされました。&lt;/p&gt;
+
+&lt;p&gt;覚えておられる方が居るか分かりませんが、NRIハッカソン＠CEATECでお世話になったあのカメラです！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/20151007_hack-for-money-result/&#34;&gt;本選結果報告&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/&#34;&gt;大阪予選を突破しました！&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CEATEC会場で本選が行われた時はSDKが先行α版とのことでしたが、このたびめでたくSDKの正式版が公開され、それと同時に&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/fordeveloper20151113_sdk-monitor/&#34;&gt;モニター募集&lt;/a&gt;ということになったようです。それを池上がこっそり（？）応募をして、見事当選したというわけです。&lt;/p&gt;
+
+&lt;h2 id=&#34;じゃ-なんかゲームでも作ってみる:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;「じゃ、なんかゲームでも作ってみる？」&lt;/h2&gt;
+
+&lt;p&gt;と部長の鶴の一声で、年末年始の休みに作ってみることになりました。提供されたカメラは当然1つしかありませんので、メンバー全員（4人）でそれぞれ作るというわけには行きません・・・。&lt;/p&gt;
+
+&lt;p&gt;（IoT部はあくまでサークル活動なのですが、これは結構ヘビーな事になりそうな予感・・・）&lt;/p&gt;
+
+&lt;p&gt;結局、部長の浅利がゲームGUI側担当、大澤がカメラ制御担当という分担になり、年末年始休暇を迎えました（西島はギリギリまで仕事をしていたのでお任せいたしましたm(_ _)m）。&lt;/p&gt;
+
+&lt;h2 id=&#34;ゲームの仕様:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;ゲームの仕様&lt;/h2&gt;
+
+&lt;p&gt;カメラ制御を試してみるということで、こんな仕様としました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;視線推定機能を使って、目からビームを出して敵をやっつけるゲーム！&lt;/li&gt;
+&lt;li&gt;目つむり推定機能を使って、目をつぶるとエネルギーがチャージされて太いビームが出る！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;文字にすると滑稽ですが、画面はこんな感じになりました。&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/beam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/beam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/normalbeam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/normalbeam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/widebeam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/widebeam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;「目閉じ」判定で、チャージ開始し、チャージをほぼしないでに目を開けると、一番左の細いビームが出て&lt;/li&gt;
+&lt;li&gt;1秒くらいのチャージで中くらい&lt;/li&gt;
+&lt;li&gt;2秒くらいのチャージで右の赤くて太いビームが出る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;さすが部長！ここまで休みの間に実装してありました！&lt;/p&gt;
+
+&lt;h2 id=&#34;悪戦苦闘のカメラ制御:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;悪戦苦闘のカメラ制御&lt;/h2&gt;
+
+&lt;p&gt;大澤が担当のカメラ制御の方は、なかなか悪戦苦闘だったようです。SDKはGitHubに上がっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/OmronSensingEggProject&#34;&gt;https://github.com/OmronSensingEggProject&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;いち早く年末年始休暇入りした大澤でしたが、12月29日の段階でそもそもアプリ側からカメラに接続出来ず、はまっていたようでした。仕様書も色々と古い部分があったようで、、、年明け3日の社内のSlackのキャプチャをご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/slack.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;・・・というわけで色々頑張って、遅延があるもののライブストリーミング機能でカメラから画像を取ってきて、なんとかSurfaceViewに表示できるようになったのですが、、、ここでタイムアウト。&lt;/p&gt;
+
+&lt;p&gt;残念ながらゲームのGUI側と接続するまでには至りませんでした・・・残念。&lt;/p&gt;
+
+&lt;p&gt;ただ、開発の際に得た知見は、プルリクエストとしてSDKに提案しようと思っています。&lt;/p&gt;
+
+&lt;h2 id=&#34;家族目線-hvc-c2w-を何に活用する:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;家族目線（HVC-C2W）を何に活用する？&lt;/h2&gt;
+
+&lt;p&gt;もし、今回HVC-C2Wを進呈していただけたら、何に使おう？と考えていました。&lt;/p&gt;
+
+&lt;p&gt;ちょうど弊社は年末に引っ越しをしまして、その受付にカメラを置いて顔認識して「誰々が来たよ〜」とナンデヤネンボットが教えてくれる、そんなネタはどうですかね？&lt;/p&gt;
+
+&lt;p&gt;ついでにkintoneのAPIを叩いて自動で来訪履歴を登録して、画像も記録しておくとか・・・夢広がる感じですね！&lt;/p&gt;
+
+&lt;p&gt;オムロン様、どうぞよろしくお願いいたします！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2016年1月のコミュニティイベントのご案内</title>
@@ -1371,73 +1463,6 @@ LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.i
 懇親会の場で来年は秋田で開催されることが決定されましたので、今から楽しみです。&lt;/p&gt;
 
 &lt;p&gt;東北在住でない方も、他の地域の状況を見知ることはとても勉強になりますので来年はぜひご参加ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NRIハッカソン＠CEATEC JAPAN 2015 大阪予選に当選しました</title>
-      <link>https://www.r3it.com/blog/etc/hack-for-money/</link>
-      <pubDate>Fri, 21 Aug 2015 12:14:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/hack-for-money/</guid>
-      <description>
-
-&lt;h1 id=&#34;nriハッカソン-ceatec-japan-2015-のアイデアソン当選のご報告:a79fd55691459dab283dc2c8fb326954&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015 のアイデアソン当選のご報告&lt;/h1&gt;
-
-&lt;p&gt;先日ブログ記事&lt;a href=&#34;https://www.r3it.com/blog/etc/iot-circle-meetup/&#34;&gt;社内活動：IoT部のご紹介&lt;/a&gt;でも少しご報告させて頂いていたのですが、厳選なる抽選をくぐり抜けまして、無事NRIハッカソン＠CEATEC JAPAN 2015 の大阪予選参加が確定致しました(っ´ω`c)♡&lt;/p&gt;
-
-&lt;p&gt;今回のハッカソンのコンセプトは&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;gold&#34;&gt; “Money（お金）”&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;みんなでアイデアを出しあって、IoTを活用してカタチにしていきます。&lt;/p&gt;
-
-&lt;p&gt;どんなアイデアが出るのか今から楽しみです！&lt;/p&gt;
-
-&lt;p&gt;大阪予選は8月30日まで募集しているみたいですよ！個人でもチームでもエントリーが可能となっておりますので、皆さんもお申込みされてみては如何でしょうか？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;Hack for Money IoT  - NRIハッカソン＠CEATEC JAPAN 2015 -&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;tシャツ作ってkiaiも十分:a79fd55691459dab283dc2c8fb326954&#34;&gt;Tシャツ作ってKIAIも十分！&lt;/h1&gt;
-
-&lt;p&gt;ということで、めでたく参加も確定したので&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;SlateBlue&#34;&gt;IoT部の公式Tシャツ&lt;/font&gt;&lt;/b&gt;を作ることになりました！&lt;/p&gt;
-
-&lt;p&gt;試作段階のものですが、デザインはこんな感じになるみたいですね|･`ω･)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;女子用は色もロボットのデザインも&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;HotPink&#34;&gt;女子仕様&lt;/font&gt;&lt;/b&gt;です٩(๑&amp;gt;∀&amp;lt;๑)۶&lt;/p&gt;
-
-&lt;p&gt;リボンはうちのIoT部の偉大なるぶちょーがかわいくデザインしてくれました！&lt;/p&gt;
-
-&lt;p&gt;いやー絵心ある御方まじ尊敬します。ﾟ+.ﾟヽ(●´ω｀●)ﾉ。ﾟ+.ﾟ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design2.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;その他の勉強会の告知など:a79fd55691459dab283dc2c8fb326954&#34;&gt;その他の勉強会の告知など&lt;/h1&gt;
-
-&lt;p&gt;NRIハッカソン＠CEATEC JAPAN 2015 までにも、実は弊社社員が関わる勉強会が開催されます！&lt;/p&gt;
-
-&lt;p&gt;以下はほんの一部です。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;8月29日（土）&lt;/b&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北 IT物産展 2015青森&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;東北で行われるITの祭典で、弊社金春がkintoneハンズオンを行います！他にもラズパイハンズオンや多彩なセッション、パネルディスカッション等コンテンツも目白押し！&lt;/p&gt;
-
-&lt;p&gt;東北界隈の皆さん是非足を運んでみてください╭( ･ㅂ･)و ̑̑ ｸﾞｯ !&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;9月5日（土）&lt;/b&gt;&lt;a href=&#34;http://jaws-ug.jp/es/jaws-remote-2015/&#34;&gt;JAWS re:Mote 2015&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;全国の支部をネット会議システムで相互接続し勉強会を実施します！&lt;/p&gt;
-
-&lt;p&gt;最寄りの会場に参加しながら、普段なかなかお目にかかれない各地のスピーカーのセッションが聞けるお得なイベントとなっております！&lt;/p&gt;
-
-&lt;p&gt;会場は全国十数箇所あるので、最寄りの会場にお申込み頂けますよ٩(*˘ ³˘)۶&lt;/p&gt;
-
-&lt;p&gt;弊社社員は、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;大阪会場&lt;/a&gt;、&lt;a href=&#34;https://jaws-ug-okinawa.doorkeeper.jp/events/29148&#34;&gt;沖縄会場&lt;/a&gt;、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;関西女子会会場&lt;/a&gt;から参加します！&lt;/p&gt;
-
-&lt;h1 id=&#34;gusukuのステッカーも完成:a79fd55691459dab283dc2c8fb326954&#34;&gt;gusukuのステッカーも完成！&lt;/h1&gt;
-
-&lt;p&gt;最後になってしまいましたが、先日&lt;a href=&#34;https://www.r3it.com/blog/kintone/introduction_to_gusuku/&#34;&gt;kintoneをより便利にするgusukuのご紹介&lt;/a&gt;と題してご紹介したkintoneにステージング環境を提供するサービス&lt;b&gt;gusuku&lt;/b&gt;のステッカーも完成しました！&lt;/p&gt;
-
-&lt;p&gt;イベントや勉強会に参加する際には持参しますので、ほしいよ！って方はお気軽にお声掛け下さいね！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/gusuku20150821.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/gusuku20150821.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     

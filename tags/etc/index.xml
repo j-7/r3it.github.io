@@ -5,8 +5,100 @@
     <link>https://www.r3it.com/tags/etc/</link>
     <description>Recent content in Etc on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 06 Nov 2015 08:30:49 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jan 2016 10:23:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/etc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>家族目線（HVC-C2W）SDKモニターしました</title>
+      <link>https://www.r3it.com/blog/etc/20160114_hvc-c2w-monitor/</link>
+      <pubDate>Thu, 14 Jan 2016 10:23:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20160114_hvc-c2w-monitor/</guid>
+      <description>
+
+&lt;p&gt;昨年11月末のある日、弊社の池上が「家族目線モニターが当たったので、後よろしく♡」と箱を置いて、社内IoT部のメンバーに言い出したのが始まりでした。&lt;/p&gt;
+
+&lt;h2 id=&#34;家族目線とは:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;家族目線とは？&lt;/h2&gt;
+
+&lt;p&gt;オムロン社製の認識機能を搭載したカメラです！詳しくは本家サイトへどうぞ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&#34;&gt;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/package.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;この家族目線（HVC-C2W）をAndroid/iOSからカメラ自体を制御できるSDKの正式版が昨年12月にリリースされました。&lt;/p&gt;
+
+&lt;p&gt;覚えておられる方が居るか分かりませんが、NRIハッカソン＠CEATECでお世話になったあのカメラです！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/20151007_hack-for-money-result/&#34;&gt;本選結果報告&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/&#34;&gt;大阪予選を突破しました！&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CEATEC会場で本選が行われた時はSDKが先行α版とのことでしたが、このたびめでたくSDKの正式版が公開され、それと同時に&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/fordeveloper20151113_sdk-monitor/&#34;&gt;モニター募集&lt;/a&gt;ということになったようです。それを池上がこっそり（？）応募をして、見事当選したというわけです。&lt;/p&gt;
+
+&lt;h2 id=&#34;じゃ-なんかゲームでも作ってみる:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;「じゃ、なんかゲームでも作ってみる？」&lt;/h2&gt;
+
+&lt;p&gt;と部長の鶴の一声で、年末年始の休みに作ってみることになりました。提供されたカメラは当然1つしかありませんので、メンバー全員（4人）でそれぞれ作るというわけには行きません・・・。&lt;/p&gt;
+
+&lt;p&gt;（IoT部はあくまでサークル活動なのですが、これは結構ヘビーな事になりそうな予感・・・）&lt;/p&gt;
+
+&lt;p&gt;結局、部長の浅利がゲームGUI側担当、大澤がカメラ制御担当という分担になり、年末年始休暇を迎えました（西島はギリギリまで仕事をしていたのでお任せいたしましたm(_ _)m）。&lt;/p&gt;
+
+&lt;h2 id=&#34;ゲームの仕様:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;ゲームの仕様&lt;/h2&gt;
+
+&lt;p&gt;カメラ制御を試してみるということで、こんな仕様としました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;視線推定機能を使って、目からビームを出して敵をやっつけるゲーム！&lt;/li&gt;
+&lt;li&gt;目つむり推定機能を使って、目をつぶるとエネルギーがチャージされて太いビームが出る！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;文字にすると滑稽ですが、画面はこんな感じになりました。&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/beam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/beam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/normalbeam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/normalbeam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/widebeam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/widebeam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;「目閉じ」判定で、チャージ開始し、チャージをほぼしないでに目を開けると、一番左の細いビームが出て&lt;/li&gt;
+&lt;li&gt;1秒くらいのチャージで中くらい&lt;/li&gt;
+&lt;li&gt;2秒くらいのチャージで右の赤くて太いビームが出る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;さすが部長！ここまで休みの間に実装してありました！&lt;/p&gt;
+
+&lt;h2 id=&#34;悪戦苦闘のカメラ制御:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;悪戦苦闘のカメラ制御&lt;/h2&gt;
+
+&lt;p&gt;大澤が担当のカメラ制御の方は、なかなか悪戦苦闘だったようです。SDKはGitHubに上がっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/OmronSensingEggProject&#34;&gt;https://github.com/OmronSensingEggProject&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;いち早く年末年始休暇入りした大澤でしたが、12月29日の段階でそもそもアプリ側からカメラに接続出来ず、はまっていたようでした。仕様書も色々と古い部分があったようで、、、年明け3日の社内のSlackのキャプチャをご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/slack.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;・・・というわけで色々頑張って、遅延があるもののライブストリーミング機能でカメラから画像を取ってきて、なんとかSurfaceViewに表示できるようになったのですが、、、ここでタイムアウト。&lt;/p&gt;
+
+&lt;p&gt;残念ながらゲームのGUI側と接続するまでには至りませんでした・・・残念。&lt;/p&gt;
+
+&lt;p&gt;ただ、開発の際に得た知見は、プルリクエストとしてSDKに提案しようと思っています。&lt;/p&gt;
+
+&lt;h2 id=&#34;家族目線-hvc-c2w-を何に活用する:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;家族目線（HVC-C2W）を何に活用する？&lt;/h2&gt;
+
+&lt;p&gt;もし、今回HVC-C2Wを進呈していただけたら、何に使おう？と考えていました。&lt;/p&gt;
+
+&lt;p&gt;ちょうど弊社は年末に引っ越しをしまして、その受付にカメラを置いて顔認識して「誰々が来たよ〜」とナンデヤネンボットが教えてくれる、そんなネタはどうですかね？&lt;/p&gt;
+
+&lt;p&gt;ついでにkintoneのAPIを叩いて自動で来訪履歴を登録して、画像も記録しておくとか・・・夢広がる感じですね！&lt;/p&gt;
+
+&lt;p&gt;オムロン様、どうぞよろしくお願いいたします！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>東京支社開設のお知らせ</title>
