@@ -16,7 +16,7 @@
       <guid>https://www.r3it.com/blog/etc/20160114_hvc-c2w-monitor/</guid>
       <description>
 
-&lt;p&gt;昨年11月末のある日、弊社の池上が「家族目線モニターが当たったので、後よろしく♡」と箱を置いて、社内IoT部のメンバーに言い出したのが始まりでした。&lt;/p&gt;
+&lt;p&gt;昨年11月末のある日、弊社の池上が「家族目線モニターが当たったので、後よろしく♡」と箱を置いて、IoT部のメンバーに言い出したのが始まりでした。&lt;/p&gt;
 
 &lt;h2 id=&#34;家族目線とは:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;家族目線とは？&lt;/h2&gt;
 
@@ -78,9 +78,11 @@
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/OmronSensingEggProject&#34;&gt;https://github.com/OmronSensingEggProject&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;いち早く年末年始休暇入りした大澤でしたが、12月29日の段階でそもそもアプリ側からカメラに接続出来ず、はまっていたようでした。仕様書も色々と古い部分があったようで、、、年明け3日の社内のSlackのキャプチャをご覧ください。&lt;/p&gt;
+&lt;p&gt;いち早く年末年始休暇入りした大澤でしたが、12月29日の段階でそもそもアプリ側からカメラに接続出来ず、はまっていたようでした。仕様書も実はJava側の仕様書がないとか、、、年明け3日の社内のSlackのキャプチャをご覧ください。&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/slack.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;（ちなみにここで書かれていたSDKのバージョンアップは、ハマっていた部分には特に関係なかったようです）&lt;/p&gt;
 
 &lt;p&gt;・・・というわけで色々頑張って、遅延があるもののライブストリーミング機能でカメラから画像を取ってきて、なんとかSurfaceViewに表示できるようになったのですが、、、ここでタイムアウト。&lt;/p&gt;
 
