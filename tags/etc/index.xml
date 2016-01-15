@@ -5,20 +5,20 @@
     <link>https://www.r3it.com/tags/etc/</link>
     <description>Recent content in Etc on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 14 Jan 2016 10:23:10 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jan 2016 11:46:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/etc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>家族目線（HVC-C2W）SDKモニターしました</title>
-      <link>https://www.r3it.com/blog/etc/20160114_hvc-c2w-monitor/</link>
-      <pubDate>Thu, 14 Jan 2016 10:23:10 +0900</pubDate>
+      <link>https://www.r3it.com/blog/etc/20160115_hvc-c2w-monitor/</link>
+      <pubDate>Fri, 15 Jan 2016 11:46:10 +0900</pubDate>
       
-      <guid>https://www.r3it.com/blog/etc/20160114_hvc-c2w-monitor/</guid>
+      <guid>https://www.r3it.com/blog/etc/20160115_hvc-c2w-monitor/</guid>
       <description>
 
 &lt;p&gt;昨年11月末のある日、弊社の池上が「家族目線モニターが当たったので、後よろしく♡」と箱を置いて、IoT部のメンバーに言い出したのが始まりでした。&lt;/p&gt;
 
-&lt;h2 id=&#34;家族目線とは:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;家族目線とは？&lt;/h2&gt;
+&lt;h2 id=&#34;家族目線とは:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;家族目線とは？&lt;/h2&gt;
 
 &lt;p&gt;オムロン社製の認識機能を搭載したカメラです！詳しくは本家サイトへどうぞ。&lt;/p&gt;
 
@@ -37,7 +37,7 @@
 
 &lt;p&gt;CEATEC会場で本選が行われた時はSDKが先行α版とのことでしたが、このたびめでたくSDKの正式版が公開され、それと同時に&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/fordeveloper20151113_sdk-monitor/&#34;&gt;モニター募集&lt;/a&gt;ということになったようです。それを池上がこっそり（？）応募をして、見事当選したというわけです。&lt;/p&gt;
 
-&lt;h2 id=&#34;じゃ-なんかゲームでも作ってみる:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;「じゃ、なんかゲームでも作ってみる？」&lt;/h2&gt;
+&lt;h2 id=&#34;じゃ-なんかゲームでも作ってみる:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;「じゃ、なんかゲームでも作ってみる？」&lt;/h2&gt;
 
 &lt;p&gt;と部長の鶴の一声で、年末年始の休みに作ってみることになりました。提供されたカメラは当然1つしかありませんので、メンバー全員（4人）でそれぞれ作るというわけには行きません・・・。&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 
 &lt;p&gt;結局、部長の浅利がゲームGUI側担当、大澤がカメラ制御担当という分担になり、年末年始休暇を迎えました（西島はギリギリまで仕事をしていたのでお任せいたしましたm(_ _)m）。&lt;/p&gt;
 
-&lt;h2 id=&#34;ゲームの仕様:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;ゲームの仕様&lt;/h2&gt;
+&lt;h2 id=&#34;ゲームの仕様:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;ゲームの仕様&lt;/h2&gt;
 
 &lt;p&gt;カメラ制御を試してみるということで、こんな仕様としました。&lt;/p&gt;
 
@@ -72,7 +72,7 @@
 
 &lt;p&gt;さすが部長！ここまで休みの間に実装してありました！&lt;/p&gt;
 
-&lt;h2 id=&#34;悪戦苦闘のカメラ制御:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;悪戦苦闘のカメラ制御&lt;/h2&gt;
+&lt;h2 id=&#34;悪戦苦闘のカメラ制御:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;悪戦苦闘のカメラ制御&lt;/h2&gt;
 
 &lt;p&gt;大澤が担当のカメラ制御の方は、なかなか悪戦苦闘だったようです。SDKはGitHubに上がっています。&lt;/p&gt;
 
@@ -90,7 +90,7 @@
 
 &lt;p&gt;ただ、開発の際に得た知見は、プルリクエストとしてSDKに提案しようと思っています。&lt;/p&gt;
 
-&lt;h2 id=&#34;家族目線-hvc-c2w-を何に活用する:91e11beda341a1708d0bf7c3e95fb1dd&#34;&gt;家族目線（HVC-C2W）を何に活用する？&lt;/h2&gt;
+&lt;h2 id=&#34;家族目線-hvc-c2w-を何に活用する:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;家族目線（HVC-C2W）を何に活用する？&lt;/h2&gt;
 
 &lt;p&gt;もし、今回HVC-C2Wを進呈していただけたら、何に使おう？と考えていました。&lt;/p&gt;
 
