@@ -5,8 +5,55 @@
     <link>https://www.r3it.com/info/</link>
     <description>Recent content in Infos on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 06 Nov 2015 09:27:06 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 Jan 2016 15:27:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Developers Summit 2016（デブサミ2016） サイボウズ特別トラック登壇のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/devsumi0218-19/</link>
+      <pubDate>Thu, 21 Jan 2016 15:27:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/devsumi0218-19/</guid>
+      <description>
+
+&lt;p&gt;弊社アールスリーインスティテュートの池上と金春が、Developers Summit 2016（通称デブサミ2016）の、サイボウズ特別トラックのハンズオン講師として登壇することになりました。&lt;/p&gt;
+
+&lt;h2 id=&#34;developers-summit-2016-デブサミ冬:1551611d924dda9b25edaf32c1ea751b&#34;&gt;Developers Summit 2016 | デブサミ冬&lt;/h2&gt;
+
+&lt;p&gt;2016年2月18日（木）・19日（金） 目黒雅叙園&lt;/p&gt;
+
+&lt;p&gt;詳しくはこちらの&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/&#34;&gt;公式サイト&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;サイボウズ特別トラックにてkintoneハンズオンセッションが多数開催されます。そのうち、弊社が担当させていただくセッションをご紹介します。ぜひご参加ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;2月18日16-20-18-f-3-上級-これでもう怖くない-kintone-promise:1551611d924dda9b25edaf32c1ea751b&#34;&gt;2月18日16:20～ 【18-F-3】【上級】これでもう怖くない、kintone Promise&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1062/&#34;&gt;http://event.shoeisha.jp/devsumi/20160218/session/1062/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;【対象者】&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JavaScript, jQuery, kintone APIの基本的な使い方がわかっていること&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2月19日14-10-19-f-2-中級-kintoneアプリのバージョン管理はgusukuにおまかせ:1551611d924dda9b25edaf32c1ea751b&#34;&gt;2月19日14:10～ 【19-F-2】【中級】kintoneアプリのバージョン管理はgusukuにおまかせ！&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1064/&#34;&gt;http://event.shoeisha.jp/devsumi/20160218/session/1064/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;【参加条件】&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneを使って実際にアプリを作成したことがある方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;両セッションとも、詳しくは公式サイトをご確認ください。&lt;/p&gt;
+
+&lt;p&gt;何れのセッションも、kintone開発者の方には非常に役立つハンズオンになるかと思います。
+当日会場でお会いできますことを、心よりお待ちしております。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、サイボウズ「kintone」アプリの利用・開発・運用を支援するサービス gusuku（グスク）を正式リリース</title>
@@ -584,27 +631,6 @@ JAWS-UG Kansai 特別編 「AWSを使い倒せ。AWSのフルマネージドサ�
 15:30〜16:00 Amazon SES&lt;/p&gt;
 
 &lt;p&gt;にて、各サービスのご紹介をいたします。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Caféの公式ページが立ち上がりました</title>
-      <link>https://www.r3it.com/info/2015/kintone-cafe-official-site/</link>
-      <pubDate>Mon, 19 Jan 2015 17:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/kintone-cafe-official-site/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kintone Caféとはkintoneを勉強したいあるいはもっと深く勉強したい方が集まるコミュニティです。&lt;/p&gt;
-
-&lt;p&gt;弊社ではコミュニティ活動を積極的にサポートしており、kintone Caféにおいても、サイボウズ認定kintoneエバンジェリストである金春が、kintone Café大阪、kintone Café運営事務局をサポートしています。&lt;/p&gt;
-
-&lt;p&gt;kintoneってどんなもの？
-kintoneで何ができるの？
-kintoneを触ってみたい
-という方は、是非ご参加ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café公式サイト&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
