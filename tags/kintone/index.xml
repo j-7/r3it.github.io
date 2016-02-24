@@ -5,8 +5,151 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 21 Jan 2016 15:27:06 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 24 Feb 2016 12:00:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Developers Summit 2016 参加レポート！</title>
+      <link>https://www.r3it.com/blog/kintone/20160218-19_devsumi2016/</link>
+      <pubDate>Wed, 24 Feb 2016 12:00:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160218-19_devsumi2016/</guid>
+      <description>
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF69A3&#34;&gt;「デブサミ、登壇してみない？」&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;とボスから言われたのが2016年にはいってすぐの時期でした。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180433.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180433.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;「是非やりたいです！」&lt;/b&gt;と言ったはいいものの、何のハンズオンをしようかなと考え・・・
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;…その結果、&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;SIをやっている弊社随一のサービス&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF0000&#34;&gt;『gusuku』&lt;/font&gt;&lt;/b&gt;をもっと広めよう！ということで&lt;/p&gt;
+
+&lt;p&gt;僭越ながら&lt;b&gt;gusukuのハンズオン&lt;/b&gt;を行わせて頂くことに！
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+金春はkintone Promiseのハンズオンセッションで&lt;b&gt;18日&lt;/b&gt;に。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1062/&#34;&gt;【上級】これでもう怖くない、kintone Promise &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;わたしは&lt;b&gt;19日&lt;/b&gt;に登壇させて頂くことに！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1064/&#34;&gt;【中級】kintoneアプリのバージョン管理はgusukuにおまかせ！ &lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;決戦前日-デブサミ2016-1日目:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;決戦前日（デブサミ2016 1日目）&lt;/h1&gt;
+
+&lt;p&gt;デブサミ、もとい&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;#FF0000&#34;&gt;Developers Summit&lt;/font&gt;&lt;/b&gt; は年1回開催される、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#7B3CFF&#34;&gt;大規模なITエンジニアのお祭り&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
+
+&lt;p&gt;関西在住のわたしですが、&lt;font size=&#34;1&#34;&gt;&lt;del&gt;デブサミ関西ですら1度も参加したことが（実は）ない！（気持ち的には参加したくて仕方なかったのです）&lt;/del&gt;&lt;/font&gt;
+&lt;br&gt;
+&lt;br&gt;
+そんな雰囲気もわからないままの&lt;b&gt;おのぼりさん状態&lt;/b&gt;で、デブサミ2016に参加したわけです…！（震え声&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-gijinka.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-gijinka.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;翔泳社のブースで巷で話題のIT擬人化計画のPOPを発見！！！！！&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;#FF0000&#34;&gt;テンションが上がりました！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;1日目は金春のセッションだったので、わたしはカメラ要員（しかし撮影スキルは皆無）ということでリラックスモード（おい
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-sheep.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-sheep.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;#FF570D&#34;&gt;メェ～ルワイズ&lt;/font&gt;&lt;/b&gt;に乗ってニコニコL(&amp;lsquo;ω&amp;rsquo;)┘三└(&amp;lsquo;ω&amp;rsquo;)｣&lt;/p&gt;
+
+&lt;h2 id=&#34;会場の様子とセッション:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;会場の様子とセッション&lt;/h2&gt;
+
+&lt;p&gt;サイボウズさんのトラックは別のフロアにあり、WiFiも使える休憩スペースになっていました。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-junglecafe.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-junglecafe.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+入り口ではメェ～ルワイズもお出迎えしてくれます！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180433.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180433.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;フリードリンクに&lt;b&gt;エクアドル産のバナナも！&lt;/b&gt;ちょっとした作業にお勧めのスペースです。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-banana.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-banana.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみにこのバナナわたしも頂いたのですが、すごく食べごたえがありました！！！！&lt;/p&gt;
+
+&lt;p&gt;ジャングルカフェに寄られた皆さんも、わりとバナナを頬張られていましたよ(っ´ω`c)♡&lt;/p&gt;
+
+&lt;p&gt;その中で、サイボウズさんやジョイゾーさんといった&lt;b&gt;錚々たる面々&lt;/b&gt;がセッションを行います。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;1日目のラストで弊社金春が登壇！&lt;b&gt;kintone Promise&lt;/b&gt;についてのセッションです！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-kirintone.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-kirintone.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;font size=&#34;1&#34;&gt;あ、こっちじゃないですね。&lt;/font&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180428.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180428.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180424.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180424.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;今回は上級者向けのセッションということもあり、セッション内で時間を取り、参加者に実際にコードを考えて書いてもらう時間がありました。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180432.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180432.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;セッション中に書くのはなかなか大変です…そして、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#336666&#34;&gt;わりと一筋縄ではいかない課題が大量にΣ&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;ソースコードを見るとその開発者の方向性が垣間見えるのが面白いなと思います|ω・)ｺｯｿﾘ&lt;/p&gt;
+
+&lt;h1 id=&#34;決戦当日-デブサミ2016-2日目:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;決戦当日（デブサミ2016 2日目）&lt;/h1&gt;
+
+&lt;p&gt;そんなこんなでいよいよデブサミ登壇デビューの日がやってまいりました！
+いつものLTあるあるのように事故で終われないので、ギリギリまでスピーカー控室で資料の調整をするわたしです。&lt;/p&gt;
+
+&lt;h2 id=&#34;ついに決戦の時:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;ついに決戦の時！&lt;/h2&gt;
+
+&lt;p&gt;いよいよやってきました！、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#CC3300&#34;&gt;決戦の時が…！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;当日参加の方もいらっしゃったからなのか、予想以上に席がいっぱいの状態に！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190462.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190462.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;皆様それだけこのサービスに興味を持って頂いていたのだと思うと身が引き締まる思いです…！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190440.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190440.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#999933&#34;&gt;こんなところで事故るわけにはいかない…！！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;と思いつつ、 &lt;del&gt;自己紹介はしっかり（&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190449.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190449.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;90分という長丁場でしたが、皆さん終始集中して聞いて頂き、&lt;b&gt;gusuku&lt;/b&gt;についても興味を持って頂けました！&lt;/p&gt;
+
+&lt;p&gt;金春とわたしのデブサミ登壇資料は&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;こちら&lt;/a&gt;のページにリンクを貼らせて頂いています！&lt;/p&gt;
+
+&lt;p&gt;セルフペースで学習して頂けるような資料にしてますので、ご興味がある方は是非是非ご覧になってみて下さいね！&lt;/p&gt;
+
+&lt;h1 id=&#34;最後に:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;早速その後実務でお試し頂いている方もいらっしゃるようで、ありがたい限りです。&lt;/p&gt;
+
+&lt;p&gt;皆様本当にありがとうございます！（｡╹ω╹｡）&lt;/p&gt;
+
+&lt;p&gt;今回登壇機会を与えてくださった皆様に、この場をお借りして御礼申し上げます(`･⊝･´)&lt;/p&gt;
+
+&lt;h3 id=&#34;再掲-資料はこちらで-す-https-www-r3it-com-community-kintonecafe:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;再掲：&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;資料はこちらで〜す！&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h1 id=&#34;ひとりごと:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;ひとりごと&lt;/h1&gt;
+
+&lt;p&gt;なんとなんと…&lt;/p&gt;
+
+&lt;p&gt;正式に&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;の&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF1493&#34;&gt;エバンジェリスト&lt;/font&gt;&lt;/b&gt;として今後活動させて頂くことになりましたよ₍₍ ◝(&amp;lsquo;ω&amp;rsquo;◝) ⁾⁾ ₍₍ (◟&amp;rsquo;ω&amp;rsquo;)◟ ⁾⁾&lt;/p&gt;
+
+&lt;p&gt;まだまだ未熟ですが、&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;の魅力を精一杯伝えていきたいと思っています(๑´ㅂ`๑)&lt;/p&gt;
+
+&lt;p&gt;皆さん是非&lt;b&gt;gusukuを使ってみてフィードバックくださいね！&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;知りたいよ！って人が（もし）いらっしゃいましたらお話させて頂きますので是非是非勉強会等にも呼んでくださいねー！（｡╹ω╹｡）&lt;/p&gt;
+
+&lt;p&gt;引き続き宜しくお願いしまーす＼( &amp;lsquo;ω&amp;rsquo;)／&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Developers Summit 2016（デブサミ2016） サイボウズ特別トラック登壇のお知らせ</title>
@@ -1350,42 +1493,6 @@ LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.i
 &lt;h2 id=&#34;サービス画像:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;サービス画像&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34; data-lightbox=&#34;pics&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Talend Open Studio パートナーに登録されました</title>
-      <link>https://www.r3it.com/info/2015/join-to-tosp/</link>
-      <pubDate>Thu, 06 Aug 2015 17:30:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/join-to-tosp/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/TOSP_logo_4c.png&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社アールスリーインスティテュートはこの度、 Talend Open Studio パートナーに登録されました。&lt;/p&gt;
-
-&lt;h1 id=&#34;talend-open-studio-パートナー-tosp-とは:60be785fc3713ba04f8c68da6af8f085&#34;&gt;Talend Open Studio パートナー（TOSP）とは&lt;/h1&gt;
-
-&lt;p&gt;Talend Open Studio (TOS)のトレーニング、サポート、コネクタやモジュールの受託開発などを提供するパートナーです。公式サイトはこちらのURLになります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://talend.jp/tosp&#34;&gt;https://talend.jp/tosp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社アールスリーインスティテュートでは、以下のコンポーネント・サービスを提供しています。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 向けの &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ kintone&lt;/a&gt; と接続するためのオープンソース コンポーネント&amp;rdquo;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kintone Connector for talend&lt;/a&gt;&amp;rdquo; の提供&lt;/li&gt;
-&lt;li&gt;上記コンポーネントを利用した kintone と既存システムのデータ連携システムの構築&lt;/li&gt;
-&lt;li&gt;Talend Open Studio を利用した基幹システムと Amazon Web Services (AWS) との間でのシステム・データ連携&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;システム概要イメージ:60be785fc3713ba04f8c68da6af8f085&#34;&gt;システム概要イメージ&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/talend-kintone-overview.png&#34; data-lightbox=&#34;pics&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/talend-kintone-overview.png&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Talend Open Studio と kintone を利用したデータ連携システムの概要は、上記のとおりです。AWS上に構築した基幹システムと、サイボウズ側ネットワークにある kintone アプリ群を、 Talend でデータ連携するイメージです。&lt;/p&gt;
-
-&lt;p&gt;システム間のデータ連携にご興味があるお客様は、&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;是非お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
 </description>
     </item>
     
