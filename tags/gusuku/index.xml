@@ -151,5 +151,205 @@
 </description>
     </item>
     
+    <item>
+      <title>アールスリー、サイボウズ「kintone」アプリの利用・開発・運用を支援するサービス gusuku（グスク）を正式リリース</title>
+      <link>https://www.r3it.com/info/2015/gusuku-release/</link>
+      <pubDate>Fri, 06 Nov 2015 09:27:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/gusuku-release/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:d7aac435c14e06d61b849f12d4800108&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」アプリケーションの利用・開発・運用を強力にサポートする「gusuku（グスク）」を正式リリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;今回の正式リリースは、約2ヶ月に渡るプライベートベータテストでお客様にフィードバック頂いた内容に加え、kintoneプラグインの第1弾として【添付ファイル保存プラグイン】をリリースいたします。これにより、100MBを超える添付ファイルをkintoneアプリ上で利用することが可能となります。今後もデータバックアッププラグインなど、順次リリースを予定しております。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;サイボウズ株式会社様より以下のエンドースメントを頂いております。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;サイボウズ株式会社は、アールスリーインスティテュートが設計・開発した開発支援ソリューション「gusuku」のサービス提供開始を心より歓迎いたします。
+
+「kintone」は、サイボウズが提供するクラウド型の業務アプリ開発プラットフォームです。ユーザーは、「kintone」上で業務に必要なアプリケーションを自由に作成できるだけでなく、サイボウズ、およびパートナー企業が開発したアプリケーションを利用することもできます。
+
+「gusuku」のリリースにより、kintoneアプリの開発・運用の効率が更に向上し、お客様の業務改革を積極的に後押ししていけることを大変嬉しく思います。
+
+今後も、アールスリーインスティテュートが開発基盤としての「kintone」の可能性を広げ新たな価値創出を進めて頂けることを期待しております。
+
+サイボウズ株式会社
+執行役員 ビジネスマーケティング本部長 林田 保
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;主な機能:d7aac435c14e06d61b849f12d4800108&#34;&gt;主な機能&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定可能です）&lt;/li&gt;
+&lt;li&gt;各環境にアプリを登録&lt;/li&gt;
+&lt;li&gt;各アプリのフォーム設計情報の取込&lt;/li&gt;
+&lt;li&gt;ある環境から別の環境への設計情報の配布&lt;/li&gt;
+&lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;添付ファイル保存プラグインによる機能:d7aac435c14e06d61b849f12d4800108&#34;&gt;添付ファイル保存プラグインによる機能&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;100MB以上の添付ファイルをkintoneアプリのレコードに付属してアップロード可能&lt;/li&gt;
+&lt;li&gt;容量制限無し（料金プランの範囲内）&lt;/li&gt;
+&lt;li&gt;画像ファイルに関してはサムネイル画像の自動生成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;サービスサイトurl:d7aac435c14e06d61b849f12d4800108&#34;&gt;サービスサイトURL&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;料金プラン:d7aac435c14e06d61b849f12d4800108&#34;&gt;料金プラン&lt;/h1&gt;
+
+&lt;p&gt;管理するkintoneアプリケーション数、添付ファイル保存ディスク容量で4つのプランをご用意しております。&lt;/p&gt;
+
+&lt;table class=&#34;table&#34;&gt;
+&lt;tr&gt;&lt;td&gt; &lt;/td&gt;&lt;td&gt;フリー&lt;/td&gt;&lt;td&gt;スタンダード&lt;/td&gt;&lt;td&gt;プロフェッショナル&lt;/td&gt;&lt;td&gt;エンタープライズ&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;アプリ(appId)数&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;添付ファイルディスク容量&lt;/td&gt;&lt;td&gt;1GB&lt;/td&gt;&lt;td&gt;10GB&lt;/td&gt;&lt;td&gt;100GB&lt;/td&gt;&lt;td&gt;300GB&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;月額価格（税込）&lt;/td&gt;&lt;td&gt;無料&lt;/td&gt;&lt;td&gt;1080円&lt;/td&gt;&lt;td&gt;4320円&lt;/td&gt;&lt;td&gt;10800円&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;gusuku開発の背景:d7aac435c14e06d61b849f12d4800108&#34;&gt;gusuku開発の背景&lt;/h1&gt;
+
+&lt;p&gt;kintoneは、サイボウズ株式会社の提供するファストシステム開発プラットフォームです。基本的な要素はブラウザ上でドラッグ＆ドロップだけで開発することができ、またクラウドサービスであるため運用環境を用意することなく、すぐに利用を開始することができます。&lt;/p&gt;
+
+&lt;p&gt;当社では、このkintoneを活用し「ハイスピードSI」という開発サービスを提供しておりますが、その中で実際に開発作業を行っていると今のkintoneでは解決できないいくつかの問題が発生します&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;簡単に安全にアプリを修正できるとはいえ本番運用しているアプリの上で試行錯誤するわけにはいかない&lt;/li&gt;
+&lt;li&gt;試行錯誤用に開発用アプリを別に作成したとしても、そこで実施した変更を再度本番環境のアプリで行わないといけなくなり、作業漏れやミスの可能性がある&lt;/li&gt;
+&lt;li&gt;変更した結果が、まずいとなった場合に元に戻す手段がない。最後に行った変更を手作業で１つ１つ戻していく必要がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こういった問題を解消することを目的に、gusukuを開発いたしました。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusukuを利用していただきたい方:d7aac435c14e06d61b849f12d4800108&#34;&gt;gusukuを利用していただきたい方&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneで運用しているアプリをお持ちで、頻繁にアプリに変更を加える方&lt;/li&gt;
+&lt;li&gt;kintoneで運用しているアプリが多く、それぞれのアプリの管理に手間がかかると感じられている方&lt;/li&gt;
+&lt;li&gt;kintoneのファイル添付機能を多用し、保存できるファイルサイズや総容量に不満のある方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;サービス画像:d7aac435c14e06d61b849f12d4800108&#34;&gt;サービス画像&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;ページ概要&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku-release/page_overview.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku-release/page_overview.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;kintoneアプリケーションの環境と配布を一覧するマトリックス&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku-release/matrix.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku-release/matrix.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;kintoneアプリケーションを環境に追加して、gusuku上で管理します&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku-release/add_app.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku-release/add_app.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;kintoneアプリの詳細画面&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku-release/app_detail1.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku-release/app_detail1.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;gusukuで管理するデータの概念図&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku-release/obj_overview.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku-release/obj_overview.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;アールスリーインスティテュートについて:d7aac435c14e06d61b849f12d4800108&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。
+当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
+
+&lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;本件に関するお問い合わせ先:d7aac435c14e06d61b849f12d4800108&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
+
+&lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
+
+&lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gusukuプライベートベータ開始のお知らせ</title>
+      <link>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</link>
+      <pubDate>Tue, 25 Aug 2015 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;gusukuプライベートベータ開始のお知らせ:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuプライベートベータ開始のお知らせ&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート（大阪府大阪市、代表取締役 加藤忠智、以下当社）は、本日kintoneでの開発を強力にサポートする「gusuku（グスク）」サービスのプライベートベータの提供を開始いたしました。&lt;/p&gt;
+
+&lt;p&gt;gusuku Webサイト: &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gusuku開発の背景:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusuku開発の背景&lt;/h2&gt;
+
+&lt;p&gt;kintoneは、サイボウズ株式会社の提供するファストシステム開発プラットフォームです。基本的な要素はブラウザ上でドラッグ＆ドロップだけで開発することができ、またクラウドサービスであるため運用環境を用意することなく、すぐに利用を開始することができます。&lt;/p&gt;
+
+&lt;p&gt;当社では、このkintoneを活用し「ハイスピードSI」という開発サービスを提供しておりますが、その中で実際に開発作業を行っていると今のkintoneでは解決できないいくつかの問題が発生します&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;簡単に安全にアプリを修正できるとはいえ本番運用しているアプリの上で試行錯誤するわけにはいかない&lt;/li&gt;
+&lt;li&gt;試行錯誤用に開発用アプリを別に作成したとしても、そこで実施した変更を再度本番環境のアプリで行わないといけなくなり、作業漏れやミスの可能性がある&lt;/li&gt;
+&lt;li&gt;変更した結果が、まずいとなった場合に元に戻す手段がない。最後に行った変更を手作業で１つ１つ戻していく必要がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こういった問題を解消することを目的に、gusukuを開発いたしました。&lt;/p&gt;
+
+&lt;h2 id=&#34;gusukuを利用していただきたい方:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuを利用していただきたい方&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneで運用しているアプリをお持ちで、頻繁にアプリに変更を加える方&lt;/li&gt;
+&lt;li&gt;kintoneで運用しているアプリが多く、それぞれのアプリの管理に手間がかかると感じられている方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;プライベートベータへの参加方法:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;プライベートベータへの参加方法&lt;/h2&gt;
+
+&lt;p&gt;gusukuプライベートベータサービスへの参加は、 &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt; より利用規約をご確認の上、ご登録ください。
+現在、FacebookまたはGoogleアカウントでのご利用が可能となっております。&lt;/p&gt;
+
+&lt;p&gt;準備が整い次第、順次ご連絡をさせていただきます。&lt;/p&gt;
+
+&lt;h2 id=&#34;gusukuの今後について:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuの今後について&lt;/h2&gt;
+
+&lt;p&gt;プライベートベータにてご意見をいただき必要な改修を行った後、本番リリースを行います。本番リリースでは、無料プランと有料プランの両方をご用意する予定となっております。
+有料プランの内容・金額等については、順次公開して参ります。&lt;/p&gt;
+
+&lt;h2 id=&#34;アールスリーインスティテュートについて:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;アールスリーインスティテュートについて&lt;/h2&gt;
+
+&lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。
+当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
+
+&lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;本件に関するお問い合わせ先:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;本件に関するお問い合わせ先&lt;/h2&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
+
+&lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
+
+&lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
+
+&lt;h2 id=&#34;サービス画像:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;サービス画像&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34; data-lightbox=&#34;pics&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
