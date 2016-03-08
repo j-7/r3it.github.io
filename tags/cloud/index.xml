@@ -5,8 +5,82 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Mar 2016 10:27:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 08 Mar 2016 12:00:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、サイボウズ「kintone」向けプラグインとしてExcel帳票サービスをリリース</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update201603/</link>
+      <pubDate>Tue, 08 Mar 2016 12:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update201603/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」向けに、Excel帳票プラグインをリリースいたしました。本プラグインは、kintoneアプリケーションの利用・開発・運用を強力にサポートする「gusuku（グスク）」のエンタープライズプランのオプションとして提供されます。&lt;/p&gt;
+
+&lt;p&gt;Excel帳票プラグインは、gusukuおよびkintoneアプリケーションと統合されたExcel帳票サービスとなります。アプリケーション管理者は、使い慣れたExcelで帳票をレイアウトしすぐに利用可能です。kintoneユーザーは帳票として出力したいレコードを選択し、自由にExcelファイルを出力することが可能です。&lt;/p&gt;
+
+&lt;p&gt;帳票に必要なテンプレートファイルはgusuku上で管理され、kintoneアプリケーションとセットで配布することが可能です。&lt;/p&gt;
+
+&lt;h1 id=&#34;主な機能:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;主な機能&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Excelのxlsx形式を使って、帳票レイアウトを作成可能&lt;/li&gt;
+&lt;li&gt;Excel帳票プラグインをインストールしたkintoneアプリケーションが利用できるユーザは誰でも、出力したいレコードを選択し、Excel帳票出力が可能&lt;/li&gt;
+&lt;li&gt;各種フィールドは勿論、添付ファイルの画像なども埋め込み可能&lt;/li&gt;
+&lt;li&gt;レコード一覧と各レコードの詳細の両方をまとめて1ファイルに出力可能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;サービスサイトurl:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;サービスサイトURL&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;料金プラン:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;料金プラン&lt;/h1&gt;
+
+&lt;p&gt;本プラグインは、gusukuのエンタープライズプラン向けのオプションとして提供されます。帳票テンプレートの種類のほか、出力回数に制限は設けていません。&lt;/p&gt;
+
+&lt;p&gt;※ フリープランを含め、全てのプランをご利用中のお客様は、オプションお申込みから1ヶ月間は制限なくすべての機能をお試しいただくことが可能です。&lt;/p&gt;
+
+&lt;table class=&#34;table&#34;&gt;
+&lt;tr&gt;&lt;td&gt;月額価格（税抜）&lt;/td&gt;&lt;td&gt;18,000円&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;年額価格（税抜）&lt;/td&gt;&lt;td&gt;198,000円&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;サービス画像:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;サービス画像&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;kintoneと統合されたExcel帳票プラグイン&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin1.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin1.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;印刷確認ダイアログ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin2.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin2.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;gusuku上で提供されるテンプレート管理画面&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/template.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/template.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;アールスリーインスティテュートについて:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneやAWSなど各種クラウドサービスを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
+
+&lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;本件に関するお問い合わせ先:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
+
+&lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
+
+&lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>【事前登録無料】Cloud Days 2016 東京・大阪に出展！よろず相談所開催いたします</title>
@@ -41,7 +115,7 @@
 &lt;li&gt;大阪事前登録： &lt;a href=&#34;http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html&#34;&gt;http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;会場にて-アールスリーよろず相談所-を開設いたします:1650b5476224e4cbd886af4415925bbd&#34;&gt;会場にて、【アールスリーよろず相談所】を開設いたします&lt;/h2&gt;
+&lt;h2 id=&#34;会場にて-アールスリーよろず相談所-を開設いたします:1650b5476224e4cbd886af4415925bbd&#34;&gt;会場にて【アールスリーよろず相談所】を開設いたします&lt;/h2&gt;
 
 &lt;p&gt;いつも慌ただしい展示会会場ですが、今回は事前予約制でゆっくりお話をお伺いできる体制を整えました。&lt;/p&gt;
 
@@ -797,24 +871,6 @@ Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Ja
 &lt;p&gt;TEL: 06-6271-3663 / Email : &lt;a href=&#34;mailto:info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 名古屋 Vol.1 参加レポート</title>
-      <link>https://www.r3it.com/info/2015/0617_kintonecafe-nagoya/</link>
-      <pubDate>Wed, 17 Jun 2015 17:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/0617_kintonecafe-nagoya/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;6月17日（水）の夜は、サイボウズ様が提供するクラウド型データベース「kintone」の勉強会『kintone Café 名古屋 Vol.1』にて弊社金春がセッションを行いました。&lt;/p&gt;
-
-&lt;p&gt;名古屋では初の開催であるにもかかわらず、会場に人が入りきらず立ち見が発生するほど。&lt;/p&gt;
-
-&lt;p&gt;そんな中、弊社の強みである &amp;ldquo;ハイスピードSI&amp;rdquo; について熱弁してきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/kintone-cafe-nagoya-0617.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/kintone-cafe-nagoya-0617.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
