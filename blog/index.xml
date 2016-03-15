@@ -5,8 +5,106 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Mar 2016 15:00:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Mar 2016 15:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JAWS DAYS 2016 参加レポート</title>
+      <link>https://www.r3it.com/blog/aws/jawsdays2016-report/</link>
+      <pubDate>Tue, 15 Mar 2016 15:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/jawsdays2016-report/</guid>
+      <description>
+
+&lt;p&gt;先週は怒涛のgusukuの&lt;a href=&#34;https://www.r3it.com/info/2016/gusuku-update201603/&#34;&gt;Excel帳票リリース&lt;/a&gt;、&lt;a href=&#34;https://www.r3it.com/blog/kintone/20160310-11_clouddaystokyo2016/&#34;&gt;CloudDays2016東京出展&lt;/a&gt;、&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/&#34;&gt;JAWS DAYS 2016&lt;/a&gt;と立て続けのイベントで未だにヘロヘロの西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;さて、去る3月12日に年に一度のJAWS-UGのお祭り「JAWS DAYS 2016」が開催されました！今日は当日の様子と弊社社員の登壇資料をまとめて参加レポートとしてご報告いたします。&lt;/p&gt;
+
+&lt;h1 id=&#34;嵐の前の静けさ:3f5a8b7b4c002645a63084335f477d83&#34;&gt;嵐の前の静けさ&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25608821682_cbe50d74f4_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25608821682_cbe50d74f4_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;イベントボランティアの朝は早い、ということで朝8時半頃の写真をお届けいたします。この時間からボランティアスタッフはイベント運営のために頑張っておりました。&lt;/p&gt;
+
+&lt;p&gt;これがフタを開けると・・・&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25730359395_795db0d772_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25730359395_795db0d772_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;朝のキーノートでこの状態です。そして弊社金春が「鳥肌が立った」という半分以上が初参加者の皆様。&lt;/p&gt;
+
+&lt;p&gt;関連記事: &lt;a href=&#34;http://ascii.jp/elem/000/001/133/1133413/&#34;&gt;唯一無比のJAWS DAYSの価値にIT業界全体が気づいた日&lt;/a&gt; by ascii.jp&lt;/p&gt;
+
+&lt;h1 id=&#34;キーノート-jaws-ugこれまでとこれから:3f5a8b7b4c002645a63084335f477d83&#34;&gt;キーノート JAWS-UGこれまでとこれから&lt;/h1&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/eVmURMIQTnJWcc&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20160312-jaws-days-2016-keynote&#34; title=&#34;2016/03/12 JAWS DAYS 2016 Keynote&#34; target=&#34;_blank&#34;&gt;2016/03/12 JAWS DAYS 2016 Keynote&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/tkonparu&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;10時過ぎのオープニングでは、弊社の金春が「JAWS-UGこれまでとこれから」と題してキーノートセッションに登壇いたしました。&lt;/p&gt;
+
+&lt;p&gt;朝一のセッションということで、聞けなかったという方向けの&lt;a href=&#34;http://www.konpa.ru/2016/03/14/285/&#34;&gt;本人解説が個人ブログにアップ&lt;/a&gt;されておりますので、よろしければそちらもご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25635230661_670396fac4_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25635230661_670396fac4_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（おお〜と鳥肌が立った瞬間）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25783348005_deb14c38ef_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25783348005_deb14c38ef_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみに金春は、公式カメラマンのひとりとして会場中を常に歩きまわり写真を撮る、という重要な使命も持っていたことをここにご報告いたします。&lt;/p&gt;
+
+&lt;h1 id=&#34;ランチタイムセッション:3f5a8b7b4c002645a63084335f477d83&#34;&gt;ランチタイムセッション&lt;/h1&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/3I6fr8Lvh4Co0S&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/ss-59515192&#34; title=&#34;アールスリー ランチタイムセッション&#34; target=&#34;_blank&#34;&gt;アールスリー ランチタイムセッション&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/KoichiroNishijima&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーはJAWS DAYS企業サポーターということで、ランチタイムセッションに10分だけお話させていただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25784876175_82c6206cf7_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25784876175_82c6206cf7_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（準備中の写真から…）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25158206603_0c9d80416e_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25158206603_0c9d80416e_k.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（何かが違うセッション開始直後。そう会社Tシャツを着ていたのを忘れていましたので着替えました！）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25663786552_5df5dafb3b_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25663786552_5df5dafb3b_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;金春・池上と西島がかけ合う形でセッションを進めさせていただきました。内容は見ていただいたとおりなのですが、リハーサルする時間も全く無かったにもかかわらず、ジャスト10分に収められたのでかなり気持ちが良かったです。&lt;/p&gt;
+
+&lt;p&gt;少しでも弊社に興味を持った方がいらっしゃれば幸いです。&lt;/p&gt;
+
+&lt;h1 id=&#34;ゼロから始めるモバイルアプリ開発-aws-mobile-hubハンズオン:3f5a8b7b4c002645a63084335f477d83&#34;&gt;ゼロから始めるモバイルアプリ開発 / AWS Mobile Hubハンズオン&lt;/h1&gt;
+
+&lt;p&gt;各資料(PDF)とGithubリポジトリはこちらです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;準備編資料 &lt;a href=&#34;http://bit.ly/handson201601-setup&#34;&gt;http://bit.ly/handson201601-setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本編資料 &lt;a href=&#34;http://bit.ly/handson201601-main&#34;&gt;http://bit.ly/handson201601-main&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Githubリポジトリ &lt;a href=&#34;https://github.com/jaws-ug/hands-on/tree/master/Mobile-Hub&#34;&gt;https://github.com/jaws-ug/hands-on/tree/master/Mobile-Hub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こちらのハンズオンは西島が担当しておりました。事前周知が徹底できず、準備編を終えている方が殆どいないという残念な状態からのスタートでした。明らかにすべてを終わらせるのは難しい状態でしたので、概要を流して、あとは手持ちの実機のデモンストレーションを実際触ってもらいながら、導入へのポイントなどをお話させていただきました。&lt;/p&gt;
+
+&lt;p&gt;資料を見ながらやればスムーズにハンズオンは進むと思いますので、是非皆さんの実際のプロジェクトで使ってみて頂けますと幸いです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25140255093_a069497296_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25140255093_a069497296_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;オープンデータ活用-全国の女子たちが支えるプロジェクト:3f5a8b7b4c002645a63084335f477d83&#34;&gt;オープンデータ活用「全国の女子たちが支えるプロジェクト」&lt;/h1&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/eHvk4VNC5Dfkpn&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/jawsug_kgirls/20160312-jaws-days-jawsug&#34; title=&#34;20160312 JAWS DAYS JAWS-UG関西女子会 全国の女子たちが支えるプロジェクト&#34; target=&#34;_blank&#34;&gt;20160312 JAWS DAYS JAWS-UG関西女子会 全国の女子たちが支えるプロジェクト&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/jawsug_kgirls&#34;&gt;JAWS-UG関西女子会&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;最終枠のセッションでは、弊社池上がJAWS-UG関西女子会として登壇させていただきました。&lt;/p&gt;
+
+&lt;p&gt;なんと意表をついたというか女子らしいというか、オープンデータを活用して女子たちが使えるトイレアプリを作ろ言うという、壮大な野望を関西発であちこちの方を巻き込みつつ、進めているプロジェクトについてお話させていただきました。システム基盤はAWSで構築しており、これからアイデアを持ってJOINしてくれるエンジニアの方や、アプリのUI/UXをデザインしてくれる人など、プロジェクトを手伝ってくれる仲間を募集中です！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25663895012_87eae3d066_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25663895012_87eae3d066_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;祭りのあと:3f5a8b7b4c002645a63084335f477d83&#34;&gt;祭りのあと&lt;/h1&gt;
+
+&lt;p&gt;AWSが最初のサービスであるS3をローンチして10年、JAWS-UGが出来てまだ5年、これからもまだまだAWSとコミュニティの進化は進むと思います。次の5年、10年後にどのようなことになっているのか、今からワクワクしますね！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://aws.typepad.com/aws_japan/2016/03/ten-years-in-the-aws-cloud-how-time-flies.html&#34;&gt;Ten Years in the AWS Cloud – How Time Flies! ～ AWSクラウドの10年&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25101663204_7fa3b39c8a_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25101663204_7fa3b39c8a_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Days Tokyo 2016 に出展してきました！！</title>
@@ -1398,97 +1496,6 @@ Promiseオブジェクトにはthen()というメソッドがあり、このthen
 &lt;h1 id=&#34;次回以降の予告:c1ad260bf9e57cb45cdea62c34cb1dad&#34;&gt;次回以降の予告&lt;/h1&gt;
 
 &lt;p&gt;次回以降は、より複雑な処理をPromiseでどう記述すばいいかと掲載していきます。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone hive vol.2に参加してきました！</title>
-      <link>https://www.r3it.com/blog/kintone/20151015_kintonehive-vol2/</link>
-      <pubDate>Fri, 23 Oct 2015 16:16:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20151015_kintonehive-vol2/</guid>
-      <description>
-
-&lt;p&gt;2015年10月15日（木）東京で開催された&lt;a href=&#34;https://kintone.cybozu.com/jp/event/hive2015/10/&#34;&gt;kintone hive vol.2&lt;/a&gt;の様子をお伝えしたいと思います！&lt;/p&gt;
-
-&lt;h1 id=&#34;kintone-hiveとは:f2b5ca8096903323c6babd5c01b1b699&#34;&gt;kintone hiveとは？&lt;/h1&gt;
-
-&lt;p&gt;kintoneユーザー様の活用事例や、kintoneデベロッパーの面々によるライトニングトークなど、kintone についての情報交換ができる大規模ユーザー会です。&lt;/p&gt;
-
-&lt;p&gt;「hive」は&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FFCC33&#34;&gt;蜂の巣&lt;/font&gt;&lt;/b&gt;という意味ですが、&lt;b&gt;活気あふれる場所&lt;/b&gt;という意味合いもあるそうです。&lt;/p&gt;
-
-&lt;p&gt;人とノウハウが集まる活気あふれた場所にしたいという願いをこめて、発足されたようですよ。&lt;/p&gt;
-
-&lt;p&gt;今回は、kintoneユーザー様を対象に、優れた取り組みを表彰するkintone AWORDが開催されました。&lt;/p&gt;
-
-&lt;p&gt;狭き門をくぐり抜けてきたファイナリスト達が登壇し、事例発表を行います。&lt;/p&gt;
-
-&lt;p&gt;その事例発表を見た会場にいる参加者の皆様に投票してもらい最優秀賞が決定するというものです。&lt;/p&gt;
-
-&lt;p&gt;今回はそんなkintone hiveについに参加してきました！&lt;/p&gt;
-
-&lt;h2 id=&#34;ユーザー会の様子:f2b5ca8096903323c6babd5c01b1b699&#34;&gt;ユーザー会の様子&lt;/h2&gt;
-
-&lt;p&gt;なんちゃってプレスでパシャパシャ写真ばっかり撮りまくってたどうもわたしです（
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive5.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive5.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;サイボウズの大阪オフィスの方々は、普段からkintone Caféをはじめとしたコミュニティや勉強会でお会いしているので面識もあるのですが、東京の方々はイベントで出展させて頂いた時などにご挨拶させて頂くくらいしか機会がないので、今回はご挨拶もできる！ということで楽しみも倍増(੭ु╹▿╹)੭ु⁾⁾&lt;/p&gt;
-
-&lt;p&gt;&lt;font size=&#34;2&#34; color=&#34;#CC99CC&#34;&gt;&lt;del&gt;ほんとに仕事ということを忘れて単純に楽しんでいたのは内緒&lt;/del&gt;&lt;/font&gt;&lt;/p&gt;
-
-&lt;p&gt;会場はサイボウズさんの東京のオフィスが入っている東京日本橋タワーの地下、ベルサール東京日本橋だったのですが、広い！綺麗！！！&lt;/p&gt;
-
-&lt;p&gt;受付から会場まで&lt;b&gt;黄色一色！&lt;/b&gt;kintoneはポップでキュートで女の子ゴコロをくすぐります。。。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive1.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive2.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ユーザー会で定員300名の大規模イベントだったのですが、イベントが始まる頃には満員で席もほとんど空いていない状態でした。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive3.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;kintone AWORDファイナリストの皆様は、この壇上で各々事例発表を行います。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive4.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive4.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そして、その発表を見た会場にいる参加者の方々が、印象に残った登壇者のボックスに手持ちの黄色いボールを入れて投票します。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive6.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive6.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ちなみにわたしは関係者枠だったので、投票権はありませんでした。。。&lt;/p&gt;
-
-&lt;h2 id=&#34;実は登壇していた:f2b5ca8096903323c6babd5c01b1b699&#34;&gt;実は登壇していた…&lt;/h2&gt;
-
-&lt;p&gt;今回はユーザー会なので、基本的にはkintoneを利用されているユーザー企業が主体ではあるのですが、kintoneデベロッパーによるLTがあり、その中で弊社金春も登壇させて頂きました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive7.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive7.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive8.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive8.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社のお客様の事例などをご紹介させて頂きました。&lt;/p&gt;
-
-&lt;p&gt;また、最近ステッカーが大人気の&lt;a href=&#34;https://www.r3it.com/solutions/kintone/gusuku/&#34;&gt;こちらの記事&lt;/a&gt;でもご紹介させて頂いているgusukuについてもしっかりPRしてきましたよ٩(ˊᗜˋ*)و&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/FuZjqFxyKzCpad&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20151015-kintone-hive-vol2&#34; title=&#34;20151015 kintone hive vol2&#34; target=&#34;_blank&#34;&gt;20151015 kintone hive vol2&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;皆さんも是非gusukuのプライベートベータに申し込んで使ってみて下さい！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive10.jpg&#34; data-lightbox=&#34;hive-vol2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151015/kintonehive10.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;kintone関連の告知とか:f2b5ca8096903323c6babd5c01b1b699&#34;&gt;kintone関連の告知とか&lt;/h1&gt;
-
-&lt;p&gt;また、今後もkintone関連のイベントが目白押しとなっています！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/201510-11_events_support/&#34;&gt;2015年秋のイベントのお知らせ&lt;/a&gt;に加えて…&lt;/p&gt;
-
-&lt;p&gt;11/20（金）のcybozu.com カンファレンス 2015 大阪 の日の夜には、&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/33338&#34;&gt;kintone Café 大阪 Vol.5&lt;/a&gt;がサイボウズさんの新しい大阪オフィスで開催されます！&lt;/p&gt;
-
-&lt;p&gt;今回のCaféはなんと&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF6600&#34;&gt;LT祭り！&lt;/font&gt;&lt;/b&gt;LTは公募制となっています。&lt;/p&gt;
-
-&lt;p&gt;われこそは！という方、是非LTにお申し込み下さい٩(๑&amp;gt;∀&amp;lt;๑)۶&lt;/p&gt;
-
-&lt;p&gt;わたしも当日は何か…するかもしれませんｗ&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/33421&#34;&gt;https://kintonecafe-osaka.doorkeeper.jp/events/33421&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;また、11/7（土）の神戸ITフェスティバルでは、アプレッソさん、サイボウズさん共催で、&lt;a href=&#34;https://appresso-cybozu.doorkeeper.jp/events/30668&#34;&gt;Teamwork Hack Vol.2&lt;/a&gt;が開催されます！&lt;/p&gt;
-
-&lt;p&gt;こちらでは池上は一般でハッカソン参加、金春がなんと&lt;b&gt;審査員&lt;/b&gt;参加します！&lt;/p&gt;
-
-&lt;p&gt;今後もいろいろなところで皆さんとお会いできることを楽しみにしています٩(✿˙ω˙✿)۶&lt;/p&gt;
 </description>
     </item>
     

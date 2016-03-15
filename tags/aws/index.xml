@@ -5,8 +5,106 @@
     <link>https://www.r3it.com/tags/aws/</link>
     <description>Recent content in Aws on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Jan 2016 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Mar 2016 15:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JAWS DAYS 2016 参加レポート</title>
+      <link>https://www.r3it.com/blog/aws/jawsdays2016-report/</link>
+      <pubDate>Tue, 15 Mar 2016 15:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/jawsdays2016-report/</guid>
+      <description>
+
+&lt;p&gt;先週は怒涛のgusukuの&lt;a href=&#34;https://www.r3it.com/info/2016/gusuku-update201603/&#34;&gt;Excel帳票リリース&lt;/a&gt;、&lt;a href=&#34;https://www.r3it.com/blog/kintone/20160310-11_clouddaystokyo2016/&#34;&gt;CloudDays2016東京出展&lt;/a&gt;、&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/&#34;&gt;JAWS DAYS 2016&lt;/a&gt;と立て続けのイベントで未だにヘロヘロの西島です、こんにちは。&lt;/p&gt;
+
+&lt;p&gt;さて、去る3月12日に年に一度のJAWS-UGのお祭り「JAWS DAYS 2016」が開催されました！今日は当日の様子と弊社社員の登壇資料をまとめて参加レポートとしてご報告いたします。&lt;/p&gt;
+
+&lt;h1 id=&#34;嵐の前の静けさ:3f5a8b7b4c002645a63084335f477d83&#34;&gt;嵐の前の静けさ&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25608821682_cbe50d74f4_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25608821682_cbe50d74f4_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;イベントボランティアの朝は早い、ということで朝8時半頃の写真をお届けいたします。この時間からボランティアスタッフはイベント運営のために頑張っておりました。&lt;/p&gt;
+
+&lt;p&gt;これがフタを開けると・・・&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25730359395_795db0d772_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25730359395_795db0d772_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;朝のキーノートでこの状態です。そして弊社金春が「鳥肌が立った」という半分以上が初参加者の皆様。&lt;/p&gt;
+
+&lt;p&gt;関連記事: &lt;a href=&#34;http://ascii.jp/elem/000/001/133/1133413/&#34;&gt;唯一無比のJAWS DAYSの価値にIT業界全体が気づいた日&lt;/a&gt; by ascii.jp&lt;/p&gt;
+
+&lt;h1 id=&#34;キーノート-jaws-ugこれまでとこれから:3f5a8b7b4c002645a63084335f477d83&#34;&gt;キーノート JAWS-UGこれまでとこれから&lt;/h1&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/eVmURMIQTnJWcc&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20160312-jaws-days-2016-keynote&#34; title=&#34;2016/03/12 JAWS DAYS 2016 Keynote&#34; target=&#34;_blank&#34;&gt;2016/03/12 JAWS DAYS 2016 Keynote&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/tkonparu&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;10時過ぎのオープニングでは、弊社の金春が「JAWS-UGこれまでとこれから」と題してキーノートセッションに登壇いたしました。&lt;/p&gt;
+
+&lt;p&gt;朝一のセッションということで、聞けなかったという方向けの&lt;a href=&#34;http://www.konpa.ru/2016/03/14/285/&#34;&gt;本人解説が個人ブログにアップ&lt;/a&gt;されておりますので、よろしければそちらもご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25635230661_670396fac4_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25635230661_670396fac4_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（おお〜と鳥肌が立った瞬間）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25783348005_deb14c38ef_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25783348005_deb14c38ef_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみに金春は、公式カメラマンのひとりとして会場中を常に歩きまわり写真を撮る、という重要な使命も持っていたことをここにご報告いたします。&lt;/p&gt;
+
+&lt;h1 id=&#34;ランチタイムセッション:3f5a8b7b4c002645a63084335f477d83&#34;&gt;ランチタイムセッション&lt;/h1&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/3I6fr8Lvh4Co0S&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/ss-59515192&#34; title=&#34;アールスリー ランチタイムセッション&#34; target=&#34;_blank&#34;&gt;アールスリー ランチタイムセッション&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/KoichiroNishijima&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーはJAWS DAYS企業サポーターということで、ランチタイムセッションに10分だけお話させていただきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25784876175_82c6206cf7_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25784876175_82c6206cf7_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（準備中の写真から…）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25158206603_0c9d80416e_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25158206603_0c9d80416e_k.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（何かが違うセッション開始直後。そう会社Tシャツを着ていたのを忘れていましたので着替えました！）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25663786552_5df5dafb3b_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25663786552_5df5dafb3b_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;金春・池上と西島がかけ合う形でセッションを進めさせていただきました。内容は見ていただいたとおりなのですが、リハーサルする時間も全く無かったにもかかわらず、ジャスト10分に収められたのでかなり気持ちが良かったです。&lt;/p&gt;
+
+&lt;p&gt;少しでも弊社に興味を持った方がいらっしゃれば幸いです。&lt;/p&gt;
+
+&lt;h1 id=&#34;ゼロから始めるモバイルアプリ開発-aws-mobile-hubハンズオン:3f5a8b7b4c002645a63084335f477d83&#34;&gt;ゼロから始めるモバイルアプリ開発 / AWS Mobile Hubハンズオン&lt;/h1&gt;
+
+&lt;p&gt;各資料(PDF)とGithubリポジトリはこちらです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;準備編資料 &lt;a href=&#34;http://bit.ly/handson201601-setup&#34;&gt;http://bit.ly/handson201601-setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本編資料 &lt;a href=&#34;http://bit.ly/handson201601-main&#34;&gt;http://bit.ly/handson201601-main&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Githubリポジトリ &lt;a href=&#34;https://github.com/jaws-ug/hands-on/tree/master/Mobile-Hub&#34;&gt;https://github.com/jaws-ug/hands-on/tree/master/Mobile-Hub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こちらのハンズオンは西島が担当しておりました。事前周知が徹底できず、準備編を終えている方が殆どいないという残念な状態からのスタートでした。明らかにすべてを終わらせるのは難しい状態でしたので、概要を流して、あとは手持ちの実機のデモンストレーションを実際触ってもらいながら、導入へのポイントなどをお話させていただきました。&lt;/p&gt;
+
+&lt;p&gt;資料を見ながらやればスムーズにハンズオンは進むと思いますので、是非皆さんの実際のプロジェクトで使ってみて頂けますと幸いです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25140255093_a069497296_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25140255093_a069497296_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;オープンデータ活用-全国の女子たちが支えるプロジェクト:3f5a8b7b4c002645a63084335f477d83&#34;&gt;オープンデータ活用「全国の女子たちが支えるプロジェクト」&lt;/h1&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/eHvk4VNC5Dfkpn&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/jawsug_kgirls/20160312-jaws-days-jawsug&#34; title=&#34;20160312 JAWS DAYS JAWS-UG関西女子会 全国の女子たちが支えるプロジェクト&#34; target=&#34;_blank&#34;&gt;20160312 JAWS DAYS JAWS-UG関西女子会 全国の女子たちが支えるプロジェクト&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/jawsug_kgirls&#34;&gt;JAWS-UG関西女子会&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;最終枠のセッションでは、弊社池上がJAWS-UG関西女子会として登壇させていただきました。&lt;/p&gt;
+
+&lt;p&gt;なんと意表をついたというか女子らしいというか、オープンデータを活用して女子たちが使えるトイレアプリを作ろ言うという、壮大な野望を関西発であちこちの方を巻き込みつつ、進めているプロジェクトについてお話させていただきました。システム基盤はAWSで構築しており、これからアイデアを持ってJOINしてくれるエンジニアの方や、アプリのUI/UXをデザインしてくれる人など、プロジェクトを手伝ってくれる仲間を募集中です！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25663895012_87eae3d066_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25663895012_87eae3d066_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;祭りのあと:3f5a8b7b4c002645a63084335f477d83&#34;&gt;祭りのあと&lt;/h1&gt;
+
+&lt;p&gt;AWSが最初のサービスであるS3をローンチして10年、JAWS-UGが出来てまだ5年、これからもまだまだAWSとコミュニティの進化は進むと思います。次の5年、10年後にどのようなことになっているのか、今からワクワクしますね！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://aws.typepad.com/aws_japan/2016/03/ten-years-in-the-aws-cloud-how-time-flies.html&#34;&gt;Ten Years in the AWS Cloud – How Time Flies! ～ AWSクラウドの10年&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25101663204_7fa3b39c8a_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25101663204_7fa3b39c8a_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>JAWS DAYS 2016で弊社社員が登壇します！</title>
@@ -853,39 +951,6 @@
 こちらのセミナーは事前申込が必要となっておりますので、上記URLで事前登録をお願いいたします。&lt;/p&gt;
 
 &lt;p&gt;当日、会場にて皆様にお会いできるのを楽しみにしております。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JAWS-UG Kansai 特別編に弊社金春、大澤が登壇いたします</title>
-      <link>https://www.r3it.com/info/2015/0207_jaws-ug_kansai_special/</link>
-      <pubDate>Mon, 02 Feb 2015 17:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/0207_jaws-ug_kansai_special/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/jawsug-square.png&#34; alt=&#34;JAWS-UG&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;jaws-ugとは:6b1d8d10e122c8972fdbbecbe19071d3&#34;&gt;JAWS-UGとは？&lt;/h1&gt;
-
-&lt;p&gt;JAWS-UG（Japan AWS User Group）は、AWSを利用するユーザの集まりで、全国に50の支部を持つ世界でも有数のAWSのユーザグループです。&lt;/p&gt;
-
-&lt;h2 id=&#34;jaws-ug-kansai-特別編-awsを使い倒せ-awsのフルマネージドサービス活用によるネイティブクラウドシステムへの誘い:6b1d8d10e122c8972fdbbecbe19071d3&#34;&gt;JAWS-UG Kansai 特別編 「AWSを使い倒せ。AWSのフルマネージドサービス活用によるネイティブクラウドシステムへの誘い」&lt;/h2&gt;
-
-&lt;p&gt;2015年2月7日(土)に開催される、
-JAWS-UG Kansai 特別編 「AWSを使い倒せ。AWSのフルマネージドサービス活用によるネイティブクラウドシステムへの誘い」
-に弊社金春、大澤がスピーカーとして登壇します。&lt;/p&gt;
-
-&lt;p&gt;この勉強会では、AWSのフルマネージドサービス（運用はAWSが実施しお客様はサービスを利用するだけで使えるサービス群）についての紹介や、ビッグトラックでは、東急ハンズ様やあきんどスシロー様といったクラウド先進企業の方から、どのようにAWSを利用しているかのご公演もあります。&lt;/p&gt;
-
-&lt;p&gt;金春は、
-15:00〜15:30 Amazon RDS for Aurora
-17:30〜18:00 Amazon Kinesis&lt;/p&gt;
-
-&lt;p&gt;大澤は、
-15:30〜16:00 Amazon SES&lt;/p&gt;
-
-&lt;p&gt;にて、各サービスのご紹介をいたします。&lt;/p&gt;
 </description>
     </item>
     
