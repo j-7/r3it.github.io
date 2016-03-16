@@ -5,8 +5,75 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Mar 2016 15:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Mar 2016 11:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>執筆者Profile : 浅賀 功次</title>
+      <link>https://www.r3it.com/blog/author/asaga/</link>
+      <pubDate>Wed, 16 Mar 2016 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/author/asaga/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/asaga-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;クラウドエンジニアとして kintone や AWS を使った SI を担当しながら、kintone エバンジェリストとして kintone の普及活動に邁進しています。&lt;/p&gt;
+
+&lt;p&gt;京都好きが高じて、毎年ボランティアとして祇園祭に参加中。&lt;/p&gt;
+
+&lt;h2 id=&#34;コミュニティ活動:65b35a39078ddbb263951eed3b794bc8&#34;&gt;コミュニティ活動&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サイボウズ公認 &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone エバンジェリスト&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt; 運営メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34;&gt;JAWS-UG 関西IoT専門支部&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://soracom-ug-kansai.doorkeeper.jp/&#34;&gt;SORACOM-UG関西&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/koji.asaga&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/ha_ru_ma_ki&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone の中からやってきました</title>
+      <link>https://www.r3it.com/blog/etc/joined-r3-asaga/</link>
+      <pubDate>Wed, 16 Mar 2016 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/joined-r3-asaga/</guid>
+      <description>
+
+&lt;p&gt;はじめまして、2016年3月15日からアールスリーに JOIN した浅賀(あさが)です。&lt;br&gt;
+入社早々、マシンのセットアップもそこそこにブログを書いております。&lt;/p&gt;
+
+&lt;h1 id=&#34;これまでの仕事:97fa36c894190f69010682cd225b752d&#34;&gt;これまでの仕事&lt;/h1&gt;
+
+&lt;p&gt;タイトルの通りですが、前職は&lt;a href=&#34;http://cybozu.co.jp/&#34;&gt;サイボウズ株式会社&lt;/a&gt;に所属し、主に関西方面で kintone のコミュニティを広げる役割を担当していました。
+技術者向けに勉強会を開催したり、ハッカソンの開催・協賛など、エンジニアの方々に kintone を知ってもらう取り組みを行ってきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/joined-r3-asaga/joined-r3-asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/joined-r3-asaga/joined-r3-asaga.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;アールスリーにjoinした理由:97fa36c894190f69010682cd225b752d&#34;&gt;アールスリーにJOINした理由&lt;/h1&gt;
+
+&lt;p&gt;ご存知の通り、アールスリーはサイボウズ(kintone)のパートナーとして精力的に活動しています。&lt;br&gt;
+ハイスピード SI や gusuku と言った特徴的な取り組みやサービスを展開しており、サイボウズの中にいても非常に目立った存在に見えていました。&lt;br&gt;
+kintone を使った SI ビジネスは、これから伸びていく可能性のある非常に楽しみな領域です。&lt;br&gt;
+それを自ら実践しようと思った時、アールスリーのようなチャレンジングな環境に身を置く事が最善だと考えました。&lt;/p&gt;
+
+&lt;h1 id=&#34;今後の活動:97fa36c894190f69010682cd225b752d&#34;&gt;今後の活動&lt;/h1&gt;
+
+&lt;p&gt;今後は kintone や AWS を活用したハイスピード SI で導入事例をたくさん作り、kintone を使った SI の可能性を広げていきたいと思っています。&lt;br&gt;
+また、kintone エバンジェリストの役割も拝命しましたので、kintone Café などを通じて kintone の良いところをアピールする活動ができればと考えています。&lt;/p&gt;
+
+&lt;p&gt;というわけで、今後もサイボウズ(さん)とは仲良くお付き合いさせて頂きながら、頑張りたいと思います。&lt;/p&gt;
+
+&lt;p&gt;こんな社員が入社した会社にご興味を持たれた方は、&lt;a href=&#34;https://www.r3it.com/recruitment/&#34;&gt;採用情報&lt;/a&gt; もチェックしてみてください！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>JAWS DAYS 2016 参加レポート</title>
@@ -1124,297 +1191,6 @@ kintoneエバンジェリスト 細谷さん&lt;/li&gt;
 &lt;p&gt;ついでにkintoneのAPIを叩いて自動で来訪履歴を登録して、画像も記録しておくとか・・・夢広がる感じですね！&lt;/p&gt;
 
 &lt;p&gt;オムロン様、どうぞよろしくお願いいたします！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016年1月のコミュニティイベントのご案内</title>
-      <link>https://www.r3it.com/blog/community/201601community-events/</link>
-      <pubDate>Thu, 07 Jan 2016 16:38:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/community/201601community-events/</guid>
-      <description>
-
-&lt;p&gt;無事2016年1月2日に海開きを済ませた西島です、こんにちは。&lt;/p&gt;
-
-&lt;p&gt;みなさま、明けましておめでとうございます。&lt;/p&gt;
-
-&lt;p&gt;今年もアールスリーインスティテュートの Cloud Developers Blog をよろしくお願い致します。&lt;/p&gt;
-
-&lt;p&gt;2016年も、弊社社員はあちこちのコミュニティイベントの主催や登壇、大規模イベント、カンファレンスなどなどにお邪魔いたしますので、よろしくお願い致します！&lt;/p&gt;
-
-&lt;p&gt;さて今日は、今月開催のコミュニティイベント＋αを幾つかお知らせいたします！&lt;/p&gt;
-
-&lt;h2 id=&#34;2016年1月9日-土-jaws-ug-関西女子会-2016年新年会:dd3017aa51868bb9f13fdfbe88353e49&#34;&gt;2016年1月9日（土）/ JAWS-UG 関西女子会 2016年新年会&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dzpp79ucibp5a.cloudfront.net/groups_logos/7045_normal_1448469521_rogo3_01.png&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;https://jawsugkgirls.doorkeeper.jp/events/35309&#34;&gt;https://jawsugkgirls.doorkeeper.jp/events/35309&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;JAWS-UG 関西女子会は 20代～40代まで 幅広い年齢層がいることに加え、業種も営業さんからデザイナー、インフラエンジニアと様々な方々がいらっしゃる、とてもゆるい集まりです！
-各自ご自由に食べ物・飲み物を持ち込んでの新年会！是非ご参加くださいｲｪｲL(&amp;lsquo;ω&amp;rsquo;)┘三└(&amp;lsquo;ω&amp;rsquo;)｣ｲｪｲ&lt;/p&gt;
-
-&lt;h2 id=&#34;2016年1月16日-土-kintone-café-関西女子会-vol-1:dd3017aa51868bb9f13fdfbe88353e49&#34;&gt;2016年1月16日（土）/ kintone Café 関西女子会 Vol.1&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dzpp79ucibp5a.cloudfront.net/groups_logos/4497_normal_1436153908_kintonecafe_logo.png&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/36096&#34;&gt;https://kintonecafe-osaka.doorkeeper.jp/events/36096&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;kintone Caféに関西女子会が出来ました！
-初開催となるVol.1は、「kintoneを触ってみよう！」です。お子様連れでも大丈夫ですので、お気軽にご参加ください！&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;そしてこの2つのイベント、弊社新オフィスでの開催となりました〜！&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;そんなに広くない場所ですが、コミュニティに場所をご提供できること、とても嬉しく思います！無線LAN完備＆飲食可＆新しい椅子と机！皆様ゆったりのんびりご活用くださいませ。&lt;/p&gt;
-
-&lt;p&gt;（西島はまだ出社したことがないので、実は分からないのですが(^_^;) みなさまお先に体験してきてください）&lt;/p&gt;
-
-&lt;h2 id=&#34;2016年1月16日-土-jaws-ug沖縄-ゼロから始めるモバイルアプリ開発-aws-mobile-hubハンズオン:dd3017aa51868bb9f13fdfbe88353e49&#34;&gt;2016年1月16日（土）/ JAWS-UG沖縄 ゼロから始めるモバイルアプリ開発 / AWS Mobile Hubハンズオン&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dzpp79ucibp5a.cloudfront.net/groups_logos/1477_normal_1387151472_jaws-ug_okinawa2.png&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;https://jaws-ug-okinawa.doorkeeper.jp/events/36263&#34;&gt;https://jaws-ug-okinawa.doorkeeper.jp/events/36263&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;同日16日土曜日は、JAWS-UG沖縄にて【ゼロから始めるモバイルアプリ開発 / AWS Mobile Hubハンズオン】が開催されます！&lt;/p&gt;
-
-&lt;p&gt;アプリケーションのコードを全く書くこと無く、モバイルアプリが出来てしまうという強力なサービスであるAWS Mobile Hubのハンズオン！ 既に県外からも数名の方が「遊びに行くよ〜！」と宣言してくださっております。まだもう少し空きがありますので、是非ご参加ください！
-現時点で100ページ以上の大作資料になっていますが、まだ全部作りきっておりません。頑張ります・・・(^^;&lt;/p&gt;
-
-&lt;p&gt;今年の沖縄は異常に暑い＆雨が一段と多いので、少しはいい天気になってくれることを期待しましょう・・・。&lt;/p&gt;
-
-&lt;h1 id=&#34;1月以降のイベント:dd3017aa51868bb9f13fdfbe88353e49&#34;&gt;1月以降のイベント&lt;/h1&gt;
-
-&lt;p&gt;2月のとあるイベントに、弊社社員がお邪魔します！&lt;/p&gt;
-
-&lt;p&gt;しかし残念、まだ秘密ということなので、こちらは公開許可が出次第、またお知らせいたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;jaws-days-2016-サポートします:dd3017aa51868bb9f13fdfbe88353e49&#34;&gt;JAWS DAYS 2016 サポートします！&lt;/h2&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;http://jaws-ug.jp/wp-content/uploads/2015/09/7bc9d19297583b8e38198401200ae29a.png&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/&#34;&gt;http://jawsdays2016.jaws-ug.jp/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今年も3月12日に JAWS DAYS 2016 が開催されます。JAWS-UGが主催する最大のお祭りのひとつです。&lt;/p&gt;
-
-&lt;p&gt;弊社社員が運営ボランティアスタッフやセッションに登壇したりと、裏も表も一生懸命活動しております。&lt;/p&gt;
-
-&lt;p&gt;既に&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/ticket&#34;&gt;先行参加受付&lt;/a&gt;も始まっていますので、皆様是非3月の東京新宿でお会いしましょう！&lt;/p&gt;
-
-&lt;p&gt;弊社は今年も企業サポーターとしてJAWS-UGを支援していきます！よろしくお願い致します。&lt;/p&gt;
-
-&lt;h1 id=&#34;以上-今年もよろしくお願いいたします:dd3017aa51868bb9f13fdfbe88353e49&#34;&gt;以上、今年もよろしくお願いいたします！&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone環境の負荷テストをする（その1）</title>
-      <link>https://www.r3it.com/blog/kintone/20151214_tsung01/</link>
-      <pubDate>Tue, 15 Dec 2015 13:50:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20151214_tsung01/</guid>
-      <description>
-
-&lt;h2 id=&#34;はじめに:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;はじめに&lt;/h2&gt;
-
-&lt;p&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2015/kintone&#34;&gt;kintone Advent Calendar 2015&lt;/a&gt;12/14分の記事です。&lt;/p&gt;
-
-&lt;p&gt;そしてうｐするのが0時回って涙目です。。。&lt;/p&gt;
-
-&lt;p&gt;皆さんわりと真面目な記事をうｐされているようなので、ちょっと異なった切り口でkintoneにアプローチしてみようと思いました。マネージドなSaaSサービスを利用していた場合、普通の人なら考えないかもしれません。。。&lt;/p&gt;
-
-&lt;p&gt;はい。自滅の覚悟で自虐ネタです（サイボウズさんほんとごめんなさい…&lt;/p&gt;
-
-&lt;p&gt;今回は己の身を犠牲にして検証しているので
-良い子は真似しちゃ&lt;b&gt;&lt;font color=&#34;red&#34;&gt;だめ！ゼッタイ！！！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;事前準備:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;事前準備&lt;/h2&gt;
-
-&lt;p&gt;まずはkintone開発者アカウントを取得。
-※アカウント取得には &lt;strong&gt;cybozu.com developer network&lt;/strong&gt; への登録が必要です。
-&lt;a href=&#34;https://cybozudev.zendesk.com&#34;&gt;https://cybozudev.zendesk.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20151214-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;しっかり利用規約は読んで下さい！利用規約マジ大事。&lt;/p&gt;
-
-&lt;h3 id=&#34;第３条-開発者ライセンスの利用条件:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;第３条（開発者ライセンスの利用条件）&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;開発者ライセンスに基づき対象サービスを利用する場合には、以下の全ての条件に従うものとします。
-    対象サービスに関する疑問等 については、cybozu.comサービス説明書の定めに関わらずテクニカルサポートサービスを利用することはできず、developer networkのコミュニティで質問をし、利用者自身で解決するものとします。
-    ・・・　中略　・・・
-    前項に定めるものの他、開発者ライセンスに基づく対象サービスの利用が、他の利用ユーザーに影響を及ぼす場合またはその恐れが有る場合、サイボウズは開発者ライセンスに基づく対象サービスの利用の停止、または利用者開発環境の削除をすることができるものとします。
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;開発者アカウントでkintoneにログインできるか確認:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;開発者アカウントでkintoneにログインできるか確認&lt;/h3&gt;
-
-&lt;p&gt;ポータル画面にログイン出来るようになればkintone側の準備はOKです(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20151214-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;負荷テスト用ツールの準備:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷テスト用ツールの準備&lt;/h2&gt;
-
-&lt;p&gt;負荷テストを実施するためには、計測するための環境が必要です。
-kintoneはSaaS環境なので、もちろんkintone環境にそんなツールを仕込むわけにはいきません。
-ということで、外部サーバーに環境を構築します。&lt;/p&gt;
-
-&lt;h2 id=&#34;外部サーバーに負荷ツールをインストール:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;外部サーバーに負荷ツールをインストール&lt;/h2&gt;
-
-&lt;p&gt;負荷ツールはオープンソースでもいろいろあるのですが、今回は&lt;a href=&#34;http://tsung.erlang-projects.org/&#34;&gt;Tsung&lt;/a&gt;を採用してみました。&lt;/p&gt;
-
-&lt;h3 id=&#34;負荷ツールに必要なパッケージのインストール:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷ツールに必要なパッケージのインストール&lt;/h3&gt;
-
-&lt;p&gt;Erlangで記述されているため、Erlangのインストールが必須です。
-&lt;strong&gt;Amazon Linux&lt;/strong&gt;だと標準のレポジトリからインストール出来るんですね。お手軽！
-（EPEL必要かと思ってレポジトリ追加してから気づいた&amp;hellip;）&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ sudo yum list erlang
-Loaded plugins: priorities, protectbase, update-motd, upgrade-helper
-0 packages excluded due to repository protections
-Available Packages
-erlang.x86_64                                                                                               R14B-04.2.7.amzn1                                                                                               amzn-main
-
-
-$ sudo yum -y install erlang.x86_64
-Loaded plugins: priorities, protectbase, update-motd, upgrade-helper
-0 packages excluded due to repository protections
-Resolving Dependencies
---&amp;gt; Running transaction check
----&amp;gt; Package erlang.x86_64 0:R14B-04.2.7.amzn1 will be installed
-
-　・・・　中略　・・・
-
-Dependency Installed:
-  erlang-appmon.x86_64 0:R14B-04.2.7.amzn1               erlang-asn1.x86_64 0:R14B-04.2.7.amzn1                   erlang-common_test.x86_64 0:R14B-04.2.7.amzn1             erlang-compiler.x86_64 0:R14B-04.2.7.amzn1
-  erlang-cosEvent.x86_64 0:R14B-04.2.7.amzn1             erlang-cosEventDomain.x86_64 0:R14B-04.2.7.amzn1         erlang-cosFileTransfer.x86_64 0:R14B-04.2.7.amzn1         erlang-cosNotification.x86_64 0:R14B-04.2.7.amzn1
-  erlang-cosProperty.x86_64 0:R14B-04.2.7.amzn1          erlang-cosTime.x86_64 0:R14B-04.2.7.amzn1                erlang-cosTransactions.x86_64 0:R14B-04.2.7.amzn1         erlang-crypto.x86_64 0:R14B-04.2.7.amzn1
-  erlang-debugger.x86_64 0:R14B-04.2.7.amzn1             erlang-dialyzer.x86_64 0:R14B-04.2.7.amzn1               erlang-diameter.x86_64 0:R14B-04.2.7.amzn1                erlang-docbuilder.x86_64 0:R14B-04.2.7.amzn1
-  erlang-edoc.x86_64 0:R14B-04.2.7.amzn1                 erlang-erl_docgen.x86_64 0:R14B-04.2.7.amzn1             erlang-erl_interface.x86_64 0:R14B-04.2.7.amzn1           erlang-erts.x86_64 0:R14B-04.2.7.amzn1
-  erlang-et.x86_64 0:R14B-04.2.7.amzn1                   erlang-eunit.x86_64 0:R14B-04.2.7.amzn1                  erlang-examples.x86_64 0:R14B-04.2.7.amzn1                erlang-gs.x86_64 0:R14B-04.2.7.amzn1
-  erlang-hipe.x86_64 0:R14B-04.2.7.amzn1                 erlang-ic.x86_64 0:R14B-04.2.7.amzn1                     erlang-inets.x86_64 0:R14B-04.2.7.amzn1                   erlang-inviso.x86_64 0:R14B-04.2.7.amzn1
-  erlang-jinterface.x86_64 0:R14B-04.2.7.amzn1           erlang-kernel.x86_64 0:R14B-04.2.7.amzn1                 erlang-megaco.x86_64 0:R14B-04.2.7.amzn1                  erlang-mnesia.x86_64 0:R14B-04.2.7.amzn1
-  erlang-observer.x86_64 0:R14B-04.2.7.amzn1             erlang-odbc.x86_64 0:R14B-04.2.7.amzn1                   erlang-orber.x86_64 0:R14B-04.2.7.amzn1                   erlang-os_mon.x86_64 0:R14B-04.2.7.amzn1
-  erlang-otp_mibs.x86_64 0:R14B-04.2.7.amzn1             erlang-parsetools.x86_64 0:R14B-04.2.7.amzn1             erlang-percept.x86_64 0:R14B-04.2.7.amzn1                 erlang-pman.x86_64 0:R14B-04.2.7.amzn1
-  erlang-public_key.x86_64 0:R14B-04.2.7.amzn1           erlang-reltool.x86_64 0:R14B-04.2.7.amzn1                erlang-runtime_tools.x86_64 0:R14B-04.2.7.amzn1           erlang-sasl.x86_64 0:R14B-04.2.7.amzn1
-  erlang-snmp.x86_64 0:R14B-04.2.7.amzn1                 erlang-ssh.x86_64 0:R14B-04.2.7.amzn1                    erlang-ssl.x86_64 0:R14B-04.2.7.amzn1                     erlang-stdlib.x86_64 0:R14B-04.2.7.amzn1
-  erlang-syntax_tools.x86_64 0:R14B-04.2.7.amzn1         erlang-test_server.x86_64 0:R14B-04.2.7.amzn1            erlang-toolbar.x86_64 0:R14B-04.2.7.amzn1                 erlang-tools.x86_64 0:R14B-04.2.7.amzn1
-  erlang-tv.x86_64 0:R14B-04.2.7.amzn1                   erlang-typer.x86_64 0:R14B-04.2.7.amzn1                  erlang-webtool.x86_64 0:R14B-04.2.7.amzn1                 erlang-xmerl.x86_64 0:R14B-04.2.7.amzn1
-  libtool-ltdl.x86_64 0:2.4.2-20.4.8.3.31.amzn1          unixODBC.x86_64 0:2.2.14-14.7.amzn1
-
-Complete!
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;tsungのダウンロード:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungのダウンロード&lt;/h4&gt;
-
-&lt;p&gt;サイトからパッケージをDLします。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ wget -P /tmp http://tsung.erlang-projects.org/dist/tsung-1.6.0.tar.gz
---2015-12-14 13:52:02--  http://tsung.erlang-projects.org/dist/tsung-1.6.0.tar.gz
-Resolving tsung.erlang-projects.org (tsung.erlang-projects.org)... 37.187.100.238
-Connecting to tsung.erlang-projects.org (tsung.erlang-projects.org)|37.187.100.238|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 1585794 (1.5M) [application/x-gzip]
-Saving to: ‘/tmp/tsung-1.6.0.tar.gz’
-
-tsung-1.6.0.tar.gz                                        100%[====================================================================================================================================&amp;gt;]   1.51M   858KB/s   in 1.8s
-
-2015-12-14 13:52:04 (858 KB/s) - ‘/tmp/tsung-1.6.0.tar.gz’ saved [1585794/1585794]
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;tsungの展開-コンパイル:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungの展開＆コンパイル&lt;/h4&gt;
-
-&lt;p&gt;DLしたパッケージを展開してコンパイルします。
-今回はテストなので、プレフィックス等コンパイル時にオプションは指定していません。
-（デフォルトの設定でインストールされる関係で、手間なのでrootにスイッチしてインストールしています）&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;$ tar zxf tsung-1.6.0.tar.gz
-$ sudo su -（※ここでrootにスイッチ）
-
-# cd /home/ec2-user
-# ./configure &amp;amp;&amp;amp; make &amp;amp;&amp;amp; make install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;tsungを使用した負荷テスト:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;Tsungを使用した負荷テスト&lt;/h2&gt;
-
-&lt;p&gt;では、パッケージのインストールも完了したところで、早速負荷テストのための設定を行います。
-/usr/share/doc/tsung/examples 配下にサンプルのxmlファイルがあるので、これを参考にしたいと思います。&lt;/p&gt;
-
-&lt;h3 id=&#34;負荷テスト用のパラメータ設定:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;負荷テスト用のパラメータ設定&lt;/h3&gt;
-
-&lt;p&gt;記述方法は&lt;a href=&#34;http://tsung.erlang-projects.org/user_manual/index.html&#34;&gt;こちら&lt;/a&gt;を参考にしながら。
-（※下記はサンプルです）&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-diff:&#34;&gt;$ diff -u /usr/share/doc/tsung/examples/http_simple.xml /home/ec2-user/tsung-1.6.0/http_simple.xml
---- /usr/share/doc/tsung/examples/http_simple.xml       2015-12-14 14:10:31.191237188 +0000
-+++ /home/ec2-user/tsung-1.6.0/http_simple.xml  2015-12-14 14:32:32.807241774 +0000
-@@ -9,22 +9,22 @@
-
-   &amp;lt;!-- Server side setup --&amp;gt;
- &amp;lt;servers&amp;gt;
--  &amp;lt;server host=&amp;quot;myserver&amp;quot; port=&amp;quot;80&amp;quot; type=&amp;quot;tcp&amp;quot;&amp;gt;&amp;lt;/server&amp;gt;
-+  &amp;lt;server host=&amp;quot;***.cybozu.com&amp;quot; port=&amp;quot;443&amp;quot; type=&amp;quot;ssl&amp;quot;&amp;gt;&amp;lt;/server&amp;gt;
- &amp;lt;/servers&amp;gt;
-
-   &amp;lt;!-- to start os monitoring (cpu, network, memory). Use an erlang
--  agent on the remote machine or SNMP. erlang is the default --&amp;gt;
-+  agent on the remote machine or SNMP. erlang is th default --&amp;gt;
-   &amp;lt;monitoring&amp;gt;
--    &amp;lt;monitor host=&amp;quot;myserver&amp;quot; type=&amp;quot;snmp&amp;quot;&amp;gt;&amp;lt;/monitor&amp;gt;
-+    &amp;lt;monitor host=&amp;quot;***.cybozu.com&amp;quot; type=&amp;quot;snmp&amp;quot;&amp;gt;&amp;lt;/monitor&amp;gt;
-   &amp;lt;/monitoring&amp;gt;
-
-   &amp;lt;load&amp;gt;
-   &amp;lt;!-- several arrival phases can be set: for each phase, you can set
-   the mean inter-arrival time between new clients and the phase
-   duration --&amp;gt;
--   &amp;lt;arrivalphase phase=&amp;quot;1&amp;quot; duration=&amp;quot;10&amp;quot; unit=&amp;quot;minute&amp;quot;&amp;gt;
--     &amp;lt;users interarrival=&amp;quot;2&amp;quot; unit=&amp;quot;second&amp;quot;&amp;gt;&amp;lt;/users&amp;gt;
--   &amp;lt;/arrivalphase&amp;gt;
-+   &amp;lt;arrivalphase phase=&amp;quot;1&amp;quot; duration=&amp;quot;5&amp;quot; unit=&amp;quot;minute&amp;quot;&amp;gt;
-+      &amp;lt;users arrivalrate=&amp;quot;10&amp;quot; unit=&amp;quot;minute&amp;quot; maxnumber=&amp;quot;50&amp;quot; &amp;gt;&amp;lt;/users&amp;gt;
-+    &amp;lt;/arrivalphase&amp;gt;
-   &amp;lt;/load&amp;gt;
-
-   &amp;lt;options&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;ログファイルのパス:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;ログファイルのパス&lt;/h3&gt;
-
-&lt;p&gt;ログファイルは指定しなければ下記ディレクトリ配下に生成されます。
-ちゃんとサーバーに到達してるかリアルタイムで確認しながら実行するといいかもしれないですね。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash:&#34;&gt;# ll /root/.tsung/log/20151214-1433/
-total 1820
--rw-r--r-- 1 root root    1533 Dec 14 14:33 http_simple.xml
--rw-r--r-- 1 root root      63 Dec 14 14:33 index.html
--rw-r--r-- 1 root root       0 Dec 14 14:33 inets_error.log
--rw-r--r-- 1 root root      62 Dec 14 14:34 match.log
-drwxr-xr-x 2 root root    4096 Dec 14 14:33 style
--rw-r--r-- 1 root root       0 Dec 14 14:33 tsung-123456.dump
--rw-r--r-- 1 root root 1819542 Dec 14 14:39 tsung_controller@ip-172-31-6-98.log
--rw-r--r-- 1 root root   21142 Dec 14 14:39 tsung.log
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash:tsung.log&#34;&gt;# stats: dump at 1450103940
-stats: users 0 1
-stats: {load,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 0.0 0.0 0.0 0.0 0.0 30
-stats: {recvpackets,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 11.0 0.0 82 1 24.724137931034488 29
-stats: {sentpackets,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 23.0 0.0 53 1 30.275862068965516 29
-stats: {cpu,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 0.3 0.0 0.7021063189568706 0.0 0.3420084262531492 30
-stats: {freemem,&amp;quot;tsung_controller@ip-********&amp;quot;} 1 917.98046875 0.0 926.50390625 913.51171875 917.7651041666667 30
-stats: session 0 0 0 38.845947265625 13.171142578125 14.41109375 50
-stats: users_count 0 50
-stats: finish_users_count 0 50
-stats: error_unknown 0 50
-EndMonitor:{1450,103940,410434}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;次回はパラメータ設定していよいよ負荷テストします…うまくいくかどうか（&lt;/p&gt;
-
-&lt;p&gt;その2につづく★&lt;/p&gt;
-
-&lt;h1 id=&#34;元記事はこちら:7091683e56e9952ad905b8fce9a0ddf0&#34;&gt;元記事はこちら&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/rocca0504/items/a33882887aa59e3fae66&#34;&gt;kintone環境の負荷テストをする（その1）
-&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
