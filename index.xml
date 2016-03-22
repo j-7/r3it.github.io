@@ -5,8 +5,318 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 16 Mar 2016 11:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Mar 2016 11:24:36 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Connector for talend / tKintoneOutput</title>
+      <link>https://www.r3it.com/community/oss/tkintoneoutput/</link>
+      <pubDate>Tue, 22 Mar 2016 11:24:36 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/community/oss/tkintoneoutput/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;kc4tのTalendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;インストール方法はこちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;機能詳細:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;機能詳細&lt;/h2&gt;
+
+&lt;h3 id=&#34;rdbmsからkintoneへレコードの書き込み:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;RDBMSからkintoneへレコードの書き込み&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;スキーマのカラム名をkintoneのフィールドコードとみなし、kintoneにレコードを書き込みます&lt;/li&gt;
+&lt;li&gt;CSVファイルなど、スキーマをサポートするデータソースから、1行毎upsertを実行します&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;設定パラメータ:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;設定パラメータ&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-config.png&#34; alt=&#34;設定&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-for-kintone:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;Setting for kintone&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;API token&lt;/td&gt;
+&lt;td&gt;接続するkintoneアプリの API token。レコード閲覧・追加・編集権限が必要です。&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Sub domain&lt;/td&gt;
+&lt;td&gt;接続するアプリのサブドメイン&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Guest SpaceId&lt;/td&gt;
+&lt;td&gt;もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;kintone AppId&lt;/td&gt;
+&lt;td&gt;アプリID（数値で指定します）&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;upsert queries use this Field Code&lt;/td&gt;
+&lt;td&gt;kintoneアプリ上の「プライマリキー」として扱うフィールドコードを指定します。kc4tはこのフィールドコードを使って upsert 処理を行います。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;スキーマとキントーンのフィールドのマッピング方法how-to-mapping-schema-to-kintone-s-fields:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;スキーマとキントーンのフィールドのマッピング方法How to mapping schema to kintone&amp;rsquo;s fields&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-metadata.png&#34; alt=&#34;スキーマ&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;スキーマのカラムは、キントーンのフィールドと名前でひも付けされます。もしスキーマ側に存在するカラムがキントーン側になかった場合、そのカラムは単純に無視されます（エラーにもなりません）。&lt;/p&gt;
+
+&lt;h2 id=&#34;コンポーネントの接続方法:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;コンポーネントの接続方法&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-row.png&#34; alt=&#34;ジョブ&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;tKintoneOutput はRowを受け取ります。
+上の例は tFileInputDelimited からRowを受け取っている例です。&lt;/p&gt;
+
+&lt;h2 id=&#34;実行結果:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;実行結果&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-dump.png&#34; alt=&#34;dump&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;処理した全てのフィールドは標準出力にダンプされます。もしエラーが発生した場合、エラーを標準出力に吐いてプログラムは停止します。&lt;/p&gt;
+
+&lt;p&gt;（この挙動は、エラーステータスを返して正常終了するように修正される予定です。）&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone Connector for talend</title>
+      <link>https://www.r3it.com/community/oss/kc4t/</link>
+      <pubDate>Tue, 22 Mar 2016 11:23:36 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/community/oss/kc4t/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
+
+&lt;h2 id=&#34;talendコンポーネント:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;Talendコンポーネント&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../tkintoneinput/&#34;&gt;tKintoneInput&lt;/a&gt; | kintoneからJDBC接続可能なRDBMSへのレコードの読み込み&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../tkintoneoutput/&#34;&gt;tKintoneOutput&lt;/a&gt; | RDBMS等からkintoneへレコードの書き込み&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;必要な環境:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;必要な環境&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintone SDK for Java version 0.6以降 &lt;a href=&#34;https://github.com/kintone/java-sdk&#34;&gt;https://github.com/kintone/java-sdk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JDK 7以降&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ダウンロード:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;ダウンロード&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;https://github.com/r3it/kc4t&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;コンポーネントのインストール方法:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;コンポーネントのインストール方法&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt;を起動します&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;カスタムコンポーネント&amp;rdquo; フォルダを設定します
+
+&lt;ul&gt;
+&lt;li&gt;例として&amp;rdquo;Custom Components&amp;rdquo;という名前のフォルダを、ハードディスクのどこかに作成します&lt;/li&gt;
+&lt;li&gt;Studioの設定画面で Window-&amp;gt; Preferences-&amp;gt; Talend-&amp;gt; Components と遷移します&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;User component folder&amp;rdquo; にいま作成した&amp;rdquo;Custom Components&amp;rdquo;フォルダを設定します&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput および tKintoneOutput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします&lt;/li&gt;
+&lt;li&gt;Component Designerパースペクティブで、それぞれのコンポーネントフォルダを右クリックして、「コンポーネントをパレットにプッシュ」を実行してください。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone Connector for talend / tKintoneInput</title>
+      <link>https://www.r3it.com/community/oss/tkintoneinput/</link>
+      <pubDate>Fri, 18 Mar 2016 16:23:36 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/community/oss/tkintoneinput/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;kc4tのTalendコンポーネント tKintoneInput は、kintoneからJDBC接続可能なRDBMSへのレコードの読み込みを行うコンポーネントです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;インストール方法はこちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;機能詳細:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;機能詳細&lt;/h2&gt;
+
+&lt;h3 id=&#34;kintoneからjdbc接続可能なrdbmsへのレコードのエクスポート:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneアプリを元に自動的にテーブルスキーマを作成します&lt;/li&gt;
+&lt;li&gt;レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします&lt;/li&gt;
+&lt;li&gt;エクスポート時にクエリを指定可能です&lt;/li&gt;
+&lt;li&gt;実行ジョブのステータスはジョブステータス格納用テーブルに記録されます&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;設定パラメータ:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;設定パラメータ&lt;/h2&gt;
+
+&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;jdbc設定:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;JDBC設定&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Username&lt;/td&gt;
+&lt;td&gt;JDBC接続時のユーザ名&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Password&lt;/td&gt;
+&lt;td&gt;JDBC接続時のパスワード&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;JDBC URL&lt;/td&gt;
+&lt;td&gt;JDBC URL&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Driver Class name&lt;/td&gt;
+&lt;td&gt;JDBCドライバのクラス名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;出力先テーブル名の設定:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;出力先テーブル名の設定&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Export table prefix&lt;/td&gt;
+&lt;td&gt;データをエクスポートするテーブル名の接頭辞&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;JobReport table name&lt;/td&gt;
+&lt;td&gt;ジョブ結果を格納するテーブル名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;kintoneの設定:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;kintoneの設定&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;API token&lt;/td&gt;
+&lt;td&gt;接続するkintoneアプリの API token&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Sub domain&lt;/td&gt;
+&lt;td&gt;接続するアプリのサブドメイン&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;kintone AppId&lt;/td&gt;
+&lt;td&gt;アプリID（数値で指定します）&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Guest SpaceId&lt;/td&gt;
+&lt;td&gt;もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;query&lt;/td&gt;
+&lt;td&gt;クエリパラメータを利用する場合、ここに設定します。何も設定しなければ、コンポーネントはすべてのレコードのエクスポートを試みます。&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;order by field&lt;/td&gt;
+&lt;td&gt;デフォルトは &amp;ldquo;RECORD_NUMBER&amp;rdquo; です。あなたのアプリケーションが &amp;ldquo;RECORD_NUMBER&amp;rdquo; を持っていない場合、ソートに利用するフィールド名を指定してください。&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;retrieve revision field&lt;/td&gt;
+&lt;td&gt;デフォルトは &amp;ldquo;true&amp;rdquo; です。チェックを外すと、REVISIONフィールドを取得しません。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;出力結果:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;出力結果&lt;/h2&gt;
+
+&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;JobId&lt;/td&gt;
+&lt;td&gt;ジョブID（テーブルの接尾詞になります）&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MainTable&lt;/td&gt;
+&lt;td&gt;エクスポートされたテーブル名&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SubTables&lt;/td&gt;
+&lt;td&gt;サブテーブルがあった場合、それらのテーブル名がカンマ区切りで入ります。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;その他:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;その他&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;現在のところテーブルは削除されません。ジョブが実行されるたびに、新たにテーブルが作成されます。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>執筆者Profile : 浅賀 功次</title>
@@ -913,284 +1223,6 @@ kintone を使った SI ビジネスは、これから伸びていく可能性�
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 関西女子会 Vol.1 勉強会開催報告！</title>
-      <link>https://www.r3it.com/blog/kintone/20160116_kintonecafe-kgirls1/</link>
-      <pubDate>Tue, 19 Jan 2016 17:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160116_kintonecafe-kgirls1/</guid>
-      <description>
-
-&lt;p&gt;昨年末、関西で初となる &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF4F50&#34;&gt;kintone Café の女子会&lt;/font&gt;&lt;/b&gt;が発足しました！&lt;/p&gt;
-
-&lt;p&gt;そして先日2016年1月16日（土曜日）、1回目の勉強会&lt;a href=&#34;http://kintonecafe.com/2015/12/kintone-cafekgirls-vol1/&#34;&gt;kintone Café 関西女子会 vol.1&lt;/a&gt;が弊社アールスリーのオフィスで開催されましたのでその模様をお伝えしちゃいます！&lt;/p&gt;
-
-&lt;h1 id=&#34;女子達のためのコミュニティ:e46cbf9395cdea9d6ba07e21e399d7d8&#34;&gt;女子達のためのコミュニティ&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/blog/aws/20160109_jawsug-kgirls5/&#34;&gt;昨日のブログ記事&lt;/a&gt;の通り、 &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF367F&#34;&gt;JAWS-UG関西女子会&lt;/font&gt;&lt;/b&gt;もコアメンバーとして運営させて頂いているわたしですが、&lt;b&gt;女子達が参加しやすい、また家庭がある女性でもお子様連れで参加OK&lt;/b&gt;なコンセプトの女子会を立ち上げたいという要望があり、僭越ながら&lt;b&gt;kintone Café関西女子会のコアメンバー&lt;/b&gt;としてJOINさせて頂くことになりました|ω・)ｺｯｿﾘ&lt;/p&gt;
-
-&lt;h1 id=&#34;勉強会の様子:e46cbf9395cdea9d6ba07e21e399d7d8&#34;&gt;勉強会の様子&lt;/h1&gt;
-
-&lt;p&gt;どのような層にマッチするのかも予測できない状況の中で開催されたVol.1勉強会。&lt;/p&gt;
-
-&lt;p&gt;kintoneがそもそもどういうもので、どういう使い方ができるのかという概要の説明から、標準機能でもここまで&lt;b&gt;『使える』&lt;/b&gt;アプリが作れることを体感してもらおう！ということでハンズオンを開催しました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneの概要説明・日報アプリデモ
-サイボウズ株式会社 三宅智子さん&lt;/li&gt;
-&lt;li&gt;kintoneハンズオン（美容室の来店予約アプリ・顧客管理のアプリ）
-kintoneエバンジェリスト 細谷さん&lt;/li&gt;
-&lt;li&gt;懇親会（※軽食有り）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;ノベルティもいろいろご用意させて頂きましたよ:*:・(*´ω`pq゛)&lt;/p&gt;
-
-&lt;p&gt;サイボウズの三宅さんからは&lt;b&gt;kintone devCamp仕様のうまい棒&lt;/b&gt;も！！！！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-2.jpg&#34; data-lightbox=&#34;kintone-kgirls1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;0-kintone-café関西女子会運営からのご挨拶:e46cbf9395cdea9d6ba07e21e399d7d8&#34;&gt;0. kintone Café関西女子会運営からのご挨拶&lt;/h2&gt;
-
-&lt;p&gt;まず池上から、kintone Café関西女子会運営としてのご挨拶。&lt;/p&gt;
-
-&lt;p&gt;kintone Café についての説明と、そもそものコミュニティについてのお話を少しさせて頂きました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-3.jpg&#34; data-lightbox=&#34;kintone-kgirls1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/ajD4gO4aiWmwOO&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/dolly6ca/20160116-kintone-caf-vol1&#34; title=&#34;20160116 kintone Café 関西女子会 Vol.1&#34; target=&#34;_blank&#34;&gt;20160116 kintone Café 関西女子会 Vol.1&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/dolly6ca&#34; target=&#34;_blank&#34;&gt;Midori Ikegami&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;1-kintoneの概要説明-デモ-日報アプリ:e46cbf9395cdea9d6ba07e21e399d7d8&#34;&gt;1. kintoneの概要説明・デモ（日報アプリ）&lt;/h2&gt;
-
-&lt;p&gt;次は&lt;b&gt;サイボウズ株式会社 三宅智子さん&lt;/b&gt;のkintoneの概要説明・日報アプリデモ！&lt;/p&gt;
-
-&lt;p&gt;三宅さんは新卒1年目ですが、&lt;a href=&#34;http://kintone-blog.cybozu.co.jp/author/tomoko-miyake.html&#34;&gt;kintoneの情報ブログ&lt;/a&gt;でもたくさん情報を発信されているんですよー！&lt;/p&gt;
-
-&lt;p&gt;すごい・・・わたしも見習わなければ（もはやブログが適当&lt;/p&gt;
-
-&lt;p&gt;kintone devCamp のTシャツに着替えての登場！サマになってます！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-4.jpg&#34; data-lightbox=&#34;kintone-kgirls1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-5.jpg&#34; data-lightbox=&#34;kintone-kgirls1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;kintoneの魅力をたくさん語って頂きました！&lt;/p&gt;
-
-&lt;p&gt;懇親会の時間にも参加者からたくさん質問が出ていましたよー！&lt;/p&gt;
-
-&lt;h2 id=&#34;2-kintoneハンズオン-美容室の来店予約アプリ-顧客管理のアプリ:e46cbf9395cdea9d6ba07e21e399d7d8&#34;&gt;2. kintoneハンズオン（美容室の来店予約アプリ・顧客管理のアプリ）&lt;/h2&gt;
-
-&lt;p&gt;ハンズオン講師はkintoneエバンジェリスト &lt;a href=&#34;http://ht79.info/&#34;&gt;細谷さん&lt;/a&gt;！&lt;/p&gt;
-
-&lt;p&gt;美容室の来店予約アプリと顧客管理アプリのハンズオン！標準機能で便利に使える機能を駆使してアプリを作って頂きました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-7.jpg&#34; data-lightbox=&#34;kintone-kgirls1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;難しいフロントエンドの開発の知識がなくても、デザインの知識がなくても、実用性のある綺麗なアプリって簡単に作れちゃうんですよね！&lt;/p&gt;
-
-&lt;p&gt;真剣に細谷さんの話に聞き入ってます(p*･ω･)p
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-6.jpg&#34; data-lightbox=&#34;kintone-kgirls1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-6.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ハンズオン中も、不明点や疑問点が出るたびにたくさん質問が出ていました。&lt;/p&gt;
-
-&lt;p&gt;またハンズオンも、ただ資料の通りにアプリを作成するのではなく、必要な項目を提示しておいて、&lt;b&gt;どのようなフィールドを設置するかは参加者の判断に任せる&lt;/b&gt;など、参加者主体のハンズオンになっていました。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#4682B4&#34;&gt;さすがエバンジェリストは格が違った…！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;質問のレベルも皆さん高かったです！&lt;/p&gt;
-
-&lt;p&gt;こんな風に実装したいんだけど、そのためにはどういう機能を使ったらいいの？というような質問が出て、皆さん初回からしっかり具体的なアプリのイメージをお持ちなんだなーと感心してしまいました。&lt;/p&gt;
-
-&lt;p&gt;&lt;font size=&#34;2&#34;&gt; （CoderDojoでメンターやっててもそういう気持ちになる時がありますｗ&lt;/font&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;3-懇親会:e46cbf9395cdea9d6ba07e21e399d7d8&#34;&gt;3. 懇親会&lt;/h2&gt;
-
-&lt;p&gt;懇親会も最初は皆さん遠慮しがちなところもあったのですが、最後には緊張もほぐれて談笑されていました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-10.jpg&#34; data-lightbox=&#34;kintone-kgirls1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-10.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;懇親会中には、同日開催されていた&lt;a href=&#34;http://okiyasu.biz/?p=453&#34;&gt;kintone Café 愛媛&lt;/a&gt;の会場とライブ中継してみたり！&lt;/p&gt;
-
-&lt;p&gt;愛媛は運営をされている沖さんがエバンジェリストに就任されたので、今後もますますkintoneの勢いが加速していきそうですね！(๑´ㅂ`๑)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-11.jpg&#34; data-lightbox=&#34;kintone-kgirls1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/kgirls1/kintonecafe-kgirls1-11.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;最後に:e46cbf9395cdea9d6ba07e21e399d7d8&#34;&gt;最後に&lt;/h1&gt;
-
-&lt;p&gt;そんなこんなでまったく開催当日までどうなるか読めなかった&lt;b&gt;kintone Café 関西女子会&lt;/b&gt;ですが、&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#6927FF&#34;&gt;かなり大成功だったのでは！？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;・・・と個人的にも思っています！&lt;/p&gt;
-
-&lt;p&gt;この勉強会に参加された女子から&lt;b&gt;運営をやりたい！&lt;/b&gt;というお声も頂き、運営コアメンバーが早くも&lt;b&gt;4人&lt;/b&gt;に！&lt;/p&gt;
-
-&lt;p&gt;他にもkintone Café 関西女子会 を立ち上げたことがきっかけで、遠くに住んでいる新しいkintone女子と知りあえたり…周囲が目まぐるしく変化していってます！&lt;/p&gt;
-
-&lt;p&gt;これからも皆さんと一緒に kintone Café を精一杯盛り上げていくので、これからもどうぞよろしくお願いします！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JAWS-UG関西女子会第5回2016年新年会LTの開催レポート</title>
-      <link>https://www.r3it.com/blog/aws/20160109_jawsug-kgirls5/</link>
-      <pubDate>Mon, 18 Jan 2016 19:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/20160109_jawsug-kgirls5/</guid>
-      <description>
-
-&lt;p&gt;2016年1月9日（土曜日）年明け1発目、運営しているJAWS-UG関西女子会で第5回勉強会（という名の飲み会企画）&lt;a href=&#34;https://jawsugkgirls.doorkeeper.jp/events/35309&#34;&gt;女子たちの新年会&lt;/a&gt;を開催しました！&lt;/p&gt;
-
-&lt;h1 id=&#34;今回はjaws-ugの枠を超えた大lt大会:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;今回はJAWS-UGの枠を超えた大LT大会！&lt;/h1&gt;
-
-&lt;p&gt;今回は、普段JAWS-UG関西女子会に参加していない女子達にも &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF6633&#34;&gt;JAWS-UG関西女子会の雰囲気を掴んでほしい！もっと女子達と横の繋がりを増やしたい！&lt;/font&gt;&lt;/b&gt; ということでコミュニティの枠を超えた新年会を開催したのですよ！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-5.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;会場はななななんと！昨年末に引越したばかりの&lt;b&gt;弊社オフィス！！！！&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-4.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;font size=&#34;2&#34;&gt;やっと &lt;del&gt;人をマトモに呼べる状態&lt;/del&gt; になった。。。&lt;/font&gt;&lt;/p&gt;
-
-&lt;p&gt;食べながら飲みながら希望者がLTをする形です！&lt;/p&gt;
-
-&lt;p&gt;今回もわたしたちの女子会では&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#6B8E23&#34;&gt;もはやお馴染み！&lt;/font&gt;&lt;/b&gt;会場に食べ物を持ち込む形式にしました(っ´ω`c)♡&lt;/p&gt;
-
-&lt;p&gt;オードブルもよくありがちな揚げ物だらけではなく、女子っぽいメニューがたくさん！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-2.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-3.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;多方面で活躍しているlter達:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;多方面で活躍しているLTer達&lt;/h2&gt;
-
-&lt;p&gt;LTは公募で、正直どの程度LT希望者がいるかまったく読めない状況。運営側もドキドキでした。。。&lt;/p&gt;
-
-&lt;p&gt;ですが&lt;b&gt;実際はそんな私達の予想が見事に裏切られる結果に…！（いい意味で&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;普段別のコミュニティやお仕事でしゃべり慣れている方も多く、また今回 &lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF367F&#34;&gt;LT初挑戦&lt;/font&gt;&lt;/b&gt;という新卒1年目の&lt;i&gt;ルーキーエンジニア&lt;/i&gt;まで！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-6.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-6.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-7.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-8.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-8.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;もちろんわたしたち運営もLTでしっかりコミュニティの紹介をしました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-9.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-9.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-10.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-10.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;最初は皆さん緊張されていたのですが、時間の経過と共に徐々に緊張もほぐれ、みんなで名刺交換！&lt;/p&gt;
-
-&lt;p&gt;実はここから新しいアイデアも…！&lt;/p&gt;
-
-&lt;p&gt;どんなアイデアが生まれたのかは、、、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF1A6F&#34;&gt;どこかで皆さんにお披露目&lt;/font&gt;&lt;/b&gt;出来ればと思います！(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;それまで&lt;b&gt;乞うご期待！&lt;/b&gt;ということで！！！！！&lt;/p&gt;
-
-&lt;h1 id=&#34;ブログで紹介も:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;ブログで紹介も！&lt;/h1&gt;
-
-&lt;p&gt;わたしが尊敬してやまない関西Java女子部や、Scala関西勉強会で活動しているエンジニアの&lt;a href=&#34;https://twitter.com/aa7th&#34;&gt;あさみちゃん&lt;/a&gt;は今回初めてJAWS-UG関西女子会に来てくれたのですが、なんと&lt;a href=&#34;http://nocono.net/&#34;&gt;ご自身のブログ&lt;/a&gt;で関西女子会の新年会のことを紹介してくれたのです！ほんとに大感謝です！！！！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/post/2016/01/jaws-ug-girls/&#34;&gt;http://nocono.net/post/2016/01/jaws-ug-girls/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;jaws-ug関西女子会の次の日はjava女子部に:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;JAWS-UG関西女子会の次の日はJava女子部に！&lt;/h1&gt;
-
-&lt;p&gt;そして翌日2016年1月10日（日曜日）は、あさみちゃんが運営するJava女子部の&lt;a href=&#34;http://javajok.connpass.com/event/24419/&#34;&gt;新春LT×座談会&lt;/a&gt;があり、今度はわたしがそちらにお邪魔しちゃいました！！！！&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/KHIeYNF1mmzpMh&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/dolly6ca/20160110-java-lt&#34; title=&#34;20160110 Java女子部 新春LT×座談会@大阪&#34; target=&#34;_blank&#34;&gt;20160110 Java女子部 新春LT×座談会@大阪&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/dolly6ca&#34; target=&#34;_blank&#34;&gt;Midori Ikegami&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;daysも参加してね:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;DAYSも参加してね！&lt;/h1&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsdays2016-image.png&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsdays2016-image.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;a href=&#34;https://www.r3it.com/blog/community/201601community-events/&#34;&gt;西島の記事&lt;/a&gt;でも紹介していますが、JAWSの一大イベント &lt;b&gt;JAWS DAYS 2016&lt;/b&gt; で弊社もサポーターとして支援させて頂きます！&lt;/p&gt;
-
-&lt;p&gt;当日も運営スタッフとして参加しますので、皆さん！東京でお会いしましょう！！！！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/ticket&#34;&gt;http://jawsdays2016.jaws-ug.jp/ticket&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>家族目線（HVC-C2W）SDKモニターしました</title>
-      <link>https://www.r3it.com/blog/etc/20160115_hvc-c2w-monitor/</link>
-      <pubDate>Fri, 15 Jan 2016 11:46:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/20160115_hvc-c2w-monitor/</guid>
-      <description>
-
-&lt;p&gt;昨年11月末のある日、弊社の池上が「家族目線モニターが当たったので、後よろしく♡」と箱を置いて、IoT部のメンバーに言い出したのが始まりでした。&lt;/p&gt;
-
-&lt;h2 id=&#34;家族目線とは:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;家族目線とは？&lt;/h2&gt;
-
-&lt;p&gt;オムロン社製の認識機能を搭載したカメラです！詳しくは本家サイトへどうぞ。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&#34;&gt;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/package.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;この家族目線（HVC-C2W）をAndroid/iOSからカメラ自体を制御できるSDKの正式版が昨年12月にリリースされました。&lt;/p&gt;
-
-&lt;p&gt;覚えておられる方が居るか分かりませんが、NRIハッカソン＠CEATECでお世話になったあのカメラです！&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/20151007_hack-for-money-result/&#34;&gt;本選結果報告&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/&#34;&gt;大阪予選を突破しました！&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;CEATEC会場で本選が行われた時はSDKが先行α版とのことでしたが、このたびめでたくSDKの正式版が公開され、それと同時に&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/fordeveloper20151113_sdk-monitor/&#34;&gt;モニター募集&lt;/a&gt;ということになったようです。それを池上がこっそり（？）応募をして、見事当選したというわけです。&lt;/p&gt;
-
-&lt;h2 id=&#34;じゃ-なんかゲームでも作ってみる:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;「じゃ、なんかゲームでも作ってみる？」&lt;/h2&gt;
-
-&lt;p&gt;と部長の鶴の一声で、年末年始の休みに作ってみることになりました。提供されたカメラは当然1つしかありませんので、メンバー全員（4人）でそれぞれ作るというわけには行きません・・・。&lt;/p&gt;
-
-&lt;p&gt;（IoT部はあくまでサークル活動なのですが、これは結構ヘビーな事になりそうな予感・・・）&lt;/p&gt;
-
-&lt;p&gt;結局、部長の浅利がゲームGUI側担当、大澤がカメラ制御担当という分担になり、年末年始休暇を迎えました（西島はギリギリまで仕事をしていたのでお任せいたしましたm(_ _)m）。&lt;/p&gt;
-
-&lt;h2 id=&#34;ゲームの仕様:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;ゲームの仕様&lt;/h2&gt;
-
-&lt;p&gt;カメラ制御を試してみるということで、こんな仕様としました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;視線推定機能を使って、目からビームを出して敵をやっつけるゲーム！&lt;/li&gt;
-&lt;li&gt;目つむり推定機能を使って、目をつぶるとエネルギーがチャージされて太いビームが出る！&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;文字にすると滑稽ですが、画面はこんな感じになりました。&lt;/p&gt;
-
-&lt;p&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/beam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/beam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/normalbeam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/normalbeam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/widebeam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/widebeam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;「目閉じ」判定で、チャージ開始し、チャージをほぼしないでに目を開けると、一番左の細いビームが出て&lt;/li&gt;
-&lt;li&gt;1秒くらいのチャージで中くらい&lt;/li&gt;
-&lt;li&gt;2秒くらいのチャージで右の赤くて太いビームが出る&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;さすが部長！ここまで休みの間に実装してありました！&lt;/p&gt;
-
-&lt;h2 id=&#34;悪戦苦闘のカメラ制御:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;悪戦苦闘のカメラ制御&lt;/h2&gt;
-
-&lt;p&gt;大澤が担当のカメラ制御の方は、なかなか悪戦苦闘だったようです。SDKはGitHubに上がっています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/OmronSensingEggProject&#34;&gt;https://github.com/OmronSensingEggProject&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;いち早く年末年始休暇入りした大澤でしたが、12月29日の段階でそもそもアプリ側からカメラに接続出来ず、はまっていたようでした。仕様書も実はJava側の仕様書がないとか、、、年明け3日の社内のSlackのキャプチャをご覧ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/slack.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;（ちなみにここで書かれていたSDKのバージョンアップは、ハマっていた部分には特に関係なかったようです）&lt;/p&gt;
-
-&lt;p&gt;・・・というわけで色々頑張って、遅延があるもののライブストリーミング機能でカメラから画像を取ってきて、なんとかSurfaceViewに表示できるようになったのですが、、、ここでタイムアウト。&lt;/p&gt;
-
-&lt;p&gt;残念ながらゲームのGUI側と接続するまでには至りませんでした・・・残念。&lt;/p&gt;
-
-&lt;p&gt;ただ、開発の際に得た知見は、プルリクエストとしてSDKに提案しようと思っています。&lt;/p&gt;
-
-&lt;h2 id=&#34;家族目線-hvc-c2w-を何に活用する:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;家族目線（HVC-C2W）を何に活用する？&lt;/h2&gt;
-
-&lt;p&gt;もし、今回HVC-C2Wを進呈していただけたら、何に使おう？と考えていました。&lt;/p&gt;
-
-&lt;p&gt;ちょうど弊社は年末に引っ越しをしまして、その受付にカメラを置いて顔認識して「誰々が来たよ〜」とナンデヤネンボットが教えてくれる、そんなネタはどうですかね？&lt;/p&gt;
-
-&lt;p&gt;ついでにkintoneのAPIを叩いて自動で来訪履歴を登録して、画像も記録しておくとか・・・夢広がる感じですね！&lt;/p&gt;
-
-&lt;p&gt;オムロン様、どうぞよろしくお願いいたします！&lt;/p&gt;
 </description>
     </item>
     

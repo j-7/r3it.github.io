@@ -5,45 +5,101 @@
     <link>https://www.r3it.com/community/</link>
     <description>Recent content in Communities on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Jun 2015 18:28:47 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Mar 2016 11:24:36 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/community/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>kintone で作ったアプリをHTMLに埋め込む js2kintone</title>
-      <link>https://www.r3it.com/community/oss/js2kintone/</link>
-      <pubDate>Mon, 22 Jun 2015 18:28:47 +0900</pubDate>
+      <title>kintone Connector for talend / tKintoneOutput</title>
+      <link>https://www.r3it.com/community/oss/tkintoneoutput/</link>
+      <pubDate>Tue, 22 Mar 2016 11:24:36 +0900</pubDate>
       
-      <guid>https://www.r3it.com/community/oss/js2kintone/</guid>
+      <guid>https://www.r3it.com/community/oss/tkintoneoutput/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したアプリをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
+&lt;p&gt;kc4tのTalendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。&lt;/p&gt;
 
-&lt;p&gt;ユーザーが入力した問い合わせフォームの内容は、html(js2kintone) → &lt;a href=&#34;http://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; → kintone と流れてきます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;インストール方法はこちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
 
-&lt;p&gt;js2kintone を利用すると、「&lt;a href=&#34;http://aws.amazon.com/jp/s3-hosting/&#34;&gt;月額10円〜レンタルサーバを始める方法&lt;/a&gt;」で活用する Amazon S3 で構築したWebサイトに、ほぼ無料で問い合わせフォームを設置することが出来ます。&lt;/p&gt;
+&lt;h2 id=&#34;機能詳細:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;機能詳細&lt;/h2&gt;
 
-&lt;h2 id=&#34;ダウンロード:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;ダウンロード&lt;/h2&gt;
+&lt;h3 id=&#34;rdbmsからkintoneへレコードの書き込み:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;RDBMSからkintoneへレコードの書き込み&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;ダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/js2kintone&#34;&gt;https://github.com/r3it/js2kintone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;スキーマのカラム名をkintoneのフィールドコードとみなし、kintoneにレコードを書き込みます&lt;/li&gt;
+&lt;li&gt;CSVファイルなど、スキーマをサポートするデータソースから、1行毎upsertを実行します&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;設置方法と使い方:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;設置方法と使い方&lt;/h2&gt;
+&lt;h2 id=&#34;設定パラメータ:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;設定パラメータ&lt;/h2&gt;
 
-&lt;p&gt;詳細は&lt;a href=&#34;https://github.com/r3it/js2kintone/blob/v0.0.1/docs/setup-usage-jp.md&#34;&gt;こちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-config.png&#34; alt=&#34;設定&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;有料設置サービスについて:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;有料設置サービスについて&lt;/h2&gt;
+&lt;h3 id=&#34;setting-for-kintone:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;Setting for kintone&lt;/h3&gt;
 
-&lt;p&gt;上記ドキュメントを読んで設置方法がわからない方は、有料設置サービスを行っておりますので、弊社 &lt;a href=&#34;https://www.r3it.com/&#34;&gt;アールスリーインスティテュート&lt;/a&gt;までお問い合わせください。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;API token&lt;/td&gt;
+&lt;td&gt;接続するkintoneアプリの API token。レコード閲覧・追加・編集権限が必要です。&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Sub domain&lt;/td&gt;
+&lt;td&gt;接続するアプリのサブドメイン&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Guest SpaceId&lt;/td&gt;
+&lt;td&gt;もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;kintone AppId&lt;/td&gt;
+&lt;td&gt;アプリID（数値で指定します）&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;upsert queries use this Field Code&lt;/td&gt;
+&lt;td&gt;kintoneアプリ上の「プライマリキー」として扱うフィールドコードを指定します。kc4tはこのフィールドコードを使って upsert 処理を行います。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;スキーマとキントーンのフィールドのマッピング方法how-to-mapping-schema-to-kintone-s-fields:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;スキーマとキントーンのフィールドのマッピング方法How to mapping schema to kintone&amp;rsquo;s fields&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-metadata.png&#34; alt=&#34;スキーマ&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;スキーマのカラムは、キントーンのフィールドと名前でひも付けされます。もしスキーマ側に存在するカラムがキントーン側になかった場合、そのカラムは単純に無視されます（エラーにもなりません）。&lt;/p&gt;
+
+&lt;h2 id=&#34;コンポーネントの接続方法:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;コンポーネントの接続方法&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-row.png&#34; alt=&#34;ジョブ&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;tKintoneOutput はRowを受け取ります。
+上の例は tFileInputDelimited からRowを受け取っている例です。&lt;/p&gt;
+
+&lt;h2 id=&#34;実行結果:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;実行結果&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-dump.png&#34; alt=&#34;dump&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;処理した全てのフィールドは標準出力にダンプされます。もしエラーが発生した場合、エラーを標準出力に吐いてプログラムは停止します。&lt;/p&gt;
+
+&lt;p&gt;（この挙動は、エラーステータスを返して正常終了するように修正される予定です。）&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>kintone Connector for talend</title>
       <link>https://www.r3it.com/community/oss/kc4t/</link>
-      <pubDate>Mon, 08 Jun 2015 16:23:36 +0900</pubDate>
+      <pubDate>Tue, 22 Mar 2016 11:23:36 +0900</pubDate>
       
       <guid>https://www.r3it.com/community/oss/kc4t/</guid>
       <description>
@@ -52,11 +108,11 @@
 
 &lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
 
-&lt;h2 id=&#34;機能:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;機能&lt;/h2&gt;
+&lt;h2 id=&#34;talendコンポーネント:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;Talendコンポーネント&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/li&gt;
-&lt;li&gt;RDBMSからkintoneへレコードのインポート（近日公開予定）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../tkintoneinput/&#34;&gt;tKintoneInput&lt;/a&gt; | kintoneからJDBC接続可能なRDBMSへのレコードの読み込み&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../tkintoneoutput/&#34;&gt;tKintoneOutput&lt;/a&gt; | RDBMS等からkintoneへレコードの書き込み&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;必要な環境:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;必要な環境&lt;/h2&gt;
@@ -66,24 +122,13 @@
 &lt;li&gt;JDK 7以降&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;機能詳細:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;機能詳細&lt;/h2&gt;
-
-&lt;h3 id=&#34;kintoneからjdbc接続可能なrdbmsへのレコードのエクスポート:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneアプリを元に自動的にテーブルスキーマを作成します&lt;/li&gt;
-&lt;li&gt;レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします&lt;/li&gt;
-&lt;li&gt;エクスポート時にクエリを指定可能です&lt;/li&gt;
-&lt;li&gt;実行ジョブのステータスはジョブステータス格納用テーブルに記録されます&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;インストールと使い方:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;インストールと使い方&lt;/h2&gt;
+&lt;h2 id=&#34;ダウンロード:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;ダウンロード&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;https://github.com/r3it/kc4t&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;ファイルの設置と設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;ファイルの設置と設定&lt;/h2&gt;
+&lt;h2 id=&#34;コンポーネントのインストール方法:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;コンポーネントのインストール方法&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt;を起動します&lt;/li&gt;
@@ -94,14 +139,42 @@
 &lt;li&gt;Studioの設定画面で Window-&amp;gt; Preferences-&amp;gt; Talend-&amp;gt; Components と遷移します&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;User component folder&amp;rdquo; にいま作成した&amp;rdquo;Custom Components&amp;rdquo;フォルダを設定します&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします&lt;/li&gt;
+&lt;li&gt;ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput および tKintoneOutput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします&lt;/li&gt;
+&lt;li&gt;Component Designerパースペクティブで、それぞれのコンポーネントフォルダを右クリックして、「コンポーネントをパレットにプッシュ」を実行してください。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone Connector for talend / tKintoneInput</title>
+      <link>https://www.r3it.com/community/oss/tkintoneinput/</link>
+      <pubDate>Fri, 18 Mar 2016 16:23:36 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/community/oss/tkintoneinput/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;kc4tのTalendコンポーネント tKintoneInput は、kintoneからJDBC接続可能なRDBMSへのレコードの読み込みを行うコンポーネントです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;インストール方法はこちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;機能詳細:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;機能詳細&lt;/h2&gt;
+
+&lt;h3 id=&#34;kintoneからjdbc接続可能なrdbmsへのレコードのエクスポート:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneアプリを元に自動的にテーブルスキーマを作成します&lt;/li&gt;
+&lt;li&gt;レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします&lt;/li&gt;
+&lt;li&gt;エクスポート時にクエリを指定可能です&lt;/li&gt;
+&lt;li&gt;実行ジョブのステータスはジョブステータス格納用テーブルに記録されます&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;設定パラメータ:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;設定パラメータ&lt;/h2&gt;
+&lt;h2 id=&#34;設定パラメータ:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;設定パラメータ&lt;/h2&gt;
 
 &lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;jdbc設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;JDBC設定&lt;/h3&gt;
+&lt;h3 id=&#34;jdbc設定:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;JDBC設定&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -134,7 +207,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&#34;出力先テーブル名の設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;出力先テーブル名の設定&lt;/h3&gt;
+&lt;h3 id=&#34;出力先テーブル名の設定:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;出力先テーブル名の設定&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -157,7 +230,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&#34;kintoneの設定:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;kintoneの設定&lt;/h3&gt;
+&lt;h3 id=&#34;kintoneの設定:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;kintoneの設定&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -205,7 +278,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;出力結果:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;出力結果&lt;/h2&gt;
+&lt;h2 id=&#34;出力結果:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;出力結果&lt;/h2&gt;
 
 &lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
 
@@ -237,11 +310,43 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;その他:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;その他&lt;/h2&gt;
+&lt;h2 id=&#34;その他:bdd08c2df9e2bd6f8ed5dd47cb4ebae1&#34;&gt;その他&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;現在のところテーブルは削除されません。ジョブが実行されるたびに、新たにテーブルが作成されます。&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone で作ったアプリをHTMLに埋め込む js2kintone</title>
+      <link>https://www.r3it.com/community/oss/js2kintone/</link>
+      <pubDate>Mon, 22 Jun 2015 18:28:47 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/community/oss/js2kintone/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/js2kintone/js2kintone.png&#34; alt=&#34;js2kintone&#34; title=&#34;js2kintone&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;js2kintone は &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone&lt;/a&gt; で作成したアプリをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。&lt;/p&gt;
+
+&lt;p&gt;ユーザーが入力した問い合わせフォームの内容は、html(js2kintone) → &lt;a href=&#34;http://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; → kintone と流れてきます。&lt;/p&gt;
+
+&lt;p&gt;js2kintone を利用すると、「&lt;a href=&#34;http://aws.amazon.com/jp/s3-hosting/&#34;&gt;月額10円〜レンタルサーバを始める方法&lt;/a&gt;」で活用する Amazon S3 で構築したWebサイトに、ほぼ無料で問い合わせフォームを設置することが出来ます。&lt;/p&gt;
+
+&lt;h2 id=&#34;ダウンロード:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;ダウンロード&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/js2kintone&#34;&gt;https://github.com/r3it/js2kintone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;設置方法と使い方:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;設置方法と使い方&lt;/h2&gt;
+
+&lt;p&gt;詳細は&lt;a href=&#34;https://github.com/r3it/js2kintone/blob/v0.0.1/docs/setup-usage-jp.md&#34;&gt;こちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;有料設置サービスについて:beedf8620d5c3c2b2d3bf672f2e5feaf&#34;&gt;有料設置サービスについて&lt;/h2&gt;
+
+&lt;p&gt;上記ドキュメントを読んで設置方法がわからない方は、有料設置サービスを行っておりますので、弊社 &lt;a href=&#34;https://www.r3it.com/&#34;&gt;アールスリーインスティテュート&lt;/a&gt;までお問い合わせください。&lt;/p&gt;
 </description>
     </item>
     
@@ -318,7 +423,7 @@
 
 &lt;h2 id=&#34;contributions:e3fa96a76d3011a52c8f9efc79b98207&#34;&gt;Contributions&lt;/h2&gt;
 
-&lt;p&gt;弊社の金春（こんぱる）がJAWS-UG全国代表・JAWS-UG大阪のコアメンバー、池上がJAWS-UG関西女子会のコアメンバー、西島がJAWS-UG沖縄のコアメンバーとして活動しております。&lt;/p&gt;
+&lt;p&gt;弊社の金春（こんぱる）がJAWS-UG全国代表（2015年）、池上がJAWS-UG関西女子会のコアメンバー、西島がJAWS-UG沖縄のコアメンバーとして活動しております。&lt;/p&gt;
 
 &lt;p&gt;また、GitHub上のJAWS-UGリポジトリへの&lt;a href=&#34;https://github.com/jaws-ug&#34;&gt;コンテンツコントリビュート&lt;/a&gt;も積極的に行っています。&lt;/p&gt;
 
@@ -348,6 +453,11 @@
 
 &lt;table class=&#34;table&#34;&gt;
 &lt;tbody&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;2016年 6月&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://hackers-champloo.org/2016/&#34;&gt;ハッカーズチャンプルー 2016 サポート&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;2016年 3月&lt;/td&gt;
@@ -403,6 +513,18 @@
 
 &lt;h2 id=&#34;アールスリーメンバーのコミュニティ活動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;アールスリーメンバーのコミュニティ活動&lt;/h2&gt;
 
+&lt;h3 id=&#34;浅賀-功次-https-www-facebook-com-koji-asaga:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://www.facebook.com/koji.asaga&#34;&gt;浅賀 功次&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/asaga-100x100.png&#34; alt=&#34;浅賀 功次&#34; title=&#34;浅賀 功次&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サイボウズ公認 &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone エバンジェリスト&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café&lt;/a&gt; 運営メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34;&gt;JAWS-UG 関西IoT専門支部&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://soracom-ug-kansai.doorkeeper.jp/&#34;&gt;SORACOM-UG関西&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&#34;池上-緑-https-www-facebook-com-p526ca:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;池上 緑&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/ikegami.png&#34; alt=&#34;池上 緑&#34; title=&#34;池上 緑&#34; /&gt;&lt;/p&gt;
@@ -422,7 +544,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/&#34;&gt;JAWS-UG&lt;/a&gt; 全国代表（2015年）&lt;/li&gt;
 &lt;li&gt;サイボウズ公認 &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;kintone エバンジェリスト&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/osaka/&#34;&gt;JAWS-UG大阪&lt;/a&gt; コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/&#34;&gt;kintone Café 大阪コアメンバー&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café 全国事務局&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://jawsdays2015.jaws-ug.jp/&#34;&gt;JAWS DAYS 2015&lt;/a&gt; 実行委員長&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://santo2014.jaws-ug.jp/&#34;&gt;JAWS-UG三都物語 2014&lt;/a&gt; 実行委員長&lt;/li&gt;
 &lt;/ul&gt;
@@ -435,7 +558,6 @@
 &lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/okinawa/&#34;&gt;JAWS-UG沖縄&lt;/a&gt; コアメンバー&lt;/li&gt;
 &lt;li&gt;アマゾンデータサービスジャパン公認 AWSサムライ2013および2014&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://hackers-champloo.org/&#34;&gt;ハッカーズチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cloud-champloo.org/&#34;&gt;クラウドチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;

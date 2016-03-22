@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>kintone Connector for talend | アールスリーインスティテュート</title>
+    <title>kintone Connector for talend / tKintoneOutput | アールスリーインスティテュート</title>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
@@ -12,19 +12,19 @@
     
     
 
-    <link rel="canonical" href="https://www.r3it.com/community/oss/kc4t/">
-    <meta content="kintone Connector for talend | アールスリーインスティテュート" name="title">
+    <link rel="canonical" href="https://www.r3it.com/community/oss/tkintoneoutput/">
+    <meta content="kintone Connector for talend / tKintoneOutput | アールスリーインスティテュート" name="title">
     
-    <meta name="description" content="kintone Connector for talend kc4tは Talend Open Studio 用のkintone接続コンポーネントです。">
+    <meta name="description" content="Talendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。">
 
     <meta name="keywords" content="talend, kintone, oss, ">
 
     <meta property="fb:app_id" content="478756785605950"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:title" content="kintone Connector for talend | アールスリーインスティテュート"/>
-    <meta property="og:description" content="kintone Connector for talend kc4tは Talend Open Studio 用のkintone接続コンポーネントです。" />
+    <meta property="og:title" content="kintone Connector for talend / tKintoneOutput | アールスリーインスティテュート"/>
+    <meta property="og:description" content="Talendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。" />
 
-    <meta property="og:url" content="https://www.r3it.com/community/oss/kc4t/" />
+    <meta property="og:url" content="https://www.r3it.com/community/oss/tkintoneoutput/" />
     
     <meta property="og:image" content="https://www.r3it.com/images/r3_logo_wide_og.png"/>
     
@@ -76,7 +76,7 @@
     <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
     <li><a href="/community/">コミュニティ</a></li>
     <li><a href="/community/oss/">オープンソースへの貢献</a></li>
-    <li class="active">kintone Connector for talend</li>
+    <li class="active">kintone Connector for talend / tKintoneOutput</li>
   </ol>
 </section>
 
@@ -94,48 +94,87 @@
 
 	</div>
   	<div class="col-md-8">
-	    <h1>kintone Connector for talend</h1>
+	    <h1>kintone Connector for talend / tKintoneOutput</h1>
 		
 		
 
 <p><img src="/images/community/talend_logo_4c_256.png" alt="talend" title="talend" /></p>
 
-<p>kintone Connector for talend <a href="https://github.com/r3it/kc4t">kc4t</a>は <a href="https://jp.talend.com/products/talend-open-studio">Talend Open Studio</a> 用のkintone接続コンポーネントです。</p>
+<p>kc4tのTalendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。</p>
 
-<h2 id="talendコンポーネント:6063a04525bca4bf0d1a86dbe5967d1b">Talendコンポーネント</h2>
+<p><a href="/community/oss/kc4t/">インストール方法はこちら</a>をご確認ください。</p>
+
+<h2 id="機能詳細:77196dc5e6ef60ce89b2813d43b76c69">機能詳細</h2>
+
+<h3 id="rdbmsからkintoneへレコードの書き込み:77196dc5e6ef60ce89b2813d43b76c69">RDBMSからkintoneへレコードの書き込み</h3>
 
 <ul>
-<li><a href="../tkintoneinput/">tKintoneInput</a> | kintoneからJDBC接続可能なRDBMSへのレコードの読み込み</li>
-<li><a href="../tkintoneoutput/">tKintoneOutput</a> | RDBMS等からkintoneへレコードの書き込み</li>
+<li>スキーマのカラム名をkintoneのフィールドコードとみなし、kintoneにレコードを書き込みます</li>
+<li>CSVファイルなど、スキーマをサポートするデータソースから、1行毎upsertを実行します</li>
 </ul>
 
-<h2 id="必要な環境:6063a04525bca4bf0d1a86dbe5967d1b">必要な環境</h2>
+<h2 id="設定パラメータ:77196dc5e6ef60ce89b2813d43b76c69">設定パラメータ</h2>
 
-<ul>
-<li>kintone SDK for Java version 0.6以降 <a href="https://github.com/kintone/java-sdk">https://github.com/kintone/java-sdk</a></li>
-<li>JDK 7以降</li>
-</ul>
+<p><img src="/images/community/kc4t/output-config.png" alt="設定" /></p>
 
-<h2 id="ダウンロード:6063a04525bca4bf0d1a86dbe5967d1b">ダウンロード</h2>
+<h3 id="setting-for-kintone:77196dc5e6ef60ce89b2813d43b76c69">Setting for kintone</h3>
 
-<ul>
-<li>ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします <a href="https://github.com/r3it/kc4t">https://github.com/r3it/kc4t</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
 
-<h2 id="コンポーネントのインストール方法:6063a04525bca4bf0d1a86dbe5967d1b">コンポーネントのインストール方法</h2>
+<tbody>
+<tr>
+<td align="left">API token</td>
+<td>接続するkintoneアプリの API token。レコード閲覧・追加・編集権限が必要です。</td>
+</tr>
 
-<ul>
-<li><a href="https://jp.talend.com/products/talend-open-studio">Talend Open Studio</a>を起動します</li>
-<li>&ldquo;カスタムコンポーネント&rdquo; フォルダを設定します
+<tr>
+<td align="left">Sub domain</td>
+<td>接続するアプリのサブドメイン</td>
+</tr>
 
-<ul>
-<li>例として&rdquo;Custom Components&rdquo;という名前のフォルダを、ハードディスクのどこかに作成します</li>
-<li>Studioの設定画面で Window-&gt; Preferences-&gt; Talend-&gt; Components と遷移します</li>
-<li>&ldquo;User component folder&rdquo; にいま作成した&rdquo;Custom Components&rdquo;フォルダを設定します</li>
-</ul></li>
-<li>ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput および tKintoneOutput フォルダを、あなたの &ldquo;Custom Components&rdquo; フォルダにコピーします</li>
-<li>Component Designerパースペクティブで、それぞれのコンポーネントフォルダを右クリックして、「コンポーネントをパレットにプッシュ」を実行してください。</li>
-</ul>
+<tr>
+<td align="left">Guest SpaceId</td>
+<td>もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します</td>
+</tr>
+
+<tr>
+<td align="left">kintone AppId</td>
+<td>アプリID（数値で指定します）</td>
+</tr>
+
+<tr>
+<td align="left">upsert queries use this Field Code</td>
+<td>kintoneアプリ上の「プライマリキー」として扱うフィールドコードを指定します。kc4tはこのフィールドコードを使って upsert 処理を行います。</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="スキーマとキントーンのフィールドのマッピング方法how-to-mapping-schema-to-kintone-s-fields:77196dc5e6ef60ce89b2813d43b76c69">スキーマとキントーンのフィールドのマッピング方法How to mapping schema to kintone&rsquo;s fields</h2>
+
+<p><img src="/images/community/kc4t/output-metadata.png" alt="スキーマ" /></p>
+
+<p>スキーマのカラムは、キントーンのフィールドと名前でひも付けされます。もしスキーマ側に存在するカラムがキントーン側になかった場合、そのカラムは単純に無視されます（エラーにもなりません）。</p>
+
+<h2 id="コンポーネントの接続方法:77196dc5e6ef60ce89b2813d43b76c69">コンポーネントの接続方法</h2>
+
+<p><img src="/images/community/kc4t/output-row.png" alt="ジョブ" /></p>
+
+<p>tKintoneOutput はRowを受け取ります。
+上の例は tFileInputDelimited からRowを受け取っている例です。</p>
+
+<h2 id="実行結果:77196dc5e6ef60ce89b2813d43b76c69">実行結果</h2>
+
+<p><img src="/images/community/kc4t/output-dump.png" alt="dump" /></p>
+
+<p>処理した全てのフィールドは標準出力にダンプされます。もしエラーが発生した場合、エラーを標準出力に吐いてプログラムは停止します。</p>
+
+<p>（この挙動は、エラーステータスを返して正常終了するように修正される予定です。）</p>
 
     </div>
   </div>
