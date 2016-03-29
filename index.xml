@@ -5,8 +5,59 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 23 Mar 2016 09:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Mar 2016 14:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016年5月 kintone API アップデートをチェック！</title>
+      <link>https://www.r3it.com/blog/kintone/kintoneupdate_201605/</link>
+      <pubDate>Tue, 29 Mar 2016 14:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/kintoneupdate_201605/</guid>
+      <description>
+
+&lt;p&gt;2016年5月の定期メンテンスで実施される kintone API のアップデート情報が公開されましたので、早速ですが内容をチェックしてみました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/articles/207862196/&#34; target=&#34;_blank&#34;&gt;2016/05/08 の定期メンテナンスにおけるkintone API、User API更新情報&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;注目の追加機能をピックアップ:bdfbc1db9f3fe61c4ad1e2efa3635367&#34;&gt;注目の追加機能をピックアップ&lt;/h1&gt;
+
+&lt;p&gt;今回は割りと地味目？なアップデートに見えますが、その中でも注目すべき機能追加がありましたので、ピックアップしてみたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;コメント関連-api:bdfbc1db9f3fe61c4ad1e2efa3635367&#34;&gt;コメント関連 API&lt;/h2&gt;
+
+&lt;p&gt;アプリのレコードコメントに関する API として、以下が追加されます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;レコードのコメント一括取得&lt;/li&gt;
+&lt;li&gt;レコードのコメント追加&lt;/li&gt;
+&lt;li&gt;レコードのコメント削除&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;kintone はコミュニケーションプラットフォームと言いながらも、今までコミュニケーション系の API が存在していなかったので、待望の機能追加といったところです。&lt;/p&gt;
+
+&lt;p&gt;例えば、専用のモバイルアプリから kintone にコメントを書き込むなど、これまでとは違った使い方ができるようになりそうです。&lt;/p&gt;
+
+&lt;p&gt;今回はレコードのコメントだけですが、スペースのスレッドや People にも拡張される事を期待したいですね。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-プロキシを使った添付ファイルのアップロードの対応:bdfbc1db9f3fe61c4ad1e2efa3635367&#34;&gt;kintone プロキシを使った添付ファイルのアップロードの対応&lt;/h2&gt;
+
+&lt;p&gt;kintone の画面から外部の API を実行できる &lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/articles/202166320/&#34; target=&#34;_blank&#34;&gt;kintone.proxy&lt;/a&gt;
+ が、添付ファイルのアップロードに対応します。&lt;/p&gt;
+
+&lt;p&gt;これにより kintone アプリに保存された添付ファイルを他のシステムに連携する事が可能となります。&lt;/p&gt;
+
+&lt;p&gt;例えば、kintone に画像を保存しておき、kintone で承認が行われたらウェブサイトで公開するといった事が可能になります。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:bdfbc1db9f3fe61c4ad1e2efa3635367&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;ピックアップした機能以外にも、かゆいところに手が届くようになる嬉しい機能が追加されます。&lt;/p&gt;
+
+&lt;p&gt;今まで諦めていた事も実現できるようになり、kintone を利用できる幅が益々広がりそうですね。&lt;/p&gt;
+
+&lt;p&gt;kintone についてお困りの事があれば、お気軽にご相談ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Days 大阪 2016 出展レポート</title>
@@ -72,7 +123,7 @@
 
 &lt;p&gt;AWSさんのブース内のプレゼンステージでは金春が&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF8C00&#34;&gt;『AWSとkintoneを使った新しいSIの姿』&lt;/font&gt;&lt;/b&gt;というタイトルでハイスピードSIの事例紹介等をさせて頂きました！&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-2.jpg&#34; data-lightbox=&#34;clouddaysosaka2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-5.jpg&#34; data-lightbox=&#34;clouddaysosaka2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;1日目&lt;/b&gt;はおかげ様でボーナスセッションを獲得！&lt;/p&gt;
 
@@ -93,6 +144,10 @@
 &lt;p&gt;イベントの合間には、他のブースも見て回っていたのですが、金春はこんなところにも出没していました！&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-7.jpg&#34; data-lightbox=&#34;clouddaysosaka2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;わたしもクリアファイルもらってご満悦です！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-8.jpg&#34; data-lightbox=&#34;clouddaysosaka2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-8.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;全体として:e4cde1cbe8f17c5bcae6781e86083beb&#34;&gt;全体として&lt;/h1&gt;
 
@@ -1174,49 +1229,6 @@ kintone を使った SI ビジネスは、これから伸びていく可能性�
 &lt;p&gt;JAWS DAYS の公式サイトの更新頻度も上がっています！&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/&#34;&gt;こちら&lt;/a&gt;の公式サイトを是非是非チェックして下さいね！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Developers Summit 2016（デブサミ2016） サイボウズ特別トラック登壇のお知らせ</title>
-      <link>https://www.r3it.com/info/2016/devsumi0218-19/</link>
-      <pubDate>Thu, 21 Jan 2016 15:27:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/devsumi0218-19/</guid>
-      <description>
-
-&lt;p&gt;弊社アールスリーインスティテュートの池上と金春が、Developers Summit 2016（通称デブサミ2016）の、サイボウズ特別トラックのハンズオン講師として登壇することになりました。&lt;/p&gt;
-
-&lt;h2 id=&#34;developers-summit-2016-デブサミ冬:1551611d924dda9b25edaf32c1ea751b&#34;&gt;Developers Summit 2016 | デブサミ冬&lt;/h2&gt;
-
-&lt;p&gt;2016年2月18日（木）・19日（金） 目黒雅叙園&lt;/p&gt;
-
-&lt;p&gt;詳しくはこちらの&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/&#34;&gt;公式サイト&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;p&gt;サイボウズ特別トラックにてkintoneハンズオンセッションが多数開催されます。そのうち、弊社が担当させていただくセッションをご紹介します。ぜひご参加ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;2月18日16-20-18-f-3-上級-これでもう怖くない-kintone-promise-http-event-shoeisha-jp-devsumi-20160218-session-1062:1551611d924dda9b25edaf32c1ea751b&#34;&gt;2月18日16:20～ 【18-F-3】【上級】&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1062/&#34;&gt;これでもう怖くない、kintone Promise&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;【対象者】&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JavaScript, jQuery, kintone APIの基本的な使い方がわかっていること&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;2月19日14-10-19-f-2-中級-kintoneアプリのバージョン管理はgusukuにおまかせ-http-event-shoeisha-jp-devsumi-20160218-session-1064:1551611d924dda9b25edaf32c1ea751b&#34;&gt;2月19日14:10～ 【19-F-2】【中級】&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1064/&#34;&gt;kintoneアプリのバージョン管理はgusukuにおまかせ！&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;【参加条件】&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneを使って実際にアプリを作成したことがある方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;両セッションとも、詳しくは公式サイトをご確認ください。&lt;/p&gt;
-
-&lt;p&gt;何れのセッションも、kintone開発者の方には非常に役立つハンズオンになるかと思います。
-当日会場でお会いできますことを、心よりお待ちしております。&lt;/p&gt;
 </description>
     </item>
     

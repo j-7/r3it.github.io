@@ -5,8 +5,59 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 23 Mar 2016 09:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Mar 2016 14:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016年5月 kintone API アップデートをチェック！</title>
+      <link>https://www.r3it.com/blog/kintone/kintoneupdate_201605/</link>
+      <pubDate>Tue, 29 Mar 2016 14:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/kintoneupdate_201605/</guid>
+      <description>
+
+&lt;p&gt;2016年5月の定期メンテンスで実施される kintone API のアップデート情報が公開されましたので、早速ですが内容をチェックしてみました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/articles/207862196/&#34; target=&#34;_blank&#34;&gt;2016/05/08 の定期メンテナンスにおけるkintone API、User API更新情報&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;注目の追加機能をピックアップ:bdfbc1db9f3fe61c4ad1e2efa3635367&#34;&gt;注目の追加機能をピックアップ&lt;/h1&gt;
+
+&lt;p&gt;今回は割りと地味目？なアップデートに見えますが、その中でも注目すべき機能追加がありましたので、ピックアップしてみたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;コメント関連-api:bdfbc1db9f3fe61c4ad1e2efa3635367&#34;&gt;コメント関連 API&lt;/h2&gt;
+
+&lt;p&gt;アプリのレコードコメントに関する API として、以下が追加されます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;レコードのコメント一括取得&lt;/li&gt;
+&lt;li&gt;レコードのコメント追加&lt;/li&gt;
+&lt;li&gt;レコードのコメント削除&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;kintone はコミュニケーションプラットフォームと言いながらも、今までコミュニケーション系の API が存在していなかったので、待望の機能追加といったところです。&lt;/p&gt;
+
+&lt;p&gt;例えば、専用のモバイルアプリから kintone にコメントを書き込むなど、これまでとは違った使い方ができるようになりそうです。&lt;/p&gt;
+
+&lt;p&gt;今回はレコードのコメントだけですが、スペースのスレッドや People にも拡張される事を期待したいですね。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-プロキシを使った添付ファイルのアップロードの対応:bdfbc1db9f3fe61c4ad1e2efa3635367&#34;&gt;kintone プロキシを使った添付ファイルのアップロードの対応&lt;/h2&gt;
+
+&lt;p&gt;kintone の画面から外部の API を実行できる &lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja/articles/202166320/&#34; target=&#34;_blank&#34;&gt;kintone.proxy&lt;/a&gt;
+ が、添付ファイルのアップロードに対応します。&lt;/p&gt;
+
+&lt;p&gt;これにより kintone アプリに保存された添付ファイルを他のシステムに連携する事が可能となります。&lt;/p&gt;
+
+&lt;p&gt;例えば、kintone に画像を保存しておき、kintone で承認が行われたらウェブサイトで公開するといった事が可能になります。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:bdfbc1db9f3fe61c4ad1e2efa3635367&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;ピックアップした機能以外にも、かゆいところに手が届くようになる嬉しい機能が追加されます。&lt;/p&gt;
+
+&lt;p&gt;今まで諦めていた事も実現できるようになり、kintone を利用できる幅が益々広がりそうですね。&lt;/p&gt;
+
+&lt;p&gt;kintone についてお困りの事があれば、お気軽にご相談ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Days 大阪 2016 出展レポート</title>
@@ -72,7 +123,7 @@
 
 &lt;p&gt;AWSさんのブース内のプレゼンステージでは金春が&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF8C00&#34;&gt;『AWSとkintoneを使った新しいSIの姿』&lt;/font&gt;&lt;/b&gt;というタイトルでハイスピードSIの事例紹介等をさせて頂きました！&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-2.jpg&#34; data-lightbox=&#34;clouddaysosaka2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-5.jpg&#34; data-lightbox=&#34;clouddaysosaka2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;1日目&lt;/b&gt;はおかげ様でボーナスセッションを獲得！&lt;/p&gt;
 
@@ -93,6 +144,10 @@
 &lt;p&gt;イベントの合間には、他のブースも見て回っていたのですが、金春はこんなところにも出没していました！&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-7.jpg&#34; data-lightbox=&#34;clouddaysosaka2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;わたしもクリアファイルもらってご満悦です！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-8.jpg&#34; data-lightbox=&#34;clouddaysosaka2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160317-18/clouddaysosaka2016-8.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;全体として:e4cde1cbe8f17c5bcae6781e86083beb&#34;&gt;全体として&lt;/h1&gt;
 
@@ -1436,47 +1491,6 @@ kintoneをもっと良くしたいんです。&lt;/p&gt;
 &lt;p&gt;当日会場に来ることができなかった方は必見ですよー(੭ु╹▿╹)੭ु⁾⁾&lt;/p&gt;
 
 &lt;p&gt;それでは皆様！次回は是非&lt;a href=&#34;http://goo.gl/ACn8Po&#34;&gt;AWS Cloud Roadshow&lt;/a&gt;の会場でお会いしましょう！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>cybozu.comカンファレンス2015東京 出展報告</title>
-      <link>https://www.r3it.com/blog/kintone/20151106_cybozu-conference-tokyo/</link>
-      <pubDate>Fri, 13 Nov 2015 09:40:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20151106_cybozu-conference-tokyo/</guid>
-      <description>&lt;p&gt;そろそろ夜は涼しくなってきた沖縄よりこんにちは、西島です。&lt;/p&gt;
-
-&lt;p&gt;さて、今日は11月3日に開催されたcybozu.com カンファレンス 2015 東京のレポートをしたいと思います。弊社のブースではこのように皆様をお迎えしておりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/booth.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/booth.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社の当日の朝は、&lt;a href=&#34;https://www.r3it.com/info/2015/tokyo-branch/&#34;&gt;東京支社開設のお知らせ&lt;/a&gt;とkintoneをもっと便利に！を合言葉に開発された、&lt;a href=&#34;https://www.r3it.com/info/2015/gusuku-release/&#34;&gt;gusuku（グスク）の正式リリース&lt;/a&gt;で開幕しました。お知らせを見てご声援、ご来場いただいた皆様、ありがとうございました。&lt;/p&gt;
-
-&lt;p&gt;イベント初めのプログラムの基調講演のゲストとして、巨大液晶スクリーンの真ん中がパカっと割れて、弊社金春が登場しました。ブースに居たので実物は見られなかったものの、写真で見ても物凄いインパクト・・・。会場最後列から撮影していただいた写真がこちら（サイボウズ浅賀様より写真を頂きました。ありがとうございます！）。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen1.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;サイボウズ青野社長と共に「変える覚悟、変わる覚悟」「新しいSI」について語りましたが、いかがでしたでしょうか？いろいろと感じるところがあったかと思います。もし何かひとつでも、御社のビジネス上の問題解決のヒントをお持ち帰りいただくことが出来たら、幸いに思っております。&lt;/p&gt;
-
-&lt;p&gt;来週11月20日（金）には大阪にて開催されます。大阪でも基調講演と、弊社ブース、更にはハンズオンセミナーにてお待ちしております。大阪にてお時間のあるからはぜひ、お越しください。詳しい情報、お申込はこちらです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozuconf.com/&#34;&gt;https://cybozuconf.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ハンズオンセミナーは15時50分からの &lt;strong&gt;K-3 「【ハンズオンセミナー】経費精算アプリを作ってプロセス管理をマスターしよう！」&lt;/strong&gt; で、お待ちしております。当初すぐ満員となってしまったのですが、若干キャンセルが出たようで現在残席わずかとなっております。ぜひお申込ください！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;ブースの方では、業種ごとのkintoneの活用事例や、当日正式リリースした&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku（グスク）&lt;/a&gt;に関するお問い合わせで盛り上がっていました。&lt;/p&gt;
-
-&lt;p&gt;特にgusukuの注目度は高く、kintoneアプリのデプロイでお困りの方や、大容量添付ファイルをご利用の方は興味津々で話を聞きに来てくださいました。&lt;/p&gt;
-
-&lt;p&gt;既にkintoneアプリを使いこなしている皆様は、是非お試し頂き（無料版からあります！）、ここが良かった、これが動かなかったなど、フィードバックをどんどんいただけますと、幸いです。&lt;/p&gt;
-
-&lt;p&gt;kintoneの活用方法については、業種別に色々取り揃えておりますので、気になった方はぜひお気軽にお問い合わせください。&lt;/p&gt;
-
-&lt;p&gt;それでは、次回のイベント会場でお会いしましょう！&lt;/p&gt;
 </description>
     </item>
     
