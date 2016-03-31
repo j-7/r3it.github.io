@@ -5,8 +5,105 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 29 Mar 2016 14:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 31 Mar 2016 12:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone &amp; メールワイズで効率アップ！！</title>
+      <link>https://www.r3it.com/blog/kintone/20160331_kintone_casestudy/</link>
+      <pubDate>Thu, 31 Mar 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160331_kintone_casestudy/</guid>
+      <description>
+
+&lt;p&gt;今回はいつもと趣向を変えて、kintone とメールワイズを組み合わせた事例をご紹介してみたいと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;メールワイズって:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;メールワイズって？&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mailwise.cybozu.com/&#34;&gt;メールワイズ&lt;/a&gt;をご存じ無い方もいらっしゃると思うので、まずは簡単に製品のご紹介から。&lt;/p&gt;
+
+&lt;p&gt;メールワイズは kintone と同じく、サイボウズさんが提供されているクラウドサービスです。（パッケージ版もあります）&lt;/p&gt;
+
+&lt;p&gt;メールワイズのマニュアルには以下のように書かれており、問い合わせ窓口や部署用アドレスのように、複数人で同じメールアカウントを使っている時にとても便利に使う事ができます。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;メールワイズとは、企業の代表メールや問い合わせメールを一元管理するためのシステムです。 複数人での作業でも、Webブラウザーを経由して同じメールを操作できるため、メール対応業務の効率化を実現します。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;r3社内のメールワイズ活用:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;R3社内のメールワイズ活用&lt;/h1&gt;
+
+&lt;p&gt;R3 は kintone を更に便利にするサービス &lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt; を展開しています。&lt;/p&gt;
+
+&lt;p&gt;お客様からの問い合わせ対応にメールワイズを使っており、たくさんのご意見・ご要望がメールワイズに蓄積されていっています。&lt;/p&gt;
+
+&lt;p&gt;もちろん、gusuku の機能改善の参考にさせて頂いています！&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;これはこれで非常に便利なのですが、メールワイズはあくまでメールの管理を行うツール・・・。&lt;br&gt;
+情報をストックする事はあまり得意ではなく、細かい集計や要望の見える化ができていませんでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;集計？見える化？と言えば、そう kintone しかありませんよね。&lt;/p&gt;
+
+&lt;p&gt;というわけで、メールワイズの情報を kintone に取り込める仕組みをハイスピードに作ってみました (∩´∀｀)∩ﾜｰｲ&lt;/p&gt;
+
+&lt;h1 id=&#34;できあがったもの:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;できあがったもの&lt;/h1&gt;
+
+&lt;p&gt;実は kintone と同様に、メールワイズにも JavaScript を読み込む機能があります。（クラウド版のみ）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mailwise.cybozu.com/product/whatsnew/2014_06.html#news06&#34;&gt;JavaScript カスタマイズ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今回はこちらの機能を使い、メールワイズで受信したメールの内容を kintone アプリに保存できるようにしてみました。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;メールワイズに【kintoneへ登録ボタン】が！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160331/mailwise_view.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160331/mailwise_view.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;ワンクリックで kintone に蓄積されるようになっています。&lt;br&gt;
+（メールの文章全てでは無く、選択された部分だけを kintone に登録する事もできるようにしました）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160331/kintone_view.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160331/kintone_view.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;ソース大公開:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;ソース大公開&lt;/h1&gt;
+
+&lt;p&gt;メールワイズのカスタマイズは公式ドキュメントが無いため、画面をカスタマイズする際は自分で DOM 構造を解析する必要があります。
+メールワイズに関係する部分を抜粋して公開させて頂きます。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;メール本文の取得&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;var mail_plain = $(&amp;quot;tt&amp;quot;);	//プレーンテキストの場合
+var mail_html = $(&amp;quot;#mail-body-area&amp;quot;);	//HTMLメールの場合
+if(mail_plain.length &amp;gt; 0){
+	mail = mail_plain[0].innerText;
+}
+else if(mail_html.length &amp;gt; 0){
+	mail = mail_html[0].innerText;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;日付の取得&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;var mwdate = $(&amp;quot;.mailContentDateTime&amp;quot;);
+if(mwdate.length &amp;gt; 0){
+	var mwdate_text = mwdate[0].innerText;	//日付を取得
+	var mwdate_date = mwdate_text.split(&amp;quot;\n&amp;quot;)[0];	//日付&amp;lt;改行&amp;gt;曜日・時間から日付部分を抽出
+	maildate = mwdate_date.replace(/\//g,&amp;quot;-&amp;quot;);	//kintoneのフォーマットに変更
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;おわり:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;おわり&lt;/h1&gt;
+
+&lt;p&gt;今回は kintone とメールワイズの組み合わせでしたが、他にも便利なサービスがたくさんあります。&lt;/p&gt;
+
+&lt;p&gt;これからもクラウドサービスを使った事例をご紹介していきたいと思いますので、楽しみにしていてください！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2016年5月 kintone API アップデートをチェック！</title>
@@ -868,31 +965,6 @@ LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.i
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 福岡 Vol.5 参加レポート</title>
-      <link>https://www.r3it.com/info/2015/0624_kintonecafe-fukuoka/</link>
-      <pubDate>Wed, 24 Jun 2015 21:06:49 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2015/0624_kintonecafe-fukuoka/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;6月24日（水）の夜には、Cloud Days 九州の開催に併せて「kintone」の勉強会『kintone Café 福岡 Vol.5』が開かれました。
-従来設定していた定員数より上回り、開催直前になって急遽増枠となるなど、名古屋の時同様に大盛況でした！&lt;/p&gt;
-
-&lt;p&gt;こちらでも、名古屋の時同様に弊社の強みである &amp;ldquo;ハイスピードSI&amp;rdquo; について金春がお話させて頂きました。
-その際の登壇資料はこちらです。皆様是非ご確認ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/w9ZwsLB57KdQ7p&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150624-kintone-caf&#34; title=&#34;20150624 kintone Café 福岡&#34; target=&#34;_blank&#34;&gt;20150624 kintone Café 福岡&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;また普段から kintone Café のようなコミュニティの勉強会に参加されていない方も多かった模様。いろいろ気付いたり、刺激を受けたと仰っていました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/0624_kintonecafe-fukuoka-001.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/0624_kintonecafe-fukuoka-001.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今回の勉強会をきっかけに、コミュニティに興味を持って頂けたら良いですね。
-弊社はコミュニティに積極的に関わる人達を応援しております！&lt;/p&gt;
 </description>
     </item>
     

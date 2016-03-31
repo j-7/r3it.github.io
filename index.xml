@@ -5,8 +5,105 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Mar 2016 15:00:30 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 31 Mar 2016 12:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone &amp; メールワイズで効率アップ！！</title>
+      <link>https://www.r3it.com/blog/kintone/20160331_kintone_casestudy/</link>
+      <pubDate>Thu, 31 Mar 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160331_kintone_casestudy/</guid>
+      <description>
+
+&lt;p&gt;今回はいつもと趣向を変えて、kintone とメールワイズを組み合わせた事例をご紹介してみたいと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;メールワイズって:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;メールワイズって？&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mailwise.cybozu.com/&#34;&gt;メールワイズ&lt;/a&gt;をご存じ無い方もいらっしゃると思うので、まずは簡単に製品のご紹介から。&lt;/p&gt;
+
+&lt;p&gt;メールワイズは kintone と同じく、サイボウズさんが提供されているクラウドサービスです。（パッケージ版もあります）&lt;/p&gt;
+
+&lt;p&gt;メールワイズのマニュアルには以下のように書かれており、問い合わせ窓口や部署用アドレスのように、複数人で同じメールアカウントを使っている時にとても便利に使う事ができます。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;メールワイズとは、企業の代表メールや問い合わせメールを一元管理するためのシステムです。 複数人での作業でも、Webブラウザーを経由して同じメールを操作できるため、メール対応業務の効率化を実現します。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;r3社内のメールワイズ活用:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;R3社内のメールワイズ活用&lt;/h1&gt;
+
+&lt;p&gt;R3 は kintone を更に便利にするサービス &lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt; を展開しています。&lt;/p&gt;
+
+&lt;p&gt;お客様からの問い合わせ対応にメールワイズを使っており、たくさんのご意見・ご要望がメールワイズに蓄積されていっています。&lt;/p&gt;
+
+&lt;p&gt;もちろん、gusuku の機能改善の参考にさせて頂いています！&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;これはこれで非常に便利なのですが、メールワイズはあくまでメールの管理を行うツール・・・。&lt;br&gt;
+情報をストックする事はあまり得意ではなく、細かい集計や要望の見える化ができていませんでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;集計？見える化？と言えば、そう kintone しかありませんよね。&lt;/p&gt;
+
+&lt;p&gt;というわけで、メールワイズの情報を kintone に取り込める仕組みをハイスピードに作ってみました (∩´∀｀)∩ﾜｰｲ&lt;/p&gt;
+
+&lt;h1 id=&#34;できあがったもの:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;できあがったもの&lt;/h1&gt;
+
+&lt;p&gt;実は kintone と同様に、メールワイズにも JavaScript を読み込む機能があります。（クラウド版のみ）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mailwise.cybozu.com/product/whatsnew/2014_06.html#news06&#34;&gt;JavaScript カスタマイズ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今回はこちらの機能を使い、メールワイズで受信したメールの内容を kintone アプリに保存できるようにしてみました。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;メールワイズに【kintoneへ登録ボタン】が！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160331/mailwise_view.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160331/mailwise_view.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;ワンクリックで kintone に蓄積されるようになっています。&lt;br&gt;
+（メールの文章全てでは無く、選択された部分だけを kintone に登録する事もできるようにしました）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160331/kintone_view.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160331/kintone_view.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;ソース大公開:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;ソース大公開&lt;/h1&gt;
+
+&lt;p&gt;メールワイズのカスタマイズは公式ドキュメントが無いため、画面をカスタマイズする際は自分で DOM 構造を解析する必要があります。
+メールワイズに関係する部分を抜粋して公開させて頂きます。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;メール本文の取得&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;var mail_plain = $(&amp;quot;tt&amp;quot;);	//プレーンテキストの場合
+var mail_html = $(&amp;quot;#mail-body-area&amp;quot;);	//HTMLメールの場合
+if(mail_plain.length &amp;gt; 0){
+	mail = mail_plain[0].innerText;
+}
+else if(mail_html.length &amp;gt; 0){
+	mail = mail_html[0].innerText;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;日付の取得&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;var mwdate = $(&amp;quot;.mailContentDateTime&amp;quot;);
+if(mwdate.length &amp;gt; 0){
+	var mwdate_text = mwdate[0].innerText;	//日付を取得
+	var mwdate_date = mwdate_text.split(&amp;quot;\n&amp;quot;)[0];	//日付&amp;lt;改行&amp;gt;曜日・時間から日付部分を抽出
+	maildate = mwdate_date.replace(/\//g,&amp;quot;-&amp;quot;);	//kintoneのフォーマットに変更
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;おわり:c7cdd29cbffe7c425ea2a6a25f813788&#34;&gt;おわり&lt;/h1&gt;
+
+&lt;p&gt;今回は kintone とメールワイズの組み合わせでしたが、他にも便利なサービスがたくさんあります。&lt;/p&gt;
+
+&lt;p&gt;これからもクラウドサービスを使った事例をご紹介していきたいと思いますので、楽しみにしていてください！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 大阪1周年！ Vol.6 勉強会開催報告！</title>
@@ -1262,50 +1359,6 @@ kintone を使った SI ビジネスは、これから伸びていく可能性�
 &lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;知りたいよ！って人が（もし）いらっしゃいましたらお話させて頂きますので是非是非勉強会等にも呼んでくださいねー！（｡╹ω╹｡）&lt;/p&gt;
 
 &lt;p&gt;引き続き宜しくお願いしまーす＼( &amp;lsquo;ω&amp;rsquo;)／&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー ビアバッシュ開催のお知らせ</title>
-      <link>https://www.r3it.com/blog/etc/20160204_beerbash-announce/</link>
-      <pubDate>Thu, 04 Feb 2016 10:46:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/20160204_beerbash-announce/</guid>
-      <description>
-
-&lt;p&gt;プロ野球のキャンプが始まったら冬も終わりだ、と認識している沖縄からこんにちは、西島です。&lt;/p&gt;
-
-&lt;p&gt;もう来週に迫りました。2月12日金曜日、&lt;strong&gt;美味しいご飯を食べながら・ビールを飲みながら&lt;/strong&gt;、弊社の会社説明会＆弊社社員との交流会を開催します。&lt;/p&gt;
-
-&lt;h1 id=&#34;アールスリーが開催するビアバッシュとは:d8e978e95323c0cb1d42ce62b3c08bde&#34;&gt;アールスリーが開催するビアバッシュとは？&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/recruitment/beerbash.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;ビアバッシュとは、ひとことで言うとビールを飲んで楽しむパーティのことで、シリコンバレーあたりの会社で良くやってるように、金曜の夕方に会社でピザ＆ビール（もちろんコーラも可！）でワイワイやりながら歓談する、という感じのものです。&lt;/p&gt;
-
-&lt;p&gt;弊社アールスリーでもこのスタイルに乗っ取り、ビールを飲みながら、社外のエンジニアの人々とクラウドや技術ネタを肴に、もっと仲良くなろうぜ！という趣旨のイベントを企画しました。それがアールスリービアバッシュです。&lt;/p&gt;
-
-&lt;h1 id=&#34;どんなイベントなの:d8e978e95323c0cb1d42ce62b3c08bde&#34;&gt;どんなイベントなの？&lt;/h1&gt;
-
-&lt;p&gt;この &lt;a href=&#34;https://r3it.doorkeeper.jp/events/37894&#34;&gt;アールスリー ビアバッシュ commit:1 in 沖縄&lt;/a&gt; が初めての試みなので、どうなるか全く分かりません！&lt;/p&gt;
-
-&lt;p&gt;今回の会場では千円でドリンク飲み放題、料理付きという、それだけでもとてもお得なイベントとなっていますね(^^)&lt;/p&gt;
-
-&lt;p&gt;イメージしているところでは、弊社の会社紹介と社員紹介をさせていただいて、あとはご自由に歓談〜という流れになるのかと思います。プロジェクタは有るのでライトニングトークするもよし、DJブースも有るのでDJするもよし、クラウドネタで盛り上がってデモするでもよし、何でもありのエンジニアの天国を目指します！&lt;/p&gt;
-
-&lt;p&gt;どことなく転職系のイベントを想像されるとちょっと困るのですが、業界のことを知りたい学生さんや、同じ業界の方なら最近の技術ネタのことなどで盛り上がれると良いと思っております。&lt;/p&gt;
-
-&lt;p&gt;リモートワークに興味があるという方は、ぜひ西島にお声がけください。弊社での、またはいままでの経験も踏まえて！何でもお答えいたします(^^)&lt;/p&gt;
-
-&lt;h1 id=&#34;社員はどんな人が来るの:d8e978e95323c0cb1d42ce62b3c08bde&#34;&gt;社員はどんな人が来るの？&lt;/h1&gt;
-
-&lt;p&gt;今回は、大阪より&lt;a href=&#34;https://www.r3it.com/blog/author/konparu/&#34;&gt;金春&lt;/a&gt;と、西島がお迎えいたします。また、大阪オフィスからハングアウトで参加を希望している社員も・・・これは当日のお楽しみです。&lt;/p&gt;
-
-&lt;p&gt;特に金春は、なかなか沖縄では会える機会が少ないと思いますので、この機会に&lt;a href=&#34;https://www.youtube.com/watch?v=avNKOt58DI4&amp;amp;list=PL2VFGsJx5cRkX5rV2iO1rfRJYOcFpdxps&amp;amp;index=2&#34;&gt;あの巨大スクリーンに登壇した時の話&lt;/a&gt;など、あれやこれや色々な質問をぶつけてみるといいかと思います！&lt;/p&gt;
-
-&lt;h1 id=&#34;イベント詳細-お申込はこちらから-https-r3it-doorkeeper-jp-events-37894:d8e978e95323c0cb1d42ce62b3c08bde&#34;&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/37894&#34;&gt;イベント詳細・お申込はこちらから&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;皆様とお会いできること、心よりお待ちしております！&lt;/p&gt;
 </description>
     </item>
     
