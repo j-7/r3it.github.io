@@ -43,7 +43,7 @@
 				'border-style'      : 'solid',
 				'border-width'      : '1px',
 				'background-color'  : '#ccc',
-				'font-size'         : '12px',
+				'font-size'         : '14px',
 				'padding'          : '4px',
 				'text-align'        : 'center'
 			},
@@ -52,7 +52,7 @@
 				'border-style'      : 'solid',
 				'border-width'      : '1px',
 				'padding'           : '8px',
-				'font-size'         : '12px'
+				'font-size'         : '14px'
 			},
 			className_hoboNum    : {},
 			className_sortMark   : {
