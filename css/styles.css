@@ -75,9 +75,8 @@ html,body {
 }
 
 section {
-	padding-top:70px;  
+	padding-top:10px;  
     padding-bottom:50px; 
-    min-height:calc(100% - 1px);
 }
 
 .v-center {
@@ -95,11 +94,17 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #section1 {
-    background:center no-repeat fixed url('/images/page-header_bg.jpg');
+    margin-top: 80px;
+	background-color: white;
     background-size: cover;
-    color:#fff;
+    color: #222;
 }
   
+#section1 h1 {
+    font-size: 35px;
+    padding-top: 0px;
+}
+
 #section2 {
 	background-color: #eeeeee;
     color:#686868;
