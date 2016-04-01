@@ -9,12 +9,18 @@ license: MIT
 author: bootply.com
 */
 
-@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css); 
+@font-face {
+    font-family: 'M+ 1mn light';
+    src: url('/fonts/mplus-1mn-light-sub.eot');
+    src: url('/fonts/mplus-1mn-light-sub.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/mplus-1mn-light-sub.woff') format('woff'),
+    url('/fonts/mplus-1mn-light-sub.ttf') format('truetype');
+}
 
 html,body {
 	height:100%;
 	background-color:#22247A;
-    font-family: Arial, 'Noto Sans Japanese', sans-serif;
+    font-family: 'M+ 1mn light', sans-serif;
     line-height: 200%;
 }
 
