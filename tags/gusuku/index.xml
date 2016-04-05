@@ -5,8 +5,40 @@
     <link>https://www.r3it.com/tags/gusuku/</link>
     <description>Recent content in Gusuku on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Apr 2016 07:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 Apr 2016 17:00:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/gusuku/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、gusuku 添付ファイル保存プラグインをアップデート</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0405/</link>
+      <pubDate>Tue, 05 Apr 2016 17:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0405/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:9259a0836152113e8783ffd4ff93d7d7&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、本日gusukuと連携して動作するkintoneプラグイン「添付ファイルプラグイン」をアップデートいたしました。&lt;/p&gt;
+
+&lt;p&gt;新しい添付ファイルプラグインは、Multipart Upload APIを使用し大きな容量のファイルも確実にアップロードできるようになりました。また合わせてアップロードの進行具合も表示する機能が追加され、待ち時間の心理的不安を軽減する役割を果たしております。&lt;/p&gt;
+
+&lt;p&gt;「添付ファイルプラグイン」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/plugin/fileattach/&#34;&gt;gusuku docs のプラグインページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について:9259a0836152113e8783ffd4ff93d7d7&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、ハイスピードSIを超えて素早く業務システムを提供する「超ハイスピードSI」をリリース</title>
