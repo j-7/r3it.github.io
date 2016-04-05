@@ -5,8 +5,240 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Apr 2016 07:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 Apr 2016 12:00:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JAWS-UGおんせん県おおいたで春先からゆるゆるAWSのサービス紹介してきた！</title>
+      <link>https://www.r3it.com/blog/aws/20160402_jawsug-oita2016spring/</link>
+      <pubDate>Tue, 05 Apr 2016 12:00:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/20160402_jawsug-oita2016spring/</guid>
+      <description>
+
+&lt;p&gt;&lt;b&gt;&lt;font color=&#34;#FF9999&#34;&gt;4月&lt;/font&gt;&lt;/b&gt;に入りましたね！新しい環境でお仕事をスタートされる方も多いのではないでしょうか！？&lt;/p&gt;
+
+&lt;p&gt;わたしは花粉なのか寒暖差なのか原因がよくわからない鼻炎に悩まされ続けています…&lt;/p&gt;
+
+&lt;p&gt;そんな中、九州は大分のJAWS-UGの初心者向け勉強会で登壇してきました！&lt;/p&gt;
+
+&lt;h1 id=&#34;出張登壇は実は初-かもしれない:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;出張登壇は実は初、かもしれない&lt;/h1&gt;
+
+&lt;p&gt;お仕事では経験あるのですが、コミュニティだとLTくらいしか出張しての登壇経験はなかったりするわたしです。&lt;/p&gt;
+
+&lt;p&gt;地方って、地域ごとに特徴があって楽しいですよね！普段参加している勉強会とは違った雰囲気を味わえるのが魅力です(๑´ㅂ`๑)&lt;/p&gt;
+
+&lt;p&gt;朝から飛行機で移動！到着早々おんせん県おおいたのPOPにお出迎えされご満悦だったわたしです！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-1.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-1.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;お昼は登壇者の皆様と一緒にランチ:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;お昼は登壇者の皆様と一緒にランチ！&lt;/h1&gt;
+
+&lt;p&gt;主催のJAWS-UG大分平野さんが、わたしの &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF6633&#34;&gt;「とり天食べたい！」&lt;/font&gt;&lt;/b&gt; というリクエストを聞いてくださり、とり天のおいしいお店へ！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-2.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ファーストミッションめでたくクリアです└(^o^└　)┘&lt;/p&gt;
+
+&lt;h1 id=&#34;そして勉強会会場へ:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;そして勉強会会場へ&lt;/h1&gt;
+
+&lt;p&gt;勉強会会場は&lt;a href=&#34;http://www.horutohall-oita.jp/&#34;&gt;ホルトホール大分。&lt;/a&gt;大分市の公共施設なのですが、建物すごく綺麗です！&lt;/p&gt;
+
+&lt;p&gt;駅近で、大分市外から参加される方でもアクセス便利！&lt;/p&gt;
+
+&lt;p&gt;和室で、座布団に座ってまったりしながら。。。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-3.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;aws初心者向け勉強会-本編開始:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;AWS初心者向け勉強会 本編開始！&lt;/h1&gt;
+
+&lt;h2 id=&#34;ごあいさつ-イジゲン平野さん:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;ごあいさつ（イジゲン平野さん）&lt;/h2&gt;
+
+&lt;p&gt;まずはJAWS-UG大分の平野さんからごあいさつ。
+平野さんは、&lt;b&gt;AWS Samurai 2015&lt;/b&gt; にも選ばれており、地方コミュニティの盛り上げに大きく貢献されている方です。
+&lt;br&gt;
+&lt;a href=&#34;http://ascii.jp/elem/000/001/141/1141490/&#34;&gt;地方勉強会の成功パターンを考え続けるJAWS-UG大分の平野さん&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-4.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;資料はSlideShareにもupされています！桜の表紙がすてき！
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/EkkLu6UQDRDlrk&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/fumiohirano96/20160402-jaws-oitaopening&#34; title=&#34;20160402 jaws oita_opening&#34; target=&#34;_blank&#34;&gt;20160402 jaws oita_opening&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/fumiohirano96&#34;&gt;Fumio Hirano&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そして昨日、開催ブログもupされましたよー！
+&lt;a href=&#34;http://blog.cvc-lab.com/archives/977&#34;&gt;[JAWS] AWS初心者勉強会をやってみました。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;尚、本編開始時には、和室が埋まってしまうくらいになっていました∩((  ∩☉ω☉)∩
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-5.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;参加者の皆さんに挙手制でアンケートを取られたのですが、初参加の方がなんと&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;半数以上&lt;/font&gt;&lt;/b&gt;いらっしゃいました…これには平野さん他、登壇者の皆さんもびっくりされていました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-6.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-6.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;jawsdaysレポート-古本さん:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;JAWSDAYSレポート（古本さん）&lt;/h2&gt;
+
+&lt;p&gt;お次は今回初登壇となる古本さん！&lt;/p&gt;
+
+&lt;p&gt;しかし初登壇とは思えない落ち着きっぷりです( ∩ˇωˇ∩)
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-7.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+JAWS DAYSの魅力について存分に語って頂きましたよー！&lt;/p&gt;
+
+&lt;p&gt;また&lt;b&gt;JAWS FESTA&lt;/b&gt;についても紹介して頂きました！今年は&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#6927FF&#34;&gt;名古屋&lt;/font&gt;&lt;/b&gt;ですよ皆さん！&lt;/p&gt;
+
+&lt;p&gt;情報がわかり次第随時発信していきますので、是非是非参加して皆さんでイベントを盛り上げていきましょう！&lt;/p&gt;
+
+&lt;p&gt;ちなみに、大阪起点で考えると&lt;b&gt;名古屋は非常に近くてありがたいです！！！！！&lt;/b&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;awsで簡単実装cmsサイト-optimumit加藤さん:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;AWSで簡単実装CMSサイト（OptimumIT加藤さん）&lt;/h2&gt;
+
+&lt;p&gt;お次はJAZUG 熊本(くまあず)加藤さん！&lt;/p&gt;
+
+&lt;p&gt;クラウドインテグレーターということで、AzureからAWS、VMware vCloudまで守備範囲かなり広いです。&lt;/p&gt;
+
+&lt;p&gt;AzureはAWS界隈でもわりと業務でも携っていらっしゃる方いるイメージなんですが、まさかの&lt;b&gt;vCloud&lt;/b&gt;ですよ…！&lt;/p&gt;
+
+&lt;p&gt;&lt;s&gt;&lt;font size=&#34;2&#34;&gt;はい、ちょっと親近感が湧きましたすみません（ &lt;/font&gt;&lt;/s&gt;&lt;/p&gt;
+
+&lt;p&gt;数年前、九州でセミナーを行った時（この時はまだアールスリーではなかったのですが）懇親会で運用事情をいろいろ聞いていると、オンプレ率、自社でリソースを持って運用されている方が非常に多く、「クラウドなんかまだまだ夢のまた夢だよ」という温度感の方が非常に多かったのですが、今は少しずつ&lt;b&gt;オンプレからクラウドへシフト&lt;/b&gt;されていっているのですかね？&lt;/p&gt;
+
+&lt;p&gt;保守契約とかライセンスの縛り等々いろいろ制約もあるので、はいじゃあリプレースしましょうか、ということにはなかなかなりにくいとは思うのですが、それでもうまく運用出来れば、格段に各種コストの削減に繋がると思いますし、一度で完全にリプレースとなると敷居は高くなってしまいますが、クラウドだと段階を踏んでマイグレーションすることが可能なので、状況を見ながら安全に対応することが可能なのがメリットではないかな！と思います( &amp;lsquo;ω&amp;rsquo;)&lt;/p&gt;
+
+&lt;p&gt;万が一マイグレーションでうまくいかなかった場合でも、クラウドの場合はライセンス買い切りではなく、従量課金制を採用されているところがほとんどだと思うので、想定と違うなと思えば、使わなければコストは最小限に留めることができます。&lt;/p&gt;
+
+&lt;p&gt;フレキシブルに対応できるのは魅力ですよね！
+&lt;br&gt;
+&lt;br&gt;
+単純にAMIからCMSを構築するだけにとどまらず、DB（RDS）を外出しして、EC2を冗長構成にし、そこから段階的に他のサービスと連携させる具体例をご紹介頂きました٩(๑&amp;gt;∀&amp;lt;๑)۶&lt;/p&gt;
+
+&lt;p&gt;サービスを丸暗記するだけではなかなか覚えられないことでも、段階を踏んでいくと、どういう目的の時にどのようなサービスを選択したら良いかの理解がより深まりますよね！
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/hKONFi8vOHsPS7&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tsukasakatou9/awscms-60403553&#34; title=&#34;20160402_Awsで簡単実装cmsサイト&#34; target=&#34;_blank&#34;&gt;20160402_Awsで簡単実装cmsサイト&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tsukasakatou9&#34; target=&#34;_blank&#34;&gt;Tsukasa Katou&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;月額10円から作るserverless-website-森田さん:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;月額10円から作るServerLess Website（森田さん）&lt;/h2&gt;
+
+&lt;p&gt;お次はJAWS-UG福岡で登壇され、話題となった森田さんの発表！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-9.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-9.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div style=&#34;width: 70%&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;f938ea55a4a1402485a2f232803b7cf3&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF1A6F&#34;&gt;秀逸です…！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;思わず各段階毎の構成を1枚1枚写真に収めてしまったほどです(๑•̀ㅂ•́)و✧
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+な、なんだこのまにあっｋなアーキテクチャは…！（
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-10.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-10.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;インフラエンジニアで普段あまりガチガチの開発はされないとのこと。&lt;/p&gt;
+
+&lt;p&gt;それでもN/W周りでSWやRTのセットアップをしたりする時、config流しこんだりわりと手間だったりするんですよ…&lt;/p&gt;
+
+&lt;p&gt;ベースの構築ってほんと手間なんです。ある程度の自動化はできたりもしますけど。
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+そんな中構築コストをかけずにお手軽にセットアップできてしまうAWSってすごい（&lt;/p&gt;
+
+&lt;h2 id=&#34;aws料金節約術と豆知識-sbiホールディングス岡崎さん:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;AWS料金節約術と豆知識（SBIホールディングス岡崎さん）&lt;/h2&gt;
+
+&lt;p&gt;そしてJAWS-UGで情シス支部を運営されていたり、CLI支部の懇親会係だったり、多様な顔を持つ岡崎さん！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-11.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-11.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;個人ブログはこちら→&lt;a href=&#34;http://ntuser.hatenablog.com/&#34;&gt;懇親会放浪記&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;超エンプラ企業の情シスです。知識量も幅広い…(°ω°)&lt;/p&gt;
+
+&lt;p&gt;好きなAWSのサービスがまさかの&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3300FF&#34;&gt;DXとEFS&lt;/font&gt;&lt;/b&gt;という、なんともインフラあるあるな嗜好で（勝手に）親近感を覚えてしまいます…！&lt;/p&gt;
+
+&lt;p&gt;せっかく大阪にいるということもあり、OS1にも1回は行っとかないとと思ってるんですよね。。。&lt;/p&gt;
+
+&lt;p&gt;今回は&lt;b&gt;AWSをお得に利用するための小ネタ&lt;/b&gt;をたくさん紹介してくださいましたよ！&lt;/p&gt;
+
+&lt;p&gt;「ほー！」と感心してしまうようなネタが豊富です！！！！必見─=≡Σ((((っ’ヮ’c)
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/919FXMnpwYlqq7&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/ntuser/aws-free-tier-maximization-60460013&#34; title=&#34;AWS free tier maximization&#34; target=&#34;_blank&#34;&gt;AWS free tier maximization&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/ntuser&#34; target=&#34;_blank&#34;&gt;Kenkichi Okazaki&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;awsのサービスをゆるゆる紹介してみる-アールスリーインスティテュート池上:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;AWSのサービスをゆるゆる紹介してみる（アールスリーインスティテュート池上）&lt;/h2&gt;
+
+&lt;p&gt;そして皆さんのなかなか尖った発表のさなか、&lt;b&gt;雰囲気を180度変えて&lt;/b&gt;わたくしの登壇の番がやってまいりました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-12.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-12.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+はい、コンセプトはゆるゆるです。ゆるゆる！&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/rcZSI3ig3MIhJb&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/dolly6ca/20160402-jawsug-aws2016&#34; title=&#34;20160402 JAWS-UG大分 AWS初心者向け勉強会@おおいた2016春&#34; target=&#34;_blank&#34;&gt;20160402 JAWS-UG大分 AWS初心者向け勉強会@おおいた2016春&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/dolly6ca&#34; target=&#34;_blank&#34;&gt;Midori Ikegami&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;えっと…詳細はスルーしますが、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#6633CC&#34;&gt;掴みはなかなか良好だったのでは！？&lt;/font&gt;&lt;/b&gt;と個人的に思います！（ぇ&lt;/p&gt;
+
+&lt;p&gt;登壇者並びに参加者の皆さん、いかがでしたか！？&lt;/p&gt;
+
+&lt;p&gt;AWS初学者がサービスを利用してみるにあたり、比較的入っていきやすいサービスをピックアップしてご紹介させて頂きました！&lt;/p&gt;
+
+&lt;p&gt;オンプレで多少サーバーの運用経験がある人ならイメージも比較的掴みやすいもの&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;6選&lt;/font&gt;&lt;/b&gt;です！&lt;/p&gt;
+
+&lt;p&gt;ELBは人によるかもしれないですが…むしろRoute 53とかのほうが良かったかもしれない、と思いつつ&lt;font size=&#34;2&#34;&gt;後悔先に立たず(´-ω-`)&lt;/font&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amazon S3&lt;/li&gt;
+&lt;li&gt;Amazon EC2&lt;/li&gt;
+&lt;li&gt;Amazon EBS&lt;/li&gt;
+&lt;li&gt;Amazon RDS&lt;/li&gt;
+&lt;li&gt;AWS IAM&lt;/li&gt;
+&lt;li&gt;ELB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ディスク関連でいうと、ephemeral diskももうちょっと突っ込んで調べたら良かったなーと思いました(&lt;em&gt;´﹃｀&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;次回どこかで登壇させて頂く機会があればそのあたりをネタにしてみようそうしよう└(^o^└　)┘
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+てかEC2使ってて気づいてなかったんですが、ほんまや。&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#808000&#34;&gt;Swap確保されてねーじゃん。。。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cat /etc/fstab
+LABEL=_/   /         ext4    defaults        1 1
+/dev/xvdb  /mnt      ext3    defaults,context=system_u:object_r:usr_t:s0  0 0
+none       /proc     proc    defaults        0 0
+none       /sys      sysfs   defaults        0 0
+none       /dev/pts  devpts  gid=5,mode=620  0 0
+none       /dev/shm  tmpfs   defaults        0 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;開発とかテスト目的でしか使ってないからあんまり意識してなかったわ。。。
+&lt;br&gt;
+&lt;br&gt;
+Swapちゃんと確保してなかったら実運用危険。&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;OOM Killer&lt;/font&gt;&lt;/b&gt;まじ怖いよ。こっちが意図しないサービスとかデーモンが勝手にkillされるのです。。。&lt;/p&gt;
+
+&lt;p&gt;まじあかんやつ(⊃д⊂)&lt;/p&gt;
+
+&lt;p&gt;そのへんはまた今度どこかでゆるゆる語らせてもらおう。&lt;/p&gt;
+
+&lt;p&gt;ということで皆さん&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF367F&#34;&gt;また是非呼んでくださいっ♪（ぉぃ&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;mfaとbillingアラームでawsを安全に使う方法-モバイルクリエイトまつしたさん:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;MFAとBillingアラームでAWSを安全に使う方法（モバイルクリエイトまつしたさん）&lt;/h2&gt;
+
+&lt;p&gt;最後はモバイルクリエイトまつしたさん！AWSを始めるにあたり基本のポイントとなるMFAとBillingアラームについてご紹介頂きました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-13.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-13.jpg&#34;  width=&#34;400&#34; /&gt;
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/4eN2xpOIyBHlMV&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KokiMatsushita/jawsug-oita-201604-aws&#34; title=&#34;JAWS-UG Oita 2016/04 AWSを安全に使う&#34; target=&#34;_blank&#34;&gt;JAWS-UG Oita &lt;sup&gt;2016&lt;/sup&gt;&amp;frasl;&lt;sub&gt;04&lt;/sub&gt; AWSを安全に使う&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KokiMatsushita&#34; target=&#34;_blank&#34;&gt;Koki Matsushita&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;これぞほんとに&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF0000&#34;&gt;基本中の基本！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;テスト的に利用している個人のアカウントであればAWSアカウント流れで使ってたりとかしてしまうものなので、意識しない人も（わたしを含め）いるかもしれませんが、業務で利用している場合はセキュリティの観点からも必須ですね₍₍ (ง &amp;lsquo;ω&amp;rsquo;)ว ⁾⁾&lt;/p&gt;
+
+&lt;p&gt;まつしたさんは6月に開催される&lt;b&gt;AWS Summit&lt;/b&gt;でもご登壇されるらしいです！おめでとうございます！&lt;/p&gt;
+
+&lt;h1 id=&#34;終わった後が大本命-の懇親会:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;終わった後が大本命！の懇親会&lt;/h1&gt;
+
+&lt;p&gt;最後は&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FFA500&#34;&gt;みんな大好き懇親会&lt;/font&gt;&lt;/b&gt;のお時間です(&lt;em&gt;´罒`&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;deepな話題も出つつ、大分含め九州のコミュニティやIT業界事情がいろいろ聞けてほんとに楽しい時間を過ごさせて頂きました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-14.jpg&#34; data-lightbox=&#34;jawsug-oita&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160402/jawsug-oita2016spring-14.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;九州の勉強会も積極的に参加したいなー！&lt;/p&gt;
+
+&lt;h1 id=&#34;ちょっとだけ告知:3c2230b7ce182f275b84a89456dc3f66&#34;&gt;ちょっとだけ告知&lt;/h1&gt;
+
+&lt;p&gt;次回AWS関連の登壇予定が（実は）あったりします。&lt;/p&gt;
+
+&lt;p&gt;弊社西島が運営している&lt;b&gt;JAWS-UG沖縄&lt;/b&gt;で開催される&lt;a href=&#34;http://jaws-ug.jp/es/cloud-on-the-beach-2016/&#34;&gt;JAWS-UG沖縄 Cloud on the BEACH 2016&lt;/a&gt;の未経験者向けトラックで
+&lt;br&gt;
+&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF4F50&#34;&gt;どどーんと『AWS全サービス紹介』&lt;/font&gt;&lt;/b&gt;しちゃいますよ！&lt;/p&gt;
+
+&lt;p&gt;遠方にはなりますが、GW遊びに来るがてら是非是非ご参加下さいねっฅ(○•ω•○)ฅﾆｬ～ﾝ❣&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、ハイスピードSIを超えて素早く業務システムを提供する「超ハイスピードSI」をリリース</title>
@@ -1156,127 +1388,6 @@ kintone を使った SI ビジネスは、これから伸びていく可能性�
 &lt;p&gt;枚数に限りがございますので、無くなり次第終了とさせていただきます。ご了承ください。&lt;/p&gt;
 
 &lt;h2 id=&#34;各イベント会場にて-皆様のお越しをお待ちしております:1650b5476224e4cbd886af4415925bbd&#34;&gt;各イベント会場にて、皆様のお越しをお待ちしております。&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone 関連イベント・セミナーのご案内</title>
-      <link>https://www.r3it.com/solutions/kintone/event-seminar/</link>
-      <pubDate>Wed, 24 Feb 2016 13:30:37 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/kintone/event-seminar/</guid>
-      <description>
-
-&lt;h2 id=&#34;2016年04月15日-金-15時-kintoneを活用した新しい企業向けシステム開発-活用事例解説セミナー:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;2016年04月15日（金） 15時〜 【kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー】&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/633&#34;&gt;https://cybozu.smktg.jp/public/seminar/view/633&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;kintone 導入前のお客様におすすめです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;サイボウズ様より「基礎からわかるkintone(キントーン)」&lt;/li&gt;
-&lt;li&gt;弊社より「ハイスピードSIで実現する具体的な活用事例解説」&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;をお届けします。&lt;/p&gt;
-
-&lt;p&gt;ご参加は無料、会場はサイボウズ株式会社(梅田阪急ビルオフィスタワー）となります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/633&#34;&gt;お申込はこちらから&lt;/a&gt;お願いいたします。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-circle wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/cybozuconf2015.png&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;kintoneセミナー-kintone-café-その他イベント開催報告:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;kintoneセミナー / kintone Café / その他イベント開催報告&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;「kintoneセミナー」はkintone導入前や導入後の高度な使い方を学習する企業様向けセミナーです。&lt;/li&gt;
-&lt;li&gt;「kintone Café」は&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;弊社や弊社社員が貢献しているコミュニティ活動&lt;/a&gt;です。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-&lt;tbody&gt;
-
-
-&lt;tr&gt;
-  &lt;td&gt;2016年 2月10日&lt;/td&gt;
-  &lt;td&gt;kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1070907176264865&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 1月16日&lt;/td&gt;
-  &lt;td&gt;kintone Café 関西女子会 Vol.1&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/36096&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年12月11日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;
-  満員御礼 / &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1038056139549969&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年11月20日&lt;/td&gt;
-  &lt;td&gt;kintone Café大阪 Vol.5&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/33338&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&#34;https://www.r3it.com/blog/kintone/20151120_cybozu-conference-osaka/&#34;&gt;イベントの様子&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年11月 6日 / 20日&lt;/td&gt;
-  &lt;td&gt;cybozu.com カンファレンス 2015&lt;/td&gt;
-  &lt;td&gt;
-  ご来場いただきありがとうございました&lt;br&gt;
-  &lt;a href=&#34;https://cybozuconf.com/report/&#34; target=&#34;_blank&#34;&gt;公式サイト イベントレポート&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&#34;https://www.r3it.com/blog/kintone/20151120_cybozu-conference-osaka/&#34;&gt;弊社のイベントレポート&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年10月 2日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;
-    満員御礼
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 9月18日&lt;/td&gt;
-  &lt;td&gt;kintone Café大阪 Vol.4&lt;/td&gt;
-  &lt;td&gt;
-    &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/30055&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;br&gt;
-    &lt;a href=&#34;https://www.r3it.com/blog/kintone/20150918_kintonecafe-osaka4/&#34;&gt;イベントの様子&lt;/a&gt;&lt;br&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 8月21日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 7月15日&lt;/td&gt;
-  &lt;td&gt;kintone Café大阪 Vol.3&lt;/td&gt;
-  &lt;td&gt;
-    &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/27685&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;br&gt;
-    カスタマイズ内容解説：&lt;a href=&#34;https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/&#34;&gt;前編&lt;/a&gt; / &lt;a href=&#34;https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_02/&#34;&gt;後編&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 7月 7日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼 / &lt;a href=&#34;https://www.facebook.com/r3institute/posts/958263934195857&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 6月12日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼 / &lt;a href=&#34;https://www.facebook.com/media/set/?set=a.941388759216708.1073741828.225790337443224&amp;type=3&#34; target=&#34;_blank&#34;&gt;
-    セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/tbody&gt;
-&lt;/table&gt;
 </description>
     </item>
     

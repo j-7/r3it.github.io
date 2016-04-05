@@ -104,8 +104,19 @@ a.list-group-item.active,[class*='-info'] {
     color:#fff;
 }
 
+#section-bg {
+    background:center no-repeat url('/images/page-header_bg.jpg');
+    background-size: cover;
+    color: white;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    min-height:calc(30% - 1px);
+    padding-top: 100px;
+}
+
 #section1 {
-    margin-top: 80px;
+    margin-top: 0px;
 	background-color: white;
     background-size: cover;
     color: #222;
