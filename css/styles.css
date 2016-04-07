@@ -9,6 +9,13 @@ license: MIT
 author: bootply.com
 */
 
+/* *****************************
+ *
+ * Import css files @ 2016/04/06
+ *
+ **************************** */
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
 @font-face {
     font-family: 'M+ 1mn light';
     src: url('/fonts/mplus-1mn-light-sub.eot');
@@ -20,7 +27,7 @@ author: bootply.com
 html,body {
 	height:100%;
 	background-color:#22247A;
-    font-family: 'M+ 1mn light', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 200;
     line-height: 200%;
 }
