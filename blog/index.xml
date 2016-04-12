@@ -5,8 +5,66 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Apr 2016 12:00:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Apr 2016 12:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 大阪で IoT 体験！</title>
+      <link>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</link>
+      <pubDate>Tue, 12 Apr 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</guid>
+      <description>
+
+&lt;p&gt;Vol.6 の開催報告を書いたばかりのような気がしますが、&lt;b&gt;&lt;font color=&#34;#FDD000&#34; size=&#34;5&#34;&gt;kintone Café 大阪 Vol.7&lt;/font&gt;&lt;/b&gt; 開催のお知らせです。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-café-大阪-vol-7-開催決定:e028a929c633428bfdc8af735e56ce47&#34;&gt;kintone Café 大阪 Vol.7 開催決定&lt;/h2&gt;
+
+&lt;p&gt;5月14日(土)に kintone Café 大阪 Vol.7 を開催します！&lt;br&gt;
+場所は前回と同じく弊社アールスリーでの開催です。&lt;br&gt;
+が、会議室があまり広く無いので、&lt;font color=&#34;red&#34; size=&#34;5&#34;&gt;kintone Café 大阪に場所を提供しても良いよ！&lt;/font&gt;という心優しい企業さんがいらっしゃいましたら、いつでもご連絡お待ちしてますm(_ _)m&lt;/p&gt;
+
+&lt;h2 id=&#34;関西のコミュニティが集結:e028a929c633428bfdc8af735e56ce47&#34;&gt;関西のコミュニティが集結&lt;/h2&gt;
+
+&lt;p&gt;今回は kintone Café 単独での開催では無く、関西のコミュニティが協力し合い、リレー形式で IoT のハンズオンをやる事になりました。&lt;/p&gt;
+
+&lt;p&gt;各コミュニティの得意分野を活かし、電子工作〜データ通信〜可視化まで、IoT の一連の流れを体験して頂けるようにしました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;電子工作が得意な &lt;a href=&#34;http://ouchi-hack.jpn.org/&#34; target=&#34;_blank&#34;&gt;関西おうちハック&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;IoT のデータ通信と言えば &lt;a href=&#34;https://soracom-ug-kansai.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;SORACOM-UG KANSAI&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;可視化が簡単 &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;JAWS-UG 大阪&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://kintonecafe.com/&#34; target=&#34;_blank&#34;&gt;kintone Café&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;kintone Café では、Raspberry Pi に接続した照度センサーのデータを kintone に蓄積し、グラフを使って可視化する事を体験して頂きます。&lt;/p&gt;
+
+&lt;h4 id=&#34;注意:e028a929c633428bfdc8af735e56ce47&#34;&gt;※注意&lt;/h4&gt;
+
+&lt;p&gt;kintone Café では Raspberry Pi のセットアップは行いませんので、事前に準備をお願いします。&lt;/p&gt;
+
+&lt;p&gt;詳細は申し込みページをご確認下さい。&lt;/p&gt;
+
+&lt;h2 id=&#34;こんな方に最適:e028a929c633428bfdc8af735e56ce47&#34;&gt;こんな方に最適&lt;/h2&gt;
+
+&lt;p&gt;デバイスを触るのは得意だけど、クラウドはよく分からないんだよね、という声も最近よく聞きます。&lt;/p&gt;
+
+&lt;p&gt;そんな方にこそ、是非 kintone を触って頂き、IoT でも簡単に使える事を体験してもらいたいと思っています。&lt;/p&gt;
+
+&lt;p&gt;kintone の基礎から体験してもらいますので、kintone を触った事が無くて OK です！&lt;/p&gt;
+
+&lt;h2 id=&#34;お申し込みは:e028a929c633428bfdc8af735e56ce47&#34;&gt;お申し込みは&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34; target=&#34;_blank&#34;&gt;Doorkeeper&lt;/a&gt; からお申し込みをお願いします。&lt;/p&gt;
+
+&lt;p&gt;既に残席わずかですのでお早めに！&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;では、kintone Café 大阪でお会いできる事を楽しみにしてます！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>JAWS-UGおんせん県おおいたで春先からゆるゆるAWSのサービス紹介してきた！</title>
@@ -1330,100 +1388,6 @@ kintoneエバンジェリスト 細谷さん&lt;/li&gt;
 &lt;p&gt;当日も運営スタッフとして参加しますので、皆さん！東京でお会いしましょう！！！！&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/ticket&#34;&gt;http://jawsdays2016.jaws-ug.jp/ticket&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>家族目線（HVC-C2W）SDKモニターしました</title>
-      <link>https://www.r3it.com/blog/etc/20160115_hvc-c2w-monitor/</link>
-      <pubDate>Fri, 15 Jan 2016 11:46:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/20160115_hvc-c2w-monitor/</guid>
-      <description>
-
-&lt;p&gt;昨年11月末のある日、弊社の池上が「家族目線モニターが当たったので、後よろしく♡」と箱を置いて、IoT部のメンバーに言い出したのが始まりでした。&lt;/p&gt;
-
-&lt;h2 id=&#34;家族目線とは:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;家族目線とは？&lt;/h2&gt;
-
-&lt;p&gt;オムロン社製の認識機能を搭載したカメラです！詳しくは本家サイトへどうぞ。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&#34;&gt;http://plus-sensing.omron.co.jp/egg-project/product/hvc-c2w/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/package.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;この家族目線（HVC-C2W）をAndroid/iOSからカメラ自体を制御できるSDKの正式版が昨年12月にリリースされました。&lt;/p&gt;
-
-&lt;p&gt;覚えておられる方が居るか分かりませんが、NRIハッカソン＠CEATECでお世話になったあのカメラです！&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/20151007_hack-for-money-result/&#34;&gt;本選結果報告&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/&#34;&gt;大阪予選を突破しました！&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;CEATEC会場で本選が行われた時はSDKが先行α版とのことでしたが、このたびめでたくSDKの正式版が公開され、それと同時に&lt;a href=&#34;http://plus-sensing.omron.co.jp/egg-project/fordeveloper20151113_sdk-monitor/&#34;&gt;モニター募集&lt;/a&gt;ということになったようです。それを池上がこっそり（？）応募をして、見事当選したというわけです。&lt;/p&gt;
-
-&lt;h2 id=&#34;じゃ-なんかゲームでも作ってみる:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;「じゃ、なんかゲームでも作ってみる？」&lt;/h2&gt;
-
-&lt;p&gt;と部長の鶴の一声で、年末年始の休みに作ってみることになりました。提供されたカメラは当然1つしかありませんので、メンバー全員（4人）でそれぞれ作るというわけには行きません・・・。&lt;/p&gt;
-
-&lt;p&gt;（IoT部はあくまでサークル活動なのですが、これは結構ヘビーな事になりそうな予感・・・）&lt;/p&gt;
-
-&lt;p&gt;結局、部長の浅利がゲームGUI側担当、大澤がカメラ制御担当という分担になり、年末年始休暇を迎えました（西島はギリギリまで仕事をしていたのでお任せいたしましたm(_ _)m）。&lt;/p&gt;
-
-&lt;h2 id=&#34;ゲームの仕様:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;ゲームの仕様&lt;/h2&gt;
-
-&lt;p&gt;カメラ制御を試してみるということで、こんな仕様としました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;視線推定機能を使って、目からビームを出して敵をやっつけるゲーム！&lt;/li&gt;
-&lt;li&gt;目つむり推定機能を使って、目をつぶるとエネルギーがチャージされて太いビームが出る！&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;文字にすると滑稽ですが、画面はこんな感じになりました。&lt;/p&gt;
-
-&lt;p&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/beam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/beam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/normalbeam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/normalbeam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/widebeam.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/widebeam.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;「目閉じ」判定で、チャージ開始し、チャージをほぼしないでに目を開けると、一番左の細いビームが出て&lt;/li&gt;
-&lt;li&gt;1秒くらいのチャージで中くらい&lt;/li&gt;
-&lt;li&gt;2秒くらいのチャージで右の赤くて太いビームが出る&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;さすが部長！ここまで休みの間に実装してありました！&lt;/p&gt;
-
-&lt;h2 id=&#34;悪戦苦闘のカメラ制御:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;悪戦苦闘のカメラ制御&lt;/h2&gt;
-
-&lt;p&gt;大澤が担当のカメラ制御の方は、なかなか悪戦苦闘だったようです。SDKはGitHubに上がっています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/OmronSensingEggProject&#34;&gt;https://github.com/OmronSensingEggProject&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;いち早く年末年始休暇入りした大澤でしたが、12月29日の段階でそもそもアプリ側からカメラに接続出来ず、はまっていたようでした。仕様書も実はJava側の仕様書がないとか、、、年明け3日の社内のSlackのキャプチャをご覧ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/blog/etc/hvc-c2w-monitor/slack.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;（ちなみにここで書かれていたSDKのバージョンアップは、ハマっていた部分には特に関係なかったようです）&lt;/p&gt;
-
-&lt;p&gt;・・・というわけで色々頑張って、遅延があるもののライブストリーミング機能でカメラから画像を取ってきて、なんとかSurfaceViewに表示できるようになったのですが、、、ここでタイムアウト。&lt;/p&gt;
-
-&lt;p&gt;残念ながらゲームのGUI側と接続するまでには至りませんでした・・・残念。&lt;/p&gt;
-
-&lt;p&gt;ただ、開発の際に得た知見は、プルリクエストとしてSDKに提案しようと思っています。&lt;/p&gt;
-
-&lt;h2 id=&#34;家族目線-hvc-c2w-を何に活用する:9a3b9471fcf0a88bd6a7be0607df3ae3&#34;&gt;家族目線（HVC-C2W）を何に活用する？&lt;/h2&gt;
-
-&lt;p&gt;もし、今回HVC-C2Wを進呈していただけたら、何に使おう？と考えていました。&lt;/p&gt;
-
-&lt;p&gt;ちょうど弊社は年末に引っ越しをしまして、その受付にカメラを置いて顔認識して「誰々が来たよ〜」とナンデヤネンボットが教えてくれる、そんなネタはどうですかね？&lt;/p&gt;
-
-&lt;p&gt;ついでにkintoneのAPIを叩いて自動で来訪履歴を登録して、画像も記録しておくとか・・・夢広がる感じですね！&lt;/p&gt;
-
-&lt;p&gt;オムロン様、どうぞよろしくお願いいたします！&lt;/p&gt;
 </description>
     </item>
     

@@ -5,8 +5,66 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Apr 2016 10:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Apr 2016 12:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 大阪で IoT 体験！</title>
+      <link>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</link>
+      <pubDate>Tue, 12 Apr 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</guid>
+      <description>
+
+&lt;p&gt;Vol.6 の開催報告を書いたばかりのような気がしますが、&lt;b&gt;&lt;font color=&#34;#FDD000&#34; size=&#34;5&#34;&gt;kintone Café 大阪 Vol.7&lt;/font&gt;&lt;/b&gt; 開催のお知らせです。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-café-大阪-vol-7-開催決定:e028a929c633428bfdc8af735e56ce47&#34;&gt;kintone Café 大阪 Vol.7 開催決定&lt;/h2&gt;
+
+&lt;p&gt;5月14日(土)に kintone Café 大阪 Vol.7 を開催します！&lt;br&gt;
+場所は前回と同じく弊社アールスリーでの開催です。&lt;br&gt;
+が、会議室があまり広く無いので、&lt;font color=&#34;red&#34; size=&#34;5&#34;&gt;kintone Café 大阪に場所を提供しても良いよ！&lt;/font&gt;という心優しい企業さんがいらっしゃいましたら、いつでもご連絡お待ちしてますm(_ _)m&lt;/p&gt;
+
+&lt;h2 id=&#34;関西のコミュニティが集結:e028a929c633428bfdc8af735e56ce47&#34;&gt;関西のコミュニティが集結&lt;/h2&gt;
+
+&lt;p&gt;今回は kintone Café 単独での開催では無く、関西のコミュニティが協力し合い、リレー形式で IoT のハンズオンをやる事になりました。&lt;/p&gt;
+
+&lt;p&gt;各コミュニティの得意分野を活かし、電子工作〜データ通信〜可視化まで、IoT の一連の流れを体験して頂けるようにしました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;電子工作が得意な &lt;a href=&#34;http://ouchi-hack.jpn.org/&#34; target=&#34;_blank&#34;&gt;関西おうちハック&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;IoT のデータ通信と言えば &lt;a href=&#34;https://soracom-ug-kansai.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;SORACOM-UG KANSAI&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;可視化が簡単 &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;JAWS-UG 大阪&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://kintonecafe.com/&#34; target=&#34;_blank&#34;&gt;kintone Café&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;kintone Café では、Raspberry Pi に接続した照度センサーのデータを kintone に蓄積し、グラフを使って可視化する事を体験して頂きます。&lt;/p&gt;
+
+&lt;h4 id=&#34;注意:e028a929c633428bfdc8af735e56ce47&#34;&gt;※注意&lt;/h4&gt;
+
+&lt;p&gt;kintone Café では Raspberry Pi のセットアップは行いませんので、事前に準備をお願いします。&lt;/p&gt;
+
+&lt;p&gt;詳細は申し込みページをご確認下さい。&lt;/p&gt;
+
+&lt;h2 id=&#34;こんな方に最適:e028a929c633428bfdc8af735e56ce47&#34;&gt;こんな方に最適&lt;/h2&gt;
+
+&lt;p&gt;デバイスを触るのは得意だけど、クラウドはよく分からないんだよね、という声も最近よく聞きます。&lt;/p&gt;
+
+&lt;p&gt;そんな方にこそ、是非 kintone を触って頂き、IoT でも簡単に使える事を体験してもらいたいと思っています。&lt;/p&gt;
+
+&lt;p&gt;kintone の基礎から体験してもらいますので、kintone を触った事が無くて OK です！&lt;/p&gt;
+
+&lt;h2 id=&#34;お申し込みは:e028a929c633428bfdc8af735e56ce47&#34;&gt;お申し込みは&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34; target=&#34;_blank&#34;&gt;Doorkeeper&lt;/a&gt; からお申し込みをお願いします。&lt;/p&gt;
+
+&lt;p&gt;既に残席わずかですのでお早めに！&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;では、kintone Café 大阪でお会いできる事を楽しみにしてます！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、NPO法人に対してkintoneアプリ開発支援を特別価格で提供開始</title>
@@ -1202,49 +1260,6 @@ if(mwdate.length &amp;gt; 0){
 &lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;知りたいよ！って人が（もし）いらっしゃいましたらお話させて頂きますので是非是非勉強会等にも呼んでくださいねー！（｡╹ω╹｡）&lt;/p&gt;
 
 &lt;p&gt;引き続き宜しくお願いしまーす＼( &amp;lsquo;ω&amp;rsquo;)／&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Developers Summit 2016（デブサミ2016） サイボウズ特別トラック登壇のお知らせ</title>
-      <link>https://www.r3it.com/info/2016/devsumi0218-19/</link>
-      <pubDate>Thu, 21 Jan 2016 15:27:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/devsumi0218-19/</guid>
-      <description>
-
-&lt;p&gt;弊社アールスリーインスティテュートの池上と金春が、Developers Summit 2016（通称デブサミ2016）の、サイボウズ特別トラックのハンズオン講師として登壇することになりました。&lt;/p&gt;
-
-&lt;h2 id=&#34;developers-summit-2016-デブサミ冬:1551611d924dda9b25edaf32c1ea751b&#34;&gt;Developers Summit 2016 | デブサミ冬&lt;/h2&gt;
-
-&lt;p&gt;2016年2月18日（木）・19日（金） 目黒雅叙園&lt;/p&gt;
-
-&lt;p&gt;詳しくはこちらの&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/&#34;&gt;公式サイト&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;p&gt;サイボウズ特別トラックにてkintoneハンズオンセッションが多数開催されます。そのうち、弊社が担当させていただくセッションをご紹介します。ぜひご参加ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;2月18日16-20-18-f-3-上級-これでもう怖くない-kintone-promise-http-event-shoeisha-jp-devsumi-20160218-session-1062:1551611d924dda9b25edaf32c1ea751b&#34;&gt;2月18日16:20～ 【18-F-3】【上級】&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1062/&#34;&gt;これでもう怖くない、kintone Promise&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;【対象者】&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JavaScript, jQuery, kintone APIの基本的な使い方がわかっていること&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;2月19日14-10-19-f-2-中級-kintoneアプリのバージョン管理はgusukuにおまかせ-http-event-shoeisha-jp-devsumi-20160218-session-1064:1551611d924dda9b25edaf32c1ea751b&#34;&gt;2月19日14:10～ 【19-F-2】【中級】&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1064/&#34;&gt;kintoneアプリのバージョン管理はgusukuにおまかせ！&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;【参加条件】&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneを使って実際にアプリを作成したことがある方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;両セッションとも、詳しくは公式サイトをご確認ください。&lt;/p&gt;
-
-&lt;p&gt;何れのセッションも、kintone開発者の方には非常に役立つハンズオンになるかと思います。
-当日会場でお会いできますことを、心よりお待ちしております。&lt;/p&gt;
 </description>
     </item>
     

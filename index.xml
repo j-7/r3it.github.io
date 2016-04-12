@@ -5,8 +5,66 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Apr 2016 19:40:37 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Apr 2016 12:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 大阪で IoT 体験！</title>
+      <link>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</link>
+      <pubDate>Tue, 12 Apr 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</guid>
+      <description>
+
+&lt;p&gt;Vol.6 の開催報告を書いたばかりのような気がしますが、&lt;b&gt;&lt;font color=&#34;#FDD000&#34; size=&#34;5&#34;&gt;kintone Café 大阪 Vol.7&lt;/font&gt;&lt;/b&gt; 開催のお知らせです。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-café-大阪-vol-7-開催決定:e028a929c633428bfdc8af735e56ce47&#34;&gt;kintone Café 大阪 Vol.7 開催決定&lt;/h2&gt;
+
+&lt;p&gt;5月14日(土)に kintone Café 大阪 Vol.7 を開催します！&lt;br&gt;
+場所は前回と同じく弊社アールスリーでの開催です。&lt;br&gt;
+が、会議室があまり広く無いので、&lt;font color=&#34;red&#34; size=&#34;5&#34;&gt;kintone Café 大阪に場所を提供しても良いよ！&lt;/font&gt;という心優しい企業さんがいらっしゃいましたら、いつでもご連絡お待ちしてますm(_ _)m&lt;/p&gt;
+
+&lt;h2 id=&#34;関西のコミュニティが集結:e028a929c633428bfdc8af735e56ce47&#34;&gt;関西のコミュニティが集結&lt;/h2&gt;
+
+&lt;p&gt;今回は kintone Café 単独での開催では無く、関西のコミュニティが協力し合い、リレー形式で IoT のハンズオンをやる事になりました。&lt;/p&gt;
+
+&lt;p&gt;各コミュニティの得意分野を活かし、電子工作〜データ通信〜可視化まで、IoT の一連の流れを体験して頂けるようにしました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;電子工作が得意な &lt;a href=&#34;http://ouchi-hack.jpn.org/&#34; target=&#34;_blank&#34;&gt;関西おうちハック&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;IoT のデータ通信と言えば &lt;a href=&#34;https://soracom-ug-kansai.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;SORACOM-UG KANSAI&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;可視化が簡単 &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;JAWS-UG 大阪&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://kintonecafe.com/&#34; target=&#34;_blank&#34;&gt;kintone Café&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;kintone Café では、Raspberry Pi に接続した照度センサーのデータを kintone に蓄積し、グラフを使って可視化する事を体験して頂きます。&lt;/p&gt;
+
+&lt;h4 id=&#34;注意:e028a929c633428bfdc8af735e56ce47&#34;&gt;※注意&lt;/h4&gt;
+
+&lt;p&gt;kintone Café では Raspberry Pi のセットアップは行いませんので、事前に準備をお願いします。&lt;/p&gt;
+
+&lt;p&gt;詳細は申し込みページをご確認下さい。&lt;/p&gt;
+
+&lt;h2 id=&#34;こんな方に最適:e028a929c633428bfdc8af735e56ce47&#34;&gt;こんな方に最適&lt;/h2&gt;
+
+&lt;p&gt;デバイスを触るのは得意だけど、クラウドはよく分からないんだよね、という声も最近よく聞きます。&lt;/p&gt;
+
+&lt;p&gt;そんな方にこそ、是非 kintone を触って頂き、IoT でも簡単に使える事を体験してもらいたいと思っています。&lt;/p&gt;
+
+&lt;p&gt;kintone の基礎から体験してもらいますので、kintone を触った事が無くて OK です！&lt;/p&gt;
+
+&lt;h2 id=&#34;お申し込みは:e028a929c633428bfdc8af735e56ce47&#34;&gt;お申し込みは&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34; target=&#34;_blank&#34;&gt;Doorkeeper&lt;/a&gt; からお申し込みをお願いします。&lt;/p&gt;
+
+&lt;p&gt;既に残席わずかですのでお早めに！&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;では、kintone Café 大阪でお会いできる事を楽しみにしてます！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>gusuku（グスク） はkintoneをもっともっと使いやすくします</title>
@@ -1404,42 +1462,6 @@ if(mwdate.length &amp;gt; 0){
 &lt;ul&gt;
 &lt;li&gt;現在のところテーブルは削除されません。ジョブが実行されるたびに、新たにテーブルが作成されます。&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone の中からやってきました</title>
-      <link>https://www.r3it.com/blog/etc/joined-r3-asaga/</link>
-      <pubDate>Wed, 16 Mar 2016 11:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/joined-r3-asaga/</guid>
-      <description>
-
-&lt;p&gt;はじめまして、2016年3月15日からアールスリーに JOIN した浅賀(あさが)です。&lt;br&gt;
-入社早々、マシンのセットアップもそこそこにブログを書いております。&lt;/p&gt;
-
-&lt;h1 id=&#34;これまでの仕事:97fa36c894190f69010682cd225b752d&#34;&gt;これまでの仕事&lt;/h1&gt;
-
-&lt;p&gt;タイトルの通りですが、前職は&lt;a href=&#34;http://cybozu.co.jp/&#34;&gt;サイボウズ株式会社&lt;/a&gt;に所属し、主に関西方面で kintone のコミュニティを広げる役割を担当していました。
-技術者向けに勉強会を開催したり、ハッカソンの開催・協賛など、エンジニアの方々に kintone を知ってもらう取り組みを行ってきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/joined-r3-asaga/joined-r3-asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/joined-r3-asaga/joined-r3-asaga.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;アールスリーにjoinした理由:97fa36c894190f69010682cd225b752d&#34;&gt;アールスリーにJOINした理由&lt;/h1&gt;
-
-&lt;p&gt;ご存知の通り、アールスリーはサイボウズ(kintone)のパートナーとして精力的に活動しています。&lt;br&gt;
-ハイスピード SI や gusuku と言った特徴的な取り組みやサービスを展開しており、サイボウズの中にいても非常に目立った存在に見えていました。&lt;br&gt;
-kintone を使った SI ビジネスは、これから伸びていく可能性のある非常に楽しみな領域です。&lt;br&gt;
-それを自ら実践しようと思った時、アールスリーのようなチャレンジングな環境に身を置く事が最善だと考えました。&lt;/p&gt;
-
-&lt;h1 id=&#34;今後の活動:97fa36c894190f69010682cd225b752d&#34;&gt;今後の活動&lt;/h1&gt;
-
-&lt;p&gt;今後は kintone や AWS を活用したハイスピード SI で導入事例をたくさん作り、kintone を使った SI の可能性を広げていきたいと思っています。&lt;br&gt;
-また、kintone エバンジェリストの役割も拝命しましたので、kintone Café などを通じて kintone の良いところをアピールする活動ができればと考えています。&lt;/p&gt;
-
-&lt;p&gt;というわけで、今後もサイボウズ(さん)とは仲良くお付き合いさせて頂きながら、頑張りたいと思います。&lt;/p&gt;
-
-&lt;p&gt;こんな社員が入社した会社にご興味を持たれた方は、&lt;a href=&#34;https://www.r3it.com/recruitment/&#34;&gt;採用情報&lt;/a&gt; もチェックしてみてください！&lt;/p&gt;
 </description>
     </item>
     
