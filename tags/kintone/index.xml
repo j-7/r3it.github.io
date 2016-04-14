@@ -5,8 +5,231 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Apr 2016 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 Apr 2016 15:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>システム間連携ジョブをサーバレスで実行する「Talend on AWS Lambda」のススメ</title>
+      <link>https://www.r3it.com/blog/aws/talend-on-lambda/</link>
+      <pubDate>Thu, 14 Apr 2016 15:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/talend-on-lambda/</guid>
+      <description>
+
+&lt;p&gt;長い夏が始まった沖縄よりこんにちは、西島です。皆さんはサーバレスでコード実行が目玉の&lt;a href=&#34;https://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt;使ってますか？使ってますよね？&lt;/p&gt;
+
+&lt;p&gt;弊社では、ちょっとした集計報告からS3のストレージと連携した後処理などをはじめ、言語は Node.js から Java8 で書かれたものまで、あらゆるところで Lambda が使われています（実は弊社サービスの&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku（グスク）&lt;/a&gt;のExcel帳票サービスもすべてLambdaで書かれています！）。&lt;/p&gt;
+
+&lt;p&gt;そんなLambdaの使い方のひとつで、今日はシステム間連携のバッチジョブを動かすためのTIPSをご紹介したいと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;システム間連携ジョブといえばtalend:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;システム間連携ジョブといえばTalend&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社は Talend Open Studio パートナーですので、システム間連携といえば勿論 Talend を利用しています。Talendとは・・・は&lt;a href=&#34;https://jp.talend.com/&#34;&gt;公式サイト&lt;/a&gt;に譲るとして、色々な製品ラインがある中で、弊社は例えば基幹システム（オンプレミス）にあるデータベース、FTPサーバなどと、クラウド側にある例えば kintone などとのデータ連携に Talend を使用しています。&lt;/p&gt;
+
+&lt;p&gt;（Talend と kintone の連携には、拙作の &lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt; というオープンソースのコンポーネントがありますので、ご活用ください！）&lt;/p&gt;
+
+&lt;h1 id=&#34;まずjavaのコードをlambdaで動かすようにする:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;まずJavaのコードをLambdaで動かすようにする&lt;/h1&gt;
+
+&lt;p&gt;僕も弊社もJavaを愛していますので、LambdaでJavaがサポートされた時はとても嬉しかったです！ JavaでLambda関数を作る手順はあまり見かけませんが、幾つかの手順を踏めば難しいものではありません。公式ドキュメントは&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/lambda-java-how-to-create-deployment-package.html&#34;&gt;こちら&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;h2 id=&#34;lambdaで動かすポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaで動かすポイント&lt;/h2&gt;
+
+&lt;p&gt;ポイントとしては、以下を踏まえれば問題ないと思います（AWS SDK Eclipse ツールキットを利用すれば同等のことが出来るのだと思いますが、試していません）。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1つのjarファイルにすべてのクラスファイルをまとめる必要がある&lt;/li&gt;
+&lt;li&gt;つまり、利用している依存ライブラリも全て1つにまとめる&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://maven.apache.org/plugins/maven-shade-plugin/&#34;&gt;maven-shadeプラグイン&lt;/a&gt;便利♪&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;pom.xmlでpackageのゴール時にshadeを実行するように書いておきましょう。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;build&amp;gt;
+  &amp;lt;plugins&amp;gt;
+    &amp;lt;plugin&amp;gt;
+      &amp;lt;artifactId&amp;gt;maven-shade-plugin&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;2.3&amp;lt;/version&amp;gt;
+      &amp;lt;configuration&amp;gt;
+        &amp;lt;createDependencyReducedPom&amp;gt;true&amp;lt;/createDependencyReducedPom&amp;gt;
+      &amp;lt;/configuration&amp;gt;
+      &amp;lt;executions&amp;gt;
+        &amp;lt;execution&amp;gt;
+          &amp;lt;phase&amp;gt;package&amp;lt;/phase&amp;gt;
+          &amp;lt;goals&amp;gt;
+            &amp;lt;goal&amp;gt;shade&amp;lt;/goal&amp;gt;
+          &amp;lt;/goals&amp;gt;
+        &amp;lt;/execution&amp;gt;
+      &amp;lt;/executions&amp;gt;
+    &amp;lt;/plugin&amp;gt;
+    &amp;lt;plugin&amp;gt;
+      &amp;lt;artifactId&amp;gt;maven-compiler-plugin&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;2.3.2&amp;lt;/version&amp;gt;
+      &amp;lt;configuration&amp;gt;
+        &amp;lt;source&amp;gt;${java.version}&amp;lt;/source&amp;gt;
+        &amp;lt;target&amp;gt;${java.version}&amp;lt;/target&amp;gt;
+      &amp;lt;/configuration&amp;gt;
+    &amp;lt;/plugin&amp;gt;
+  &amp;lt;/plugins&amp;gt;
+&amp;lt;/build&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;lambda関数の実装:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambda関数の実装&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/java-programming-model.html&#34;&gt;公式ドキュメント&lt;/a&gt;を見ると簡潔に書かれています。ここでは参考までにソース雛形を貼っておきます。&lt;/p&gt;
+
+&lt;p&gt;最低限 Contextが引数のstaticメソッドがあればLambda関数として登録できます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class App {
+
+    public static String main( Context context ) {
+        // 色々頑張るコード
+
+        return &amp;quot;OK&amp;quot;;
+    }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;talend-のジョブを-lambda-で動かす:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Talend のジョブを Lambda で動かす&lt;/h1&gt;
+
+&lt;p&gt;前置きが長くなりました。いよいよTalendで作ったジョブをLambdaで実行する際の手順です。&lt;/p&gt;
+
+&lt;h2 id=&#34;lambdaで実行するときのポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaで実行するときのポイント&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;通常のJavaと同じく、すべてのクラスを1つのjarファイルにまとめる&lt;/li&gt;
+&lt;li&gt;Talendでジョブを作成。出力されたJavaソースを、自分のプロジェクトにそのままコピーする&lt;/li&gt;
+&lt;li&gt;その時の依存関係は自力でpom.xmlを修正して頑張る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lambda上で動くジョブを作成するときの注意:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambda上で動くジョブを作成するときの注意&lt;/h2&gt;
+
+&lt;p&gt;「ほぼ」普通のジョブ作成で問題ありません。が、1点、Lambdaからは&amp;rdquo;/tmp&amp;rdquo;にしかファイルを作成できないことに注意しましょう。&lt;/p&gt;
+
+&lt;p&gt;例えば、S3やFTPでファイルを取得して一旦ローカルに保存するような場合、/tmpに常に書き込むようにしましょう。ローカルにテンポラリファイルが必要なら、File.createTempFile メソッドなどを使ってください。&lt;/p&gt;
+
+&lt;h2 id=&#34;ジョブのエクスポート時の注意:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;ジョブのエクスポート時の注意&lt;/h2&gt;
+
+&lt;p&gt;実行ジョブを作成するときのオプションで「Javaソース」にチェックを入れておいてください！これがないと、作成したジョブのソースがなくて後で困ります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/export.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/export.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;自分のeclipseプロジェクトに取り込み:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;自分のEclipseプロジェクトに取り込み&lt;/h2&gt;
+
+&lt;p&gt;生成されたzip内のソースコードをEclipseのソースフォルダにコピーします。この後は、依存関係を解決すべく試行錯誤が始まります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/src-copy.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/src-copy.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;エラーが多数出ますので、利用されている外部ライブラリをpom.xmlに追加していきます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/errors.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/errors.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ジョブが依存しているライブラリは、zipの下のlibの中にあります。&lt;/p&gt;
+
+&lt;p&gt;どんなに頑張ってもEclipse上ではエラーが解決できないファイル「ComponentRuntimeContainerBase.java」がありますが、それはざっくり削除で問題ありません。&lt;/p&gt;
+
+&lt;h2 id=&#34;lambdaのハンドラはどうする:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaのハンドラはどうする？&lt;/h2&gt;
+
+&lt;p&gt;先ほどサンプルで書いたJavaのコードの中から、Talendのジョブを呼び出せばOKです。例えば以下の様な形になります。ここでは戻り値がvoidのメソッドを使っています（これもOK!）。&lt;/p&gt;
+
+&lt;p&gt;例外を投げると自動リトライがかかりますので、リトライすれば次回成功するから例外を投げるのか、エラー報告してジョブ自体を投入し直すのか、開発者側で判断できるので便利ですね！&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class InvokeTalend {
+
+    public static void main( Context context ) throws Exception {
+        final TestJob job = new TestJob(); // talend上でつけたジョブ名がそのままクラス名
+
+        final String[] args = new String[0]; // Context を上書きしたかったら引数で渡してやる。
+
+        job.runJob( args );
+
+        final Exception e = job.getException();
+        if( e != null ) {
+            // 例外に対して何かしたかったら（SNSに投げるとか）ここで行う。
+            throw e; // 例外を投げてリトライ
+        }
+
+   }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;まとめ:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;Lambdaの実行時間には現在のところ&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html&#34;&gt;最大5分の制限&lt;/a&gt;がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やELTを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。&lt;/p&gt;
+
+&lt;p&gt;弊社では kintone だけではなく、オンプレミス（FTP連携サーバもまだまだ多いですよね！）とクラウドを架け橋するような案件もやっております。「こんなこと出来るのかな？」というご相談がありましたら、ぜひお問い合わせください！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2016年4月21日 gusuku（グスク）活用無料セミナーのお知らせ</title>
+      <link>https://www.r3it.com/info/2016/gusuku-seminar0421/</link>
+      <pubDate>Tue, 12 Apr 2016 15:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-seminar0421/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;kintoneアプリ開発でハマり尽くした弊社が開発しました、開発者の皆様の救世主となる、かゆいところに手が届くWebサービスであるgusuku（グスク）の活用方法をハンズオン形式で学んでいただく無料セミナーを開催いたします。&lt;/p&gt;
+
+&lt;h2 id=&#34;参加対象:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;参加対象&lt;/h2&gt;
+
+&lt;p&gt;既にサイボウズkintoneを導入済みで、自社でアプリ作成や運用管理で試行錯誤している企業様におすすめです。gusukuは無料で利用できますので、ハンズオン中にサインアップしていただく事もできますのでお気軽にご参加ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;「どうやってkintoneアプリの運用管理をしていこう」&lt;/li&gt;
+&lt;li&gt;「他の会社のベストプラクティスを知りたい」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;といった疑問をお抱えのご担当者の方、ぜひお越しください。
+皆様の疑問にお応えします。&lt;/p&gt;
+
+&lt;h2 id=&#34;開催日時:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;開催日時&lt;/h2&gt;
+
+&lt;p&gt;2016年4月21日（木） 18:30 - 20:00&lt;/p&gt;
+
+&lt;h2 id=&#34;会場:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;会場&lt;/h2&gt;
+
+&lt;p&gt;サイボウズ 日本橋オフィス 27階 cybozu BAR(バル)&lt;/p&gt;
+
+&lt;p&gt;（イベント前に入館に必要なQRコードをメールにてお送りいたします）&lt;/p&gt;
+
+&lt;h2 id=&#34;参加費用は無料です:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;参加費用は無料です！&lt;/h2&gt;
+
+&lt;p&gt;セミナー参加は無料です、是非ご参加ください。&lt;/p&gt;
+
+&lt;h2 id=&#34;事前準備:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;事前準備&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintoneアカウント（開発者ライセンスでもハンズオンは可能です）&lt;/li&gt;
+&lt;li&gt;無線LANが利用できるラップトップ、またはタブレット&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/40278&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;　お申込みはこちらから　&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;主催:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;主催&lt;/h2&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、デプロイを行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 大阪で IoT 体験！</title>
@@ -1040,226 +1263,6 @@ if(mwdate.length &amp;gt; 0){
 &lt;p&gt;大阪の皆様！是非会場まで足を運んで下さいね(๑´ㅂ`๑)&lt;/p&gt;
 
 &lt;p&gt;大阪事前登録はこちらです！ &lt;a href=&#34;http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html&#34;&gt;http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、サイボウズ「kintone」向けプラグインとしてExcel帳票サービスをリリース</title>
-      <link>https://www.r3it.com/info/2016/gusuku-update201603/</link>
-      <pubDate>Tue, 08 Mar 2016 12:00:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/gusuku-update201603/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」向けに、Excel帳票プラグインをリリースいたしました。本プラグインは、kintoneアプリケーションの利用・開発・運用を強力にサポートする「gusuku（グスク）」のエンタープライズプランのオプションとして提供されます。&lt;/p&gt;
-
-&lt;p&gt;Excel帳票プラグインは、gusukuおよびkintoneアプリケーションと統合されたExcel帳票サービスとなります。アプリケーション管理者は、使い慣れたExcelで帳票をレイアウトしすぐに利用可能です。kintoneユーザーは帳票として出力したいレコードを選択し、自由にExcelファイルを出力することが可能です。&lt;/p&gt;
-
-&lt;p&gt;帳票に必要なテンプレートファイルはgusuku上で管理され、kintoneアプリケーションとセットで配布することが可能です。&lt;/p&gt;
-
-&lt;h1 id=&#34;主な機能:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;主な機能&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Excelのxlsx形式を使って、帳票レイアウトを作成可能&lt;/li&gt;
-&lt;li&gt;Excel帳票プラグインをインストールしたkintoneアプリケーションが利用できるユーザは誰でも、出力したいレコードを選択し、Excel帳票出力が可能&lt;/li&gt;
-&lt;li&gt;各種フィールドは勿論、添付ファイルの画像なども埋め込み可能&lt;/li&gt;
-&lt;li&gt;レコード一覧と各レコードの詳細の両方をまとめて1ファイルに出力可能&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;サービスサイトurl:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;サービスサイトURL&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;料金プラン:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;料金プラン&lt;/h1&gt;
-
-&lt;p&gt;本プラグインは、gusukuのエンタープライズプラン向けのオプションとして提供されます。帳票テンプレートの種類のほか、出力回数に制限は設けていません。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;フリープランをご利用の方も含めて、すべてのプランをご利用の方が1ヶ月間無料で機能制限無しでお試しいただけます。&lt;/li&gt;
-&lt;li&gt;お試し期間終了後、継続してご利用希望の場合はエンタープライズプランおよびExcel帳票オプションへのお申し込みが必要となります。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-&lt;tr&gt;&lt;td&gt;月額価格（税抜）&lt;/td&gt;&lt;td&gt;18,000円&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;年額価格（税抜）&lt;/td&gt;&lt;td&gt;198,000円&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h1 id=&#34;サービス画像:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;サービス画像&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;kintoneと統合されたExcel帳票プラグイン&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin1.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin1.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;印刷確認ダイアログ&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin2.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin2.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;gusuku上で提供されるテンプレート管理画面&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/template.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/template.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;アールスリーインスティテュートについて:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneやAWSなど各種クラウドサービスを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
-
-&lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;本件に関するお問い合わせ先:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
-
-&lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
-
-&lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Developers Summit 2016 参加レポート！</title>
-      <link>https://www.r3it.com/blog/kintone/20160218-19_devsumi2016/</link>
-      <pubDate>Wed, 24 Feb 2016 12:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160218-19_devsumi2016/</guid>
-      <description>
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF69A3&#34;&gt;「デブサミ、登壇してみない？」&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;とボスから言われたのが2016年にはいってすぐの時期でした。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180433.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180433.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;「是非やりたいです！」&lt;/b&gt;と言ったはいいものの、何のハンズオンをしようかなと考え・・・
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;…その結果、&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;SIをやっている弊社随一のサービス&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF0000&#34;&gt;『gusuku』&lt;/font&gt;&lt;/b&gt;をもっと広めよう！ということで&lt;/p&gt;
-
-&lt;p&gt;僭越ながら&lt;b&gt;gusukuのハンズオン&lt;/b&gt;を行わせて頂くことに！
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-金春はkintone Promiseのハンズオンセッションで&lt;b&gt;18日&lt;/b&gt;に。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1062/&#34;&gt;【上級】これでもう怖くない、kintone Promise &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;わたしは&lt;b&gt;19日&lt;/b&gt;に登壇させて頂くことに！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1064/&#34;&gt;【中級】kintoneアプリのバージョン管理はgusukuにおまかせ！ &lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;決戦前日-デブサミ2016-1日目:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;決戦前日（デブサミ2016 1日目）&lt;/h1&gt;
-
-&lt;p&gt;デブサミ、もとい&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;#FF0000&#34;&gt;Developers Summit&lt;/font&gt;&lt;/b&gt; は年1回開催される、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#7B3CFF&#34;&gt;大規模なITエンジニアのお祭り&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
-
-&lt;p&gt;関西在住のわたしですが、&lt;font size=&#34;1&#34;&gt;&lt;del&gt;デブサミ関西ですら1度も参加したことが（実は）ない！（気持ち的には参加したくて仕方なかったのです）&lt;/del&gt;&lt;/font&gt;
-&lt;br&gt;
-&lt;br&gt;
-そんな雰囲気もわからないままの&lt;b&gt;おのぼりさん状態&lt;/b&gt;で、デブサミ2016に参加したわけです…！（震え声&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-gijinka.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-gijinka.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;翔泳社のブースで巷で話題のIT擬人化計画のPOPを発見！！！！！&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;#FF0000&#34;&gt;テンションが上がりました！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;1日目は金春のセッションだったので、わたしはカメラ要員（しかし撮影スキルは皆無）ということでリラックスモード（おい
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-sheep.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-sheep.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;#FF570D&#34;&gt;メェ～ルワイズ&lt;/font&gt;&lt;/b&gt;に乗ってニコニコL(&amp;lsquo;ω&amp;rsquo;)┘三└(&amp;lsquo;ω&amp;rsquo;)｣&lt;/p&gt;
-
-&lt;h2 id=&#34;会場の様子とセッション:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;会場の様子とセッション&lt;/h2&gt;
-
-&lt;p&gt;サイボウズさんのトラックは別のフロアにあり、WiFiも使える休憩スペースになっていました。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-junglecafe.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-junglecafe.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-入り口ではメェ～ルワイズもお出迎えしてくれます！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180433.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180433.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;フリードリンクに&lt;b&gt;エクアドル産のバナナも！&lt;/b&gt;ちょっとした作業にお勧めのスペースです。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-banana.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-banana.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ちなみにこのバナナわたしも頂いたのですが、すごく食べごたえがありました！！！！&lt;/p&gt;
-
-&lt;p&gt;ジャングルカフェに寄られた皆さんも、わりとバナナを頬張られていましたよ(っ´ω`c)♡&lt;/p&gt;
-
-&lt;p&gt;その中で、サイボウズさんやジョイゾーさんといった&lt;b&gt;錚々たる面々&lt;/b&gt;がセッションを行います。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;1日目のラストで弊社金春が登壇！&lt;b&gt;kintone Promise&lt;/b&gt;についてのセッションです！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-kirintone.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-kirintone.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;font size=&#34;1&#34;&gt;あ、こっちじゃないですね。&lt;/font&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180428.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180428.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180424.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180424.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;今回は上級者向けのセッションということもあり、セッション内で時間を取り、参加者に実際にコードを考えて書いてもらう時間がありました。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180432.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-P2180432.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;セッション中に書くのはなかなか大変です…そして、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#336666&#34;&gt;わりと一筋縄ではいかない課題が大量にΣ&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;ソースコードを見るとその開発者の方向性が垣間見えるのが面白いなと思います|ω・)ｺｯｿﾘ&lt;/p&gt;
-
-&lt;h1 id=&#34;決戦当日-デブサミ2016-2日目:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;決戦当日（デブサミ2016 2日目）&lt;/h1&gt;
-
-&lt;p&gt;そんなこんなでいよいよデブサミ登壇デビューの日がやってまいりました！
-いつものLTあるあるのように事故で終われないので、ギリギリまでスピーカー控室で資料の調整をするわたしです。&lt;/p&gt;
-
-&lt;h2 id=&#34;ついに決戦の時:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;ついに決戦の時！&lt;/h2&gt;
-
-&lt;p&gt;いよいよやってきました！、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#CC3300&#34;&gt;決戦の時が…！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;当日参加の方もいらっしゃったからなのか、予想以上に席がいっぱいの状態に！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190462.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190462.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;皆様それだけこのサービスに興味を持って頂いていたのだと思うと身が引き締まる思いです…！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190440.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190440.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#999933&#34;&gt;こんなところで事故るわけにはいかない…！！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;と思いつつ、 &lt;del&gt;自己紹介はしっかり（&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190449.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160219-P2190449.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;90分という長丁場でしたが、皆さん終始集中して聞いて頂き、&lt;b&gt;gusuku&lt;/b&gt;についても興味を持って頂けました！&lt;/p&gt;
-
-&lt;p&gt;金春とわたしのデブサミ登壇資料は&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;こちら&lt;/a&gt;のページにリンクを貼らせて頂いています！&lt;/p&gt;
-
-&lt;p&gt;セルフペースで学習して頂けるような資料にしてますので、ご興味がある方は是非是非ご覧になってみて下さいね！&lt;/p&gt;
-
-&lt;h1 id=&#34;最後に:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;最後に&lt;/h1&gt;
-
-&lt;p&gt;早速その後実務でお試し頂いている方もいらっしゃるようで、ありがたい限りです。&lt;/p&gt;
-
-&lt;p&gt;皆様本当にありがとうございます！（｡╹ω╹｡）&lt;/p&gt;
-
-&lt;p&gt;今回登壇機会を与えてくださった皆様に、この場をお借りして御礼申し上げます(`･⊝･´)&lt;/p&gt;
-
-&lt;h3 id=&#34;再掲-資料はこちらで-す-https-www-r3it-com-community-kintonecafe:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;再掲：&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;資料はこちらで〜す！&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h1 id=&#34;ひとりごと:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;ひとりごと&lt;/h1&gt;
-
-&lt;p&gt;なんとなんと…&lt;/p&gt;
-
-&lt;p&gt;正式に&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;の&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF1493&#34;&gt;エバンジェリスト&lt;/font&gt;&lt;/b&gt;として今後活動させて頂くことになりましたよ₍₍ ◝(&amp;lsquo;ω&amp;rsquo;◝) ⁾⁾ ₍₍ (◟&amp;rsquo;ω&amp;rsquo;)◟ ⁾⁾&lt;/p&gt;
-
-&lt;p&gt;まだまだ未熟ですが、&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;の魅力を精一杯伝えていきたいと思っています(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;皆さん是非&lt;b&gt;gusukuを使ってみてフィードバックくださいね！&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;知りたいよ！って人が（もし）いらっしゃいましたらお話させて頂きますので是非是非勉強会等にも呼んでくださいねー！（｡╹ω╹｡）&lt;/p&gt;
-
-&lt;p&gt;引き続き宜しくお願いしまーす＼( &amp;lsquo;ω&amp;rsquo;)／&lt;/p&gt;
 </description>
     </item>
     

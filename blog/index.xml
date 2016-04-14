@@ -5,8 +5,164 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Apr 2016 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 Apr 2016 15:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>システム間連携ジョブをサーバレスで実行する「Talend on AWS Lambda」のススメ</title>
+      <link>https://www.r3it.com/blog/aws/talend-on-lambda/</link>
+      <pubDate>Thu, 14 Apr 2016 15:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/talend-on-lambda/</guid>
+      <description>
+
+&lt;p&gt;長い夏が始まった沖縄よりこんにちは、西島です。皆さんはサーバレスでコード実行が目玉の&lt;a href=&#34;https://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt;使ってますか？使ってますよね？&lt;/p&gt;
+
+&lt;p&gt;弊社では、ちょっとした集計報告からS3のストレージと連携した後処理などをはじめ、言語は Node.js から Java8 で書かれたものまで、あらゆるところで Lambda が使われています（実は弊社サービスの&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku（グスク）&lt;/a&gt;のExcel帳票サービスもすべてLambdaで書かれています！）。&lt;/p&gt;
+
+&lt;p&gt;そんなLambdaの使い方のひとつで、今日はシステム間連携のバッチジョブを動かすためのTIPSをご紹介したいと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;システム間連携ジョブといえばtalend:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;システム間連携ジョブといえばTalend&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社は Talend Open Studio パートナーですので、システム間連携といえば勿論 Talend を利用しています。Talendとは・・・は&lt;a href=&#34;https://jp.talend.com/&#34;&gt;公式サイト&lt;/a&gt;に譲るとして、色々な製品ラインがある中で、弊社は例えば基幹システム（オンプレミス）にあるデータベース、FTPサーバなどと、クラウド側にある例えば kintone などとのデータ連携に Talend を使用しています。&lt;/p&gt;
+
+&lt;p&gt;（Talend と kintone の連携には、拙作の &lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt; というオープンソースのコンポーネントがありますので、ご活用ください！）&lt;/p&gt;
+
+&lt;h1 id=&#34;まずjavaのコードをlambdaで動かすようにする:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;まずJavaのコードをLambdaで動かすようにする&lt;/h1&gt;
+
+&lt;p&gt;僕も弊社もJavaを愛していますので、LambdaでJavaがサポートされた時はとても嬉しかったです！ JavaでLambda関数を作る手順はあまり見かけませんが、幾つかの手順を踏めば難しいものではありません。公式ドキュメントは&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/lambda-java-how-to-create-deployment-package.html&#34;&gt;こちら&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;h2 id=&#34;lambdaで動かすポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaで動かすポイント&lt;/h2&gt;
+
+&lt;p&gt;ポイントとしては、以下を踏まえれば問題ないと思います（AWS SDK Eclipse ツールキットを利用すれば同等のことが出来るのだと思いますが、試していません）。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1つのjarファイルにすべてのクラスファイルをまとめる必要がある&lt;/li&gt;
+&lt;li&gt;つまり、利用している依存ライブラリも全て1つにまとめる&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://maven.apache.org/plugins/maven-shade-plugin/&#34;&gt;maven-shadeプラグイン&lt;/a&gt;便利♪&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;pom.xmlでpackageのゴール時にshadeを実行するように書いておきましょう。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;build&amp;gt;
+  &amp;lt;plugins&amp;gt;
+    &amp;lt;plugin&amp;gt;
+      &amp;lt;artifactId&amp;gt;maven-shade-plugin&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;2.3&amp;lt;/version&amp;gt;
+      &amp;lt;configuration&amp;gt;
+        &amp;lt;createDependencyReducedPom&amp;gt;true&amp;lt;/createDependencyReducedPom&amp;gt;
+      &amp;lt;/configuration&amp;gt;
+      &amp;lt;executions&amp;gt;
+        &amp;lt;execution&amp;gt;
+          &amp;lt;phase&amp;gt;package&amp;lt;/phase&amp;gt;
+          &amp;lt;goals&amp;gt;
+            &amp;lt;goal&amp;gt;shade&amp;lt;/goal&amp;gt;
+          &amp;lt;/goals&amp;gt;
+        &amp;lt;/execution&amp;gt;
+      &amp;lt;/executions&amp;gt;
+    &amp;lt;/plugin&amp;gt;
+    &amp;lt;plugin&amp;gt;
+      &amp;lt;artifactId&amp;gt;maven-compiler-plugin&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;2.3.2&amp;lt;/version&amp;gt;
+      &amp;lt;configuration&amp;gt;
+        &amp;lt;source&amp;gt;${java.version}&amp;lt;/source&amp;gt;
+        &amp;lt;target&amp;gt;${java.version}&amp;lt;/target&amp;gt;
+      &amp;lt;/configuration&amp;gt;
+    &amp;lt;/plugin&amp;gt;
+  &amp;lt;/plugins&amp;gt;
+&amp;lt;/build&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;lambda関数の実装:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambda関数の実装&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/java-programming-model.html&#34;&gt;公式ドキュメント&lt;/a&gt;を見ると簡潔に書かれています。ここでは参考までにソース雛形を貼っておきます。&lt;/p&gt;
+
+&lt;p&gt;最低限 Contextが引数のstaticメソッドがあればLambda関数として登録できます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class App {
+
+    public static String main( Context context ) {
+        // 色々頑張るコード
+
+        return &amp;quot;OK&amp;quot;;
+    }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;talend-のジョブを-lambda-で動かす:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Talend のジョブを Lambda で動かす&lt;/h1&gt;
+
+&lt;p&gt;前置きが長くなりました。いよいよTalendで作ったジョブをLambdaで実行する際の手順です。&lt;/p&gt;
+
+&lt;h2 id=&#34;lambdaで実行するときのポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaで実行するときのポイント&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;通常のJavaと同じく、すべてのクラスを1つのjarファイルにまとめる&lt;/li&gt;
+&lt;li&gt;Talendでジョブを作成。出力されたJavaソースを、自分のプロジェクトにそのままコピーする&lt;/li&gt;
+&lt;li&gt;その時の依存関係は自力でpom.xmlを修正して頑張る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lambda上で動くジョブを作成するときの注意:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambda上で動くジョブを作成するときの注意&lt;/h2&gt;
+
+&lt;p&gt;「ほぼ」普通のジョブ作成で問題ありません。が、1点、Lambdaからは&amp;rdquo;/tmp&amp;rdquo;にしかファイルを作成できないことに注意しましょう。&lt;/p&gt;
+
+&lt;p&gt;例えば、S3やFTPでファイルを取得して一旦ローカルに保存するような場合、/tmpに常に書き込むようにしましょう。ローカルにテンポラリファイルが必要なら、File.createTempFile メソッドなどを使ってください。&lt;/p&gt;
+
+&lt;h2 id=&#34;ジョブのエクスポート時の注意:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;ジョブのエクスポート時の注意&lt;/h2&gt;
+
+&lt;p&gt;実行ジョブを作成するときのオプションで「Javaソース」にチェックを入れておいてください！これがないと、作成したジョブのソースがなくて後で困ります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/export.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/export.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;自分のeclipseプロジェクトに取り込み:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;自分のEclipseプロジェクトに取り込み&lt;/h2&gt;
+
+&lt;p&gt;生成されたzip内のソースコードをEclipseのソースフォルダにコピーします。この後は、依存関係を解決すべく試行錯誤が始まります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/src-copy.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/src-copy.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;エラーが多数出ますので、利用されている外部ライブラリをpom.xmlに追加していきます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/errors.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/errors.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ジョブが依存しているライブラリは、zipの下のlibの中にあります。&lt;/p&gt;
+
+&lt;p&gt;どんなに頑張ってもEclipse上ではエラーが解決できないファイル「ComponentRuntimeContainerBase.java」がありますが、それはざっくり削除で問題ありません。&lt;/p&gt;
+
+&lt;h2 id=&#34;lambdaのハンドラはどうする:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaのハンドラはどうする？&lt;/h2&gt;
+
+&lt;p&gt;先ほどサンプルで書いたJavaのコードの中から、Talendのジョブを呼び出せばOKです。例えば以下の様な形になります。ここでは戻り値がvoidのメソッドを使っています（これもOK!）。&lt;/p&gt;
+
+&lt;p&gt;例外を投げると自動リトライがかかりますので、リトライすれば次回成功するから例外を投げるのか、エラー報告してジョブ自体を投入し直すのか、開発者側で判断できるので便利ですね！&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class InvokeTalend {
+
+    public static void main( Context context ) throws Exception {
+        final TestJob job = new TestJob(); // talend上でつけたジョブ名がそのままクラス名
+
+        final String[] args = new String[0]; // Context を上書きしたかったら引数で渡してやる。
+
+        job.runJob( args );
+
+        final Exception e = job.getException();
+        if( e != null ) {
+            // 例外に対して何かしたかったら（SNSに投げるとか）ここで行う。
+            throw e; // 例外を投げてリトライ
+        }
+
+   }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;まとめ:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;Lambdaの実行時間には現在のところ&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html&#34;&gt;最大5分の制限&lt;/a&gt;がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やELTを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。&lt;/p&gt;
+
+&lt;p&gt;弊社では kintone だけではなく、オンプレミス（FTP連携サーバもまだまだ多いですよね！）とクラウドを架け橋するような案件もやっております。「こんなこと出来るのかな？」というご相談がありましたら、ぜひお問い合わせください！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 大阪で IoT 体験！</title>
@@ -1314,80 +1470,6 @@ kintoneエバンジェリスト 細谷さん&lt;/li&gt;
 &lt;p&gt;他にもkintone Café 関西女子会 を立ち上げたことがきっかけで、遠くに住んでいる新しいkintone女子と知りあえたり…周囲が目まぐるしく変化していってます！&lt;/p&gt;
 
 &lt;p&gt;これからも皆さんと一緒に kintone Café を精一杯盛り上げていくので、これからもどうぞよろしくお願いします！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JAWS-UG関西女子会第5回2016年新年会LTの開催レポート</title>
-      <link>https://www.r3it.com/blog/aws/20160109_jawsug-kgirls5/</link>
-      <pubDate>Mon, 18 Jan 2016 19:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/20160109_jawsug-kgirls5/</guid>
-      <description>
-
-&lt;p&gt;2016年1月9日（土曜日）年明け1発目、運営しているJAWS-UG関西女子会で第5回勉強会（という名の飲み会企画）&lt;a href=&#34;https://jawsugkgirls.doorkeeper.jp/events/35309&#34;&gt;女子たちの新年会&lt;/a&gt;を開催しました！&lt;/p&gt;
-
-&lt;h1 id=&#34;今回はjaws-ugの枠を超えた大lt大会:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;今回はJAWS-UGの枠を超えた大LT大会！&lt;/h1&gt;
-
-&lt;p&gt;今回は、普段JAWS-UG関西女子会に参加していない女子達にも &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF6633&#34;&gt;JAWS-UG関西女子会の雰囲気を掴んでほしい！もっと女子達と横の繋がりを増やしたい！&lt;/font&gt;&lt;/b&gt; ということでコミュニティの枠を超えた新年会を開催したのですよ！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-5.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;会場はななななんと！昨年末に引越したばかりの&lt;b&gt;弊社オフィス！！！！&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-4.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;font size=&#34;2&#34;&gt;やっと &lt;del&gt;人をマトモに呼べる状態&lt;/del&gt; になった。。。&lt;/font&gt;&lt;/p&gt;
-
-&lt;p&gt;食べながら飲みながら希望者がLTをする形です！&lt;/p&gt;
-
-&lt;p&gt;今回もわたしたちの女子会では&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#6B8E23&#34;&gt;もはやお馴染み！&lt;/font&gt;&lt;/b&gt;会場に食べ物を持ち込む形式にしました(っ´ω`c)♡&lt;/p&gt;
-
-&lt;p&gt;オードブルもよくありがちな揚げ物だらけではなく、女子っぽいメニューがたくさん！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-2.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-3.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;多方面で活躍しているlter達:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;多方面で活躍しているLTer達&lt;/h2&gt;
-
-&lt;p&gt;LTは公募で、正直どの程度LT希望者がいるかまったく読めない状況。運営側もドキドキでした。。。&lt;/p&gt;
-
-&lt;p&gt;ですが&lt;b&gt;実際はそんな私達の予想が見事に裏切られる結果に…！（いい意味で&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;普段別のコミュニティやお仕事でしゃべり慣れている方も多く、また今回 &lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF367F&#34;&gt;LT初挑戦&lt;/font&gt;&lt;/b&gt;という新卒1年目の&lt;i&gt;ルーキーエンジニア&lt;/i&gt;まで！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-6.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-6.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-7.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-8.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-8.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;もちろんわたしたち運営もLTでしっかりコミュニティの紹介をしました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-9.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-9.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-10.jpg&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsug-kgirls5-10.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;最初は皆さん緊張されていたのですが、時間の経過と共に徐々に緊張もほぐれ、みんなで名刺交換！&lt;/p&gt;
-
-&lt;p&gt;実はここから新しいアイデアも…！&lt;/p&gt;
-
-&lt;p&gt;どんなアイデアが生まれたのかは、、、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF1A6F&#34;&gt;どこかで皆さんにお披露目&lt;/font&gt;&lt;/b&gt;出来ればと思います！(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;それまで&lt;b&gt;乞うご期待！&lt;/b&gt;ということで！！！！！&lt;/p&gt;
-
-&lt;h1 id=&#34;ブログで紹介も:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;ブログで紹介も！&lt;/h1&gt;
-
-&lt;p&gt;わたしが尊敬してやまない関西Java女子部や、Scala関西勉強会で活動しているエンジニアの&lt;a href=&#34;https://twitter.com/aa7th&#34;&gt;あさみちゃん&lt;/a&gt;は今回初めてJAWS-UG関西女子会に来てくれたのですが、なんと&lt;a href=&#34;http://nocono.net/&#34;&gt;ご自身のブログ&lt;/a&gt;で関西女子会の新年会のことを紹介してくれたのです！ほんとに大感謝です！！！！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nocono.net/post/2016/01/jaws-ug-girls/&#34;&gt;http://nocono.net/post/2016/01/jaws-ug-girls/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;jaws-ug関西女子会の次の日はjava女子部に:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;JAWS-UG関西女子会の次の日はJava女子部に！&lt;/h1&gt;
-
-&lt;p&gt;そして翌日2016年1月10日（日曜日）は、あさみちゃんが運営するJava女子部の&lt;a href=&#34;http://javajok.connpass.com/event/24419/&#34;&gt;新春LT×座談会&lt;/a&gt;があり、今度はわたしがそちらにお邪魔しちゃいました！！！！&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/KHIeYNF1mmzpMh&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/dolly6ca/20160110-java-lt&#34; title=&#34;20160110 Java女子部 新春LT×座談会@大阪&#34; target=&#34;_blank&#34;&gt;20160110 Java女子部 新春LT×座談会@大阪&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/dolly6ca&#34; target=&#34;_blank&#34;&gt;Midori Ikegami&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;daysも参加してね:42eefff3eab036ed2afecdb30e7bf235&#34;&gt;DAYSも参加してね！&lt;/h1&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsdays2016-image.png&#34; data-lightbox=&#34;kgirls5&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/kgirls/jawsdays2016-image.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;a href=&#34;https://www.r3it.com/blog/community/201601community-events/&#34;&gt;西島の記事&lt;/a&gt;でも紹介していますが、JAWSの一大イベント &lt;b&gt;JAWS DAYS 2016&lt;/b&gt; で弊社もサポーターとして支援させて頂きます！&lt;/p&gt;
-
-&lt;p&gt;当日も運営スタッフとして参加しますので、皆さん！東京でお会いしましょう！！！！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/ticket&#34;&gt;http://jawsdays2016.jaws-ug.jp/ticket&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
