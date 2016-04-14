@@ -79,7 +79,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/java-programming-model.html&#34;&gt;公式ドキュメント&lt;/a&gt;を見ると簡潔に書かれています。ここでは参考までにソース雛形を貼っておきます。&lt;/p&gt;
 
-&lt;p&gt;最低限 Contextが引数のstaticメソッドがあればLambda関数として登録できます。&lt;/p&gt;
+&lt;p&gt;最低限 Context が引数のstaticメソッドがあればLambda関数として登録できます。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class App {
 
@@ -99,7 +99,7 @@
 &lt;h2 id=&#34;lambdaで実行するときのポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaで実行するときのポイント&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;通常のJavaと同じく、すべてのクラスを1つのjarファイルにまとめる&lt;/li&gt;
+&lt;li&gt;通常のJavaで書かれたLambda関数と同じく、すべてのクラスを1つのjarファイルにまとめる&lt;/li&gt;
 &lt;li&gt;Talendでジョブを作成。出力されたJavaソースを、自分のプロジェクトにそのままコピーする&lt;/li&gt;
 &lt;li&gt;その時の依存関係は自力でpom.xmlを修正して頑張る&lt;/li&gt;
 &lt;/ul&gt;

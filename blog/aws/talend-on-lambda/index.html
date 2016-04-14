@@ -26,7 +26,7 @@
 
     <meta property="og:url" content="https://www.r3it.com/blog/aws/talend-on-lambda/" />
     
-    <meta property="og:image" content="https://www.r3it.com/images/r3_logo_wide_og.png"/>
+    <meta property="og:image" content="https://www.r3it.com/images/blog/aws/talend-on-lambda/cup-technology-coding.jpg" />
     
     <meta property="og:site_name" content="アールスリーインスティテュート">
 
@@ -187,7 +187,7 @@
 
 <p><a href="https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/java-programming-model.html">公式ドキュメント</a>を見ると簡潔に書かれています。ここでは参考までにソース雛形を貼っておきます。</p>
 
-<p>最低限 Contextが引数のstaticメソッドがあればLambda関数として登録できます。</p>
+<p>最低限 Context が引数のstaticメソッドがあればLambda関数として登録できます。</p>
 
 <pre><code class="language-java">public class App {
 
@@ -207,7 +207,7 @@
 <h2 id="lambdaで実行するときのポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd">Lambdaで実行するときのポイント</h2>
 
 <ul>
-<li>通常のJavaと同じく、すべてのクラスを1つのjarファイルにまとめる</li>
+<li>通常のJavaで書かれたLambda関数と同じく、すべてのクラスを1つのjarファイルにまとめる</li>
 <li>Talendでジョブを作成。出力されたJavaソースを、自分のプロジェクトにそのままコピーする</li>
 <li>その時の依存関係は自力でpom.xmlを修正して頑張る</li>
 </ul>
