@@ -158,7 +158,7 @@
 
 &lt;h1 id=&#34;まとめ:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;まとめ&lt;/h1&gt;
 
-&lt;p&gt;Lambdaの実行時間には現在のところ&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html&#34;&gt;最大5分の制限&lt;/a&gt;がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やELTを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。&lt;/p&gt;
+&lt;p&gt;Lambdaの実行時間には現在のところ&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html&#34;&gt;最大5分の制限&lt;/a&gt;がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やETLを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。&lt;/p&gt;
 
 &lt;p&gt;弊社では kintone だけではなく、オンプレミス（FTP連携サーバもまだまだ多いですよね！）とクラウドを架け橋するような案件もやっております。「こんなこと出来るのかな？」というご相談がありましたら、ぜひお問い合わせください！&lt;/p&gt;
 </description>
