@@ -5,8 +5,64 @@
     <link>https://www.r3it.com/tags/aws/</link>
     <description>Recent content in Aws on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 14 Apr 2016 15:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Apr 2016 15:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 神戸 Vol.4 で kintone の弱点を克服してきました！</title>
+      <link>https://www.r3it.com/blog/kintone/20160415_kintonecafe-kobe4/</link>
+      <pubDate>Mon, 18 Apr 2016 15:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160415_kintonecafe-kobe4/</guid>
+      <description>
+
+&lt;p&gt;2016年4月15日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/40870&#34;&gt;kintone Café 神戸 Vol.4&lt;/a&gt; にお呼び頂き、登壇してきましたので、その模様をお伝えしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;それにしても、最近の kintone Café 神戸は開催ペースも早く、盛り上がっていますね(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-café-神戸のロゴ完成:22da74813ccae32b2a857a4024f2ef38&#34;&gt;kintone Café 神戸のロゴ完成！&lt;/h2&gt;
+
+&lt;p&gt;初めに主催の kintone エバンジェリスト 細谷さんから開催のご挨拶。&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;orange&#34;&gt;kintone Café 神戸のロゴが完成&lt;/font&gt;したとの事で、得意気に発表する細谷さん！(｀ー´) ﾄﾞﾔｯ!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/hosoyasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/hosoyasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみに作成されたのは運営メンバーの杉山さんとの事です Σ|&lt;em&gt;-Д-&lt;/em&gt;|すごい！&lt;/p&gt;
+
+&lt;p&gt;写真がボケてたので、画像ファイルを頂きました。神戸らしいデザインが素敵ですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/kobe_logo.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/kobe_logo.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-の弱点を克服してみました:22da74813ccae32b2a857a4024f2ef38&#34;&gt;kintone の弱点を克服してみました&lt;/h2&gt;
+
+&lt;p&gt;私の登壇枠では、&lt;b&gt;「AWS で kintone の弱点を克服する」&lt;/b&gt;というタイトルで発表させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/asaga.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone に蓄積されたデータを自社サイト等で公開する場合に問題となりそうな点を洗い出し、AWS を使って回避する方法をお話しさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;デモでは、とある不動産会社を例に、kintone で管理している物件データを自社サイトで公開するケースを取り上げさせて頂きました。&lt;/p&gt;
+
+&lt;div style=&#34;width: 65%&#34;&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b5447fe42f441fab8129f8c0b6df5f3&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;割りと AWS 比率高めの発表となりましたが ^^;、最後にまとめさせて頂いたように、AWS に限らず様々なサービスを組み合わせる事で kintone の弱みを克服して、利用範囲も広げる事ができますよ！という事をお伝えさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;神戸は毎回濃い話しが多いので、次回も期待大ですね(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;今後のお知らせ:22da74813ccae32b2a857a4024f2ef38&#34;&gt;今後のお知らせ&lt;/h2&gt;
+
+&lt;p&gt;2016/5/14に &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34;&gt;kintone Café 大阪 Vol.7&lt;/a&gt;が開催されます。（残念ながらキャンセル待ちとなっております）&lt;/p&gt;
+
+&lt;p&gt;Vol.8も計画中（夏頃？）なので、こういう事やって！というアイデアがあれば、是非お寄せ下さい。&lt;/p&gt;
+
+&lt;p&gt;運営に関わってみたい方もお待ちしてます！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>システム間連携ジョブをサーバレスで実行する「Talend on AWS Lambda」のススメ</title>
@@ -1330,37 +1386,6 @@ Swapちゃんと確保してなかったら実運用危険。&lt;b&gt;&lt;font c
 &lt;p&gt;AWS Lambda available in Tokyo! を記念しているのに、 js2kintone がオレゴンをオススメしているのは仕様です。探さないでください(^_^;&lt;/p&gt;
 
 &lt;p&gt;ドキュメントはいつも最後なんです、ソース読みましょう。ではでは (^^)/&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>執筆者Profile : 西島 幸一郎</title>
-      <link>https://www.r3it.com/blog/author/nishijima/</link>
-      <pubDate>Wed, 01 Jul 2015 09:36:13 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/author/nishijima/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;大阪の会社であるアールスリーインスティテュートに、沖縄のワンコ×2がいる部屋からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。&lt;/p&gt;
-
-&lt;p&gt;オープンソースとクラフトビールをこよなく愛する。&lt;/p&gt;
-
-&lt;h2 id=&#34;コミュニティ活動:2e5d4427da0df1a4fa21acbfbca81f5d&#34;&gt;コミュニティ活動&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://jaws-ug.jp/bc/okinawa/&#34;&gt;JAWS-UG沖縄&lt;/a&gt; コアメンバー&lt;/li&gt;
-&lt;li&gt;アマゾンデータサービスジャパン公認 AWSサムライ2013および2014&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://hackers-champloo.org/&#34;&gt;ハッカーズチャンプルー&lt;/a&gt; 実行委員長&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/nishijima.koichiro&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/k_nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/k-nishijima&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/github.png&#34; alt=&#34;GitHub&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

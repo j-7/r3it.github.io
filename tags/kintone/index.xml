@@ -5,8 +5,64 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 14 Apr 2016 15:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Apr 2016 15:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 神戸 Vol.4 で kintone の弱点を克服してきました！</title>
+      <link>https://www.r3it.com/blog/kintone/20160415_kintonecafe-kobe4/</link>
+      <pubDate>Mon, 18 Apr 2016 15:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160415_kintonecafe-kobe4/</guid>
+      <description>
+
+&lt;p&gt;2016年4月15日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/40870&#34;&gt;kintone Café 神戸 Vol.4&lt;/a&gt; にお呼び頂き、登壇してきましたので、その模様をお伝えしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;それにしても、最近の kintone Café 神戸は開催ペースも早く、盛り上がっていますね(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-café-神戸のロゴ完成:22da74813ccae32b2a857a4024f2ef38&#34;&gt;kintone Café 神戸のロゴ完成！&lt;/h2&gt;
+
+&lt;p&gt;初めに主催の kintone エバンジェリスト 細谷さんから開催のご挨拶。&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;orange&#34;&gt;kintone Café 神戸のロゴが完成&lt;/font&gt;したとの事で、得意気に発表する細谷さん！(｀ー´) ﾄﾞﾔｯ!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/hosoyasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/hosoyasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみに作成されたのは運営メンバーの杉山さんとの事です Σ|&lt;em&gt;-Д-&lt;/em&gt;|すごい！&lt;/p&gt;
+
+&lt;p&gt;写真がボケてたので、画像ファイルを頂きました。神戸らしいデザインが素敵ですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/kobe_logo.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/kobe_logo.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-の弱点を克服してみました:22da74813ccae32b2a857a4024f2ef38&#34;&gt;kintone の弱点を克服してみました&lt;/h2&gt;
+
+&lt;p&gt;私の登壇枠では、&lt;b&gt;「AWS で kintone の弱点を克服する」&lt;/b&gt;というタイトルで発表させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/asaga.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone に蓄積されたデータを自社サイト等で公開する場合に問題となりそうな点を洗い出し、AWS を使って回避する方法をお話しさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;デモでは、とある不動産会社を例に、kintone で管理している物件データを自社サイトで公開するケースを取り上げさせて頂きました。&lt;/p&gt;
+
+&lt;div style=&#34;width: 65%&#34;&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b5447fe42f441fab8129f8c0b6df5f3&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;割りと AWS 比率高めの発表となりましたが ^^;、最後にまとめさせて頂いたように、AWS に限らず様々なサービスを組み合わせる事で kintone の弱みを克服して、利用範囲も広げる事ができますよ！という事をお伝えさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;神戸は毎回濃い話しが多いので、次回も期待大ですね(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;今後のお知らせ:22da74813ccae32b2a857a4024f2ef38&#34;&gt;今後のお知らせ&lt;/h2&gt;
+
+&lt;p&gt;2016/5/14に &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34;&gt;kintone Café 大阪 Vol.7&lt;/a&gt;が開催されます。（残念ながらキャンセル待ちとなっております）&lt;/p&gt;
+
+&lt;p&gt;Vol.8も計画中（夏頃？）なので、こういう事やって！というアイデアがあれば、是非お寄せ下さい。&lt;/p&gt;
+
+&lt;p&gt;運営に関わってみたい方もお待ちしてます！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>システム間連携ジョブをサーバレスで実行する「Talend on AWS Lambda」のススメ</title>
@@ -1197,72 +1253,6 @@ if(mwdate.length &amp;gt; 0){
 
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/ha_ru_ma_ki&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
 &lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Days Tokyo 2016 に出展してきました！！</title>
-      <link>https://www.r3it.com/blog/kintone/20160310-11_clouddaystokyo2016/</link>
-      <pubDate>Mon, 14 Mar 2016 15:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160310-11_clouddaystokyo2016/</guid>
-      <description>
-
-&lt;p&gt;デブサミ2016の登壇報告以降ブログ更新が滞っておりすみません。&lt;/p&gt;
-
-&lt;p&gt;2016年3月10日・11日の2日間、Cloud Days Tokyoに出展してまいりましたのでそのご報告をさせて頂きます！&lt;/p&gt;
-
-&lt;h2 id=&#34;cloud-days-って:99931c7690ac9bf16371933fab85ff31&#34;&gt;Cloud Days って？&lt;/h2&gt;
-
-&lt;p&gt;日経BP社主催の大規模なITイベントです。今年2016年は&lt;b&gt;クラウド、ビッグデータ、モバイル＆ウエアラブル、セキュリティ＆ガバナンスそしてIoT&lt;/b&gt;にフォーカスし、東京・大阪、九州・名古屋・札幌の全国5ヶ所で開催されます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160310-11/tesla.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160310-11/tesla.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;（近くにテスラが停めてありました。クラウドかIoT!?）&lt;/p&gt;
-
-&lt;h3 id=&#34;cloud-days-tokyo-は初出展:99931c7690ac9bf16371933fab85ff31&#34;&gt;Cloud Days  Tokyo は初出展！&lt;/h3&gt;
-
-&lt;p&gt;昨年は大阪、名古屋、九州の3ヶ所で出展させて頂きましたが、今年初の Cloud Daysはなんと&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF0000&#34;&gt;東京から！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;今回は昨年の名古屋の時のように、サイボウズさんのパートナーブースで出展させて頂きました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160310-11/booth.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160310-11/booth.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;普段kintone界隈でお世話になっているジョイゾーさんやM-SOLUTIONSさんなども出展されていて、華やかな雰囲気でしたよ！&lt;/p&gt;
-
-&lt;p&gt;M-SOLUTIONSさんのブースではお馴染みのペッパーくんがお出迎え！（写真撮り忘れました・・・）&lt;/p&gt;
-
-&lt;h2 id=&#34;サイボウズさんのブースではミニセミナーも:99931c7690ac9bf16371933fab85ff31&#34;&gt;サイボウズさんのブースではミニセミナーも！&lt;/h2&gt;
-
-&lt;p&gt;今回はサイボウズさんと各パートナー様のペアでセッションが展開されるスタイルでした。&lt;/p&gt;
-
-&lt;p&gt;弊社からは金春が「小さく・はやく」作ることの大切さを訴える、ハイスピードSIについて登壇させていただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160310-11/20160310-seminar1.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160310-11/20160310-seminar1.jpg&#34;  width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160310-11/session-wide.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160310-11/session-wide.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;（少し引いてみると、この人だかり！）&lt;/p&gt;
-
-&lt;h2 id=&#34;kintoneとawsの連携ソリューションの展示:99931c7690ac9bf16371933fab85ff31&#34;&gt;kintoneとAWSの連携ソリューションの展示&lt;/h2&gt;
-
-&lt;p&gt;ブースの方では、kintoneとAWSの連携ソリューションを展示しておりました。&lt;/p&gt;
-
-&lt;p&gt;kintoneと外部サービスとのさまざまな連携パターンを、皆様に知って頂くことが出来たかなと思っております(๑•̀ㅂ•́)و✧&lt;/p&gt;
-
-&lt;h2 id=&#34;cloud-days-2016-東京のまとめ:99931c7690ac9bf16371933fab85ff31&#34;&gt;Cloud Days 2016 東京のまとめ&lt;/h2&gt;
-
-&lt;p&gt;今回のイベントの参加者で、弊社ブースにお立ち寄り頂いた方にお話をお聞きすると、kintoneの名前自体をご存知ない方、また名前は知っていても使ったことがない方が多かったように思います。&lt;/p&gt;
-
-&lt;p&gt;サイボウズさんの製品ということをご説明させて頂いて初めて知った！という方も。&lt;/p&gt;
-
-&lt;p&gt;ただそういった方にデモをお見せして、こういった使い方が出来るんだよということをお伝えすると、かなり高い確率で興味関心を持って頂けました！&lt;/p&gt;
-
-&lt;p&gt;今週末3月17日(木曜日)・18日(金曜日)はCloud Days 大阪に出展します！&lt;/p&gt;
-
-&lt;p&gt;大阪の皆様！是非会場まで足を運んで下さいね(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;大阪事前登録はこちらです！ &lt;a href=&#34;http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html&#34;&gt;http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

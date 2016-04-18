@@ -5,8 +5,64 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 14 Apr 2016 15:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Apr 2016 15:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 神戸 Vol.4 で kintone の弱点を克服してきました！</title>
+      <link>https://www.r3it.com/blog/kintone/20160415_kintonecafe-kobe4/</link>
+      <pubDate>Mon, 18 Apr 2016 15:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160415_kintonecafe-kobe4/</guid>
+      <description>
+
+&lt;p&gt;2016年4月15日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/40870&#34;&gt;kintone Café 神戸 Vol.4&lt;/a&gt; にお呼び頂き、登壇してきましたので、その模様をお伝えしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;それにしても、最近の kintone Café 神戸は開催ペースも早く、盛り上がっていますね(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-café-神戸のロゴ完成:22da74813ccae32b2a857a4024f2ef38&#34;&gt;kintone Café 神戸のロゴ完成！&lt;/h2&gt;
+
+&lt;p&gt;初めに主催の kintone エバンジェリスト 細谷さんから開催のご挨拶。&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;orange&#34;&gt;kintone Café 神戸のロゴが完成&lt;/font&gt;したとの事で、得意気に発表する細谷さん！(｀ー´) ﾄﾞﾔｯ!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/hosoyasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/hosoyasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみに作成されたのは運営メンバーの杉山さんとの事です Σ|&lt;em&gt;-Д-&lt;/em&gt;|すごい！&lt;/p&gt;
+
+&lt;p&gt;写真がボケてたので、画像ファイルを頂きました。神戸らしいデザインが素敵ですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/kobe_logo.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/kobe_logo.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-の弱点を克服してみました:22da74813ccae32b2a857a4024f2ef38&#34;&gt;kintone の弱点を克服してみました&lt;/h2&gt;
+
+&lt;p&gt;私の登壇枠では、&lt;b&gt;「AWS で kintone の弱点を克服する」&lt;/b&gt;というタイトルで発表させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514/asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514/asaga.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone に蓄積されたデータを自社サイト等で公開する場合に問題となりそうな点を洗い出し、AWS を使って回避する方法をお話しさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;デモでは、とある不動産会社を例に、kintone で管理している物件データを自社サイトで公開するケースを取り上げさせて頂きました。&lt;/p&gt;
+
+&lt;div style=&#34;width: 65%&#34;&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b5447fe42f441fab8129f8c0b6df5f3&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;割りと AWS 比率高めの発表となりましたが ^^;、最後にまとめさせて頂いたように、AWS に限らず様々なサービスを組み合わせる事で kintone の弱みを克服して、利用範囲も広げる事ができますよ！という事をお伝えさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;神戸は毎回濃い話しが多いので、次回も期待大ですね(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;今後のお知らせ:22da74813ccae32b2a857a4024f2ef38&#34;&gt;今後のお知らせ&lt;/h2&gt;
+
+&lt;p&gt;2016/5/14に &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34;&gt;kintone Café 大阪 Vol.7&lt;/a&gt;が開催されます。（残念ながらキャンセル待ちとなっております）&lt;/p&gt;
+
+&lt;p&gt;Vol.8も計画中（夏頃？）なので、こういう事やって！というアイデアがあれば、是非お寄せ下さい。&lt;/p&gt;
+
+&lt;p&gt;運営に関わってみたい方もお待ちしてます！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>システム間連携ジョブをサーバレスで実行する「Talend on AWS Lambda」のススメ</title>
@@ -1375,94 +1431,6 @@ if(mwdate.length &amp;gt; 0){
 &lt;p&gt;今後もいろいろなイベントに出展する予定がありますので、皆さん是非ブースに来て下さいね！&lt;/p&gt;
 
 &lt;p&gt;お待ちしています(๑•̀ㅂ•́)و✧&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Connector for talend / tKintoneOutput</title>
-      <link>https://www.r3it.com/community/oss/tkintoneoutput/</link>
-      <pubDate>Tue, 22 Mar 2016 11:24:36 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/oss/tkintoneoutput/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kc4tのTalendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;インストール方法はこちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;機能詳細:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;機能詳細&lt;/h2&gt;
-
-&lt;h3 id=&#34;rdbmsからkintoneへレコードの書き込み:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;RDBMSからkintoneへレコードの書き込み&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;スキーマのカラム名をkintoneのフィールドコードとみなし、kintoneにレコードを書き込みます&lt;/li&gt;
-&lt;li&gt;CSVファイルなど、スキーマをサポートするデータソースから、1行毎upsertを実行します&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;設定パラメータ:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;設定パラメータ&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-config.png&#34; alt=&#34;設定&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;setting-for-kintone:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;Setting for kintone&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;API token&lt;/td&gt;
-&lt;td&gt;接続するkintoneアプリの API token。レコード閲覧・追加・編集権限が必要です。&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Sub domain&lt;/td&gt;
-&lt;td&gt;接続するアプリのサブドメイン&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Guest SpaceId&lt;/td&gt;
-&lt;td&gt;もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;kintone AppId&lt;/td&gt;
-&lt;td&gt;アプリID（数値で指定します）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;upsert queries use this Field Code&lt;/td&gt;
-&lt;td&gt;kintoneアプリ上の「プライマリキー」として扱うフィールドコードを指定します。kc4tはこのフィールドコードを使って upsert 処理を行います。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;スキーマとキントーンのフィールドのマッピング方法how-to-mapping-schema-to-kintone-s-fields:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;スキーマとキントーンのフィールドのマッピング方法How to mapping schema to kintone&amp;rsquo;s fields&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-metadata.png&#34; alt=&#34;スキーマ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;スキーマのカラムは、キントーンのフィールドと名前でひも付けされます。もしスキーマ側に存在するカラムがキントーン側になかった場合、そのカラムは単純に無視されます（エラーにもなりません）。&lt;/p&gt;
-
-&lt;h2 id=&#34;コンポーネントの接続方法:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;コンポーネントの接続方法&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-row.png&#34; alt=&#34;ジョブ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;tKintoneOutput はRowを受け取ります。
-上の例は tFileInputDelimited からRowを受け取っている例です。&lt;/p&gt;
-
-&lt;h2 id=&#34;実行結果:77196dc5e6ef60ce89b2813d43b76c69&#34;&gt;実行結果&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-dump.png&#34; alt=&#34;dump&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;処理した全てのフィールドは標準出力にダンプされます。もしエラーが発生した場合、エラーを標準出力に吐いてプログラムは停止します。&lt;/p&gt;
-
-&lt;p&gt;（この挙動は、エラーステータスを返して正常終了するように修正される予定です。）&lt;/p&gt;
 </description>
     </item>
     
