@@ -5,39 +5,8 @@
     <link>https://www.r3it.com/tags/aws/</link>
     <description>Recent content in Aws on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 19 Apr 2016 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Apr 2016 15:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>執筆者Profile : 池上 緑</title>
-      <link>https://www.r3it.com/blog/author/ikegami/</link>
-      <pubDate>Tue, 19 Apr 2016 12:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/author/ikegami/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;エンジニアと思われないが正真正銘のエンジニア。肩書きはクラウドエンジニア。&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt;エバンジェリスト。クラウド使ったシステム開発やってます。インフラ（オンプレ/クラウド）、多少サーバーストレージ周りの知識も。コミュニティの運営したり（最近は女子会コミュニティの運営や立ち上げフォロー率が多め）勉強会やハッカソンでコスプレして参加したり。サービス開発するプロジェクトとかにも参加。業務外でも幅広く活動中。&lt;/p&gt;
-
-&lt;p&gt;もはや中の人が認知されないレベルになっているという説も。&lt;/p&gt;
-
-&lt;h2 id=&#34;コミュニティ活動:8be94feebe910eded9cd4fd0997ca245&#34;&gt;コミュニティ活動&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/JAWSUG.KGA&#34;&gt;JAWS-UG関西女子会&lt;/a&gt; 運営コアメンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café大阪/関西女子会&lt;/a&gt; 運営メンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.vmware-usergroup.jp/&#34;&gt;VMUG（VMwareユーザー会）&lt;/a&gt; 関西部会メンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター（ちょっとお休み中）&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;phpカンファレンス関西&lt;/a&gt; 運営スタッフ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>kintone Café 神戸 Vol.4 で kintone の弱点を克服してきました！</title>
@@ -1256,6 +1225,37 @@ Swapちゃんと確保してなかったら実運用危険。&lt;b&gt;&lt;font c
 &lt;p&gt;関西女子会は女子会用の会場を用意しますが、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;JAWS-UG大阪会場&lt;/a&gt;もありますよ！&lt;/p&gt;
 
 &lt;p&gt;何人の人が参加してくれるのか、今からすごく楽しみです+。:.ﾟ(๑＞◡╹๑)(๑╹◡＜๑):.｡+ﾟ&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>執筆者Profile : 池上 緑</title>
+      <link>https://www.r3it.com/blog/author/ikegami/</link>
+      <pubDate>Fri, 17 Jul 2015 19:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/author/ikegami/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;エンジニアと思われないが正真正銘のエンジニア。肩書きはクラウドエンジニア。&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt;エバンジェリスト。クラウド使ったシステム開発やってます。インフラ（オンプレ/クラウド）、多少サーバーストレージ周りの知識も。コミュニティの運営したり（最近は女子会コミュニティの運営や立ち上げフォロー率が多め）勉強会やハッカソンでコスプレして参加したり。サービス開発するプロジェクトとかにも参加。業務外でも幅広く活動中。&lt;/p&gt;
+
+&lt;p&gt;もはや中の人が認知されないレベルになっているという説も。&lt;/p&gt;
+
+&lt;h2 id=&#34;コミュニティ活動:8be94feebe910eded9cd4fd0997ca245&#34;&gt;コミュニティ活動&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/JAWSUG.KGA&#34;&gt;JAWS-UG関西女子会&lt;/a&gt; 運営コアメンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café大阪/関西女子会&lt;/a&gt; 運営メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vmware-usergroup.jp/&#34;&gt;VMUG（VMwareユーザー会）&lt;/a&gt; 関西部会メンバー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター（ちょっとお休み中）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;phpカンファレンス関西&lt;/a&gt; 運営スタッフ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
+&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

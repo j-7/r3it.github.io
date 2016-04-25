@@ -66,37 +66,6 @@
     </item>
     
     <item>
-      <title>執筆者Profile : 池上 緑</title>
-      <link>https://www.r3it.com/blog/author/ikegami/</link>
-      <pubDate>Tue, 19 Apr 2016 12:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/author/ikegami/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34; class=&#34;img-circle pull-left&#34; style=&#34;margin-right: 20px;&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;エンジニアと思われないが正真正銘のエンジニア。肩書きはクラウドエンジニア。&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt;エバンジェリスト。クラウド使ったシステム開発やってます。インフラ（オンプレ/クラウド）、多少サーバーストレージ周りの知識も。コミュニティの運営したり（最近は女子会コミュニティの運営や立ち上げフォロー率が多め）勉強会やハッカソンでコスプレして参加したり。サービス開発するプロジェクトとかにも参加。業務外でも幅広く活動中。&lt;/p&gt;
-
-&lt;p&gt;もはや中の人が認知されないレベルになっているという説も。&lt;/p&gt;
-
-&lt;h2 id=&#34;コミュニティ活動:8be94feebe910eded9cd4fd0997ca245&#34;&gt;コミュニティ活動&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/JAWSUG.KGA&#34;&gt;JAWS-UG関西女子会&lt;/a&gt; 運営コアメンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;kintone Café大阪/関西女子会&lt;/a&gt; 運営メンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.vmware-usergroup.jp/&#34;&gt;VMUG（VMwareユーザー会）&lt;/a&gt; 関西部会メンバー&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt; メンター（ちょっとお休み中）&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://conference.kphpug.jp/2015/&#34;&gt;phpカンファレンス関西&lt;/a&gt; 運営スタッフ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/p526CA&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/facebook.png&#34; alt=&#34;Facebook&#34; class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/p52_rocca&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/author/twitter.png&#34; alt=&#34;Twitter&#34;  class=&#34;pull-left&#34; style=&#34;margin-right: 10px;&#34;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>アールスリー、CYBOZU AWARD 2016 特別賞を受賞</title>
       <link>https://www.r3it.com/info/2016/cybozu-award/</link>
       <pubDate>Mon, 18 Apr 2016 19:00:06 +0900</pubDate>
@@ -1108,6 +1077,55 @@ if(mwdate.length &amp;gt; 0){
 &lt;p&gt;処理した全てのフィールドは標準出力にダンプされます。もしエラーが発生した場合、エラーを標準出力に吐いてプログラムは停止します。&lt;/p&gt;
 
 &lt;p&gt;（この挙動は、エラーステータスを返して正常終了するように修正される予定です。）&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone Connector for talend</title>
+      <link>https://www.r3it.com/community/oss/kc4t/</link>
+      <pubDate>Tue, 22 Mar 2016 11:23:36 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/community/oss/kc4t/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
+
+&lt;h2 id=&#34;talendコンポーネント:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;Talendコンポーネント&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../tkintoneinput/&#34;&gt;tKintoneInput&lt;/a&gt; | kintoneからJDBC接続可能なRDBMSへのレコードの読み込み&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../tkintoneoutput/&#34;&gt;tKintoneOutput&lt;/a&gt; | RDBMS等からkintoneへレコードの書き込み&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;必要な環境:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;必要な環境&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;kintone SDK for Java version 0.6以降 &lt;a href=&#34;https://github.com/kintone/java-sdk&#34;&gt;https://github.com/kintone/java-sdk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JDK 7以降&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ダウンロード:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;ダウンロード&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;https://github.com/r3it/kc4t&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;コンポーネントのインストール方法:6063a04525bca4bf0d1a86dbe5967d1b&#34;&gt;コンポーネントのインストール方法&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt;を起動します&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;カスタムコンポーネント&amp;rdquo; フォルダを設定します
+
+&lt;ul&gt;
+&lt;li&gt;例として&amp;rdquo;Custom Components&amp;rdquo;という名前のフォルダを、ハードディスクのどこかに作成します&lt;/li&gt;
+&lt;li&gt;Studioの設定画面で Window-&amp;gt; Preferences-&amp;gt; Talend-&amp;gt; Components と遷移します&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;User component folder&amp;rdquo; にいま作成した&amp;rdquo;Custom Components&amp;rdquo;フォルダを設定します&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput および tKintoneOutput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします&lt;/li&gt;
+&lt;li&gt;Component Designerパースペクティブで、それぞれのコンポーネントフォルダを右クリックして、「コンポーネントをパレットにプッシュ」を実行してください。&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
