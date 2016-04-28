@@ -5,8 +5,39 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Apr 2016 19:00:06 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 28 Apr 2016 09:27:05 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>クラウドコンピューティングEXPO2016に出展いたします</title>
+      <link>https://www.r3it.com/info/2016/cloud-computing-expo-2016/</link>
+      <pubDate>Thu, 28 Apr 2016 09:27:05 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/cloud-computing-expo-2016/</guid>
+      <description>
+
+&lt;p&gt;2016年5月11日〜13日に東京ビックサイトにて開催される「&lt;a href=&#34;http://www.cloud-japan.jp/&#34;&gt;クラウドコンピューティングEXPO春&lt;/a&gt;」に出展いたします。&lt;/p&gt;
+
+&lt;h2 id=&#34;クラウドコンピューティングexpoとは:cfa6c4d4975b294e83d37422befef783&#34;&gt;クラウドコンピューティングEXPOとは？&lt;/h2&gt;
+
+&lt;p&gt;クラウドコンピューティングEXPOは、クラウドコンピューティングに関する製品・サービスが一同に出展する専門展です。&lt;br /&gt;
+今回、弊社はサイボウズ様と共同でブース出展させていただきます。&lt;/p&gt;
+
+&lt;h2 id=&#34;出展内容:cfa6c4d4975b294e83d37422befef783&#34;&gt;出展内容&lt;/h2&gt;
+
+&lt;p&gt;弊社「ハイスピードSI」を中心としたkintone x AWS活用事例を出展いたします。&lt;br /&gt;
+またブースセミナーにおいても弊社金春より事例紹介を中心としたkintone x AWSの活用方法についてご紹介させていただきます。&lt;/p&gt;
+
+&lt;p&gt;ジャングルのような楽しい空間にてkintoneの活用そして弊社アールスリーインスティテュートがどのようにみなさんに貢献できるかを知って下さい。&lt;/p&gt;
+
+&lt;h2 id=&#34;展示会概要:cfa6c4d4975b294e83d37422befef783&#34;&gt;展示会概要&lt;/h2&gt;
+
+&lt;p&gt;会場：東京ビックサイト&lt;br /&gt;
+会期：2016年5月11日(水)〜5月13日(金) 10:00〜18:00(最終日のみ17:00)&lt;br /&gt;
+出展ブース：&lt;a href=&#34;http://www.japan-it.jp/haru/doc/floorplan16/&#34;&gt;東ホール 55-44&lt;/a&gt;&lt;br /&gt;
+招待券お申し込みは&lt;a href=&#34;http://www.cloud-japan.jp/haru/inv/&#34;&gt;こちら&lt;/a&gt;から&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、CYBOZU AWARD 2016 特別賞を受賞</title>
@@ -1085,60 +1116,6 @@ Promiseオブジェクトにはthen()というメソッドがあり、このthen
 &lt;h1 id=&#34;次回以降の予告:c1ad260bf9e57cb45cdea62c34cb1dad&#34;&gt;次回以降の予告&lt;/h1&gt;
 
 &lt;p&gt;次回以降は、より複雑な処理をPromiseでどう記述すばいいかと掲載していきます。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>東北IT物産展2015でkintoneのハンズオンを実施しました</title>
-      <link>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</link>
-      <pubDate>Wed, 02 Sep 2015 16:51:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20150829_tohoku_it_bussanten/</guid>
-      <description>
-
-&lt;h1 id=&#34;東北it物産展2015にてkintoneハンズオンを実施しました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;東北IT物産展2015にてkintoneハンズオンを実施しました&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北IT物産展&lt;/a&gt;は、昨年JAWS-UGの全国イベントJAWS Festaとして仙台で実施されたイベントの副題として始まったイベントです。&lt;/p&gt;
-
-&lt;p&gt;今年は、JAWS-UGの枠を超えて東北のITを盛り上げようということで、東北IT物産展というメインタイトルで実施されました。&lt;/p&gt;
-
-&lt;p&gt;青森に東北内外から100名の参加者が集まり盛大に実施されました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten2.jpg&#34; alt=&#34;物産展入り口&#34; /&gt;
-&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/20150829/bussanten1.jpg&#34; alt=&#34;物産展Tシャツ&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;kintoneハンズオン:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;kintoneハンズオン&lt;/h1&gt;
-
-&lt;p&gt;この東北IT物産展の1セッションとして、kintoneの勉強会コミュニティであるkintone Caféとしてkintoneのハンズオンを実施してきました。
-参加者のほとんどがkintoneを触ったことがないという中で、経費精算アプリを作るというハンズオンにてkintoneの便利さを体感していただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/au0Tp9I8VYXNnZ&#34; width=&#34;425&#34; height=&#34;355&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/tkonparu/20150829-tohoku-itbussanten&#34; title=&#34;20150829 tohoku it_bussanten&#34; target=&#34;_blank&#34;&gt;20150829 tohoku it_bussanten&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/tkonparu&#34; target=&#34;_blank&#34;&gt;Toshiyuki Konparu&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;参加者のみなさんほとんど詰まることもなくハンズオンはスムーズに進みました。
-このハンズオンでお伝えしたかったのは以下の点です。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneは驚くほど簡単にフォームとデータベースを作成することができる&lt;/li&gt;
-&lt;li&gt;ミスがあったとしてもすぐに修正することができる&lt;/li&gt;
-&lt;li&gt;実際に動くものを見るとどんどんやりたいことが生まれ、またそれをすぐに実現できること&lt;/li&gt;
-&lt;li&gt;簡単なだけでなく企業で必要とされるセキュリティなども確保できること&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;ltでもお話してきました:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;LTでもお話してきました&lt;/h1&gt;
-
-&lt;p&gt;懇親会で実施されたLT（Lightning Talk）でも発表をさせていただきました。
-LTでは、kintoneの開発をサポートする&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku&lt;/a&gt;を紹介させていただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34; alt=&#34;gusuku&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;なぜ、gusukuが必要なのか、ないと何が起きるのか、どうしてgusukuという名前なのかという内容を5分という短い時間でしたがお伝えできたのではないかと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;来年は秋田で開催です:bc4b8dfa71d6fa32b9a3e5fd4bd6d3eb&#34;&gt;来年は秋田で開催です&lt;/h1&gt;
-
-&lt;p&gt;運営スタッフのみなさん、準備作業からとても大変だったと思いますが本当のお疲れ様でした。すばらしいイベントでした。
-懇親会の場で来年は秋田で開催されることが決定されましたので、今から楽しみです。&lt;/p&gt;
-
-&lt;p&gt;東北在住でない方も、他の地域の状況を見知ることはとても勉強になりますので来年はぜひご参加ください。&lt;/p&gt;
 </description>
     </item>
     
