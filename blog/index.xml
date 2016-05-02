@@ -5,8 +5,120 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Apr 2016 12:00:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 May 2016 14:00:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JAWS-UG沖縄 Cloud on the BEACH 2016 参加レポート</title>
+      <link>https://www.r3it.com/blog/aws/cloud-on-the-beach-2016/</link>
+      <pubDate>Mon, 02 May 2016 14:00:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/cloud-on-the-beach-2016/</guid>
+      <description>
+
+&lt;p&gt;ゴールデンウィーク中日の沖縄よりこんにちは、西島です。今年もこの季節がやってまいりました、JAWS-UG沖縄のCloud on the BEACH 2016の様子をお届けします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://togetter.com/li/968960&#34;&gt;Twitterタイムラインのまとめ&lt;/a&gt;はこちらです。&lt;/p&gt;
+
+&lt;p&gt;※写真提供はGW帰省中のJAWS-UG沖縄公式カメラマン 栄野川さん(&lt;a href=&#34;https://twitter.com/enkw_&#34;&gt;@enkw_&lt;/a&gt;)と、スマホ写真は西島です。&lt;/p&gt;
+
+&lt;h2 id=&#34;cloud-on-the-beach-とは:754e5ed90ba9bdeecbaa33cbacaf1503&#34;&gt;Cloud on the BEACH とは？&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13131059_1000123186737799_879633434918952324_o.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13131059_1000123186737799_879633434918952324_o.jpg&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2012年の初回からはや5回目になります。毎年ゴールデンウィーク前に開催されている、JAWS-UG沖縄主催の最大のイベントでありお祭りです。朝から勉強会を開き、夕方からはビーチパーティをしよう、というのが企画の趣旨です。&lt;/p&gt;
+
+&lt;p&gt;GWに絡めた開催時期というのは、県外からのゲストを呼びやすい、そしてご家族で来ていただいて、そのまま沖縄を満喫して欲しい！というコアメンバーそして協力して下さる皆様の願いが込められております。ですが、この時期は毎年梅雨が始まるかどうかの瀬戸際なのです。毎年の神事である晴天祈願をしているのですが、いつもイベント直前の一週間は胃が痛い思いをしております・・・。&lt;/p&gt;
+
+&lt;p&gt;ところが今年は、このように素晴らしい天気に恵まれました！日差しは暑く夏っぽく、日陰に入れば涼しく、という絶好のビーチパーティ日和となりました。お楽しみ画像は後半に・・・。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13119992_1000127716737346_6475313446932423562_o.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13119992_1000127716737346_6475313446932423562_o.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;トラック概要:754e5ed90ba9bdeecbaa33cbacaf1503&#34;&gt;トラック概要&lt;/h2&gt;
+
+&lt;p&gt;今年も昨年同様未経験者向けと経験者向けのダブルトラックで開催となりました。&lt;a href=&#34;https://jaws-ug-okinawa.doorkeeper.jp/events/41070&#34;&gt;未経験者向けトラック&lt;/a&gt;では主に「クラウドとはなんぞや？」というところからの座学セッションが並び、&lt;a href=&#34;https://jaws-ug-okinawa.doorkeeper.jp/events/41071&#34;&gt;経験者向けトラック&lt;/a&gt;では突っ込んだ内容のセッションや、実際に手を動かすハンズオントラックが並びます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13123017_1000123393404445_7158176296334521756_o.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13123017_1000123393404445_7158176296334521756_o.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今年も西島は未経験者向けトラックの方をファシリテーションしていましたので、そちらの様子を主に写真と資料でご紹介します！&lt;/p&gt;
+
+&lt;h1 id=&#34;初心者-未経験者向けゼネラルトラック:754e5ed90ba9bdeecbaa33cbacaf1503&#34;&gt;初心者・未経験者向けゼネラルトラック&lt;/h1&gt;
+
+&lt;p&gt;オープニングで軽くアンケートを取ったところ、半分程度が初めてのJAWS-UGへの参加者！そして学生さんもかなり多くいらっしゃったのが印象的でした。&lt;/p&gt;
+
+&lt;p&gt;ご参加いただきありがとうございます！今日がクラウドジャーニーの始まりです！！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_103815.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_103815.jpg&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;初めてのクラウド-awsのご紹介-と-itインフラを進化させるクラウドジャーニー:754e5ed90ba9bdeecbaa33cbacaf1503&#34;&gt;「初めてのクラウド　AWSのご紹介」と「ITインフラを進化させるクラウドジャーニー」&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13087008_1000125200070931_2460633644351517539_o.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13087008_1000125200070931_2460633644351517539_o.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;朝イチと午後のセッションはAWS小島さんより「初めてのクラウド　AWSのご紹介」と「ITインフラを進化させるクラウドジャーニー」の2本立てです。&lt;/p&gt;
+
+&lt;p&gt;AWSの成り立ちが根本的に他のクラウドベンダーと異なること、そしてクラウドジャーニーの長い旅の途上にいるIT業界の事例を多数ご紹介いただきました。特にこのクラウドジャーニーの資料は、社内の抵抗勢力を説得できる非常に有用なマテリアルとなると思いますので、ぜひ皆様にご活用いただけると嬉しいです！&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/GE3lTqzNEXeOYX&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/hide69oz/cloud-on-thebeachaws&#34; title=&#34;Cloud on the_beach_aws入門_公開&#34; target=&#34;_blank&#34;&gt;Cloud on the_beach_aws入門_公開&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/hide69oz&#34; target=&#34;_blank&#34;&gt;Hideki Ojima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/qCeHCuQ05JUG9j&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/hide69oz/cloud-on-thebeachcloudjourney&#34; title=&#34;Cloud on the_beach_cloud_journey_公開&#34; target=&#34;_blank&#34;&gt;Cloud on the_beach_cloud_journey_公開&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/hide69oz&#34; target=&#34;_blank&#34;&gt;Hideki Ojima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;コスプレエンジニアがゆるゆるaws全サービス紹介してみる:754e5ed90ba9bdeecbaa33cbacaf1503&#34;&gt;コスプレエンジニアがゆるゆるAWS全サービス紹介してみる&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_135924.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_135924.jpg&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;続いて弊社の池上がAWSの全サービス紹介にチャレンジしました。増え続けるAWSのサービスを1セッションで全て説明するというこのJAWS-UG沖縄恒例の企画、既に&lt;a href=&#34;http://www.slideshare.net/okeee0315/20140426-cloud-onthebeach2014&#34;&gt;一昨年のサーバーワークス桶谷さんに無茶振りした段階で&lt;/a&gt;かなり時間的にキツキツなところを、自己紹介で時間を使う池上で大丈夫なのか・・・？と一抹の不安はありましたが、やはり全く時間が足りていませんでした（涙）。&lt;/p&gt;
+
+&lt;p&gt;「こういうものあるんだ〜」というインデックスとして聞いていただいて、詳しくは資料、そしてAWS公式サイトをご覧いただけますと幸いです。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/mUwCXs1ZKGmZmZ&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/dolly6ca/20160429-jawsug-cloud-on-the-beach-2016-aws&#34; title=&#34;20160429 JAWS-UG沖縄 Cloud on the BEACH 2016 AWS全サービス紹介&#34; target=&#34;_blank&#34;&gt;20160429 JAWS-UG沖縄 Cloud on the BEACH 2016 AWS全サービス紹介&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/dolly6ca&#34; target=&#34;_blank&#34;&gt;Midori Ikegami&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;実際aws入れてみたお話しをします:754e5ed90ba9bdeecbaa33cbacaf1503&#34;&gt;実際AWS入れてみたお話しをします&lt;/h2&gt;
+
+&lt;p&gt;最後のセッションは、琉球インタラクティブ株式会社の照屋さんより「実際AWS入れてみたお話しをします」です。&lt;/p&gt;
+
+&lt;p&gt;マイクを使わず漢らしいトークで、実際にAWSを入れてみたらこうなったという話を、事例を交えてご紹介いただきました。非常に身近な事例ばかりで、ゼネラルトラックの皆さんにも参考になったのではないかと思います！&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/M0hXBzxdKVDaJs&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/naototeruya/cloud-on-the-beach-2016-aws&#34; title=&#34;Cloud on the BEACH 2016 - 会社にAWSを導入した話&#34; target=&#34;_blank&#34;&gt;Cloud on the BEACH 2016 - 会社にAWSを導入した話&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/naototeruya&#34; target=&#34;_blank&#34;&gt;Naoto Teruya&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;経験者向けトラックの様子も少しだけ:754e5ed90ba9bdeecbaa33cbacaf1503&#34;&gt;経験者向けトラックの様子も少しだけ&lt;/h1&gt;
+
+&lt;p&gt;全く様子を見る時間がなかったので、写真を少しだけ貼っておきます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13131741_1000126800070771_8263721251079164598_o.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13131741_1000126800070771_8263721251079164598_o.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13147462_1000127436737374_6185517923963275111_o.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13147462_1000127436737374_6185517923963275111_o.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;座学セッションはカメラマンに登壇に大活躍の栄野川さんの「AWS構築のハマりポイントを詳しく解説」や、株式会社レキサス 与儀さんの「AWS WAFを用いたセキュリティ対策」、同じく株式会社レキサス 鈴木さんの「ネットゲーム開発者がサーバレスしてみた」などなど、流石にコアな経験者向けのコンテンツが熱く展開された模様です。&lt;/p&gt;
+
+&lt;p&gt;午後からは   「大革命！！kintoneとAWSで超ファストシステムを作ろう」というタイトルでサイボウズ株式会社の後迫さん・北川さん・kintone エバンジェリスト村濱さんのハンズオンセッション、モビンギの堀内さんよりモビンギハンズオンがありました！&lt;/p&gt;
+
+&lt;p&gt;ハンズオンは、みなさん「結構ついていくのが大変だったけど、面白かった！」と満足していたようですよ！&lt;/p&gt;
+
+&lt;p&gt;こちらに貼りきれなかった資料や写真は、&lt;a href=&#34;https://www.facebook.com/groups/jawsug.okinawa/&#34;&gt;JAWS-UG沖縄のFacebookグループ&lt;/a&gt;にて共有していますので、当日参加された方はぜひご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;そしてビーチパーティへ:754e5ed90ba9bdeecbaa33cbacaf1503&#34;&gt;そしてビーチパーティへ！&lt;/h1&gt;
+
+&lt;p&gt;ガッツリ勉強したあとは、ビーチパーティ開始です！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13119790_1000127736737344_7878130533110070648_o.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13119790_1000127736737344_7878130533110070648_o.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_172620.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_172620.jpg&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13101122_957175421069060_694194822_n.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13101122_957175421069060_694194822_n.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13064460_1000127996737318_4444505220966588983_o.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/13064460_1000127996737318_4444505220966588983_o.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;過去最大の参加者の皆様が、社会人・学生・県内・県外の人々が入り混じって、様々な話題で参加者皆様が盛り上がっていましたよ！&lt;/p&gt;
+
+&lt;p&gt;また、毎年鉄板奉行をお願いしている福嶺さんとサポートしてくれる上原さん、本当にありがとうございます！「参加者はビーチに行って飲んで食べるだけ」が実現できるのは、彼らのご協力があるからこそです。来年はもう少しお手伝い支援部隊が増やさないと、ですね。。。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;そして沖縄の熱い夜はなかなか終わりませんでした・・・。クラウドジャーニーはまさに始まったばかりなのです。Still Day One!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_201525.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_201525.jpg&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>gusukuでhappy♪東京で初となるgusuku自社セミナーを開催しました！</title>
@@ -1347,50 +1459,6 @@ kintone を使った SI ビジネスは、これから伸びていく可能性�
 &lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;gusuku&lt;/font&gt;&lt;/b&gt;知りたいよ！って人が（もし）いらっしゃいましたらお話させて頂きますので是非是非勉強会等にも呼んでくださいねー！（｡╹ω╹｡）&lt;/p&gt;
 
 &lt;p&gt;引き続き宜しくお願いしまーす＼( &amp;lsquo;ω&amp;rsquo;)／&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー ビアバッシュ開催のお知らせ</title>
-      <link>https://www.r3it.com/blog/etc/20160204_beerbash-announce/</link>
-      <pubDate>Thu, 04 Feb 2016 10:46:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/20160204_beerbash-announce/</guid>
-      <description>
-
-&lt;p&gt;プロ野球のキャンプが始まったら冬も終わりだ、と認識している沖縄からこんにちは、西島です。&lt;/p&gt;
-
-&lt;p&gt;もう来週に迫りました。2月12日金曜日、&lt;strong&gt;美味しいご飯を食べながら・ビールを飲みながら&lt;/strong&gt;、弊社の会社説明会＆弊社社員との交流会を開催します。&lt;/p&gt;
-
-&lt;h1 id=&#34;アールスリーが開催するビアバッシュとは:d8e978e95323c0cb1d42ce62b3c08bde&#34;&gt;アールスリーが開催するビアバッシュとは？&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/recruitment/beerbash.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;ビアバッシュとは、ひとことで言うとビールを飲んで楽しむパーティのことで、シリコンバレーあたりの会社で良くやってるように、金曜の夕方に会社でピザ＆ビール（もちろんコーラも可！）でワイワイやりながら歓談する、という感じのものです。&lt;/p&gt;
-
-&lt;p&gt;弊社アールスリーでもこのスタイルに乗っ取り、ビールを飲みながら、社外のエンジニアの人々とクラウドや技術ネタを肴に、もっと仲良くなろうぜ！という趣旨のイベントを企画しました。それがアールスリービアバッシュです。&lt;/p&gt;
-
-&lt;h1 id=&#34;どんなイベントなの:d8e978e95323c0cb1d42ce62b3c08bde&#34;&gt;どんなイベントなの？&lt;/h1&gt;
-
-&lt;p&gt;この &lt;a href=&#34;https://r3it.doorkeeper.jp/events/37894&#34;&gt;アールスリー ビアバッシュ commit:1 in 沖縄&lt;/a&gt; が初めての試みなので、どうなるか全く分かりません！&lt;/p&gt;
-
-&lt;p&gt;今回の会場では千円でドリンク飲み放題、料理付きという、それだけでもとてもお得なイベントとなっていますね(^^)&lt;/p&gt;
-
-&lt;p&gt;イメージしているところでは、弊社の会社紹介と社員紹介をさせていただいて、あとはご自由に歓談〜という流れになるのかと思います。プロジェクタは有るのでライトニングトークするもよし、DJブースも有るのでDJするもよし、クラウドネタで盛り上がってデモするでもよし、何でもありのエンジニアの天国を目指します！&lt;/p&gt;
-
-&lt;p&gt;どことなく転職系のイベントを想像されるとちょっと困るのですが、業界のことを知りたい学生さんや、同じ業界の方なら最近の技術ネタのことなどで盛り上がれると良いと思っております。&lt;/p&gt;
-
-&lt;p&gt;リモートワークに興味があるという方は、ぜひ西島にお声がけください。弊社での、またはいままでの経験も踏まえて！何でもお答えいたします(^^)&lt;/p&gt;
-
-&lt;h1 id=&#34;社員はどんな人が来るの:d8e978e95323c0cb1d42ce62b3c08bde&#34;&gt;社員はどんな人が来るの？&lt;/h1&gt;
-
-&lt;p&gt;今回は、大阪より&lt;a href=&#34;https://www.r3it.com/blog/author/konparu/&#34;&gt;金春&lt;/a&gt;と、西島がお迎えいたします。また、大阪オフィスからハングアウトで参加を希望している社員も・・・これは当日のお楽しみです。&lt;/p&gt;
-
-&lt;p&gt;特に金春は、なかなか沖縄では会える機会が少ないと思いますので、この機会に&lt;a href=&#34;https://www.youtube.com/watch?v=avNKOt58DI4&amp;amp;list=PL2VFGsJx5cRkX5rV2iO1rfRJYOcFpdxps&amp;amp;index=2&#34;&gt;あの巨大スクリーンに登壇した時の話&lt;/a&gt;など、あれやこれや色々な質問をぶつけてみるといいかと思います！&lt;/p&gt;
-
-&lt;h1 id=&#34;イベント詳細-お申込はこちらから-https-r3it-doorkeeper-jp-events-37894:d8e978e95323c0cb1d42ce62b3c08bde&#34;&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/37894&#34;&gt;イベント詳細・お申込はこちらから&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;皆様とお会いできること、心よりお待ちしております！&lt;/p&gt;
 </description>
     </item>
     
