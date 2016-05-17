@@ -122,6 +122,20 @@ a.list-group-item.active,[class*='-info'] {
     padding-top: 100px;
 }
 
+#section-case {
+    background:center no-repeat url('/images/page-header_bg.jpg');
+    background-size: cover;
+    color: white;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    min-height:calc(30% - 1px);
+    padding-top: 100px;
+
+    border-top: solid gray 3px;
+    border-bottom: solid black 1px;
+}
+
 #section1 {
     margin-top: 0px;
 	background-color: white;
@@ -291,6 +305,10 @@ a.list-group-item.active,[class*='-info'] {
   line-height: 200%;
   font-size: 15px;
   color: #444;
+}
+
+.reviews-icon {
+    color: orange;
 }
 
 #blog-article {

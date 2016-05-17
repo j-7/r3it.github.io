@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    
+
+    <link rel="canonical" href="https://www.r3it.com/case/mcg/">
+
+    
+    <title>マッチングシステム開発 事例紹介 | アールスリーインスティテュート</title>
+    <meta name="title" content="マッチングシステム開発 事例紹介 | アールスリーインスティテュート">
+    <meta name="description" content="紙ベースで行われていたマッチング業務を電子化。アールスリーの業務フローを短時間で調査・分析し、構造化できる能力をフル活用。">
+    <meta property="og:title" content="マッチングシステム開発 事例紹介 | アールスリーインスティテュート"/>
+    <meta property="og:description" content="紙ベースで行われていたマッチング業務を電子化。アールスリーの業務フローを短時間で調査・分析し、構造化できる能力をフル活用。" />
+
+  
+
+    <meta name="keywords" content="vb.net, 事例, 業務フロー分析, ">
+
+    <meta property="fb:app_id" content="478756785605950"/>
+    <meta property="og:type" content="article"/>
+
+    <meta property="og:url" content="https://www.r3it.com/case/mcg/" />
+    
+    <meta property="og:image" content="https://www.r3it.com/images/r3_logo_wide_og.png"/>
+    
+    <meta property="og:site_name" content="アールスリーインスティテュート">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <link rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-24363556-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+
+<header class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><img src="/images/r3logo_nav.png"></a>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="navbar-collapse collapse" id="bs-navbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/info/">お知らせ</a></li>
+        <li><a href="/case/">事例紹介</a></li>
+        <li><a href="/solutions/">ハイスピードSI</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="/blog/">ブログ</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/#inquiry"><span class="envelope-style glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="container-fluid" id="breadcrumb-section">
+  <ol class="breadcrumb">
+    <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+    <li><a href="/case/">お客様事例紹介</a></li>
+    <li class="active">マッチングシステム開発 事例紹介</li>
+  </ol>
+</section>
+
+<section class="container-fluid" id="blog-article">
+  <div class="row">
+  	<div class="col-md-2">
+	</div>
+  	<div class="col-md-8">
+	  <h1>マッチングシステム開発 事例紹介</h1>
+  	  <h5>事例公開日 2015-04-02</h5>
+      
+		
+		
+
+<h2 id="事例-マッチングシステム開発:d56871e36e7ddd2c2063df177d03bf89">事例：マッチングシステム開発</h2>
+
+<h3 id="背景:d56871e36e7ddd2c2063df177d03bf89">背景</h3>
+
+<ul>
+<li>開催講座（100講座×30教室）と講師（400名）とのマッチングを、従来は紙ベースで行っていたため、全関係者に大変な労力がかかっていた</li>
+<li>しかも、30教室が講師の奪い合いになるため、何回かに分けて全員が集まりドラフト式に決めており、一大イベントであった。かつ本業務を行うためのノウハウも相当要するものになっていた</li>
+</ul>
+
+<p>この業務を電子的に行うことを目指したもの</p>
+
+<p><img src="/images/solutions/si/casestudy2.jpg" alt="事例：マッチングシステム開発" class="img-thumbnail center-block img-responsive"></p>
+
+<h3 id="進め方:d56871e36e7ddd2c2063df177d03bf89">進め方</h3>
+
+<ul>
+<li>講師の希望シフトのデータ化が最重要ポイントだと判断し、現状の手書きの紙の内容を数百枚分析した。その結果として、フィットするデジタル化および使いやすいユーザインタフェースにこだわって設計し、STEP1として、希望シフトの登録および検索機能を実現</li>
+<li>STEP2として、ドラフトにおけるバランス良い判定の仕方（ロジック）をヒアリングによりフローチャート的に見える化し、今まで曖昧だった判定
+の手順を明確にしたことにより、システム化および効率良い運用に成功</li>
+</ul>
+
+<p>本システム化により、関係者の手間を大幅に削減しただけでなく、長年、全員が集っていたドラフトすら開催不要になった</p>
+
+<h3 id="r3の特徴が活かされた点:d56871e36e7ddd2c2063df177d03bf89">R3の特徴が活かされた点</h3>
+
+<ul>
+<li>現状業務を短時間で調査・分析し、構造化できる能力</li>
+<li>使い勝手を考えて、システムが扱うべき部分と、Excelや運用で対応すべき部分との切り分けが出来る</li>
+<li>使いやすいUI設計のノウハウが多数あること</li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid" id="imfooter1">
+  <h1 class="text-center v-center">
+    問題解決のご相談、<br>
+    お問い合わせはこちら。</h1>
+    <div class="row">
+    	<div class="col-sm-10 col-sm-offset-1 text-center">
+          <a class="btn btn-primary btn-lg btn-block" href="/#inquiry">Tel : 06-6271-3663 or お問い合わせフォームから</a>
+
+          <a href="/#inquiry"><img style="margin-top: 15px;" class="img-thumbnail" src="/images/im/2265196_s.jpg"></a>
+        </div>
+   </div>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">    
+      <div class="col-xs-12 col-sm-12 col-md-6 column">
+        <p>アールスリーインスティテュート  / Mail : <a href="mailto:info@r3it.com">info@r3it.com</a><br />
+        大阪本社<br />
+        Tel : 06-6271-3663 / Fax : 06-6123-7289<br />
+		  〒541-0053<br>
+          大阪府大阪市中央区本町2-3-4-6F</p>
+        <hr noshade>
+        <p>東京支社<br />
+          Tel : 03-6869-6891 / Fax : 03-6869-6892<br>
+          〒108-0023<br>
+          東京都港区芝浦三丁目14番19号 大成企業ビル6階</p>
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/AWS_Logo_Consulting_Partner_DARK.png"><br />
+		AWS Partner Network (APN) <br>コンサルティングパートナー
+      </div>
+      <div class="col-xs-6 col-md-3 column">
+        <img style="max-width:100%" src="/images/cybozu-consulting-si.png"><br />
+		サイボウズ<br> オフィシャルパートナー
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; padding: 20px">&copy; R3 institute All Rights Reserved.</div>
+</footer>
+
+
+<script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

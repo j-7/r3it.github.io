@@ -980,66 +980,7 @@
       <guid>https://www.r3it.com/solutions/si/casestudy/</guid>
       <description>
 
-&lt;h2 id=&#34;事例-生産管理システムのリプレース:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;事例：生産管理システムのリプレース&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/casestudy1.jpg&#34; alt=&#34;事例：生産管理システムのリプレース&#34; class=&#34;img-thumbnail pull-right img-responsive&#34;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;背景:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;背景&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;販売系のシステムと生産／資材系のシステムとが分断され、無駄な手作業とデータ間の矛盾が発生、リアルタイムなデータが見えなかった&lt;/li&gt;
-&lt;li&gt;それぞれAccessで構築されており、全員が使えないことも大きな課題&lt;/li&gt;
-&lt;li&gt;既存システムは社内担当者が構築したものであるが、すでに担当者は不在で、ドキュメントもなく、ソースコードは非常に複雑なものになっていた&lt;/li&gt;
-&lt;li&gt;開発にかけられる時間は4～5ヵ月程度しかない状況&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;進め方:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;進め方&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;全社で使えるVB.NETのクライアントサーバ型システムを構築&lt;/li&gt;
-&lt;li&gt;既存の画面などから仮説も含めて、現在の仕様を大枠で確認するとともに、あるべき仮システムを即座に構築。現場にはそれを動かしてもらって現状と違う点や要望があれば、そこから修正する方法をとった&lt;/li&gt;
-&lt;li&gt;今までの原価計算方式には課題もあったので、それを解決する新しい原価計算方式も提案し、実装した。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;r3の特徴が活かされた点:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;R3の特徴が活かされた点&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;断片的な情報から仮説的に仕様を作っていけること&lt;/li&gt;
-&lt;li&gt;ウォーターフォール型の開発でないこと&lt;/li&gt;
-&lt;li&gt;お客様業務であってもあるべき姿を提案できること&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;事例-マッチングシステム開発:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;事例：マッチングシステム開発&lt;/h2&gt;
-
-&lt;h3 id=&#34;背景-1:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;背景&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;開催講座（100講座×30教室）と講師（400名）とのマッチングを、従来は紙ベースで行っていたため、全関係者に大変な労力がかかっていた&lt;/li&gt;
-&lt;li&gt;しかも、30教室が講師の奪い合いになるため、何回かに分けて全員が集まりドラフト式に決めており、一大イベントであった。かつ本業務を行うためのノウハウも相当要するものになっていた&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;この業務を電子的に行うことを目指したもの&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/si/casestudy2.jpg&#34; alt=&#34;事例：マッチングシステム開発&#34; class=&#34;img-thumbnail center-block img-responsive&#34;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;進め方-1:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;進め方&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;講師の希望シフトのデータ化が最重要ポイントだと判断し、現状の手書きの紙の内容を数百枚分析した。その結果として、フィットするデジタル化および使いやすいユーザインタフェースにこだわって設計し、STEP1として、希望シフトの登録および検索機能を実現&lt;/li&gt;
-&lt;li&gt;STEP2として、ドラフトにおけるバランス良い判定の仕方（ロジック）をヒアリングによりフローチャート的に見える化し、今まで曖昧だった判定の手順を明確にしたことにより、システム化および効率良い運用に成功&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;本システム化により、関係者の手間を大幅に削減しただけでなく、長年、全員が集っていたドラフトすら開催不要になった&lt;/p&gt;
-
-&lt;h3 id=&#34;r3の特徴が活かされた点-1:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;R3の特徴が活かされた点&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;現状業務を短時間で調査・分析し、構造化できる能力&lt;/li&gt;
-&lt;li&gt;使い勝手を考えて、システムが扱うべき部分と、Excelや運用で対応すべき部分との切り分けが出来る&lt;/li&gt;
-&lt;li&gt;使いやすいUI設計のノウハウが多数あること&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;お客様事例紹介にてより詳しくご紹介しております-case:3fc9fb3ad1722d6d342ad3aab0174689&#34;&gt;&lt;a href=&#34;https://www.r3it.com/case/&#34;&gt;お客様事例紹介にてより詳しくご紹介しております&lt;/a&gt;&lt;/h2&gt;
 
 &lt;hr /&gt;
 
@@ -1266,19 +1207,7 @@
 
 &lt;p&gt;システム開発が目的ではなく、問題解決のアプローチから、検討、構築、運用までいたします。&lt;/p&gt;
 
-&lt;h2 id=&#34;システム開発事例-詳細はこちら-solutions-si-casestudy:0a8c7511ac565aafd01db24b115f1847&#34;&gt;システム開発事例 &lt;a href=&#34;https://www.r3it.com/solutions/si/casestudy/&#34;&gt;詳細はこちら&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;一部上場企業コミュニケーションシステム（100人月規模）&lt;/li&gt;
-&lt;li&gt;生産管理システムのスクラッチ開発&lt;/li&gt;
-&lt;li&gt;工程管理・予算管理システムのスクラッチ開発(SAPとの連携もあり)&lt;/li&gt;
-&lt;li&gt;Android端末による製造設備の制御システム&lt;/li&gt;
-&lt;li&gt;製造設備の制御システム、及び、生産実績管理システム&lt;/li&gt;
-&lt;li&gt;大規模CMSのスクラッチ開発（Yahooに掲載されても全くダウンしない構造）&lt;/li&gt;
-&lt;li&gt;トムス・エンタテインメント様 ani-me.jp のAWSインフラ構築＆管理画面開発&lt;/li&gt;
-&lt;li&gt;全国に1000店ある店舗のMac上で利用されるCGデザインシステム&lt;/li&gt;
-&lt;li&gt;一部上場企業のEC（通販）システム&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;システム開発事例はこちらにてご紹介しております-case:0a8c7511ac565aafd01db24b115f1847&#34;&gt;&lt;a href=&#34;https://www.r3it.com/case/&#34;&gt;システム開発事例はこちらにてご紹介しております&lt;/a&gt;&lt;/h2&gt;
 
 &lt;h1 id=&#34;ハイスピードsiによる各サービス:0a8c7511ac565aafd01db24b115f1847&#34;&gt;ハイスピードSIによる各サービス&lt;/h1&gt;
 
