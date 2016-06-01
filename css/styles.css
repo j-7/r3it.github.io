@@ -122,6 +122,12 @@ a.list-group-item.active,[class*='-info'] {
     padding-top: 100px;
 }
 
+#section-event {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
 .case-topimage {
     border: 2px solid orange;
 }
