@@ -5,8 +5,44 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Apr 2016 09:27:05 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jun 2016 13:00:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、kintoneのデータバックアップ機能をgusukuにて提供開始</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0609/</link>
+      <pubDate>Thu, 09 Jun 2016 13:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0609/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:b4311aa4c41d489e6ea1cef7567add52&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日kintoneのレコードデータと添付ファイルをクラウド上にバックアップするバックアップオプションをリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;gusuku上の簡単な操作でkintone上のレコードデータ、添付ファイルをアプリ単位でバックアップ・リストアすることが可能となります。CSVファイル形式ではリストアできない項目もきちんとバックアップ・リストアできるので、データ消失への対策となるのはもちろん、アプリケーション開発時のマスターデータ管理をバージョン管理と同等の手軽さで行うことが可能です。&lt;/p&gt;
+
+&lt;p&gt;バックアップオプションは、フリープランも含めすべてのお客様でご契約いただけるオプションとなります。また、1組織あたり20MBまで無料でご利用いただけます。&lt;/p&gt;
+
+&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
+
+&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について:b4311aa4c41d489e6ea1cef7567add52&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>クラウドコンピューティングEXPO2016に出展いたします</title>
@@ -1029,93 +1065,6 @@ if(mwdate.length &amp;gt; 0){
 &lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
 
 &lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>連載：kintoneでのPromise入門 Vol.1</title>
-      <link>https://www.r3it.com/blog/kintone/20151028_promise/</link>
-      <pubDate>Wed, 28 Oct 2015 15:55:02 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20151028_promise/</guid>
-      <description>
-
-&lt;h1 id=&#34;kintoneでのpromise入門vol-1:c1ad260bf9e57cb45cdea62c34cb1dad&#34;&gt;kintoneでのPromise入門Vol.1&lt;/h1&gt;
-
-&lt;p&gt;2015年7月版でkintone APIにPromiseが導入されました。
-これにより、非同期処理が非常にすっきり書けるようになりました。&lt;/p&gt;
-
-&lt;p&gt;この連載では、Promiseってなんだ？？？という方に向けて、
-このPromiseの基本的な使い方を段階的に説明していきたいと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;promiseがないとき:c1ad260bf9e57cb45cdea62c34cb1dad&#34;&gt;Promiseがないとき&lt;/h2&gt;
-
-&lt;p&gt;JavaSciript（ECMAScript）でのkintoneカスタマイズ開発は、非同期呼び出しが多用されます。
-その結果、コールバックが多用されることになり、コールバック地獄に陥ることがあります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;function functionA(){
-	asyncFunctionA(paramA1, paramA2, function(){
-		asyncFunctionB(paramB, function(){
-			asyncFunctionC(...);
-		});
-	});
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;上の様に、非同期呼び出しの結果を待って、更に次の非同期呼び出しを行いということを繰り返す必要がある場合、ネストがどんどん深くなりプログラムの可読性が落ちていきます。
-また、エラー処理の記述が困難になり、プログラムが複雑化します。&lt;/p&gt;
-
-&lt;h2 id=&#34;promiseの基礎:c1ad260bf9e57cb45cdea62c34cb1dad&#34;&gt;Promiseの基礎&lt;/h2&gt;
-
-&lt;p&gt;&lt;code&gt;Promise&lt;/code&gt;は、このコールバック地獄を回避する仕組みで、非同期呼び出しを同期呼び出しっぽく記述できるようにすることで、すっきりとしたコードが書けるようになります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;function promiseBlock(){
-	promiseFunctionA().then(function(){
-		return promiseFunctionB():
-	}).then(function(){
-		return promiseFunctionC();
-	}}.then(function(){
-		...
-	}).catch(function(error){
-		errorHandler(error):
-	});;
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;この例えでは、promiseFunctionA()の結果を待って、promiseFunctionB()が実行され、promiseFunctionB()の結果を待って、promiseFunctionC()が実行されるという流れになります。
-ネストが解消されて読みやすくなってますよね。&lt;/p&gt;
-
-&lt;p&gt;ただ、当たり前ですが、promiseFunctionA()は非同期呼び出しのfunctionですので、上の例でいうとこのpromiseBlock()は、すぐにreturnします。&lt;/p&gt;
-
-&lt;p&gt;非同期呼び出しに慣れていない人は、この点がハマりやすいのでご注意ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintoneでの利用の基本:c1ad260bf9e57cb45cdea62c34cb1dad&#34;&gt;kintoneでの利用の基本&lt;/h2&gt;
-
-&lt;p&gt;非同期呼び出しをした後に、その結果を待って何か処理したい。
-&lt;code&gt;kintone.api&lt;/code&gt;は、Promiseオブジェクトを返します。
-Promiseオブジェクトにはthen()というメソッドがあり、このthen()の中に渡された関数が非同期処理の終了を待って実行されます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;function promiseProcess(){
-	// kintone.api は Promiseオブジェクトをreturnする
-	kintone.api(&amp;quot;/k/v1/records&amp;quot;, &amp;quot;GET&amp;quot;, params).then(function(resp){
-		// レスポンスが返ってきてから処理したいことを記述
-	});
-	
-	somecode(); // このコードはthenをまたずに即座に実行される
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;まとめ:c1ad260bf9e57cb45cdea62c34cb1dad&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;非同期呼び出しのコールバックのネストはプログラムの可読性を下げる&lt;/li&gt;
-&lt;li&gt;Promiseを活用することで、非同期呼び出しの連鎖をすっきりと記述できる&lt;/li&gt;
-&lt;li&gt;基本は、Promiseオブジェクトのthen()を使って処理する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;次回以降の予告:c1ad260bf9e57cb45cdea62c34cb1dad&#34;&gt;次回以降の予告&lt;/h1&gt;
-
-&lt;p&gt;次回以降は、より複雑な処理をPromiseでどう記述すばいいかと掲載していきます。&lt;/p&gt;
 </description>
     </item>
     

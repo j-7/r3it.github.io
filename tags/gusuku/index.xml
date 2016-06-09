@@ -5,8 +5,44 @@
     <link>https://www.r3it.com/tags/gusuku/</link>
     <description>Recent content in Gusuku on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Apr 2016 12:00:10 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jun 2016 13:00:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/gusuku/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、kintoneのデータバックアップ機能をgusukuにて提供開始</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0609/</link>
+      <pubDate>Thu, 09 Jun 2016 13:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0609/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:b4311aa4c41d489e6ea1cef7567add52&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日kintoneのレコードデータと添付ファイルをクラウド上にバックアップするバックアップオプションをリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;gusuku上の簡単な操作でkintone上のレコードデータ、添付ファイルをアプリ単位でバックアップ・リストアすることが可能となります。CSVファイル形式ではリストアできない項目もきちんとバックアップ・リストアできるので、データ消失への対策となるのはもちろん、アプリケーション開発時のマスターデータ管理をバージョン管理と同等の手軽さで行うことが可能です。&lt;/p&gt;
+
+&lt;p&gt;バックアップオプションは、フリープランも含めすべてのお客様でご契約いただけるオプションとなります。また、1組織あたり20MBまで無料でご利用いただけます。&lt;/p&gt;
+
+&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
+
+&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について:b4311aa4c41d489e6ea1cef7567add52&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>gusukuでhappy♪東京で初となるgusuku自社セミナーを開催しました！</title>
