@@ -5,8 +5,60 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blog on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Jun 2016 12:00:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jun 2016 12:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 神戸 Vol.5 で kintone hiveを再演してきました！</title>
+      <link>https://www.r3it.com/blog/kintone/20160610_kintonecafe-kobe5/</link>
+      <pubDate>Tue, 14 Jun 2016 12:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160610_kintonecafe-kobe5/</guid>
+      <description>
+
+&lt;p&gt;2016年6月10日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/45189&#34;&gt;kintone Café 神戸 Vol.5&lt;/a&gt; に登壇してきましたので、その模様をお伝えしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;普段はkintone Café 大阪の運営をしていますが、kintone Café 神戸との縁は深く、Vol.2 から毎回参加させて頂いており、ほぼレギュラーメンバーのようになりつつあります(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hive-再び:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;kintone hive 再び&lt;/h2&gt;
+
+&lt;p&gt;今回は kintone hive Vol.3 大阪の翌日という事で、kintone hive の hack（LT）を再演する事になりました。&lt;/p&gt;
+
+&lt;p&gt;細谷さんからは&lt;font color=&#34;red&#34;&gt; kintone導入事例の紹介&lt;/font&gt;、飛び入り参加のジョイゾー山下さんは&lt;strong&gt;同じ資料は使わない！&lt;/strong&gt;スタンスとの事で、kintone hiveとは別の内容を。&lt;br&gt;
+Hackeyという、鍵を回す事でウェブサービスと連携できるガジェットを使って、kintoneのプロセス管理を一括承認できるデモを実施されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/yamashitasan.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/yamashitasan.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/hackey.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/hackey.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;肝心の私のセッションですが、近いうちに&lt;a href=&#34;https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka/&#34;&gt;こちら&lt;/a&gt;の後編が公開されると思いますので、それまでお楽しみに。&lt;br&gt;
+初公開の事例も含め、kintoneを使った成功事例をご紹介しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/r3asaga.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/r3asaga.png&#34; width=&#34;500&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;バリエーションに富んだセッション:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;バリエーションに富んだセッション&lt;/h2&gt;
+
+&lt;p&gt;他にもバリエーションに富んだセッションが多く、参加者の皆さんもとても楽しまれていたようです。&lt;/p&gt;
+
+&lt;p&gt;細谷さんの&lt;strong&gt;「メールワイズ×kintone連携」&lt;/strong&gt;ではkintoneとメールワイズの連携をデモを交えながら紹介されました。&lt;br&gt;
+そのままハンズオンできるのでは？というぐらいの完成度の資料で、参加者の皆さんも必死にメモされていましたよ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/hosoyasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/hosoyasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/mailwise.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/mailwise.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;神戸デジタル・ラボの山下さんからは&lt;strong&gt;「kintoneで情シス業務を高速化したい」&lt;/strong&gt;と題して、とことん業務の高速化にこだわった話しをお聞かせ頂きました。&lt;br&gt;
+Excelをkintone化するだけは加速しない、頑丈なExcelになっただけ！という思いで、Slackを活用して情報を集約したり、ゴールデンウィークをつぶして開発されたChrome拡張の紹介など、たくさんのアイデアを発表されていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/kdl_yamashitasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/kdl_yamashitasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;最後は、運営の武富さんの誕生日が近いという事で、サプライズのお祝いをして締めくくりました(*ﾟ▽ﾟﾉﾉﾞ☆ﾊﾟﾁﾊﾟﾁﾊﾟﾁ&lt;/p&gt;
+
+&lt;h2 id=&#34;今後のお知らせ:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;今後のお知らせ&lt;/h2&gt;
+
+&lt;p&gt;直近では6/25（土）に&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/44449&#34;&gt;kintone Café 関西女子会 Vol.2&lt;/a&gt;が開催されます。
+平日だと参加しにくいという方もいらっしゃると思いますが、今回は子連れ参加もOKとの事。是非ご参加ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone hive Vol.3 大阪に潜入してきました</title>
@@ -1663,42 +1715,6 @@ if(mwdate.length &amp;gt; 0){
 &lt;p&gt;今後もいろいろなイベントに出展する予定がありますので、皆さん是非ブースに来て下さいね！&lt;/p&gt;
 
 &lt;p&gt;お待ちしています(๑•̀ㅂ•́)و✧&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone の中からやってきました</title>
-      <link>https://www.r3it.com/blog/etc/joined-r3-asaga/</link>
-      <pubDate>Wed, 16 Mar 2016 11:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/joined-r3-asaga/</guid>
-      <description>
-
-&lt;p&gt;はじめまして、2016年3月15日からアールスリーに JOIN した浅賀(あさが)です。&lt;br&gt;
-入社早々、マシンのセットアップもそこそこにブログを書いております。&lt;/p&gt;
-
-&lt;h1 id=&#34;これまでの仕事:97fa36c894190f69010682cd225b752d&#34;&gt;これまでの仕事&lt;/h1&gt;
-
-&lt;p&gt;タイトルの通りですが、前職は&lt;a href=&#34;http://cybozu.co.jp/&#34;&gt;サイボウズ株式会社&lt;/a&gt;に所属し、主に関西方面で kintone のコミュニティを広げる役割を担当していました。
-技術者向けに勉強会を開催したり、ハッカソンの開催・協賛など、エンジニアの方々に kintone を知ってもらう取り組みを行ってきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/joined-r3-asaga/joined-r3-asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/joined-r3-asaga/joined-r3-asaga.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;アールスリーにjoinした理由:97fa36c894190f69010682cd225b752d&#34;&gt;アールスリーにJOINした理由&lt;/h1&gt;
-
-&lt;p&gt;ご存知の通り、アールスリーはサイボウズ(kintone)のパートナーとして精力的に活動しています。&lt;br&gt;
-ハイスピード SI や gusuku と言った特徴的な取り組みやサービスを展開しており、サイボウズの中にいても非常に目立った存在に見えていました。&lt;br&gt;
-kintone を使った SI ビジネスは、これから伸びていく可能性のある非常に楽しみな領域です。&lt;br&gt;
-それを自ら実践しようと思った時、アールスリーのようなチャレンジングな環境に身を置く事が最善だと考えました。&lt;/p&gt;
-
-&lt;h1 id=&#34;今後の活動:97fa36c894190f69010682cd225b752d&#34;&gt;今後の活動&lt;/h1&gt;
-
-&lt;p&gt;今後は kintone や AWS を活用したハイスピード SI で導入事例をたくさん作り、kintone を使った SI の可能性を広げていきたいと思っています。&lt;br&gt;
-また、kintone エバンジェリストの役割も拝命しましたので、kintone Café などを通じて kintone の良いところをアピールする活動ができればと考えています。&lt;/p&gt;
-
-&lt;p&gt;というわけで、今後もサイボウズ(さん)とは仲良くお付き合いさせて頂きながら、頑張りたいと思います。&lt;/p&gt;
-
-&lt;p&gt;こんな社員が入社した会社にご興味を持たれた方は、&lt;a href=&#34;https://www.r3it.com/recruitment/&#34;&gt;採用情報&lt;/a&gt; もチェックしてみてください！&lt;/p&gt;
 </description>
     </item>
     

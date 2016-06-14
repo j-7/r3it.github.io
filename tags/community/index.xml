@@ -5,8 +5,60 @@
     <link>https://www.r3it.com/tags/community/</link>
     <description>Recent content in Community on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 17 May 2016 12:00:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jun 2016 12:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 神戸 Vol.5 で kintone hiveを再演してきました！</title>
+      <link>https://www.r3it.com/blog/kintone/20160610_kintonecafe-kobe5/</link>
+      <pubDate>Tue, 14 Jun 2016 12:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160610_kintonecafe-kobe5/</guid>
+      <description>
+
+&lt;p&gt;2016年6月10日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/45189&#34;&gt;kintone Café 神戸 Vol.5&lt;/a&gt; に登壇してきましたので、その模様をお伝えしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;普段はkintone Café 大阪の運営をしていますが、kintone Café 神戸との縁は深く、Vol.2 から毎回参加させて頂いており、ほぼレギュラーメンバーのようになりつつあります(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hive-再び:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;kintone hive 再び&lt;/h2&gt;
+
+&lt;p&gt;今回は kintone hive Vol.3 大阪の翌日という事で、kintone hive の hack（LT）を再演する事になりました。&lt;/p&gt;
+
+&lt;p&gt;細谷さんからは&lt;font color=&#34;red&#34;&gt; kintone導入事例の紹介&lt;/font&gt;、飛び入り参加のジョイゾー山下さんは&lt;strong&gt;同じ資料は使わない！&lt;/strong&gt;スタンスとの事で、kintone hiveとは別の内容を。&lt;br&gt;
+Hackeyという、鍵を回す事でウェブサービスと連携できるガジェットを使って、kintoneのプロセス管理を一括承認できるデモを実施されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/yamashitasan.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/yamashitasan.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/hackey.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/hackey.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;肝心の私のセッションですが、近いうちに&lt;a href=&#34;https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka/&#34;&gt;こちら&lt;/a&gt;の後編が公開されると思いますので、それまでお楽しみに。&lt;br&gt;
+初公開の事例も含め、kintoneを使った成功事例をご紹介しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/r3asaga.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/r3asaga.png&#34; width=&#34;500&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;バリエーションに富んだセッション:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;バリエーションに富んだセッション&lt;/h2&gt;
+
+&lt;p&gt;他にもバリエーションに富んだセッションが多く、参加者の皆さんもとても楽しまれていたようです。&lt;/p&gt;
+
+&lt;p&gt;細谷さんの&lt;strong&gt;「メールワイズ×kintone連携」&lt;/strong&gt;ではkintoneとメールワイズの連携をデモを交えながら紹介されました。&lt;br&gt;
+そのままハンズオンできるのでは？というぐらいの完成度の資料で、参加者の皆さんも必死にメモされていましたよ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/hosoyasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/hosoyasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/mailwise.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/mailwise.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;神戸デジタル・ラボの山下さんからは&lt;strong&gt;「kintoneで情シス業務を高速化したい」&lt;/strong&gt;と題して、とことん業務の高速化にこだわった話しをお聞かせ頂きました。&lt;br&gt;
+Excelをkintone化するだけは加速しない、頑丈なExcelになっただけ！という思いで、Slackを活用して情報を集約したり、ゴールデンウィークをつぶして開発されたChrome拡張の紹介など、たくさんのアイデアを発表されていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/kdl_yamashitasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/kdl_yamashitasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;最後は、運営の武富さんの誕生日が近いという事で、サプライズのお祝いをして締めくくりました(*ﾟ▽ﾟﾉﾉﾞ☆ﾊﾟﾁﾊﾟﾁﾊﾟﾁ&lt;/p&gt;
+
+&lt;h2 id=&#34;今後のお知らせ:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;今後のお知らせ&lt;/h2&gt;
+
+&lt;p&gt;直近では6/25（土）に&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/44449&#34;&gt;kintone Café 関西女子会 Vol.2&lt;/a&gt;が開催されます。
+平日だと参加しにくいという方もいらっしゃると思いますが、今回は子連れ参加もOKとの事。是非ご参加ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 大阪Vol.7 春のIoTリレーハンズオンの開催報告です！</title>
@@ -1318,90 +1370,6 @@ kintoneエバンジェリスト 細谷さん&lt;/li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/solutions/kintone/event-seminar/&#34;&gt;kintone 関連イベント・セミナーのご案内&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;以上、簡単ですがkintone Café 大阪 Vol.4の開催報告でした！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CoderDojo＋αのご紹介</title>
-      <link>https://www.r3it.com/blog/etc/20150908_coderdojo-nagaokakyo/</link>
-      <pubDate>Tue, 08 Sep 2015 14:12:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/20150908_coderdojo-nagaokakyo/</guid>
-      <description>
-
-&lt;p&gt;メンターとしてお手伝いさせて頂いているCoderDojo+αについてのご紹介です。&lt;/p&gt;
-
-&lt;h2 id=&#34;そもそもcoderdojoって:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;そもそもCoderDojoって？&lt;/h2&gt;
-
-&lt;p&gt;&lt;b&gt;CoderDojo&lt;/b&gt;は&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#333399&#34;&gt;7～17歳の子どもを対象にしたプログラミング道場&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
-
-&lt;p&gt;2011年にアイルランドで始まり、世界では59カ国・750の道場、日本では全国に21の道場があります (2015年7月現在)。&lt;/p&gt;
-
-&lt;p&gt;子ども達にプログラミングを教える先生は&lt;b&gt;メンター&lt;/b&gt;と呼ばれています。&lt;/p&gt;
-
-&lt;p&gt;完全非営利で運営されていて、メンターは全員ボランティアです。&lt;/p&gt;
-
-&lt;p&gt;各地域の道場は独立しており、道場ごとにやり方が違います。&lt;/p&gt;
-
-&lt;p&gt;北は北海道から南は九州まで、ほんとに幅広く開催されていますので、興味がある方、またメンターとして是非お手伝いしたいという方がいらっしゃいましたら、是非最寄りのDojoまで足を運んでみて下さい！&lt;/p&gt;
-
-&lt;p&gt;熱意のある子どもたちが多い中、メンターの数はまだまだ足りない現状があります…(´-ω-`)&lt;/p&gt;
-
-&lt;p&gt;どんな風に教えているんだろう？と少しでも興味をお持ちの方は、まずは見学から入ってみてイメージを掴んでみて下さい！&lt;/p&gt;
-
-&lt;p&gt;詳細は&lt;a href=&#34;http://coderdojo.jp/&#34;&gt;CoderDojo Japan&lt;/a&gt;のページを御覧くださいね！&lt;/p&gt;
-
-&lt;h2 id=&#34;わたしがお手伝いしているcoderdojo長岡京の話:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;わたしがお手伝いしているCoderDojo長岡京の話&lt;/h2&gt;
-
-&lt;p&gt;その中で、わたしがメンターとして主にお手伝いさせて頂いているのは&lt;a href=&#34;https://coderdojo-nagaokakyo.doorkeeper.jp/&#34;&gt;CoderDojo長岡京&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;p&gt;長岡京は今年の4月以降、月1回のペースで開催しています。初めて見学に行ったのがちょうど4月。&lt;/p&gt;
-
-&lt;p&gt;そしてその時の感想も実は個人ブログでupしてたり|･`ω･)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://dolly6ca.hatenablog.jp/entry/20150413/1428855637&#34;&gt;CoderDojo長岡京に見学に行ってきた٩(ˊᗜˋ*)و - 2.5次元を生きるCOS☆PLAYエンジニアの雑記&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;他のDojoだと、HTML/CSSやJavaScript、電子工作系など、幅広く教えられているDojoも多いのですが、長岡京は今のところScratchを教えています。&lt;/p&gt;
-
-&lt;h3 id=&#34;scratchって:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;Scratchって？&lt;/h3&gt;
-
-&lt;p&gt;Scratchとは、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3366CC&#34;&gt;MITメディアラボが開発したオブジェクト指向の子供向けビジュアルプログラミング言語&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
-
-&lt;p&gt;GUI上でアクションのブロックを、選択したスプライトやステージにD&amp;amp;Dすることで、インタラクティブなアニメーションやゲームなどを作ることができ、プログラミングのロジックを学習できます。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/scratch.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/scratch.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;また、作った作品はScratchのオンラインコミュニティ上で共有が出来ます。&lt;/p&gt;
-
-&lt;p&gt;共有されている他の作品で気に入ったものがあれば、ソースを自分の勉強用にDLしたり、別のプロジェクトで利用することも可能です。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://scratch.mit.edu/&#34;&gt;https://scratch.mit.edu/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;長岡京では、1回ごとにつどテーマを決めて進めます。&lt;/p&gt;
-
-&lt;p&gt;その回が終わると、メンターの振り返りの時間を設け、次に向けての課題点や良かったことを議論します。&lt;/p&gt;
-
-&lt;p&gt;他のDojoはどうかわからないのですが、わりと近辺にお住まいのメンターさんが多いので、終わってからもコミュニケーションのためにお茶したりもします。&lt;/p&gt;
-
-&lt;p&gt;メンターさんとして参加されている方の職業も年齢も様々で、みんなで話をしているだけでもいろいろ刺激になります(っ´ω`c)♡&lt;/p&gt;
-
-&lt;h3 id=&#34;長岡京にこんなコワーキングスペースが:03989affbd7b50260d486e2d7bad4e0f&#34;&gt;長岡京にこんなコワーキングスペースが！&lt;/h3&gt;
-
-&lt;p&gt;そして先日、そんな長岡京に&lt;a href=&#34;http://coworking-nagaokakyo.jp/&#34;&gt;コワーキングスペース&lt;/a&gt;がオープンしたので見学に行ってきました！&lt;/p&gt;
-
-&lt;p&gt;次回以降のCoderDojo長岡京は、このコワーキングスペースをお借りして開催することになります٩(ˊᗜˋ*)و
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;技術書やムックもたくさん！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo5.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;木造でオシャレな内装！&lt;font size=&#34;3&#34;&gt;（個人的にノマドが捗りそう&lt;/font&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/coderdojo-nagaokakyo/coworking-nagaokakyo2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;コワーキングスペースとしての利用は平日で、土日はイベントや勉強会用にお借りすることも可能なようです。&lt;/p&gt;
-
-&lt;p&gt;弊社オフィスのある大阪からも電車で1時間かからない。そして京都からも…言わずもがな٩(●˙▿˙●)۶&lt;/p&gt;
-
-&lt;p&gt;以上、CoderDojo＋αのご紹介でした(⑅っˇωˇ )っ&lt;/p&gt;
 </description>
     </item>
     

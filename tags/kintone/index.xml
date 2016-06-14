@@ -5,8 +5,60 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Jun 2016 12:00:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jun 2016 12:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 神戸 Vol.5 で kintone hiveを再演してきました！</title>
+      <link>https://www.r3it.com/blog/kintone/20160610_kintonecafe-kobe5/</link>
+      <pubDate>Tue, 14 Jun 2016 12:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160610_kintonecafe-kobe5/</guid>
+      <description>
+
+&lt;p&gt;2016年6月10日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/45189&#34;&gt;kintone Café 神戸 Vol.5&lt;/a&gt; に登壇してきましたので、その模様をお伝えしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;普段はkintone Café 大阪の運営をしていますが、kintone Café 神戸との縁は深く、Vol.2 から毎回参加させて頂いており、ほぼレギュラーメンバーのようになりつつあります(^^)&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hive-再び:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;kintone hive 再び&lt;/h2&gt;
+
+&lt;p&gt;今回は kintone hive Vol.3 大阪の翌日という事で、kintone hive の hack（LT）を再演する事になりました。&lt;/p&gt;
+
+&lt;p&gt;細谷さんからは&lt;font color=&#34;red&#34;&gt; kintone導入事例の紹介&lt;/font&gt;、飛び入り参加のジョイゾー山下さんは&lt;strong&gt;同じ資料は使わない！&lt;/strong&gt;スタンスとの事で、kintone hiveとは別の内容を。&lt;br&gt;
+Hackeyという、鍵を回す事でウェブサービスと連携できるガジェットを使って、kintoneのプロセス管理を一括承認できるデモを実施されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/yamashitasan.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/yamashitasan.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/hackey.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/hackey.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;肝心の私のセッションですが、近いうちに&lt;a href=&#34;https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka/&#34;&gt;こちら&lt;/a&gt;の後編が公開されると思いますので、それまでお楽しみに。&lt;br&gt;
+初公開の事例も含め、kintoneを使った成功事例をご紹介しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/r3asaga.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/r3asaga.png&#34; width=&#34;500&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;バリエーションに富んだセッション:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;バリエーションに富んだセッション&lt;/h2&gt;
+
+&lt;p&gt;他にもバリエーションに富んだセッションが多く、参加者の皆さんもとても楽しまれていたようです。&lt;/p&gt;
+
+&lt;p&gt;細谷さんの&lt;strong&gt;「メールワイズ×kintone連携」&lt;/strong&gt;ではkintoneとメールワイズの連携をデモを交えながら紹介されました。&lt;br&gt;
+そのままハンズオンできるのでは？というぐらいの完成度の資料で、参加者の皆さんも必死にメモされていましたよ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/hosoyasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/hosoyasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/mailwise.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/mailwise.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;神戸デジタル・ラボの山下さんからは&lt;strong&gt;「kintoneで情シス業務を高速化したい」&lt;/strong&gt;と題して、とことん業務の高速化にこだわった話しをお聞かせ頂きました。&lt;br&gt;
+Excelをkintone化するだけは加速しない、頑丈なExcelになっただけ！という思いで、Slackを活用して情報を集約したり、ゴールデンウィークをつぶして開発されたChrome拡張の紹介など、たくさんのアイデアを発表されていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/kdl_yamashitasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/kdl_yamashitasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;最後は、運営の武富さんの誕生日が近いという事で、サプライズのお祝いをして締めくくりました(*ﾟ▽ﾟﾉﾉﾞ☆ﾊﾟﾁﾊﾟﾁﾊﾟﾁ&lt;/p&gt;
+
+&lt;h2 id=&#34;今後のお知らせ:360db3a76e07df3eb850dfc381ecedf1&#34;&gt;今後のお知らせ&lt;/h2&gt;
+
+&lt;p&gt;直近では6/25（土）に&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/44449&#34;&gt;kintone Café 関西女子会 Vol.2&lt;/a&gt;が開催されます。
+平日だと参加しにくいという方もいらっしゃると思いますが、今回は子連れ参加もOKとの事。是非ご参加ください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone hive Vol.3 大阪に潜入してきました</title>
@@ -1247,38 +1299,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 &lt;p&gt;Mail : info@r3it.com&lt;/p&gt;
 
 &lt;p&gt;担当： 林、金春（こんぱる）&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、gusuku 添付ファイル保存プラグインをアップデート</title>
-      <link>https://www.r3it.com/info/2016/gusuku-update-0405/</link>
-      <pubDate>Tue, 05 Apr 2016 17:00:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/gusuku-update-0405/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:9259a0836152113e8783ffd4ff93d7d7&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、本日gusukuと連携して動作するkintoneプラグイン「添付ファイルプラグイン」をアップデートいたしました。&lt;/p&gt;
-
-&lt;p&gt;新しい添付ファイルプラグインは、Multipart Upload APIを使用し大きな容量のファイルも確実にアップロードできるようになりました。また合わせてアップロードの進行具合も表示する機能が追加され、待ち時間の心理的不安を軽減する役割を果たしております。&lt;/p&gt;
-
-&lt;p&gt;「添付ファイルプラグイン」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/plugin/fileattach/&#34;&gt;gusuku docs のプラグインページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について:9259a0836152113e8783ffd4ff93d7d7&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
