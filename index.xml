@@ -5,8 +5,28 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Jun 2016 12:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jun 2016 14:00:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリーはハッカーズチャンプルー2016をサポートしています</title>
+      <link>https://www.r3it.com/info/2016/support-hackers-champloo/</link>
+      <pubDate>Wed, 15 Jun 2016 14:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/support-hackers-champloo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://hackers-champloo.org/2016/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/community-support/hc_logo_577x166.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;コミュニティにフルコミットを掲げているアールスリーインスティテュートは、ハッカーズチャンプルー2016 ゴールドスポンサーとしてコミュニティを支援しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hackers-champloo.org/2016/&#34;&gt;http://hackers-champloo.org/2016/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2016年6月22日(水)から6月25日(土)までの3泊4日で行われる開発合宿から、25日(土)に行われるカンファレンスまで、様々なバックグラウンドを持ったエンジニア同士のより良い交流と、各カンファレンスセッションによる感度の高いディスカッションや情報交換がなされることを期待しております。&lt;/p&gt;
+
+&lt;p&gt;アールスリーからも2名の社員が開発合宿から参加させて頂き、カンファレンスではその成果発表をさせていただきます。&lt;/p&gt;
+
+&lt;p&gt;当日会場にてお会いできることを、楽しみにしております！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 神戸 Vol.5 で kintone hiveを再演してきました！</title>
@@ -1201,162 +1221,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 &lt;p&gt;Vol.8も計画中（夏頃？）なので、こういう事やって！というアイデアがあれば、是非お寄せ下さい。&lt;/p&gt;
 
 &lt;p&gt;運営に関わってみたい方もお待ちしてます！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>システム間連携ジョブをサーバレスで実行する「Talend on AWS Lambda」のススメ</title>
-      <link>https://www.r3it.com/blog/aws/talend-on-lambda/</link>
-      <pubDate>Thu, 14 Apr 2016 15:30:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/talend-on-lambda/</guid>
-      <description>
-
-&lt;p&gt;長い夏が始まった沖縄よりこんにちは、西島です。皆さんはサーバレスでコード実行が目玉の&lt;a href=&#34;https://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt;使ってますか？使ってますよね？&lt;/p&gt;
-
-&lt;p&gt;弊社では、ちょっとした集計報告からS3のストレージと連携した後処理などをはじめ、言語は Node.js から Java8 で書かれたものまで、あらゆるところで Lambda が使われています（実は弊社サービスの&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku（グスク）&lt;/a&gt;のExcel帳票サービスもすべてLambdaで書かれています！）。&lt;/p&gt;
-
-&lt;p&gt;そんなLambdaの使い方のひとつで、今日はシステム間連携のバッチジョブを動かすためのTIPSをご紹介したいと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;システム間連携ジョブといえばtalend:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;システム間連携ジョブといえばTalend&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社は Talend Open Studio パートナーですので、システム間連携といえば勿論 Talend を利用しています。Talendとは・・・は&lt;a href=&#34;https://jp.talend.com/&#34;&gt;公式サイト&lt;/a&gt;に譲るとして、色々な製品ラインがある中で、弊社は例えば基幹システム（オンプレミス）にあるデータベース、FTPサーバなどと、クラウド側にある例えば kintone などとのデータ連携に Talend を使用しています。&lt;/p&gt;
-
-&lt;p&gt;（Talend と kintone の連携には、拙作の &lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt; というオープンソースのコンポーネントがありますので、ご活用ください！）&lt;/p&gt;
-
-&lt;h1 id=&#34;まずjavaのコードをlambdaで動かすようにする:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;まずJavaのコードをLambdaで動かすようにする&lt;/h1&gt;
-
-&lt;p&gt;僕も弊社もJavaを愛していますので、LambdaでJavaがサポートされた時はとても嬉しかったです！ JavaでLambda関数を作る手順はあまり見かけませんが、幾つかの手順を踏めば難しいものではありません。公式ドキュメントは&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/lambda-java-how-to-create-deployment-package.html&#34;&gt;こちら&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;h2 id=&#34;lambdaで動かすポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaで動かすポイント&lt;/h2&gt;
-
-&lt;p&gt;ポイントとしては、以下を踏まえれば問題ないと思います（AWS SDK Eclipse ツールキットを利用すれば同等のことが出来るのだと思いますが、試していません）。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1つのjarファイルにすべてのクラスファイルをまとめる必要がある&lt;/li&gt;
-&lt;li&gt;つまり、利用している依存ライブラリも全て1つにまとめる&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://maven.apache.org/plugins/maven-shade-plugin/&#34;&gt;maven-shadeプラグイン&lt;/a&gt;便利♪&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;pom.xmlでpackageのゴール時にshadeを実行するように書いておきましょう。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;build&amp;gt;
-  &amp;lt;plugins&amp;gt;
-    &amp;lt;plugin&amp;gt;
-      &amp;lt;artifactId&amp;gt;maven-shade-plugin&amp;lt;/artifactId&amp;gt;
-      &amp;lt;version&amp;gt;2.3&amp;lt;/version&amp;gt;
-      &amp;lt;configuration&amp;gt;
-        &amp;lt;createDependencyReducedPom&amp;gt;true&amp;lt;/createDependencyReducedPom&amp;gt;
-      &amp;lt;/configuration&amp;gt;
-      &amp;lt;executions&amp;gt;
-        &amp;lt;execution&amp;gt;
-          &amp;lt;phase&amp;gt;package&amp;lt;/phase&amp;gt;
-          &amp;lt;goals&amp;gt;
-            &amp;lt;goal&amp;gt;shade&amp;lt;/goal&amp;gt;
-          &amp;lt;/goals&amp;gt;
-        &amp;lt;/execution&amp;gt;
-      &amp;lt;/executions&amp;gt;
-    &amp;lt;/plugin&amp;gt;
-    &amp;lt;plugin&amp;gt;
-      &amp;lt;artifactId&amp;gt;maven-compiler-plugin&amp;lt;/artifactId&amp;gt;
-      &amp;lt;version&amp;gt;2.3.2&amp;lt;/version&amp;gt;
-      &amp;lt;configuration&amp;gt;
-        &amp;lt;source&amp;gt;${java.version}&amp;lt;/source&amp;gt;
-        &amp;lt;target&amp;gt;${java.version}&amp;lt;/target&amp;gt;
-      &amp;lt;/configuration&amp;gt;
-    &amp;lt;/plugin&amp;gt;
-  &amp;lt;/plugins&amp;gt;
-&amp;lt;/build&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;lambda関数の実装:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambda関数の実装&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/java-programming-model.html&#34;&gt;公式ドキュメント&lt;/a&gt;を見ると簡潔に書かれています。ここでは参考までにソース雛形を貼っておきます。&lt;/p&gt;
-
-&lt;p&gt;最低限 Context が引数のstaticメソッドがあればLambda関数として登録できます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class App {
-
-    public static String main( Context context ) {
-        // 色々頑張るコード
-
-        return &amp;quot;OK&amp;quot;;
-    }
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;talend-のジョブを-lambda-で動かす:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Talend のジョブを Lambda で動かす&lt;/h1&gt;
-
-&lt;p&gt;前置きが長くなりました。いよいよTalendで作ったジョブをLambdaで実行する際の手順です。&lt;/p&gt;
-
-&lt;h2 id=&#34;lambdaで実行するときのポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaで実行するときのポイント&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;通常のJavaで書かれたLambda関数と同じく、すべてのクラスを1つのjarファイルにまとめる&lt;/li&gt;
-&lt;li&gt;Talendでジョブを作成。出力されたJavaソースを、自分のプロジェクトにそのままコピーする&lt;/li&gt;
-&lt;li&gt;その時の依存関係は自力でpom.xmlを修正して頑張る&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;lambda上で動くジョブを作成するときの注意:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambda上で動くジョブを作成するときの注意&lt;/h2&gt;
-
-&lt;p&gt;「ほぼ」普通のジョブ作成で問題ありません。が、1点、Lambdaからは&amp;rdquo;/tmp&amp;rdquo;にしかファイルを作成できないことに注意しましょう。&lt;/p&gt;
-
-&lt;p&gt;例えば、S3やFTPでファイルを取得して一旦ローカルに保存するような場合、/tmpに常に書き込むようにしましょう。ローカルにテンポラリファイルが必要なら、File.createTempFile メソッドなどを使ってください。&lt;/p&gt;
-
-&lt;h2 id=&#34;ジョブのエクスポート時の注意:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;ジョブのエクスポート時の注意&lt;/h2&gt;
-
-&lt;p&gt;実行ジョブを作成するときのオプションで「Javaソース」にチェックを入れておいてください！これがないと、作成したジョブのソースがなくて後で困ります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/export.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/export.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;自分のeclipseプロジェクトに取り込み:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;自分のEclipseプロジェクトに取り込み&lt;/h2&gt;
-
-&lt;p&gt;生成されたzip内のソースコードをEclipseのソースフォルダにコピーします。この後は、依存関係を解決すべく試行錯誤が始まります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/src-copy.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/src-copy.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;エラーが多数出ますので、利用されている外部ライブラリをpom.xmlに追加していきます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/errors.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/errors.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ジョブが依存しているライブラリは、zipの下のlibの中にあります。&lt;/p&gt;
-
-&lt;p&gt;どんなに頑張ってもEclipse上ではエラーが解決できないファイル「ComponentRuntimeContainerBase.java」がありますが、それはざっくり削除で問題ありません。&lt;/p&gt;
-
-&lt;h2 id=&#34;lambdaのハンドラはどうする:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;Lambdaのハンドラはどうする？&lt;/h2&gt;
-
-&lt;p&gt;先ほどサンプルで書いたJavaのコードの中から、Talendのジョブを呼び出せばOKです。例えば以下の様な形になります。ここでは戻り値がvoidのメソッドを使っています（これもOK!）。&lt;/p&gt;
-
-&lt;p&gt;例外を投げると自動リトライがかかりますので、リトライすれば次回成功するから例外を投げるのか、エラー報告してジョブ自体を投入し直すのか、開発者側で判断できるので便利ですね！&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class InvokeTalend {
-
-    public static void main( Context context ) throws Exception {
-        final TestJob job = new TestJob(); // talend上でつけたジョブ名がそのままクラス名
-
-        final String[] args = new String[0]; // Context を上書きしたかったら引数で渡してやる。
-
-        job.runJob( args );
-
-        final Exception e = job.getException();
-        if( e != null ) {
-            // 例外に対して何かしたかったら（SNSに投げるとか）ここで行う。
-            throw e; // 例外を投げてリトライ
-        }
-
-   }
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;まとめ:4cfb8ee9faee5ddf1b51f639d95cdbdd&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;Lambdaの実行時間には現在のところ&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html&#34;&gt;最大5分の制限&lt;/a&gt;がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やETLを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。&lt;/p&gt;
-
-&lt;p&gt;弊社では kintone だけではなく、オンプレミス（FTP連携サーバもまだまだ多いですよね！）とクラウドを架け橋するような案件もやっております。「こんなこと出来るのかな？」というご相談がありましたら、ぜひお問い合わせください！&lt;/p&gt;
 </description>
     </item>
     
