@@ -5,8 +5,148 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Jun 2016 12:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jun 2016 17:00:30 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone hive Vol.3 大阪に潜入してきました ～kintone hack編～</title>
+      <link>https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka2/</link>
+      <pubDate>Fri, 17 Jun 2016 17:00:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka2/</guid>
+      <description>
+
+&lt;h2 id=&#34;kintoneユーザーによるkintoneユーザーのための大規模ユーザー会-kintone-hive-とは-前回のおさらい:798b3ec9863f1d0dc16b71d9c33371c5&#34;&gt;kintoneユーザーによるkintoneユーザーのための大規模ユーザー会！kintone hive とは？（前回のおさらい）&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font color=&#34;#FF9933&#34;&gt;「hive」&lt;/font&gt;&lt;/b&gt; は蜂の巣という意味ですが、&lt;strong&gt;「活気あふれる場所」&lt;/strong&gt;という意味合いもあるそうです。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF9933&#34;&gt;kintone hive（キントーンハイブ）&lt;/font&gt;&lt;/b&gt;には人とノウハウが集まる活気あふれた場所にしたいという願いがこめられているそう。&lt;/p&gt;
+
+&lt;p&gt;2015年5月/10月と、kintone hiveは2回東京で開催されてきました。&lt;/p&gt;
+
+&lt;p&gt;そして先日、2016年5月26日(木曜日)に東京でkintone hive Vol.3が開催され、昨日6月9日(木曜日)は 大阪で&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hiveが初開催&lt;/font&gt;&lt;/b&gt;されました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-2.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;「ユーザー会」&lt;/strong&gt; ということで、kintoneを導入することで業務がこんな風に改善された！というようなリアルな事例の紹介の場になっています。&lt;/p&gt;
+
+&lt;p&gt;事例発表は、実際に導入に携わったユーザー様ご自身が登壇して発表されるので、まさしく&lt;strong&gt;「生の声」&lt;/strong&gt;が聞けるということですね！&lt;/p&gt;
+
+&lt;p&gt;これはkintone導入を検討されているユーザー様には非常にオイシイ內容です(๑´ㅂ`๑)&lt;/p&gt;
+
+&lt;p&gt;更に更に！kintoneデベロッパーによるライトニングトークタイム &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hack&lt;/font&gt;&lt;/b&gt; もあったりと、kintoneの活用ヒントがふんだんに盛り込こまれた非常に魅力的なコンテンツになっています！
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+今回は前回の&lt;a href=&#34;https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka&#34;&gt;ユーザー様の事例紹介&lt;/a&gt;に引き続き&lt;strong&gt;後半戦！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;待ちに待った（？） &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hack&lt;/font&gt;&lt;/b&gt;のレポートについてお届けします！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-18.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-18.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;kintoneデベロッパーによるlt-kintone-hack:798b3ec9863f1d0dc16b71d9c33371c5&#34;&gt;kintoneデベロッパーによるLT！kintone hack！&lt;/h2&gt;
+
+&lt;p&gt;kintone hackは&lt;strong&gt;kintoneアプリの開発を行っているデベロッパーさん達による具体的な事例紹介の場&lt;/strong&gt;です！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LT（ライトニングトーク）&lt;/strong&gt; なので、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3333FF&#34;&gt;1人あたりの持ち時間は5分！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;5分の間ににどれだけの内容を盛り込めるか。また盛り込むだけではいけません！&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF0000&#34;&gt;いかにオーディエンスを話の中に引き込めるかが重要なポイント&lt;/font&gt;&lt;/b&gt;になってきます！&lt;/p&gt;
+
+&lt;p&gt;ちなみにわたくしもコミュニティの場ではLTをさせて頂く機会もあるのですが、 &lt;del&gt;5分では尺がたりないレベルで…もっと精進しなければと思う所存です。&lt;/del&gt;
+&lt;br&gt;
+&lt;br&gt;
+さて、そんな&lt;strong&gt;kintone hack&lt;/strong&gt;ですが、kintone界隈を代表する（？）錚々たる顔ぶれが揃っていました！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ジョイゾー山下さん&lt;/li&gt;
+&lt;li&gt;細谷さん&lt;/li&gt;
+&lt;li&gt;NCSサポート＆サービス  平野さん&lt;/li&gt;
+&lt;li&gt;アールスリーインスティテュート 浅賀&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ジョイゾー山下さん:798b3ec9863f1d0dc16b71d9c33371c5&#34;&gt;ジョイゾー山下さん&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-13.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-13.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらはもう&lt;strong&gt;鉄板＆安定&lt;/strong&gt;ですね！皆さんおなじみkintoneエバンジェリストです(๑•̀ㅂ•́)و✧&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja&#34;&gt;cybozu.com developer network&lt;/a&gt;のTips等でもたくさん投稿が上がっていますよね♪&lt;/p&gt;
+
+&lt;p&gt;今回もたくさんのkintoneの開発事例と、山下さんと言えば&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#6633FF&#34;&gt;IoT！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;最近よく巷で目にする&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#339999&#34;&gt;JINS MEME&lt;/font&gt;&lt;/b&gt;を着用しての登場です！&lt;/p&gt;
+
+&lt;p&gt;遠くで見るとそうでもないのですが、近くで見ると思いの外&lt;strong&gt;重厚感。。。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;この&lt;strong&gt;JINS MEME&lt;/strong&gt;を利用して取得したデータとkintoneの連携のお話をされていました♪
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-14.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-14.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;具体的にどんなデータが取得できたのかは…&lt;strong&gt;知る人ぞ知る♪&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;またどこかのイベントなり勉強会なりで実演してくれることを望みましょう(●´ϖ`●)&lt;/p&gt;
+
+&lt;h3 id=&#34;細谷さん:798b3ec9863f1d0dc16b71d9c33371c5&#34;&gt;細谷さん&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-15.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-15.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;最近は&lt;strong&gt;サイボウズNPOプログラム&lt;/strong&gt;でかなりご活躍されているイメージです！&lt;/p&gt;
+
+&lt;p&gt;また、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#999900&#34;&gt;CoderDojoやWordPress&lt;/font&gt;&lt;/b&gt;など、コミュニティ活動もかなり精力的にされている&lt;strong&gt;関西を代表するkintoneエバンジェリスト&lt;/strong&gt;(๑•̀ㅂ•́)و✧&lt;/p&gt;
+
+&lt;p&gt;kintone Caféではよくハンズオン講師をされているので、ハンズオンのイメージが強いのですが、今回はkintoneとWordPressの連携事例についてお話されていました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-16.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-16.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;この夏にはDojoCon JapanやWordPressの大きなイベントもありますし、大忙しですね！&lt;/p&gt;
+
+&lt;p&gt;今後の益々のご活躍も&lt;strong&gt;乞うご期待！&lt;/strong&gt;です(p*･ω･)p&lt;/p&gt;
+
+&lt;h3 id=&#34;ncsサポート-サービス-平野さん:798b3ec9863f1d0dc16b71d9c33371c5&#34;&gt;NCSサポート＆サービス  平野さん&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-17.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-17.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;実は関西でkintone開発と言えば、かなりキャリアをお持ちの NSAS様！&lt;/p&gt;
+
+&lt;p&gt;バーコードを活用したカスタマイズについてご紹介頂きました(๑•̀ㅂ•́)و✧&lt;/p&gt;
+
+&lt;p&gt;普段からシステム開発だけではなく、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#9966CC&#34;&gt;ノベルティグッズを販売するサイトの運営&lt;/font&gt;&lt;/b&gt;を手がけられていたり、事業の幅がほんとに広いです！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.noveltei.com/&#34;&gt;http://www.noveltei.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+そして&lt;strong&gt;ラスト&lt;/strong&gt;は・・・
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-19.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-19.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;アールスリーインスティテュート-浅賀:798b3ec9863f1d0dc16b71d9c33371c5&#34;&gt;アールスリーインスティテュート 浅賀&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;中の人から外の人になった&lt;/strong&gt;ことでおなじみの&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3300&#34;&gt;弊社浅賀&lt;/font&gt;&lt;/b&gt;です！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-20.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-20.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;サイボウズ様を退職後、kintoneエバンジェリストを拝命しての弊社JOINとなりました。&lt;/p&gt;
+
+&lt;p&gt;公の場でこのような形で登壇させて頂くのは、実は転職後&lt;strong&gt;初&lt;/strong&gt;なのです。&lt;/p&gt;
+
+&lt;p&gt;しかし&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3300CC&#34;&gt;さすがの貫禄。。。&lt;/font&gt;&lt;/b&gt;そして浅賀の&lt;strong&gt;晴舞台&lt;/strong&gt;ということで、弊社よりわたくしと上司まで写真撮影に勤しむ始末…！&lt;/p&gt;
+
+&lt;p&gt;弊社の外部サービスとkintoneを連携した事例や、kintone開発をより便利に！開発者の皆様をハッピーにするツール&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#CC0000&#34;&gt;gusukuの紹介&lt;/font&gt;&lt;/b&gt;をさせて頂きました(๑•̀ㅂ•́)و✧
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-21.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-21.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;実は参加されていたユーザー様の中には、以前浅賀が対応したことのあるユーザー様もいらっしゃったようで。&lt;/p&gt;
+
+&lt;p&gt;弊社にJOINした事実をこのhiveの登壇で初めて知った！という方も。&lt;/p&gt;
+
+&lt;p&gt;いろいろな意味でインパクトのある？登壇になったのかな？という印象でした。&lt;/p&gt;
+
+&lt;h2 id=&#34;次回のhiveは:798b3ec9863f1d0dc16b71d9c33371c5&#34;&gt;次回のhiveは・・・&lt;/h2&gt;
+
+&lt;p&gt;次回のhiveは&lt;strong&gt;11月9日(水曜日)！&lt;/strong&gt; &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;Cybozu Days Tokyo&lt;/font&gt;&lt;/b&gt;内で実施されます！&lt;/p&gt;
+
+&lt;p&gt;そしてそしてその中で、この1年で最もキラリと光る活用をしたユーザー企業様を称える&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF9933&#34;&gt;kintone AWARD&lt;/font&gt;&lt;/b&gt;も開催されます！&lt;/p&gt;
+
+&lt;p&gt;もう &lt;a href=&#34;https://kintone.cybozu.com/jp/event/hive2016/05/entry.html&#34;&gt;AWARDのエントリー&lt;/a&gt;も始まっているようですよー！&lt;/p&gt;
+
+&lt;p&gt;今年はどんな企業様が選ばれるのか楽しみですね✧.ﾟ٩(๑&amp;gt;◡&amp;lt;๑)۶:.｡♡&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 神戸 Vol.5 で kintone hiveを再演してきました！</title>
@@ -93,7 +233,7 @@ Excelをkintone化するだけは加速しない、頑丈なExcelになっただ
 
 &lt;p&gt;Vol.3では、全部で&lt;strong&gt;4社のユーザー企業様&lt;/strong&gt;がそれぞれのkintone導入事例について語られていました！&lt;/p&gt;
 
-&lt;h3 id=&#34;npo法人スマイススタイル-藤吉様:5af262292080875223c3f5cbb86a4e1b&#34;&gt;NPO法人スマイススタイル 藤吉様&lt;/h3&gt;
+&lt;h3 id=&#34;npo法人スマイルスタイル-藤吉様:5af262292080875223c3f5cbb86a4e1b&#34;&gt;NPO法人スマイルスタイル 藤吉様&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-4.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1231,74 +1371,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;では、kintone Café 大阪でお会いできる事を楽しみにしてます！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、NPO法人に対してkintoneアプリ開発支援を特別価格で提供開始</title>
-      <link>https://www.r3it.com/info/2016/highspeedsi4npo/</link>
-      <pubDate>Wed, 06 Apr 2016 10:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/highspeedsi4npo/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/logo_highspeedsi_rgb.png&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」を活用して業務システムを構築する「ハイスピードSI for NPO」をリリースいたしました。&lt;/p&gt;
-
-&lt;p&gt;「ハイスピードSI for NPO」は、NPO法人のみなさまにたいして、サイボウズ社のkintone（キントーン）を使った業務アプリケーションの構築支援を特別価格で提供するサービスです。&lt;/p&gt;
-
-&lt;p&gt;サイボウズ社の製品は、「&lt;a href=&#34;https://npo.cybozu.co.jp/&#34;&gt;サイボウズNPOプログラム&lt;/a&gt;」にてこちらも特別価格で利用可能となっております。&lt;/p&gt;
-
-&lt;h1 id=&#34;特定非営利活動法人-npo法人-の課題:f01c87cbc036ef4fa5bc957361118f3e&#34;&gt;特定非営利活動法人（NPO法人）の課題&lt;/h1&gt;
-
-&lt;p&gt;本来NPO法人の方々は、それぞれが解決すべき課題に労力のすべてを使うべきだと我々アールスリーインスティテュートは考えています。しかし実際には、ITの力を活用しようと思った場合、ある程度システム構築的な部分に時間を割く必要が出てきてしまいます。&lt;/p&gt;
-
-&lt;p&gt;「ハイスピードSI for NPO」では、そのシステム構築の部分を弊社が特別価格でご提供し、NPO法人がより問題解決に注力できる時間を増やしていただくようにしたいと考えております。&lt;/p&gt;
-
-&lt;h1 id=&#34;業務システム開発の進め方:f01c87cbc036ef4fa5bc957361118f3e&#34;&gt;業務システム開発の進め方&lt;/h1&gt;
-
-&lt;p&gt;「ハイスピードSI for NPO」は、以下の様な形でkintoneを使ったシステム開発を進めます。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;前提条件&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;特定非営利活動法人格をお持ちで、 &lt;a href=&#34;https://npo.cybozu.co.jp/&#34;&gt;サイボウズNPOプログラム&lt;/a&gt;に認定されkintoneをご契約している（もしくはこれから契約される）NPO法人であること&lt;/li&gt;
-&lt;li&gt;お客様事例として組織名公表と事例取材にご同意いただけるNPO法人であること（必ずしも事例として公開するわけではありません）&lt;/li&gt;
-&lt;li&gt;オンライン(Skype等を利用)もしくは弊社に来社いただける方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;実際の開発&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;対面開発 2時間 を最大5回&lt;/li&gt;
-&lt;li&gt;カスタマイズ無し&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;開発は対面開発で行いますので、みなさまのご要望をその場で即座に伺い、システムを構築していきます。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ご提供価格価格&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;対面開発1時間あたり8,000円(税別)&lt;/li&gt;
-&lt;li&gt;初回にご要望をお伺いし想定回数をお伝えいたします。実際には実施した回数分のみお支払いいただきます&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;ご注意点:f01c87cbc036ef4fa5bc957361118f3e&#34;&gt;ご注意点&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;「ハイスピードSI for NPO」では同時期に受け付けられるプロジェクト数に制限があります。制限を超えるお申し込みをいただいた場合は、プロジェクト開始までお待ちいただくことがありますのでご了承ください。&lt;/li&gt;
-&lt;li&gt;特別価格でご提供するためお問い合わせはメール（info@r3it.com）のみとさせていただきます&lt;/li&gt;
-&lt;li&gt;ご提案書の作成が必要な場合は、採用不採用に関わらず1時間あたり8,000円(税別)にて実費をご請求させていただきます&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;お問い合わせ-お申込み:f01c87cbc036ef4fa5bc957361118f3e&#34;&gt;お問い合わせ・お申込み&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;Mail : info@r3it.com&lt;/p&gt;
-
-&lt;p&gt;担当： 林、金春（こんぱる）&lt;/p&gt;
 </description>
     </item>
     
