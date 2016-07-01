@@ -5,11 +5,142 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Jun 2016 13:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jul 2016 17:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>リレーブログその2：海を越えたJAWS-UGメンバーが韓国で得てきたもの</title>
+      <title>ハッカーズチャンプルー2016に参加してきました</title>
+      <link>https://www.r3it.com/blog/community/hackers-champloo2016/</link>
+      <pubDate>Fri, 01 Jul 2016 17:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/community/hackers-champloo2016/</guid>
+      <description>
+
+&lt;h2 id=&#34;ハッカーズチャンプルー-http-hackers-champloo-org-2016-とは:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;&lt;a href=&#34;http://hackers-champloo.org/2016/&#34;&gt;ハッカーズチャンプルー&lt;/a&gt;とは？&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/community-support/hc_logo_577x166.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;分野をまたがってITに携わる人が沖縄の地で交流するまさにチャンプルー（ごちゃまぜ）なイベントです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ホテルの作業スペースで集まって各々の作業をしたり交流したりする開発合宿&lt;/li&gt;
+&lt;li&gt;合宿参加者以外も集う大規模なカンファレンス&lt;/li&gt;
+&lt;li&gt;カンファレンスの懇親会&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;といったイベントが盛りだくさんです。&lt;/p&gt;
+
+&lt;p&gt;メインディッシュは人がたくさん集まるカンファレンスみたいですが 、開発合宿から参加させてもらえることになりました。&lt;/p&gt;
+
+&lt;p&gt;どんな美味しいチャンプルーが出来るのかワクワクします。&lt;/p&gt;
+
+&lt;h1 id=&#34;開発合宿:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;開発合宿&lt;/h1&gt;
+
+&lt;h2 id=&#34;初日:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;初日&lt;/h2&gt;
+
+&lt;p&gt;那覇空港に降り立ちました。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;祝！沖縄！&lt;/strong&gt;
+天気が夏!!植物が沖縄!!
+これは開発合宿の会場となったホテルです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/hotel.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/hotel.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;初日の交流会でいろんな方とお話できました。
+普段お仕事でお世話になっている&lt;strong&gt;kintone&lt;/strong&gt;の中の人もいました！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160622_182910.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160622_182910.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;楽しい日々の予感を胸にホテルに帰って現実を思い出しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;仕事がまだ残っているという現実&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;２日目:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;２日目&lt;/h2&gt;
+
+&lt;p&gt;気合で仕事を終わらせて開発作業開始です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160623_161816.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160623_161816.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;実は…
+沖縄でリゾート気分を味わいながら余裕をもって開発をするために着々と準備はしていたのです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Linux環境じゃないと面倒な問題が起きるのでVMWareにUbuntuをインストール済&lt;/li&gt;
+&lt;li&gt;vimでRailsをいじるための便利なプラグインは調査、動作確認済&lt;/li&gt;
+&lt;li&gt;やりたい動作に近いテスト用スクリプト動作確認済み&lt;/li&gt;
+&lt;li&gt;Railsで最初のページは作った&lt;/li&gt;
+&lt;li&gt;簡単な仕様書まで手書きで用意&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;絶対すぐに終わる！…わけがなかったです。&lt;/p&gt;
+
+&lt;p&gt;フレームワーク使いこなすのってこんなに難しいのですか！？&lt;/p&gt;
+
+&lt;p&gt;必死で作業。&lt;/p&gt;
+
+&lt;p&gt;窓の外には晴れ渡った空、広がる広大な海。作業スペースから眺めることしかできませんでした。気がつけば夜中の部屋でも作業…&lt;/p&gt;
+
+&lt;p&gt;癒しの美味しいごはんを提供して下さった、
+ごはんスポンサーのesaさんありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160623_122932.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160623_122932.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3日目:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;3日目&lt;/h2&gt;
+
+&lt;p&gt;残された作業。&lt;/p&gt;
+
+&lt;p&gt;腹立たしいほどに晴れ渡った空、広大な海。海よりも広く横たわる現実を思い出しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;翌日160人の前で成果発表するという現実&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;何とか発表できそうなものは間に合いました。気づけば夜中の部屋でもスライド作り…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160624_085939.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160624_085939.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;カンファレンス当日:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;カンファレンス当日&lt;/h1&gt;
+
+&lt;p&gt;ボランティアスタッフの皆さんと朝から会場準備をしていました。
+みなさん気合入ってます。最高のイベントにしたいです。&lt;/p&gt;
+
+&lt;p&gt;運営もしますけど発表もします。
+持ち時間は６分です。
+6分間で合宿の成果と語彙力の重要性を頑張って皆さんにお伝えしました。
+6分を超えるとこわい大人が銅鑼を鳴らして強制終了という制度だったのでひやひやです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160625_134924.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160625_134924.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/Fqn312CDxWPhnw&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/RyogaYamada/ss-63478259&#34; title=&#34;合宿の成果&#34; target=&#34;_blank&#34;&gt;合宿の成果&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/RyogaYamada&#34; target=&#34;_blank&#34;&gt;Ryoga Yamada&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;いろんな分野の方の興味深いお話しをたくさん聞けて充実したカンファレンスでした。
+みなさん技術があって個性的でお話も面白いです。
+こうやって貢献できる人にならなくてはいけないなとモチベーションも上がります。&lt;/p&gt;
+
+&lt;h1 id=&#34;懇親会:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;懇親会&lt;/h1&gt;
+
+&lt;p&gt;みなさん元気で個性的で面白い人でした。
+カンファレンスの部では発表してなかった方々の発表もありました。&lt;/p&gt;
+
+&lt;p&gt;なぜか発表した人はパイ投げされるというはっちゃけっぷりですが、
+発表のクオリティ高くておなかがいっぱいです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/img_8814.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/img_8814.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/img_8835.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/img_8835.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（↑一緒に行った弊社の大澤です）&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;とてもおいしいチャンプルーが出来上がりました。
+素晴らしいイベントに参加できて光栄です。&lt;/p&gt;
+
+&lt;h3 id=&#34;来年はぜひみなさんも:e391bdc148cc2570e2f4d4a4ab8a7b59&#34;&gt;来年はぜひみなさんも!!&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/return.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/return.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>リレーブログその2：おっさん英語でがんばった！韓国との共催勉強会の感想を語る</title>
       <link>https://www.r3it.com/blog/aws/201605_awskrug_jawsug_meetup_debriefing/</link>
       <pubDate>Tue, 28 Jun 2016 13:00:00 +0900</pubDate>
       
@@ -20,7 +151,7 @@
 
 &lt;p&gt;5月20日・21日にJAWS-UGのメンバーと共に韓国のAWSコミュニティ「AWSKRUG」との共催勉強会に行ってきました（その&lt;a href=&#34;https://www.r3it.com/blog/aws/20160524_awskrug_jawsug_meetup1/&#34;&gt;参加報告はこちら&lt;/a&gt;）！　参加メンバーによるリレーブログの2本目は、勉強会での印象や日本のおっさんメンバーの奮闘ぶり、そして感動のAWSかるた授与イベントについて語ります。&lt;/p&gt;
 
-&lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/14/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;、&lt;a href=&#34;https://www.p-united.com/jaws-trips.html&#34;&gt;その3はこちら&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/28/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;、&lt;a href=&#34;https://www.p-united.com/jaws-trips.html&#34;&gt;その3はこちら&lt;/a&gt;です。&lt;/p&gt;
 
 &lt;h1 id=&#34;登場人物:0cf57785d27aaa9710f06bb19c5ee5a1&#34;&gt;登場人物&lt;/h1&gt;
 
@@ -220,7 +351,7 @@
 
 &lt;h1 id=&#34;リレーブログ-その3に続きます-https-www-p-united-com-jaws-trips-html:0cf57785d27aaa9710f06bb19c5ee5a1&#34;&gt;リレーブログ&lt;a href=&#34;https://www.p-united.com/jaws-trips.html&#34;&gt;その3に続きます&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/14/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/28/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;です。&lt;/p&gt;
 </description>
     </item>
     
@@ -1317,179 +1448,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 会期：2016年5月11日(水)〜5月13日(金) 10:00〜18:00(最終日のみ17:00)&lt;br /&gt;
 出展ブース：&lt;a href=&#34;http://www.japan-it.jp/haru/doc/floorplan16/&#34;&gt;東ホール 55-44&lt;/a&gt;&lt;br /&gt;
 招待券お申し込みは&lt;a href=&#34;http://www.cloud-japan.jp/haru/inv/&#34;&gt;こちら&lt;/a&gt;から&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone 関連イベント・セミナーのご案内</title>
-      <link>https://www.r3it.com/solutions/kintone/event-seminar/</link>
-      <pubDate>Mon, 25 Apr 2016 10:30:37 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/kintone/event-seminar/</guid>
-      <description>
-
-&lt;h2 id=&#34;kintoneを活用した新しい企業向けシステム開発-活用事例解説セミナー:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー&lt;/h2&gt;
-
-&lt;h3 id=&#34;大阪:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;大阪&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/737&#34;&gt;2016年07月22日（金） 15時〜&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/665&#34;&gt;2016年08月26日（金） 15時〜&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;東京:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;東京&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/736&#34;&gt;2016年07月14日（木） 15時～&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;上記のご都合のあう日時を選択してお申込みください:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;上記のご都合のあう日時を選択してお申込みください&lt;/h2&gt;
-
-&lt;p&gt;本セミナーは kintone 導入前のお客様におすすめです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;サイボウズ様より「基礎からわかるkintone(キントーン)」&lt;/li&gt;
-&lt;li&gt;弊社より「ハイスピードSIで実現する具体的な活用事例解説」&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;をお届けします。&lt;/p&gt;
-
-&lt;p&gt;いずれも参加費は無料となっております。会場はともにサイボウズ株式会社様のセミナースペースで、大阪会場は梅田阪急ビルオフィスタワー、東京会場は東京日本橋タワー27Fとなります。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-circle wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/cybozuconf2015.png&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;kintoneセミナー-kintone-café-その他イベント開催報告:41bc53ee7dc5b6b7cffedba2c3adfe2d&#34;&gt;kintoneセミナー / kintone Café / その他イベント開催報告&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;「kintoneセミナー」はkintone導入前や導入後の高度な使い方を学習する企業様向けセミナーです。&lt;/li&gt;
-&lt;li&gt;「kintone Café」は&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;弊社や弊社社員が貢献しているコミュニティ活動&lt;/a&gt;です。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-&lt;tbody&gt;
-
-&lt;tr&gt;
-  &lt;td&gt;2016年 6月22日&lt;/td&gt;
-  &lt;td&gt;【大阪】kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;https://www.facebook.com/r3institute/posts/1167134853308763&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 6月16日&lt;/td&gt;
-  &lt;td&gt;【東京】kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー&lt;/td&gt;
-  &lt;td&gt;&lt;a href=&#34;https://www.facebook.com/r3institute/posts/1161146517240930&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 5月26日&lt;/td&gt;
-  &lt;td&gt;kintone devCamp 2016 Spring&lt;br&gt;アプリ開発なんて怖くない！gusuku でお手軽 kintone アプリ管理+α♪&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1143848215637427&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&#34;http://www.slideshare.net/r3it/kintone-devcamp-2016-spring-gusukukintone&#34; target=&#34;_blank&#34;&gt;ハンズオン資料&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 5月25日&lt;/td&gt;
-  &lt;td&gt;【大阪】kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1142187385803510&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 4月21日&lt;/td&gt;
-  &lt;td&gt;【東京】gusukuで始める効率的なkintoneアプリ開発 虎の巻&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://www.r3it.com/blog/kintone/20160421_gusuku-seminar/&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 4月21日&lt;/td&gt;
-  &lt;td&gt;【東京】kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1119553784733537&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 4月15日&lt;/td&gt;
-  &lt;td&gt;kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1115743081781274&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 2月10日&lt;/td&gt;
-  &lt;td&gt;kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1070907176264865&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2016年 1月16日&lt;/td&gt;
-  &lt;td&gt;kintone Café 関西女子会 Vol.1&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/36096&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年12月11日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;
-  満員御礼 / &lt;a href=&#34;https://www.facebook.com/r3institute/posts/1038056139549969&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年11月20日&lt;/td&gt;
-  &lt;td&gt;kintone Café大阪 Vol.5&lt;/td&gt;
-  &lt;td&gt;
-  &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/33338&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&#34;https://www.r3it.com/blog/kintone/20151120_cybozu-conference-osaka/&#34;&gt;イベントの様子&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年11月 6日 / 20日&lt;/td&gt;
-  &lt;td&gt;cybozu.com カンファレンス 2015&lt;/td&gt;
-  &lt;td&gt;
-  ご来場いただきありがとうございました&lt;br&gt;
-  &lt;a href=&#34;https://cybozuconf.com/report/&#34; target=&#34;_blank&#34;&gt;公式サイト イベントレポート&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&#34;https://www.r3it.com/blog/kintone/20151120_cybozu-conference-osaka/&#34;&gt;弊社のイベントレポート&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年10月 2日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;
-    満員御礼
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 9月18日&lt;/td&gt;
-  &lt;td&gt;kintone Café大阪 Vol.4&lt;/td&gt;
-  &lt;td&gt;
-    &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/30055&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;br&gt;
-    &lt;a href=&#34;https://www.r3it.com/blog/kintone/20150918_kintonecafe-osaka4/&#34;&gt;イベントの様子&lt;/a&gt;&lt;br&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 8月21日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 7月15日&lt;/td&gt;
-  &lt;td&gt;kintone Café大阪 Vol.3&lt;/td&gt;
-  &lt;td&gt;
-    &lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/27685&#34; target=&#34;_blank&#34;&gt;イベント詳細&lt;/a&gt;&lt;br&gt;
-    カスタマイズ内容解説：&lt;a href=&#34;https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_01/&#34;&gt;前編&lt;/a&gt; / &lt;a href=&#34;https://www.r3it.com/blog/kintone/20150715_kintonecafe-osaka3_02/&#34;&gt;後編&lt;/a&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 7月 7日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼 / &lt;a href=&#34;https://www.facebook.com/r3institute/posts/958263934195857&#34; target=&#34;_blank&#34;&gt;セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;2015年 6月12日&lt;/td&gt;
-  &lt;td&gt;kintone 全国セミナー in 大阪&lt;/td&gt;
-  &lt;td&gt;満員御礼 / &lt;a href=&#34;https://www.facebook.com/media/set/?set=a.941388759216708.1073741828.225790337443224&amp;type=3&#34; target=&#34;_blank&#34;&gt;
-    セミナーの様子&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/tbody&gt;
-&lt;/table&gt;
 </description>
     </item>
     
