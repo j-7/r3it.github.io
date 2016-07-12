@@ -5,8 +5,37 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Jul 2016 12:00:23 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jul 2016 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>合同AWS勉強会開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/swx-r3-joint-study-meeting-0719/</link>
+      <pubDate>Tue, 12 Jul 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/swx-r3-joint-study-meeting-0719/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/aws/swx_r3.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;サーバーワークス様と初の合同勉強会を開催いたします:9b2ef12a0b61db3f408551acab23eac0&#34;&gt;サーバーワークス様と初の合同勉強会を開催いたします&lt;/h2&gt;
+
+&lt;p&gt;先日&lt;a href=&#34;https://www.r3it.com/info/2016/cloud-diving-service/&#34;&gt;業務提携を発表させて頂きました&lt;/a&gt;サーバーワークス様と合同で、AWSの勉強会を開催することになりましたのでお知らせいたします。&lt;/p&gt;
+
+&lt;p&gt;今回は&lt;strong&gt;「Infrastructure as a Code」&lt;/strong&gt;をテーマにサーバーワークス様とアールスリーとの『あんなこと』や『こんなこと』を聞きながら、実際にワークショップ形式で学習して頂きます。
+&lt;br&gt;
+お申し込みは以下からお願いいたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/48973&#34;&gt;https://r3it.doorkeeper.jp/events/48973&lt;/a&gt;&lt;/strong&gt;
+&lt;br&gt;
+&lt;br&gt;
+当日は飲食をしながらのイベントとなります。参加者の皆さんでアルコールを交えながら、楽しくAWSを学んでみませんか？&lt;/p&gt;
+
+&lt;p&gt;AWSに興味のある方ならどなたでも参加&lt;strong&gt;大歓迎&lt;/strong&gt;です。&lt;/p&gt;
+
+&lt;p&gt;当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AWSについて / クラウドダイビングサービスのご紹介</title>
@@ -91,7 +120,7 @@
 
 &lt;p&gt;構築したシステム運用の外部委託をご希望されるお客様には、弊社もしくはクラウド構築支援サービスを提供しているパートナーとして、株式会社サーバーワークス様をご紹介いたします。&lt;/p&gt;
 
-&lt;h1 id=&#34;課題しようとする課題:82e34ed3e84cd3c8d832c84c714effe0&#34;&gt;課題しようとする課題&lt;/h1&gt;
+&lt;h1 id=&#34;解決しようとする課題:82e34ed3e84cd3c8d832c84c714effe0&#34;&gt;解決しようとする課題&lt;/h1&gt;
 
 &lt;p&gt;既存システムをクラウド化するにあたっての課題にて、一番大きいものはなんでしょうか？&lt;/p&gt;
 
@@ -1172,182 +1201,6 @@ kintoneを使うと開発してテストまでのフェーズも時間がかか�
 
 &lt;p&gt;　今後については、まずは直営店舗や提携先を増やしていきながら、リゾートや地方の出張時にも利用できるよう国内外問わず働ける場所として利用できる拠点を増やしていく計画です。「日本中どこにでもオフィスがあって働ける、という環境をあたりまえのものに。NewWorkが変えていきます。」と永塚氏はその意気込みを語ります。
 　また、kintoneをはじめとしたクラウドサービスを活用した経験から、他部門の様々な業務に応用できる可能性を感じていると永塚氏。「オフィスビルの賃料管理や契約書管理など、必要な情報をリアルタイムに共有できるようなインフラとして他部門で使う場面は多いのではないでしょうか」。現状では数字の集計やグラフによる可視化は手作業で行われており、時間がかかるだけでなく正確性の面でも新たインフラの検討は必要です。「今はExcelに実績を転記してグラフ化するといった、とにかく手間と時間がかかる作業が社内にたくさんあります。今回の仕組みを応用できる可能性は高い」と野﨑氏。今回の案件を新しいやり方として広く社内に広めていきたいと今後について語っていただきました。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AWSKRUG &amp; JAWS-UG Meetup day #1に参加してきました</title>
-      <link>https://www.r3it.com/blog/aws/20160524_awskrug_jawsug_meetup1/</link>
-      <pubDate>Tue, 24 May 2016 16:30:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/20160524_awskrug_jawsug_meetup1/</guid>
-      <description>
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;2016年5月20〜21日に開催されたAWSの韓国ユーザグループ(AWSKRUG)と日本ユーザグループ(JAWS-UG)の合同イベントに参加して韓国で登壇してきました。
-海外での登壇は初めてのことでとても緊張しましたが、すばらしい体験ができましたので、みなさまにもその一旦を感じていただければ幸いです。&lt;/p&gt;
-
-&lt;p&gt;写真（しかも食べ物）多めでお送りします。&lt;/p&gt;
-
-&lt;h1 id=&#34;このようなイベントが開催されることになった経緯:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;このようなイベントが開催されることになった経緯&lt;/h1&gt;
-
-&lt;p&gt;今年3月のJAWS DAYS 2016まで遡ります。JAWS DAYS 2016には韓国からMinyoung Jeongさん、 Dohyun Jungさんが来日して登壇して下さいました。
-実は、昨年のJAWS DAYS 2015にもYounjin Jeongさんに登壇いただいていたのですが、日本から誰かが韓国に行って登壇するということは今までありませんでした。&lt;/p&gt;
-
-&lt;p&gt;これだけお世話になっているので、今度は日本から韓国へお伺いしてお話しようというのが今回のMeetupの始まりでした。&lt;/p&gt;
-
-&lt;p&gt;AWSKRUGのみなさんのご協力もあり、検討をはじめて2週間ほどで開催日や大まかなアジェンダも含めて電光石火で開催が決定されました。&lt;/p&gt;
-
-&lt;h1 id=&#34;初韓国:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;初韓国&lt;/h1&gt;
-
-&lt;p&gt;私自身は韓国に行くのがはじめてでした。行ったことある方は実感されていると思うのですが、驚くほど近いですね。&lt;/p&gt;
-
-&lt;p&gt;関西空港からだとたった1時間半のフライトです。機内で出される軽食を急いで食べないといけないレベルです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/1.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;空港からホテルまでバスがあったため、バスで移動しました。バスのシートがすごいゆったりで快適なバスでした。ただ、運転は荒めで基本的に急ブレーキでした。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/2.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;day1-community-meetup-day:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;DAY1 Community Meetup Day&lt;/h1&gt;
-
-&lt;h2 id=&#34;main-session:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;Main Session&lt;/h2&gt;
-
-&lt;p&gt;初日はCommunity Meetup Dayとして、両国のコミュニティの代表がコミュニティの紹介やどうやって運営しているかなどを共有しました。&lt;/p&gt;
-
-&lt;p&gt;弊社もマイクロサポーターとして運営をサポートさせていただきました。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/3.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;AWSKRUG代表のMinyoung Jeongさんと通訳をしてくださったDohyun Jungさん
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/6.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/6.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;JAWS-UGからのお話は現代表の立花さんから
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/5.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;終始なごやかなムードで会は進みました。
-「代表が交代するときどうやって選出しているのか？」など積極的に韓国の方からも質問をいただきました。&lt;/p&gt;
-
-&lt;p&gt;AWSKRUGは、昨年AWSのソウルリージョンができてから急激に参加者が増えているそうで大きな盛り上がりを見せています。
-まだ、スタートアップ企業の方が多いようで、このあたりは昔のJAWS-UGと状況が似ているように思います。
-ソウルリージョンができてからは、導入を検討している企業も増えてきているとのことなので、徐々にエンタープライズ系の参加者も増えてくるんじゃないかと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;day1-after-party:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;DAY1 After Party&lt;/h2&gt;
-
-&lt;p&gt;今回のイベントは、AWS Koreaさんに全面的なサポートいただき、会場でのネットワーキングパーティを開催していただきました。&lt;/p&gt;
-
-&lt;p&gt;みなさん積極的に情報交換をして、韓国でもAWSは人気で盛り上がってるということを実感できました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/7.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/7.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/8.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/8.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/9.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/9.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/10.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/10.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/11.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/11.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;day1-night-party:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;DAY1 Night Party&lt;/h2&gt;
-
-&lt;p&gt;更なる懇親を深めるために、韓国のみなさんがおすすめのお店にご招待いただきました。
-韓国では、ビールに韓国焼酎をミックスして飲むのがポピュラーでそうです。&lt;/p&gt;
-
-&lt;p&gt;コミュニティやAWSの話だけではなく、韓国のことや日本のこと、料理のことなどお互いを理解できるすばらしい時間でした。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/12.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/12.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/13.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/13.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/14.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/14.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/15.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/15.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;day2-technical-day:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;DAY2 Technical Day&lt;/h1&gt;
-
-&lt;h2 id=&#34;main-session-1:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;Main Session&lt;/h2&gt;
-
-&lt;p&gt;2日目は、テクニカルデーとして、技術的な内容も含むセッションが実施されました。
-ただ、日本勢は技術的なことも大切だけれどもJAWS-UGがどうして今の規模・姿になったのか、その根底にはどういう想いが流れているのかを共有することが大切だと考え、コミュニティに貢献する大切さを伝えるセッションを多めにしてお伝えしました。&lt;/p&gt;
-
-&lt;p&gt;各セッションの詳細は&lt;a href=&#34;http://tech-haneman.hatenablog.com/entry/2016/05/24/120322&#34;&gt;アカツカさんのブログ&lt;/a&gt;に詳細があるためそちらを参照してください。&lt;/p&gt;
-
-&lt;p&gt;私は、弊社の紹介に合わせkintoneのデモとJAWS DAYS 2016の基調講演で話した内容のサマリーをご紹介しました。&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;49fac09689f647e48a9143dd40440112&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;h2 id=&#34;韓国でのkintone:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;韓国でのkintone&lt;/h2&gt;
-
-&lt;p&gt;kintoneは韓国ではほとんど無名な状態で、「知ってる人？」と聞いたところ誰も知りませんでした。
-ただ、デモをするとどういったものかはすぐに理解していただけたようで、質問タイムにはもっとデモを見せてくれというような声も上がっていました。&lt;/p&gt;
-
-&lt;p&gt;韓国語版がまだないため、英語版を使ってみると言っていただいた方もおられたので、kintoneは韓国でも受け入れられるということがよくわかりました。&lt;/p&gt;
-
-&lt;h2 id=&#34;初の外国でのプレゼン:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;初の外国でのプレゼン&lt;/h2&gt;
-
-&lt;p&gt;日本ではかなりプレゼン慣れしている私ですが、外国でのプレゼンは初体験でした。とても流暢に通訳していただける方もいらっしゃったので、日本語でプレゼンすることもできたのですが、ここはあえて英語でプレゼンをしてみました。&lt;/p&gt;
-
-&lt;p&gt;英語が得意というわけではないのでかなりのBroken Englishですが、Brokenでも伝えることはできるので、笑ってほしいところで笑っていただき、なんとか伝えたいメッセージは伝えられ無事に役目を果たすことができました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/16.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/16.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/17.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/17.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/18.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/18.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/18-1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/18-1.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;awsカルタは世界でも通用する:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;AWSカルタは世界でも通用する！&lt;/h2&gt;
-
-&lt;p&gt;今回はAWSカルタとAWS麻雀を韓国に持って行っていました。&lt;/p&gt;
-
-&lt;p&gt;日本のマイクロスポンサーの費用を使って、AWSカルタの上位2名を日本の勉強会にご招待しようということで、AWSカルタ真剣勝負を実施しました。&lt;/p&gt;
-
-&lt;p&gt;AWSカルタとは、AWSの各サービスのアイコンと名称だけが書かれたカルタを並べ、読み札として各サービスの概要を話、該当するサービスのカルタを取るというゲームです。&lt;/p&gt;
-
-&lt;p&gt;今回一番印象的だったのは、このAWSカルタの経過です。&lt;/p&gt;
-
-&lt;p&gt;最初は、「これがAWSカルタか〜」という感じで立って参加するみなさん。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/19.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/19.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;次第に、「おや、これ集中しないと取れないぞ」と中腰に。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/20.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/20.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;最後は、「もっと近づかないと負ける！」と座り混む状態に。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/21.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/21.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ゲームは、やはり世界共通で楽しめますね、AWSKRUGのみなさんもAWSカルタの楽しさを体感していただき、カルタを持ってきたことを大変感謝されました。&lt;/p&gt;
-
-&lt;h2 id=&#34;day2-after-party:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;DAY2 After Party&lt;/h2&gt;
-
-&lt;p&gt;勉強会の後は参加者のみなさんと懇親会です。またお酒？と言われそうですが、勉強会本編と同じくらい懇親会は大切です。
-「AWSの資格持ってるんですか？今年取ろうと思うんですよね」と質問いただくなど、みなさん積極的に日本のエンジニアがどういうものなのか知ろうとされていました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/22.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/22.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/23.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/23.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/24.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/24.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/25.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/25.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;awskrugとのコラボはこれからも続きます:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;AWSKRUGとのコラボはこれからも続きます&lt;/h1&gt;
-
-&lt;p&gt;今回初の試みでしたが、思った以上に大成功でした。お互いに大いに刺激を受けることができましたので、このAWSKRUGとJAWS-UGのコラボは今後も継続していってほしいです。&lt;/p&gt;
-
-&lt;p&gt;次回はもっとたくさんの人が参加していただけるような形にしていくそうなので、刺激を受けたいエンジニア（エンジニア以外でも）是非参加してください。&lt;/p&gt;
-
-&lt;h1 id=&#34;おまけ:16a5614535f4da1b14ee49e95eaa53ff&#34;&gt;おまけ&lt;/h1&gt;
-
-&lt;p&gt;最終日に飛行機まで少し時間があったので、南大門から明洞あたりを少しウロウロしたのでその写真を。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/27.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/27.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/28.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/28.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/29.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/29.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/30.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/30.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
