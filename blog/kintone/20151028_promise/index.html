@@ -137,7 +137,7 @@
 		
 		
 
-<h1 id="kintoneでのpromise入門vol-1:c1ad260bf9e57cb45cdea62c34cb1dad">kintoneでのPromise入門Vol.1</h1>
+<h1 id="kintoneでのpromise入門vol-1">kintoneでのPromise入門Vol.1</h1>
 
 <p>2015年7月版でkintone APIにPromiseが導入されました。
 これにより、非同期処理が非常にすっきり書けるようになりました。</p>
@@ -145,7 +145,7 @@
 <p>この連載では、Promiseってなんだ？？？という方に向けて、
 このPromiseの基本的な使い方を段階的に説明していきたいと思います。</p>
 
-<h2 id="promiseがないとき:c1ad260bf9e57cb45cdea62c34cb1dad">Promiseがないとき</h2>
+<h2 id="promiseがないとき">Promiseがないとき</h2>
 
 <p>JavaSciript（ECMAScript）でのkintoneカスタマイズ開発は、非同期呼び出しが多用されます。
 その結果、コールバックが多用されることになり、コールバック地獄に陥ることがあります。</p>
@@ -162,7 +162,7 @@
 <p>上の様に、非同期呼び出しの結果を待って、更に次の非同期呼び出しを行いということを繰り返す必要がある場合、ネストがどんどん深くなりプログラムの可読性が落ちていきます。
 また、エラー処理の記述が困難になり、プログラムが複雑化します。</p>
 
-<h2 id="promiseの基礎:c1ad260bf9e57cb45cdea62c34cb1dad">Promiseの基礎</h2>
+<h2 id="promiseの基礎">Promiseの基礎</h2>
 
 <p><code>Promise</code>は、このコールバック地獄を回避する仕組みで、非同期呼び出しを同期呼び出しっぽく記述できるようにすることで、すっきりとしたコードが書けるようになります。</p>
 
@@ -186,7 +186,7 @@
 
 <p>非同期呼び出しに慣れていない人は、この点がハマりやすいのでご注意ください。</p>
 
-<h2 id="kintoneでの利用の基本:c1ad260bf9e57cb45cdea62c34cb1dad">kintoneでの利用の基本</h2>
+<h2 id="kintoneでの利用の基本">kintoneでの利用の基本</h2>
 
 <p>非同期呼び出しをした後に、その結果を待って何か処理したい。
 <code>kintone.api</code>は、Promiseオブジェクトを返します。
@@ -202,7 +202,7 @@ Promiseオブジェクトにはthen()というメソッドがあり、このthen
 };
 </code></pre>
 
-<h1 id="まとめ:c1ad260bf9e57cb45cdea62c34cb1dad">まとめ</h1>
+<h1 id="まとめ">まとめ</h1>
 
 <ul>
 <li>非同期呼び出しのコールバックのネストはプログラムの可読性を下げる</li>
@@ -210,7 +210,7 @@ Promiseオブジェクトにはthen()というメソッドがあり、このthen
 <li>基本は、Promiseオブジェクトのthen()を使って処理する</li>
 </ul>
 
-<h1 id="次回以降の予告:c1ad260bf9e57cb45cdea62c34cb1dad">次回以降の予告</h1>
+<h1 id="次回以降の予告">次回以降の予告</h1>
 
 <p>次回以降は、より複雑な処理をPromiseでどう記述すばいいかと掲載していきます。</p>
 

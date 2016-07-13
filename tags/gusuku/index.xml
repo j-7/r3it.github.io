@@ -18,7 +18,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:b4311aa4c41d489e6ea1cef7567add52&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
 
@@ -32,7 +32,7 @@
 
 &lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
 
-&lt;h1 id=&#34;gusuku-グスク-について:b4311aa4c41d489e6ea1cef7567add52&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
 
 &lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
 
@@ -68,7 +68,7 @@
 
 &lt;p&gt;本記事では、初の試みとなったgusukuの自社セミナー&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#9370DB&#34;&gt;gusukuで始める効率的なkintoneアプリ開発 虎の巻&lt;/font&gt;&lt;/b&gt;についてレポートしたいと思います！&lt;/p&gt;
 
-&lt;h1 id=&#34;セミナー会場について:1c07296cc93065e8639dd7bb6a346ab5&#34;&gt;セミナー会場について&lt;/h1&gt;
+&lt;h1 id=&#34;セミナー会場について&#34;&gt;セミナー会場について&lt;/h1&gt;
 
 &lt;p&gt;会場はサイボウズさんの東京オフィスはバルスペースをお借りしました。
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar1.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar1.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
@@ -78,14 +78,14 @@
 &lt;p&gt;プロジェクタを利用して壁に投影もできるのですが、今回は&lt;b&gt;少人数制&lt;/b&gt;で、アットホームな雰囲気のセミナーとなったので、モニタに資料を映してひとつの机を参加者の皆さんで囲んで頂くスタイルを採用しました！
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar2.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;セミナーの雰囲気:1c07296cc93065e8639dd7bb6a346ab5&#34;&gt;セミナーの雰囲気&lt;/h1&gt;
+&lt;h1 id=&#34;セミナーの雰囲気&#34;&gt;セミナーの雰囲気&lt;/h1&gt;
 
 &lt;p&gt;自社セミナーは初の試みだったのでどうなるかとドキドキしていたのですが、ご自身で実際にgusukuを触っていただいて疑問に感じた点や、プラグインの機能等、いろいろな質問を頂きました。&lt;/p&gt;
 
 &lt;p&gt;今回はgusukuの基本機能であるバージョン管理をメインにハンズオンを行ったのですが、すでに利用されている参加者もいらっしゃったのて、わりとスムーズな進行となりました！
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar3.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;気づいた点-今後のこと:1c07296cc93065e8639dd7bb6a346ab5&#34;&gt;気づいた点、今後のこと&lt;/h1&gt;
+&lt;h1 id=&#34;気づいた点-今後のこと&#34;&gt;気づいた点、今後のこと&lt;/h1&gt;
 
 &lt;p&gt;gusuku自体は&lt;b&gt;&lt;font color=&#34;#99CC99&#34;&gt;kintoneのアプリ開発を便利にするサービス&lt;/font&gt;&lt;/b&gt;なので、弊社としてもわりと&lt;b&gt;開発者には嬉しいサービス&lt;/b&gt;だろうなという思いはあったのですが、自身で講師をしてみて、これは使いようによっては、&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;非開発者、非エンジニアの人でもkintoneを使ってアプリを開発する人には非常に有用なんじゃないかな？&lt;/font&gt;&lt;/b&gt;と思いました(°ω°)&lt;/p&gt;
 
@@ -115,7 +115,7 @@
 
 &lt;p&gt;kintoneアプリ開発でハマり尽くした弊社が開発しました、開発者の皆様の救世主となる、かゆいところに手が届くWebサービスであるgusuku（グスク）の活用方法をハンズオン形式で学んでいただく無料セミナーを開催いたします。&lt;/p&gt;
 
-&lt;h2 id=&#34;参加対象:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;参加対象&lt;/h2&gt;
+&lt;h2 id=&#34;参加対象&#34;&gt;参加対象&lt;/h2&gt;
 
 &lt;p&gt;既にサイボウズkintoneを導入済みで、自社でアプリ作成や運用管理で試行錯誤している企業様におすすめです。gusukuは無料で利用できますので、ハンズオン中にサインアップしていただく事もできますのでお気軽にご参加ください。&lt;/p&gt;
 
@@ -127,21 +127,21 @@
 &lt;p&gt;といった疑問をお抱えのご担当者の方、ぜひお越しください。
 皆様の疑問にお応えします。&lt;/p&gt;
 
-&lt;h2 id=&#34;開催日時:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;開催日時&lt;/h2&gt;
+&lt;h2 id=&#34;開催日時&#34;&gt;開催日時&lt;/h2&gt;
 
 &lt;p&gt;2016年4月21日（木） 18:30 - 20:00&lt;/p&gt;
 
-&lt;h2 id=&#34;会場:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;会場&lt;/h2&gt;
+&lt;h2 id=&#34;会場&#34;&gt;会場&lt;/h2&gt;
 
 &lt;p&gt;サイボウズ 日本橋オフィス 27階 cybozu BAR(バル)&lt;/p&gt;
 
 &lt;p&gt;（イベント前に入館に必要なQRコードをメールにてお送りいたします）&lt;/p&gt;
 
-&lt;h2 id=&#34;参加費用は無料です:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;参加費用は無料です！&lt;/h2&gt;
+&lt;h2 id=&#34;参加費用は無料です&#34;&gt;参加費用は無料です！&lt;/h2&gt;
 
 &lt;p&gt;セミナー参加は無料です、是非ご参加ください。&lt;/p&gt;
 
-&lt;h2 id=&#34;事前準備:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;事前準備&lt;/h2&gt;
+&lt;h2 id=&#34;事前準備&#34;&gt;事前準備&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;kintoneアカウント（開発者ライセンスでもハンズオンは可能です）&lt;/li&gt;
@@ -150,13 +150,13 @@
 
 &lt;p&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/40278&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;　お申込みはこちらから　&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;主催:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;主催&lt;/h2&gt;
+&lt;h2 id=&#34;主催&#34;&gt;主催&lt;/h2&gt;
 
 &lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;gusuku-グスク-について:80702921d4bc998beb5b0c1d82417a6a&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
 
 &lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、デプロイを行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
 
@@ -178,7 +178,7 @@
 
 &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:9259a0836152113e8783ffd4ff93d7d7&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
 
@@ -188,7 +188,7 @@
 
 &lt;p&gt;「添付ファイルプラグイン」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/plugin/fileattach/&#34;&gt;gusuku docs のプラグインページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
 
-&lt;h1 id=&#34;gusuku-グスク-について:9259a0836152113e8783ffd4ff93d7d7&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
 
 &lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
 
@@ -212,18 +212,18 @@
 
 &lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」を活用して業務システムを構築する「ハイスピードSI」の開発スピードをさらに改善し、「&lt;strong&gt;超&lt;/strong&gt;ハイスピードSI」をリリースいたしました。&lt;/p&gt;
 
-&lt;h2 id=&#34;どのような業種業態のお客様でもご相談ください:a766819a230e9954f3059d137d5ad424&#34;&gt;どのような業種業態のお客様でもご相談ください&lt;/h2&gt;
+&lt;h2 id=&#34;どのような業種業態のお客様でもご相談ください&#34;&gt;どのような業種業態のお客様でもご相談ください&lt;/h2&gt;
 
 &lt;p&gt;普段の業務を効率化するシステム構築のお手伝いをいたします。御社のお困りごとをご相談ください。&lt;/p&gt;
 
-&lt;h2 id=&#34;ご要望のヒアリング:a766819a230e9954f3059d137d5ad424&#34;&gt;ご要望のヒアリング&lt;/h2&gt;
+&lt;h2 id=&#34;ご要望のヒアリング&#34;&gt;ご要望のヒアリング&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/0401/hqdefault.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/0401/hqdefault.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;ご覧のようにロスレス伝送経路、俗にいうテレパシーを利用いたしますので、仕様の漏れはございません。仕様を検討する打合せは必要ありません。１分以内にお考えの理想像が弊社エンジニアに伝わります。
 時には、不要なことまで伝わることもありますが、そこは大人の対応をいたします。&lt;/p&gt;
 
-&lt;h2 id=&#34;開発チームのご紹介:a766819a230e9954f3059d137d5ad424&#34;&gt;開発チームのご紹介&lt;/h2&gt;
+&lt;h2 id=&#34;開発チームのご紹介&#34;&gt;開発チームのご紹介&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/0401/P7110267.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/0401/P7110267.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -237,19 +237,19 @@
 
 &lt;p&gt;&lt;strong&gt;細かいご要望にも粘り強く対応するAI搭載の超ハイスピードSIチーム&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;各チームの要員が一斉にプログラムを書き始めるため-おおよそ3秒でシステムが出来上がります:a766819a230e9954f3059d137d5ad424&#34;&gt;各チームの要員が一斉にプログラムを書き始めるため、おおよそ3秒でシステムが出来上がります。&lt;/h3&gt;
+&lt;h3 id=&#34;各チームの要員が一斉にプログラムを書き始めるため-おおよそ3秒でシステムが出来上がります&#34;&gt;各チームの要員が一斉にプログラムを書き始めるため、おおよそ3秒でシステムが出来上がります。&lt;/h3&gt;
 
 &lt;p&gt;ヒアリング時と同様に、開発要員への仕様の伝達もテレパシーを用いて行いますので、1分以内に完璧な仕様が伝わります。&lt;/p&gt;
 
 &lt;p&gt;また、開発者は大勢おりますので、多数の案件が来ても問題ございません。&lt;/p&gt;
 
-&lt;h1 id=&#34;アールスリーインスティテュートについて:a766819a230e9954f3059d137d5ad424&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
+&lt;h1 id=&#34;アールスリーインスティテュートについて&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
 
 &lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneやAWSなど各種クラウドサービスを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
 
 &lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;本件に関するお問い合わせ先:a766819a230e9954f3059d137d5ad424&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
+&lt;h1 id=&#34;本件に関するお問い合わせ先&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
 
 &lt;p&gt;本日は&lt;strong&gt;エイプリルフール&lt;/strong&gt;ですが、業務システムに関するお困りごとのご相談はいつでもお待ちしております！&lt;/p&gt;
 
@@ -273,7 +273,7 @@
 
 &lt;p&gt;2016年3月10日・11日の2日間、Cloud Days Tokyoに出展してまいりましたのでそのご報告をさせて頂きます！&lt;/p&gt;
 
-&lt;h2 id=&#34;cloud-days-って:99931c7690ac9bf16371933fab85ff31&#34;&gt;Cloud Days って？&lt;/h2&gt;
+&lt;h2 id=&#34;cloud-days-って&#34;&gt;Cloud Days って？&lt;/h2&gt;
 
 &lt;p&gt;日経BP社主催の大規模なITイベントです。今年2016年は&lt;b&gt;クラウド、ビッグデータ、モバイル＆ウエアラブル、セキュリティ＆ガバナンスそしてIoT&lt;/b&gt;にフォーカスし、東京・大阪、九州・名古屋・札幌の全国5ヶ所で開催されます。&lt;/p&gt;
 
@@ -281,7 +281,7 @@
 
 &lt;p&gt;（近くにテスラが停めてありました。クラウドかIoT!?）&lt;/p&gt;
 
-&lt;h3 id=&#34;cloud-days-tokyo-は初出展:99931c7690ac9bf16371933fab85ff31&#34;&gt;Cloud Days  Tokyo は初出展！&lt;/h3&gt;
+&lt;h3 id=&#34;cloud-days-tokyo-は初出展&#34;&gt;Cloud Days  Tokyo は初出展！&lt;/h3&gt;
 
 &lt;p&gt;昨年は大阪、名古屋、九州の3ヶ所で出展させて頂きましたが、今年初の Cloud Daysはなんと&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF0000&#34;&gt;東京から！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
@@ -293,7 +293,7 @@
 
 &lt;p&gt;M-SOLUTIONSさんのブースではお馴染みのペッパーくんがお出迎え！（写真撮り忘れました・・・）&lt;/p&gt;
 
-&lt;h2 id=&#34;サイボウズさんのブースではミニセミナーも:99931c7690ac9bf16371933fab85ff31&#34;&gt;サイボウズさんのブースではミニセミナーも！&lt;/h2&gt;
+&lt;h2 id=&#34;サイボウズさんのブースではミニセミナーも&#34;&gt;サイボウズさんのブースではミニセミナーも！&lt;/h2&gt;
 
 &lt;p&gt;今回はサイボウズさんと各パートナー様のペアでセッションが展開されるスタイルでした。&lt;/p&gt;
 
@@ -305,13 +305,13 @@
 
 &lt;p&gt;（少し引いてみると、この人だかり！）&lt;/p&gt;
 
-&lt;h2 id=&#34;kintoneとawsの連携ソリューションの展示:99931c7690ac9bf16371933fab85ff31&#34;&gt;kintoneとAWSの連携ソリューションの展示&lt;/h2&gt;
+&lt;h2 id=&#34;kintoneとawsの連携ソリューションの展示&#34;&gt;kintoneとAWSの連携ソリューションの展示&lt;/h2&gt;
 
 &lt;p&gt;ブースの方では、kintoneとAWSの連携ソリューションを展示しておりました。&lt;/p&gt;
 
 &lt;p&gt;kintoneと外部サービスとのさまざまな連携パターンを、皆様に知って頂くことが出来たかなと思っております(๑•̀ㅂ•́)و✧&lt;/p&gt;
 
-&lt;h2 id=&#34;cloud-days-2016-東京のまとめ:99931c7690ac9bf16371933fab85ff31&#34;&gt;Cloud Days 2016 東京のまとめ&lt;/h2&gt;
+&lt;h2 id=&#34;cloud-days-2016-東京のまとめ&#34;&gt;Cloud Days 2016 東京のまとめ&lt;/h2&gt;
 
 &lt;p&gt;今回のイベントの参加者で、弊社ブースにお立ち寄り頂いた方にお話をお聞きすると、kintoneの名前自体をご存知ない方、また名前は知っていても使ったことがない方が多かったように思います。&lt;/p&gt;
 
@@ -337,7 +337,7 @@
 
 &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」向けに、Excel帳票プラグインをリリースいたしました。本プラグインは、kintoneアプリケーションの利用・開発・運用を強力にサポートする「gusuku（グスク）」のエンタープライズプランのオプションとして提供されます。&lt;/p&gt;
 
@@ -345,7 +345,7 @@
 
 &lt;p&gt;帳票に必要なテンプレートファイルはgusuku上で管理され、kintoneアプリケーションとセットで配布することが可能です。&lt;/p&gt;
 
-&lt;h1 id=&#34;主な機能:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;主な機能&lt;/h1&gt;
+&lt;h1 id=&#34;主な機能&#34;&gt;主な機能&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Excelのxlsx形式を使って、帳票レイアウトを作成可能&lt;/li&gt;
@@ -354,11 +354,11 @@
 &lt;li&gt;レコード一覧と各レコードの詳細の両方をまとめて1ファイルに出力可能&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;サービスサイトurl:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;サービスサイトURL&lt;/h1&gt;
+&lt;h1 id=&#34;サービスサイトurl&#34;&gt;サービスサイトURL&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;料金プラン:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;料金プラン&lt;/h1&gt;
+&lt;h1 id=&#34;料金プラン&#34;&gt;料金プラン&lt;/h1&gt;
 
 &lt;p&gt;本プラグインは、gusukuのエンタープライズプラン向けのオプションとして提供されます。帳票テンプレートの種類のほか、出力回数に制限は設けていません。&lt;/p&gt;
 
@@ -372,7 +372,7 @@
 &lt;tr&gt;&lt;td&gt;年額価格（税抜）&lt;/td&gt;&lt;td&gt;198,000円&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;h1 id=&#34;サービス画像:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;サービス画像&lt;/h1&gt;
+&lt;h1 id=&#34;サービス画像&#34;&gt;サービス画像&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;kintoneと統合されたExcel帳票プラグイン&lt;/strong&gt;&lt;/p&gt;
 
@@ -386,13 +386,13 @@
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/template.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/template.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;アールスリーインスティテュートについて:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
+&lt;h1 id=&#34;アールスリーインスティテュートについて&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
 
 &lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneやAWSなど各種クラウドサービスを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
 
 &lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;本件に関するお問い合わせ先:fa9e9e5e8f2d82b15e9fdd97b1ccf35a&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
+&lt;h1 id=&#34;本件に関するお問い合わせ先&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
 
 &lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
 
@@ -440,7 +440,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1064/&#34;&gt;【中級】kintoneアプリのバージョン管理はgusukuにおまかせ！ &lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;決戦前日-デブサミ2016-1日目:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;決戦前日（デブサミ2016 1日目）&lt;/h1&gt;
+&lt;h1 id=&#34;決戦前日-デブサミ2016-1日目&#34;&gt;決戦前日（デブサミ2016 1日目）&lt;/h1&gt;
 
 &lt;p&gt;デブサミ、もとい&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;#FF0000&#34;&gt;Developers Summit&lt;/font&gt;&lt;/b&gt; は年1回開催される、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#7B3CFF&#34;&gt;大規模なITエンジニアのお祭り&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
 
@@ -457,7 +457,7 @@
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-sheep.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-sheep.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;#FF570D&#34;&gt;メェ～ルワイズ&lt;/font&gt;&lt;/b&gt;に乗ってニコニコL(&amp;lsquo;ω&amp;rsquo;)┘三└(&amp;lsquo;ω&amp;rsquo;)｣&lt;/p&gt;
 
-&lt;h2 id=&#34;会場の様子とセッション:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;会場の様子とセッション&lt;/h2&gt;
+&lt;h2 id=&#34;会場の様子とセッション&#34;&gt;会場の様子とセッション&lt;/h2&gt;
 
 &lt;p&gt;サイボウズさんのトラックは別のフロアにあり、WiFiも使える休憩スペースになっていました。
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-junglecafe.jpg&#34; data-lightbox=&#34;devsumi2016&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160218-19/20160218-junglecafe.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -490,12 +490,12 @@
 
 &lt;p&gt;ソースコードを見るとその開発者の方向性が垣間見えるのが面白いなと思います|ω・)ｺｯｿﾘ&lt;/p&gt;
 
-&lt;h1 id=&#34;決戦当日-デブサミ2016-2日目:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;決戦当日（デブサミ2016 2日目）&lt;/h1&gt;
+&lt;h1 id=&#34;決戦当日-デブサミ2016-2日目&#34;&gt;決戦当日（デブサミ2016 2日目）&lt;/h1&gt;
 
 &lt;p&gt;そんなこんなでいよいよデブサミ登壇デビューの日がやってまいりました！
 いつものLTあるあるのように事故で終われないので、ギリギリまでスピーカー控室で資料の調整をするわたしです。&lt;/p&gt;
 
-&lt;h2 id=&#34;ついに決戦の時:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;ついに決戦の時！&lt;/h2&gt;
+&lt;h2 id=&#34;ついに決戦の時&#34;&gt;ついに決戦の時！&lt;/h2&gt;
 
 &lt;p&gt;いよいよやってきました！、&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#CC3300&#34;&gt;決戦の時が…！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
@@ -517,7 +517,7 @@
 
 &lt;p&gt;セルフペースで学習して頂けるような資料にしてますので、ご興味がある方は是非是非ご覧になってみて下さいね！&lt;/p&gt;
 
-&lt;h1 id=&#34;最後に:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;最後に&lt;/h1&gt;
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
 
 &lt;p&gt;早速その後実務でお試し頂いている方もいらっしゃるようで、ありがたい限りです。&lt;/p&gt;
 
@@ -525,9 +525,9 @@
 
 &lt;p&gt;今回登壇機会を与えてくださった皆様に、この場をお借りして御礼申し上げます(`･⊝･´)&lt;/p&gt;
 
-&lt;h3 id=&#34;再掲-資料はこちらで-す-https-www-r3it-com-community-kintonecafe:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;再掲：&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;資料はこちらで〜す！&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;再掲-資料はこちらで-す-https-www-r3it-com-community-kintonecafe&#34;&gt;再掲：&lt;a href=&#34;https://www.r3it.com/community/kintonecafe/&#34;&gt;資料はこちらで〜す！&lt;/a&gt;&lt;/h3&gt;
 
-&lt;h1 id=&#34;ひとりごと:1c6ffaceb4c178bbb9692a72306e944f&#34;&gt;ひとりごと&lt;/h1&gt;
+&lt;h1 id=&#34;ひとりごと&#34;&gt;ひとりごと&lt;/h1&gt;
 
 &lt;p&gt;なんとなんと…&lt;/p&gt;
 
@@ -557,7 +557,7 @@
 
 &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io:d7aac435c14e06d61b849f12d4800108&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」アプリケーションの利用・開発・運用を強力にサポートする「gusuku（グスク）」を正式リリースいたしました。&lt;/p&gt;
 
@@ -579,7 +579,7 @@
 執行役員 ビジネスマーケティング本部長 林田 保
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;主な機能:d7aac435c14e06d61b849f12d4800108&#34;&gt;主な機能&lt;/h1&gt;
+&lt;h1 id=&#34;主な機能&#34;&gt;主な機能&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ステージング環境の定義を作成（開発、テスト、本番等、自由に設定可能です）&lt;/li&gt;
@@ -589,7 +589,7 @@
 &lt;li&gt;各環境のアプリの差分を確認&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;添付ファイル保存プラグインによる機能:d7aac435c14e06d61b849f12d4800108&#34;&gt;添付ファイル保存プラグインによる機能&lt;/h2&gt;
+&lt;h2 id=&#34;添付ファイル保存プラグインによる機能&#34;&gt;添付ファイル保存プラグインによる機能&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;100MB以上の添付ファイルをkintoneアプリのレコードに付属してアップロード可能&lt;/li&gt;
@@ -597,11 +597,11 @@
 &lt;li&gt;画像ファイルに関してはサムネイル画像の自動生成&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;サービスサイトurl:d7aac435c14e06d61b849f12d4800108&#34;&gt;サービスサイトURL&lt;/h1&gt;
+&lt;h1 id=&#34;サービスサイトurl&#34;&gt;サービスサイトURL&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;料金プラン:d7aac435c14e06d61b849f12d4800108&#34;&gt;料金プラン&lt;/h1&gt;
+&lt;h1 id=&#34;料金プラン&#34;&gt;料金プラン&lt;/h1&gt;
 
 &lt;p&gt;管理するkintoneアプリケーション数、添付ファイル保存ディスク容量で4つのプランをご用意しております。&lt;/p&gt;
 
@@ -612,7 +612,7 @@
 &lt;tr&gt;&lt;td&gt;月額価格（税込）&lt;/td&gt;&lt;td&gt;無料&lt;/td&gt;&lt;td&gt;1080円&lt;/td&gt;&lt;td&gt;4320円&lt;/td&gt;&lt;td&gt;10800円&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;h1 id=&#34;gusuku開発の背景:d7aac435c14e06d61b849f12d4800108&#34;&gt;gusuku開発の背景&lt;/h1&gt;
+&lt;h1 id=&#34;gusuku開発の背景&#34;&gt;gusuku開発の背景&lt;/h1&gt;
 
 &lt;p&gt;kintoneは、サイボウズ株式会社の提供するファストシステム開発プラットフォームです。基本的な要素はブラウザ上でドラッグ＆ドロップだけで開発することができ、またクラウドサービスであるため運用環境を用意することなく、すぐに利用を開始することができます。&lt;/p&gt;
 
@@ -626,7 +626,7 @@
 
 &lt;p&gt;こういった問題を解消することを目的に、gusukuを開発いたしました。&lt;/p&gt;
 
-&lt;h1 id=&#34;gusukuを利用していただきたい方:d7aac435c14e06d61b849f12d4800108&#34;&gt;gusukuを利用していただきたい方&lt;/h1&gt;
+&lt;h1 id=&#34;gusukuを利用していただきたい方&#34;&gt;gusukuを利用していただきたい方&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;kintoneで運用しているアプリをお持ちで、頻繁にアプリに変更を加える方&lt;/li&gt;
@@ -634,7 +634,7 @@
 &lt;li&gt;kintoneのファイル添付機能を多用し、保存できるファイルサイズや総容量に不満のある方&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;サービス画像:d7aac435c14e06d61b849f12d4800108&#34;&gt;サービス画像&lt;/h1&gt;
+&lt;h1 id=&#34;サービス画像&#34;&gt;サービス画像&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;ページ概要&lt;/strong&gt;&lt;/p&gt;
 
@@ -656,14 +656,14 @@
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku-release/obj_overview.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku-release/obj_overview.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;アールスリーインスティテュートについて:d7aac435c14e06d61b849f12d4800108&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
+&lt;h1 id=&#34;アールスリーインスティテュートについて&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
 
 &lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。
 当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
 
 &lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;本件に関するお問い合わせ先:d7aac435c14e06d61b849f12d4800108&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
+&lt;h1 id=&#34;本件に関するお問い合わせ先&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
 
 &lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
 
@@ -685,13 +685,13 @@
 
 &lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;gusukuプライベートベータ開始のお知らせ:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuプライベートベータ開始のお知らせ&lt;/h1&gt;
+&lt;h1 id=&#34;gusukuプライベートベータ開始のお知らせ&#34;&gt;gusukuプライベートベータ開始のお知らせ&lt;/h1&gt;
 
 &lt;p&gt;アールスリーインスティテュート（大阪府大阪市、代表取締役 加藤忠智、以下当社）は、本日kintoneでの開発を強力にサポートする「gusuku（グスク）」サービスのプライベートベータの提供を開始いたしました。&lt;/p&gt;
 
 &lt;p&gt;gusuku Webサイト: &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;gusuku開発の背景:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusuku開発の背景&lt;/h2&gt;
+&lt;h2 id=&#34;gusuku開発の背景&#34;&gt;gusuku開発の背景&lt;/h2&gt;
 
 &lt;p&gt;kintoneは、サイボウズ株式会社の提供するファストシステム開発プラットフォームです。基本的な要素はブラウザ上でドラッグ＆ドロップだけで開発することができ、またクラウドサービスであるため運用環境を用意することなく、すぐに利用を開始することができます。&lt;/p&gt;
 
@@ -705,33 +705,33 @@
 
 &lt;p&gt;こういった問題を解消することを目的に、gusukuを開発いたしました。&lt;/p&gt;
 
-&lt;h2 id=&#34;gusukuを利用していただきたい方:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuを利用していただきたい方&lt;/h2&gt;
+&lt;h2 id=&#34;gusukuを利用していただきたい方&#34;&gt;gusukuを利用していただきたい方&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;kintoneで運用しているアプリをお持ちで、頻繁にアプリに変更を加える方&lt;/li&gt;
 &lt;li&gt;kintoneで運用しているアプリが多く、それぞれのアプリの管理に手間がかかると感じられている方&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;プライベートベータへの参加方法:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;プライベートベータへの参加方法&lt;/h2&gt;
+&lt;h2 id=&#34;プライベートベータへの参加方法&#34;&gt;プライベートベータへの参加方法&lt;/h2&gt;
 
 &lt;p&gt;gusukuプライベートベータサービスへの参加は、 &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt; より利用規約をご確認の上、ご登録ください。
 現在、FacebookまたはGoogleアカウントでのご利用が可能となっております。&lt;/p&gt;
 
 &lt;p&gt;準備が整い次第、順次ご連絡をさせていただきます。&lt;/p&gt;
 
-&lt;h2 id=&#34;gusukuの今後について:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;gusukuの今後について&lt;/h2&gt;
+&lt;h2 id=&#34;gusukuの今後について&#34;&gt;gusukuの今後について&lt;/h2&gt;
 
 &lt;p&gt;プライベートベータにてご意見をいただき必要な改修を行った後、本番リリースを行います。本番リリースでは、無料プランと有料プランの両方をご用意する予定となっております。
 有料プランの内容・金額等については、順次公開して参ります。&lt;/p&gt;
 
-&lt;h2 id=&#34;アールスリーインスティテュートについて:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;アールスリーインスティテュートについて&lt;/h2&gt;
+&lt;h2 id=&#34;アールスリーインスティテュートについて&#34;&gt;アールスリーインスティテュートについて&lt;/h2&gt;
 
 &lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。
 当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
 
 &lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;本件に関するお問い合わせ先:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;本件に関するお問い合わせ先&lt;/h2&gt;
+&lt;h2 id=&#34;本件に関するお問い合わせ先&#34;&gt;本件に関するお問い合わせ先&lt;/h2&gt;
 
 &lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
 
@@ -741,7 +741,7 @@
 
 &lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
 
-&lt;h2 id=&#34;サービス画像:a19700a8874e60460e7c82c0c1dd6f9c&#34;&gt;サービス画像&lt;/h2&gt;
+&lt;h2 id=&#34;サービス画像&#34;&gt;サービス画像&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34; data-lightbox=&#34;pics&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/gusuku_img1.png&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>

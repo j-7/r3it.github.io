@@ -143,7 +143,7 @@
 
 <p>そんなLambdaの使い方のひとつで、今日はシステム間連携のバッチジョブを動かすためのTIPSをご紹介したいと思います。</p>
 
-<h1 id="システム間連携ジョブといえばtalend:4cfb8ee9faee5ddf1b51f639d95cdbdd">システム間連携ジョブといえばTalend</h1>
+<h1 id="システム間連携ジョブといえばtalend">システム間連携ジョブといえばTalend</h1>
 
 <p><img src="/images/community/talend_logo_4c_256.png" alt="" /></p>
 
@@ -151,11 +151,11 @@
 
 <p>（Talend と kintone の連携には、拙作の <a href="/community/oss/kc4t/">kc4t</a> というオープンソースのコンポーネントがありますので、ご活用ください！）</p>
 
-<h1 id="まずjavaのコードをlambdaで動かすようにする:4cfb8ee9faee5ddf1b51f639d95cdbdd">まずJavaのコードをLambdaで動かすようにする</h1>
+<h1 id="まずjavaのコードをlambdaで動かすようにする">まずJavaのコードをLambdaで動かすようにする</h1>
 
 <p>僕も弊社もJavaを愛していますので、LambdaでJavaがサポートされた時はとても嬉しかったです！ JavaでLambda関数を作る手順はあまり見かけませんが、幾つかの手順を踏めば難しいものではありません。公式ドキュメントは<a href="https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/lambda-java-how-to-create-deployment-package.html">こちら</a>です。</p>
 
-<h2 id="lambdaで動かすポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd">Lambdaで動かすポイント</h2>
+<h2 id="lambdaで動かすポイント">Lambdaで動かすポイント</h2>
 
 <p>ポイントとしては、以下を踏まえれば問題ないと思います（AWS SDK Eclipse ツールキットを利用すれば同等のことが出来るのだと思いますが、試していません）。</p>
 
@@ -196,7 +196,7 @@
 &lt;/build&gt;
 </code></pre>
 
-<h2 id="lambda関数の実装:4cfb8ee9faee5ddf1b51f639d95cdbdd">Lambda関数の実装</h2>
+<h2 id="lambda関数の実装">Lambda関数の実装</h2>
 
 <p><a href="https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/java-programming-model.html">公式ドキュメント</a>を見ると簡潔に書かれています。ここでは参考までにソース雛形を貼っておきます。</p>
 
@@ -213,11 +213,11 @@
 }
 </code></pre>
 
-<h1 id="talend-のジョブを-lambda-で動かす:4cfb8ee9faee5ddf1b51f639d95cdbdd">Talend のジョブを Lambda で動かす</h1>
+<h1 id="talend-のジョブを-lambda-で動かす">Talend のジョブを Lambda で動かす</h1>
 
 <p>前置きが長くなりました。いよいよTalendで作ったジョブをLambdaで実行する際の手順です。</p>
 
-<h2 id="lambdaで実行するときのポイント:4cfb8ee9faee5ddf1b51f639d95cdbdd">Lambdaで実行するときのポイント</h2>
+<h2 id="lambdaで実行するときのポイント">Lambdaで実行するときのポイント</h2>
 
 <ul>
 <li>通常のJavaで書かれたLambda関数と同じく、すべてのクラスを1つのjarファイルにまとめる</li>
@@ -225,19 +225,19 @@
 <li>その時の依存関係は自力でpom.xmlを修正して頑張る</li>
 </ul>
 
-<h2 id="lambda上で動くジョブを作成するときの注意:4cfb8ee9faee5ddf1b51f639d95cdbdd">Lambda上で動くジョブを作成するときの注意</h2>
+<h2 id="lambda上で動くジョブを作成するときの注意">Lambda上で動くジョブを作成するときの注意</h2>
 
 <p>「ほぼ」普通のジョブ作成で問題ありません。が、1点、Lambdaからは&rdquo;/tmp&rdquo;にしかファイルを作成できないことに注意しましょう。</p>
 
 <p>例えば、S3やFTPでファイルを取得して一旦ローカルに保存するような場合、/tmpに常に書き込むようにしましょう。ローカルにテンポラリファイルが必要なら、File.createTempFile メソッドなどを使ってください。</p>
 
-<h2 id="ジョブのエクスポート時の注意:4cfb8ee9faee5ddf1b51f639d95cdbdd">ジョブのエクスポート時の注意</h2>
+<h2 id="ジョブのエクスポート時の注意">ジョブのエクスポート時の注意</h2>
 
 <p>実行ジョブを作成するときのオプションで「Javaソース」にチェックを入れておいてください！これがないと、作成したジョブのソースがなくて後で困ります。</p>
 
 <p><a href="/images/blog/aws/talend-on-lambda/export.png" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/talend-on-lambda/export.png" width="400" /></a></p>
 
-<h2 id="自分のeclipseプロジェクトに取り込み:4cfb8ee9faee5ddf1b51f639d95cdbdd">自分のEclipseプロジェクトに取り込み</h2>
+<h2 id="自分のeclipseプロジェクトに取り込み">自分のEclipseプロジェクトに取り込み</h2>
 
 <p>生成されたzip内のソースコードをEclipseのソースフォルダにコピーします。この後は、依存関係を解決すべく試行錯誤が始まります。</p>
 
@@ -251,7 +251,7 @@
 
 <p>どんなに頑張ってもEclipse上ではエラーが解決できないファイル「ComponentRuntimeContainerBase.java」がありますが、それはざっくり削除で問題ありません。</p>
 
-<h2 id="lambdaのハンドラはどうする:4cfb8ee9faee5ddf1b51f639d95cdbdd">Lambdaのハンドラはどうする？</h2>
+<h2 id="lambdaのハンドラはどうする">Lambdaのハンドラはどうする？</h2>
 
 <p>先ほどサンプルで書いたJavaのコードの中から、Talendのジョブを呼び出せばOKです。例えば以下の様な形になります。ここでは戻り値がvoidのメソッドを使っています（これもOK!）。</p>
 
@@ -277,7 +277,7 @@
 }
 </code></pre>
 
-<h1 id="まとめ:4cfb8ee9faee5ddf1b51f639d95cdbdd">まとめ</h1>
+<h1 id="まとめ">まとめ</h1>
 
 <p>Lambdaの実行時間には現在のところ<a href="https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html">最大5分の制限</a>がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やETLを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。</p>
 
