@@ -5,8 +5,202 @@
     <link>https://www.r3it.com/tags/aws/</link>
     <description>Recent content in Aws on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jul 2016 10:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jul 2016 14:00:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SW ✕ R3 合同勉強会 『R3とSWのエンジニアと学ぶ イケてる Infrastructure as Code』開催レポート</title>
+      <link>https://www.r3it.com/blog/aws/20160719_r3sw-joint-study-meeting/</link>
+      <pubDate>Fri, 22 Jul 2016 14:00:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/20160719_r3sw-joint-study-meeting/</guid>
+      <description>
+
+&lt;p&gt;先日&lt;a href=&#34;https://www.r3it.com/info/2016/swx-r3-joint-study-meeting-0719/&#34;&gt;合同AWS勉強会開催のお知らせ&lt;/a&gt;でも告知させて頂きましたが、先日7月19日(火曜日)に初の試みとなるサーバーワークスさんとの合同勉強会を開催させて頂きました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting1.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting1.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;当日のタイムテーブル&#34;&gt;当日のタイムテーブル&lt;/h1&gt;
+
+&lt;p&gt;当日はサーバーワークスさんと弊社の会社紹介から始まり、最後はハンズオン形式のワークショップと盛りだくさんな内容となりました！&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;時間&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;プログラム名&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;登壇者&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18:30~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;開場 / 受付開始&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19:00~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;開始 / ご挨拶 /会場説明&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;­&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19:10~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;アールスリーインスティテュート会社紹介&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;金春 利幸&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19:20~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;サーバーワークス様会社紹介&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;桶谷 拓也&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19:30~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;アールスリーのおもろい話&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;池上 縁&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19:45~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SWのおもろい話&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;久保 智夫&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20:00~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;休憩&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20:10~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;乾杯！ワークショップ&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20:10~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;みんなのTerraformでAWSをテラフォーマーさせるぜ&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;メイン担当: 酒井 崇匡&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21:10~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;締めの挨拶&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21:15~&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;懇親会 乾杯&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;~22:00&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;終了＆解散&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;開始のご挨拶-サーバーワークス-永淵-恭子さん&#34;&gt;開始のご挨拶：サーバーワークス 永淵 恭子さん&lt;/h2&gt;
+
+&lt;p&gt;まずは開始のご挨拶から。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting2.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting2.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;会場の提供は、いつもJAWS-UGやkintoneでもお世話になっている&lt;a href=&#34;http://www.denryoku.co.jp/index.html&#34;&gt;中央電力様&lt;/a&gt;です！&lt;/p&gt;
+
+&lt;h2 id=&#34;アールスリーインスティテュート会社紹介-アールスリーインスティテュート-金春&#34;&gt;アールスリーインスティテュート会社紹介：アールスリーインスティテュート 金春&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting9-1.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting9-1.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting9-2.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting9-2.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;当日の資料はこちら。
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/3PxV41P82ZCLDi&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/r3it/20160719-aws-r3sw-infrastructure-as-code-64269160&#34; title=&#34;20160719 AWS合同勉強会 R3とSWのエンジニアと学ぶ 『イケてる 』Infrastructure as Code&#34; target=&#34;_blank&#34;&gt;20160719 AWS合同勉強会 R3とSWのエンジニアと学ぶ 『イケてる 』Infrastructure as Code&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/r3it&#34; target=&#34;_blank&#34;&gt;R3 institute&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;今回は珍しく、あまり対外的に話すことのない弊社アールスリーの起業の経緯と社名の由来も存分に語らせて頂きました。&lt;/p&gt;
+
+&lt;h2 id=&#34;サーバーワークス様会社紹介-サーバーワークス-桶谷-拓也さん&#34;&gt;サーバーワークス様会社紹介：サーバーワークス 桶谷 拓也さん&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting3-1.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting3-1.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting3-2.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting3-2.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;当日の資料はこちら。
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/ExF0yuWB97VOSw&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/okeee0315/20160719-r3sw&#34; title=&#34;20160719 サーバーワークスのご紹介 + Yambda - #r3sw&#34; target=&#34;_blank&#34;&gt;20160719 サーバーワークスのご紹介 + Yambda - #r3sw&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/okeee0315&#34; target=&#34;_blank&#34;&gt;Takuya Oketani&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪オフィスの移転が決まったそうです。&lt;/p&gt;
+
+&lt;p&gt;オフィスの移転が落ち着いたら是非訪問させて頂きたいですね(⑅っˇωˇ )っ&lt;/p&gt;
+
+&lt;h2 id=&#34;アールスリーのおもろい話-アールスリーインスティテュート-池上&#34;&gt;アールスリーのおもろい話：アールスリーインスティテュート 池上&lt;/h2&gt;
+
+&lt;p&gt;ここでまったく資料すら準備していなかったわたくし池上の出番です。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting4-1.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting4-1.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;あまりにも&lt;strong&gt;ノープランだ&lt;/strong&gt;ったのですが、楽しんで聞いて頂けた参加者の方もいたようで幸いでした。&lt;/p&gt;
+
+&lt;p&gt;途中で浅賀を召喚して浅賀にコメントさせるという無茶振りっぷりを遺憾なく発揮。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting4-2.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting4-2.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;このように、周りを巻き込んでいくのが&lt;b&gt;&lt;font size =&#34;5&#34; color=&#34;#0000CC&#34;&gt;弊社アールスリースタイル。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;この登壇でその様子が存分におわかり頂けたのではないかなと思います＼( &amp;lsquo;ω&amp;rsquo;)／&lt;/p&gt;
+
+&lt;h2 id=&#34;サーバーワークスのおもろい話-サーバーワークス-久保-智夫さん&#34;&gt;サーバーワークスのおもろい話：サーバーワークス 久保 智夫さん&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting5-1.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting5-1.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting5-2.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting5-2.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;当日の資料はこちら。
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/DOFyl7biiKyxF3&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/TomooKubo/20160719-r3itxsw-5&#34; title=&#34;20160719 R3ITxSW サーバーワークスに入社したインフラエンジニアがびっくりした5つの出来事&#34; target=&#34;_blank&#34;&gt;20160719 R3ITxSW サーバーワークスに入社したインフラエンジニアがびっくりした5つの出来事&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/TomooKubo&#34; target=&#34;_blank&#34;&gt;Tomo-o Kubo&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;サーバーワークスさんのワークスタイルがなかなかリアルにわかるお話でした。&lt;/p&gt;
+
+&lt;p&gt;入社したら皆さんまずはあだ名が付けられるそう。&lt;/p&gt;
+
+&lt;p&gt;働きやすそうな環境で良いですね！職場は&lt;strong&gt;風通しの良さ、働きやすさ&lt;/strong&gt;は重要な要素だと思います。&lt;/p&gt;
+
+&lt;p&gt;弊社も&lt;b&gt;&lt;font color=&#34;#FF3366&#34;&gt;社員のコミュニティへのコミット推奨、リモートワークOK&lt;/font&gt;&lt;/b&gt;というわりと柔軟な環境なので、そのあたりはやはり今までの職場とは違うなと感じています。&lt;/p&gt;
+
+&lt;h2 id=&#34;みんなのterraformでawsをテラフォーマーさせるぜ-サーバーワークス-酒井-崇匡さん&#34;&gt;みんなのTerraformでAWSをテラフォーマーさせるぜ：サーバーワークス 酒井 崇匡さん&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting7-2.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting7-2.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;当日の資料はこちら。
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/MBZqMdYqmKon6O&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/takamasasakai1/terraform-aws&#34; title=&#34;みんなのTerraformで AWSをテラフォーミングさせるぜ&#34; target=&#34;_blank&#34;&gt;みんなのTerraformで AWSをテラフォーミングさせるぜ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/takamasasakai1&#34; target=&#34;_blank&#34;&gt;Takamasa Sakai&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ワークショップは&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#663399&#34;&gt;Terraformのハンズオン&lt;/font&gt;&lt;/b&gt;です。&lt;/p&gt;
+
+&lt;p&gt;間にアルコールを交えつつのワークショップ。堅苦しさがなくて良いですね！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting6.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting6.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting7-1.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting7-1.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;今回の参加者の方は普段AWSを触られていない方もけっこういらっしゃったようで、このハンズオンでAWSの便利さ、シンプルさがわかったという方もいらっしゃいました。&lt;/p&gt;
+
+&lt;p&gt;最後はビアバッシュで和気あいあいと皆さんコミュニケーションを楽しんでいらっしゃいましたよ！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting8.jpg&#34; data-lightbox=&#34;r3sw-study1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting8.jpg&#34;   width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;普段なかなかお会いすることのない業界からもご参加頂き、いろいろな気づきもあったイベントとなりました。&lt;/p&gt;
+
+&lt;h1 id=&#34;今後も合同勉強会を定期開催します&#34;&gt;今後も合同勉強会を定期開催します！&lt;/h1&gt;
+
+&lt;p&gt;今回初の試みとなった合同勉強会ですが、今後も定期開催を予定しております！&lt;/p&gt;
+
+&lt;p&gt;開催が決まりましたら、弊社サイトやFacebook等でお知らせ致します。&lt;/p&gt;
+
+&lt;p&gt;サーバーワークスさんや弊社アールスリーについて&lt;strong&gt;もっといろいろ知りたい&lt;/strong&gt;という方！&lt;/p&gt;
+
+&lt;p&gt;是非是非ご参加をお待ちしております(๑¯ω¯๑)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>合同AWS勉強会開催のお知らせ</title>
@@ -1428,73 +1622,6 @@ Swapちゃんと確保してなかったら実運用危険。&lt;b&gt;&lt;font c
 &lt;p&gt;以上、駆け足でご紹介してきました。四国・東京・九州・大阪と、コミュニティイベントや展示会など、あちこちのイベントで皆様とお会いできることを、楽しみにしております！&lt;/p&gt;
 
 &lt;p&gt;そして、弊社社員を見かけた際には、ぜひお気軽にお声がけください！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NRIハッカソン＠CEATEC JAPAN 2015 大阪予選に当選しました</title>
-      <link>https://www.r3it.com/blog/etc/hack-for-money/</link>
-      <pubDate>Fri, 21 Aug 2015 12:14:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/hack-for-money/</guid>
-      <description>
-
-&lt;h1 id=&#34;nriハッカソン-ceatec-japan-2015-のアイデアソン当選のご報告&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015 のアイデアソン当選のご報告&lt;/h1&gt;
-
-&lt;p&gt;先日ブログ記事&lt;a href=&#34;https://www.r3it.com/blog/etc/iot-circle-meetup/&#34;&gt;社内活動：IoT部のご紹介&lt;/a&gt;でも少しご報告させて頂いていたのですが、厳選なる抽選をくぐり抜けまして、無事NRIハッカソン＠CEATEC JAPAN 2015 の大阪予選参加が確定致しました(っ´ω`c)♡&lt;/p&gt;
-
-&lt;p&gt;今回のハッカソンのコンセプトは&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;gold&#34;&gt; “Money（お金）”&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;みんなでアイデアを出しあって、IoTを活用してカタチにしていきます。&lt;/p&gt;
-
-&lt;p&gt;どんなアイデアが出るのか今から楽しみです！&lt;/p&gt;
-
-&lt;p&gt;大阪予選は8月30日まで募集しているみたいですよ！個人でもチームでもエントリーが可能となっておりますので、皆さんもお申込みされてみては如何でしょうか？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;Hack for Money IoT  - NRIハッカソン＠CEATEC JAPAN 2015 -&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;tシャツ作ってkiaiも十分&#34;&gt;Tシャツ作ってKIAIも十分！&lt;/h1&gt;
-
-&lt;p&gt;ということで、めでたく参加も確定したので&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;SlateBlue&#34;&gt;IoT部の公式Tシャツ&lt;/font&gt;&lt;/b&gt;を作ることになりました！&lt;/p&gt;
-
-&lt;p&gt;試作段階のものですが、デザインはこんな感じになるみたいですね|･`ω･)
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;女子用は色もロボットのデザインも&lt;b&gt;&lt;font size=&#34;4&#34; color=&#34;HotPink&#34;&gt;女子仕様&lt;/font&gt;&lt;/b&gt;です٩(๑&amp;gt;∀&amp;lt;๑)۶&lt;/p&gt;
-
-&lt;p&gt;リボンはうちのIoT部の偉大なるぶちょーがかわいくデザインしてくれました！&lt;/p&gt;
-
-&lt;p&gt;いやー絵心ある御方まじ尊敬します。ﾟ+.ﾟヽ(●´ω｀●)ﾉ。ﾟ+.ﾟ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design2.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/nandeyanen-robot_design2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;その他の勉強会の告知など&#34;&gt;その他の勉強会の告知など&lt;/h1&gt;
-
-&lt;p&gt;NRIハッカソン＠CEATEC JAPAN 2015 までにも、実は弊社社員が関わる勉強会が開催されます！&lt;/p&gt;
-
-&lt;p&gt;以下はほんの一部です。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;8月29日（土）&lt;/b&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;東北 IT物産展 2015青森&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;東北で行われるITの祭典で、弊社金春がkintoneハンズオンを行います！他にもラズパイハンズオンや多彩なセッション、パネルディスカッション等コンテンツも目白押し！&lt;/p&gt;
-
-&lt;p&gt;東北界隈の皆さん是非足を運んでみてください╭( ･ㅂ･)و ̑̑ ｸﾞｯ !&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;9月5日（土）&lt;/b&gt;&lt;a href=&#34;http://jaws-ug.jp/es/jaws-remote-2015/&#34;&gt;JAWS re:Mote 2015&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;全国の支部をネット会議システムで相互接続し勉強会を実施します！&lt;/p&gt;
-
-&lt;p&gt;最寄りの会場に参加しながら、普段なかなかお目にかかれない各地のスピーカーのセッションが聞けるお得なイベントとなっております！&lt;/p&gt;
-
-&lt;p&gt;会場は全国十数箇所あるので、最寄りの会場にお申込み頂けますよ٩(*˘ ³˘)۶&lt;/p&gt;
-
-&lt;p&gt;弊社社員は、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/28472&#34;&gt;大阪会場&lt;/a&gt;、&lt;a href=&#34;https://jaws-ug-okinawa.doorkeeper.jp/events/29148&#34;&gt;沖縄会場&lt;/a&gt;、&lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/events/29009&#34;&gt;関西女子会会場&lt;/a&gt;から参加します！&lt;/p&gt;
-
-&lt;h1 id=&#34;gusukuのステッカーも完成&#34;&gt;gusukuのステッカーも完成！&lt;/h1&gt;
-
-&lt;p&gt;最後になってしまいましたが、先日&lt;a href=&#34;https://www.r3it.com/blog/kintone/introduction_to_gusuku/&#34;&gt;kintoneをより便利にするgusukuのご紹介&lt;/a&gt;と題してご紹介したkintoneにステージング環境を提供するサービス&lt;b&gt;gusuku&lt;/b&gt;のステッカーも完成しました！&lt;/p&gt;
-
-&lt;p&gt;イベントや勉強会に参加する際には持参しますので、ほしいよ！って方はお気軽にお声掛け下さいね！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hackathon/gusuku20150821.jpg&#34; data-lightbox=&#34;nrihackathon&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hackathon/gusuku20150821.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     

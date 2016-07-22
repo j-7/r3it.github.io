@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    
+
+    <link rel="canonical" href="https://www.r3it.com/blog/aws/20160719_r3sw-joint-study-meeting/">
+
+    
+    <title>SW ✕ R3 合同勉強会 『R3とSWのエンジニアと学ぶ イケてる Infrastructure as Code』開催レポート | アールスリーインスティテュート</title>
+    <meta name="title" content="SW ✕ R3 合同勉強会 『R3とSWのエンジニアと学ぶ イケてる Infrastructure as Code』開催レポート | アールスリーインスティテュート">
+    <meta name="description" content="7月19日(火曜日)初開催となったサーバーワークスさんとの合同勉強会の開催レポートをお届けします！">
+    <meta property="og:title" content="SW ✕ R3 合同勉強会 『R3とSWのエンジニアと学ぶ イケてる Infrastructure as Code』開催レポート | アールスリーインスティテュート"/>
+    <meta property="og:description" content="7月19日(火曜日)初開催となったサーバーワークスさんとの合同勉強会の開催レポートをお届けします！" />
+
+  
+
+    <meta name="keywords" content="aws, 勉強会, クラウドダイビングサービス, ">
+
+    <meta property="fb:app_id" content="478756785605950"/>
+    <meta property="og:type" content="article"/>
+
+    <meta property="og:url" content="https://www.r3it.com/blog/aws/20160719_r3sw-joint-study-meeting/" />
+    
+    <meta property="og:image" content="https://www.r3it.com/images/solutions/aws/swx_r3.png" />
+    
+    <meta property="og:site_name" content="アールスリーインスティテュート">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <link rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script>
+    if (location.hostname == "www.r3it.com") {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-24363556-3', 'auto');
+      ga('send', 'pageview');
+
+      var trackOutboundLink = function(e) {
+          ga('send', 'event', 'outbound', 'click', e.href, {
+            'transport': 'beacon'
+          });
+      }
+    }
+    </script>
+</head>
+<body>
+
+<header class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><img src="/images/r3logo_nav.png"></a>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="navbar-collapse collapse" id="bs-navbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/info/">お知らせ</a></li>
+        <li><a href="/solutions/">ソリューション</a></li>
+        <li><a href="/case/">事例紹介</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="/blog/">ブログ</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/#inquiry"><span class="envelope-style glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="container-fluid" id="breadcrumb-section">
+  <ol class="breadcrumb">
+    <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+    <li><a href="/blog/">R3 Cloud Developers Blog</a></li>
+    <li class="active">SW ✕ R3 合同勉強会 『R3とSWのエンジニアと学ぶ イケてる Infrastructure as Code』開催レポート</li>
+  </ol>
+</section>
+
+<section class="container-fluid" id="blog-article">
+  <div class="row">
+  	<div class="col-md-3">
+	
+      <h4><small>タグ一覧</small></h4>
+	  <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+        <ul class="nav bs-docs-sidenav">
+          
+          <li><a href="/tags/aws"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a></li>
+          
+          <li><a href="/tags/cloud"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a></li>
+          
+          <li><a href="/tags/community"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> community</a></li>
+          
+          <li><a href="/tags/etc"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> etc</a></li>
+          
+          <li><a href="/tags/event"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> event</a></li>
+          
+          <li><a href="/tags/gusuku"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> gusuku</a></li>
+          
+          <li><a href="/tags/jawsug"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> jawsug</a></li>
+          
+          <li><a href="/tags/kintone"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> kintone</a></li>
+          
+          <li><a href="/tags/oss"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> oss</a></li>
+          
+          <li><a href="/tags/talend"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> talend</a></li>
+          
+        </ul>
+	  </nav>
+
+      <p><a href="/recruitment/"><img src="/images/banner/navyback-kintone.png" width="250" height="250" class="wide-image" alt="採用情報はこちら"></a></p>
+	</div>
+  	<div class="col-md-8">
+	  <h1>SW ✕ R3 合同勉強会 『R3とSWのエンジニアと学ぶ イケてる Infrastructure as Code』開催レポート</h1>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        <img src="/images/blog/author/ikegami-100x100.png" class="img-circle pull-left" style="margin-right: 20px;">
+  	    <h5>Posted on 2016-07-22 14:00</h5>
+        <h4>
+          
+            <a href="/blog/author/ikegami/">Ikegami MIdori</a></h4>
+          
+      </div>
+      
+		
+		
+
+<p>先日<a href="/info/2016/swx-r3-joint-study-meeting-0719/">合同AWS勉強会開催のお知らせ</a>でも告知させて頂きましたが、先日7月19日(火曜日)に初の試みとなるサーバーワークスさんとの合同勉強会を開催させて頂きました！
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting1.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting1.jpg"   width="400" /></a></p></p>
+
+<h1 id="当日のタイムテーブル">当日のタイムテーブル</h1>
+
+<p>当日はサーバーワークスさんと弊社の会社紹介から始まり、最後はハンズオン形式のワークショップと盛りだくさんな内容となりました！</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">時間</th>
+<th align="left">プログラム名</th>
+<th align="left">登壇者</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">18:30~</td>
+<td align="left">開場 / 受付開始</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">19:00~</td>
+<td align="left">開始 / ご挨拶 /会場説明</td>
+<td align="left">­</td>
+</tr>
+
+<tr>
+<td align="left">19:10~</td>
+<td align="left">アールスリーインスティテュート会社紹介</td>
+<td align="left">金春 利幸</td>
+</tr>
+
+<tr>
+<td align="left">19:20~</td>
+<td align="left">サーバーワークス様会社紹介</td>
+<td align="left">桶谷 拓也</td>
+</tr>
+
+<tr>
+<td align="left">19:30~</td>
+<td align="left">アールスリーのおもろい話</td>
+<td align="left">池上 縁</td>
+</tr>
+
+<tr>
+<td align="left">19:45~</td>
+<td align="left">SWのおもろい話</td>
+<td align="left">久保 智夫</td>
+</tr>
+
+<tr>
+<td align="left">20:00~</td>
+<td align="left">休憩</td>
+<td align="left">-</td>
+</tr>
+
+<tr>
+<td align="left">20:10~</td>
+<td align="left">乾杯！ワークショップ</td>
+<td align="left">-</td>
+</tr>
+
+<tr>
+<td align="left">20:10~</td>
+<td align="left">みんなのTerraformでAWSをテラフォーマーさせるぜ</td>
+<td align="left">メイン担当: 酒井 崇匡</td>
+</tr>
+
+<tr>
+<td align="left">21:10~</td>
+<td align="left">締めの挨拶</td>
+<td align="left">-</td>
+</tr>
+
+<tr>
+<td align="left">21:15~</td>
+<td align="left">懇親会 乾杯</td>
+<td align="left">-</td>
+</tr>
+
+<tr>
+<td align="left">~22:00</td>
+<td align="left">終了＆解散</td>
+<td align="left">-</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="開始のご挨拶-サーバーワークス-永淵-恭子さん">開始のご挨拶：サーバーワークス 永淵 恭子さん</h2>
+
+<p>まずは開始のご挨拶から。
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting2.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting2.jpg"   width="400" /></a></p></p>
+
+<p>会場の提供は、いつもJAWS-UGやkintoneでもお世話になっている<a href="http://www.denryoku.co.jp/index.html">中央電力様</a>です！</p>
+
+<h2 id="アールスリーインスティテュート会社紹介-アールスリーインスティテュート-金春">アールスリーインスティテュート会社紹介：アールスリーインスティテュート 金春</h2>
+
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting9-1.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting9-1.jpg"   width="400" /></a>
+<a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting9-2.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting9-2.jpg"   width="400" /></a>
+</p>
+
+<p>当日の資料はこちら。
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/3PxV41P82ZCLDi" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/r3it/20160719-aws-r3sw-infrastructure-as-code-64269160" title="20160719 AWS合同勉強会 R3とSWのエンジニアと学ぶ 『イケてる 』Infrastructure as Code" target="_blank">20160719 AWS合同勉強会 R3とSWのエンジニアと学ぶ 『イケてる 』Infrastructure as Code</a> </strong> from <strong><a href="//www.slideshare.net/r3it" target="_blank">R3 institute</a></strong> </div></p></p>
+
+<p>今回は珍しく、あまり対外的に話すことのない弊社アールスリーの起業の経緯と社名の由来も存分に語らせて頂きました。</p>
+
+<h2 id="サーバーワークス様会社紹介-サーバーワークス-桶谷-拓也さん">サーバーワークス様会社紹介：サーバーワークス 桶谷 拓也さん</h2>
+
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting3-1.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting3-1.jpg"   width="400" /></a>
+<a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting3-2.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting3-2.jpg"   width="400" /></a></p>
+
+<p>当日の資料はこちら。
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/ExF0yuWB97VOSw" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/okeee0315/20160719-r3sw" title="20160719 サーバーワークスのご紹介 + Yambda - #r3sw" target="_blank">20160719 サーバーワークスのご紹介 + Yambda - #r3sw</a> </strong> from <strong><a href="//www.slideshare.net/okeee0315" target="_blank">Takuya Oketani</a></strong> </div></p></p>
+
+<p>大阪オフィスの移転が決まったそうです。</p>
+
+<p>オフィスの移転が落ち着いたら是非訪問させて頂きたいですね(⑅っˇωˇ )っ</p>
+
+<h2 id="アールスリーのおもろい話-アールスリーインスティテュート-池上">アールスリーのおもろい話：アールスリーインスティテュート 池上</h2>
+
+<p>ここでまったく資料すら準備していなかったわたくし池上の出番です。
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting4-1.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting4-1.jpg"   width="400" /></a></p></p>
+
+<p>あまりにも<strong>ノープランだ</strong>ったのですが、楽しんで聞いて頂けた参加者の方もいたようで幸いでした。</p>
+
+<p>途中で浅賀を召喚して浅賀にコメントさせるという無茶振りっぷりを遺憾なく発揮。
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting4-2.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting4-2.jpg"   width="400" /></a></p></p>
+
+<p>このように、周りを巻き込んでいくのが<b><font size ="5" color="#0000CC">弊社アールスリースタイル。</font></b></p>
+
+<p>この登壇でその様子が存分におわかり頂けたのではないかなと思います＼( &lsquo;ω&rsquo;)／</p>
+
+<h2 id="サーバーワークスのおもろい話-サーバーワークス-久保-智夫さん">サーバーワークスのおもろい話：サーバーワークス 久保 智夫さん</h2>
+
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting5-1.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting5-1.jpg"   width="400" /></a>
+<a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting5-2.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting5-2.jpg"   width="400" /></a>
+</p>
+
+<p>当日の資料はこちら。
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/DOFyl7biiKyxF3" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TomooKubo/20160719-r3itxsw-5" title="20160719 R3ITxSW サーバーワークスに入社したインフラエンジニアがびっくりした5つの出来事" target="_blank">20160719 R3ITxSW サーバーワークスに入社したインフラエンジニアがびっくりした5つの出来事</a> </strong> from <strong><a href="//www.slideshare.net/TomooKubo" target="_blank">Tomo-o Kubo</a></strong> </div></p></p>
+
+<p>サーバーワークスさんのワークスタイルがなかなかリアルにわかるお話でした。</p>
+
+<p>入社したら皆さんまずはあだ名が付けられるそう。</p>
+
+<p>働きやすそうな環境で良いですね！職場は<strong>風通しの良さ、働きやすさ</strong>は重要な要素だと思います。</p>
+
+<p>弊社も<b><font color="#FF3366">社員のコミュニティへのコミット推奨、リモートワークOK</font></b>というわりと柔軟な環境なので、そのあたりはやはり今までの職場とは違うなと感じています。</p>
+
+<h2 id="みんなのterraformでawsをテラフォーマーさせるぜ-サーバーワークス-酒井-崇匡さん">みんなのTerraformでAWSをテラフォーマーさせるぜ：サーバーワークス 酒井 崇匡さん</h2>
+
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting7-2.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting7-2.jpg"   width="400" /></a></p>
+
+<p>当日の資料はこちら。
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/MBZqMdYqmKon6O" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/takamasasakai1/terraform-aws" title="みんなのTerraformで AWSをテラフォーミングさせるぜ" target="_blank">みんなのTerraformで AWSをテラフォーミングさせるぜ</a> </strong> from <strong><a href="//www.slideshare.net/takamasasakai1" target="_blank">Takamasa Sakai</a></strong> </div></p></p>
+
+<p>ワークショップは<b><font size="6" color="#663399">Terraformのハンズオン</font></b>です。</p>
+
+<p>間にアルコールを交えつつのワークショップ。堅苦しさがなくて良いですね！
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting6.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting6.jpg"   width="400" /></a>
+<a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting7-1.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting7-1.jpg"   width="400" /></a>
+</p></p>
+
+<p>今回の参加者の方は普段AWSを触られていない方もけっこういらっしゃったようで、このハンズオンでAWSの便利さ、シンプルさがわかったという方もいらっしゃいました。</p>
+
+<p>最後はビアバッシュで和気あいあいと皆さんコミュニケーションを楽しんでいらっしゃいましたよ！
+<p><a href="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting8.jpg" data-lightbox="r3sw-study1"><img class="img-thumbnail img-responsive" src="/images/blog/aws/r3sw-study1/r3sw-joint-study-meeting8.jpg"   width="400" /></a>
+</p></p>
+
+<p>普段なかなかお会いすることのない業界からもご参加頂き、いろいろな気づきもあったイベントとなりました。</p>
+
+<h1 id="今後も合同勉強会を定期開催します">今後も合同勉強会を定期開催します！</h1>
+
+<p>今回初の試みとなった合同勉強会ですが、今後も定期開催を予定しております！</p>
+
+<p>開催が決まりましたら、弊社サイトやFacebook等でお知らせ致します。</p>
+
+<p>サーバーワークスさんや弊社アールスリーについて<strong>もっといろいろ知りたい</strong>という方！</p>
+
+<p>是非是非ご参加をお待ちしております(๑¯ω¯๑)</p>
+
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col-md-3">
+  	</div>
+  	<div class="col-md-8">
+
+      <hr noshade>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        関連タグ：
+        <ul class="list-inline">
+          
+          <li><a href="/tags/aws/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a> </li>
+          
+          <li><a href="/tags/event/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> event</a> </li>
+          
+          <li><a href="/tags/etc/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> etc</a> </li>
+          
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">    
+      <div class="col-xs-12 col-sm-12 col-md-6 column">
+        <p>アールスリーインスティテュート  / Mail : <a href="mailto:info@r3it.com">info@r3it.com</a><br />
+        大阪本社<br />
+        Tel : 06-6271-3663 / Fax : 06-6123-7289<br />
+		  〒541-0053<br>
+          大阪府大阪市中央区本町2-3-4-6F</p>
+        <hr noshade>
+        <p>東京支社<br />
+          Tel : 03-6869-6891 / Fax : 03-6869-6892<br>
+          〒108-0023<br>
+          東京都港区芝浦三丁目14番19号 大成企業ビル6階</p>
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/AWS_Logo_Consulting_Partner_DARK.png"><br />
+		AWS Partner Network (APN) <br>コンサルティングパートナー
+      </div>
+      <div class="col-xs-6 col-md-3 column">
+        <img style="max-width:100%" src="/images/cybozu-consulting-si.png"><br />
+		サイボウズ<br> オフィシャルパートナー
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; padding: 20px">&copy; R3 institute All Rights Reserved.</div>
+</footer>
+
+
+<script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/lightbox.css" />
+    <script type="text/javascript" src="/js/lightbox.min.js" charset="utf-8"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
