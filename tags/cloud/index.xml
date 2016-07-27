@@ -5,8 +5,44 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Jul 2016 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jul 2016 10:45:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、gusukuをBasic認証の設定が行われたkintone環境に対応</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0727/</link>
+      <pubDate>Wed, 27 Jul 2016 10:45:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0727/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuからBasic認証の設定が行われたkintone環境に接続できる機能をリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;今までのgusukuではアクセス制限された環境に接続するには、IPアドレス制限でgusukuのサーバIPアドレスを許可していただくしか方法がなかったのですが、今回Basic認証の設定に対応したことで、より柔軟にkintoneへの接続を設定していただくことが可能になりました。&lt;/p&gt;
+
+&lt;p&gt;また、今回のBasic認証はExcel帳票オプションおよびデータバックアップオプションのどちらにも対応しております。帳票やデータバックアップオプションをご活用いただいておりますお客様におかれましても、ご利用いただくことが出来るようになっております。ぜひご活用ください。&lt;/p&gt;
+
+&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
+
+&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、クラウド化を支援する設計・導入コンサルティングサービスを提供開始</title>
@@ -968,47 +1004,6 @@ if(mwdate.length &amp;gt; 0){
 &lt;p&gt;当日会場に来ることができなかった方は必見ですよー(੭ु╹▿╹)੭ु⁾⁾&lt;/p&gt;
 
 &lt;p&gt;それでは皆様！次回は是非&lt;a href=&#34;http://goo.gl/ACn8Po&#34;&gt;AWS Cloud Roadshow&lt;/a&gt;の会場でお会いしましょう！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>cybozu.comカンファレンス2015東京 出展報告</title>
-      <link>https://www.r3it.com/blog/kintone/20151106_cybozu-conference-tokyo/</link>
-      <pubDate>Fri, 13 Nov 2015 09:40:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20151106_cybozu-conference-tokyo/</guid>
-      <description>&lt;p&gt;そろそろ夜は涼しくなってきた沖縄よりこんにちは、西島です。&lt;/p&gt;
-
-&lt;p&gt;さて、今日は11月3日に開催されたcybozu.com カンファレンス 2015 東京のレポートをしたいと思います。弊社のブースではこのように皆様をお迎えしておりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/booth.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/booth.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社の当日の朝は、&lt;a href=&#34;https://www.r3it.com/info/2015/tokyo-branch/&#34;&gt;東京支社開設のお知らせ&lt;/a&gt;とkintoneをもっと便利に！を合言葉に開発された、&lt;a href=&#34;https://www.r3it.com/info/2015/gusuku-release/&#34;&gt;gusuku（グスク）の正式リリース&lt;/a&gt;で開幕しました。お知らせを見てご声援、ご来場いただいた皆様、ありがとうございました。&lt;/p&gt;
-
-&lt;p&gt;イベント初めのプログラムの基調講演のゲストとして、巨大液晶スクリーンの真ん中がパカっと割れて、弊社金春が登場しました。ブースに居たので実物は見られなかったものの、写真で見ても物凄いインパクト・・・。会場最後列から撮影していただいた写真がこちら（サイボウズ浅賀様より写真を頂きました。ありがとうございます！）。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen1.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151103/screen2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;サイボウズ青野社長と共に「変える覚悟、変わる覚悟」「新しいSI」について語りましたが、いかがでしたでしょうか？いろいろと感じるところがあったかと思います。もし何かひとつでも、御社のビジネス上の問題解決のヒントをお持ち帰りいただくことが出来たら、幸いに思っております。&lt;/p&gt;
-
-&lt;p&gt;来週11月20日（金）には大阪にて開催されます。大阪でも基調講演と、弊社ブース、更にはハンズオンセミナーにてお待ちしております。大阪にてお時間のあるからはぜひ、お越しください。詳しい情報、お申込はこちらです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozuconf.com/&#34;&gt;https://cybozuconf.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ハンズオンセミナーは15時50分からの &lt;strong&gt;K-3 「【ハンズオンセミナー】経費精算アプリを作ってプロセス管理をマスターしよう！」&lt;/strong&gt; で、お待ちしております。当初すぐ満員となってしまったのですが、若干キャンセルが出たようで現在残席わずかとなっております。ぜひお申込ください！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;ブースの方では、業種ごとのkintoneの活用事例や、当日正式リリースした&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku（グスク）&lt;/a&gt;に関するお問い合わせで盛り上がっていました。&lt;/p&gt;
-
-&lt;p&gt;特にgusukuの注目度は高く、kintoneアプリのデプロイでお困りの方や、大容量添付ファイルをご利用の方は興味津々で話を聞きに来てくださいました。&lt;/p&gt;
-
-&lt;p&gt;既にkintoneアプリを使いこなしている皆様は、是非お試し頂き（無料版からあります！）、ここが良かった、これが動かなかったなど、フィードバックをどんどんいただけますと、幸いです。&lt;/p&gt;
-
-&lt;p&gt;kintoneの活用方法については、業種別に色々取り揃えておりますので、気になった方はぜひお気軽にお問い合わせください。&lt;/p&gt;
-
-&lt;p&gt;それでは、次回のイベント会場でお会いしましょう！&lt;/p&gt;
 </description>
     </item>
     

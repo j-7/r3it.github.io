@@ -5,8 +5,88 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Jun 2016 17:00:30 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jul 2016 10:45:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、gusukuをBasic認証の設定が行われたkintone環境に対応</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0727/</link>
+      <pubDate>Wed, 27 Jul 2016 10:45:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0727/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuからBasic認証の設定が行われたkintone環境に接続できる機能をリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;今までのgusukuではアクセス制限された環境に接続するには、IPアドレス制限でgusukuのサーバIPアドレスを許可していただくしか方法がなかったのですが、今回Basic認証の設定に対応したことで、より柔軟にkintoneへの接続を設定していただくことが可能になりました。&lt;/p&gt;
+
+&lt;p&gt;また、今回のBasic認証はExcel帳票オプションおよびデータバックアップオプションのどちらにも対応しております。帳票やデータバックアップオプションをご活用いただいておりますお客様におかれましても、ご利用いただくことが出来るようになっております。ぜひご活用ください。&lt;/p&gt;
+
+&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
+
+&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintoneプラグイン活用支援セミナー開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</link>
+      <pubDate>Mon, 25 Jul 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;株式会社アプレッソ様-sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします&#34;&gt;株式会社アプレッソ様、Sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします！&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.appresso.com/&#34;&gt;株式会社アプレッソ様&lt;/a&gt;、&lt;a href=&#34;http://jp.corp-sansan.com/&#34;&gt;Sansan株式会社様&lt;/a&gt;と弊社の3社合同で、kintoneプラグイン活用支援セミナーを開催させていただくことになりましたのでお知らせいたします。&lt;/p&gt;
+
+&lt;p&gt;kintoneはプラグインを利用するとプログラミングを行わなくてもkintoneの活用の幅が一気に広がります。&lt;/p&gt;
+
+&lt;p&gt;今回は、そのようなkintoneの連携プラグインを提供している3社のソリューションをそれぞれご紹介させていただくセミナーとなります。&lt;/p&gt;
+
+&lt;p&gt;弊社からはkintoneのアプリ開発がより便利になる&lt;strong&gt;gusuku&lt;/strong&gt;をご紹介させていただきます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;そもそもgusukuって何ができるの？&lt;/li&gt;
+&lt;li&gt;名前は知っているけど、どのような機能があるのか知りたい&lt;/li&gt;
+&lt;li&gt;具体的な活用方法を教えてほしい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなど、gusukuについて知りたい方は是非本セミナーへお越し下さい！
+&lt;br&gt;
+&lt;br&gt;
+※セミナー終了後には&lt;strong&gt;個別相談会&lt;/strong&gt;も設けております。&lt;/p&gt;
+
+&lt;p&gt;実際に利用されていて疑問点・不明点がある方も、是非この機会にセミナーにお越し頂き、疑問点を解消して帰って頂ければと思います！
+&lt;br&gt;
+&lt;br&gt;
+お申し込みは以下からお願いいたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/762&#34;&gt;【2016/7/29/大阪】ノンプログラミングでここまでできる！kintone プラグイン活用支援セミナー&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone hive Vol.3 大阪に潜入してきました ～kintone hack編～</title>
@@ -1250,131 +1330,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 &lt;p&gt;Lambdaの実行時間には現在のところ&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html&#34;&gt;最大5分の制限&lt;/a&gt;がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やETLを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。&lt;/p&gt;
 
 &lt;p&gt;弊社では kintone だけではなく、オンプレミス（FTP連携サーバもまだまだ多いですよね！）とクラウドを架け橋するような案件もやっております。「こんなこと出来るのかな？」というご相談がありましたら、ぜひお問い合わせください！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016年4月21日 gusuku（グスク）活用無料セミナーのお知らせ</title>
-      <link>https://www.r3it.com/info/2016/gusuku-seminar0421/</link>
-      <pubDate>Tue, 12 Apr 2016 15:00:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/gusuku-seminar0421/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;kintoneアプリ開発でハマり尽くした弊社が開発しました、開発者の皆様の救世主となる、かゆいところに手が届くWebサービスであるgusuku（グスク）の活用方法をハンズオン形式で学んでいただく無料セミナーを開催いたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;参加対象&#34;&gt;参加対象&lt;/h2&gt;
-
-&lt;p&gt;既にサイボウズkintoneを導入済みで、自社でアプリ作成や運用管理で試行錯誤している企業様におすすめです。gusukuは無料で利用できますので、ハンズオン中にサインアップしていただく事もできますのでお気軽にご参加ください。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;「どうやってkintoneアプリの運用管理をしていこう」&lt;/li&gt;
-&lt;li&gt;「他の会社のベストプラクティスを知りたい」&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;といった疑問をお抱えのご担当者の方、ぜひお越しください。
-皆様の疑問にお応えします。&lt;/p&gt;
-
-&lt;h2 id=&#34;開催日時&#34;&gt;開催日時&lt;/h2&gt;
-
-&lt;p&gt;2016年4月21日（木） 18:30 - 20:00&lt;/p&gt;
-
-&lt;h2 id=&#34;会場&#34;&gt;会場&lt;/h2&gt;
-
-&lt;p&gt;サイボウズ 日本橋オフィス 27階 cybozu BAR(バル)&lt;/p&gt;
-
-&lt;p&gt;（イベント前に入館に必要なQRコードをメールにてお送りいたします）&lt;/p&gt;
-
-&lt;h2 id=&#34;参加費用は無料です&#34;&gt;参加費用は無料です！&lt;/h2&gt;
-
-&lt;p&gt;セミナー参加は無料です、是非ご参加ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;事前準備&#34;&gt;事前準備&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneアカウント（開発者ライセンスでもハンズオンは可能です）&lt;/li&gt;
-&lt;li&gt;無線LANが利用できるラップトップ、またはタブレット&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/40278&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;　お申込みはこちらから　&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;主催&#34;&gt;主催&lt;/h2&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、デプロイを行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 大阪で IoT 体験！</title>
-      <link>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</link>
-      <pubDate>Tue, 12 Apr 2016 12:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</guid>
-      <description>
-
-&lt;p&gt;Vol.6 の開催報告を書いたばかりのような気がしますが、&lt;b&gt;&lt;font color=&#34;#FDD000&#34; size=&#34;5&#34;&gt;kintone Café 大阪 Vol.7&lt;/font&gt;&lt;/b&gt; 開催のお知らせです。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-café-大阪-vol-7-開催決定&#34;&gt;kintone Café 大阪 Vol.7 開催決定&lt;/h2&gt;
-
-&lt;p&gt;5月14日(土)に kintone Café 大阪 Vol.7 を開催します！&lt;br&gt;
-場所は前回と同じく弊社アールスリーでの開催です。&lt;br&gt;
-が、会議室があまり広く無いので、&lt;font color=&#34;red&#34; size=&#34;5&#34;&gt;kintone Café 大阪に場所を提供しても良いよ！&lt;/font&gt;という心優しい企業さんがいらっしゃいましたら、いつでもご連絡お待ちしてますm(_ _)m&lt;/p&gt;
-
-&lt;h2 id=&#34;関西のコミュニティが集結&#34;&gt;関西のコミュニティが集結&lt;/h2&gt;
-
-&lt;p&gt;今回は kintone Café 単独での開催では無く、関西のコミュニティが協力し合い、リレー形式で IoT のハンズオンをやる事になりました。&lt;/p&gt;
-
-&lt;p&gt;各コミュニティの得意分野を活かし、電子工作〜データ通信〜可視化まで、IoT の一連の流れを体験して頂けるようにしました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;電子工作が得意な &lt;a href=&#34;http://ouchi-hack.jpn.org/&#34; target=&#34;_blank&#34;&gt;関西おうちハック&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;IoT のデータ通信と言えば &lt;a href=&#34;https://soracom-ug-kansai.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;SORACOM-UG KANSAI&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;可視化が簡単 &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;JAWS-UG 大阪&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://kintonecafe.com/&#34; target=&#34;_blank&#34;&gt;kintone Café&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;kintone Café では、Raspberry Pi に接続した照度センサーのデータを kintone に蓄積し、グラフを使って可視化する事を体験して頂きます。&lt;/p&gt;
-
-&lt;h4 id=&#34;注意&#34;&gt;※注意&lt;/h4&gt;
-
-&lt;p&gt;kintone Café では Raspberry Pi のセットアップは行いませんので、事前に準備をお願いします。&lt;/p&gt;
-
-&lt;p&gt;詳細は申し込みページをご確認下さい。&lt;/p&gt;
-
-&lt;h2 id=&#34;こんな方に最適&#34;&gt;こんな方に最適&lt;/h2&gt;
-
-&lt;p&gt;デバイスを触るのは得意だけど、クラウドはよく分からないんだよね、という声も最近よく聞きます。&lt;/p&gt;
-
-&lt;p&gt;そんな方にこそ、是非 kintone を触って頂き、IoT でも簡単に使える事を体験してもらいたいと思っています。&lt;/p&gt;
-
-&lt;p&gt;kintone の基礎から体験してもらいますので、kintone を触った事が無くて OK です！&lt;/p&gt;
-
-&lt;h2 id=&#34;お申し込みは&#34;&gt;お申し込みは&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34; target=&#34;_blank&#34;&gt;Doorkeeper&lt;/a&gt; からお申し込みをお願いします。&lt;/p&gt;
-
-&lt;p&gt;既に残席わずかですのでお早めに！&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;では、kintone Café 大阪でお会いできる事を楽しみにしてます！&lt;/p&gt;
 </description>
     </item>
     

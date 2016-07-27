@@ -5,8 +5,88 @@
     <link>https://www.r3it.com/info/</link>
     <description>Recent content in Info on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jul 2016 10:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jul 2016 10:45:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、gusukuをBasic認証の設定が行われたkintone環境に対応</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0727/</link>
+      <pubDate>Wed, 27 Jul 2016 10:45:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0727/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuからBasic認証の設定が行われたkintone環境に接続できる機能をリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;今までのgusukuではアクセス制限された環境に接続するには、IPアドレス制限でgusukuのサーバIPアドレスを許可していただくしか方法がなかったのですが、今回Basic認証の設定に対応したことで、より柔軟にkintoneへの接続を設定していただくことが可能になりました。&lt;/p&gt;
+
+&lt;p&gt;また、今回のBasic認証はExcel帳票オプションおよびデータバックアップオプションのどちらにも対応しております。帳票やデータバックアップオプションをご活用いただいておりますお客様におかれましても、ご利用いただくことが出来るようになっております。ぜひご活用ください。&lt;/p&gt;
+
+&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
+
+&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintoneプラグイン活用支援セミナー開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</link>
+      <pubDate>Mon, 25 Jul 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;株式会社アプレッソ様-sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします&#34;&gt;株式会社アプレッソ様、Sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします！&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.appresso.com/&#34;&gt;株式会社アプレッソ様&lt;/a&gt;、&lt;a href=&#34;http://jp.corp-sansan.com/&#34;&gt;Sansan株式会社様&lt;/a&gt;と弊社の3社合同で、kintoneプラグイン活用支援セミナーを開催させていただくことになりましたのでお知らせいたします。&lt;/p&gt;
+
+&lt;p&gt;kintoneはプラグインを利用するとプログラミングを行わなくてもkintoneの活用の幅が一気に広がります。&lt;/p&gt;
+
+&lt;p&gt;今回は、そのようなkintoneの連携プラグインを提供している3社のソリューションをそれぞれご紹介させていただくセミナーとなります。&lt;/p&gt;
+
+&lt;p&gt;弊社からはkintoneのアプリ開発がより便利になる&lt;strong&gt;gusuku&lt;/strong&gt;をご紹介させていただきます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;そもそもgusukuって何ができるの？&lt;/li&gt;
+&lt;li&gt;名前は知っているけど、どのような機能があるのか知りたい&lt;/li&gt;
+&lt;li&gt;具体的な活用方法を教えてほしい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなど、gusukuについて知りたい方は是非本セミナーへお越し下さい！
+&lt;br&gt;
+&lt;br&gt;
+※セミナー終了後には&lt;strong&gt;個別相談会&lt;/strong&gt;も設けております。&lt;/p&gt;
+
+&lt;p&gt;実際に利用されていて疑問点・不明点がある方も、是非この機会にセミナーにお越し頂き、疑問点を解消して帰って頂ければと思います！
+&lt;br&gt;
+&lt;br&gt;
+お申し込みは以下からお願いいたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/762&#34;&gt;【2016/7/29/大阪】ノンプログラミングでここまでできる！kintone プラグイン活用支援セミナー&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>合同AWS勉強会開催のお知らせ</title>
@@ -585,112 +665,6 @@
 &lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
 
 &lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>【事前登録無料】Cloud Days 2016 東京・大阪に出展！よろず相談所開催いたします</title>
-      <link>https://www.r3it.com/info/2016/clouddays/</link>
-      <pubDate>Tue, 01 Mar 2016 10:27:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/clouddays/</guid>
-      <description>
-
-&lt;p&gt;弊社アールスリーインスティテュートは、弊社は今年もいろいろなイベントに出展いたします。&lt;/p&gt;
-
-&lt;p&gt;まずは3月10日から開催します、Cloud Days 2016 東京・大阪に出展いたします。
-ぜひ皆様と直接お会いし、色々なお話を伺えたらと思っております。&lt;/p&gt;
-
-&lt;h2 id=&#34;3月10-11日-木-金-cloud-days-2016-東京&#34;&gt;3月10-11日（木・金） Cloud Days 2016 東京&lt;/h2&gt;
-
-&lt;h2 id=&#34;3月17-18日-木-金-cloud-days-2016-大阪&#34;&gt;3月17-18日（木・金） Cloud Days 2016 大阪&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://expo.nikkeibp.co.jp/cloud/2016spring/&#34;&gt;http://expo.nikkeibp.co.jp/cloud/2016spring/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;3月は10−11日にCloud Days 2016 東京、17-18日にCloud Days 2016 大阪に出展いたします。
-クラウドに関する様々なベンダーが一堂に会する、非常に大規模な展示会となります。&lt;/p&gt;
-
-&lt;p&gt;弊社は「AWSとkintoneを使った新しいSIの姿」と題しまして、各種クラウドサービスを駆使した、新しいSIの姿「ハイスピードSI」および各種活用事例をご紹介いたします。&lt;/p&gt;
-
-&lt;p&gt;更に、完全予約制のよろず相談所を開設いたします！詳しくは以下をご覧ください。&lt;/p&gt;
-
-&lt;p&gt;入場料は3,000円ですが、事前登録していただきますと無料になります。ぜひ事前登録の上、ご来場ください。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;東京事前登録： &lt;a href=&#34;http://expo.nikkeibp.co.jp/cloud/2016spring/regist.html&#34;&gt;http://expo.nikkeibp.co.jp/cloud/2016spring/regist.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;大阪事前登録： &lt;a href=&#34;http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html&#34;&gt;http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;会場にて-アールスリーよろず相談所-を開設いたします&#34;&gt;会場にて【アールスリーよろず相談所】を開設いたします&lt;/h2&gt;
-
-&lt;p&gt;いつも慌ただしい展示会会場ですが、今回は事前予約制でゆっくりお話をお伺いできる体制を整えました。&lt;/p&gt;
-
-&lt;p&gt;どのような内容でも構いません、御社内で抱えている問題を、お気軽にご相談ください。
-ご予約の際にどのような内容をご相談いただくか、ご一報いただければ幸いです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;東京開催よろず相談予約： &lt;a href=&#34;https://coubic.com/r3institute/230118&#34;&gt;https://coubic.com/r3institute/230118&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;大阪開催よろず相談予約： &lt;a href=&#34;https://coubic.com/r3institute/322799&#34;&gt;https://coubic.com/r3institute/322799&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;よろず相談を予約されたお客様には、ご招待券をお送りいたします！&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;大阪会場につきましては、下記のVIPご招待券にてご招待いたします。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;vipご招待券-進呈いたします&#34;&gt;VIPご招待券　進呈いたします&lt;/h2&gt;
-
-&lt;p&gt;大阪会場のみとなりますが、ご希望のお客様には事前登録無しでセミナー受講が可能、専用窓口で入場など各種特典付きの【VIPご招待券】をお送りいたします。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;https://www.r3it.com/#inquiry&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;上記お問い合わせフォームよりご希望の枚数を添えて、お申込ください。&lt;/p&gt;
-
-&lt;p&gt;枚数に限りがございますので、無くなり次第終了とさせていただきます。ご了承ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;各イベント会場にて-皆様のお越しをお待ちしております&#34;&gt;各イベント会場にて、皆様のお越しをお待ちしております。&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Developers Summit 2016（デブサミ2016） サイボウズ特別トラック登壇のお知らせ</title>
-      <link>https://www.r3it.com/info/2016/devsumi0218-19/</link>
-      <pubDate>Thu, 21 Jan 2016 15:27:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/devsumi0218-19/</guid>
-      <description>
-
-&lt;p&gt;弊社アールスリーインスティテュートの池上と金春が、Developers Summit 2016（通称デブサミ2016）の、サイボウズ特別トラックのハンズオン講師として登壇することになりました。&lt;/p&gt;
-
-&lt;h2 id=&#34;developers-summit-2016-デブサミ冬&#34;&gt;Developers Summit 2016 | デブサミ冬&lt;/h2&gt;
-
-&lt;p&gt;2016年2月18日（木）・19日（金） 目黒雅叙園&lt;/p&gt;
-
-&lt;p&gt;詳しくはこちらの&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/&#34;&gt;公式サイト&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;p&gt;サイボウズ特別トラックにてkintoneハンズオンセッションが多数開催されます。そのうち、弊社が担当させていただくセッションをご紹介します。ぜひご参加ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;2月18日16-20-18-f-3-上級-これでもう怖くない-kintone-promise-http-event-shoeisha-jp-devsumi-20160218-session-1062&#34;&gt;2月18日16:20～ 【18-F-3】【上級】&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1062/&#34;&gt;これでもう怖くない、kintone Promise&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;【対象者】&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JavaScript, jQuery, kintone APIの基本的な使い方がわかっていること&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;2月19日14-10-19-f-2-中級-kintoneアプリのバージョン管理はgusukuにおまかせ-http-event-shoeisha-jp-devsumi-20160218-session-1064&#34;&gt;2月19日14:10～ 【19-F-2】【中級】&lt;a href=&#34;http://event.shoeisha.jp/devsumi/20160218/session/1064/&#34;&gt;kintoneアプリのバージョン管理はgusukuにおまかせ！&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;【参加条件】&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneを使って実際にアプリを作成したことがある方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;両セッションとも、詳しくは公式サイトをご確認ください。&lt;/p&gt;
-
-&lt;p&gt;何れのセッションも、kintone開発者の方には非常に役立つハンズオンになるかと思います。
-当日会場でお会いできますことを、心よりお待ちしております。&lt;/p&gt;
 </description>
     </item>
     

@@ -5,8 +5,88 @@
     <link>https://www.r3it.com/tags/gusuku/</link>
     <description>Recent content in Gusuku on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 Jun 2016 13:00:06 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jul 2016 10:45:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/gusuku/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、gusukuをBasic認証の設定が行われたkintone環境に対応</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0727/</link>
+      <pubDate>Wed, 27 Jul 2016 10:45:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0727/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuからBasic認証の設定が行われたkintone環境に接続できる機能をリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;今までのgusukuではアクセス制限された環境に接続するには、IPアドレス制限でgusukuのサーバIPアドレスを許可していただくしか方法がなかったのですが、今回Basic認証の設定に対応したことで、より柔軟にkintoneへの接続を設定していただくことが可能になりました。&lt;/p&gt;
+
+&lt;p&gt;また、今回のBasic認証はExcel帳票オプションおよびデータバックアップオプションのどちらにも対応しております。帳票やデータバックアップオプションをご活用いただいておりますお客様におかれましても、ご利用いただくことが出来るようになっております。ぜひご活用ください。&lt;/p&gt;
+
+&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
+
+&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintoneプラグイン活用支援セミナー開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</link>
+      <pubDate>Mon, 25 Jul 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;株式会社アプレッソ様-sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします&#34;&gt;株式会社アプレッソ様、Sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします！&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.appresso.com/&#34;&gt;株式会社アプレッソ様&lt;/a&gt;、&lt;a href=&#34;http://jp.corp-sansan.com/&#34;&gt;Sansan株式会社様&lt;/a&gt;と弊社の3社合同で、kintoneプラグイン活用支援セミナーを開催させていただくことになりましたのでお知らせいたします。&lt;/p&gt;
+
+&lt;p&gt;kintoneはプラグインを利用するとプログラミングを行わなくてもkintoneの活用の幅が一気に広がります。&lt;/p&gt;
+
+&lt;p&gt;今回は、そのようなkintoneの連携プラグインを提供している3社のソリューションをそれぞれご紹介させていただくセミナーとなります。&lt;/p&gt;
+
+&lt;p&gt;弊社からはkintoneのアプリ開発がより便利になる&lt;strong&gt;gusuku&lt;/strong&gt;をご紹介させていただきます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;そもそもgusukuって何ができるの？&lt;/li&gt;
+&lt;li&gt;名前は知っているけど、どのような機能があるのか知りたい&lt;/li&gt;
+&lt;li&gt;具体的な活用方法を教えてほしい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなど、gusukuについて知りたい方は是非本セミナーへお越し下さい！
+&lt;br&gt;
+&lt;br&gt;
+※セミナー終了後には&lt;strong&gt;個別相談会&lt;/strong&gt;も設けております。&lt;/p&gt;
+
+&lt;p&gt;実際に利用されていて疑問点・不明点がある方も、是非この機会にセミナーにお越し頂き、疑問点を解消して帰って頂ければと思います！
+&lt;br&gt;
+&lt;br&gt;
+お申し込みは以下からお願いいたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/762&#34;&gt;【2016/7/29/大阪】ノンプログラミングでここまでできる！kintone プラグイン活用支援セミナー&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、kintoneのデータバックアップ機能をgusukuにて提供開始</title>
