@@ -5,8 +5,70 @@
     <link>https://www.r3it.com/tags/community/</link>
     <description>Recent content in Community on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Jul 2016 17:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 05 Aug 2016 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 大阪 Vol.8 〜夏の事例祭り！〜 開催報告</title>
+      <link>https://www.r3it.com/blog/kintone/20160722_kintonecafe-osaka8/</link>
+      <pubDate>Fri, 05 Aug 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160722_kintonecafe-osaka8/</guid>
+      <description>
+
+&lt;p&gt;ご報告が大変遅くなりましたが、7月22日（金）に &lt;b&gt;kintone Café 大阪 Vol.8 〜夏の事例祭り！〜&lt;/b&gt; を開催しましたので、ご報告させて頂きます！&lt;/p&gt;
+
+&lt;p&gt;今回は&lt;b&gt;&lt;font color=&#34;#FF6600&#34; size=&#34;5&#34;&gt;「夏の事例祭り！」&lt;/font&gt;&lt;/b&gt;と題して、3名の登壇者に事例発表をして頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/47241&#34;&gt;https://kintonecafe-osaka.doorkeeper.jp/events/47241&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今回の会場はkintoneユーザーであり、先日弊社サービス&lt;b&gt;&lt;font color=&#34;#158C3F&#34; size=&#34;5&#34;&gt;g&lt;/font&gt;&lt;font color=&#34;#CC0F2D&#34; size=&#34;5&#34;&gt;u&lt;/font&gt;&lt;font color=&#34;#158C3F&#34; size=&#34;5&#34;&gt;s&lt;/font&gt;&lt;font color=&#34;#CC0F2D&#34; size=&#34;5&#34;&gt;u&lt;/font&gt;&lt;font color=&#34;#158C3F&#34; size=&#34;5&#34;&gt;k&lt;/font&gt;&lt;font color=&#34;#CC0F2D&#34; size=&#34;5&#34;&gt;u&lt;/font&gt;&lt;/b&gt;の&lt;b&gt;&lt;a href=&#34;https://www.r3it.com/case/cyberagent/&#34; target=&#34;_blank&#34;&gt;導入事例を公開&lt;/a&gt;&lt;/b&gt;させて頂いたサイバーエージェント様！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160722/ca.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160722/ca.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;サイバーエージェント様の大阪オフィスでは、IT勉強会への会場提供を積極的に行われているとの事で、kintone Caféのようなコミュニティにはありがたい限りですね(≧▽≦)&lt;/p&gt;
+
+&lt;h2 id=&#34;事例発表&#34;&gt;事例発表&lt;/h2&gt;
+
+&lt;p&gt;お客様での実際の利用事例や自社内での利用事例という事もあり、残念ながら詳細が公開できないのと、私が運営でバタバタしていた^^; という事もあり、概要だけお伝えさせて頂きます。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;トップバッターはノベルワークスの満村さん&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;ノベルワークスさんでは、kintoneを始めとしたクラウドシステムの企画から導入後のフォローまでを担当されているとの事で、今回は実際のお客様への導入事例をご紹介頂きました。&lt;/p&gt;
+
+&lt;p&gt;大型施設の施工を行われているゼネコンメーカー様で、Excelをkintoneに乗り換える事で情報共有をスピーディに行えるようになったとの事です。&lt;/p&gt;
+
+&lt;p&gt;プリントクリエイターやJavaScriptを使ったカスタマイズを行われましたが、一番ウケが良かったのは標準機能のクロス集計だったとか・・・。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;2番手は株式会社関西 青山さん&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160722/kansai.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160722/kansai.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;関西さんは「青竹のふし」という名前で障がいを持つお子様のデイサービスを展開されています。&lt;/p&gt;
+
+&lt;p&gt;今回は「青竹のふし」の運営でどうkintoneを使っているか、実際の画面を見せて頂きながらのご紹介となりました。&lt;/p&gt;
+
+&lt;p&gt;ウェブサイトからの申し込みから、契約者とのやり取り（親御さんにkintoneのアカウントを発行されています！）まで、kintoneを使ってほぼ全ての業務を進められている事に驚きでした。&lt;/p&gt;
+
+&lt;p&gt;業務を遂行するという目的だけで無く、働いている社員の方々の働き方を改善できる仕組み作りのためにkintoneを活用されているところが素晴らしいです(^^)&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ラストは弊社金春から&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160722/r3.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160722/r3.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ポケモンGOの攻略法の紹介・・・&lt;/p&gt;
+
+&lt;p&gt;では無く、お客様への導入事例と弊社アールスリー内での利用事例をご紹介させて頂きました(๑•̀ㅂ•́)و✧&lt;/p&gt;
+
+&lt;p&gt;公開できる範囲で資料を公開していますので、詳しくはこちらをご覧下さい！&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;92283bb9182f4f1b902585d753db0681&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;次回は予定通りに進めば2ヶ月後の9月に開催予定ですので、こういった内容をやって欲しい！というリクエストがあれば、是非お寄せ下さいm(_ _)m&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ハッカーズチャンプルー2016に参加してきました</title>
@@ -1339,81 +1401,6 @@ kintoneエバンジェリスト 細谷さん&lt;/li&gt;
 &lt;p&gt;当日も運営スタッフとして参加しますので、皆さん！東京でお会いしましょう！！！！&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/ticket&#34;&gt;http://jawsdays2016.jaws-ug.jp/ticket&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016年1月のコミュニティイベントのご案内</title>
-      <link>https://www.r3it.com/blog/community/201601community-events/</link>
-      <pubDate>Thu, 07 Jan 2016 16:38:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/community/201601community-events/</guid>
-      <description>
-
-&lt;p&gt;無事2016年1月2日に海開きを済ませた西島です、こんにちは。&lt;/p&gt;
-
-&lt;p&gt;みなさま、明けましておめでとうございます。&lt;/p&gt;
-
-&lt;p&gt;今年もアールスリーインスティテュートの Cloud Developers Blog をよろしくお願い致します。&lt;/p&gt;
-
-&lt;p&gt;2016年も、弊社社員はあちこちのコミュニティイベントの主催や登壇、大規模イベント、カンファレンスなどなどにお邪魔いたしますので、よろしくお願い致します！&lt;/p&gt;
-
-&lt;p&gt;さて今日は、今月開催のコミュニティイベント＋αを幾つかお知らせいたします！&lt;/p&gt;
-
-&lt;h2 id=&#34;2016年1月9日-土-jaws-ug-関西女子会-2016年新年会&#34;&gt;2016年1月9日（土）/ JAWS-UG 関西女子会 2016年新年会&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dzpp79ucibp5a.cloudfront.net/groups_logos/7045_normal_1448469521_rogo3_01.png&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;https://jawsugkgirls.doorkeeper.jp/events/35309&#34;&gt;https://jawsugkgirls.doorkeeper.jp/events/35309&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;JAWS-UG 関西女子会は 20代～40代まで 幅広い年齢層がいることに加え、業種も営業さんからデザイナー、インフラエンジニアと様々な方々がいらっしゃる、とてもゆるい集まりです！
-各自ご自由に食べ物・飲み物を持ち込んでの新年会！是非ご参加くださいｲｪｲL(&amp;lsquo;ω&amp;rsquo;)┘三└(&amp;lsquo;ω&amp;rsquo;)｣ｲｪｲ&lt;/p&gt;
-
-&lt;h2 id=&#34;2016年1月16日-土-kintone-café-関西女子会-vol-1&#34;&gt;2016年1月16日（土）/ kintone Café 関西女子会 Vol.1&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dzpp79ucibp5a.cloudfront.net/groups_logos/4497_normal_1436153908_kintonecafe_logo.png&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/36096&#34;&gt;https://kintonecafe-osaka.doorkeeper.jp/events/36096&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;kintone Caféに関西女子会が出来ました！
-初開催となるVol.1は、「kintoneを触ってみよう！」です。お子様連れでも大丈夫ですので、お気軽にご参加ください！&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;そしてこの2つのイベント、弊社新オフィスでの開催となりました〜！&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;そんなに広くない場所ですが、コミュニティに場所をご提供できること、とても嬉しく思います！無線LAN完備＆飲食可＆新しい椅子と机！皆様ゆったりのんびりご活用くださいませ。&lt;/p&gt;
-
-&lt;p&gt;（西島はまだ出社したことがないので、実は分からないのですが(^_^;) みなさまお先に体験してきてください）&lt;/p&gt;
-
-&lt;h2 id=&#34;2016年1月16日-土-jaws-ug沖縄-ゼロから始めるモバイルアプリ開発-aws-mobile-hubハンズオン&#34;&gt;2016年1月16日（土）/ JAWS-UG沖縄 ゼロから始めるモバイルアプリ開発 / AWS Mobile Hubハンズオン&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dzpp79ucibp5a.cloudfront.net/groups_logos/1477_normal_1387151472_jaws-ug_okinawa2.png&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;https://jaws-ug-okinawa.doorkeeper.jp/events/36263&#34;&gt;https://jaws-ug-okinawa.doorkeeper.jp/events/36263&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;同日16日土曜日は、JAWS-UG沖縄にて【ゼロから始めるモバイルアプリ開発 / AWS Mobile Hubハンズオン】が開催されます！&lt;/p&gt;
-
-&lt;p&gt;アプリケーションのコードを全く書くこと無く、モバイルアプリが出来てしまうという強力なサービスであるAWS Mobile Hubのハンズオン！ 既に県外からも数名の方が「遊びに行くよ〜！」と宣言してくださっております。まだもう少し空きがありますので、是非ご参加ください！
-現時点で100ページ以上の大作資料になっていますが、まだ全部作りきっておりません。頑張ります・・・(^^;&lt;/p&gt;
-
-&lt;p&gt;今年の沖縄は異常に暑い＆雨が一段と多いので、少しはいい天気になってくれることを期待しましょう・・・。&lt;/p&gt;
-
-&lt;h1 id=&#34;1月以降のイベント&#34;&gt;1月以降のイベント&lt;/h1&gt;
-
-&lt;p&gt;2月のとあるイベントに、弊社社員がお邪魔します！&lt;/p&gt;
-
-&lt;p&gt;しかし残念、まだ秘密ということなので、こちらは公開許可が出次第、またお知らせいたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;jaws-days-2016-サポートします&#34;&gt;JAWS DAYS 2016 サポートします！&lt;/h2&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;http://jaws-ug.jp/wp-content/uploads/2015/09/7bc9d19297583b8e38198401200ae29a.png&#34; alt=&#34;&#34; /&gt;
-&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/&#34;&gt;http://jawsdays2016.jaws-ug.jp/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今年も3月12日に JAWS DAYS 2016 が開催されます。JAWS-UGが主催する最大のお祭りのひとつです。&lt;/p&gt;
-
-&lt;p&gt;弊社社員が運営ボランティアスタッフやセッションに登壇したりと、裏も表も一生懸命活動しております。&lt;/p&gt;
-
-&lt;p&gt;既に&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/ticket&#34;&gt;先行参加受付&lt;/a&gt;も始まっていますので、皆様是非3月の東京新宿でお会いしましょう！&lt;/p&gt;
-
-&lt;p&gt;弊社は今年も企業サポーターとしてJAWS-UGを支援していきます！よろしくお願い致します。&lt;/p&gt;
-
-&lt;h1 id=&#34;以上-今年もよろしくお願いいたします&#34;&gt;以上、今年もよろしくお願いいたします！&lt;/h1&gt;
 </description>
     </item>
     
