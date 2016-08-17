@@ -5,8 +5,91 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blog on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 05 Aug 2016 10:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2016 12:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ヤマムギkintone入門ハンズオンで講師を務めさせて頂きました！</title>
+      <link>https://www.r3it.com/blog/kintone/20160720-0810_yamamugi-kintone_hands-on/</link>
+      <pubDate>Tue, 16 Aug 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160720-0810_yamamugi-kintone_hands-on/</guid>
+      <description>
+
+&lt;p&gt;7月20日から4週間、中央電力山下さんの個人コミュニティヤマムギにおいて、全4回構成のkintone入門ハンズオンが開催されました。&lt;/p&gt;
+
+&lt;p&gt;僭越ながらそのハンズオンの講師として登壇させて頂きましたのでそのご報告です。&lt;/p&gt;
+
+&lt;h2 id=&#34;ヤマムギ-kintone入門ハンズオンについて&#34;&gt;ヤマムギ kintone入門ハンズオンについて&lt;/h2&gt;
+
+&lt;p&gt;山下さんの個人主催のコミュニティで&lt;b&gt;&lt;font color=&#34;#FF6600&#34; size=&#34;5&#34;&gt;ヤマムギ&lt;/font&gt;&lt;/b&gt;というコミュニティがあり、今回のkintoneハンズオンはその中のコンテンツのひとつです。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi5.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ヤマムギ&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://yamamugi.doorkeeper.jp/&#34;&gt;https://yamamugi.doorkeeper.jp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ヤマムギのコンセプトは山下さんのOPスライドをご覧下さい。
+&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/hRuatX4knTwRRs&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/mitsuhiroyamashita90/vol1-opening&#34; title=&#34;ヤマムギVol.1 Opening&#34; target=&#34;_blank&#34;&gt;ヤマムギVol.1 Opening&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/mitsuhiroyamashita90&#34;&gt;Mitsuhiro Yamashita&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;山下さんが社内でkintoneをみんなに活用してもらいたいということから&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;対社内向けに企画したkintoneの勉強会&lt;/font&gt;&lt;/b&gt;を、&lt;b&gt;オープンな形で広くkintoneに興味がある人達&lt;/b&gt;みんなに参加してほしいという思いから今回のコミュニティ勉強会が実現しました。&lt;/p&gt;
+
+&lt;p&gt;今回は山下さんの会社、&lt;a href=&#34;http://www.denryoku.co.jp/&#34;&gt;中央電力様&lt;/a&gt;の大阪・東京のオフィスをオンラインで接続してライブ形式で行いました。&lt;/p&gt;
+
+&lt;p&gt;中央電力様以外の参加者の方で、今後kintoneを積極的に活用していきたいという意欲をお持ちの方にたくさん参加して頂きました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi1.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ハンズオンの内容について&#34;&gt;ハンズオンの内容について&lt;/h3&gt;
+
+&lt;p&gt;今回の参加者は、エンジニアと、非エンジニアの方々の割合が半々ほどだったので、非エンジニアの方でもわかりやすいような、ヤマムギのコンセプトが&lt;b&gt;&lt;font color=&#34;#0000FF&#34; size=&#34;5&#34;&gt;『入門・初級レベルのハンズオンを実施することで、技術を学ぶためのファーストステップとなるような場』&lt;/font&gt;&lt;/b&gt;ということもあり、資料だけ読み返しても復習しやすいような内容で作成させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;段階的に理解が進むようにと、今回は&lt;a href=&#34;http://www.amazon.co.jp/dp/4822296326&#34;&gt;はじめてのkintoneアプリ構築入門&lt;/a&gt;を参考にさせて頂き、構成を検討しました。&lt;/p&gt;
+
+&lt;p&gt;シンプルなkintoneアプリの作成から始まり、段階的にkintoneの機能を細かく見ていくような構成です。最終的にはプロセス管理まで学んで頂くことができます。&lt;/p&gt;
+
+&lt;p&gt;（vol.2は業務の関係で山下さんに講師をお願いしました）&lt;/p&gt;
+
+&lt;p&gt;vol.1では&lt;b&gt;kintoneエバンジェリストの細谷さんによるkintoneの概要説明&lt;/b&gt;から！かなり貴重です。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;vol-1-簡単アプリ開発してみる編-kintoneアプリ作成&#34;&gt;vol.1  簡単アプリ開発してみる編（kintoneアプリ作成）&lt;/h4&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/FpURsMN1dpTIsc&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/r3it/vol1-kintone&#34; title=&#34;ヤマムギ vol.1 kintone 入門ハンズオン&#34; target=&#34;_blank&#34;&gt;ヤマムギ vol.1 kintone 入門ハンズオン&lt;/a&gt; &lt;/strong&gt; de &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/r3it&#34;&gt;R3 institute&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;vol-2-アプリでデータ集計してみる編-データ集計-グラフ機能&#34;&gt;vol.2　アプリでデータ集計してみる編（データ集計・グラフ機能）&lt;/h4&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/LegYEzqawTqWo0&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/mitsuhiroyamashita90/vol2-kintone&#34; title=&#34;ヤマムギVol.2 kintoneデータ集計 ハンズオン資料&#34; target=&#34;_blank&#34;&gt;ヤマムギVol.2 kintoneデータ集計 ハンズオン資料&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/mitsuhiroyamashita90&#34;&gt;Mitsuhiro Yamashita&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;vol-3-便利機能実装編-コメント-変更履歴確認-通知機能&#34;&gt;vol.3　便利機能実装編（コメント・変更履歴確認、通知機能）&lt;/h4&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/eJ8NdGwLlwiDcT&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/r3it/vol3-kintone&#34; title=&#34;ヤマムギ vol.3 kintone 入門ハンズオン&#34; target=&#34;_blank&#34;&gt;ヤマムギ vol.3 kintone 入門ハンズオン&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/r3it&#34;&gt;R3 institute&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;vol-4-プロセス管理編-ワークフロー作成&#34;&gt;vol.4　プロセス管理編（ワークフロー作成）&lt;/h4&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/6nJ9V904foYXqq&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/r3it/vol4-kintone&#34; title=&#34;ヤマムギ vol.4 kintone 入門ハンズオン&#34; target=&#34;_blank&#34;&gt;ヤマムギ vol.4 kintone 入門ハンズオン&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/r3it&#34;&gt;R3 institute&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;先日の&lt;a href=&#34;https://cs.cybozu.co.jp/2016/006217.html&#34;&gt;2016年8月度のアップデート&lt;/a&gt;でUIに大幅変更がかかってしまったので、&lt;font size=&#34;2&#34;&gt;また資料作り直さないと…(´･ε･̥ˋ๑)&lt;/font&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ハンズオン全体を通して&#34;&gt;ハンズオン全体を通して&lt;/h2&gt;
+
+&lt;p&gt;東京で参加された方々はリモートでハンズオンに参加して頂く形だったのですが、勉強会中に実務でkintoneを利用する上での疑問点など、積極的に質問も挙げて頂き、全体を通して講師をさせて頂いた側としても非常に充実した勉強会になったと思います！&lt;/p&gt;
+
+&lt;p&gt;また、非エンジニアの方々でも、標準のkintoneだけにとどまらず、&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;カスタマイズ方法を学びたいという意欲的な参加者の方が非常に多かった&lt;/font&gt;&lt;/b&gt;ことが驚きでした。&lt;/p&gt;
+
+&lt;p&gt;vol.3では、少し早めに本編が終わったということもあり、7/27のkintone Café岡山 Vol.1で登壇した時に発表した資料で少しだけカスタマイズについてもお話をさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/4yieD3ejW5tGEf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/dolly6ca/20160727-kintone-caf-vol1-kintone&#34; title=&#34;20160727 kintone Café 岡山 Vol.1 kintoneカスタマイズことはじめ&#34; target=&#34;_blank&#34;&gt;20160727 kintone Café 岡山 Vol.1 kintoneカスタマイズことはじめ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/dolly6ca&#34;&gt;Midori Ikegami&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;そして、いつも勉強会会場へ迎えてくれる山下さんの&lt;b&gt;手書きイラスト&lt;/b&gt;も、回を増すごとに上達！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi4.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi4.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;今回kintoneの勉強会に初めて参加してくださった方もたくさんいて、業務都合がつく限り最終回まで参加頂いた方もたくさんいました。&lt;/p&gt;
+
+&lt;p&gt;このような機会を通じて、もっと&lt;b&gt;&lt;font color=&#34;#FF1A6F&#34; size=&#34;5&#34;&gt;kintoneの輪&lt;/font&gt;&lt;/b&gt;が広がれば良いなと思う次第です。&lt;/p&gt;
+
+&lt;p&gt;今後も&lt;b&gt;kintoneの魅力&lt;/b&gt;をいろいろな場で伝えていけたらなと思います(ฅΦωΦ)ฅ&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 大阪 Vol.8 〜夏の事例祭り！〜 開催報告</title>
@@ -1763,64 +1846,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 &lt;p&gt;Lambdaの実行時間には現在のところ&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html&#34;&gt;最大5分の制限&lt;/a&gt;がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やETLを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。&lt;/p&gt;
 
 &lt;p&gt;弊社では kintone だけではなく、オンプレミス（FTP連携サーバもまだまだ多いですよね！）とクラウドを架け橋するような案件もやっております。「こんなこと出来るのかな？」というご相談がありましたら、ぜひお問い合わせください！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 大阪で IoT 体験！</title>
-      <link>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</link>
-      <pubDate>Tue, 12 Apr 2016 12:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</guid>
-      <description>
-
-&lt;p&gt;Vol.6 の開催報告を書いたばかりのような気がしますが、&lt;b&gt;&lt;font color=&#34;#FDD000&#34; size=&#34;5&#34;&gt;kintone Café 大阪 Vol.7&lt;/font&gt;&lt;/b&gt; 開催のお知らせです。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-café-大阪-vol-7-開催決定&#34;&gt;kintone Café 大阪 Vol.7 開催決定&lt;/h2&gt;
-
-&lt;p&gt;5月14日(土)に kintone Café 大阪 Vol.7 を開催します！&lt;br&gt;
-場所は前回と同じく弊社アールスリーでの開催です。&lt;br&gt;
-が、会議室があまり広く無いので、&lt;font color=&#34;red&#34; size=&#34;5&#34;&gt;kintone Café 大阪に場所を提供しても良いよ！&lt;/font&gt;という心優しい企業さんがいらっしゃいましたら、いつでもご連絡お待ちしてますm(_ _)m&lt;/p&gt;
-
-&lt;h2 id=&#34;関西のコミュニティが集結&#34;&gt;関西のコミュニティが集結&lt;/h2&gt;
-
-&lt;p&gt;今回は kintone Café 単独での開催では無く、関西のコミュニティが協力し合い、リレー形式で IoT のハンズオンをやる事になりました。&lt;/p&gt;
-
-&lt;p&gt;各コミュニティの得意分野を活かし、電子工作〜データ通信〜可視化まで、IoT の一連の流れを体験して頂けるようにしました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;電子工作が得意な &lt;a href=&#34;http://ouchi-hack.jpn.org/&#34; target=&#34;_blank&#34;&gt;関西おうちハック&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;IoT のデータ通信と言えば &lt;a href=&#34;https://soracom-ug-kansai.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;SORACOM-UG KANSAI&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;可視化が簡単 &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;JAWS-UG 大阪&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://kintonecafe.com/&#34; target=&#34;_blank&#34;&gt;kintone Café&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;kintone Café では、Raspberry Pi に接続した照度センサーのデータを kintone に蓄積し、グラフを使って可視化する事を体験して頂きます。&lt;/p&gt;
-
-&lt;h4 id=&#34;注意&#34;&gt;※注意&lt;/h4&gt;
-
-&lt;p&gt;kintone Café では Raspberry Pi のセットアップは行いませんので、事前に準備をお願いします。&lt;/p&gt;
-
-&lt;p&gt;詳細は申し込みページをご確認下さい。&lt;/p&gt;
-
-&lt;h2 id=&#34;こんな方に最適&#34;&gt;こんな方に最適&lt;/h2&gt;
-
-&lt;p&gt;デバイスを触るのは得意だけど、クラウドはよく分からないんだよね、という声も最近よく聞きます。&lt;/p&gt;
-
-&lt;p&gt;そんな方にこそ、是非 kintone を触って頂き、IoT でも簡単に使える事を体験してもらいたいと思っています。&lt;/p&gt;
-
-&lt;p&gt;kintone の基礎から体験してもらいますので、kintone を触った事が無くて OK です！&lt;/p&gt;
-
-&lt;h2 id=&#34;お申し込みは&#34;&gt;お申し込みは&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34; target=&#34;_blank&#34;&gt;Doorkeeper&lt;/a&gt; からお申し込みをお願いします。&lt;/p&gt;
-
-&lt;p&gt;既に残席わずかですのでお早めに！&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;では、kintone Café 大阪でお会いできる事を楽しみにしてます！&lt;/p&gt;
 </description>
     </item>
     
