@@ -5,8 +5,42 @@
     <link>https://www.r3it.com/info/</link>
     <description>Recent content in Info on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 27 Jul 2016 10:45:06 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 19 Aug 2016 14:20:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリーは東北IT物産展をサポートしています</title>
+      <link>https://www.r3it.com/info/2016/support-tohoku-it-bussanten/</link>
+      <pubDate>Fri, 19 Aug 2016 14:20:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/support-tohoku-it-bussanten/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/community-support/tohoku-it-bussanten2016.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;コミュニティにフルコミットを掲げているアールスリーインスティテュートは、2016年9月10日に開催されます東北IT物産展2016 in 秋田を支援しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tohoku.it-bussanten.website/&#34;&gt;http://tohoku.it-bussanten.website/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;東北it物産展とは&#34;&gt;東北IT物産展とは？&lt;/h1&gt;
+
+&lt;p&gt;東北IT物産展は、デザイン・開発・クラウド・ハードウェア・ビジネス・学生・自治体・地域貢献・コミュニティに関する様々なテーマのセッションを開催し、IT業界のみなさんがレイヤーや職種を超えて「楽しむ」「気づく」「学ぶ」「つながる」イベントを目指しているとのことです。&lt;/p&gt;
+
+&lt;p&gt;東北各県で持ち回りで開催しており、2015年の青森開催に続き、2016年の秋田開催が3回目ということです。&lt;/p&gt;
+
+&lt;h1 id=&#34;kintone基礎ハンズオン-講師として登壇&#34;&gt;「kintone基礎ハンズオン」講師として登壇&lt;/h1&gt;
+
+&lt;p&gt;弊社の金春が「kintoneで強くなる地方企業のIT〜kintone基礎ハンズオン〜」と題しまして、秋田をはじめ東北の皆様にkintoneの基礎からのハンズオンをお届けさせていただきます。&lt;/p&gt;
+
+&lt;p&gt;是非東北の皆様にもkintoneの楽しさを感じていただきたいと思っております。&lt;/p&gt;
+
+&lt;h1 id=&#34;kintone-café-山形開催予定&#34;&gt;kintone Café 山形開催予定！&lt;/h1&gt;
+
+&lt;p&gt;このタイミングに合わせまして、kintoneの勉強会コミュニティである kintone Café が初めて山形に上陸する予定です。詳細は決まり次第またご連絡いたします。&lt;/p&gt;
+
+&lt;p&gt;会場にて皆様とお会いできることを、楽しみにしております！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、gusukuをBasic認証の設定が行われたkintone環境に対応</title>
@@ -588,83 +622,6 @@
 &lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
 
 &lt;p&gt;Mail : info@r3it.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、サイボウズ「kintone」向けプラグインとしてExcel帳票サービスをリリース</title>
-      <link>https://www.r3it.com/info/2016/gusuku-update201603/</link>
-      <pubDate>Tue, 08 Mar 2016 12:00:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/gusuku-update201603/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」向けに、Excel帳票プラグインをリリースいたしました。本プラグインは、kintoneアプリケーションの利用・開発・運用を強力にサポートする「gusuku（グスク）」のエンタープライズプランのオプションとして提供されます。&lt;/p&gt;
-
-&lt;p&gt;Excel帳票プラグインは、gusukuおよびkintoneアプリケーションと統合されたExcel帳票サービスとなります。アプリケーション管理者は、使い慣れたExcelで帳票をレイアウトしすぐに利用可能です。kintoneユーザーは帳票として出力したいレコードを選択し、自由にExcelファイルを出力することが可能です。&lt;/p&gt;
-
-&lt;p&gt;帳票に必要なテンプレートファイルはgusuku上で管理され、kintoneアプリケーションとセットで配布することが可能です。&lt;/p&gt;
-
-&lt;h1 id=&#34;主な機能&#34;&gt;主な機能&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Excelのxlsx形式を使って、帳票レイアウトを作成可能&lt;/li&gt;
-&lt;li&gt;Excel帳票プラグインをインストールしたkintoneアプリケーションが利用できるユーザは誰でも、出力したいレコードを選択し、Excel帳票出力が可能&lt;/li&gt;
-&lt;li&gt;各種フィールドは勿論、添付ファイルの画像なども埋め込み可能&lt;/li&gt;
-&lt;li&gt;レコード一覧と各レコードの詳細の両方をまとめて1ファイルに出力可能&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;サービスサイトurl&#34;&gt;サービスサイトURL&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;料金プラン&#34;&gt;料金プラン&lt;/h1&gt;
-
-&lt;p&gt;本プラグインは、gusukuのエンタープライズプラン向けのオプションとして提供されます。帳票テンプレートの種類のほか、出力回数に制限は設けていません。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;フリープランをご利用の方も含めて、すべてのプランをご利用の方が1ヶ月間無料で機能制限無しでお試しいただけます。&lt;/li&gt;
-&lt;li&gt;お試し期間終了後、継続してご利用希望の場合はエンタープライズプランおよびExcel帳票オプションへのお申し込みが必要となります。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-&lt;tr&gt;&lt;td&gt;月額価格（税抜）&lt;/td&gt;&lt;td&gt;18,000円&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;年額価格（税抜）&lt;/td&gt;&lt;td&gt;198,000円&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h1 id=&#34;サービス画像&#34;&gt;サービス画像&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;kintoneと統合されたExcel帳票プラグイン&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin1.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin1.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;印刷確認ダイアログ&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin2.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/plugin2.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;gusuku上で提供されるテンプレート管理画面&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/template.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/gusuku-update201603/template.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;アールスリーインスティテュートについて&#34;&gt;アールスリーインスティテュートについて&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneやAWSなど各種クラウドサービスを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
-
-&lt;p&gt;Web: &lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;本件に関するお問い合わせ先&#34;&gt;本件に関するお問い合わせ先&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
-
-&lt;p&gt;Mail: butler@gusuku.io&lt;/p&gt;
-
-&lt;p&gt;担当： 西島、金春（こんぱる）&lt;/p&gt;
 </description>
     </item>
     
