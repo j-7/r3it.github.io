@@ -5,8 +5,40 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Aug 2016 14:20:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Aug 2016 11:38:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、別アプリへのリストアを含むgusukuアップデート201608をリリース</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0823/</link>
+      <pubDate>Tue, 23 Aug 2016 11:38:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0823/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuアップデート201608をリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;201608リリースでは、バックアップデータを元アプリとは別のアプリにリストアできる機能の他、kintoneアプリの設計情報ファイルの大幅な改善、アプリ名配布の有無を選択できるようになるなど、よりかゆいところに手が届くメンテナンスアップデートリリースとなっております。&lt;/p&gt;
+
+&lt;p&gt;すべてのアップデートの内容は、&lt;a href=&#34;https://docs.gusuku.io/releases/&#34;&gt;リリースノート&lt;/a&gt;にてご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリーは東北IT物産展をサポートしています</title>
@@ -34,11 +66,13 @@
 
 &lt;p&gt;是非東北の皆様にもkintoneの楽しさを感じていただきたいと思っております。&lt;/p&gt;
 
-&lt;h1 id=&#34;kintone-café-山形開催予定&#34;&gt;kintone Café 山形開催予定！&lt;/h1&gt;
+&lt;h1 id=&#34;kintone-café-秋田vol-0開催&#34;&gt;kintone Café 秋田Vol.0開催！&lt;/h1&gt;
 
-&lt;p&gt;このタイミングに合わせまして、kintoneの勉強会コミュニティである kintone Café が初めて山形に上陸する予定です。詳細は決まり次第またご連絡いたします。&lt;/p&gt;
+&lt;p&gt;このタイミングに合わせまして、kintoneの勉強会コミュニティである kintone Café 秋田 Vol.0 として、東北IT物産展の中でセッションする予定です。詳細は決まり次第またご連絡いたします。&lt;/p&gt;
 
 &lt;p&gt;会場にて皆様とお会いできることを、楽しみにしております！&lt;/p&gt;
+
+&lt;p&gt;（8月23日修正：当初山形とお知らせしておりましたが、秋田が正しい情報でした。お詫びとともに訂正いたします。）&lt;/p&gt;
 </description>
     </item>
     
@@ -1082,222 +1116,6 @@ kintoneでの業務アプリ開発には欠かせない「gusuku」&lt;/h2&gt;
   &lt;tr&gt;&lt;th&gt;Tel&lt;/th&gt;&lt;td&gt;03-6869-6891&lt;/td&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;th&gt;Fax&lt;/th&gt;&lt;td&gt;03-6869-6892&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>リレーブログその2：おっさん英語でがんばった！韓国との共催勉強会の感想を語る</title>
-      <link>https://www.r3it.com/blog/aws/201605_awskrug_jawsug_meetup_debriefing/</link>
-      <pubDate>Tue, 28 Jun 2016 13:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/201605_awskrug_jawsug_meetup_debriefing/</guid>
-      <description>
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;5月20日・21日にJAWS-UGのメンバーと共に韓国のAWSコミュニティ「AWSKRUG」との共催勉強会に行ってきました（その&lt;a href=&#34;https://www.r3it.com/blog/aws/20160524_awskrug_jawsug_meetup1/&#34;&gt;参加報告はこちら&lt;/a&gt;）！　参加メンバーによるリレーブログの2本目は、勉強会での印象や日本のおっさんメンバーの奮闘ぶり、そして感動のAWSかるた授与イベントについて語ります。&lt;/p&gt;
-
-&lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/28/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;、&lt;a href=&#34;https://www.p-united.com/jaws-trips.html&#34;&gt;その3はこちら&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;h1 id=&#34;登場人物&#34;&gt;登場人物&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/members.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/members.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;大谷
-ぎょり
-いとーひろみん
-あかつか
-どんまい
-こんぱる
-こが
-たちばな
-あんどう
-いとーともくん
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;韓国とコラボレーションした勉強会の印象&#34;&gt;韓国とコラボレーションした勉強会の印象&lt;/h1&gt;
-
-&lt;p&gt;大谷：さて、2日目は勉強会の本番でした。8つセッションがありましたが、前半の韓国勢のセッションは何が印象的でしたか？&lt;/p&gt;
-
-&lt;p&gt;ぎょり：チョンさんのqiitaの韓国版はすごく印象的でした。技術があれば、言語は超えるなぁと思って。こんなに日本の技術ネタが韓国にも影響しているんだなぁ、と思ったのと、こんなに濃いネタ、日本で取り入れられてなかったな、やべぇ！と思いました。&lt;/p&gt;
-
-&lt;p&gt;いとー：うん、その角度で日本に触れてくるのかとびっくりした！&lt;/p&gt;
-
-&lt;p&gt;大谷：確かにLINEの日韓翻訳が思いのほか精度が高いというのは面白かった。私はやっぱり「Between」ですね。1700万ダウンロードという段階で、びびったｗ　データ量やオブジェクト数がすごすぎてさらにびびりました。ちょっと使ってみたくなった。&lt;/p&gt;
-
-&lt;p&gt;赤塚：画像データ11億枚で738TBだそうですw&lt;/p&gt;
-
-&lt;p&gt;どんまい：私もあのカップルサービスの話とか課題からの激的な変化は面白いと思いました！&lt;/p&gt;
-
-&lt;p&gt;ぎょり：懇親会で聞けたカップルサービスの裏表は面白かったですね！！！&lt;/p&gt;
-
-&lt;p&gt;いとー：あれはすごくよく考えられたサービスで、進化し続けてるところもすごいなとおもったー&lt;/p&gt;
-
-&lt;p&gt;大谷：どんな裏話が？&lt;/p&gt;
-
-&lt;p&gt;ぎょり：別れたカップルのデータは消えゆく、、とかｗあとダブルでアカウントを作ってサポートに助けを求めたとかｗｗ&lt;/p&gt;
-
-&lt;p&gt;大谷：愛が消えると、写真も消えるわけですね。それにしてもパクさんの「マイグレーションのときもカップルの大切なデータは消さないぜ（キリッ）」はしびれたｗ&lt;/p&gt;
-
-&lt;p&gt;いとー：swapping対応はふいたw&lt;/p&gt;
-
-&lt;p&gt;どんまい：私はパクさんの熱い想いを受けてアプリをダウンロードしました&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26546262294_64e3159cfc_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26546262294_64e3159cfc_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;赤塚：Minyoungさんのサーバーレスでのリアルタイムアナリティクスの話も分かりやすかったです。&lt;/p&gt;
-
-&lt;p&gt;大谷：さすがAWSKRUGのファウンダーでした。Lambdaは韓国でも大人気でしたね。&lt;/p&gt;
-
-&lt;p&gt;ぎょり：面白かった！&lt;/p&gt;
-
-&lt;p&gt;いとー：抱えてる課題や考えてることが日本と同じでなんだか嬉しかったです&lt;/p&gt;
-
-&lt;p&gt;いとー：この時間帯まで、終始日本勢は妙な緊張の空気を出しまくってたなwww あれはちょっとおもしろかったww&lt;/p&gt;
-
-&lt;p&gt;赤塚：笑いのレベルが高くてネタを組み直す日本勢w&lt;/p&gt;
-
-&lt;h1 id=&#34;jaws-ug勢登壇の裏舞台&#34;&gt;JAWS-UG勢登壇の裏舞台&lt;/h1&gt;
-
-&lt;p&gt;大谷：で、日本勢はいきなり金春さん、赤塚さん、小賀さんまで英語で来ましたよ。どうですか。&lt;/p&gt;
-
-&lt;p&gt;いとー：速攻金春さんのは動画あげちゃいましたねw&lt;/p&gt;
-
-&lt;p&gt;赤塚：動画はやめてw&lt;/p&gt;
-
-&lt;p&gt;いとー：おとーさんならいけると思ったのと、実際あげても良さそうな出来？感じ？だったのでwww&lt;/p&gt;
-
-&lt;p&gt;こんぱる：いつもいとーさんに遊ばれてます(T_T)&lt;/p&gt;
-
-&lt;p&gt;いとー：おや？&lt;/p&gt;
-
-&lt;p&gt;赤塚：驚きのクオリティで次の私のプレッシャーが半端なかったです&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26546230734_f7767926a3_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26546230734_f7767926a3_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;大谷：でも、赤塚さんの顔抜きは韓国の方に伝わったんでしょうか？&lt;/p&gt;
-
-&lt;p&gt;赤塚：それはわかりませんな&lt;/p&gt;
-
-&lt;p&gt;大谷：小賀さんとか、前の二人が登壇している時は、超プレッシャーとか言ってたのに、すごい流暢でむかついたｗ&lt;/p&gt;
-
-&lt;p&gt;赤塚：ちょっと本気出してましたねw私がちゃんとやると思ってなかったので無駄にプレッシャーかかったと今だに文句言われますw&lt;/p&gt;
-
-&lt;p&gt;こんぱる：いやでも、ほんと英語でチャレンジしてよかった。ものすごく勉強になったし、やってみるもんだな〜と思った&lt;/p&gt;
-
-&lt;p&gt;どんまい：身内意識で恐縮ですが、ぱるると小賀さんは英語堪能そうなイメージがあったんですが、うちの赤塚さんが英語でしゃべりだしたときは涙目になりましたね。そして顔抜きも結構ウケけて思わずFBにアップしてました&lt;/p&gt;
-
-&lt;p&gt;赤塚：どんさんとぎょりは母親の目をしていました。&lt;/p&gt;
-
-&lt;p&gt;実はぎょりの新卒面接した一人は私で、やつがサーバーワークスを世界に連れて行くと言ってくれたから”絶対採用”の評価を次のフェーズに出したんです。きっちり約束を果たしてくれたので泣きながら頑張りましたw&lt;/p&gt;
-
-&lt;p&gt;いとー：ほんとみなさんのすごさを感じましたー。あんなにざわざわしてたのに、はじまったらぜんぜん違うし、みんなしっかり笑いもとって。笑いといえば韓国勢のみなさまもすごいですが&lt;/p&gt;
-
-&lt;p&gt;大谷：確かにFusicのチョさんの「AWS前」と「AWS後」の写真は吹いた。で、最後の立花さんが日本語で安心した。&lt;/p&gt;
-
-&lt;p&gt;こんぱる：立花さんは流暢な日本語を操るよね&lt;/p&gt;
-
-&lt;p&gt;赤塚：一つのセンテンスに一つの目的なのはとても大事ですね。&lt;/p&gt;
-
-&lt;p&gt;いとー：立花さんあの入りはほんと上手でしたね。さすがです。&lt;/p&gt;
-
-&lt;p&gt;赤塚：安定のICDP（田舎・クラウド・デザイン・パターン）！&lt;/p&gt;
-
-&lt;p&gt;大谷：それにしても韓国メンバーの日本語通訳はまじで助かりました。&lt;/p&gt;
-
-&lt;p&gt;赤塚：Dohyunさん・SangUkさんのおかげですね。&lt;/p&gt;
-
-&lt;h1 id=&#34;登壇してなんぼなのでltもがんばった&#34;&gt;登壇してなんぼなのでLTもがんばった！&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26546247364_cdcd64dd6f_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26546247364_cdcd64dd6f_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ぎょり：で、LTのトップはイビサさんの発表、まじさすが！と思いましたｗ何よりもカメラ目線がｗｗ&lt;/p&gt;
-
-&lt;p&gt;いとー：ほんとほんと！！！トップバッターとしてほんと素晴らしかったです。あ、おれやっべーなーって思ったw&lt;/p&gt;
-
-&lt;p&gt;大谷：あざっす。でも、本人はカメラ忘れたｗ&lt;/p&gt;
-
-&lt;p&gt;いとー：カメラはご愛嬌w&lt;/p&gt;
-
-&lt;p&gt;こんぱる：おかげでアスキー公認カメラマンの称号がいただけたので、結果オーライw&lt;/p&gt;
-
-&lt;p&gt;赤塚：神戸の安藤さん・伊東さんはナイスファイトでしたね。飲み会での小賀さんの後押しで、前日の飲み会も早々に切り上げてましたw。&lt;/p&gt;
-
-&lt;p&gt;いとー：あの仕上がりはさすが神戸支部やわ。鍛えられとる。&lt;/p&gt;
-
-&lt;p&gt;こんぱる：懇親会のあと夜中3時か4時くらいまで作ってたらしいけど・・・神戸支部怖いw&lt;/p&gt;
-
-&lt;p&gt;大谷：韓国の人も英語うまいけどネイティブじゃないから、すごいコミュニケーションとりやすい。下手な英語でも大丈夫そうな空気があった。&lt;/p&gt;
-
-&lt;p&gt;ぎょり：実際に登壇した感想はどうでした？？？緊張したの？？ &amp;gt; 赤塚さん, ひろみさん&lt;/p&gt;
-
-&lt;p&gt;いとー：緊張はなんとなくしましたが、いつもの緊張とはまったく違う感じでしたね。なんだろ・・・通訳はうまくいくかな？の心配が大きかったかも。その心配は的中で、まさかの先回り神通訳には超あせりましたがwwww　実際、通訳しづらい内容ではあったので、ものすごく助かったのは事実です。でも次は英語でマジでチャレンジしたいと心に誓った。言いたいこと言えずにポイズンです。&lt;/p&gt;
-
-&lt;p&gt;赤塚：いい意味の緊張でした（うそです）。途中まで黒曜石使ってるの忘れてたり、手汗がすごかったです。&lt;/p&gt;
-
-&lt;p&gt;出だし固いのが自分の悪い癖で、かおぬきでペースを取り戻し、みんなが盛り上げてくれたのでやりやすかったですwプレゼン終わって後ろに行ったら前のターンの金春さんもぐったりしててww次のターンの小賀さんが戻ってきてやりすぎだとクレーム受けたw&lt;/p&gt;
-
-&lt;p&gt;いとー：あのときそんな心情があったとは！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26546262654_b43a3ab9ab_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26546262654_b43a3ab9ab_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こんぱる：普段は1000人の前でも緊張しないし、登壇中は緊張してないつもりだったんだけど、終わった後に胃が痛くてえらい緊張してたということがわかってぐったりなったwww&lt;/p&gt;
-
-&lt;p&gt;どんまい：ぱるるは緊張してる感じが全然なかったです！イビサさんが書いてらっしゃるように韓国の方も英語はネイティブじゃないから、みんなチャレンジしやすさもあったのかなーって感じがしました。&lt;/p&gt;
-
-&lt;p&gt;大谷：私は立花さんの「100回の参加より、1回の登壇」を聞いて、2日目の昼からLT資料作り始めましたｗ&lt;/p&gt;
-
-&lt;p&gt;いとー：ああ・・・神通訳でたことを思い出しました・・・くっそ！絶対リベンジしてやるーっ&lt;/p&gt;
-
-&lt;p&gt;ぎょり：登壇せずに参加して申し訳ないですが、急遽でも英語のコンテンツをやったのがすごいです！！とても良いなと思いました。英語をビビるところがあるところ、韓国という近さもあったからか、みんな英語でチャレンジしてて、くっそー、俺もやってやるぜー！！！って思いましたｗ&lt;/p&gt;
-
-&lt;p&gt;赤塚：韓国の方も日本の知り合いもマサカリ食らう（発表内容についてオーディエンスから突っ込まれる）のが不安で登壇しないと話してましたので、今回のをきっかけに「自分にもできる」と思ってもらえるといいですね。とにかく熱意を伝えることに価値があると思います。ライブなので分からないなら分からないと正直に言えばいい。&lt;/p&gt;
-
-&lt;p&gt;ぎょり：ぶっちゃけ、日本の発表陣、いつもより好きなこと言えてるな、っておもいました。緊張はしてるし、英語とかの言語の壁はあったけど、言いたいこと、伝えたいことを言ってるなーって。&lt;/p&gt;
-
-&lt;p&gt;いとー：あーそれわかる。日本では見れない顔だったりもしてすごく新鮮だったなー&lt;/p&gt;
-
-&lt;p&gt;こんぱる：「You You You!!!」って日本では言えないwww&lt;/p&gt;
-
-&lt;h1 id=&#34;awsかるたが海を渡った日&#34;&gt;AWSかるたが海を渡った日&lt;/h1&gt;
-
-&lt;p&gt;大谷：で、最後はAWSかるた大会ですよ。めっちゃ盛り上がりましたねえ。&lt;/p&gt;
-
-&lt;p&gt;ぎょり：ルールがわかりやすかったですよね！カルタの文化がなくてもわかる！立ち見から参戦、中腰、座る、の流れはまじおもしろかったです！白熱してた！みんな自分の技術力を試したい、競争したいって思ったんだろうなぁと。&lt;/p&gt;
-
-&lt;p&gt;赤塚：あの冷静なチャニーさんも「俺も混ぜろ！」って乱入してましたw&lt;/p&gt;
-
-&lt;p&gt;いとー：いやぁ、登壇ももちろんですが、ほんと麻雀とカルタは持って行った甲斐がありましたね。想像以上によかった感激でしたね。今回の任務は果たしたはず！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/27151870385_760618f7d4_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/27151870385_760618f7d4_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;大谷：向こうでもプレイしてくれるといいですねー。&lt;/p&gt;
-
-&lt;p&gt;いとー：そのFB投稿を心待ちにしてるんですが・・・&lt;/p&gt;
-
-&lt;p&gt;赤塚：もう一回行くしかないですな&lt;/p&gt;
-
-&lt;p&gt;こんぱる：韓国では花札の開発がスタートしてるらしいので、カルタと麻雀のインパクトは相当あったんだと思うよ。任務は果たせた！&lt;/p&gt;
-
-&lt;p&gt;いとー：麻雀担当としては一緖に麻雀をやれなかったのは悔やまれますが・・・なので、もう一回行くしかないですな。&lt;/p&gt;
-
-&lt;p&gt;こんぱる：マットも置いてきたのでいつでもできる！&lt;/p&gt;
-
-&lt;p&gt;いとー：ちょっと臭いマットだけどね。検索でも臭いとかでるwww&lt;/p&gt;
-
-&lt;p&gt;こんぱる：「これゴムくせー！」って盛り上がってるに違いないw&lt;/p&gt;
-
-&lt;p&gt;いとー：麻雀牌やらカルタやら置いてきたのに、帰りの荷物の方が重かった・・・たくさんのお土産までいただいて本当に感謝ですね！！&lt;/p&gt;
-
-&lt;p&gt;こんぱる：ノリ買いすぎやろwww&lt;/p&gt;
-
-&lt;p&gt;いとー：それおとーさんやんww&lt;/p&gt;
-
-&lt;p&gt;こんぱる：まぁなwww うちの子供がモリモリ食べてるw←あとパックなw（いとー）&lt;/p&gt;
-
-&lt;h1 id=&#34;リレーブログ-その3に続きます-https-www-p-united-com-jaws-trips-html&#34;&gt;リレーブログ&lt;a href=&#34;https://www.p-united.com/jaws-trips.html&#34;&gt;その3に続きます&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/28/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;です。&lt;/p&gt;
 </description>
     </item>
     

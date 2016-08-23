@@ -5,8 +5,40 @@
     <link>https://www.r3it.com/tags/cloud/</link>
     <description>Recent content in Cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 27 Jul 2016 10:45:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Aug 2016 11:38:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、別アプリへのリストアを含むgusukuアップデート201608をリリース</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0823/</link>
+      <pubDate>Tue, 23 Aug 2016 11:38:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0823/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuアップデート201608をリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;201608リリースでは、バックアップデータを元アプリとは別のアプリにリストアできる機能の他、kintoneアプリの設計情報ファイルの大幅な改善、アプリ名配布の有無を選択できるようになるなど、よりかゆいところに手が届くメンテナンスアップデートリリースとなっております。&lt;/p&gt;
+
+&lt;p&gt;すべてのアップデートの内容は、&lt;a href=&#34;https://docs.gusuku.io/releases/&#34;&gt;リリースノート&lt;/a&gt;にてご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、gusukuをBasic認証の設定が行われたkintone環境に対応</title>
@@ -912,98 +944,6 @@ if(mwdate.length &amp;gt; 0){
 &lt;p&gt;枚数に限りがございますので、無くなり次第終了とさせていただきます。ご了承ください。&lt;/p&gt;
 
 &lt;h2 id=&#34;各イベント会場にて-皆様のお越しをお待ちしております&#34;&gt;各イベント会場にて、皆様のお越しをお待ちしております。&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>cybozu.comカンファレンス2015大阪にご来場頂いた皆様ありがとうございました！</title>
-      <link>https://www.r3it.com/blog/kintone/20151120_cybozu-conference-osaka/</link>
-      <pubDate>Fri, 27 Nov 2015 10:27:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20151120_cybozu-conference-osaka/</guid>
-      <description>
-
-&lt;h2 id=&#34;cybozu-com-カンファレンス-2015-大阪-出展報告&#34;&gt;cybozu.com カンファレンス 2015 大阪 出展報告&lt;/h2&gt;
-
-&lt;p&gt;最近めっきり寒くなってきましたが、皆さん風邪などはひかれてないですかー？&lt;/p&gt;
-
-&lt;p&gt;11月6日(金)の東京に続いて、 11月20日(金)には大阪でもcybozu.com カンファレンス 2015 が開催され、多くの方が来場されました！&lt;/p&gt;
-
-&lt;p&gt;大阪がホームな弊社！しっかりブースを出して皆様をお出迎えしましたよ(っ´ω`c)♡&lt;/p&gt;
-
-&lt;p&gt;サイボウズさんが東京の会社というイメージが強いためなのか、出展企業も「東京の会社」というイメージが先行していたらしく「大阪の会社なの？」とブースに立ち寄って頂く度に言われるという。。。&lt;/p&gt;
-
-&lt;p&gt;&lt;font size =&#34;2&#34;&gt;まだまだ弊社の &lt;del&gt;知名度の低さ&lt;/del&gt; を痛感します（｀ω´；）&lt;/font&gt;&lt;/p&gt;
-
-&lt;p&gt;これは…頑張ってアピールせねば！！！！！！！&lt;/p&gt;
-
-&lt;p&gt;ということで、&lt;b&gt;&lt;font size =&#34;5&#34; color=&#34;#9966FF&#34;&gt;ホームグラウンドでしっかりアピール！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;圧力団体（団体といいながらほぼ一人？）のうちのボス金春と、サイボウズの圧力団体の人とかよわい仔ウサギなわたしです（なんか違う&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-6.jpg&#34; data-lightbox=&#34;cybozuconfpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-6.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基調講演では弊社金春がサイボウズ青野社長と共に&lt;b&gt;顧客の目の前で対面開発を行う従来のSIとは異なる「新しいSI」&lt;/b&gt;について対談致しました。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-2.jpg&#34; data-lightbox=&#34;cybozuconfpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;参加者の方々に、弊社の提唱するハイスピードSIの魅力を存分にお伝えすることが出来たかなと思います。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-4.jpg&#34; data-lightbox=&#34;cybozuconfpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-4.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;また大阪では、基調講演の他、ハンズオンセミナーも担当させて頂き、こちらもたくさんの方にご参加頂きました。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-5.jpg&#34; data-lightbox=&#34;cybozuconfpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-5.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;経費精算アプリからプロセス管理機能について学ぶセミナーです。&lt;/p&gt;
-
-&lt;p&gt;kintoneのプロセス管理って、意外に難しいんですよね(∩´﹏`∩)&lt;/p&gt;
-
-&lt;p&gt;インテリ指向な金春、大阪では満を持してメガネ着用です！&lt;/p&gt;
-
-&lt;p&gt;&lt;font size =&#34;2&#34;&gt; &lt;del&gt;ほんとは基調講演の写真と合わせるため。。。&lt;/del&gt; &lt;/font&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-7.jpg&#34; data-lightbox=&#34;cybozuconfpic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/cybozuconfosaka2015-7.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;カンファレンスの後は-kintone-café-大阪-で秋のltパイ祭り&#34;&gt;カンファレンスの後は kintone Café 大阪 で秋のLTパイ祭り！！！！！&lt;/h2&gt;
-
-&lt;p&gt;cybozu.com カンファレンス が終わっても大阪の夜は終わりません！！！！&lt;/p&gt;
-
-&lt;p&gt;サイボウズさんの新しく移転した大阪オフィスにて、&lt;b&gt;&lt;font size =&#34;5&#34; color=&#34;#FFCC00&#34;&gt;kintone Café 大阪 Vol.5&lt;/font&gt;&lt;/b&gt;が開催され、普段なかなかお目にかかれない方々の華麗なるLT大会が繰り広げられました(人˘▿˘*)♫•*¨*•.¸¸♪&lt;/p&gt;
-
-&lt;p&gt;そして今回は&lt;b&gt;&lt;font size =&#34;6&#34; color=&#34;#FF3366&#34;&gt;ドラパイ有りのLT大会！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;LTerの皆様、欲しがりやさんが非常に多く、制限時間を過ぎてもかまわずしゃべり続けた結果…&lt;/p&gt;
-
-&lt;p&gt;華麗なるLTerがパイの餌食になる画像&lt;b&gt;10連発&lt;/b&gt;です！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-1.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-1.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-2.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-2.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-3.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-3.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-4.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-4.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-5.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-5.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-6.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-6.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-7.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-7.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-8.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-8.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-9.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-9.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-10.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-10.jpg&#34; width=&#34;200&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一応パイ姫だったのですが、LTerでもあったわたしもしっかりパイの洗礼を受けました( ┘^ω^)┐)))ﾖｲｻﾖｲｻ♪(┌ ^ω^)┘)))ﾖｲｻﾖｲｻ♪
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-11.jpg&#34; data-lightbox=&#34;lt-pie&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20151120/kintonecafeosaka5-11.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;興奮冷めやらぬ間に次回のイベント&#34;&gt;興奮冷めやらぬ間に次回のイベント&lt;/h2&gt;
-
-&lt;p&gt;12月2日(水)には、&lt;a href=&#34;http://goo.gl/ACn8Po&#34;&gt;AWS Cloud Roadshow&lt;/a&gt;がハービスホールで開催されます。&lt;/p&gt;
-
-&lt;p&gt;当イベントでも弊社出展しておりますので、是非お立ち寄り下さいませ！&lt;/p&gt;
-
-&lt;p&gt;また、12月14日(月)にはハイスピードSI導入相談会、12月21日(月)にはkintone全国セミナーを東京のサイボウズさんのオフィスで、12月11日(金)には大阪でkintone全国セミナーを開催致します！&lt;/p&gt;
-
-&lt;p&gt;詳細は&lt;a href=&#34;https://www.r3it.com/solutions/kintone/event-seminar/&#34;&gt;こちらのページ&lt;/a&gt;をご覧下さいね！&lt;/p&gt;
-
-&lt;p&gt;kintoneにご興味のある方は是非ご参加お待ちしています✩˚₊‧(&lt;em&gt;ˊᗜ​ˋ&lt;/em&gt;)‧₊˚☆&lt;/p&gt;
-
-&lt;p&gt;また、cybozu.comカンファレンス2015東京の&lt;a href=&#34;https://www.youtube.com/watch?v=avNKOt58DI4&amp;amp;list=PL2VFGsJx5cRkX5rV2iO1rfRJYOcFpdxps&amp;amp;index=2&#34;&gt;基調講演&lt;/a&gt;をyoutubeでご覧になって頂けます！&lt;/p&gt;
-
-&lt;p&gt;当日会場に来ることができなかった方は必見ですよー(੭ु╹▿╹)੭ु⁾⁾&lt;/p&gt;
-
-&lt;p&gt;それでは皆様！次回は是非&lt;a href=&#34;http://goo.gl/ACn8Po&#34;&gt;AWS Cloud Roadshow&lt;/a&gt;の会場でお会いしましょう！&lt;/p&gt;
 </description>
     </item>
     

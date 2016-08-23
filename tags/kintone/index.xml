@@ -5,8 +5,40 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 16 Aug 2016 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Aug 2016 11:38:06 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>アールスリー、別アプリへのリストアを含むgusukuアップデート201608をリリース</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0823/</link>
+      <pubDate>Tue, 23 Aug 2016 11:38:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0823/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuアップデート201608をリリースいたしました。&lt;/p&gt;
+
+&lt;p&gt;201608リリースでは、バックアップデータを元アプリとは別のアプリにリストアできる機能の他、kintoneアプリの設計情報ファイルの大幅な改善、アプリ名配布の有無を選択できるようになるなど、よりかゆいところに手が届くメンテナンスアップデートリリースとなっております。&lt;/p&gt;
+
+&lt;p&gt;すべてのアップデートの内容は、&lt;a href=&#34;https://docs.gusuku.io/releases/&#34;&gt;リリースノート&lt;/a&gt;にてご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+
+&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+
+&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+
+&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+
+&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ヤマムギkintone入門ハンズオンで講師を務めさせて頂きました！</title>
@@ -1243,26 +1275,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 今後もいろいろなアップデートが予定されています！是非是非公式サイトもチェックして下さいね♪&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、CYBOZU AWARD 2016 特別賞を受賞</title>
-      <link>https://www.r3it.com/info/2016/cybozu-award/</link>
-      <pubDate>Mon, 18 Apr 2016 19:00:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/cybozu-award/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/cybozu-award/9942.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/cybozu-award/9942.jpg&#34; width=&#34;300&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;平素は格別のご高配を賜り厚く御礼申し上げます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュートは、先日13日に&lt;a href=&#34;https://www.facebook.com/r3institute/posts/1114578385231077&#34;&gt;Facebookページにて速報として&lt;/a&gt;お伝えさせていただきましたとおり、サイボウズパートナーミーティング2016にて、特別賞を受賞いたしましたことをご報告いたします。&lt;/p&gt;
-
-&lt;p&gt;CYBOZU AWARD 2016 特別賞は、「新たなチャレンジに取り組み、顕著な実績を残されたパートナー企業」ということで評価をいただきました。これからもアールスリーは新しい形のSIの世界を切り開いていきたいと考えております。&lt;/p&gt;
-
-&lt;p&gt;今後とも皆様よろしくご指導ご鞭撻のほど、よろしくお願い致します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/cybozu-award/0102.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/cybozu-award/0102.jpg&#34; width=&#34;600&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
