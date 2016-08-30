@@ -5,8 +5,38 @@
     <link>https://www.r3it.com/info/</link>
     <description>Recent content in Info on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Aug 2016 11:38:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Aug 2016 14:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>【ハイスピードSI事例公開のお知らせ】ヤマハ発動機様：コールセンターシステムクラウド化</title>
+      <link>https://www.r3it.com/info/2016/kintone-casestudy-release-0830/</link>
+      <pubDate>Tue, 30 Aug 2016 14:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/kintone-casestudy-release-0830/</guid>
+      <description>
+
+&lt;h1 id=&#34;ハイスピードsi事例公開-ヤマハ発動機様&#34;&gt;ハイスピードSI事例公開　ヤマハ発動機様&lt;/h1&gt;
+
+&lt;p&gt;本日2016年8月30日付で弊社のお客様ヤマハ発動機様のkintoneを利用したシステム導入事例が公開されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/iwcallsys_figure.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;（画像転載元：サイボウズ様 プレスリリース）&lt;/a&gt;
+&lt;br&gt;
+従来オンプレで稼働していた既存コールセンターを3ヶ月でクラウドに移行したということで、ハイスピードSIを駆使した開発を実現しています。
+&lt;br&gt;
+オンプレによるリプレースと比較してコスト削減にも繋がったとのこと。
+&lt;br&gt;
+この機会に是非弊社&lt;b&gt;ハイスピードSI&lt;/b&gt;の世界に足を踏み入れてみて下さい！
+&lt;br&gt;&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;https://www.r3it.com/solutions/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;サイボウズ様　プレスリリース&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;http://group.cybozu.jp/news/16083001.html&lt;/a&gt;&lt;/p&gt;
+&lt;b&gt;日経BP ITpro&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&#34;&gt;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、別アプリへのリストアを含むgusukuアップデート201608をリリース</title>
@@ -563,38 +593,6 @@
 &lt;p&gt;Mail : info@r3it.com&lt;/p&gt;
 
 &lt;p&gt;担当： 林、金春（こんぱる）&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、gusuku 添付ファイル保存プラグインをアップデート</title>
-      <link>https://www.r3it.com/info/2016/gusuku-update-0405/</link>
-      <pubDate>Tue, 05 Apr 2016 17:00:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/gusuku-update-0405/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、本日gusukuと連携して動作するkintoneプラグイン「添付ファイルプラグイン」をアップデートいたしました。&lt;/p&gt;
-
-&lt;p&gt;新しい添付ファイルプラグインは、Multipart Upload APIを使用し大きな容量のファイルも確実にアップロードできるようになりました。また合わせてアップロードの進行具合も表示する機能が追加され、待ち時間の心理的不安を軽減する役割を果たしております。&lt;/p&gt;
-
-&lt;p&gt;「添付ファイルプラグイン」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/plugin/fileattach/&#34;&gt;gusuku docs のプラグインページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

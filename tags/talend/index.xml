@@ -5,8 +5,38 @@
     <link>https://www.r3it.com/tags/talend/</link>
     <description>Recent content in Talend on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 14 Apr 2016 15:30:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Aug 2016 14:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/talend/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>【ハイスピードSI事例公開のお知らせ】ヤマハ発動機様：コールセンターシステムクラウド化</title>
+      <link>https://www.r3it.com/info/2016/kintone-casestudy-release-0830/</link>
+      <pubDate>Tue, 30 Aug 2016 14:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/kintone-casestudy-release-0830/</guid>
+      <description>
+
+&lt;h1 id=&#34;ハイスピードsi事例公開-ヤマハ発動機様&#34;&gt;ハイスピードSI事例公開　ヤマハ発動機様&lt;/h1&gt;
+
+&lt;p&gt;本日2016年8月30日付で弊社のお客様ヤマハ発動機様のkintoneを利用したシステム導入事例が公開されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/iwcallsys_figure.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;（画像転載元：サイボウズ様 プレスリリース）&lt;/a&gt;
+&lt;br&gt;
+従来オンプレで稼働していた既存コールセンターを3ヶ月でクラウドに移行したということで、ハイスピードSIを駆使した開発を実現しています。
+&lt;br&gt;
+オンプレによるリプレースと比較してコスト削減にも繋がったとのこと。
+&lt;br&gt;
+この機会に是非弊社&lt;b&gt;ハイスピードSI&lt;/b&gt;の世界に足を踏み入れてみて下さい！
+&lt;br&gt;&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;https://www.r3it.com/solutions/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;サイボウズ様　プレスリリース&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;http://group.cybozu.jp/news/16083001.html&lt;/a&gt;&lt;/p&gt;
+&lt;b&gt;日経BP ITpro&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&#34;&gt;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>システム間連携ジョブをサーバレスで実行する「Talend on AWS Lambda」のススメ</title>

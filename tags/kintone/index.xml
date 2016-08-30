@@ -5,8 +5,38 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Aug 2016 11:38:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Aug 2016 14:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>【ハイスピードSI事例公開のお知らせ】ヤマハ発動機様：コールセンターシステムクラウド化</title>
+      <link>https://www.r3it.com/info/2016/kintone-casestudy-release-0830/</link>
+      <pubDate>Tue, 30 Aug 2016 14:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/kintone-casestudy-release-0830/</guid>
+      <description>
+
+&lt;h1 id=&#34;ハイスピードsi事例公開-ヤマハ発動機様&#34;&gt;ハイスピードSI事例公開　ヤマハ発動機様&lt;/h1&gt;
+
+&lt;p&gt;本日2016年8月30日付で弊社のお客様ヤマハ発動機様のkintoneを利用したシステム導入事例が公開されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/iwcallsys_figure.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;（画像転載元：サイボウズ様 プレスリリース）&lt;/a&gt;
+&lt;br&gt;
+従来オンプレで稼働していた既存コールセンターを3ヶ月でクラウドに移行したということで、ハイスピードSIを駆使した開発を実現しています。
+&lt;br&gt;
+オンプレによるリプレースと比較してコスト削減にも繋がったとのこと。
+&lt;br&gt;
+この機会に是非弊社&lt;b&gt;ハイスピードSI&lt;/b&gt;の世界に足を踏み入れてみて下さい！
+&lt;br&gt;&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;https://www.r3it.com/solutions/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;サイボウズ様　プレスリリース&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;http://group.cybozu.jp/news/16083001.html&lt;/a&gt;&lt;/p&gt;
+&lt;b&gt;日経BP ITpro&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&#34;&gt;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリー、別アプリへのリストアを含むgusukuアップデート201608をリリース</title>
@@ -1218,63 +1248,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 &lt;p&gt;Still Day One!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_201525.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/cloud-on-the-beach-2016/20160429_201525.jpg&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>gusukuでhappy♪東京で初となるgusuku自社セミナーを開催しました！</title>
-      <link>https://www.r3it.com/blog/kintone/20160421_gusuku-seminar/</link>
-      <pubDate>Fri, 22 Apr 2016 12:00:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160421_gusuku-seminar/</guid>
-      <description>
-
-&lt;p&gt;昨日&lt;b&gt;4月21日(木曜日)&lt;/b&gt;はサイボウズ様の東京オフィスにて、午後から&lt;b&gt;2本立て&lt;/b&gt;でセミナーを実施いたしました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar4.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar5.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー（サイボウズ様との共催）&lt;/li&gt;
-&lt;li&gt;gusukuで始める効率的なkintoneアプリ開発 虎の巻
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;活用事例解説セミナーは弊社金春の大阪でもおなじみのセミナーです(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;本記事では、初の試みとなったgusukuの自社セミナー&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#9370DB&#34;&gt;gusukuで始める効率的なkintoneアプリ開発 虎の巻&lt;/font&gt;&lt;/b&gt;についてレポートしたいと思います！&lt;/p&gt;
-
-&lt;h1 id=&#34;セミナー会場について&#34;&gt;セミナー会場について&lt;/h1&gt;
-
-&lt;p&gt;会場はサイボウズさんの東京オフィスはバルスペースをお借りしました。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar1.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar1.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;バル自体は&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF66CC&#34;&gt;非常にカジュアルな雰囲気&lt;/font&gt;&lt;/b&gt;で、サイボウズ社の社員さんはランチタイムにも利用されたりしています(๑•̀ㅂ•́)و✧&lt;/p&gt;
-
-&lt;p&gt;プロジェクタを利用して壁に投影もできるのですが、今回は&lt;b&gt;少人数制&lt;/b&gt;で、アットホームな雰囲気のセミナーとなったので、モニタに資料を映してひとつの机を参加者の皆さんで囲んで頂くスタイルを採用しました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar2.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;セミナーの雰囲気&#34;&gt;セミナーの雰囲気&lt;/h1&gt;
-
-&lt;p&gt;自社セミナーは初の試みだったのでどうなるかとドキドキしていたのですが、ご自身で実際にgusukuを触っていただいて疑問に感じた点や、プラグインの機能等、いろいろな質問を頂きました。&lt;/p&gt;
-
-&lt;p&gt;今回はgusukuの基本機能であるバージョン管理をメインにハンズオンを行ったのですが、すでに利用されている参加者もいらっしゃったのて、わりとスムーズな進行となりました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar3.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;気づいた点-今後のこと&#34;&gt;気づいた点、今後のこと&lt;/h1&gt;
-
-&lt;p&gt;gusuku自体は&lt;b&gt;&lt;font color=&#34;#99CC99&#34;&gt;kintoneのアプリ開発を便利にするサービス&lt;/font&gt;&lt;/b&gt;なので、弊社としてもわりと&lt;b&gt;開発者には嬉しいサービス&lt;/b&gt;だろうなという思いはあったのですが、自身で講師をしてみて、これは使いようによっては、&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;非開発者、非エンジニアの人でもkintoneを使ってアプリを開発する人には非常に有用なんじゃないかな？&lt;/font&gt;&lt;/b&gt;と思いました(°ω°)&lt;/p&gt;
-
-&lt;p&gt;ハンズオン全体としては、課題点や至らない点も多かったので、参加頂いた皆様には申し訳なかったのですが、この反省を今後活かして、kintoneの利用を今後検討されている皆様、またすでに利用されているものの、課題やお困り事がある皆様に対して、gusukuを広めていけたらなーと思います└(^o^└　)┘&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;gusukuを知りたいからセミナーをやってほしい！&lt;/b&gt;とか&lt;b&gt;自社向けの勉強会でgusukuを学びたい！&lt;/b&gt;というご用命等があればいつでもまいりますので、ご希望がある場合はお気軽にご相談くださいねっฅ(○•ω•○)ฅﾆｬ～ﾝ❣
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-今後もいろいろなアップデートが予定されています！是非是非公式サイトもチェックして下さいね♪&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
