@@ -5,8 +5,50 @@
     <link>https://www.r3it.com/tags/community/</link>
     <description>Recent content in Community on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Aug 2016 14:20:06 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 31 Aug 2016 11:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DojoCon Japan 2016が開催されました！</title>
+      <link>https://www.r3it.com/blog/etc/20160827_dojoconjapan2016/</link>
+      <pubDate>Wed, 31 Aug 2016 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20160827_dojoconjapan2016/</guid>
+      <description>
+
+&lt;h1 id=&#34;日本初-dojocon-japan-開催&#34;&gt;日本初 DojoCon Japan 開催&lt;/h1&gt;
+
+&lt;p&gt;2016年8月27日に日本で初開催となる DojoCon Japan 2016 が開催されました。&lt;/p&gt;
+
+&lt;p&gt;以前に&lt;a href=&#34;https://www.r3it.com/info/2016/dojoconjapan2016/&#34; target=&#34;_blank&#34;&gt;お知らせでご案内&lt;/a&gt;した通り、アールスリーはブロンズスポンサーとして協賛させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;※DojoConやCoderDojoについては、お知らせページをご覧下さいm(_ _)m&lt;/p&gt;
+
+&lt;h1 id=&#34;大盛況のイベント&#34;&gt;大盛況のイベント&lt;/h1&gt;
+
+&lt;p&gt;今回は会社の協賛だけで無く、自分自分もイベントの企画段階から関わらせて頂いており、当日もスタッフとして参加してきました。&lt;/p&gt;
+
+&lt;p&gt;当日はセッションエリアとワークショップエリアに分かれ、セッションエリアではプログラミングに関するセッション、ワークショップエリアではたくさんの体験イベントが行われました。&lt;/p&gt;
+
+&lt;p&gt;私はワークショップエリアの担当だったので、残念ながらセッションエリアの状況は把握していない（見に行く余裕が無いぐらい盛況でした）のですが、ワークショップエリアはとても盛り上がっていました(^^)&lt;/p&gt;
+
+&lt;p&gt;Mabeeeを使ったミニ四駆レースや、、、
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/dojoconjapan2016/mabeee.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/dojoconjapan2016/mabeee.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Blockly Duinoを使って戦車を動かすプログラミング体験など、、、
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/dojoconjapan2016/blockly.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/dojoconjapan2016/blockly.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;他にもたくさんの企画で子供も大人も楽しまれていました！&lt;/p&gt;
+
+&lt;h1 id=&#34;dojoconが終わって&#34;&gt;DojoConが終わって&lt;/h1&gt;
+
+&lt;p&gt;初開催ではありましたが、200人以上の方にエントリー頂き、大盛況のうちに終了となりました。&lt;/p&gt;
+
+&lt;p&gt;ただ、今回のイベントの趣旨でもあったように、子供がプログラミングを学べる場を増やす事が開催の目的です。&lt;/p&gt;
+
+&lt;p&gt;イベントの成功に満足する事無く、CoderDojoを通じて活動を続けていきたいと思っています。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリーは東北IT物産展をサポートしています</title>
@@ -1254,88 +1296,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 &lt;p&gt;&lt;a href=&#34;http://aws.typepad.com/aws_japan/2016/03/ten-years-in-the-aws-cloud-how-time-flies.html&#34;&gt;Ten Years in the AWS Cloud – How Time Flies! ～ AWSクラウドの10年&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25101663204_7fa3b39c8a_k.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/jawsdays2016-report/25101663204_7fa3b39c8a_k.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JAWS DAYS 2016で弊社社員が登壇します！</title>
-      <link>https://www.r3it.com/blog/aws/20160126_jawsdays-2016/</link>
-      <pubDate>Thu, 28 Jan 2016 18:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/20160126_jawsdays-2016/</guid>
-      <description>
-
-&lt;p&gt;着々と開催が迫ってきているJAWS DAYS。タイムテーブルも徐々に公開されていますが、弊社社員も裏方ボランティアスタッフで必死に働いていたり、セッションに登壇させていただきますよ！&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/jawsug-square.png&#34; alt=&#34;JAWS-UG&#34; class=&#34;wide-image&#34;/&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;jaws-days-とは&#34;&gt;JAWS DAYS とは？&lt;/h1&gt;
-
-&lt;p&gt;AWSのユーザーグループである &lt;a href=&#34;http://jaws-ug.jp/&#34;&gt;JAWS-UG&lt;/a&gt; が主催する全国規模のイベントです！&lt;/p&gt;
-
-&lt;p&gt;この日は、全国各地に散らばっている各支部の皆さんが一堂に会しての、JAWS-UG最大規模のお祭りになります！&lt;/p&gt;
-
-&lt;h1 id=&#34;jaws-days-2016-登壇のお知らせ&#34;&gt;JAWS DAYS 2016 登壇のお知らせ&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/20160128/JAWSDAYS_2016_speak.png&#34; alt=&#34;JAWS DAYS 2016 登壇します&#34; class=&#34;wide-image&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;JAWS DAYS 2016 のタイムテーブルが今年に入ってから一気に公開されましたね！&lt;/p&gt;
-
-&lt;p&gt;弊社もサポーターとしてイベントを支援させて頂くわけですが、実はそれ以外でも、弊社社員が登壇させて頂くセッションもあるのでちょっとご紹介させて頂きたいと思います(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;JAWS DAYS 2016のタイムテーブルの情報は&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/timetable&#34;&gt;こちら&lt;/a&gt;をご覧下さい！&lt;/p&gt;
-
-&lt;h2 id=&#34;jaws-ug全国代表を務める圧力団長のキーノート&#34;&gt;JAWS-UG全国代表を務める圧力団長のキーノート！&lt;/h2&gt;
-
-&lt;p&gt;弊社金春が&lt;b&gt;JAWS-UGのこれまでの活動と現在の状況を振り返りながらコミュニティ活動を行うことの意味や、これからのJAWS-UGの展望等について&lt;/b&gt;キーノートで語ります！&lt;/p&gt;
-
-&lt;p&gt;スピーカー情報も更新されていますよ！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/speaker/465&#34;&gt;http://jawsdays2016.jaws-ug.jp/speaker/465&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;わたしもどんな講演になるのか今からワクワクしています(っ´ω`c)♡&lt;/p&gt;
-
-&lt;h2 id=&#34;jaws-ug沖縄を初め多数のコミュニティ運営実績のあるサムライのworkshop&#34;&gt;JAWS-UG沖縄を初め多数のコミュニティ運営実績のあるサムライのWorkshop！&lt;/h2&gt;
-
-&lt;p&gt;ご存知の方も多いと思いますが、JAWS DAYS には&lt;b&gt;複数のトラック&lt;/b&gt;があります。&lt;/p&gt;
-
-&lt;p&gt;その中で実際に手を動かしながら学ぶWorkshopトラックで、弊社西島が&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#339999&#34;&gt;モバイルアプリ開発のハンズオン&lt;/font&gt;&lt;/b&gt;を行います！&lt;/p&gt;
-
-&lt;p&gt;このハンズオンに参加することで、ゼロからアプリが作れちゃう！？&lt;/p&gt;
-
-&lt;p&gt;これは開発初心者にも魅力的なセッションではないでしょうか…っ（どきどき&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/speaker/355&#34;&gt;http://jawsdays2016.jaws-ug.jp/speaker/355&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;実はわたしも&#34;&gt;実はわたしも&lt;/h2&gt;
-
-&lt;p&gt;はい、この2人とは別にわたしもきっとどこかに出没してると思います！！！！！&lt;/p&gt;
-
-&lt;p&gt;ご興味がある方は是非どこで登壇してるか見つけて下さいฅ(○•ω•○)ฅﾆｬ～ﾝ❣&lt;/p&gt;
-
-&lt;p&gt;今回のJAWS DAYS のテーマは&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF6600&#34;&gt;「Move Up the Next Cloud」&lt;/font&gt;&lt;/b&gt;新しいクラウドを体験出来る一日が待っていると思います！&lt;/p&gt;
-
-&lt;p&gt;ちなみに&lt;b&gt;関西圏・中京圏にお住まいの皆様は往路は深夜バスが出ます&lt;/b&gt;ので、東京だと交通費が…と二の足を踏んでいる皆様は是非こちらをご利用頂ければ！！！！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/about/jaws-days-2016-roadtrip&#34;&gt;JAWS DAYS 2016 RoadTrip&lt;/a&gt;のページを良く読んでお申し込み下さいね！&lt;/p&gt;
-
-&lt;h1 id=&#34;他にもawsカルタやmeet-the-saなど-多彩なコンテンツ&#34;&gt;他にもAWSカルタやMeet the SAなど、多彩なコンテンツ！&lt;/h1&gt;
-
-&lt;p&gt;AWSのサービスって普段から利用していないとなかなか覚えるのって難しいですよね？&lt;/p&gt;
-
-&lt;p&gt;そんなサービスを楽しく覚えるための企画もご用意させて頂いています！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/aws_karuta&#34;&gt;AWSカルタ&lt;/a&gt;ですー！&lt;/p&gt;
-
-&lt;p&gt;また、普段なかなか会えないAWSJのSAさんともがっつり絡むことができる！？&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/timetable/meetthesa&#34;&gt;Meet the SA&lt;/a&gt;のコーナーもありますよー！&lt;/p&gt;
-
-&lt;p&gt;他にもまだまだ未公開コンテンツはたくさん、、、まだここではお楽しみとして取っておきたいと思います( ┘^ω^)┐)))ﾖｲｻﾖｲｻ♪(┌ ^ω^)┘)))ﾖｲｻﾖｲｻ♪&lt;/p&gt;
-
-&lt;h1 id=&#34;jaws-days-公式サイトもチェックしてね&#34;&gt;JAWS DAYS 公式サイトもチェックしてね！&lt;/h1&gt;
-
-&lt;p&gt;JAWS DAYS の公式サイトの更新頻度も上がっています！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2016.jaws-ug.jp/&#34;&gt;こちら&lt;/a&gt;の公式サイトを是非是非チェックして下さいね！&lt;/p&gt;
 </description>
     </item>
     

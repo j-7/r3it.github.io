@@ -5,8 +5,50 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 30 Aug 2016 14:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 31 Aug 2016 11:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DojoCon Japan 2016が開催されました！</title>
+      <link>https://www.r3it.com/blog/etc/20160827_dojoconjapan2016/</link>
+      <pubDate>Wed, 31 Aug 2016 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20160827_dojoconjapan2016/</guid>
+      <description>
+
+&lt;h1 id=&#34;日本初-dojocon-japan-開催&#34;&gt;日本初 DojoCon Japan 開催&lt;/h1&gt;
+
+&lt;p&gt;2016年8月27日に日本で初開催となる DojoCon Japan 2016 が開催されました。&lt;/p&gt;
+
+&lt;p&gt;以前に&lt;a href=&#34;https://www.r3it.com/info/2016/dojoconjapan2016/&#34; target=&#34;_blank&#34;&gt;お知らせでご案内&lt;/a&gt;した通り、アールスリーはブロンズスポンサーとして協賛させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;※DojoConやCoderDojoについては、お知らせページをご覧下さいm(_ _)m&lt;/p&gt;
+
+&lt;h1 id=&#34;大盛況のイベント&#34;&gt;大盛況のイベント&lt;/h1&gt;
+
+&lt;p&gt;今回は会社の協賛だけで無く、自分自分もイベントの企画段階から関わらせて頂いており、当日もスタッフとして参加してきました。&lt;/p&gt;
+
+&lt;p&gt;当日はセッションエリアとワークショップエリアに分かれ、セッションエリアではプログラミングに関するセッション、ワークショップエリアではたくさんの体験イベントが行われました。&lt;/p&gt;
+
+&lt;p&gt;私はワークショップエリアの担当だったので、残念ながらセッションエリアの状況は把握していない（見に行く余裕が無いぐらい盛況でした）のですが、ワークショップエリアはとても盛り上がっていました(^^)&lt;/p&gt;
+
+&lt;p&gt;Mabeeeを使ったミニ四駆レースや、、、
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/dojoconjapan2016/mabeee.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/dojoconjapan2016/mabeee.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Blockly Duinoを使って戦車を動かすプログラミング体験など、、、
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/dojoconjapan2016/blockly.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/dojoconjapan2016/blockly.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;他にもたくさんの企画で子供も大人も楽しまれていました！&lt;/p&gt;
+
+&lt;h1 id=&#34;dojoconが終わって&#34;&gt;DojoConが終わって&lt;/h1&gt;
+
+&lt;p&gt;初開催ではありましたが、200人以上の方にエントリー頂き、大盛況のうちに終了となりました。&lt;/p&gt;
+
+&lt;p&gt;ただ、今回のイベントの趣旨でもあったように、子供がプログラミングを学べる場を増やす事が開催の目的です。&lt;/p&gt;
+
+&lt;p&gt;イベントの成功に満足する事無く、CoderDojoを通じて活動を続けていきたいと思っています。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>【ハイスピードSI事例公開のお知らせ】ヤマハ発動機様：コールセンターシステムクラウド化</title>
@@ -987,85 +1029,6 @@ kintoneでの業務アプリ開発には欠かせない「gusuku」&lt;/h2&gt;
 &lt;h3 id=&#34;来年はぜひみなさんも&#34;&gt;来年はぜひみなさんも!!&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/return.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/return.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ソリューション / ハイスピードSIとは？</title>
-      <link>https://www.r3it.com/solutions/</link>
-      <pubDate>Wed, 29 Jun 2016 17:55:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/</guid>
-      <description>
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;ハイスピードsiセットのご紹介&#34;&gt;ハイスピードSIセットのご紹介&lt;/h1&gt;
-
-&lt;h2 id=&#34;ハイスピードsi-iot移行セット&#34;&gt;ハイスピードSI IoT移行セット&lt;/h2&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;img src=&#34;https://www.r3it.com/images/solutions/iot-migration-set.png&#34; class=&#34;img-thumbnail&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;h2&gt;月額20万円〜&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;すでにお持ちの機器からのデータをクラウドに安価に送信します
-&lt;li&gt;必要な機器・AWSまでの通信費・AWS環境・分析環境がセットになっており導入・運用に手間がかかりません
-&lt;li&gt;分析環境は必要に応じてkintoneもしくはMotionBoard Cloudを導入いたします
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;ハイスピードsi-kintone開発セット-kintone&#34;&gt;ハイスピードSI &lt;a href=&#34;./kintone/&#34;&gt;kintone開発セット&lt;/a&gt;&lt;/h2&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone-dev-set.png&#34; class=&#34;img-thumbnail&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;h2&gt;ライトコース：40万円&lt;/h2&gt;
-&lt;h2&gt;スタンダードコース：120万円〜&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;kintoneとAWSを活用し対面開発によりシステムを作成します
-&lt;li&gt;kintoneで不足する機能はAWSで補完します（スタンダードコースのみ）
-&lt;li&gt;既存システムとの連携もオプションで可能です（スタンダードコースのみ）
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;ハイスピードsi-クラウド開発セット-si&#34;&gt;ハイスピードSI &lt;a href=&#34;./si/&#34;&gt;クラウド開発セット&lt;/a&gt;&lt;/h2&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;img src=&#34;https://www.r3it.com/images/solutions/cloud-dev-set.png&#34; class=&#34;img-thumbnail&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;h2&gt;費用は別途お見積り&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;REST APIを前提としたクラウドネイティブなシステム開発を行います
-&lt;li&gt;既存のシステムとも柔軟に連携することが可能です
-&lt;li&gt;AWSだけでなく、MotionBoard Cloud等他のクラウドとの連携でより発展的なシステム開発が可能です
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;ハイスピードsi-サイボウズgaroon-on-aws&#34;&gt;ハイスピードSI サイボウズGaroon on AWS&lt;/h2&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;img src=&#34;https://www.r3it.com/images/solutions/garoon-on-aws.png&#34; class=&#34;img-thumbnail&#34;&gt;
-&lt;/div&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;h2&gt;費用は別途お見積り&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;サイボウズGaroonをAWS上に構築します
-&lt;li&gt;ユーザ数の増加やデータ量の増加にも、クラウドならではの手法で対応します
-&lt;li&gt;カスタムアプリはkintoneで作成することも可能です
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     
