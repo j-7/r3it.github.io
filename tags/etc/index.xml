@@ -5,8 +5,88 @@
     <link>https://www.r3it.com/tags/etc/</link>
     <description>Recent content in Etc on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Aug 2016 14:20:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2016 15:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/etc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>「IT企業合同採用イベント☆ザ･関西」開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/the-kansai-recruit-0922/</link>
+      <pubDate>Tue, 06 Sep 2016 15:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/the-kansai-recruit-0922/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/banner/kansai-recruit1609/banner_970x120.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;9月22日（祝日：秋分の日）に開催される、「IT企業合同採用イベント☆ザ･関西！！」のお知らせです。&lt;/p&gt;
+
+&lt;h2 id=&#34;関西の元気なit企業5社が合同勉強会を開催&#34;&gt;関西の元気なIT企業5社が合同勉強会を開催&lt;/h2&gt;
+
+&lt;p&gt;大阪に拠点を持ち、様々な技術分野を得意とするクラウドやコミュニティの支援に積極的な企業が一同に介し、それぞれ独自のセッションを行う、非常にユニークな勉強会スタイルのイベントです。&lt;/p&gt;
+
+&lt;h2 id=&#34;参加すべきかた&#34;&gt;参加すべきかた&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;関西方面で新しい技術に興味があるかた&lt;/li&gt;
+&lt;li&gt;社会人のかたで「となりの青い芝を見てみたい」と思っているかた&lt;/li&gt;
+&lt;li&gt;来年就職活動予定の学生・院生のかたで、インターン/アルバイト先を探している方&lt;/li&gt;
+&lt;li&gt;単純にセッションの内容に興味のあるかた&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなど、ちょっと覗いてみたいな？と思った方はどなたでも大歓迎です。参加無料ですが、お飲み物と軽食をご用意してお待ちしております。&lt;/p&gt;
+
+&lt;p&gt;いわゆる一般的な企業説明会などと違い、勉強会スタイルで新しい技術に触れ、ついでに中の人ともゆっくり話が出来る、とってもお得なイベントです。&lt;/p&gt;
+
+&lt;p&gt;是非皆様のご参加をお待ちしております。&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;お申込はこちら&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;&lt;img class=&#34;wide-image&#34; width=&#34;400&#34; src=&#34;https://www.r3it.com/images/banner/kansai-recruit1609/photo-1434989407504-46a53b1b8a6d.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;弊社のセッションのご紹介&#34;&gt;弊社のセッションのご紹介&lt;/h1&gt;
+
+&lt;p&gt;各社非常に興味深いセッションが並びます。その中で弊社のセッションとスピーカーをご紹介します。&lt;/p&gt;
+
+&lt;h2 id=&#34;メイントラック-クラウドとgo言語とリモートワーク&#34;&gt;メイントラック：【クラウドとGo言語とリモートワーク】&lt;/h2&gt;
+
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-left media-top&#34;&gt;
+    &lt;img class=&#34;media-object&#34; src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34;/&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h4 class=&#34;media-heading&#34;&gt;スピーカー：ソリューションアーキテクト 西島&lt;/h4&gt;
+    &lt;p&gt;沖縄の自宅からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。オープンソースとクラフトビールをこよなく愛する。&lt;br&gt;
+    著書（共著）：&lt;a href=&#34;https://www.amazon.co.jp/dp/4839959595/&#34; target=&#34;_blank&#34;&gt;効果的な導入・運用のための　Amazon Web Services活用入門&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;セッション概要&#34;&gt;セッション概要：&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;AWSやkintoneといったクラウドやGo言語などの技術を上手く使いこなして、企業情報システムの未来を作るのは君だ！
+
+弊社アールスリーインスティテュートで日々行われている開発にはJavaからGo言語、JavaScriptを用いたkintoneカスタマイズからAWS上に構築された自社サービスの運営まで色々あります。
+そんな開発を場所にとらわれず行っている日々の日常を少しだけご紹介します。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;サブセッション-チラ見せします-kintoneって何&#34;&gt;サブセッション：【チラ見せします「kintoneって何？」】&lt;/h2&gt;
+
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-left media-top&#34;&gt;
+    &lt;img class=&#34;media-object&#34; src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34;/&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h4 class=&#34;media-heading&#34;&gt;スピーカー：クラウドエンジニア　池上&lt;/h4&gt;
+    &lt;p&gt;エンジニアと思われないが正真正銘のエンジニア。&lt;a href=&#34;https://gusuku.io/&#34; target=&#34;_blank&#34;&gt;gusukuエバンジェリスト&lt;/a&gt;。&lt;br&gt;kintoneの勉強会で講師を務めたり、コミュニティの運営したり展示会などのイベントはもとより、勉強会やハッカソンでコスプレして参加したりしています。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;セッション概要-1&#34;&gt;セッション概要：&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;聞いたことがあるかたもないかたも、これからのクラウド時代「kintone（キントーン）」を知らないと社会人人生かなり損します。
+このセッションでは簡単なデモを交えながら、kintoneとはなんぞや？ということをご紹介し、これがこれからの情報システムのあり方の未来をちょっとだけお見せします。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;会場でお会いできること-お待ちしております-http-kansai-recruit-connpass-com-event-37107&#34;&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;会場でお会いできること、お待ちしております&lt;/a&gt;&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>アールスリーは東北IT物産展をサポートしています</title>

@@ -5,8 +5,88 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 02 Sep 2016 11:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2016 15:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>「IT企業合同採用イベント☆ザ･関西」開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/the-kansai-recruit-0922/</link>
+      <pubDate>Tue, 06 Sep 2016 15:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/the-kansai-recruit-0922/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/banner/kansai-recruit1609/banner_970x120.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;9月22日（祝日：秋分の日）に開催される、「IT企業合同採用イベント☆ザ･関西！！」のお知らせです。&lt;/p&gt;
+
+&lt;h2 id=&#34;関西の元気なit企業5社が合同勉強会を開催&#34;&gt;関西の元気なIT企業5社が合同勉強会を開催&lt;/h2&gt;
+
+&lt;p&gt;大阪に拠点を持ち、様々な技術分野を得意とするクラウドやコミュニティの支援に積極的な企業が一同に介し、それぞれ独自のセッションを行う、非常にユニークな勉強会スタイルのイベントです。&lt;/p&gt;
+
+&lt;h2 id=&#34;参加すべきかた&#34;&gt;参加すべきかた&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;関西方面で新しい技術に興味があるかた&lt;/li&gt;
+&lt;li&gt;社会人のかたで「となりの青い芝を見てみたい」と思っているかた&lt;/li&gt;
+&lt;li&gt;来年就職活動予定の学生・院生のかたで、インターン/アルバイト先を探している方&lt;/li&gt;
+&lt;li&gt;単純にセッションの内容に興味のあるかた&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなど、ちょっと覗いてみたいな？と思った方はどなたでも大歓迎です。参加無料ですが、お飲み物と軽食をご用意してお待ちしております。&lt;/p&gt;
+
+&lt;p&gt;いわゆる一般的な企業説明会などと違い、勉強会スタイルで新しい技術に触れ、ついでに中の人ともゆっくり話が出来る、とってもお得なイベントです。&lt;/p&gt;
+
+&lt;p&gt;是非皆様のご参加をお待ちしております。&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;お申込はこちら&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;&lt;img class=&#34;wide-image&#34; width=&#34;400&#34; src=&#34;https://www.r3it.com/images/banner/kansai-recruit1609/photo-1434989407504-46a53b1b8a6d.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;弊社のセッションのご紹介&#34;&gt;弊社のセッションのご紹介&lt;/h1&gt;
+
+&lt;p&gt;各社非常に興味深いセッションが並びます。その中で弊社のセッションとスピーカーをご紹介します。&lt;/p&gt;
+
+&lt;h2 id=&#34;メイントラック-クラウドとgo言語とリモートワーク&#34;&gt;メイントラック：【クラウドとGo言語とリモートワーク】&lt;/h2&gt;
+
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-left media-top&#34;&gt;
+    &lt;img class=&#34;media-object&#34; src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34;/&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h4 class=&#34;media-heading&#34;&gt;スピーカー：ソリューションアーキテクト 西島&lt;/h4&gt;
+    &lt;p&gt;沖縄の自宅からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。オープンソースとクラフトビールをこよなく愛する。&lt;br&gt;
+    著書（共著）：&lt;a href=&#34;https://www.amazon.co.jp/dp/4839959595/&#34; target=&#34;_blank&#34;&gt;効果的な導入・運用のための　Amazon Web Services活用入門&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;セッション概要&#34;&gt;セッション概要：&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;AWSやkintoneといったクラウドやGo言語などの技術を上手く使いこなして、企業情報システムの未来を作るのは君だ！
+
+弊社アールスリーインスティテュートで日々行われている開発にはJavaからGo言語、JavaScriptを用いたkintoneカスタマイズからAWS上に構築された自社サービスの運営まで色々あります。
+そんな開発を場所にとらわれず行っている日々の日常を少しだけご紹介します。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;サブセッション-チラ見せします-kintoneって何&#34;&gt;サブセッション：【チラ見せします「kintoneって何？」】&lt;/h2&gt;
+
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-left media-top&#34;&gt;
+    &lt;img class=&#34;media-object&#34; src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34;/&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h4 class=&#34;media-heading&#34;&gt;スピーカー：クラウドエンジニア　池上&lt;/h4&gt;
+    &lt;p&gt;エンジニアと思われないが正真正銘のエンジニア。&lt;a href=&#34;https://gusuku.io/&#34; target=&#34;_blank&#34;&gt;gusukuエバンジェリスト&lt;/a&gt;。&lt;br&gt;kintoneの勉強会で講師を務めたり、コミュニティの運営したり展示会などのイベントはもとより、勉強会やハッカソンでコスプレして参加したりしています。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;セッション概要-1&#34;&gt;セッション概要：&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;聞いたことがあるかたもないかたも、これからのクラウド時代「kintone（キントーン）」を知らないと社会人人生かなり損します。
+このセッションでは簡単なデモを交えながら、kintoneとはなんぞや？ということをご紹介し、これがこれからの情報システムのあり方の未来をちょっとだけお見せします。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;会場でお会いできること-お待ちしております-http-kansai-recruit-connpass-com-event-37107&#34;&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;会場でお会いできること、お待ちしております&lt;/a&gt;&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>DojoCon Japan 2016に子供を連れて参加してきました</title>
@@ -570,7 +650,7 @@ kintoneでの業務アプリ開発には欠かせない「gusuku」&lt;/h2&gt;
       <guid>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</guid>
       <description>
 
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;株式会社アプレッソ様-sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします&#34;&gt;株式会社アプレッソ様、Sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします！&lt;/h2&gt;
 
@@ -891,78 +971,6 @@ kintoneでの業務アプリ開発には欠かせない「gusuku」&lt;/h2&gt;
 
 &lt;p&gt;&lt;h1 class=&#34;text-center v-center&#34;&gt;クラウド化のご相談、お問い合わせはこちら。&lt;/h1&gt;
 &lt;div class=&#34;row&#34;&gt;&lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg btn-block&#34; href=&#34;https://www.r3it.com/#inquiry&#34;&gt;Tel : 06-6271-3663 or お問い合わせフォームから&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、クラウド化を支援する設計・導入コンサルティングサービスを提供開始</title>
-      <link>https://www.r3it.com/info/2016/cloud-diving-service/</link>
-      <pubDate>Mon, 04 Jul 2016 12:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/cloud-diving-service/</guid>
-      <description>
-
-&lt;h2 id=&#34;クラウドダイビングサービス-は御社システムのクラウド化をお手伝いします&#34;&gt;「クラウドダイビングサービス」は御社システムのクラウド化をお手伝いします&lt;/h2&gt;
-
-&lt;p&gt;「&lt;a href=&#34;https://www.r3it.com/solutions/aws/&#34;&gt;クラウドダイビングサービス&lt;/a&gt;」は、ビジネスをクラウド化し成果を上げるために必要な、社内の意識改革・最適なシステム設計・業務設計を提供する上流コンサルティングサービスです。&lt;/p&gt;
-
-&lt;h1 id=&#34;サービス概要&#34;&gt;サービス概要&lt;/h1&gt;
-
-&lt;p&gt;単に今までのシステムをクラウドの上で動かすことを目的とせず、クラウド的な考え方の社内教育・業務設計まで含め、御社のクラウドシフトをお手伝いいたします。&lt;/p&gt;
-
-&lt;p&gt;構築したシステム運用の外部委託をご希望されるお客様には、弊社もしくはクラウド構築支援サービスを提供しているパートナーとして、株式会社サーバーワークス様をご紹介いたします。&lt;/p&gt;
-
-&lt;h1 id=&#34;解決しようとする課題&#34;&gt;解決しようとする課題&lt;/h1&gt;
-
-&lt;p&gt;既存システムをクラウド化するにあたっての課題にて、一番大きいものはなんでしょうか？&lt;/p&gt;
-
-&lt;p&gt;「クラウド化」とは、単に既存のデーターセンターにあるサービスをクラウド上に移行することではありません。それ以前に、社内の従来から行われてきた慣例・考え方を塗り替える必要があります。また、各種クラウドサービスによって固有の最適解やノウハウが必要となり、それに合わせたシステム設計や運用設計、勿論社内エンジニアやユーザーの教育といった全社的な意識改革が必要となってきます。&lt;/p&gt;
-
-&lt;h1 id=&#34;本サービスがご提供する価値&#34;&gt;本サービスがご提供する価値&lt;/h1&gt;
-
-&lt;p&gt;本サービスでは、御社のビジネスのクラウド化を推進する際に障害となるものに対して、最適なご提案や設計をご用意いたします。目的は「オンプレミスで動いていたシステムをクラウドに上げる」ことではなく、最適な形でクラウド化することによって得られる「御社のビジネス上の成功」にフォーカスします。御社と力を合わせ、御社の意識改革・既存業務フローや業務システムのモデルチェンジにご協力いたします。&lt;/p&gt;
-
-&lt;p&gt;ご提供する成果物例：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;御社ビジネスのクラウド化ロードマップ&lt;/li&gt;
-&lt;li&gt;クラウド導入を社内説明するための説明資料&lt;/li&gt;
-&lt;li&gt;既存業務システムをクラウド化する際のシステムアーキテクチャ&lt;/li&gt;
-&lt;li&gt;既存業務フローの再設計&lt;/li&gt;
-&lt;li&gt;クラウド化されたシステムの運用設計&lt;/li&gt;
-&lt;li&gt;社内エンジニアの教育プログラム&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最終的には、御社内で自律的にクラウド化されたシステムの開発・運用ができることを目指しております。&lt;/p&gt;
-
-&lt;p&gt;アプリケーションの再構築や運用管理を、弊社またはパートナー企業にご依頼いただくことも、もちろん可能です。日本でもっともクラウドインテグレーションの実績が豊富な会社のひとつである、株式会社サーバーワークス様とアライアンスを締結しております。&lt;/p&gt;
-
-&lt;h1 id=&#34;エンドースメント&#34;&gt;エンドースメント&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/serverworks.png&#34; alt=&#34;株式会社サーバーワークス&#34; class=&#34;wide-image&#34;/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;株式会社サーバーワークス-代表取締役-大石-良-様&#34;&gt;株式会社サーバーワークス 代表取締役 大石 良 様&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;このたびはアールスリー様のプロフェッショナルサービス提供開始、まことにおめでとうございます。
-当社は「クラウドで、世界を、もっと、はたらきやすく」をビジョンとしており、
-アールスリー様とご一緒にそのビジョンに向けてお客様のお手伝いを出来ること、非常に嬉しく思っております。
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;お問い合わせ-お申込にあたり&#34;&gt;お問い合わせ・お申込にあたり&lt;/h1&gt;
-
-&lt;p&gt;本サービスに必要な物は「こうありたい」というご担当者の強い意志です。弊社はご担当者の意思を全力でサポートさせていただきます。&lt;/p&gt;
-
-&lt;p&gt;ぜひ、御社のビジネスのクラウド化をお手伝いさせて頂ければと存じます。まずはお問い合わせください。&lt;/p&gt;
-
-&lt;h2 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h2&gt;
-
-&lt;h3 id=&#34;アールスリーインスティテュート&#34;&gt;アールスリーインスティテュート&lt;/h3&gt;
-
-&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663 / Email : &lt;a href=&#34;mailto:info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。&lt;/p&gt;
 </description>
     </item>
     

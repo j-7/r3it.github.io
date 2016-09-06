@@ -5,8 +5,88 @@
     <link>https://www.r3it.com/tags/event/</link>
     <description>Recent content in Event on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Jul 2016 14:00:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Sep 2016 15:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>「IT企業合同採用イベント☆ザ･関西」開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/the-kansai-recruit-0922/</link>
+      <pubDate>Tue, 06 Sep 2016 15:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/the-kansai-recruit-0922/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/banner/kansai-recruit1609/banner_970x120.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;9月22日（祝日：秋分の日）に開催される、「IT企業合同採用イベント☆ザ･関西！！」のお知らせです。&lt;/p&gt;
+
+&lt;h2 id=&#34;関西の元気なit企業5社が合同勉強会を開催&#34;&gt;関西の元気なIT企業5社が合同勉強会を開催&lt;/h2&gt;
+
+&lt;p&gt;大阪に拠点を持ち、様々な技術分野を得意とするクラウドやコミュニティの支援に積極的な企業が一同に介し、それぞれ独自のセッションを行う、非常にユニークな勉強会スタイルのイベントです。&lt;/p&gt;
+
+&lt;h2 id=&#34;参加すべきかた&#34;&gt;参加すべきかた&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;関西方面で新しい技術に興味があるかた&lt;/li&gt;
+&lt;li&gt;社会人のかたで「となりの青い芝を見てみたい」と思っているかた&lt;/li&gt;
+&lt;li&gt;来年就職活動予定の学生・院生のかたで、インターン/アルバイト先を探している方&lt;/li&gt;
+&lt;li&gt;単純にセッションの内容に興味のあるかた&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などなど、ちょっと覗いてみたいな？と思った方はどなたでも大歓迎です。参加無料ですが、お飲み物と軽食をご用意してお待ちしております。&lt;/p&gt;
+
+&lt;p&gt;いわゆる一般的な企業説明会などと違い、勉強会スタイルで新しい技術に触れ、ついでに中の人ともゆっくり話が出来る、とってもお得なイベントです。&lt;/p&gt;
+
+&lt;p&gt;是非皆様のご参加をお待ちしております。&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;お申込はこちら&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;&lt;img class=&#34;wide-image&#34; width=&#34;400&#34; src=&#34;https://www.r3it.com/images/banner/kansai-recruit1609/photo-1434989407504-46a53b1b8a6d.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;弊社のセッションのご紹介&#34;&gt;弊社のセッションのご紹介&lt;/h1&gt;
+
+&lt;p&gt;各社非常に興味深いセッションが並びます。その中で弊社のセッションとスピーカーをご紹介します。&lt;/p&gt;
+
+&lt;h2 id=&#34;メイントラック-クラウドとgo言語とリモートワーク&#34;&gt;メイントラック：【クラウドとGo言語とリモートワーク】&lt;/h2&gt;
+
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-left media-top&#34;&gt;
+    &lt;img class=&#34;media-object&#34; src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34;/&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h4 class=&#34;media-heading&#34;&gt;スピーカー：ソリューションアーキテクト 西島&lt;/h4&gt;
+    &lt;p&gt;沖縄の自宅からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。オープンソースとクラフトビールをこよなく愛する。&lt;br&gt;
+    著書（共著）：&lt;a href=&#34;https://www.amazon.co.jp/dp/4839959595/&#34; target=&#34;_blank&#34;&gt;効果的な導入・運用のための　Amazon Web Services活用入門&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;セッション概要&#34;&gt;セッション概要：&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;AWSやkintoneといったクラウドやGo言語などの技術を上手く使いこなして、企業情報システムの未来を作るのは君だ！
+
+弊社アールスリーインスティテュートで日々行われている開発にはJavaからGo言語、JavaScriptを用いたkintoneカスタマイズからAWS上に構築された自社サービスの運営まで色々あります。
+そんな開発を場所にとらわれず行っている日々の日常を少しだけご紹介します。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;サブセッション-チラ見せします-kintoneって何&#34;&gt;サブセッション：【チラ見せします「kintoneって何？」】&lt;/h2&gt;
+
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-left media-top&#34;&gt;
+    &lt;img class=&#34;media-object&#34; src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34;/&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h4 class=&#34;media-heading&#34;&gt;スピーカー：クラウドエンジニア　池上&lt;/h4&gt;
+    &lt;p&gt;エンジニアと思われないが正真正銘のエンジニア。&lt;a href=&#34;https://gusuku.io/&#34; target=&#34;_blank&#34;&gt;gusukuエバンジェリスト&lt;/a&gt;。&lt;br&gt;kintoneの勉強会で講師を務めたり、コミュニティの運営したり展示会などのイベントはもとより、勉強会やハッカソンでコスプレして参加したりしています。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;セッション概要-1&#34;&gt;セッション概要：&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;聞いたことがあるかたもないかたも、これからのクラウド時代「kintone（キントーン）」を知らないと社会人人生かなり損します。
+このセッションでは簡単なデモを交えながら、kintoneとはなんぞや？ということをご紹介し、これがこれからの情報システムのあり方の未来をちょっとだけお見せします。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;会場でお会いできること-お待ちしております-http-kansai-recruit-connpass-com-event-37107&#34;&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;会場でお会いできること、お待ちしております&lt;/a&gt;&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>SW ✕ R3 合同勉強会 『R3とSWのエンジニアと学ぶ イケてる Infrastructure as Code』開催レポート</title>
@@ -1333,86 +1413,6 @@ kintoneを使うと開発してテストまでのフェーズも時間がかか�
 &lt;p&gt;以上、駆け足でご紹介してきました。四国・東京・九州・大阪と、コミュニティイベントや展示会など、あちこちのイベントで皆様とお会いできることを、楽しみにしております！&lt;/p&gt;
 
 &lt;p&gt;そして、弊社社員を見かけた際には、ぜひお気軽にお声がけください！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NRIハッカソン＠CEATEC JAPAN2015 大阪予選を突破しました！</title>
-      <link>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</link>
-      <pubDate>Mon, 14 Sep 2015 19:23:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/etc/20150912_hack-for-money-osaka-result/</guid>
-      <description>
-
-&lt;p&gt;「大阪に出張で来るとき、いつも体調悪いね」って言われて凹んだ西島です、こんにちは。&lt;/p&gt;
-
-&lt;p&gt;さて、先日より&lt;a href=&#34;../hack-for-money/&#34;&gt;こちらの記事&lt;/a&gt;などでお知らせしていた &lt;a href=&#34;http://www.nri-aitd.com/201510hackathon/&#34;&gt;NRIハッカソン＠CEATEC JAPAN 2015&lt;/a&gt; 大阪予選ですが、見事弊社IoT部のアイデアが予選通過しました！ 今日はそのイベントの様子をご報告します。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/board.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/board.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;イベントの様子は他の会社様のサイトでも報告されていますので、こちらも合わせてご覧ください（見つけ次第随時追加予定）。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.val.co.jp/2015/09/hackathon-qualifier-osaka.html&#34;&gt;駅すぱあとWebサービスをMoneyハッカソンに提供！大阪予選レポート&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;アイデアソンの会場は大阪グランフロントにある大阪イノベーションハブでした。土曜日の朝9時半開始というなかなかのスケジュールで、あんまり人が来ないかな〜と思いきや、皆さん気合入ってます、しっかり時間キッチリにほぼ満員で始まりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/event-start.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;大阪予選はチーム参加＆個人参加の方々のチームビルディングの結果、16チームで争われることになりました。ちなみに我らのチーム名は「ナンデヤネンボット」でして、「ぽっと」ではありません。部長もお怒りです。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/team-list.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/bucho.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ちなみにこの「なんでやねんボット」は、&lt;a href=&#34;../iot-circle-meetup/&#34;&gt;ハッカーズチャンプルー2015の開発合宿&lt;/a&gt;で生まれた、IoT部のマスコット兼影の部長です。沖縄から大阪、更に当日の人混みをかいくぐってのグランフロントと、移動を経てきてかなりボロボロです・・・。&lt;/p&gt;
-
-&lt;p&gt;午前中は、チームビルドやアイデア出し、素材提供企業のプレゼンや質疑応答などなどに費やされ、お昼前から15時までがプレゼン作成の勝負です。&lt;/p&gt;
-
-&lt;h2 id=&#34;アイデア検討-プレゼン作成&#34;&gt;アイデア検討＆プレゼン作成&lt;/h2&gt;
-
-&lt;p&gt;お弁当を食べながら、コーヒーを飲みながら、アイデアを膨らませつつブラッシュアップ、資料作成〜とプレゼン発表まではあっという間でした。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;西島は、IoT部での参加ではなく、個人参加した前日夜の&lt;a href=&#34;https://mashupawards.doorkeeper.jp/events/29392&#34;&gt;某アイデアソンの惜敗・惨敗&lt;/a&gt;を受けて、ざっくりしたアイデアと実現可能性を確認したあとは、ただひたすら寸劇の効果を最大化すべくアイデア出しと資料の作成をしておりました（前日夜は、ここは大阪ということをすっかり忘れておりました・・・）。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/meeting2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;で、出来た資料はこちらです。厳格に3分で切られるということだったので、寸劇のリハーサルも含めてきっちり行いました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/tq5FRYYQa2MSCN&#34; width=&#34;510&#34; height=&#34;420&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/KoichiroNishijima/hack-for-money-201509-osaka&#34; title=&#34;Hack for Money 201509 osaka&#34; target=&#34;_blank&#34;&gt;Hack for Money 201509 osaka&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/KoichiroNishijima&#34; target=&#34;_blank&#34;&gt;Koichiro Nishijima&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;どうですかこのすぐに役立つロボットと、タイム・トラベルのSF無限ループのミックス！（会場でプレゼン＋寸劇を見て、すぐ背景まで意図が分かった人は居たんでしょうか・・・）。&lt;/p&gt;
-
-&lt;h2 id=&#34;ドキドキのプレゼンテーション-結果発表&#34;&gt;ドキドキのプレゼンテーション〜結果発表&lt;/h2&gt;
-
-&lt;p&gt;さて、プレゼン発表は、やはり半分以上のチームが寸劇を入れてくる、なかなか見応えのある内容でした。さすが大阪・・・。&lt;/p&gt;
-
-&lt;p&gt;（すみません、このあたりから大解像度の画像はありません）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/presentation.jpg&#34; alt=&#34;若干緊張気味の面々&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;で、結果は、無事予選突破の3チームの中に選ばれました！&lt;/p&gt;
-
-&lt;p&gt;いや〜、良かったよかった、という言葉しか出てきませんでした。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/result.jpg&#34; alt=&#34;予選突破！&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;分厚い賞品には、中身が何かドキドキしましたが・・・&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize1.jpg&#34; alt=&#34;賞品1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;本戦の入場パスでした！&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/etc/hack-for-money-2015-osaka-result/prize2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本戦は10月6日(火)～7日(水)に幕張メッセ　CEATEC JAPAN 2015会場内にて行われます。果たして部員一同ちゃんと仕事を整理して、会社の支援で幕張メッセに行けるのか！？乞うご期待！&lt;/p&gt;
-
-&lt;p&gt;（西島は特に沖縄からなので、とんでもなくお金と時間がかかります。前泊後泊必須だし・・・幕張不便です(;_;)&lt;/p&gt;
 </description>
     </item>
     
