@@ -5,8 +5,34 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Sep 2016 15:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Sep 2016 14:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>奈良県 平成28年度IoT事業化セミナー・ブース出展のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/nara-iot-seminar/</link>
+      <pubDate>Wed, 14 Sep 2016 14:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/nara-iot-seminar/</guid>
+      <description>
+
+&lt;p&gt;IoTを活用した中小企業の事業化支援に力を入れている奈良県が主催で、IoTに関するセミナーが開催されます。&lt;/p&gt;
+
+&lt;p&gt;弊社アールスリーインスティテュートは、IoTチャレンジ応援企業として会場内でブース出展させて頂きます。&lt;/p&gt;
+
+&lt;p&gt;当日は、kintoneとAWSを組み合わせたIoTの活用事例として、オプテックス株式会社様のIoT事例をご紹介させて頂く予定です。&lt;/p&gt;
+
+&lt;h2 id=&#34;iot事業化セミナーについて&#34;&gt;IoT事業化セミナーについて&lt;/h2&gt;
+
+&lt;p&gt;さくらインターネット様を始め、IoTを使った取り組みを進められている企業様の事例を通じて、IoTを身近に感じる事ができるセミナーです。
+IoTが自社ビジネスにどう関わっていくのかお悩みの方、是非ご参加下さい。&lt;/p&gt;
+
+&lt;p&gt;　開催日：2016年9月28日&lt;br&gt;
+　場所　：奈良県文化会館&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;詳しい情報、お申込は&lt;a href=&#34;http://www.pref.nara.jp/item/163208.htm&#34;&gt;奈良県のホームページ&lt;/a&gt;をご覧下さい。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「IT企業合同採用イベント☆ザ･関西」開催のお知らせ</title>
@@ -906,71 +932,6 @@ kintoneでの業務アプリ開発には欠かせない「gusuku」&lt;/h2&gt;
 &lt;p&gt;AWSに興味のある方ならどなたでも参加&lt;strong&gt;大歓迎&lt;/strong&gt;です。&lt;/p&gt;
 
 &lt;p&gt;当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AWSについて / クラウドダイビングサービスのご紹介</title>
-      <link>https://www.r3it.com/solutions/aws/</link>
-      <pubDate>Mon, 04 Jul 2016 12:00:23 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/solutions/aws/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/aws/dive-314360_1280.jpg&#34; alt=&#34;アールスリー：クラウドダイビングサービス&#34; class=&#34;wide-image&#34;/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;クラウドダイビングサービス-は御社システムのクラウド化をお手伝いします&#34;&gt;「クラウドダイビングサービス」は御社システムのクラウド化をお手伝いします&lt;/h2&gt;
-
-&lt;p&gt;「クラウドダイビングサービス」は、ビジネスをクラウド化し成果を上げるために必要な、社内の意識改革・最適なシステム設計・業務設計を提供する上流コンサルティングサービスです。&lt;/p&gt;
-
-&lt;p class=&#34;text-right&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/AWS_Logo_Consulting_Partner_DARK.png&#34; alt=&#34;AWS Partner Network (APN) コンサルティングパートナー&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;プレスリリース&#34;&gt;プレスリリース&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2016年7月4日 &lt;a href=&#34;http://www.serverworks.co.jp/news/release-r3-alliance&#34;&gt;【プレスリリース】大阪のクラウドインテグレーター アールスリーインスティテュートとクラウド導入支援事業で業務提携&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2016年7月4日 &lt;a href=&#34;https://www.r3it.com/info/2016/cloud-diving-service/&#34;&gt;アールスリー、クラウド化を支援する設計・導入コンサルティングサービスを提供開始&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;サービス概要&#34;&gt;サービス概要&lt;/h1&gt;
-
-&lt;p&gt;単に今までのシステムをクラウドの上で動かすことを目的とせず、クラウド的な考え方の社内教育・業務設計まで含め、御社のクラウドシフトをお手伝いいたします。&lt;/p&gt;
-
-&lt;p&gt;構築したシステム運用の外部委託をご希望されるお客様には、弊社もしくはクラウド構築支援サービスを提供しているパートナーとして、株式会社サーバーワークス様をご紹介いたします。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/aws/swx_r3.png&#34; class=&#34;wide-image&#34;/&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;本サービスがご提供する価値&#34;&gt;本サービスがご提供する価値&lt;/h1&gt;
-
-&lt;p&gt;本サービスでは、御社のビジネスのクラウド化を推進する際に障害となるものに対して、最適なご提案や設計をご用意いたします。目的は「オンプレミスで動いていたシステムをクラウドに上げる」ことではなく、最適な形でクラウド化することによって得られる「御社のビジネス上の成功」にフォーカスします。御社と力を合わせ、御社の意識改革・既存業務フローや業務システムのモデルチェンジにご協力いたします。&lt;/p&gt;
-
-&lt;p&gt;ご提供する成果物例：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;御社ビジネスのクラウド化ロードマップ&lt;/li&gt;
-&lt;li&gt;クラウド導入を社内説明するための説明資料&lt;/li&gt;
-&lt;li&gt;既存業務システムをクラウド化する際のシステムアーキテクチャ&lt;/li&gt;
-&lt;li&gt;既存業務フローの再設計&lt;/li&gt;
-&lt;li&gt;クラウド化されたシステムの運用設計&lt;/li&gt;
-&lt;li&gt;社内エンジニアの教育プログラム&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最終的には、御社内で自律的にクラウド化されたシステムの開発・運用ができることを目指しております。&lt;/p&gt;
-
-&lt;p&gt;アプリケーションの再構築や運用管理を、弊社またはパートナー企業にご依頼いただくことも、もちろん可能です。日本でもっともクラウドインテグレーションの実績が豊富な会社のひとつである、株式会社サーバーワークス様と業務提携しております。&lt;/p&gt;
-
-&lt;h1 id=&#34;お問い合わせ-お申込にあたり&#34;&gt;お問い合わせ・お申込にあたり&lt;/h1&gt;
-
-&lt;p&gt;本サービスに必要な物は「こうありたい」というご担当者の強い意志です。弊社はご担当者の意思を全力でサポートさせていただきます。&lt;/p&gt;
-
-&lt;p&gt;ぜひ、御社のビジネスのクラウド化をお手伝いさせて頂ければと存じます。まずはお問い合わせください。&lt;/p&gt;
-
-&lt;h1 id=&#34;参考事例&#34;&gt;参考事例&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/case/&#34;&gt;AWSを利用した構築事例はこちら&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;p&gt;&lt;h1 class=&#34;text-center v-center&#34;&gt;クラウド化のご相談、お問い合わせはこちら。&lt;/h1&gt;
-&lt;div class=&#34;row&#34;&gt;&lt;div class=&#34;col-sm-10 col-sm-offset-1 text-center&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg btn-block&#34; href=&#34;https://www.r3it.com/#inquiry&#34;&gt;Tel : 06-6271-3663 or お問い合わせフォームから&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
