@@ -63,6 +63,7 @@ h1 {
 
 .navbar-trans a{
     color:#fefefe;
+    font-size: 14px;
 }
 
 .navbar-trans .form-control:focus {
