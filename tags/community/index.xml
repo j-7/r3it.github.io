@@ -5,8 +5,58 @@
     <link>https://www.r3it.com/tags/community/</link>
     <description>Recent content in Community on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 26 Sep 2016 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Nov 2016 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone Café 神戸 Vol.7</title>
+      <link>https://www.r3it.com/blog/kintone/20161028_kintonecafe-kobe7/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20161028_kintonecafe-kobe7/</guid>
+      <description>
+
+&lt;p&gt;2016年10月28日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/52303&#34;&gt;kintone Café 神戸 Vol.7&lt;/a&gt; に登壇してきました。&lt;/p&gt;
+
+&lt;p&gt;前回Vol.6は参加できなかったのですが、振り返ると7回の開催のうち5回参加しており、もしかしたら運営メンバーより参加回数が多いかもしれませんねｗ&lt;/p&gt;
+
+&lt;h2 id=&#34;初心者向けハンズオン-細谷さん&#34;&gt;初心者向けハンズオン(細谷さん)&lt;/h2&gt;
+
+&lt;p&gt;トップバッターはアイルランド帰りの細谷さん。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161028/hosoya.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161028/hosoya.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;初心者向けのハンズオンとして、&lt;font size=&#34;4&#34; color=&#34;#0000FF&#34;&gt;美容室の来店予約&lt;/font&gt;アプリと&lt;font size=&#34;4&#34; color=&#34;#0000FF&#34;&gt;顧客管理&lt;/font&gt;アプリを作りました。&lt;/p&gt;
+
+&lt;p&gt;そう・・・ご存知の方もいるかもしれませんが、今年の1月に行われたkintone Café 関西女子会 Vol.1の&lt;S&gt;使い回し&lt;/S&gt;再演となりました。&lt;/p&gt;
+
+&lt;p&gt;真面目な話しをすると、単純に操作を進めるだけで無く、&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;&amp;ldquo;なぜその操作をしているのか&amp;rdquo;&lt;/font&gt;を解説しながら進めてくれるので、初心者の方にとっても非常に理解しやすく感じました。&lt;/p&gt;
+
+&lt;p&gt;ハンズオンを実施する立場としても非常に勉強になりました！&lt;/p&gt;
+
+&lt;h2 id=&#34;javascriptカスタマイズの今と昔-浅賀&#34;&gt;JavaScriptカスタマイズの今と昔(浅賀)&lt;/h2&gt;
+
+&lt;p&gt;続いて私からは「JavaScriptカスタマイズの今と昔」と題し、JavaScriptカスタマイズについて「昔」と「今」でパートを分けて発表させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161028/asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161028/asaga.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;「昔」&lt;/font&gt;のパートではJavaScript APIが実装される前と後でカスタマイズ方法がどう変わったのかお話しさせて頂きました。(ほとんどネタ？)&lt;/p&gt;
+
+&lt;p&gt;今となっては知る必要も無い情報も多いので公開資料からは省いていますが、もし気になる方は私までお声がけください^^;&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;「今」&lt;/font&gt;のパートではR3がkintoneを使った開発を行う際に使っているツール類のご紹介をさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;開発環境を整備する中で足りなかった「kintoneへJavaScriptファイルをアップロードする作業を自動化する」ツールをR3が開発しGitHubで公開するまでの経緯をお話しさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/r3it/r3-kintone-js-deployer&#34;&gt;r3-kintone-js-deployer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone開発をされている皆さん、是非使ってみてください！&lt;/p&gt;
+
+&lt;p&gt;当日の資料はこちらで公開しております。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;2c9411ca4aa8496d8604505f89a6c300&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>IT企業合同採用イベント☆ザ･関西にお越し頂きありがとうございました！</title>
@@ -1127,64 +1177,6 @@ IoTデバイス（RaspberryPi）でセンシングしたデータを可視化す
 &lt;p&gt;Vol.8も計画中（夏頃？）なので、こういう事やって！というアイデアがあれば、是非お寄せ下さい。&lt;/p&gt;
 
 &lt;p&gt;運営に関わってみたい方もお待ちしてます！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 大阪で IoT 体験！</title>
-      <link>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</link>
-      <pubDate>Tue, 12 Apr 2016 12:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160412_kintonecafe-osaka7/</guid>
-      <description>
-
-&lt;p&gt;Vol.6 の開催報告を書いたばかりのような気がしますが、&lt;b&gt;&lt;font color=&#34;#FDD000&#34; size=&#34;5&#34;&gt;kintone Café 大阪 Vol.7&lt;/font&gt;&lt;/b&gt; 開催のお知らせです。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-café-大阪-vol-7-開催決定&#34;&gt;kintone Café 大阪 Vol.7 開催決定&lt;/h2&gt;
-
-&lt;p&gt;5月14日(土)に kintone Café 大阪 Vol.7 を開催します！&lt;br&gt;
-場所は前回と同じく弊社アールスリーでの開催です。&lt;br&gt;
-が、会議室があまり広く無いので、&lt;font color=&#34;red&#34; size=&#34;5&#34;&gt;kintone Café 大阪に場所を提供しても良いよ！&lt;/font&gt;という心優しい企業さんがいらっしゃいましたら、いつでもご連絡お待ちしてますm(_ _)m&lt;/p&gt;
-
-&lt;h2 id=&#34;関西のコミュニティが集結&#34;&gt;関西のコミュニティが集結&lt;/h2&gt;
-
-&lt;p&gt;今回は kintone Café 単独での開催では無く、関西のコミュニティが協力し合い、リレー形式で IoT のハンズオンをやる事になりました。&lt;/p&gt;
-
-&lt;p&gt;各コミュニティの得意分野を活かし、電子工作〜データ通信〜可視化まで、IoT の一連の流れを体験して頂けるようにしました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;電子工作が得意な &lt;a href=&#34;http://ouchi-hack.jpn.org/&#34; target=&#34;_blank&#34;&gt;関西おうちハック&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;IoT のデータ通信と言えば &lt;a href=&#34;https://soracom-ug-kansai.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;SORACOM-UG KANSAI&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;可視化が簡単 &lt;a href=&#34;https://jawsugosaka.doorkeeper.jp/&#34; target=&#34;_blank&#34;&gt;JAWS-UG 大阪&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://kintonecafe.com/&#34; target=&#34;_blank&#34;&gt;kintone Café&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;kintone Café では、Raspberry Pi に接続した照度センサーのデータを kintone に蓄積し、グラフを使って可視化する事を体験して頂きます。&lt;/p&gt;
-
-&lt;h4 id=&#34;注意&#34;&gt;※注意&lt;/h4&gt;
-
-&lt;p&gt;kintone Café では Raspberry Pi のセットアップは行いませんので、事前に準備をお願いします。&lt;/p&gt;
-
-&lt;p&gt;詳細は申し込みページをご確認下さい。&lt;/p&gt;
-
-&lt;h2 id=&#34;こんな方に最適&#34;&gt;こんな方に最適&lt;/h2&gt;
-
-&lt;p&gt;デバイスを触るのは得意だけど、クラウドはよく分からないんだよね、という声も最近よく聞きます。&lt;/p&gt;
-
-&lt;p&gt;そんな方にこそ、是非 kintone を触って頂き、IoT でも簡単に使える事を体験してもらいたいと思っています。&lt;/p&gt;
-
-&lt;p&gt;kintone の基礎から体験してもらいますので、kintone を触った事が無くて OK です！&lt;/p&gt;
-
-&lt;h2 id=&#34;お申し込みは&#34;&gt;お申し込みは&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/42313&#34; target=&#34;_blank&#34;&gt;Doorkeeper&lt;/a&gt; からお申し込みをお願いします。&lt;/p&gt;
-
-&lt;p&gt;既に残席わずかですのでお早めに！&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;では、kintone Café 大阪でお会いできる事を楽しみにしてます！&lt;/p&gt;
 </description>
     </item>
     

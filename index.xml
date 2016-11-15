@@ -5,8 +5,310 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Oct 2016 13:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Nov 2016 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cybozu Days 2016 tokyo Day1 kintone hack 参加レポート</title>
+      <link>https://www.r3it.com/blog/kintone/20161108-10_cd2016tokyo/</link>
+      <pubDate>Tue, 15 Nov 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20161108-10_cd2016tokyo/</guid>
+      <description>
+
+&lt;h1 id=&#34;戦場は前夜から&#34;&gt;戦場は前夜から&lt;/h1&gt;
+
+&lt;p&gt;実は序章がありました…&lt;/p&gt;
+
+&lt;p&gt;Cybozu Days前夜、多くのkintoneエバ達が全国から集結するということで、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF6347&#34;&gt;『kintone Evangelist Premium Party 2016 - エバを弄る会 -』&lt;/font&gt;&lt;/b&gt; がサイボウズさんの日本橋オフィスで開催されました。&lt;/p&gt;
+
+&lt;p&gt;kintoneエバの方々と、そのエバの方々によって同行を許可された者たち、そしてサイボウズさんが&lt;strong&gt;『この人たちにも是非参加してほしい！』&lt;/strong&gt;と太鼓判を押した人たち。&lt;/p&gt;
+
+&lt;p&gt;普段なかなか顔を合わせることのないメンバーが集い、まずは手慣らしに&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;LT大会&lt;/font&gt;&lt;/b&gt;から。&lt;/p&gt;
+
+&lt;p&gt;わたしはボスと &lt;del&gt;倉庫番&lt;/del&gt; エバンジェリストにくっついて参加したのですが、ここでLTに参戦しないと&lt;strong&gt;LT事故伝説が廃れていってしまう！&lt;/strong&gt;とばかり意気込んで当日思いつきで準備したLTネタで登壇しました。
+&lt;div style=&#34;width: 80%&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;8f835f50104f4175b7ecbb582e6f5225&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;皆さんそれぞれ持ち味を活かしたLTが炸裂していました。&lt;/p&gt;
+
+&lt;p&gt;こういう集まりってほんと楽しいですよね。そしてそんな集まりに同席できたことを非常に光栄に思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;cybozu-days-戦場の幕開け&#34;&gt;Cybozu Days 〜 戦場の幕開け&lt;/h1&gt;
+
+&lt;p&gt;わたしたちはパートナーなのですが、ブース展示は2日目の&lt;strong&gt;Day2 Conference&lt;/strong&gt;のみ。&lt;/p&gt;
+
+&lt;p&gt;1日目は&lt;strong&gt;Day1 User&amp;rsquo;s Academy。&lt;/strong&gt;サイボウズさんの製品を利用しているユーザー様を対象にしたコンテンツが目白押しとなっています。&lt;/p&gt;
+
+&lt;p&gt;kintoneユーザー同士でカジュアル&amp;amp;フラットに情報交換ができる場&lt;b&gt;&lt;font color=&#34;#FFA500&#34;&gt;『kintone hive』&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;年2回ペースで開催されていますが、今回はCybozu Daysという幕張メッセでの大舞台で、2016年最も光るkintoneのユーザー企業様&lt;strong&gt;kintone AWARD&lt;/strong&gt;ファイナリストによる、活用事例の発表がありました！&lt;/p&gt;
+
+&lt;p&gt;また、金春がデベロッパー代表として登壇した&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;『kintone hack 〜ここまでできるkintone〜』&lt;/font&gt;&lt;/b&gt;
+これはもう…サイボウズさん側の気合の入れ込み具合も半端ないほどのスケールの大きさ！&lt;/p&gt;
+
+&lt;p&gt;1日目は特に何もないので基本的にはセッションを見て回ることが出来る（はず）なのですが、実はわたしには&lt;strong&gt;課せられた重大ミッション&lt;/strong&gt;がありました。。。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hack-最速-ハイスピードでブログup-とはならず&#34;&gt;kintone hack 〜 最速&amp;amp;ハイスピードでブログUP！・・・とはならず&lt;/h2&gt;
+
+&lt;p&gt;そうです。&lt;strong&gt;the only one mission&lt;/strong&gt;はこちらですよ！&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#0000FF&#34;&gt;超速&amp;amp;爆速でブログUP！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;しかし…しかしですね…当日は走り回っていて終日バタバタしていたため上げることが出来なかったわけなのですよ（言い訳ではなry&lt;/p&gt;
+
+&lt;p&gt;リハから様子を見学し、本番まで時間的には少し余裕があったはずだったのですが、気づけば本番だよオイィ！？ってな状態ですよ。&lt;/p&gt;
+
+&lt;p&gt;ということで臨場感はすでに&lt;del&gt;忘却の彼方へと飛んでしまっておりますが&lt;/del&gt;、本番の様子を少しだけお伝えしちゃいます。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hack-経験豊富なデベロッパ達による頂上決戦の場&#34;&gt;kintone hack 〜 経験豊富なデベロッパ達による頂上決戦の場！&lt;/h2&gt;
+
+&lt;p&gt;kintoneを扱う7名の実績豊富なデベロッパーによるkintone最新トレンド決定戦が行われるとのことで会場に潜入です。&lt;/p&gt;
+
+&lt;p&gt;会場は基調講演も行われた&lt;strong&gt;共生会場。&lt;/strong&gt;一番大きなメインステージです。&lt;/p&gt;
+
+&lt;p&gt;今回のhackは前回のkintone hackで評価&lt;strong&gt;No.1&lt;/strong&gt;だったM-SOLUTIONSの植草さんを王者とし、他のデベロッパー達がチャレンジャーとしてkintoneを惜しみなく活用したhackネタをテーマにそれぞれ6分間のLTを繰り広げます。&lt;/p&gt;
+
+&lt;p&gt;会場の人たちには入場時にkintone hackタオルが配られるのですが、そのタオルを自分の気に入ったと思うセッションの時に高く掲げてもらいます。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo8.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo8.jpg&#34; width=&#34;400&#34;/&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo4.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo4.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;その掲げたタオルの数によって採点され、一番多く点を取った人が今回のNo.1デベロッパーとなります。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo6.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo6.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;LTの順番はこちら。通り名が&lt;strong&gt;秀逸&lt;/strong&gt;です。デベロッパー達のキャラがよく現れていますよ！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;M-SOLUTIONS　&lt;strong&gt;Pepperおじさん&lt;/strong&gt;　植草さん　（絶対的圧倒的王者）&lt;/li&gt;
+&lt;li&gt;アールスリーインスティテュート　&lt;strong&gt;ナニワの圧力団長&lt;/strong&gt;　金春&lt;/li&gt;
+&lt;li&gt;株式会社ジョイゾー　&lt;strong&gt;燃えよドラゴン&lt;/strong&gt;　山下さん&lt;/li&gt;
+&lt;li&gt;株式会社ジョイゾー　&lt;strong&gt;ミスターkintone&lt;/strong&gt; 　四宮さん&lt;/li&gt;
+&lt;li&gt;TIS株式会社　&lt;strong&gt;アモーレkintone&lt;/strong&gt;　久保さん&lt;/li&gt;
+&lt;li&gt;株式会社ソウルウェア　&lt;strong&gt;kintoneファンタジスタ&lt;/strong&gt;　寺林さん&lt;/li&gt;
+&lt;li&gt;アマゾンウェブサービスジャパン株式会社　&lt;strong&gt;アマゾンの最終兵器&lt;/strong&gt;　榎並さん&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;kintone-hack-opからやべーよやべーよ&#34;&gt;kintone hack 〜 OPからやべーよやべーよ&lt;/h2&gt;
+
+&lt;p&gt;最初はサイボウズ伊佐さんの挨拶から始まります。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo2.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そしてkintoneのことを誰よりも知る&lt;strong&gt;至高の存在！&lt;/strong&gt;男の中の男たち（デベロッパー）が登場します。&lt;/p&gt;
+
+&lt;p&gt;まずは和太鼓の演奏から。圧巻の演奏です。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo7.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo7.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そして一人一人名前を呼ばれながらの登場。&lt;/p&gt;
+
+&lt;p&gt;この壮大な演出と空間が&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;素敵すぎる・・・！&lt;/font&gt;&lt;/b&gt;この創り出された空間の雰囲気に完全に飲まれてしまったどうもわたしです。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo3.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo3.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hack-熱い男たちのltタイム&#34;&gt;kintone hack 〜 熱い男たちのLTタイム&lt;/h2&gt;
+
+&lt;p&gt;ここからは&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;ダイジェスト&lt;/font&gt;&lt;/b&gt;でお送りします。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo9.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo9.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo10.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo10.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo11.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo11.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo13.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo13.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo14.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo14.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo15.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo15.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo16.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo16.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo17.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo17.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;金春はhack中にkintoneで開発したCTIシステムのデモを行ったのですが、デモで実際に電話を掛けるというこれまた&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;重大ミッションを課せられた&lt;/font&gt;&lt;/b&gt;わたしでした。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo12.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo12.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;事前の段取りで&lt;strong&gt;2回目の◯◯の時に鳴らすんやで！&lt;/strong&gt;と言われていたにもかかわらず、気が早すぎてフライングをブッかましてしまいましたよええ＼(^o^)／&lt;/p&gt;
+
+&lt;p&gt;LTの順番が良かったのかトラブルが功を奏したか（？）絶対的王者植草さんを抜いて1位に踊り出た金春でした。&lt;/p&gt;
+
+&lt;p&gt;見よこのドヤ顔。さすが圧力団長と言われるだけのことはある。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo18.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo18.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そして最後まで&lt;strong&gt;暫定1位&lt;/strong&gt;を守り抜き・・・&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hack-男はそして伝説となる&#34;&gt;kintone hack 〜 男はそして伝説となる&lt;/h2&gt;
+
+&lt;p&gt;なんと&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;FF0000&#34;&gt;優勝をしてしまいました！！！！！&lt;/font&gt;&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo19.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo19.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;いやほんとこれね、会場の皆様のおかげだと思います。観客に混じってわたしも&lt;strong&gt;歓喜歓喜&lt;/strong&gt;でした。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo20.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo20.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;最後はみんなで&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF69B4&#34;&gt;「ありがTogetherーーーーーーーーーーーーーー！」&lt;/font&gt;&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo21.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo21.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;最高の感動を本当にありがとう！！！！！もうあの会場にいられたことが&lt;strong&gt;幸せでした！！！！！！！！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ということで、&lt;strong&gt;Cybozu Days 2016 tokyo&lt;/strong&gt;の（個人的に）一番熱いセッションの参加レポートをお届けしました₍₍ (ง ˘ω˘ )ว ⁾⁾　&lt;/p&gt;
+
+&lt;p&gt;尚、hackで優勝したLT資料もちゃんとUPされてますよ！こちらも併せてチェックして下さいね^^♪
+&lt;div style=&#34;width: 80%&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;330e5655fdc7442f822c957a387e004d&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;cybozu-days-はまだ終わらない&#34;&gt;Cybozu Days はまだ終わらない&lt;/h1&gt;
+
+&lt;p&gt;東京だけではありません！Cybozu Days 2016 は&lt;strong&gt;大阪&lt;/strong&gt;もありますよー！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https:/c2016.smktg.jp/public/application/add/45&#34;&gt;Cybozu Days 2016 osaka 2016年12月6日（火）開催っ♪&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪は&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;hive枠でのLT登壇&lt;/font&gt;&lt;/b&gt;があります。&lt;/p&gt;
+
+&lt;p&gt;こちらも見逃せないですよ！みなさん！次は&lt;strong&gt;大阪&lt;/strong&gt;でお会いしましょう^^&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、gusukuアンバサダー・プログラムを開始</title>
+      <link>https://www.r3it.com/info/2016/gusuku-ambassador-program-start/</link>
+      <pubDate>Thu, 10 Nov 2016 10:38:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-ambassador-program-start/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_ambassador_1200x639.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h1 id=&#34;アールスリー-gusukuアンバサダー-プログラムを開始&#34;&gt;アールスリー、gusukuアンバサダー・プログラムを開始&lt;/h1&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日アールスリー、gusukuアンバサダー・プログラムを開始いたしました。&lt;/p&gt;
+
+&lt;p&gt;gusukuアンバサダー・プログラムはgusukuを応援してくださる方を「アンバサダー」として任命させて頂くプログラムです。&lt;/p&gt;
+
+&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;https://gusuku.io/ambassador/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、gusuku紹介プログラムを開始</title>
+      <link>https://www.r3it.com/info/2016/gusuku-friends-program-start/</link>
+      <pubDate>Wed, 09 Nov 2016 10:38:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-friends-program-start/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_friends.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h1 id=&#34;アールスリー-gusuku紹介プログラムを開始&#34;&gt;アールスリー、gusuku紹介プログラムを開始&lt;/h1&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusuku紹介プログラムを開始いたしました。&lt;/p&gt;
+
+&lt;p&gt;gusuku紹介プログラムは、既にgusukuをご利用の方が新しいお客様を紹介してくださった際に、紹介したほう・されたほう双方に割引が適用されるプログラムです。&lt;/p&gt;
+
+&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;https://gusuku.io/friends/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone Café 神戸 Vol.7</title>
+      <link>https://www.r3it.com/blog/kintone/20161028_kintonecafe-kobe7/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20161028_kintonecafe-kobe7/</guid>
+      <description>
+
+&lt;p&gt;2016年10月28日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/52303&#34;&gt;kintone Café 神戸 Vol.7&lt;/a&gt; に登壇してきました。&lt;/p&gt;
+
+&lt;p&gt;前回Vol.6は参加できなかったのですが、振り返ると7回の開催のうち5回参加しており、もしかしたら運営メンバーより参加回数が多いかもしれませんねｗ&lt;/p&gt;
+
+&lt;h2 id=&#34;初心者向けハンズオン-細谷さん&#34;&gt;初心者向けハンズオン(細谷さん)&lt;/h2&gt;
+
+&lt;p&gt;トップバッターはアイルランド帰りの細谷さん。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161028/hosoya.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161028/hosoya.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;初心者向けのハンズオンとして、&lt;font size=&#34;4&#34; color=&#34;#0000FF&#34;&gt;美容室の来店予約&lt;/font&gt;アプリと&lt;font size=&#34;4&#34; color=&#34;#0000FF&#34;&gt;顧客管理&lt;/font&gt;アプリを作りました。&lt;/p&gt;
+
+&lt;p&gt;そう・・・ご存知の方もいるかもしれませんが、今年の1月に行われたkintone Café 関西女子会 Vol.1の&lt;S&gt;使い回し&lt;/S&gt;再演となりました。&lt;/p&gt;
+
+&lt;p&gt;真面目な話しをすると、単純に操作を進めるだけで無く、&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;&amp;ldquo;なぜその操作をしているのか&amp;rdquo;&lt;/font&gt;を解説しながら進めてくれるので、初心者の方にとっても非常に理解しやすく感じました。&lt;/p&gt;
+
+&lt;p&gt;ハンズオンを実施する立場としても非常に勉強になりました！&lt;/p&gt;
+
+&lt;h2 id=&#34;javascriptカスタマイズの今と昔-浅賀&#34;&gt;JavaScriptカスタマイズの今と昔(浅賀)&lt;/h2&gt;
+
+&lt;p&gt;続いて私からは「JavaScriptカスタマイズの今と昔」と題し、JavaScriptカスタマイズについて「昔」と「今」でパートを分けて発表させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161028/asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161028/asaga.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;「昔」&lt;/font&gt;のパートではJavaScript APIが実装される前と後でカスタマイズ方法がどう変わったのかお話しさせて頂きました。(ほとんどネタ？)&lt;/p&gt;
+
+&lt;p&gt;今となっては知る必要も無い情報も多いので公開資料からは省いていますが、もし気になる方は私までお声がけください^^;&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;「今」&lt;/font&gt;のパートではR3がkintoneを使った開発を行う際に使っているツール類のご紹介をさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;開発環境を整備する中で足りなかった「kintoneへJavaScriptファイルをアップロードする作業を自動化する」ツールをR3が開発しGitHubで公開するまでの経緯をお話しさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/r3it/r3-kintone-js-deployer&#34;&gt;r3-kintone-js-deployer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone開発をされている皆さん、是非使ってみてください！&lt;/p&gt;
+
+&lt;p&gt;当日の資料はこちらで公開しております。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;2c9411ca4aa8496d8604505f89a6c300&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cybozu Days 2016 出展のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/cybozudays-2016/</link>
+      <pubDate>Mon, 31 Oct 2016 17:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/cybozudays-2016/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/cybozudays2016/cybozudays2016_top.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11月9日（水）・10日（木）東京、12月6日（火）大阪&lt;/strong&gt;の2会場で開催されるサイボウズ社主催の総合イベント&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FA8072&#34;&gt;『Cybozu Days 2016』&lt;/font&gt;&lt;/b&gt;で出展させて頂きますのでそのお知らせです！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;11月9日・10日　tokyo　（幕張メッセ）&lt;/li&gt;
+&lt;li&gt;12月6日　　　　osaka　（グランフロント大阪 コングレコンベンションセンター）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;東京は2日間&#34;&gt;東京は2日間！&lt;/h2&gt;
+
+&lt;p&gt;東京1日目は &lt;strong&gt;User&amp;rsquo;s Academy&lt;/strong&gt; として、ユーザーや開発者向けのワークショップが開催されます！&lt;/p&gt;
+
+&lt;p&gt;1日目はブース出展はありませんが、実績豊富なデベロッパが集いトークセッションが繰り広げられる
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF8C00&#34;&gt;『kintone hack 〜ここまでできるkintone〜』&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+の中の1人として弊社金春が登壇致します。
+&lt;br&gt;
+&lt;br&gt;
+2日目は&lt;strong&gt;総合カンファレンス&lt;/strong&gt;となっており、ブース展示もあります。&lt;/p&gt;
+
+&lt;p&gt;弊社も従来のイベントとはひと味違った企画をご用意して皆様をお出迎え致します。&lt;/p&gt;
+
+&lt;h2 id=&#34;大阪は今回が初開催&#34;&gt;大阪は今回が初開催！&lt;/h2&gt;
+
+&lt;p&gt;遠方で東京にお越し頂くことが難しい方は、是非12月6日（火）に開催される&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;Cybozu Days 2016 osaka&lt;/font&gt;&lt;/b&gt;にお越し下さい！&lt;/p&gt;
+
+&lt;p&gt;今回初開催となる大阪は、ギュッと凝縮された、密度の濃い1日となること間違いなしです。&lt;/p&gt;
+
+&lt;p&gt;皆様に会場でお会いできるのを楽しみにしております！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozuconf.com/&#34;&gt;Cybozu Days 2016 お申込みはこちらから&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>わたしは３人目</title>
@@ -466,374 +768,6 @@ IoTが自社ビジネスにどう関わっていくのかお悩みの方、是�
 &lt;p&gt;会場にて皆様とお会いできることを、楽しみにしております！&lt;/p&gt;
 
 &lt;p&gt;（8月23日修正：当初山形とお知らせしておりましたが、秋田が正しい情報でした。お詫びとともに訂正いたします。）&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>採用情報</title>
-      <link>https://www.r3it.com/recruitment/</link>
-      <pubDate>Fri, 19 Aug 2016 12:11:59 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/recruitment/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/recruitment/woman-typing-writing-programming.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;私たちは-エンジニアをリスペクトしています&#34;&gt;私たちは、エンジニアをリスペクトしています&lt;/h2&gt;
-
-&lt;p&gt;ゼロから何かを作り出す力を持つ、エンジニアを尊敬しています。&lt;/p&gt;
-
-&lt;p&gt;私達は小さい会社ですが、9割がエンジニアで構成されている会社です。&lt;/p&gt;
-
-&lt;p&gt;極めて少人数で、かつフラットなチームで、ハイスピードにシステム開発を行っています。古い技術を磨き、新しい技術をキャッチアップし、常に時代の要望に応え続けています。&lt;/p&gt;
-
-&lt;h2 id=&#34;私たちは-どこで働いていても-その能力に見合った給与をお支払いします&#34;&gt;私たちは、どこで働いていても、その能力に見合った給与をお支払いします&lt;/h2&gt;
-
-&lt;p&gt;日本国内において、「地方だから、人件費が安くなる」と言い出した人を軽蔑します。&lt;/p&gt;
-
-&lt;p&gt;その人が働きやすく、持つ能力を最大限に発揮できる場所で働くべきだと、私たちは考えます。&lt;/p&gt;
-
-&lt;h2 id=&#34;私たちは-エンタープライズ向けに価値を提供できることを誇りに思います&#34;&gt;私たちは、エンタープライズ向けに価値を提供できることを誇りに思います&lt;/h2&gt;
-
-&lt;p&gt;お客様の課題を解決し、お役に立てるシステム開発会社であることを、私たちは誇りに思っています。&lt;/p&gt;
-
-&lt;p&gt;「SIは終わった」などと揶揄され、騒ぎ立てられていましたが、実際のビジネスを支え、真の価値を提供し、世の中を動かしているのは、一見地味な業務システムなんだ、ということを私たちは知っています。&lt;/p&gt;
-
-&lt;h2 id=&#34;私たちは-あなたのことをもっとよく知りたいと思っています&#34;&gt;私たちは、あなたのことをもっとよく知りたいと思っています&lt;/h2&gt;
-
-&lt;p&gt;もちろん、我々のこともより良く知ってもらいたいと思っています。&lt;/p&gt;
-
-&lt;p&gt;相互理解を図った上で、やりたいこと・実現したいことが一致したなら、是非一緒に働く仲間になって欲しいと思っています。&lt;/p&gt;
-
-&lt;h1 id=&#34;アールスリー-ビアバッシュにお越しください&#34;&gt;アールスリー ビアバッシュにお越しください&lt;/h1&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/recruitment/beerbash.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社では不定期に、弊社への就職・転職を希望する皆様との交流会を開催しております。&lt;/p&gt;
-
-&lt;p&gt;もちろん、アルコールを飲まない方向けのソフトドリンクもご用意しております。&lt;/p&gt;
-
-&lt;p&gt;社内のメンバーを通して会社の雰囲気を知っていただくのと同時に、皆さんのことをよく知り、相互理解を深める機会として利用して頂ければ幸いです。&lt;/p&gt;
-
-&lt;h3 id=&#34;開催情報&#34;&gt;開催情報&lt;/h3&gt;
-
-&lt;p&gt;イベント詳細とお申込はこちらから。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;2016年9月22日（秋分の日） 14:30- IT企業合同採用イベント☆ザ･関西！！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/48973&#34;&gt;2016年7月13日 18:30- R3とSWのエンジニアと学ぶ 『イケてる 』Infrastructure as Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/37894&#34;&gt;2016年2月12日 19:00- アールスリー ビアバッシュ commit:1 in 沖縄&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;基本情報&#34;&gt;基本情報&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/recruitment/recruitment_list.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;th&gt;募集タイプ&lt;/th&gt;
-&lt;td&gt;新卒、第二新卒、中途&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;th&gt;就業形態&lt;/th&gt;
-&lt;td&gt;
-&lt;ul&gt;
-&lt;li&gt;勤務時間：原則9:00 - 18:00。フレックス制度あり&lt;/li&gt;
-&lt;li&gt;休暇：土日祝、年末年始休暇、年次有給休暇&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt; ※業務内容に応じて変わる場合があります&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;th&gt;契約形態&lt;/th&gt;
-&lt;td&gt;
-&lt;ul&gt;
-&lt;li&gt;アソシエイトスタッフ（年俸制）&lt;/li&gt;
-&lt;li&gt;プロフェッショナルスタッフ（契約制）&lt;/li&gt;
-&lt;li&gt;業務委託契約、アルバイト、インターンシップ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;th&gt;待遇&lt;/th&gt;
-&lt;td&gt;
-&lt;ul&gt;
-&lt;li&gt;社会保険&lt;/li&gt;
-&lt;li&gt;交通費（上限あり）&lt;/li&gt;
-&lt;li&gt;健康診断&lt;/li&gt;
-&lt;li&gt;福利厚生&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;th&gt;応募方法&lt;/th&gt;
-&lt;td&gt;ビアバッシュもしくはコミュニティ活動で弊社社員とコンタクトしてください。&lt;br /&gt;
-より良い出会いをお待ちしております！&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ヤマムギkintone入門ハンズオンで講師を務めさせて頂きました！</title>
-      <link>https://www.r3it.com/blog/kintone/20160720-0810_yamamugi-kintone_hands-on/</link>
-      <pubDate>Tue, 16 Aug 2016 12:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160720-0810_yamamugi-kintone_hands-on/</guid>
-      <description>
-
-&lt;p&gt;7月20日から4週間、中央電力山下さんの個人コミュニティヤマムギにおいて、全4回構成のkintone入門ハンズオンが開催されました。&lt;/p&gt;
-
-&lt;p&gt;僭越ながらそのハンズオンの講師として登壇させて頂きましたのでそのご報告です。&lt;/p&gt;
-
-&lt;h2 id=&#34;ヤマムギ-kintone入門ハンズオンについて&#34;&gt;ヤマムギ kintone入門ハンズオンについて&lt;/h2&gt;
-
-&lt;p&gt;山下さんの個人主催のコミュニティで&lt;b&gt;&lt;font color=&#34;#FF6600&#34; size=&#34;5&#34;&gt;ヤマムギ&lt;/font&gt;&lt;/b&gt;というコミュニティがあり、今回のkintoneハンズオンはその中のコンテンツのひとつです。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi5.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;ヤマムギ&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://yamamugi.doorkeeper.jp/&#34;&gt;https://yamamugi.doorkeeper.jp/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ヤマムギのコンセプトは山下さんのOPスライドをご覧下さい。
-&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/hRuatX4knTwRRs&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/mitsuhiroyamashita90/vol1-opening&#34; title=&#34;ヤマムギVol.1 Opening&#34; target=&#34;_blank&#34;&gt;ヤマムギVol.1 Opening&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/mitsuhiroyamashita90&#34;&gt;Mitsuhiro Yamashita&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;山下さんが社内でkintoneをみんなに活用してもらいたいということから&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;対社内向けに企画したkintoneの勉強会&lt;/font&gt;&lt;/b&gt;を、&lt;b&gt;オープンな形で広くkintoneに興味がある人達&lt;/b&gt;みんなに参加してほしいという思いから今回のコミュニティ勉強会が実現しました。&lt;/p&gt;
-
-&lt;p&gt;今回は山下さんの会社、&lt;a href=&#34;http://www.denryoku.co.jp/&#34;&gt;中央電力様&lt;/a&gt;の大阪・東京のオフィスをオンラインで接続してライブ形式で行いました。&lt;/p&gt;
-
-&lt;p&gt;中央電力様以外の参加者の方で、今後kintoneを積極的に活用していきたいという意欲をお持ちの方にたくさん参加して頂きました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi1.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ハンズオンの内容について&#34;&gt;ハンズオンの内容について&lt;/h3&gt;
-
-&lt;p&gt;今回の参加者は、エンジニアと、非エンジニアの方々の割合が半々ほどだったので、非エンジニアの方でもわかりやすいような、ヤマムギのコンセプトが&lt;b&gt;&lt;font color=&#34;#0000FF&#34; size=&#34;5&#34;&gt;『入門・初級レベルのハンズオンを実施することで、技術を学ぶためのファーストステップとなるような場』&lt;/font&gt;&lt;/b&gt;ということもあり、資料だけ読み返しても復習しやすいような内容で作成させて頂きました。&lt;/p&gt;
-
-&lt;p&gt;段階的に理解が進むようにと、今回は&lt;a href=&#34;http://www.amazon.co.jp/dp/4822296326&#34;&gt;はじめてのkintoneアプリ構築入門&lt;/a&gt;を参考にさせて頂き、構成を検討しました。&lt;/p&gt;
-
-&lt;p&gt;シンプルなkintoneアプリの作成から始まり、段階的にkintoneの機能を細かく見ていくような構成です。最終的にはプロセス管理まで学んで頂くことができます。&lt;/p&gt;
-
-&lt;p&gt;（vol.2は業務の関係で山下さんに講師をお願いしました）&lt;/p&gt;
-
-&lt;p&gt;vol.1では&lt;b&gt;kintoneエバンジェリストの細谷さんによるkintoneの概要説明&lt;/b&gt;から！かなり貴重です。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;vol-1-簡単アプリ開発してみる編-kintoneアプリ作成&#34;&gt;vol.1  簡単アプリ開発してみる編（kintoneアプリ作成）&lt;/h4&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/FpURsMN1dpTIsc&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/r3it/vol1-kintone&#34; title=&#34;ヤマムギ vol.1 kintone 入門ハンズオン&#34; target=&#34;_blank&#34;&gt;ヤマムギ vol.1 kintone 入門ハンズオン&lt;/a&gt; &lt;/strong&gt; de &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/r3it&#34;&gt;R3 institute&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;vol-2-アプリでデータ集計してみる編-データ集計-グラフ機能&#34;&gt;vol.2　アプリでデータ集計してみる編（データ集計・グラフ機能）&lt;/h4&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/LegYEzqawTqWo0&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/mitsuhiroyamashita90/vol2-kintone&#34; title=&#34;ヤマムギVol.2 kintoneデータ集計 ハンズオン資料&#34; target=&#34;_blank&#34;&gt;ヤマムギVol.2 kintoneデータ集計 ハンズオン資料&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/mitsuhiroyamashita90&#34;&gt;Mitsuhiro Yamashita&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;vol-3-便利機能実装編-コメント-変更履歴確認-通知機能&#34;&gt;vol.3　便利機能実装編（コメント・変更履歴確認、通知機能）&lt;/h4&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/eJ8NdGwLlwiDcT&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/r3it/vol3-kintone&#34; title=&#34;ヤマムギ vol.3 kintone 入門ハンズオン&#34; target=&#34;_blank&#34;&gt;ヤマムギ vol.3 kintone 入門ハンズオン&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/r3it&#34;&gt;R3 institute&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;vol-4-プロセス管理編-ワークフロー作成&#34;&gt;vol.4　プロセス管理編（ワークフロー作成）&lt;/h4&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/6nJ9V904foYXqq&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/r3it/vol4-kintone&#34; title=&#34;ヤマムギ vol.4 kintone 入門ハンズオン&#34; target=&#34;_blank&#34;&gt;ヤマムギ vol.4 kintone 入門ハンズオン&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/r3it&#34;&gt;R3 institute&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;先日の&lt;a href=&#34;https://cs.cybozu.co.jp/2016/006217.html&#34;&gt;2016年8月度のアップデート&lt;/a&gt;でUIに大幅変更がかかってしまったので、&lt;font size=&#34;2&#34;&gt;また資料作り直さないと…(´･ε･̥ˋ๑)&lt;/font&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;ハンズオン全体を通して&#34;&gt;ハンズオン全体を通して&lt;/h2&gt;
-
-&lt;p&gt;東京で参加された方々はリモートでハンズオンに参加して頂く形だったのですが、勉強会中に実務でkintoneを利用する上での疑問点など、積極的に質問も挙げて頂き、全体を通して講師をさせて頂いた側としても非常に充実した勉強会になったと思います！&lt;/p&gt;
-
-&lt;p&gt;また、非エンジニアの方々でも、標準のkintoneだけにとどまらず、&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;カスタマイズ方法を学びたいという意欲的な参加者の方が非常に多かった&lt;/font&gt;&lt;/b&gt;ことが驚きでした。&lt;/p&gt;
-
-&lt;p&gt;vol.3では、少し早めに本編が終わったということもあり、7/27のkintone Café岡山 Vol.1で登壇した時に発表した資料で少しだけカスタマイズについてもお話をさせて頂きました。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/4yieD3ejW5tGEf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/dolly6ca/20160727-kintone-caf-vol1-kintone&#34; title=&#34;20160727 kintone Café 岡山 Vol.1 kintoneカスタマイズことはじめ&#34; target=&#34;_blank&#34;&gt;20160727 kintone Café 岡山 Vol.1 kintoneカスタマイズことはじめ&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;//www.slideshare.net/dolly6ca&#34;&gt;Midori Ikegami&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;そして、いつも勉強会会場へ迎えてくれる山下さんの&lt;b&gt;手書きイラスト&lt;/b&gt;も、回を増すごとに上達！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi4.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/yamamugi/yamamugi4.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;今回kintoneの勉強会に初めて参加してくださった方もたくさんいて、業務都合がつく限り最終回まで参加頂いた方もたくさんいました。&lt;/p&gt;
-
-&lt;p&gt;このような機会を通じて、もっと&lt;b&gt;&lt;font color=&#34;#FF1A6F&#34; size=&#34;5&#34;&gt;kintoneの輪&lt;/font&gt;&lt;/b&gt;が広がれば良いなと思う次第です。&lt;/p&gt;
-
-&lt;p&gt;今後も&lt;b&gt;kintoneの魅力&lt;/b&gt;をいろいろな場で伝えていけたらなと思います(ฅΦωΦ)ฅ&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 大阪 Vol.8 〜夏の事例祭り！〜 開催報告</title>
-      <link>https://www.r3it.com/blog/kintone/20160722_kintonecafe-osaka8/</link>
-      <pubDate>Fri, 05 Aug 2016 10:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160722_kintonecafe-osaka8/</guid>
-      <description>
-
-&lt;p&gt;ご報告が大変遅くなりましたが、7月22日（金）に &lt;b&gt;kintone Café 大阪 Vol.8 〜夏の事例祭り！〜&lt;/b&gt; を開催しましたので、ご報告させて頂きます！&lt;/p&gt;
-
-&lt;p&gt;今回は&lt;b&gt;&lt;font color=&#34;#FF6600&#34; size=&#34;5&#34;&gt;「夏の事例祭り！」&lt;/font&gt;&lt;/b&gt;と題して、3名の登壇者に事例発表をして頂きました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/47241&#34;&gt;https://kintonecafe-osaka.doorkeeper.jp/events/47241&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今回の会場はkintoneユーザーであり、先日弊社サービス&lt;b&gt;&lt;font color=&#34;#158C3F&#34; size=&#34;5&#34;&gt;g&lt;/font&gt;&lt;font color=&#34;#CC0F2D&#34; size=&#34;5&#34;&gt;u&lt;/font&gt;&lt;font color=&#34;#158C3F&#34; size=&#34;5&#34;&gt;s&lt;/font&gt;&lt;font color=&#34;#CC0F2D&#34; size=&#34;5&#34;&gt;u&lt;/font&gt;&lt;font color=&#34;#158C3F&#34; size=&#34;5&#34;&gt;k&lt;/font&gt;&lt;font color=&#34;#CC0F2D&#34; size=&#34;5&#34;&gt;u&lt;/font&gt;&lt;/b&gt;の&lt;b&gt;&lt;a href=&#34;https://www.r3it.com/case/cyberagent/&#34; target=&#34;_blank&#34;&gt;導入事例を公開&lt;/a&gt;&lt;/b&gt;させて頂いたサイバーエージェント様！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160722/ca.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160722/ca.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;サイバーエージェント様の大阪オフィスでは、IT勉強会への会場提供を積極的に行われているとの事で、kintone Caféのようなコミュニティにはありがたい限りですね(≧▽≦)&lt;/p&gt;
-
-&lt;h2 id=&#34;事例発表&#34;&gt;事例発表&lt;/h2&gt;
-
-&lt;p&gt;お客様での実際の利用事例や自社内での利用事例という事もあり、残念ながら詳細が公開できないのと、私が運営でバタバタしていた^^; という事もあり、概要だけお伝えさせて頂きます。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;トップバッターはノベルワークスの満村さん&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;ノベルワークスさんでは、kintoneを始めとしたクラウドシステムの企画から導入後のフォローまでを担当されているとの事で、今回は実際のお客様への導入事例をご紹介頂きました。&lt;/p&gt;
-
-&lt;p&gt;大型施設の施工を行われているゼネコンメーカー様で、Excelをkintoneに乗り換える事で情報共有をスピーディに行えるようになったとの事です。&lt;/p&gt;
-
-&lt;p&gt;プリントクリエイターやJavaScriptを使ったカスタマイズを行われましたが、一番ウケが良かったのは標準機能のクロス集計だったとか・・・。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;2番手は株式会社関西 青山さん&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160722/kansai.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160722/kansai.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;関西さんは「青竹のふし」という名前で障がいを持つお子様のデイサービスを展開されています。&lt;/p&gt;
-
-&lt;p&gt;今回は「青竹のふし」の運営でどうkintoneを使っているか、実際の画面を見せて頂きながらのご紹介となりました。&lt;/p&gt;
-
-&lt;p&gt;ウェブサイトからの申し込みから、契約者とのやり取り（親御さんにkintoneのアカウントを発行されています！）まで、kintoneを使ってほぼ全ての業務を進められている事に驚きでした。&lt;/p&gt;
-
-&lt;p&gt;業務を遂行するという目的だけで無く、働いている社員の方々の働き方を改善できる仕組み作りのためにkintoneを活用されているところが素晴らしいです(^^)&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;ラストは弊社金春から&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160722/r3.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160722/r3.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ポケモンGOの攻略法の紹介・・・&lt;/p&gt;
-
-&lt;p&gt;では無く、お客様への導入事例と弊社アールスリー内での利用事例をご紹介させて頂きました(๑•̀ㅂ•́)و✧&lt;/p&gt;
-
-&lt;p&gt;公開できる範囲で資料を公開していますので、詳しくはこちらをご覧下さい！&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;92283bb9182f4f1b902585d753db0681&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;次回は予定通りに進めば2ヶ月後の9月に開催予定ですので、こういった内容をやって欲しい！というリクエストがあれば、是非お寄せ下さいm(_ _)m&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>株式会社サイバーエージェント 内部監査室様 事例紹介</title>
-      <link>https://www.r3it.com/case/cyberagent/</link>
-      <pubDate>Wed, 03 Aug 2016 10:00:28 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/case/cyberagent/</guid>
-      <description>
-
-&lt;h2&gt;デプロイ作業を劇的に改善、アプリのバージョン管理も容易に&lt;br&gt;
-kintoneでの業務アプリ開発には欠かせない「gusuku」&lt;/h2&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/cyberagent/7140033.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/cyberagent/7140033.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;課題-多くの手間が必要なデプロイ-アプリのバージョン管理も必要に&#34;&gt;【課題】多くの手間が必要なデプロイ、アプリのバージョン管理も必要に&lt;/h2&gt;
-
-&lt;p&gt;　1998年の創業以来「21世紀を代表する会社を創る」ことをビジョンに据え、インターネット広告事業やアメーバブログなどのメディア事業、スマートフォンゲームを手掛けるゲーム事業、投資育成事業など、幅広い事業を展開している株式会社サイバーエージェント。広告事業やゲーム事業で収益を拡大しながら中長期的な柱としてメディア事業に投資を進めており、2016年にはスマートフォン向け無料動画サービス「AbemaTV」を開始し、開局わずか3か月で累計600万ダウンロードを突破。インターネットテレビ局という新たなメディアが多くの消費者から支持を集めており、ベンチャースピリッツを持ちながら新たな事業領域の創造にも積極的に取り組んでいます。&lt;/p&gt;
-
-&lt;p&gt;　様々な事業形態に応じて会社を設立している同社では、今ではグループ全体で70社を超える規模にまで拡大しており、迅速な事業立ち上げとグループ全体でのガバナンス強化を目的にサイボウズ株式会社が提供する業務アプリ作成プラットフォーム「kintone」を導入。kintoneをベースに「DOX」と呼ばれるバックエンドシステムを構築することで、販売管理や購買管理などの仕組みを各グループ会社に提供しています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/cyberagent/7140003.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image pull-right&#34; src=&#34;https://www.r3it.com/images/case/cyberagent/7140003.jpg&#34; style=&#34;padding:0; margin-left: 30px;&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;　このバックエンド業務の共通化を推し進めている内部監査室では、kintoneをベースに「ガバナンスコックピット」と呼ばれるリスク管理のプラットフォームを構築しており、各事業におけるリスク情報を自動的に収集し、ガバナンス強化に向けた様々な取り組みを実施しています。DOXを含めて数多くの業務アプリがkintoneによって構築されており、アプリ総数はおよそ1800を超えるほど。その過程で課題になっていたのが、グループ会社に業務アプリをデプロイする作業に多くの手間がかかっていたことでした。&lt;/p&gt;
-
-&lt;p&gt;また、アプリごとにバックアップを兼ねたバージョン管理を行う必要があったと内部監査室 マネージャー 鹿倉 良太氏は当時を振り返ります。「ガバナンス強化のためには、アプリのコモデティ化が必要です。そこで、バックエンド業務で利用するアプリの共通化を図ってきました。ただし、管理者権限の一部をグループ会社の担当に委譲し、多少のカスタマイズも許可していたのです。当然ながら、何かあればすぐに戻せる環境を用意しておかねばならず、アプリのバックアップを兼ねたバージョン管理が必須でした」と語るのは同室 村上 銀之心氏です。&lt;/p&gt;
-
-&lt;h2 id=&#34;選定のポイント-欲しかった機能が備わったgusuku&#34;&gt;【選定のポイント】欲しかった機能が備わったgusuku&lt;/h2&gt;
-
-&lt;p&gt;　しかし、kintoneの基本機能ではアプリのバージョン管理が難しいばかりか、DOXの基本アプリをグループ会社に展開する際には、手作業でデプロイ作業を行う必要がありました。「複雑でないデプロイ作業でも数時間は必要で、新たな環境に移設するとなるとデータ移行も含めて1週間あまりの時間を要していたことも」と鹿倉氏は語ります。「デプロイ作業がスムーズにいけば問題ないのですが、手作業ではミスも起こりやすく、デプロイ後も担当者自身が目で確認するなどの作業が発生していました」と鹿倉氏。kintoneの設計情報とともにJavaScriptで書かれたプログラムを個別にバックアップするなど手作業による運用が続いており、もっと効率的にデプロイできる方法がないか模索していたといいます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/gusuku_logo.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_logo.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;　その過程で出会ったのが、アールスリーインスティテュート（以下、アールスリー）が提供する、kintoneアプリの開発を強力にサポートするプラットフォームサービス「gusuku（グスク）」でした。「kintoneのユーザ会でgusukuの話を聞きつけ、我々が求めていた機能が手軽にサービス利用できることを知ったのです。まさに“欲しかったのはこういうもの”が体現されたサービスでした」と鹿倉氏。また、これまでプログラムの改修を行う際には、本番環境の設計情報やJavaScriptで書かれたプログラム、フォームなどの情報を開発用に用意したスペースにいったんコピーし、データも手作業で入れ替えたうえでプログラム改修を実施。改修が終わった段階で、本番環境に手作業で入れていくという手間のかかる作業が必要だったとのこと。「gusukuのステージング機能を使えば、開発環境と本番環境をそれぞれ用意しておくことができ、ステージング作業が容易にできるという点も魅力的だと考えたのです」と村上氏。&lt;/p&gt;
-
-&lt;p&gt;　そこですぐにコンタクトを取ったうえでgusukuの機能について詳細を確認し、実際に自社の運用に適しているかどうかのテストを担当エンジニアに依頼。自社の課題に応えることがわかったことで、さっそくサービスを導入することになったのです。&lt;/p&gt;
-
-&lt;h2 id=&#34;運用と効果-デプロイ作業を大きく効率化-今や欠かせない存在に&#34;&gt;【運用と効果】デプロイ作業を大きく効率化、今や欠かせない存在に&lt;/h2&gt;
-
-&lt;p&gt;　「現在はgusukuのエンタープライズプランを利用し、ライセンス制限ぎりぎりの300近くのアプリをgusuku上で管理しています。各グループ会社への横展開はkintoneの標準機能であるスペースのコピー機能を活用し、プログラムの修正・追加などはgusukuを用いて開発環境から本番環境へと容易にステージングできるようになっています。安心してデプロイすることができるようになりました。デプロイ作業の大幅な効率化にもgusukuが寄与しており、kintoneでの開発にはなくてはならない存在になっている」と鹿倉氏は評価します。「我々はグループ会社に基本のバックエンドの仕組みをセットで展開できるようにしており、その数は増殖していく傾向にあります。事業規模が拡大する中で、gusukuで管理できるアプリ数をさらに増やしていきたい」と鹿倉氏は語ります。&lt;/p&gt;
-
-&lt;p&gt;　また、村上氏が高く評価するのは、他アプリを参照して情報が取得できるkintoneのルックアップ機能がきちんとコピーされている点だと力説します。「スペース内で完結しているルックアップを別のスペースにコピーしても、コピー先のアプリ内できちんと成立させることができているのにはとても驚きました。ルックアップするアプリIDを取得するAPIをJavaScript内に仕込んでおけば、プログラム内のアプリIDをコピーするたびにわざわざJavaScriptを書き換える必要がありません」。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/cyberagent/7140023.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image pull-left&#34; src=&#34;https://www.r3it.com/images/case/cyberagent/7140023.jpg&#34; style=&#34;padding:0; margin-right: 30px;&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;　さらに、kintoneアプリの設計情報をExcel形式で出力できる機能も村上氏は重宝していると語ります。「JavaScript記述時にはフィールドコードの情報が必要ですが、以前は覚えておくか、その都度フィールドコードを確認する必要がありました。gusukuを使えば設計情報が一括でダウンロードでき、それを見ながらプログラム作成できます。開発する人によってフィールドコード名がばらばらに設定されているため、設計情報がすぐに確認できるのはとてもありがたい」と村上氏は評価します。&lt;/p&gt;
-
-&lt;p&gt;　アールスリーに対しては、「UI部分の改善要望を出したことがあるのですが、お願いしてわずか1日あまりで対応いただくことができました。こちらからの要望はもちろん、質問に対するレスポンスにも十分満足しています」と村上氏。実は、gusukuを利用している一番のユーザが、開発しているアールスリー自身だということが対応力の高さに大きく起因していると鹿倉氏は考えています。「アールスリー自体が我々と立場が一緒で、同じ悩みを共有していただけます。gusukuはあまり機能の垣根がなく、必要だと思う機能はどんどん盛り込んでもらえています」と語ります。&lt;/p&gt;
-
-&lt;h2 id=&#34;今後の展望-ガバナンス上必須のサービス-新たな機能追加にも期待&#34;&gt;【今後の展望】ガバナンス上必須のサービス、新たな機能追加にも期待&lt;/h2&gt;
-
-&lt;p&gt;　すでに同社のガバナンス上、gusukuは欠かすことのできないサービスとなっており、今後も内部監査室のアクションと会社全体のアクションに合わせて増殖していくはずだと鹿倉氏は語ります。「定型化するアプリについては、基本的にgusukuが裏に備えているというのが標準的な構成です。gusukuで管理できていないアプリはバックアップも含めてリスクがある状態であり、それでは大規模な展開は難しく、大事な情報も入れることができません。ガバナンスを考えるうえでも、最低限必要な機能と位置付けているほど重要なサービス。我々にとってみれば、マストなサービスなのです」。&lt;/p&gt;
-
-&lt;p&gt;　また、現状ETLを経由してkintone上のデータをExcelに展開し、事業報告書などを経営層に提出していますが、gusukuが持っているExcel帳票プラグインなどを用いて直接報告書の作成ができるような環境にも興味があると鹿倉氏。また、現状はgusukuによる設計情報のバックアップとともにサイボウズスタートアップス株式会社が提供しているkBackupを利用している同社ですが、設計情報とデータ双方のバックアップを同時に行い、これまで以上に素早くデプロイできるような機能にも期待していると語ります。「生態系の同じようなサービスが数多くあり、マスター情報の共有はできる限りシンプルに行いたいと考えています。アプリの情報とともにマスター情報などのデータも一気にデプロイできるととてもありがたい。アプリ展開が終わっても時間がとれずにマスター設定がおろそかになるケースもあるため、デプロイが一気にできれば事業サイドですぐに使ってもらうことができます」。&lt;/p&gt;
-
-&lt;p&gt;　他にも、gusuku側でデータ連携機能を拡充してもらえるような要望もアールスリーに出しており、gusukuに対する要望は尽きないようです。「我々は言語が不要になればなるほどありがたい。手間を掛けず簡単に環境が整備できるのが我々の望みです」と鹿倉氏にgusukuに対する期待を語っていただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/cyberagent/7140036.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/cyberagent/7140036.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>株式会社サイバーエージェント 内部監査室様 事例紹介</title>
-      <link>https://www.r3it.com/case/digest_cyberagent/</link>
-      <pubDate>Wed, 03 Aug 2016 10:00:28 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/case/digest_cyberagent/</guid>
-      <description>
-
-&lt;h2&gt;デプロイ作業を劇的に改善、アプリのバージョン管理も容易に&lt;br&gt;
-kintoneでの業務アプリ開発には欠かせない「gusuku」&lt;/h2&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/cyberagent/7140033.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/cyberagent/7140033.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;課題-多くの手間が必要なデプロイ-アプリのバージョン管理も必要に&#34;&gt;【課題】多くの手間が必要なデプロイ、アプリのバージョン管理も必要に&lt;/h2&gt;
-
-&lt;p&gt;　1998年の創業以来「21世紀を代表する会社を創る」ことをビジョンに据え、幅広い事業を展開している株式会社サイバーエージェント。ベンチャースピリッツを持ちながら新たな事業領域の創造にも積極的に取り組んでいます。グループ全体で70社を超える規模にまで拡大しており、迅速な事業立ち上げとグループ全体でのガバナンス強化を目的にサイボウズ株式会社が提供する業務アプリ作成プラットフォーム「kintone」を導入。kintoneをベースに「DOX」と呼ばれるバックエンドシステムを構築することで、販売管理や購買管理などの仕組みを各グループ会社に提供しています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/cyberagent/7140003.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image pull-right&#34; src=&#34;https://www.r3it.com/images/case/cyberagent/7140003.jpg&#34; style=&#34;padding:0; margin-left: 30px;&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;　このバックエンド業務の共通化を推し進めている内部監査室では、kintoneをベースに「ガバナンスコックピット」と呼ばれるリスク管理のプラットフォームを構築しています。DOXを含めて数多くの業務アプリがkintoneによって構築されています。課題になっていたのが、グループ会社に業務アプリをデプロイする作業に多くの手間がかかっていたことでした。&lt;/p&gt;
-
-&lt;h2 id=&#34;選定のポイント-欲しかった機能が備わったgusuku&#34;&gt;【選定のポイント】欲しかった機能が備わったgusuku&lt;/h2&gt;
-
-&lt;p&gt;「デプロイ作業がスムーズにいけば問題ないのですが、手作業ではミスも起こりやすく、デプロイ後も担当者自身が目で確認するなどの作業が発生していました」と鹿倉氏。手作業による運用が続いており、もっと効率的にデプロイできる方法がないか模索していたといいます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/gusuku_logo.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_logo.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;　その過程で出会ったのが、アールスリーインスティテュート（以下、アールスリー）が提供する、kintoneアプリの開発を強力にサポートする「gusuku（グスク）」でした。「kintoneのユーザ会でgusukuの話を聞きつけ、我々が求めていた機能が手軽にサービス利用できることを知ったのです。まさに“欲しかったのはこういうもの”が体現されたサービスでした」と鹿倉氏。
-「gusukuのステージング機能を使えば、開発環境と本番環境をそれぞれ用意しておくことができ、ステージング作業が容易にできるという点も魅力的だと考えたのです」と村上氏。&lt;/p&gt;
-
-&lt;h2 id=&#34;運用と効果-デプロイ作業を大きく効率化-今や欠かせない存在に&#34;&gt;【運用と効果】デプロイ作業を大きく効率化、今や欠かせない存在に&lt;/h2&gt;
-
-&lt;p&gt;　「プログラムの修正・追加などはgusukuを用いて開発環境から本番環境へと容易にステージングできるようになっています。安心してデプロイすることができるようになりました。デプロイ作業の大幅な効率化にもgusukuが寄与しており、kintoneでの開発にはなくてはならない存在になっている」と鹿倉氏は評価します。&lt;/p&gt;
-
-&lt;p&gt;　また、村上氏が高く評価するのは、他アプリを参照して情報が取得できるkintoneのルックアップ機能がきちんとコピーされている点だと力説します。「スペース内で完結しているルックアップを別のスペースにコピーしても、コピー先のアプリ内できちんと成立させることができているのにはとても驚きました。ルックアップするアプリIDを取得するAPIをJavaScript内に仕込んでおけば、プログラム内のアプリIDをコピーするたびにわざわざJavaScriptを書き換える必要がありません」。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/cyberagent/7140023.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image pull-left&#34; src=&#34;https://www.r3it.com/images/case/cyberagent/7140023.jpg&#34; style=&#34;padding:0; margin-right: 30px;&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;　「JavaScript記述時にはフィールドコードの情報が必要ですが、以前は覚えておくか、その都度フィールドコードを確認する必要がありました。gusukuを使えば設計情報が一括でダウンロードでき、それを見ながらプログラム作成できます。開発する人によってフィールドコード名がばらばらに設定されているため、設計情報がすぐに確認できるのはとてもありがたい」と村上氏は評価します。&lt;/p&gt;
-
-&lt;p&gt;　アールスリーに対しては、「UI部分の改善要望を出したことがあるのですが、お願いしてわずか1日あまりで対応いただくことができました。こちらからの要望はもちろん、質問に対するレスポンスにも十分満足しています」と村上氏。&lt;/p&gt;
-
-&lt;h2 id=&#34;今後の展望-ガバナンス上必須のサービス-新たな機能追加にも期待&#34;&gt;【今後の展望】ガバナンス上必須のサービス、新たな機能追加にも期待&lt;/h2&gt;
-
-&lt;p&gt;　「定型化するアプリについては、基本的にgusukuが裏に備えているというのが標準的な構成です。gusukuで管理できていないアプリはバックアップも含めてリスクがある状態であり、それでは大規模な展開は難しく、大事な情報も入れることができません。ガバナンスを考えるうえでも、最低限必要な機能と位置付けているほど重要なサービス。我々にとってみれば、マストなサービスなのです」。&lt;/p&gt;
-
-&lt;p&gt;　他にも、gusukuに対する要望は尽きないようです。「我々は言語が不要になればなるほどありがたい。手間を掛けず簡単に環境が整備できるのが我々の望みです」と鹿倉氏にgusukuに対する期待を語っていただきました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/cyberagent/7140036.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/cyberagent/7140036.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

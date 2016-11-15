@@ -5,8 +5,310 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Oct 2016 13:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Nov 2016 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cybozu Days 2016 tokyo Day1 kintone hack 参加レポート</title>
+      <link>https://www.r3it.com/blog/kintone/20161108-10_cd2016tokyo/</link>
+      <pubDate>Tue, 15 Nov 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20161108-10_cd2016tokyo/</guid>
+      <description>
+
+&lt;h1 id=&#34;戦場は前夜から&#34;&gt;戦場は前夜から&lt;/h1&gt;
+
+&lt;p&gt;実は序章がありました…&lt;/p&gt;
+
+&lt;p&gt;Cybozu Days前夜、多くのkintoneエバ達が全国から集結するということで、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF6347&#34;&gt;『kintone Evangelist Premium Party 2016 - エバを弄る会 -』&lt;/font&gt;&lt;/b&gt; がサイボウズさんの日本橋オフィスで開催されました。&lt;/p&gt;
+
+&lt;p&gt;kintoneエバの方々と、そのエバの方々によって同行を許可された者たち、そしてサイボウズさんが&lt;strong&gt;『この人たちにも是非参加してほしい！』&lt;/strong&gt;と太鼓判を押した人たち。&lt;/p&gt;
+
+&lt;p&gt;普段なかなか顔を合わせることのないメンバーが集い、まずは手慣らしに&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;LT大会&lt;/font&gt;&lt;/b&gt;から。&lt;/p&gt;
+
+&lt;p&gt;わたしはボスと &lt;del&gt;倉庫番&lt;/del&gt; エバンジェリストにくっついて参加したのですが、ここでLTに参戦しないと&lt;strong&gt;LT事故伝説が廃れていってしまう！&lt;/strong&gt;とばかり意気込んで当日思いつきで準備したLTネタで登壇しました。
+&lt;div style=&#34;width: 80%&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;8f835f50104f4175b7ecbb582e6f5225&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;皆さんそれぞれ持ち味を活かしたLTが炸裂していました。&lt;/p&gt;
+
+&lt;p&gt;こういう集まりってほんと楽しいですよね。そしてそんな集まりに同席できたことを非常に光栄に思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;cybozu-days-戦場の幕開け&#34;&gt;Cybozu Days 〜 戦場の幕開け&lt;/h1&gt;
+
+&lt;p&gt;わたしたちはパートナーなのですが、ブース展示は2日目の&lt;strong&gt;Day2 Conference&lt;/strong&gt;のみ。&lt;/p&gt;
+
+&lt;p&gt;1日目は&lt;strong&gt;Day1 User&amp;rsquo;s Academy。&lt;/strong&gt;サイボウズさんの製品を利用しているユーザー様を対象にしたコンテンツが目白押しとなっています。&lt;/p&gt;
+
+&lt;p&gt;kintoneユーザー同士でカジュアル&amp;amp;フラットに情報交換ができる場&lt;b&gt;&lt;font color=&#34;#FFA500&#34;&gt;『kintone hive』&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;年2回ペースで開催されていますが、今回はCybozu Daysという幕張メッセでの大舞台で、2016年最も光るkintoneのユーザー企業様&lt;strong&gt;kintone AWARD&lt;/strong&gt;ファイナリストによる、活用事例の発表がありました！&lt;/p&gt;
+
+&lt;p&gt;また、金春がデベロッパー代表として登壇した&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;『kintone hack 〜ここまでできるkintone〜』&lt;/font&gt;&lt;/b&gt;
+これはもう…サイボウズさん側の気合の入れ込み具合も半端ないほどのスケールの大きさ！&lt;/p&gt;
+
+&lt;p&gt;1日目は特に何もないので基本的にはセッションを見て回ることが出来る（はず）なのですが、実はわたしには&lt;strong&gt;課せられた重大ミッション&lt;/strong&gt;がありました。。。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hack-最速-ハイスピードでブログup-とはならず&#34;&gt;kintone hack 〜 最速&amp;amp;ハイスピードでブログUP！・・・とはならず&lt;/h2&gt;
+
+&lt;p&gt;そうです。&lt;strong&gt;the only one mission&lt;/strong&gt;はこちらですよ！&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#0000FF&#34;&gt;超速&amp;amp;爆速でブログUP！！！！！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;しかし…しかしですね…当日は走り回っていて終日バタバタしていたため上げることが出来なかったわけなのですよ（言い訳ではなry&lt;/p&gt;
+
+&lt;p&gt;リハから様子を見学し、本番まで時間的には少し余裕があったはずだったのですが、気づけば本番だよオイィ！？ってな状態ですよ。&lt;/p&gt;
+
+&lt;p&gt;ということで臨場感はすでに&lt;del&gt;忘却の彼方へと飛んでしまっておりますが&lt;/del&gt;、本番の様子を少しだけお伝えしちゃいます。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hack-経験豊富なデベロッパ達による頂上決戦の場&#34;&gt;kintone hack 〜 経験豊富なデベロッパ達による頂上決戦の場！&lt;/h2&gt;
+
+&lt;p&gt;kintoneを扱う7名の実績豊富なデベロッパーによるkintone最新トレンド決定戦が行われるとのことで会場に潜入です。&lt;/p&gt;
+
+&lt;p&gt;会場は基調講演も行われた&lt;strong&gt;共生会場。&lt;/strong&gt;一番大きなメインステージです。&lt;/p&gt;
+
+&lt;p&gt;今回のhackは前回のkintone hackで評価&lt;strong&gt;No.1&lt;/strong&gt;だったM-SOLUTIONSの植草さんを王者とし、他のデベロッパー達がチャレンジャーとしてkintoneを惜しみなく活用したhackネタをテーマにそれぞれ6分間のLTを繰り広げます。&lt;/p&gt;
+
+&lt;p&gt;会場の人たちには入場時にkintone hackタオルが配られるのですが、そのタオルを自分の気に入ったと思うセッションの時に高く掲げてもらいます。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo8.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo8.jpg&#34; width=&#34;400&#34;/&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo4.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo4.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;その掲げたタオルの数によって採点され、一番多く点を取った人が今回のNo.1デベロッパーとなります。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo6.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo6.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;LTの順番はこちら。通り名が&lt;strong&gt;秀逸&lt;/strong&gt;です。デベロッパー達のキャラがよく現れていますよ！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;M-SOLUTIONS　&lt;strong&gt;Pepperおじさん&lt;/strong&gt;　植草さん　（絶対的圧倒的王者）&lt;/li&gt;
+&lt;li&gt;アールスリーインスティテュート　&lt;strong&gt;ナニワの圧力団長&lt;/strong&gt;　金春&lt;/li&gt;
+&lt;li&gt;株式会社ジョイゾー　&lt;strong&gt;燃えよドラゴン&lt;/strong&gt;　山下さん&lt;/li&gt;
+&lt;li&gt;株式会社ジョイゾー　&lt;strong&gt;ミスターkintone&lt;/strong&gt; 　四宮さん&lt;/li&gt;
+&lt;li&gt;TIS株式会社　&lt;strong&gt;アモーレkintone&lt;/strong&gt;　久保さん&lt;/li&gt;
+&lt;li&gt;株式会社ソウルウェア　&lt;strong&gt;kintoneファンタジスタ&lt;/strong&gt;　寺林さん&lt;/li&gt;
+&lt;li&gt;アマゾンウェブサービスジャパン株式会社　&lt;strong&gt;アマゾンの最終兵器&lt;/strong&gt;　榎並さん&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;kintone-hack-opからやべーよやべーよ&#34;&gt;kintone hack 〜 OPからやべーよやべーよ&lt;/h2&gt;
+
+&lt;p&gt;最初はサイボウズ伊佐さんの挨拶から始まります。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo2.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo2.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そしてkintoneのことを誰よりも知る&lt;strong&gt;至高の存在！&lt;/strong&gt;男の中の男たち（デベロッパー）が登場します。&lt;/p&gt;
+
+&lt;p&gt;まずは和太鼓の演奏から。圧巻の演奏です。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo7.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo7.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そして一人一人名前を呼ばれながらの登場。&lt;/p&gt;
+
+&lt;p&gt;この壮大な演出と空間が&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;素敵すぎる・・・！&lt;/font&gt;&lt;/b&gt;この創り出された空間の雰囲気に完全に飲まれてしまったどうもわたしです。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo3.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo3.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hack-熱い男たちのltタイム&#34;&gt;kintone hack 〜 熱い男たちのLTタイム&lt;/h2&gt;
+
+&lt;p&gt;ここからは&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;ダイジェスト&lt;/font&gt;&lt;/b&gt;でお送りします。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo9.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo9.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo10.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo10.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo11.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo11.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo13.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo13.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo14.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo14.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo15.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo15.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo16.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo16.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo17.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo17.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;金春はhack中にkintoneで開発したCTIシステムのデモを行ったのですが、デモで実際に電話を掛けるというこれまた&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;重大ミッションを課せられた&lt;/font&gt;&lt;/b&gt;わたしでした。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo12.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo12.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;事前の段取りで&lt;strong&gt;2回目の◯◯の時に鳴らすんやで！&lt;/strong&gt;と言われていたにもかかわらず、気が早すぎてフライングをブッかましてしまいましたよええ＼(^o^)／&lt;/p&gt;
+
+&lt;p&gt;LTの順番が良かったのかトラブルが功を奏したか（？）絶対的王者植草さんを抜いて1位に踊り出た金春でした。&lt;/p&gt;
+
+&lt;p&gt;見よこのドヤ顔。さすが圧力団長と言われるだけのことはある。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo18.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo18.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;そして最後まで&lt;strong&gt;暫定1位&lt;/strong&gt;を守り抜き・・・&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-hack-男はそして伝説となる&#34;&gt;kintone hack 〜 男はそして伝説となる&lt;/h2&gt;
+
+&lt;p&gt;なんと&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;FF0000&#34;&gt;優勝をしてしまいました！！！！！&lt;/font&gt;&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo19.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo19.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;いやほんとこれね、会場の皆様のおかげだと思います。観客に混じってわたしも&lt;strong&gt;歓喜歓喜&lt;/strong&gt;でした。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo20.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo20.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;最後はみんなで&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF69B4&#34;&gt;「ありがTogetherーーーーーーーーーーーーーー！」&lt;/font&gt;&lt;/b&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo21.jpg&#34; data-lightbox=&#34;cd2016_tokyo&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo21.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;最高の感動を本当にありがとう！！！！！もうあの会場にいられたことが&lt;strong&gt;幸せでした！！！！！！！！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ということで、&lt;strong&gt;Cybozu Days 2016 tokyo&lt;/strong&gt;の（個人的に）一番熱いセッションの参加レポートをお届けしました₍₍ (ง ˘ω˘ )ว ⁾⁾　&lt;/p&gt;
+
+&lt;p&gt;尚、hackで優勝したLT資料もちゃんとUPされてますよ！こちらも併せてチェックして下さいね^^♪
+&lt;div style=&#34;width: 80%&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;330e5655fdc7442f822c957a387e004d&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;cybozu-days-はまだ終わらない&#34;&gt;Cybozu Days はまだ終わらない&lt;/h1&gt;
+
+&lt;p&gt;東京だけではありません！Cybozu Days 2016 は&lt;strong&gt;大阪&lt;/strong&gt;もありますよー！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https:/c2016.smktg.jp/public/application/add/45&#34;&gt;Cybozu Days 2016 osaka 2016年12月6日（火）開催っ♪&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大阪は&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;hive枠でのLT登壇&lt;/font&gt;&lt;/b&gt;があります。&lt;/p&gt;
+
+&lt;p&gt;こちらも見逃せないですよ！みなさん！次は&lt;strong&gt;大阪&lt;/strong&gt;でお会いしましょう^^&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、gusukuアンバサダー・プログラムを開始</title>
+      <link>https://www.r3it.com/info/2016/gusuku-ambassador-program-start/</link>
+      <pubDate>Thu, 10 Nov 2016 10:38:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-ambassador-program-start/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_ambassador_1200x639.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h1 id=&#34;アールスリー-gusukuアンバサダー-プログラムを開始&#34;&gt;アールスリー、gusukuアンバサダー・プログラムを開始&lt;/h1&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日アールスリー、gusukuアンバサダー・プログラムを開始いたしました。&lt;/p&gt;
+
+&lt;p&gt;gusukuアンバサダー・プログラムはgusukuを応援してくださる方を「アンバサダー」として任命させて頂くプログラムです。&lt;/p&gt;
+
+&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;https://gusuku.io/ambassador/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、gusuku紹介プログラムを開始</title>
+      <link>https://www.r3it.com/info/2016/gusuku-friends-program-start/</link>
+      <pubDate>Wed, 09 Nov 2016 10:38:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-friends-program-start/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_friends.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h1 id=&#34;アールスリー-gusuku紹介プログラムを開始&#34;&gt;アールスリー、gusuku紹介プログラムを開始&lt;/h1&gt;
+
+&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusuku紹介プログラムを開始いたしました。&lt;/p&gt;
+
+&lt;p&gt;gusuku紹介プログラムは、既にgusukuをご利用の方が新しいお客様を紹介してくださった際に、紹介したほう・されたほう双方に割引が適用されるプログラムです。&lt;/p&gt;
+
+&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;https://gusuku.io/friends/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
+
+&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
+
+&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
+
+&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
+
+&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone Café 神戸 Vol.7</title>
+      <link>https://www.r3it.com/blog/kintone/20161028_kintonecafe-kobe7/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20161028_kintonecafe-kobe7/</guid>
+      <description>
+
+&lt;p&gt;2016年10月28日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/52303&#34;&gt;kintone Café 神戸 Vol.7&lt;/a&gt; に登壇してきました。&lt;/p&gt;
+
+&lt;p&gt;前回Vol.6は参加できなかったのですが、振り返ると7回の開催のうち5回参加しており、もしかしたら運営メンバーより参加回数が多いかもしれませんねｗ&lt;/p&gt;
+
+&lt;h2 id=&#34;初心者向けハンズオン-細谷さん&#34;&gt;初心者向けハンズオン(細谷さん)&lt;/h2&gt;
+
+&lt;p&gt;トップバッターはアイルランド帰りの細谷さん。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161028/hosoya.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161028/hosoya.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;初心者向けのハンズオンとして、&lt;font size=&#34;4&#34; color=&#34;#0000FF&#34;&gt;美容室の来店予約&lt;/font&gt;アプリと&lt;font size=&#34;4&#34; color=&#34;#0000FF&#34;&gt;顧客管理&lt;/font&gt;アプリを作りました。&lt;/p&gt;
+
+&lt;p&gt;そう・・・ご存知の方もいるかもしれませんが、今年の1月に行われたkintone Café 関西女子会 Vol.1の&lt;S&gt;使い回し&lt;/S&gt;再演となりました。&lt;/p&gt;
+
+&lt;p&gt;真面目な話しをすると、単純に操作を進めるだけで無く、&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;&amp;ldquo;なぜその操作をしているのか&amp;rdquo;&lt;/font&gt;を解説しながら進めてくれるので、初心者の方にとっても非常に理解しやすく感じました。&lt;/p&gt;
+
+&lt;p&gt;ハンズオンを実施する立場としても非常に勉強になりました！&lt;/p&gt;
+
+&lt;h2 id=&#34;javascriptカスタマイズの今と昔-浅賀&#34;&gt;JavaScriptカスタマイズの今と昔(浅賀)&lt;/h2&gt;
+
+&lt;p&gt;続いて私からは「JavaScriptカスタマイズの今と昔」と題し、JavaScriptカスタマイズについて「昔」と「今」でパートを分けて発表させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161028/asaga.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161028/asaga.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;「昔」&lt;/font&gt;のパートではJavaScript APIが実装される前と後でカスタマイズ方法がどう変わったのかお話しさせて頂きました。(ほとんどネタ？)&lt;/p&gt;
+
+&lt;p&gt;今となっては知る必要も無い情報も多いので公開資料からは省いていますが、もし気になる方は私までお声がけください^^;&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34; color=&#34;#FF00FF&#34;&gt;「今」&lt;/font&gt;のパートではR3がkintoneを使った開発を行う際に使っているツール類のご紹介をさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;開発環境を整備する中で足りなかった「kintoneへJavaScriptファイルをアップロードする作業を自動化する」ツールをR3が開発しGitHubで公開するまでの経緯をお話しさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/r3it/r3-kintone-js-deployer&#34;&gt;r3-kintone-js-deployer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone開発をされている皆さん、是非使ってみてください！&lt;/p&gt;
+
+&lt;p&gt;当日の資料はこちらで公開しております。&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;2c9411ca4aa8496d8604505f89a6c300&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cybozu Days 2016 出展のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/cybozudays-2016/</link>
+      <pubDate>Mon, 31 Oct 2016 17:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/cybozudays-2016/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/cybozudays2016/cybozudays2016_top.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11月9日（水）・10日（木）東京、12月6日（火）大阪&lt;/strong&gt;の2会場で開催されるサイボウズ社主催の総合イベント&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FA8072&#34;&gt;『Cybozu Days 2016』&lt;/font&gt;&lt;/b&gt;で出展させて頂きますのでそのお知らせです！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;11月9日・10日　tokyo　（幕張メッセ）&lt;/li&gt;
+&lt;li&gt;12月6日　　　　osaka　（グランフロント大阪 コングレコンベンションセンター）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;東京は2日間&#34;&gt;東京は2日間！&lt;/h2&gt;
+
+&lt;p&gt;東京1日目は &lt;strong&gt;User&amp;rsquo;s Academy&lt;/strong&gt; として、ユーザーや開発者向けのワークショップが開催されます！&lt;/p&gt;
+
+&lt;p&gt;1日目はブース出展はありませんが、実績豊富なデベロッパが集いトークセッションが繰り広げられる
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF8C00&#34;&gt;『kintone hack 〜ここまでできるkintone〜』&lt;/font&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;
+の中の1人として弊社金春が登壇致します。
+&lt;br&gt;
+&lt;br&gt;
+2日目は&lt;strong&gt;総合カンファレンス&lt;/strong&gt;となっており、ブース展示もあります。&lt;/p&gt;
+
+&lt;p&gt;弊社も従来のイベントとはひと味違った企画をご用意して皆様をお出迎え致します。&lt;/p&gt;
+
+&lt;h2 id=&#34;大阪は今回が初開催&#34;&gt;大阪は今回が初開催！&lt;/h2&gt;
+
+&lt;p&gt;遠方で東京にお越し頂くことが難しい方は、是非12月6日（火）に開催される&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;Cybozu Days 2016 osaka&lt;/font&gt;&lt;/b&gt;にお越し下さい！&lt;/p&gt;
+
+&lt;p&gt;今回初開催となる大阪は、ギュッと凝縮された、密度の濃い1日となること間違いなしです。&lt;/p&gt;
+
+&lt;p&gt;皆様に会場でお会いできるのを楽しみにしております！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cybozuconf.com/&#34;&gt;Cybozu Days 2016 お申込みはこちらから&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>執筆者Profile : 沖　安隆</title>
@@ -600,527 +902,6 @@ Excelをkintone化するだけは加速しない、頑丈なExcelになっただ
 
 &lt;p&gt;直近では6/25（土）に&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/44449&#34;&gt;kintone Café 関西女子会 Vol.2&lt;/a&gt;が開催されます。
 平日だと参加しにくいという方もいらっしゃると思いますが、今回は子連れ参加もOKとの事。是非ご参加ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone hive Vol.3 大阪に潜入してきました</title>
-      <link>https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka/</link>
-      <pubDate>Fri, 10 Jun 2016 12:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka/</guid>
-      <description>
-
-&lt;h2 id=&#34;kintoneユーザーによるkintoneユーザーのための大規模ユーザー会-kintone-hive-とは&#34;&gt;kintoneユーザーによるkintoneユーザーのための大規模ユーザー会！kintone hive とは？&lt;/h2&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font color=&#34;#FF9933&#34;&gt;「hive」&lt;/font&gt;&lt;/b&gt; は蜂の巣という意味ですが、&lt;strong&gt;「活気あふれる場所」&lt;/strong&gt;という意味合いもあるそうです。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF9933&#34;&gt;kintone hive（キントーンハイブ）&lt;/font&gt;&lt;/b&gt;には人とノウハウが集まる活気あふれた場所にしたいという願いがこめられているそう。&lt;/p&gt;
-
-&lt;p&gt;2015年5月/10月と、kintone hiveは2回東京で開催されてきました。&lt;/p&gt;
-
-&lt;p&gt;そして先日、2016年5月26日(木曜日)に東京でkintone hive Vol.3が開催され、昨日6月9日(木曜日)は 大阪で&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hiveが初開催&lt;/font&gt;&lt;/b&gt;されました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-2.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;「ユーザー会」&lt;/strong&gt; ということで、kintoneを導入することで業務がこんな風に改善された！というようなリアルな事例の紹介の場になっています。&lt;/p&gt;
-
-&lt;p&gt;事例発表は、実際に導入に携わったユーザー様ご自身が登壇して発表されるので、まさしく&lt;strong&gt;「生の声」&lt;/strong&gt;が聞けるということですね！&lt;/p&gt;
-
-&lt;p&gt;これはkintone導入を検討されているユーザー様には非常にオイシイ內容です(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;更に更に！kintoneデベロッパーによるライトニングトークタイム &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hack&lt;/font&gt;&lt;/b&gt; もあったりと、kintoneの活用ヒントがふんだんに盛り込こまれた非常に魅力的なコンテンツになっています！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-3.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-最終的には&lt;strong&gt;定員100名&lt;/strong&gt;を超えたユーザー様がご来場されたようです！皆さんの関心度の高さが窺えますね(p*･ω･)p&lt;/p&gt;
-
-&lt;h2 id=&#34;ユーザー様のリアルなkintone事例紹介&#34;&gt;ユーザー様のリアルなkintone事例紹介&lt;/h2&gt;
-
-&lt;p&gt;Vol.3では、全部で&lt;strong&gt;4社のユーザー企業様&lt;/strong&gt;がそれぞれのkintone導入事例について語られていました！&lt;/p&gt;
-
-&lt;h3 id=&#34;npo法人スマイルスタイル-藤吉様&#34;&gt;NPO法人スマイルスタイル 藤吉様&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-4.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;タイトルは &lt;strong&gt;「仕事をもっと「クリエイティブ」にするシステム導入」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;「ハローライフ」という「『働くこと』『仕事』に対する学びの場」で、イベント管理のためにメールワイズとkintoneを連携したシステムを導入されたお話でした。&lt;/p&gt;
-
-&lt;p&gt;従来Webの申し込みフォームから届いた参加者情報をExcelにまとめ、メールで事前連絡を行うというすべて手動で行っていた事務作業を、kintoneとメールワイズで連携したシステムを導入することで、事務作業の大幅な削減に成功し、人的ミスも減ったとのこと！
-手動で行っていた事務作業は、イベントが開催されるたびに同じ作業を繰り返すので、月に20回以上も同じ作業を行っていたようです。&lt;/p&gt;
-
-&lt;p&gt;ここを自動化できたので、相当な時間短縮につながったとのこと！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-5.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;またサイボウズさんの導入相談Cafeで相談をされて、運用開始までわずか1ヶ月という短期間で稼働できるようになったのも、kintoneというファストシステムならではといった印象でした₍₍ (ง ˘ω˘ )ว ⁾⁾　&lt;/p&gt;
-
-&lt;p&gt;そして、当時実はこの導入相談Cafeで相談を受けたのが&lt;strong&gt;弊社浅賀&lt;/strong&gt;だったとのこと！&lt;/p&gt;
-
-&lt;p&gt;世間はほんとに狭いなと思った瞬間でした。
-&lt;br&gt;
-&lt;br&gt;
-また、導入後に苦労した点も少なからずあったようです。&lt;/p&gt;
-
-&lt;p&gt;操作が簡単というのは、パソコンやインターネットに慣れ親しんだ世代の観点です。&lt;/p&gt;
-
-&lt;p&gt;オフィスにはいろんな世代の方が働いているため、ご年配の方には操作方法等わかりやすい言葉で説明する必要があったとのこと。&lt;/p&gt;
-
-&lt;p&gt;わたしたちが対面開発をさせて頂く時においても、非常に参考になる意見でした。&lt;/p&gt;
-
-&lt;p&gt;今後はイベントの管理だけでなく、どんどん活用範囲を拡大される予定らしいです。&lt;/p&gt;
-
-&lt;p&gt;また、現場からも「こういったことがkintoneでできるのではないか」という前向きな声がたくさん上がってきているようですよ！&lt;/p&gt;
-
-&lt;h3 id=&#34;株式会社トーア紡コーポレーション-中井様&#34;&gt;株式会社トーア紡コーポレーション 中井様&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-6.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-6.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;タイトルは &lt;strong&gt;「kintoneで変わる」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;情シス部門の観点からのお話です。&lt;/p&gt;
-
-&lt;p&gt;ずっと内製でシステム開発をされてきた中で、ある時24/365に耐えられる社内システムの構築が必要となったそうです。&lt;/p&gt;
-
-&lt;p&gt;そんな中で出会ったのがkintone。&lt;/p&gt;
-
-&lt;p&gt;kintoneにすることで、開発のコストが大幅に削減される。
-バグもなく、画面設計も容易、帳票の作成も出来、環境にも依存しない、外部システム連携も出来てしまうといった点で、それまですべて自前で開発してきた中井様は「してやられた感」を感じたそう。&lt;/p&gt;
-
-&lt;p&gt;外部連携やカスタマイズを考えると、kintoneのライセンスはどうしてもスタンダードコースが必須になってしまうので、一般的にはやはり高価なイメージってありますよね。&lt;/p&gt;
-
-&lt;p&gt;しかし運用/保守コストや可用性を考えると安価！確かにそうです。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-7.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-kintoneを使うと開発してテストまでのフェーズも時間がかからず簡単です。&lt;/p&gt;
-
-&lt;p&gt;そのメリットを存分に活かしてkintoneで出来る可能性をいろいろ模索されているみたいですよ。&lt;/p&gt;
-
-&lt;h3 id=&#34;神戸デジタル-ラボ-武富様&#34;&gt;神戸デジタル・ラボ 武富様&lt;/h3&gt;
-
-&lt;p&gt;タイトルは&lt;strong&gt;「人類 kintone マスター化計画」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;壮大なタイトルで始まった、kintone の導入から社内への浸透までのお話しでした。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-8.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-8.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;部署横断で使われる社内システム「todos」の開発にあたり、コスト削減のために導入したはずの自動生成ツールに問題が多く、改善担当を任された武富さん。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-9.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-9.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ノンプログラミング、サポート体制、クラウド、スマホ対応といったいくつかの条件にマッチしたのが kintone でした。&lt;/p&gt;
-
-&lt;p&gt;とは言え、利用する社員から不安の声が挙がる事はシステムのリプレイスではよくある事。
-武富さんはスムーズな導入のために、いくつかの取り組みをされました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;事業部の代表者で構成されたワーキンググループでの検討&lt;/li&gt;
-&lt;li&gt;モニター利用者を募集してプレリリース&lt;/li&gt;
-&lt;li&gt;利用者向け説明会の開催&lt;/li&gt;
-&lt;li&gt;kintone API を使ったデータ移行&lt;/li&gt;
-&lt;li&gt;積極的にコミュニティ（kintone Café等）に参加して情報収集&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;これらの取り組みにより、新「todos」が完成したわけです。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-12.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-12.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;武富さんの野望はこれだけにはとどまらず、社内で kintone マスター（kintone のアプリが作れる人）を増やしたいという強い思いから、他部署も巻き込んで kintone マスターをどんどん増やしているそうです。&lt;/p&gt;
-
-&lt;p&gt;コツは「近いところからファンを作る」ことだそう。&lt;/p&gt;
-
-&lt;p&gt;今回の登壇を機に、社長も巻き込んでいきたいという熱い想いもあるそうです！&lt;/p&gt;
-
-&lt;h3 id=&#34;株式会社日阪製作所-佐々江様&#34;&gt;株式会社日阪製作所 佐々江様&lt;/h3&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-10.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-10.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-タイトルは&lt;strong&gt;「業務を劇的に変える」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;日阪製作所様は、かなり古くからkintoneを利用されているお客様。&lt;/p&gt;
-
-&lt;p&gt;事業部統合後もシステム統合がなかなか出来ず、業務もそのまま従来のやり方を継続してしまっていた実状があった様子。&lt;/p&gt;
-
-&lt;p&gt;そんな中kintoneと出会い、社内でkintoneプロジェクトが立ち上がったとのこと。&lt;/p&gt;
-
-&lt;p&gt;この立ち上げメンバーの中には、現場で働く非エンジニアの女性の方がおり、そういった現場の女性達の要望を、kintoneで形にしていった様子・変遷をお話されていました。&lt;/p&gt;
-
-&lt;p&gt;最初はやはりkintoneの導入自体には反対の声もあったようですが、地道な取り組みで徐々に社内の中での評価も得ていったようです。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-11.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-11.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;strong&gt;今ではアプリも営業系・製造系・サービス系、品質保証系、BI系&lt;/strong&gt;と非常に多岐に渡る種類のアプリを運用されています。&lt;/p&gt;
-
-&lt;p&gt;kintoneを利用することで従来バラバラになっていた情報の一元化に成功し、現在もプロジェクト拡大中らしいですよ！&lt;/p&gt;
-
-&lt;h2 id=&#34;まずはユーザー様の事例紹介をご紹介-次は&#34;&gt;まずはユーザー様の事例紹介をご紹介。次は？&lt;/h2&gt;
-
-&lt;p&gt;はい、このブログは後半戦に続きます！&lt;/p&gt;
-
-&lt;p&gt;華麗なるkintoneデベロッパー達のライトニングトークタイム！&lt;strong&gt;kintone hack&lt;/strong&gt; についてもレポートしちゃう予定！(`･⊝･´)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、kintoneのデータバックアップ機能をgusukuにて提供開始</title>
-      <link>https://www.r3it.com/info/2016/gusuku-update-0609/</link>
-      <pubDate>Thu, 09 Jun 2016 13:00:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/gusuku-update-0609/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日kintoneのレコードデータと添付ファイルをクラウド上にバックアップするバックアップオプションをリリースいたしました。&lt;/p&gt;
-
-&lt;p&gt;gusuku上の簡単な操作でkintone上のレコードデータ、添付ファイルをアプリ単位でバックアップ・リストアすることが可能となります。CSVファイル形式ではリストアできない項目もきちんとバックアップ・リストアできるので、データ消失への対策となるのはもちろん、アプリケーション開発時のマスターデータ管理をバージョン管理と同等の手軽さで行うことが可能です。&lt;/p&gt;
-
-&lt;p&gt;バックアップオプションは、フリープランも含めすべてのお客様でご契約いただけるオプションとなります。また、1組織あたり20MBまで無料でご利用いただけます。&lt;/p&gt;
-
-&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
-
-&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016年6月9日 kintone hive Vol.3 大阪 登壇のお知らせ</title>
-      <link>https://www.r3it.com/info/2016/kintone-hive-osaka/</link>
-      <pubDate>Mon, 06 Jun 2016 12:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/kintone-hive-osaka/</guid>
-      <description>
-
-&lt;p&gt;弊社アールスリーインスティテュートの浅賀が、kintone hive Vol.3 大阪の hack（kintone デベロッパーによるライトニングトーク）にて登壇することになりました。&lt;/p&gt;
-
-&lt;p&gt;セッション内容については当日のお楽しみとさせて頂きますが、少しだけ概要をご紹介します。&lt;/p&gt;
-
-&lt;p&gt;今回は kintone の導入事例として、東京急行電鉄株式会社様、ヤマハ発動機株式会社様、オプテックス株式会社様の事例をご紹介させていただきたいと思います。初めて公開される事例も含まれますので、是非ご注目ください。&lt;/p&gt;
-
-&lt;p&gt;新規ビジネスの迅速な立ち上げにハイスピードSIがいかに有効だったかをはじめ、何故 kintone で業務システムを構築することがお客様のビジネスメリットになるかをご紹介したいと思います。&lt;/p&gt;
-
-&lt;p&gt;その他のキーワードとしては「&lt;strong&gt;入退室管理&lt;/strong&gt;」「&lt;strong&gt;CTI&lt;/strong&gt;」「&lt;strong&gt;IoT&lt;/strong&gt;」です。詳しくは当日の登壇をご注目ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-hive-vol-3-大阪について&#34;&gt;kintone hive Vol.3 大阪について&lt;/h2&gt;
-
-&lt;p&gt;kintone hive は、ユーザーによる kintone を利用した活用事例の紹介や、kintone デベロッパーによるライトニングトークなど、kintone の活用ヒントがふんだんに盛り込まれたイベントです。&lt;/p&gt;
-
-&lt;p&gt;2014年から東京で開催されてきましたが、今年は大阪での初開催が決まりました。kintoneご契約中のユーザー様はぜひご参加ください。&lt;/p&gt;
-
-&lt;p&gt;　開催日：2016年6月9日&lt;br&gt;
-　場所　：ナレッジキャピタル&lt;br&gt;
-　対象　：kintone 契約中ユーザー&lt;/p&gt;
-
-&lt;p&gt;詳しい情報、お申込は&lt;a href=&#34;https://kintone.cybozu.com/jp/event/hive2016/05/about.html&#34;&gt;公式サイト&lt;/a&gt;をご覧下さい。&lt;/p&gt;
-
-&lt;p&gt;kintone を更に活用するためにお役に立てる内容になると思いますので、ご参加の皆様は是非ご注目下さい。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AWSKRUG &amp; JAWS-UG Meetup day #1に参加してきました</title>
-      <link>https://www.r3it.com/blog/aws/20160524_awskrug_jawsug_meetup1/</link>
-      <pubDate>Tue, 24 May 2016 16:30:10 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/20160524_awskrug_jawsug_meetup1/</guid>
-      <description>
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;2016年5月20〜21日に開催されたAWSの韓国ユーザグループ(AWSKRUG)と日本ユーザグループ(JAWS-UG)の合同イベントに参加して韓国で登壇してきました。
-海外での登壇は初めてのことでとても緊張しましたが、すばらしい体験ができましたので、みなさまにもその一旦を感じていただければ幸いです。&lt;/p&gt;
-
-&lt;p&gt;写真（しかも食べ物）多めでお送りします。&lt;/p&gt;
-
-&lt;h1 id=&#34;このようなイベントが開催されることになった経緯&#34;&gt;このようなイベントが開催されることになった経緯&lt;/h1&gt;
-
-&lt;p&gt;今年3月のJAWS DAYS 2016まで遡ります。JAWS DAYS 2016には韓国からMinyoung Jeongさん、 Dohyun Jungさんが来日して登壇して下さいました。
-実は、昨年のJAWS DAYS 2015にもYounjin Jeongさんに登壇いただいていたのですが、日本から誰かが韓国に行って登壇するということは今までありませんでした。&lt;/p&gt;
-
-&lt;p&gt;これだけお世話になっているので、今度は日本から韓国へお伺いしてお話しようというのが今回のMeetupの始まりでした。&lt;/p&gt;
-
-&lt;p&gt;AWSKRUGのみなさんのご協力もあり、検討をはじめて2週間ほどで開催日や大まかなアジェンダも含めて電光石火で開催が決定されました。&lt;/p&gt;
-
-&lt;h1 id=&#34;初韓国&#34;&gt;初韓国&lt;/h1&gt;
-
-&lt;p&gt;私自身は韓国に行くのがはじめてでした。行ったことある方は実感されていると思うのですが、驚くほど近いですね。&lt;/p&gt;
-
-&lt;p&gt;関西空港からだとたった1時間半のフライトです。機内で出される軽食を急いで食べないといけないレベルです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/1.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;空港からホテルまでバスがあったため、バスで移動しました。バスのシートがすごいゆったりで快適なバスでした。ただ、運転は荒めで基本的に急ブレーキでした。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/2.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;day1-community-meetup-day&#34;&gt;DAY1 Community Meetup Day&lt;/h1&gt;
-
-&lt;h2 id=&#34;main-session&#34;&gt;Main Session&lt;/h2&gt;
-
-&lt;p&gt;初日はCommunity Meetup Dayとして、両国のコミュニティの代表がコミュニティの紹介やどうやって運営しているかなどを共有しました。&lt;/p&gt;
-
-&lt;p&gt;弊社もマイクロサポーターとして運営をサポートさせていただきました。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/3.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;AWSKRUG代表のMinyoung Jeongさんと通訳をしてくださったDohyun Jungさん
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/6.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/6.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;JAWS-UGからのお話は現代表の立花さんから
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/5.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;終始なごやかなムードで会は進みました。
-「代表が交代するときどうやって選出しているのか？」など積極的に韓国の方からも質問をいただきました。&lt;/p&gt;
-
-&lt;p&gt;AWSKRUGは、昨年AWSのソウルリージョンができてから急激に参加者が増えているそうで大きな盛り上がりを見せています。
-まだ、スタートアップ企業の方が多いようで、このあたりは昔のJAWS-UGと状況が似ているように思います。
-ソウルリージョンができてからは、導入を検討している企業も増えてきているとのことなので、徐々にエンタープライズ系の参加者も増えてくるんじゃないかと思います。&lt;/p&gt;
-
-&lt;h2 id=&#34;day1-after-party&#34;&gt;DAY1 After Party&lt;/h2&gt;
-
-&lt;p&gt;今回のイベントは、AWS Koreaさんに全面的なサポートいただき、会場でのネットワーキングパーティを開催していただきました。&lt;/p&gt;
-
-&lt;p&gt;みなさん積極的に情報交換をして、韓国でもAWSは人気で盛り上がってるということを実感できました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/7.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/7.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/8.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/8.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/9.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/9.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/10.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/10.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/11.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/11.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;day1-night-party&#34;&gt;DAY1 Night Party&lt;/h2&gt;
-
-&lt;p&gt;更なる懇親を深めるために、韓国のみなさんがおすすめのお店にご招待いただきました。
-韓国では、ビールに韓国焼酎をミックスして飲むのがポピュラーでそうです。&lt;/p&gt;
-
-&lt;p&gt;コミュニティやAWSの話だけではなく、韓国のことや日本のこと、料理のことなどお互いを理解できるすばらしい時間でした。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/12.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/12.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/13.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/13.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/14.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/14.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/15.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/15.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;day2-technical-day&#34;&gt;DAY2 Technical Day&lt;/h1&gt;
-
-&lt;h2 id=&#34;main-session-1&#34;&gt;Main Session&lt;/h2&gt;
-
-&lt;p&gt;2日目は、テクニカルデーとして、技術的な内容も含むセッションが実施されました。
-ただ、日本勢は技術的なことも大切だけれどもJAWS-UGがどうして今の規模・姿になったのか、その根底にはどういう想いが流れているのかを共有することが大切だと考え、コミュニティに貢献する大切さを伝えるセッションを多めにしてお伝えしました。&lt;/p&gt;
-
-&lt;p&gt;各セッションの詳細は&lt;a href=&#34;http://tech-haneman.hatenablog.com/entry/2016/05/24/120322&#34;&gt;アカツカさんのブログ&lt;/a&gt;に詳細があるためそちらを参照してください。&lt;/p&gt;
-
-&lt;p&gt;私は、弊社の紹介に合わせkintoneのデモとJAWS DAYS 2016の基調講演で話した内容のサマリーをご紹介しました。&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;49fac09689f647e48a9143dd40440112&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;h2 id=&#34;韓国でのkintone&#34;&gt;韓国でのkintone&lt;/h2&gt;
-
-&lt;p&gt;kintoneは韓国ではほとんど無名な状態で、「知ってる人？」と聞いたところ誰も知りませんでした。
-ただ、デモをするとどういったものかはすぐに理解していただけたようで、質問タイムにはもっとデモを見せてくれというような声も上がっていました。&lt;/p&gt;
-
-&lt;p&gt;韓国語版がまだないため、英語版を使ってみると言っていただいた方もおられたので、kintoneは韓国でも受け入れられるということがよくわかりました。&lt;/p&gt;
-
-&lt;h2 id=&#34;初の外国でのプレゼン&#34;&gt;初の外国でのプレゼン&lt;/h2&gt;
-
-&lt;p&gt;日本ではかなりプレゼン慣れしている私ですが、外国でのプレゼンは初体験でした。とても流暢に通訳していただける方もいらっしゃったので、日本語でプレゼンすることもできたのですが、ここはあえて英語でプレゼンをしてみました。&lt;/p&gt;
-
-&lt;p&gt;英語が得意というわけではないのでかなりのBroken Englishですが、Brokenでも伝えることはできるので、笑ってほしいところで笑っていただき、なんとか伝えたいメッセージは伝えられ無事に役目を果たすことができました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/16.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/16.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/17.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/17.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/18.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/18.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/18-1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/18-1.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;awsカルタは世界でも通用する&#34;&gt;AWSカルタは世界でも通用する！&lt;/h2&gt;
-
-&lt;p&gt;今回はAWSカルタとAWS麻雀を韓国に持って行っていました。&lt;/p&gt;
-
-&lt;p&gt;日本のマイクロスポンサーの費用を使って、AWSカルタの上位2名を日本の勉強会にご招待しようということで、AWSカルタ真剣勝負を実施しました。&lt;/p&gt;
-
-&lt;p&gt;AWSカルタとは、AWSの各サービスのアイコンと名称だけが書かれたカルタを並べ、読み札として各サービスの概要を話、該当するサービスのカルタを取るというゲームです。&lt;/p&gt;
-
-&lt;p&gt;今回一番印象的だったのは、このAWSカルタの経過です。&lt;/p&gt;
-
-&lt;p&gt;最初は、「これがAWSカルタか〜」という感じで立って参加するみなさん。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/19.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/19.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;次第に、「おや、これ集中しないと取れないぞ」と中腰に。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/20.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/20.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;最後は、「もっと近づかないと負ける！」と座り混む状態に。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/21.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/21.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ゲームは、やはり世界共通で楽しめますね、AWSKRUGのみなさんもAWSカルタの楽しさを体感していただき、カルタを持ってきたことを大変感謝されました。&lt;/p&gt;
-
-&lt;h2 id=&#34;day2-after-party&#34;&gt;DAY2 After Party&lt;/h2&gt;
-
-&lt;p&gt;勉強会の後は参加者のみなさんと懇親会です。またお酒？と言われそうですが、勉強会本編と同じくらい懇親会は大切です。
-「AWSの資格持ってるんですか？今年取ろうと思うんですよね」と質問いただくなど、みなさん積極的に日本のエンジニアがどういうものなのか知ろうとされていました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/22.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/22.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/23.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/23.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/24.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/24.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/25.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/25.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;awskrugとのコラボはこれからも続きます&#34;&gt;AWSKRUGとのコラボはこれからも続きます&lt;/h1&gt;
-
-&lt;p&gt;今回初の試みでしたが、思った以上に大成功でした。お互いに大いに刺激を受けることができましたので、このAWSKRUGとJAWS-UGのコラボは今後も継続していってほしいです。&lt;/p&gt;
-
-&lt;p&gt;次回はもっとたくさんの人が参加していただけるような形にしていくそうなので、刺激を受けたいエンジニア（エンジニア以外でも）是非参加してください。&lt;/p&gt;
-
-&lt;h1 id=&#34;おまけ&#34;&gt;おまけ&lt;/h1&gt;
-
-&lt;p&gt;最終日に飛行機まで少し時間があったので、南大門から明洞あたりを少しウロウロしたのでその写真を。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/27.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/27.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/28.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/28.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/29.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/29.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/30.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/30.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 大阪Vol.7 春のIoTリレーハンズオンの開催報告です！</title>
-      <link>https://www.r3it.com/blog/kintone/20160514_kintonecafe-osaka7/</link>
-      <pubDate>Tue, 17 May 2016 12:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160514_kintonecafe-osaka7/</guid>
-      <description>
-
-&lt;p&gt;今回の&lt;b&gt;&lt;font color=&#34;#FFCC00&#34;&gt;kintone Café大阪&lt;/font&gt;&lt;/b&gt;は
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;&lt;font size=&#34;6&#34;&gt;いつもとひと味違った…！&lt;/font&gt;&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;
-関西のIoT関連コミュニティ連携によるIoTリレーハンズオンプロジェクトの一環として、&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;IoTを絡めたkintoneの勉強会&lt;/font&gt;&lt;/b&gt;を行ったのですよ─=≡Σ((((っ’ヮ’c)&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;※本プロジェクトの立ち上げの経緯は&lt;a href=&#34;http://www.slideshare.net/ichiroohkini/jawsugiot-iot&#34;&gt;こちら&lt;/a&gt;をご参照下さい♪&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;
-今回は本プロジェクトの&lt;b&gt;2期目&lt;/b&gt;となりました。&lt;/p&gt;
-
-&lt;p&gt;1期目は以下のような順番で開催されています！&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;3/21（月・祝）　関西おうちハック&lt;/li&gt;
-&lt;li&gt;3/26（土）　SORACOM-UG関西&lt;/li&gt;
-&lt;li&gt;4/9（土）　JAWS-UG 関西IoT専門支部&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;
-IoTデバイス（RaspberryPi）でセンシングしたデータを可視化することが目標となっており、今回kintone Caféでは、データを可視化するための環境を&lt;b&gt;&lt;font color=&#34;#666699&#34;&gt;kintoneアプリとプラグイン&lt;/font&gt;&lt;/b&gt;を利用して構築しました(っ&lt;em&gt;´∀｀&lt;/em&gt;)っ&lt;/p&gt;
-
-&lt;p&gt;プラグインはサイボウズスタートアップスさんの&lt;a href=&#34;https://kv.kintoneapp.com/&#34;&gt;kViewer&lt;/a&gt;を利用させて頂きました！&lt;/p&gt;
-
-&lt;p&gt;事前のアカウント発行等柔軟にご対応頂いた&lt;a href=&#34;https://kintoneapp.com/blog/author/tasato/&#34;&gt;トッティさん&lt;/a&gt;本当にありがとうございますヾ(&lt;em&gt;&amp;lsquo;∀`&lt;/em&gt;)ﾉ♡*&lt;/p&gt;
-
-&lt;h1 id=&#34;kintone-café本編の様子&#34;&gt;kintone Café本編の様子&lt;/h1&gt;
-
-&lt;p&gt;会場はロケーションが最高な&lt;a href=&#34;https://goo.gl/maps/EG5qhar5wNm&#34;&gt;中央電力株式会社様&lt;/a&gt;をお借りしました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-3.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;窓からの眺望も最高です！夜は北浜の夜景も綺麗に見えそうですね！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-2.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;まずは最初のご挨拶&#34;&gt;まずは最初のご挨拶&lt;/h2&gt;
-
-&lt;p&gt;浅賀からご挨拶がてらkintone Caféの説明を。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-4.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;ご挨拶の後はもくもく会&#34;&gt;ご挨拶の後はもくもく会&lt;/h2&gt;
-
-&lt;p&gt;説明が終わった後は、作業手順に沿って、各自&lt;b&gt;もくもく会&lt;/b&gt;のはじまりです！&lt;/p&gt;
-
-&lt;p&gt;今回の参加者は、IoTリレーハンズオン経由で参加されている方が大半だったので、kintone自体も初めて触るという方ばかりでした。&lt;/p&gt;
-
-&lt;p&gt;それでもこれだけの方にお集まり頂いて本当にありがたい限りです！&lt;/p&gt;
-
-&lt;p&gt;皆さん手順に沿って順調に作業されていましたよ|ω・)ｺｯｿﾘ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-5.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-6.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-6.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;当日の作業手順は &lt;b&gt;↓↓こちら↓↓&lt;/b&gt; です！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/ha_ru_ma_ki/items/5d2e443b597e76e1712c&#34;&gt;RaspberryPiでセンサーデータをkintoneに送って可視化してみよう - Qiita&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;
-ちなみに下記手順については微力ながらわたしもQiitaで記事を書かせて頂きましたよ(ˇ⊖ˇ)&lt;/p&gt;
-
-&lt;p&gt;（本当は講師もガッツリ？…の予定だったのですが、&lt;del&gt;&lt;font size=&#34;2&#34;&gt;諸々の事情で&lt;/font&gt;&lt;/del&gt; メイン講師も浅賀が担当してくれましたｗ&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://qiita.com/rocca0504/items/5fce5aded1eef08ac35f&#34;&gt;3.kintoneアプリの作成&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://qiita.com/rocca0504/items/fa795d50e6b6991f4b63&#34;&gt;6.グラフの設定&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://qiita.com/rocca0504/items/dcf3facb88389c01a247&#34;&gt;7.条件書式プラグインの設定&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://qiita.com/rocca0504/items/7a435094893f8758f26a&#34;&gt;9.レコードの条件通知の設定&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;今回のkintone Caféをきっかけにして、kintoneに興味をお持ち頂いた方もけっこういて嬉しかったです！&lt;/p&gt;
-
-&lt;p&gt;サービスを知ってもらえる好機になったのではないかなと思います(๑´ڡ`๑)
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-もくもく会の後は希望者LTを挟んで・・・本編の後は皆さんお待ちかねの&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#CC0099&#34;&gt;懇親会&lt;/font&gt;&lt;/b&gt;です！&lt;/p&gt;
-
-&lt;h1 id=&#34;懇親会は円卓を囲んで&#34;&gt;懇親会は円卓を囲んで！&lt;/h1&gt;
-
-&lt;p&gt;懇親会の場所としてはけっこう珍しい！？今回は中華のお店！&lt;/p&gt;
-
-&lt;p&gt;円卓をみんなで囲んで和気あいあいと交流を深めました٩(✿˙ω˙✿)۶&lt;/p&gt;
-
-&lt;p&gt;今回は広島からお越しの方もいて、&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;今後も積極的にkintoneのイベントに参加したい！&lt;/font&gt;&lt;/b&gt;と仰って下さいましたよヾ(๑╹◡╹)ﾉ&amp;rdquo;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-7.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;懇親会のあとも余興はまだまだ続く&#34;&gt;懇親会のあとも余興はまだまだ続く&lt;/h1&gt;
-
-&lt;p&gt;むしろこちらが大本命ではないか？といわんばかりの&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#3333CC&#34;&gt;懇親会2次会&lt;/font&gt;&lt;/b&gt;のお時間ですｗ
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-8.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-8.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;場所はカジュアルな雰囲気の&lt;b&gt;ハイボールバー！&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-11.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-11.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;font size=&#34;2&#34;&gt;&lt;del&gt;アラフォーのおじさま達&lt;/del&gt;&lt;/font&gt;がテーブルを囲んで熱弁していました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-9.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-9.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;浅賀もここに来て本領発揮！と言わんばかりに楽しそうに語っていましたよー！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-10.jpg&#34; data-lightbox=&#34;kintone-osaka7&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160514osaka7/kintonecafe-osaka7-10.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そんなこんなで最終的には普段と違うkintone Caféの側面が見えて非常に楽しかった1日でした♪
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;kintone Café&lt;/b&gt;は定期的に開催されていますので、是非是非サイトをチェックして、お近くで開催されることがあれば参加して下さいね！&lt;/p&gt;
-
-&lt;p&gt;お待ちしています！
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;kintone Café  ～kintoneの勉強会コミュニティ～&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kintonecafe.com/&#34;&gt;http://kintonecafe.com/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
