@@ -5,8 +5,596 @@
     <link>https://www.r3it.com/blog/</link>
     <description>Recent content in Blog on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Nov 2016 10:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 13 Dec 2016 14:30:10 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS re:Invent 2016 参加レポート その2</title>
+      <link>https://www.r3it.com/blog/aws/reinvent2016-report2/</link>
+      <pubDate>Tue, 13 Dec 2016 14:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/reinvent2016-report2/</guid>
+      <description>
+
+&lt;h2 id=&#34;その1はこちら-reinvent2016-report1&#34;&gt;&lt;a href=&#34;../reinvent2016-report1/&#34;&gt;その1はこちら&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h1 id=&#34;11月30日-andy-jassy-による-keynote&#34;&gt;11月30日 Andy Jassy による Keynote！&lt;/h1&gt;
+
+&lt;p&gt;昨日と同様、待ち時間は上がる音楽でガンガン盛り上げてくれます。今日は美人DJの&lt;a href=&#34;https://soundcloud.com/JENLASHER&#34;&gt;Jen Lasher&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/keynote0.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/keynote0.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;後ろの一般席に座っていたのですが、某氏に拉致られてあれよあれよという間にツアー参加者用スペースに潜り込んでいました(^_^;)
+最前列付近の特等席でキーノートを拝聴。FPGAをパッケージング出来るF1インスタンスなど、数々の新サービスが発表されました。詳しくは&lt;a href=&#34;http://ascii.jp/elem/000/001/277/1277343/&#34;&gt;こちら&lt;/a&gt;を！（またこのパターン）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/keynote1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/keynote1.jpg&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今日のキーノートの最後は、エクサバイト級・100PBのデータ移行に便利な(!?) &amp;ldquo;AWS Snowmobile&amp;rdquo; の登場でオチがつきました（冗談だと言ってくれなかったので落ちてません。マジです(^_^;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/keynote2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/keynote2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/keynote3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/keynote3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;セッションの過ごし方&#34;&gt;セッションの過ごし方&lt;/h2&gt;
+
+&lt;p&gt;キーノートの後は、通常のセッションの開始です。新サービス発表に従って追加されたセッションや、事前に登録しておいたセッションなど、自分の参加したいセッションの場所を探してウロウロします。この頃から、物凄い人口密度になってきます。&lt;/p&gt;
+
+&lt;p&gt;各所にあるデジタルサイネージに、各セッションの混み具合などが表示されていますので、これを参考に次のセッションを決めるのもありです。各セッションは登録済みの人と空席待ちの人用の列で整理されているので指示に従って根性で待っていれば、よほどの人気セッションでない限りはおおよそ入ることは出来ると思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/display.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/display.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;人気のセッションは、このような大きな劇場で開催されたりします。凄い・・・。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/theater.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/theater.jpg&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;おやつの時間になれば、様々なおやつがデプロイされてきます。勿論持ったまま・食べながらセッションを聞くことも出来るので、好きなものを好きなだけ取りましょう。その1でも書きましたが、全部あなたのものですので…。&lt;/p&gt;
+
+&lt;p&gt;おやつは撤収が早いので取るタイミングは重要です。また、種類はポップコーンやケーキ、フルーツを使ったデザートなど色々ありましたが、「試した範囲ではどれも美味しかった」ことをご報告しておきます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/oyatsu.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/oyatsu.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pub-crawl&#34;&gt;Pub Crawl!&lt;/h2&gt;
+
+&lt;p&gt;その日の夜は Pub Crawl というイベントです。ベネチアンの飲食店の幾つかをスポンサーが貸し切っていて、IDを見せるとそのお店で自由に飲み食い可能、という素敵なイベントです。店舗はいくつもありますので、アチコチ練り歩きながら歓談しつつ飲み食いするという、なかなか普通では考えられない面白いイベントです。&lt;/p&gt;
+
+&lt;p&gt;このごった返しようです（注：ホテルの屋内です）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/pubcrawl1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/pubcrawl1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;「スポンサー様ありがとう」と唱えてから入店します（唱えなくても拒否はされない）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/pubcrawl2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/pubcrawl2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;素敵なお店ですが、どこか垢抜けない風情の人々に占領されています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/pubcrawl3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/pubcrawl3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;このBarのスポンサーはIBMさんでしたが、最高でした！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/pubcrawl4.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/pubcrawl4.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;その後、ラスベガスで最も格調高いクラブの一つと言われる場所での秘密の会合(?)に参加したりと、長い夜はまだまだ続きます…。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/ugparty.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/ugparty.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;12月01日-werner-vogels-によるキーノート&#34;&gt;12月01日 Werner Vogels によるキーノート！&lt;/h1&gt;
+
+&lt;p&gt;月が変わったこともまったく意識せずなだれ込む次の日のキーノートは、日本に何度か来日したこともある Werner Vogels から、エンジニア向けに怒涛のごとく新サービスが発表されました。&lt;/p&gt;
+
+&lt;p&gt;これは一人ではまったくカバーしきれませんね…ということで、是非お近くの&lt;a href=&#34;https://jaws-ug.jp/&#34;&gt;JAWS-UG&lt;/a&gt;のイベントにご参加ください。この時期は多数の報告会や振り返りイベントが開催されています！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/newservices.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/newservices.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ミラージュでのランチ&#34;&gt;ミラージュでのランチ&lt;/h2&gt;
+
+&lt;p&gt;世界最大級のホテル ベネチアンをもってしてもセッション会場が足りないのか、隣の（向かいの）ホテル ミラージュの1階もセッション会場として利用されています。端から端まではとてつもなく距離がありますので、移動時間を読み違えると大変なことになります。セッションを見て回る日は、人によって前後はあるかと思いますが、おおよそ2万歩以上は歩くことになるかと思います。歩きやすい靴が必須です。&lt;/p&gt;
+
+&lt;p&gt;さて、この日はミラージュでセッションがありましたので、試しにミラージュのランチを食べてみることにしました。味はご想像におまかせします。そしてこの後お腹を壊しました…。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/mlunch1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/mlunch1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/mlunch2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/mlunch2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;そうこうしている間に日が沈みました。ミラージュ側から見たホテル ベネチアンの外観です。見づらいですが手前に写っている旗を背負った道案内のアルバイトの人々は、このあたりの道で50m間隔程度で何十人と立っています。ホテルの内外で彼らを見ますので、恐ろしい量の雇用を創出してますね。。。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/venetian1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/venetian1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;re-play-party&#34;&gt;re:Play Party!&lt;/h2&gt;
+
+&lt;p&gt;さてこの日の夜は、Wernerもお待ちかねのre:Play Partyです。リュックなどを持っていると非常に邪魔になりますので、軽装で行きましょう。&lt;/p&gt;
+
+&lt;p&gt;すべてのサイネージが「セッションとかどうでもいいからre:Playに行け」と訴えています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/replay1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/replay1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;TVゲームが楽しめるゾーンや、体を動かすゲームなんかが楽しめるゾーンに別れていますが、我々はダンスフロアに直行しました！前座でまた Jen Lasher に会えましたので最初から最前列でかぶりつきです。2016年のベストDJ、若きEDMシーンの雄 Martin Garrix が爆音でフロアを揺らす中、夜中まで踊り明かしましたとさ…。&lt;/p&gt;
+
+&lt;p&gt;都合により、参加者に配布されるFree Tシャツをお土産にゲットしそこねたことだけが悔やまれます（会場入ってすぐのスペースで配布されていますが、列が若干伸びていたので後回しにしたのでした）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/replay2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/replay2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;12月02日-最終日&#34;&gt;12月02日 最終日&lt;/h1&gt;
+
+&lt;p&gt;re:Playが終わった翌朝は、会場はややけだるいムードで人も少し減った印象になります。この日は引き上げる or 次の目的地に向かうためにホテルをチェックアウトする人も多いため、ラゲッジを預かってくれるスペースもあります。必要があればお願いして荷物を預かってもらうと良いでしょう。&lt;/p&gt;
+
+&lt;p&gt;ぐっと人も減り、歩きやすくなる廊下。登壇者も「金曜日なのに来てくれてありがとう」と言う枕から始まる中、最後に聞いたセッションで、それぞれの re:Invent が終わります（クロージングのセレモニーのようなものはありません）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/day4.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/day4.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;この後、午後からの弾丸ツアーでヘリによるグランドキャニオンツアーと、最後の夜のラスベガスを楽しみました。&lt;/p&gt;
+
+&lt;h1 id=&#34;12月03日-移動日&#34;&gt;12月03日 移動日&lt;/h1&gt;
+
+&lt;p&gt;さて、この日の早朝便で日本に戻ります。朝の5時にホテルをチェックアウトをし、この時間でも簡単に来てくれるUberで空港に向かいます。今更ながら今回痛感しましたが、Uberは素晴らしいです。空港やホテルにもきっちりライドシェア用スペースが確保されており、周りの人々も空港で荷物を抱えてウロウロしていると &amp;ldquo;Uber? あっちだよ&amp;rdquo; と教えてくれます。&lt;/p&gt;
+
+&lt;p&gt;今回の帰りは行きと逆順で戻ります。ラスベガス（マッカラン）(LAS) - サンフランシスコ(SFO) - 関西(KIX) - 那覇(OKA) と、これまた長旅です。SFO - FIX間も、2時間以上乗る時間が増えます。ただ、アメリカは出国審査という概念がないので、サンフランシスコでの乗り換えが時間がタイトだった割にとてもスムーズで、その点では楽勝でした。&lt;/p&gt;
+
+&lt;p&gt;向かい側に見える国内線から、こちらの国際線まで歩いてきました（左隣のANAは成田行き）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/sfo.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/sfo.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ということで、帰りは24時間以上かかって沖縄まで戻ってきました。お疲れ様でした。&lt;/p&gt;
+
+&lt;h1 id=&#34;まとめ&#34;&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;約10年ぶりのアメリカ、事前の入れ知恵もほとんど無くバタバタと渡米した割には、落ち着いて何でも楽しむことが出来た自分に、少しびっくりしました。これは、表通りなら一人で歩いていてもお店に入るのも何も不安を感じない、治安の良さが根底にあるのだと思いますが、本当に気が楽でした。&lt;/p&gt;
+
+&lt;p&gt;そして初めての re:Invent への参加でしたが、これ自体もとても楽しめたものの、やはり少々の課題を持って帰ることになりました。&lt;/p&gt;
+
+&lt;p&gt;あるともっと楽しめたもの：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;英語リスニング力&lt;/li&gt;
+&lt;li&gt;英語ディスカッション力&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;リスニング力は言うまでもないですね。キーノートなど大きめのセッションではかなりゆっくりはっきりと喋ってくれるのであまり問題ないですが、それ以外のセッションではみんな普通にネイティブのスピードでゴチャゴチャっと喋るので、リスニング力が無いと辛いです。&lt;/p&gt;
+
+&lt;p&gt;百歩譲ってセッションはスライドがあるのでそれで補完できるとして、街角で・セッションの合間に・スポンサーブースの雑踏の中で・だだだ〜っと早口でまくしたてられると、本当に辛いものがあります（涙）。ぐぐる翻訳は助けてくれないので、自力でなんとかしたいところです。&lt;/p&gt;
+
+&lt;p&gt;ディスカッション力は、文字通りディスカッションして、意義あるものを作ろうとするとき、ほしいですね。喧々諤々になったときに、相手に自分の意見を上手く説明して、チームを纏めるレベルの英語力があると、GameDayに参加するにあたっては、色々はかどります（笑）。&lt;/p&gt;
+
+&lt;p&gt;re:Inventのセッション自体の内容は、例えばユーザー事例のセッションなどは、規模は違うものの技術的には日本で我々が展開している内容とさほど差があるようには思えませんでした。そのため、逆に登壇している国内の方が少ない（聞いていませんが今年は1セッションも無かった？）のは残念だなぁ、と思いました。&lt;/p&gt;
+
+&lt;p&gt;目指せ登壇！ということで、来年は日本から1つでも2つでもセッションへの登壇があればいいな、と思いました。自分？自分ですか…？ ネタがあれば…(^_^;)&lt;/p&gt;
+
+&lt;h1 id=&#34;オマケ&#34;&gt;オマケ&lt;/h1&gt;
+
+&lt;p&gt;こちらの報告が1週間送れてしまったのは、戻ってきてすぐ以下を頂戴した故でございます…。&lt;/p&gt;
+
+&lt;p&gt;体調管理は万全に、飛行機の機内ではマスクを厳重に！（してましたけどね&amp;hellip;（涙）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/omake.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/omake.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AWS re:Invent 2016 参加レポート その1</title>
+      <link>https://www.r3it.com/blog/aws/reinvent2016-report1/</link>
+      <pubDate>Tue, 13 Dec 2016 14:00:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/reinvent2016-report1/</guid>
+      <description>
+
+&lt;p&gt;最近お前出不精なんじゃないかと突っ込まれるくらい、沖縄から出ていない西島です、こんにちは（そんなことはありません、多分…）。&lt;/p&gt;
+
+&lt;p&gt;毎年この季節になると人々がザワザワするAWS界最大のイベント re:Invent に、今年は縁あって初参加することが出来ましたので、そのレポートです！&lt;/p&gt;
+
+&lt;p&gt;次回参加する方へのTIPSを色々と織り交ぜて書きましたので、読んでいてワクワクして「よし、来年は行ってみよう！」というかたの参考になれば幸いです。&lt;/p&gt;
+
+&lt;h1 id=&#34;11月27日-day-0-移動日&#34;&gt;11月27日 Day 0 移動日&lt;/h1&gt;
+
+&lt;p&gt;那覇(OKA) - 関西(KIX) - サンフランシスコ(SFO) - ラスベガス（マッカラン）(LAS)という大移動です。今回は特にKIXでの接続があまり良くなかったので、関西空港でしっかり仕事をすることが出来ました。&lt;/p&gt;
+
+&lt;p&gt;乗り換え時間が相当あると油断して仕事をしていましたが、関西空港はとても混雑しているので国際線のチェックインは早めにすることをオススメします。&lt;/p&gt;
+
+&lt;p&gt;また、&lt;a href=&#34;http://www.kansai-airport.or.jp/autogate/&#34;&gt;自動化ゲートを通れるようにしておく&lt;/a&gt;と行列を横目にサクッと出国・入国が出来るので、こちらもおすすめです。&lt;/p&gt;
+
+&lt;p&gt;結局沖縄の自宅を出てから、丁度24時間でマッカラン空港に着きました。空港の中にもスロットマシンがあるイカれた（イカした？）街に上陸です。国内で買ったZIP SIMがようやく動いてホッとしました（何故かSFOでは電波は掴むもののデータ通信が出来ず、愕然としていました…）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/las.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/las.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;11月28日-初日はgameday&#34;&gt;11月28日 初日はGameDay!&lt;/h1&gt;
+
+&lt;p&gt;まずは registration に向かいましょう。この辺の手順は誰も教えてくれませんが、会場であるベネチアンの中は同志がいっぱい居ますのでその真似をするか、キョロキョロしながらその辺を歩いてると係の人が教えてくれます。&lt;/p&gt;
+
+&lt;p&gt;この写真は初日の朝は早くなので空いていましたが、この整列用テープを見ると混雑時は相当なことになりそうです。可愛くないと評判の、変な忍者が写ってますね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/regist.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/regist.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;次はSWAG(参加者へのプレゼント)です。会期中みんなお揃いで着ることになる（町中でも頻繁に見ます）パーカーと、Echo Dotを貰いました！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/swag.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/swag.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;会場では、コーヒーや水はもちろん、WIFIや電源も（あるところなら）自由に利用可能です。ドリンクフリー！と言いたいところですが、単に支払ったカンファレンス代にincludeされているだけですね。というわけで、あなたのコーヒーなので、誰に遠慮する必要もありません。どうぞご自由飲みましょう。&lt;/p&gt;
+
+&lt;p&gt;初日 pre day はまだみんな会場に慣れていないらしく、座ってラップトップを開いていると「Hey guy、WIFIのパスワード知ってる？」と頻繁に聞かれますので、答えを用意しておきましょう（パスワードを口頭で教えてあげるか、「印刷物の個々にあるよ！」って教えてあげるとみんなハッピーになります。）。&lt;/p&gt;
+
+&lt;h2 id=&#34;初日にして主目的-gameday&#34;&gt;初日にして主目的！GameDay&lt;/h2&gt;
+
+&lt;p&gt;さて、今回の旅の主目的のひとつであるGameDayが初日の午後ぶっ通しでありました。アジェンダはこちらです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://reinvent.awsevents.com/activities/gameday/&#34;&gt;https://reinvent.awsevents.com/activities/gameday/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;登録時点で部屋が半分くらい埋まっていました。思いのほか参加人数が多いんだなと関心しました。話は出来ませんでしたが、日本からも数名程度は参加されていた方がいたようです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/gameday1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/gameday1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;お題の発表&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/gameday2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/gameday2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;途中経過のスコアは常にダッシュボードに表示されます。これはもう後半の写真なので、みんな結構疲れてますね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/gameday3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/gameday3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;内容は、4-5人のチームに分かれてお題をやっつけるハッカソンです。&lt;/p&gt;
+
+&lt;p&gt;チームのメンバーとは軽く自己紹介をして、「お昼食べる時間がなかった」とボヤいていたらスニッカーズ？みたいな謎の食べ物をもらったり、まあ和気あいあいと半日（13時から21時まで）過ごしました。カナダから来た彼と、US在住のHPのセールス、そして政府関係の仕事をしてる3人とチームになりました。どうもAWS経験値的には自分が一番あったようなのでビクビクしながら、お題を理解してそれをみんなに説明して、こういうアーキテクチャで解決しよう、というくらいまでは良いのですが、その後みんなでディスカッションが始まると、正直自分の英語力ではまったくついていけず困りました(^_^;) このあたりは課題ですね。&lt;/p&gt;
+
+&lt;p&gt;結局、「オレこうやるからお前らこっちから攻めてみ！」と分担し、途中途中で報告しつつワイワイ黙々、という感じのスタイルになりました。レッドブルやらおやつのフードやら、途中色々食べながら楽しく出来たのですが、チームとしての結果は惨敗でした。残念。しかしいい経験になりました。&lt;/p&gt;
+
+&lt;p&gt;スポンサーのRedHatさんのツイートにニコニコした顔で小さく写り込んでいましたので、貼っておきますね。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;How&amp;#39;s your team doing at &lt;a href=&#34;https://twitter.com/hashtag/AWSGameDay?src=hash&#34;&gt;#AWSGameDay&lt;/a&gt;? &lt;a href=&#34;https://twitter.com/hashtag/reInvent?src=hash&#34;&gt;#reInvent&lt;/a&gt; &lt;a href=&#34;https://t.co/E7tvtJoqSg&#34;&gt;pic.twitter.com/E7tvtJoqSg&lt;/a&gt;&lt;/p&gt;&amp;mdash; Red Hat Events (@RedHatEvents) &lt;a href=&#34;https://twitter.com/RedHatEvents/status/803369725317287936&#34;&gt;2016年11月28日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;11月29日-展示オープン-tuesday-night-live-with-james-hamilton&#34;&gt;11月29日 展示オープン &amp;amp; Tuesday Night Live with James Hamilton&lt;/h1&gt;
+
+&lt;p&gt;いよいよ少しずつ人が増えてきました。今日はBreakout Sessionsも始まり、いくつかのセッションとスポンサーブースの展示も開始します（Global Partner Summitも入れましたがパスしました…今年も日本からプレミア受賞された各社様、おめでとうございます！）。&lt;/p&gt;
+
+&lt;p&gt;昨日までと同じロビーとは思えません。人・人・人・・・。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/1129.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/1129.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;この日はいくつかのセッションに出た後は、展示ブースを回ってお土産のノベルティの調達です。この展示ブースが広大なこと！端が見渡せないレベルで、とてつもなく広いです。&lt;/p&gt;
+
+&lt;p&gt;てくてくと歩きつつ、ビール配布場所で好きなビールを頼み（IPAも普通にあります。流石アメリカ！）と、フード配布場所で好きな食べ物を調達しつつ、興味あるブースを覗いては話をしてノベルティを集めます。フードは場所によって種類が違ったりするので、在庫がないところで立ち止まる必要など無く、フラフラしていれば次のフードにありつけます。
+ノベルティは貰いすぎるとカバンに入り切らなくなりますし、ドローンとかデカイものを貰ってもカバンに入らないので、そういう場合には丁重にお断りしましょう(^_^;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/central1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/central1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;これは翌日の写真ですが、この中をひたすら歩いて探して、我らが kintone ブースにようやくたどり着きました！ 限定30枚しか作られなかったTシャツ貰っちゃいました！（ゴメンネ Nicole 英語ブログ待っててください・・・(^_^;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/kintonebooth.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/kintonebooth.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tuesday-night-live-with-james-hamilton&#34;&gt;Tuesday Night Live with James Hamilton&lt;/h2&gt;
+
+&lt;p&gt;この日の締めはHamilton先生によるAWSの物理の話。それにしても会場の広さにビビるのと前座がライブとか、もう意味が分かりません（このあたりから諸々の規模のデカさに、だんだん感覚がヤラれてきます）。&lt;/p&gt;
+
+&lt;p&gt;真ん中の通路から見た、前半分でこの椅子の数・・・キーノートと同じ会場と聞いて納得。この後これがすっかり埋まります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/jhn1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/jhn1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ロックスター登場！喜々として【クラウドの中の「物理」】を語ります。初蔵出しのネタもいっぱい有りました。詳細レポートは是非 &lt;a href=&#34;http://ascii.jp/elem/000/001/277/1277229/&#34;&gt;TECH.ASCII.jp&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/jhn2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/jhn2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;11月30日-本日はキーノート-その前に&#34;&gt;11月30日 本日はキーノート！その前に&amp;hellip;&lt;/h1&gt;
+
+&lt;p&gt;新サービスが多数発表されるであろうキーノートが始まる前に、日本からの参加者の皆さんが口をそろえて「マズイ」と言う、会場で提供される朝食にチャレンジしてみました。会期中は pre day を除き（つまり29日から毎日）、会場となっているベネチアンおよびミラージュにて朝食・昼食を自由に食べることが出来ます。誰に聞いても「マズイ」というので、逆に興味が湧いて来たのでチャレンジしてみました（笑）。&lt;/p&gt;
+
+&lt;p&gt;通称「餌場」（と勝手に名付けました）の入り口です。朝早いのでまだ人もまばらですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/meals1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/meals1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;朝早いと一番奥まで誘導されます。また端のテーブルが見えない・・・。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/meals2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/meals2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;みんな黙々と並んで取っていますが、何やら…な食べ物が並びます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/meals3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/meals3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;慎重に地雷を避けてみたものの…どのような味かは、あなたも是非体験してみてください！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/meals4.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/reinvent2016-report/meals4.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;その2へ続く-reinvent2016-report2&#34;&gt;&lt;a href=&#34;../reinvent2016-report2/&#34;&gt;その2へ続く&lt;/a&gt;&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Road to AWS re:Invent 2016</title>
+      <link>https://www.r3it.com/blog/aws/20161127_road-to-reinvent2016/</link>
+      <pubDate>Tue, 29 Nov 2016 09:36:13 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/aws/20161127_road-to-reinvent2016/</guid>
+      <description>
+
+&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
+
+&lt;h1 id=&#34;今年もre-inventの季節がやってきました&#34;&gt;今年もre:Inventの季節がやってきました！&lt;/h1&gt;
+
+&lt;p&gt;今年もAWSの年次カンファレンス、re:Inventがアメリカのラスベガスで開催されます。
+アールスリーからは、オフィシャルに2名、アンオフィシャルに1名（要は自腹）参加します。&lt;/p&gt;
+
+&lt;p&gt;私は前回は3年前に参加しましたが、そのときはAWSさんが用意されていたツアーで行ったので、言われるがままに着いていけばちゃんと到着できるという感じでした。&lt;/p&gt;
+
+&lt;p&gt;今回は、好き勝手行動したいのと費用を抑える意味も込めて、全て自分で手配しての参加です。&lt;/p&gt;
+
+&lt;h1 id=&#34;事前準備&#34;&gt;事前準備&lt;/h1&gt;
+
+&lt;p&gt;とはいえ、なんでもネットでできちゃう今の時代、自分で手配するといってもやることはそう多くないですし難しくもありません。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;航空機の手配&lt;/li&gt;
+&lt;li&gt;ホテルの手配&lt;/li&gt;
+&lt;li&gt;re:Inventの参加申し込み&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この3つくらいです。&lt;/p&gt;
+
+&lt;h1 id=&#34;航空機-ホテルの手配&#34;&gt;航空機&amp;amp;ホテルの手配&lt;/h1&gt;
+
+&lt;p&gt;今回は、エクスペディアで手配してみました。航空機とホテルをセットにして予約できるので、日程と目的地だけ指定して検索すれば航空会社の候補とホテルの候補が出て来るので選ぶだけです。簡単ですね&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/20161127/expedia.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今回私が予約したプランでは、ユナイテッド航空での往復航空券代とHarrah&amp;rsquo;s Hotel(6泊)を合わせて175,000円でした。
+航空会社を大韓航空などにするともう少し安くなりますのでとにかく費用を抑えたいという方は、このような選択肢もあります。&lt;/p&gt;
+
+&lt;h1 id=&#34;re-inventの参加申込&#34;&gt;re:Inventの参加申込&lt;/h1&gt;
+
+&lt;p&gt;2016年の場合は、&lt;a href=&#34;https://reinvent.awsevents.com/&#34;&gt;公式サイト&lt;/a&gt;から申込みました。参加料はカード決済で支払います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/aws/20161127/reinvent.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;APNパートナーの方は、Global APN Summitにも合わせて申し込むのを忘れないようにしましょう。
+参加料は$1,500なので決して安くはありませんが、それだけの価値があるイベントです。投資だと思って払っちゃいましょう。&lt;/p&gt;
+
+&lt;h1 id=&#34;参加に向けた準備&#34;&gt;参加に向けた準備&lt;/h1&gt;
+
+&lt;p&gt;あとは普通の海外旅行と同じように準備していくだけです。アメリカへの入国にはESTAの登録が必要ですので、忘れないようにしましょう。&lt;/p&gt;
+
+&lt;p&gt;他の旅行とちょっと違う準備としては、re:InventではAWSやスポンサー企業から多数のノベルティをもらえます。そのため、カバンにはお土産分以上の余裕をもって用意されることをオススメします。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kintone Café 福岡 Vol.9</title>
+      <link>https://www.r3it.com/blog/kintone/20161122_kintonecafe-fukuoka9/</link>
+      <pubDate>Mon, 28 Nov 2016 10:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20161122_kintonecafe-fukuoka9/</guid>
+      <description>
+
+&lt;p&gt;2016年11月22日に開催された &lt;a href=&#34;http://peatix.com/event/211080&#34;&gt;kintone Café 福岡 Vol.9&lt;/a&gt; に出張登壇してきました！&lt;/p&gt;
+
+&lt;p&gt;大阪や神戸のkintone Caféには何度も参加していますが、遠方で開催されるkintone Caféは久しぶりだったので、楽しみでありつつ、雰囲気が想像できなかったので内心ドキドキしながらの参加でした。&lt;/p&gt;
+
+&lt;p&gt;会場はBacklogやCacooで有名なヌーラボさんのカフェスペース。&lt;/p&gt;
+
+&lt;p&gt;卓球台があったり子供向けスペースがあったり、オサレな感じでした(๑•̀ㅂ•́)و✧&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/pingpong.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/pingpong.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/childspace.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/childspace.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;豪華セッションの本編&#34;&gt;豪華セッションの本編&lt;/h2&gt;
+
+&lt;p&gt;トップバッターは運営のAISIC久米さんより&lt;font color=&#34;#FF00FF&#34;&gt;&lt;b&gt;kintone Caféの紹介とkintone Café Japanの開催報告。&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone Caféの理念や目指すところについて、とても時間をかけて丁寧に説明されていて、大阪の運営の参考になりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/kumesan1.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/kumesan1.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/kumesan2.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/kumesan2.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;足場の会社で足場以外の業務を担当されているダイワの髙田さん(kintone魔人)&lt;/b&gt;&lt;/font&gt;からは&lt;font color=&#34;#FF00FF&#34;&gt;&lt;b&gt;「やっててよかった！kin活(kintone活動)」&lt;/b&gt;&lt;/font&gt;という事で、kintoneの活動について。&lt;/p&gt;
+
+&lt;p&gt;入金管理業務をkintone化され、印刷や手書きの手間を無くして作業時間を1/10にされたとの事。&lt;/p&gt;
+
+&lt;p&gt;kintone AWARDへの参加や&lt;a href=&#34;http://kintone-blog.cybozu.co.jp/tonakin/000254.html&#34;&gt;となキン&lt;/a&gt;登場のお話しなど熱く語って頂きました。&lt;/p&gt;
+
+&lt;p&gt;kin活の成果として、ホームページのPV数アップや、&lt;a href=&#34;http://www.bikemen.jp/about/&#34;&gt;ビケメン&lt;/a&gt;応募者数のキープなど、いろいろな効果があったそうです。&lt;/p&gt;
+
+&lt;p&gt;最後は、となkinの募集、kintone AWARD 2017エントリー受付開始の告知、kintone hive福岡の開催決定など、まるで中の人？かと思われるような告知をされて終わりましたｗ&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/takatasan1.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/takatasan1.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/takatasan2.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/takatasan2.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;続いて社会保険労務士SUGOUDE香原さんの&lt;font color=&#34;#FF00FF&#34;&gt;&lt;b&gt;「必見！士業でもシステムコンサルが出来るノウハウ大公開」。&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;ITウィザード社労士（システム構築まで出来る社労士）としてkintoneビジネスはブルーオーシャンだと断言された香原さん。&lt;/p&gt;
+
+&lt;p&gt;kintoneは簡単に使えますがビジネスとして成り立たせるのには「課題発見力」と「コーディネート力」の2つの要素に加え、探究心が大切との事で、参加者の皆さんも熱心に聞かれていましたφ(..)メモメモ&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/kohara.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/kohara.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;ニシム電子工業の藤川さんからは&lt;font color=&#34;#FF00FF&#34;&gt;&lt;b&gt;「kintoneにのってニシムの風土改革が動き出す～AWARDにのってさらに加速する～」&lt;/b&gt;&lt;/font&gt;と題し、kintoneを使った社内業務改善のお話し。&lt;/p&gt;
+
+&lt;p&gt;社内の問題を1万点以上ピックアップした結果、情報共有に問題が多い事が判明。&lt;/p&gt;
+
+&lt;p&gt;その中でも通信回線開通工事の残業が多かったそうですが、作成に時間がかかっていたExcelの工程表をkintoneで実現した事により、毎月160時間かけていた作業が不要になったそうです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/fujikawa.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/fujikawa.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;本編ラストは私から&lt;font color=&#34;#FF00FF&#34;&gt;&lt;b&gt;「IoT 案件で kintone を使ってみたよ！」&lt;/b&gt;&lt;/font&gt;という軽いタイトルですが、中身は真面目にIoTの事例をお話しをさせて頂きました。&lt;/p&gt;
+
+&lt;p&gt;ここまでとても参考となるセッションが続いて来たのですが、実際のkintoneの画面を紹介するセッションが無かったため、急遽簡単なデモを入れてみました。久しぶりのデモでしたが、何とかまとまった気がします^^;&lt;br&gt;
+ちなみに、ヌーラボさん開催という事だったので、ヌーラボシャツで登壇してみましたｗ&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/asaga.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/asaga.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;1cf7f5edd4cb4fd78019f5013cbecd06&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;ライトニングトーク&#34;&gt;ライトニングトーク&lt;/h2&gt;
+
+&lt;p&gt;最後はサイボウズ伊佐さん、ヌーラボ川上さん、ビットリバー安藤さん、ジョイゾー山下さん、AISIC久米さんによるLTで締められました。&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/isasan.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/isasan.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/kawakamisan.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/kawakamisan.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/andosan.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/andosan.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/yamashitasan.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/yamashitasan.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20161122/kumesan3.jpeg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20161122/kumesan3.jpeg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;次回の福岡は&#34;&gt;次回の福岡は？&lt;/h2&gt;
+
+&lt;p&gt;来年4/19(水)にkintone hive福岡の開催が決定しており、その前日に前夜祭としてkintone Café福岡Vol.10を予定しているとの事です。&lt;/p&gt;
+
+&lt;p&gt;ご興味ある方は&lt;a href=&#34;https://www.facebook.com/kintonecafe.fukuoka/&#34;&gt;facebookページ&lt;/a&gt;か、&lt;a href=&#34;http://peatix.com/group/44604&#34;&gt;Peatix&lt;/a&gt;をチェックしてみてください！&lt;/p&gt;
+
+&lt;h2 id=&#34;関西でもkintone-caféやってます&#34;&gt;関西でもkintone Caféやってます！&lt;/h2&gt;
+
+&lt;p&gt;12月4日(日)に&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/54207&#34;&gt;kintone Café 関西女子会 Vol.3&lt;/a&gt;、12月21日(水)に&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/54196&#34;&gt;kintone Café 大阪 Vol.10&lt;/a&gt; がありますので、関西方面の方は是非ご参加ください！！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cybozu Days 2016 tokyo Day2  Conference 参加レポート</title>
+      <link>https://www.r3it.com/blog/kintone/20161108-10_cd2016tokyo_day2/</link>
+      <pubDate>Tue, 15 Nov 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20161108-10_cd2016tokyo_day2/</guid>
+      <description>
+
+&lt;h1 id=&#34;cybozu-days-2016-tokyo-day2-の始まり&#34;&gt;Cybozu Days 2016 tokyo Day2 の始まり&lt;/h1&gt;
+
+&lt;p&gt;東京のCybozu Daysは2日構成です。展示は&lt;strong&gt;お昼&lt;/strong&gt;から。朝は届いた荷物を開梱し、ブースのセッティングを行う時間です。&lt;/p&gt;
+
+&lt;p&gt;展示開始まで3時間近くあったので、準備も余裕だろうと高をくくっていたわたしでしたが、現実はそう甘くなかった・・・&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#4682B4&#34;&gt;そう、甘くなかったのだよDay2は（虚ろ&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;ブースのスペースが従来のカンファレンスの2倍くらいの大きさがあったため、パンフレットやノベルティの設置のレイアウトに趣向を凝らす・・・&lt;/p&gt;
+
+&lt;p&gt;が、だめだ！あまりかわいくない・・・ &lt;del&gt;かわいくないぞこのレイアウトは（心の叫び&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;とはいえ、レイアウトを良くするための小物類があまりなく、いやーこれ&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;FF0000&#34;&gt;今後要検討&lt;/font&gt;&lt;/b&gt;ですよね。&lt;/p&gt;
+
+&lt;p&gt;もっとブースも&lt;strong&gt;「おっ！」&lt;/strong&gt;っておもってもらえるようなレイアウトにしたい！&lt;/p&gt;
+
+&lt;h2 id=&#34;day2で実物初披露となった俺たちのみみがたん&#34;&gt;Day2で実物初披露となった俺たちのみみがたん！&lt;/h2&gt;
+
+&lt;p&gt;そう。しかしそうも言ってられないのです。今回はいろいろ企画を練っていたのです。&lt;/p&gt;
+
+&lt;p&gt;gusukuを守るため・・・gusukuを世に広めるため！！！！！！！由緒正しいお家柄の&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF1493&#34;&gt;瑞慶覧みみが（ずけらん みみが）&lt;/font&gt;&lt;/b&gt;
+たんが爆誕したのです。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo27.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo27.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;みみがたんを具現化してくれたのは、福岡を拠点に活躍されている&lt;strong&gt;大人気イラストレーター！&lt;/strong&gt;&lt;a href=&#34;http://hrd-u1.com/&#34;&gt;ハラダユーイチさん&lt;/a&gt;です♪^^&lt;/p&gt;
+
+&lt;p&gt;イラストのクオリティに定評のある御方です。本当にありがたやありがたや。&lt;/p&gt;
+
+&lt;p&gt;これからgusukuをWeb等でご紹介する時には&lt;strong&gt;みみがたん&lt;/strong&gt;と一緒にご紹介していく予定です♥╰(&lt;em&gt;´︶`&lt;/em&gt;)╯♥&lt;/p&gt;
+
+&lt;h2 id=&#34;cybozu-days-限定-みみがたんお披露目キャンペーン&#34;&gt;Cybozu Days 限定！みみがたんお披露目キャンペーン&lt;/h2&gt;
+
+&lt;p&gt;そうです。そしてそんなみみがたんの爆誕を記念して、お披露目キャンペーンと題し抽選会も開催しています₍₍ (ง ˘ω˘ )ว ⁾⁾　&lt;/p&gt;
+
+&lt;p&gt;抽選で当たった方にはもれなく&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#483D8B&#34;&gt;gusuku缶バッチ付きランチトートバック&lt;/font&gt;&lt;/b&gt;をプレゼント！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo29.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo29.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;残念ながら外れた人もちゃーんと景品はご用意しています。&lt;/p&gt;
+
+&lt;p&gt;外れた人には&lt;strong&gt;gusukuステッカー&lt;/strong&gt;をプレゼントしまーす！&lt;/p&gt;
+
+&lt;p&gt;すでに持ってるよ！という方も2枚目以降を是非GETしに来てください^^
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo30.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo30.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらのキャンペーンは東京だけではなく、12月6日に開催される&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;Cybozu Days 2016 osaka&lt;/font&gt;&lt;/b&gt;でも行っていますので、大阪に参加される方は是非弊社ブースにお立ち寄り下さいね♪^^&lt;/p&gt;
+
+&lt;p&gt;みみがたんと一緒にお待ちしております♥
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo28.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo28.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;他にもこんなノベルティ-みんな大好きブラックサンダー&#34;&gt;他にもこんなノベルティ！みんな大好きブラックサンダー♪&lt;/h2&gt;
+
+&lt;p&gt;キャンペーンとは関係なく、ブースにお越し頂いた人にはもれなく&lt;strong&gt;みみがたんブラックサンダー&lt;/strong&gt;も配布させて頂いていますよー！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo26.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo26.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ブースではあったかい&lt;strong&gt;コーヒー&lt;/strong&gt;もご用意しています！&lt;/p&gt;
+
+&lt;p&gt;みみがたんブラックサンダーを食べて、コーヒーを飲んで、疲れた身体を休めていって下さいね(๑¯ω¯๑)&lt;/p&gt;
+
+&lt;h2 id=&#34;展示ブースの様子&#34;&gt;展示ブースの様子&lt;/h2&gt;
+
+&lt;p&gt;ブース全体像としてはこんな感じになりました！&lt;/p&gt;
+
+&lt;p&gt;黄色一色！&lt;b&gt;&lt;font color=&#34;#FFD700&#34;&gt;きりん色&lt;/font&gt;&lt;/b&gt;です^^
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo25.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo25.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;今回がJOINして初のブース応対となった &lt;del&gt;倉庫番&lt;/del&gt; エバンジェリストも生き生きと応対していました！
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo23.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo23.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;わたしはというと、、、今回はみみがたんお披露目イベントということもあり、やや抑えめにgusukuパーカーを着用し、ブースに来てくれた皆さんとみみがたんと写真をぱちり♪^^
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo32.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo32.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;コスプレを期待してくれてた方はすいません！しかしわたしは&lt;strong&gt;期待は裏切りませんよ！！！！！！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;そのうち皆さんにお返しします…そのうち…（いつだ&lt;/p&gt;
+
+&lt;p&gt;ブースに立ち寄って下さった方のお話を聞くと、&lt;u&gt;&lt;b&gt;&lt;font color=&#34;#8A2BE2&#34;&gt;東京でのR3の知名度と、gusukuの認知度&lt;/font&gt;&lt;/b&gt;&lt;/u&gt;が去年と比較すると&lt;strong&gt;格段に上がったなー&lt;/strong&gt;という印象でした！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;昨年のcybozu.comカンファレンスでの金春の登壇をご覧になられた方が、今年ブースに来てくださったり&lt;/li&gt;
+&lt;li&gt;gusukuいいですよね！こんなサービスを待っていたんです！とおっしゃってくれる方も！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本当にありがたいことでございます。&lt;/p&gt;
+
+&lt;p&gt;また、&lt;strong&gt;Day1&lt;/strong&gt;のkintone hackをご覧になられた方が&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF0000&#34;&gt;「優勝おめでとうございます！」&lt;/font&gt;&lt;/b&gt;と声をかけてくださったり。&lt;/p&gt;
+
+&lt;p&gt;それだけ大注目のセッションだったということですよね！いやほんと素晴らしかったです！&lt;/p&gt;
+
+&lt;p&gt;年明け早々東京での企画もいろいろ検討していますので、その時には皆さん参加して頂けたら嬉しいです♪^^&lt;/p&gt;
+
+&lt;h2 id=&#34;展示だけじゃない-俺たちの圧力団長は&#34;&gt;展示だけじゃない。俺たちの圧力団長は&lt;/h2&gt;
+
+&lt;p&gt;はい。ブースの様子はこんな感じでしたが、その傍ら（じゃない。むしろ&lt;strong&gt;メインディッシュ&lt;/strong&gt;）弊社の金春はランチセッションと展示ブースセッションで登壇しておりました。&lt;/p&gt;
+
+&lt;p&gt;ランチセッションは参加者の皆さんにお弁当が配布され、そのお弁当を召し上がって頂きながらセッションを聴講頂く形式です。&lt;/p&gt;
+
+&lt;p&gt;ランチセッションの会場はこちらの&lt;strong&gt;ワシ会場。&lt;/strong&gt;球体状のセミナー会場です。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo33.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo33.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;この会場、昔よく遊んだアスレチック的ななにがしかにどことなく似ている…&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社事例も交えつつ、ブースの案内を入れつつご紹介。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo34.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo34.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;皆さんお弁当を食べ終えた後は真剣にセッションに聞き入っていらっしゃいました！&lt;/p&gt;
+
+&lt;p&gt;メモを熱心に取られている方もちらほら。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo35.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo35.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;ブースセッションは、ランチセッションより短めの尺の15分。しかし会場はこちらの&lt;strong&gt;クジラ会場。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;通常のブースセッションの会場とは異なり、オープンスペースで休憩をされているような方もいるような場所でした。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo36.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo36.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo37.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo37.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらでもランチセッションの内容をぎゅっと凝縮した、密度の濃い内容でセッションを行わせて頂いたのですが、&lt;/p&gt;
+
+&lt;p&gt;セッションを聴かれた方でブースまで足を運んで頂いたという方もいらっしゃいました。
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo38.jpg&#34; data-lightbox=&#34;cd2016_tokyo_day2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/cd2016_tokyo/cybozudays-tokyo38.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;企業におけるシステムのクラウド化というのは、どの会社でも&lt;strong&gt;潜在的に抱えている課題&lt;/strong&gt;だと思っています。&lt;/p&gt;
+
+&lt;p&gt;コンプライアンスの問題で、単純にクラウドへ移行することが困難なお客様もいると思いますが、&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;そんなお客様でも大丈夫！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;お客様の課題を把握し、お客様に最適なご提案をさせて頂くことが出来るのが弊社R3の強みなのです♪^^&lt;/p&gt;
+
+&lt;p&gt;ですので、迷っているそこのあなた！少しでも現行のシステムをより良くしたいという気持ちがあるのであれば、是非弊社にお問い合わせ下さい₍₍ (ง ˘ω˘ )ว ⁾⁾　&lt;/p&gt;
+
+&lt;p&gt;もしかしたら、何かいい答えが得られるかも…しれませんよ♡&lt;/p&gt;
+
+&lt;h1 id=&#34;cybozu-days-2016-tokyo-総括的な何か&#34;&gt;Cybozu Days 2016 tokyo 総括的な何か&lt;/h1&gt;
+
+&lt;p&gt;はい！ということでDay1、Day2とお届けしてきました。&lt;/p&gt;
+
+&lt;p&gt;これからも弊社はいろんなイベントに出展します！登壇します！&lt;/p&gt;
+
+&lt;p&gt;弊社サイトやFacebookで是非是非予定をチェックして下さいね(•̀ᴗ•́)و ̑̑&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;FBページは&lt;a href=&#34;https://www.facebook.com/r3institute/&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cybozu Days 2016 tokyo Day1 kintone hack 参加レポート</title>
@@ -791,698 +1379,6 @@ AWSとkintoneの連携やTwilio連携が好きなので色々と作ってまし�
 &lt;p&gt;サーバーワークスさんや弊社アールスリーについて&lt;strong&gt;もっといろいろ知りたい&lt;/strong&gt;という方！&lt;/p&gt;
 
 &lt;p&gt;是非是非ご参加をお待ちしております(๑¯ω¯๑)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ハッカーズチャンプルー2016に参加してきました</title>
-      <link>https://www.r3it.com/blog/community/hackers-champloo2016/</link>
-      <pubDate>Fri, 01 Jul 2016 17:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/community/hackers-champloo2016/</guid>
-      <description>
-
-&lt;h2 id=&#34;ハッカーズチャンプルー-http-hackers-champloo-org-2016-とは&#34;&gt;&lt;a href=&#34;http://hackers-champloo.org/2016/&#34;&gt;ハッカーズチャンプルー&lt;/a&gt;とは？&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/community-support/hc_logo_577x166.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;分野をまたがってITに携わる人が沖縄の地で交流するまさにチャンプルー（ごちゃまぜ）なイベントです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ホテルの作業スペースで集まって各々の作業をしたり交流したりする開発合宿&lt;/li&gt;
-&lt;li&gt;合宿参加者以外も集う大規模なカンファレンス&lt;/li&gt;
-&lt;li&gt;カンファレンスの懇親会&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;といったイベントが盛りだくさんです。&lt;/p&gt;
-
-&lt;p&gt;メインディッシュは人がたくさん集まるカンファレンスみたいですが 、開発合宿から参加させてもらえることになりました。&lt;/p&gt;
-
-&lt;p&gt;どんな美味しいチャンプルーが出来るのかワクワクします。&lt;/p&gt;
-
-&lt;h1 id=&#34;開発合宿&#34;&gt;開発合宿&lt;/h1&gt;
-
-&lt;h2 id=&#34;初日&#34;&gt;初日&lt;/h2&gt;
-
-&lt;p&gt;那覇空港に降り立ちました。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;祝！沖縄！&lt;/strong&gt;
-天気が夏!!植物が沖縄!!
-これは開発合宿の会場となったホテルです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/hotel.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/hotel.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;初日の交流会でいろんな方とお話できました。
-普段お仕事でお世話になっている&lt;strong&gt;kintone&lt;/strong&gt;の中の人もいました！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160622_182910.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160622_182910.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;楽しい日々の予感を胸にホテルに帰って現実を思い出しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;仕事がまだ残っているという現実&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;２日目&#34;&gt;２日目&lt;/h2&gt;
-
-&lt;p&gt;気合で仕事を終わらせて開発作業開始です。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160623_161816.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160623_161816.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;実は…
-沖縄でリゾート気分を味わいながら余裕をもって開発をするために着々と準備はしていたのです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Linux環境じゃないと面倒な問題が起きるのでVMWareにUbuntuをインストール済&lt;/li&gt;
-&lt;li&gt;vimでRailsをいじるための便利なプラグインは調査、動作確認済&lt;/li&gt;
-&lt;li&gt;やりたい動作に近いテスト用スクリプト動作確認済み&lt;/li&gt;
-&lt;li&gt;Railsで最初のページは作った&lt;/li&gt;
-&lt;li&gt;簡単な仕様書まで手書きで用意&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;絶対すぐに終わる！…わけがなかったです。&lt;/p&gt;
-
-&lt;p&gt;フレームワーク使いこなすのってこんなに難しいのですか！？&lt;/p&gt;
-
-&lt;p&gt;必死で作業。&lt;/p&gt;
-
-&lt;p&gt;窓の外には晴れ渡った空、広がる広大な海。作業スペースから眺めることしかできませんでした。気がつけば夜中の部屋でも作業…&lt;/p&gt;
-
-&lt;p&gt;癒しの美味しいごはんを提供して下さった、
-ごはんスポンサーのesaさんありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160623_122932.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160623_122932.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;3日目&#34;&gt;3日目&lt;/h2&gt;
-
-&lt;p&gt;残された作業。&lt;/p&gt;
-
-&lt;p&gt;腹立たしいほどに晴れ渡った空、広大な海。海よりも広く横たわる現実を思い出しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;翌日160人の前で成果発表するという現実&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;何とか発表できそうなものは間に合いました。気づけば夜中の部屋でもスライド作り…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160624_085939.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160624_085939.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;カンファレンス当日&#34;&gt;カンファレンス当日&lt;/h1&gt;
-
-&lt;p&gt;ボランティアスタッフの皆さんと朝から会場準備をしていました。
-みなさん気合入ってます。最高のイベントにしたいです。&lt;/p&gt;
-
-&lt;p&gt;運営もしますけど発表もします。
-持ち時間は６分です。
-6分間で合宿の成果と語彙力の重要性を頑張って皆さんにお伝えしました。
-6分を超えるとこわい大人が銅鑼を鳴らして強制終了という制度だったのでひやひやです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160625_134924.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/20160625_134924.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/Fqn312CDxWPhnw&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/RyogaYamada/ss-63478259&#34; title=&#34;合宿の成果&#34; target=&#34;_blank&#34;&gt;合宿の成果&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/RyogaYamada&#34; target=&#34;_blank&#34;&gt;Ryoga Yamada&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;いろんな分野の方の興味深いお話しをたくさん聞けて充実したカンファレンスでした。
-みなさん技術があって個性的でお話も面白いです。
-こうやって貢献できる人にならなくてはいけないなとモチベーションも上がります。&lt;/p&gt;
-
-&lt;h1 id=&#34;懇親会&#34;&gt;懇親会&lt;/h1&gt;
-
-&lt;p&gt;みなさん元気で個性的で面白い人でした。
-カンファレンスの部では発表してなかった方々の発表もありました。&lt;/p&gt;
-
-&lt;p&gt;なぜか発表した人はパイ投げされるというはっちゃけっぷりですが、
-発表のクオリティ高くておなかがいっぱいです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/img_8814.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/img_8814.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/img_8835.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/img_8835.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;（↑一緒に行った弊社の大澤です）&lt;/p&gt;
-
-&lt;h1 id=&#34;まとめ&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;とてもおいしいチャンプルーが出来上がりました。
-素晴らしいイベントに参加できて光栄です。&lt;/p&gt;
-
-&lt;h3 id=&#34;来年はぜひみなさんも&#34;&gt;来年はぜひみなさんも!!&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/return.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/community/hcmpl2016/return.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>リレーブログその2：おっさん英語でがんばった！韓国との共催勉強会の感想を語る</title>
-      <link>https://www.r3it.com/blog/aws/201605_awskrug_jawsug_meetup_debriefing/</link>
-      <pubDate>Tue, 28 Jun 2016 13:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/aws/201605_awskrug_jawsug_meetup_debriefing/</guid>
-      <description>
-
-&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
-
-&lt;p&gt;5月20日・21日にJAWS-UGのメンバーと共に韓国のAWSコミュニティ「AWSKRUG」との共催勉強会に行ってきました（その&lt;a href=&#34;https://www.r3it.com/blog/aws/20160524_awskrug_jawsug_meetup1/&#34;&gt;参加報告はこちら&lt;/a&gt;）！　参加メンバーによるリレーブログの2本目は、勉強会での印象や日本のおっさんメンバーの奮闘ぶり、そして感動のAWSかるた授与イベントについて語ります。&lt;/p&gt;
-
-&lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/28/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;、&lt;a href=&#34;https://www.p-united.com/jaws-trips.html&#34;&gt;その3はこちら&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;h1 id=&#34;登場人物&#34;&gt;登場人物&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/members.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/members.png&#34; width=&#34;800&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;大谷
-ぎょり
-いとーひろみん
-あかつか
-どんまい
-こんぱる
-こが
-たちばな
-あんどう
-いとーともくん
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;韓国とコラボレーションした勉強会の印象&#34;&gt;韓国とコラボレーションした勉強会の印象&lt;/h1&gt;
-
-&lt;p&gt;大谷：さて、2日目は勉強会の本番でした。8つセッションがありましたが、前半の韓国勢のセッションは何が印象的でしたか？&lt;/p&gt;
-
-&lt;p&gt;ぎょり：チョンさんのqiitaの韓国版はすごく印象的でした。技術があれば、言語は超えるなぁと思って。こんなに日本の技術ネタが韓国にも影響しているんだなぁ、と思ったのと、こんなに濃いネタ、日本で取り入れられてなかったな、やべぇ！と思いました。&lt;/p&gt;
-
-&lt;p&gt;いとー：うん、その角度で日本に触れてくるのかとびっくりした！&lt;/p&gt;
-
-&lt;p&gt;大谷：確かにLINEの日韓翻訳が思いのほか精度が高いというのは面白かった。私はやっぱり「Between」ですね。1700万ダウンロードという段階で、びびったｗ　データ量やオブジェクト数がすごすぎてさらにびびりました。ちょっと使ってみたくなった。&lt;/p&gt;
-
-&lt;p&gt;赤塚：画像データ11億枚で738TBだそうですw&lt;/p&gt;
-
-&lt;p&gt;どんまい：私もあのカップルサービスの話とか課題からの激的な変化は面白いと思いました！&lt;/p&gt;
-
-&lt;p&gt;ぎょり：懇親会で聞けたカップルサービスの裏表は面白かったですね！！！&lt;/p&gt;
-
-&lt;p&gt;いとー：あれはすごくよく考えられたサービスで、進化し続けてるところもすごいなとおもったー&lt;/p&gt;
-
-&lt;p&gt;大谷：どんな裏話が？&lt;/p&gt;
-
-&lt;p&gt;ぎょり：別れたカップルのデータは消えゆく、、とかｗあとダブルでアカウントを作ってサポートに助けを求めたとかｗｗ&lt;/p&gt;
-
-&lt;p&gt;大谷：愛が消えると、写真も消えるわけですね。それにしてもパクさんの「マイグレーションのときもカップルの大切なデータは消さないぜ（キリッ）」はしびれたｗ&lt;/p&gt;
-
-&lt;p&gt;いとー：swapping対応はふいたw&lt;/p&gt;
-
-&lt;p&gt;どんまい：私はパクさんの熱い想いを受けてアプリをダウンロードしました&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26546262294_64e3159cfc_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26546262294_64e3159cfc_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;赤塚：Minyoungさんのサーバーレスでのリアルタイムアナリティクスの話も分かりやすかったです。&lt;/p&gt;
-
-&lt;p&gt;大谷：さすがAWSKRUGのファウンダーでした。Lambdaは韓国でも大人気でしたね。&lt;/p&gt;
-
-&lt;p&gt;ぎょり：面白かった！&lt;/p&gt;
-
-&lt;p&gt;いとー：抱えてる課題や考えてることが日本と同じでなんだか嬉しかったです&lt;/p&gt;
-
-&lt;p&gt;いとー：この時間帯まで、終始日本勢は妙な緊張の空気を出しまくってたなwww あれはちょっとおもしろかったww&lt;/p&gt;
-
-&lt;p&gt;赤塚：笑いのレベルが高くてネタを組み直す日本勢w&lt;/p&gt;
-
-&lt;h1 id=&#34;jaws-ug勢登壇の裏舞台&#34;&gt;JAWS-UG勢登壇の裏舞台&lt;/h1&gt;
-
-&lt;p&gt;大谷：で、日本勢はいきなり金春さん、赤塚さん、小賀さんまで英語で来ましたよ。どうですか。&lt;/p&gt;
-
-&lt;p&gt;いとー：速攻金春さんのは動画あげちゃいましたねw&lt;/p&gt;
-
-&lt;p&gt;赤塚：動画はやめてw&lt;/p&gt;
-
-&lt;p&gt;いとー：おとーさんならいけると思ったのと、実際あげても良さそうな出来？感じ？だったのでwww&lt;/p&gt;
-
-&lt;p&gt;こんぱる：いつもいとーさんに遊ばれてます(T_T)&lt;/p&gt;
-
-&lt;p&gt;いとー：おや？&lt;/p&gt;
-
-&lt;p&gt;赤塚：驚きのクオリティで次の私のプレッシャーが半端なかったです&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26546230734_f7767926a3_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26546230734_f7767926a3_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;大谷：でも、赤塚さんの顔抜きは韓国の方に伝わったんでしょうか？&lt;/p&gt;
-
-&lt;p&gt;赤塚：それはわかりませんな&lt;/p&gt;
-
-&lt;p&gt;大谷：小賀さんとか、前の二人が登壇している時は、超プレッシャーとか言ってたのに、すごい流暢でむかついたｗ&lt;/p&gt;
-
-&lt;p&gt;赤塚：ちょっと本気出してましたねw私がちゃんとやると思ってなかったので無駄にプレッシャーかかったと今だに文句言われますw&lt;/p&gt;
-
-&lt;p&gt;こんぱる：いやでも、ほんと英語でチャレンジしてよかった。ものすごく勉強になったし、やってみるもんだな〜と思った&lt;/p&gt;
-
-&lt;p&gt;どんまい：身内意識で恐縮ですが、ぱるると小賀さんは英語堪能そうなイメージがあったんですが、うちの赤塚さんが英語でしゃべりだしたときは涙目になりましたね。そして顔抜きも結構ウケけて思わずFBにアップしてました&lt;/p&gt;
-
-&lt;p&gt;赤塚：どんさんとぎょりは母親の目をしていました。&lt;/p&gt;
-
-&lt;p&gt;実はぎょりの新卒面接した一人は私で、やつがサーバーワークスを世界に連れて行くと言ってくれたから”絶対採用”の評価を次のフェーズに出したんです。きっちり約束を果たしてくれたので泣きながら頑張りましたw&lt;/p&gt;
-
-&lt;p&gt;いとー：ほんとみなさんのすごさを感じましたー。あんなにざわざわしてたのに、はじまったらぜんぜん違うし、みんなしっかり笑いもとって。笑いといえば韓国勢のみなさまもすごいですが&lt;/p&gt;
-
-&lt;p&gt;大谷：確かにFusicのチョさんの「AWS前」と「AWS後」の写真は吹いた。で、最後の立花さんが日本語で安心した。&lt;/p&gt;
-
-&lt;p&gt;こんぱる：立花さんは流暢な日本語を操るよね&lt;/p&gt;
-
-&lt;p&gt;赤塚：一つのセンテンスに一つの目的なのはとても大事ですね。&lt;/p&gt;
-
-&lt;p&gt;いとー：立花さんあの入りはほんと上手でしたね。さすがです。&lt;/p&gt;
-
-&lt;p&gt;赤塚：安定のICDP（田舎・クラウド・デザイン・パターン）！&lt;/p&gt;
-
-&lt;p&gt;大谷：それにしても韓国メンバーの日本語通訳はまじで助かりました。&lt;/p&gt;
-
-&lt;p&gt;赤塚：Dohyunさん・SangUkさんのおかげですね。&lt;/p&gt;
-
-&lt;h1 id=&#34;登壇してなんぼなのでltもがんばった&#34;&gt;登壇してなんぼなのでLTもがんばった！&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26546247364_cdcd64dd6f_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26546247364_cdcd64dd6f_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ぎょり：で、LTのトップはイビサさんの発表、まじさすが！と思いましたｗ何よりもカメラ目線がｗｗ&lt;/p&gt;
-
-&lt;p&gt;いとー：ほんとほんと！！！トップバッターとしてほんと素晴らしかったです。あ、おれやっべーなーって思ったw&lt;/p&gt;
-
-&lt;p&gt;大谷：あざっす。でも、本人はカメラ忘れたｗ&lt;/p&gt;
-
-&lt;p&gt;いとー：カメラはご愛嬌w&lt;/p&gt;
-
-&lt;p&gt;こんぱる：おかげでアスキー公認カメラマンの称号がいただけたので、結果オーライw&lt;/p&gt;
-
-&lt;p&gt;赤塚：神戸の安藤さん・伊東さんはナイスファイトでしたね。飲み会での小賀さんの後押しで、前日の飲み会も早々に切り上げてましたw。&lt;/p&gt;
-
-&lt;p&gt;いとー：あの仕上がりはさすが神戸支部やわ。鍛えられとる。&lt;/p&gt;
-
-&lt;p&gt;こんぱる：懇親会のあと夜中3時か4時くらいまで作ってたらしいけど・・・神戸支部怖いw&lt;/p&gt;
-
-&lt;p&gt;大谷：韓国の人も英語うまいけどネイティブじゃないから、すごいコミュニケーションとりやすい。下手な英語でも大丈夫そうな空気があった。&lt;/p&gt;
-
-&lt;p&gt;ぎょり：実際に登壇した感想はどうでした？？？緊張したの？？ &amp;gt; 赤塚さん, ひろみさん&lt;/p&gt;
-
-&lt;p&gt;いとー：緊張はなんとなくしましたが、いつもの緊張とはまったく違う感じでしたね。なんだろ・・・通訳はうまくいくかな？の心配が大きかったかも。その心配は的中で、まさかの先回り神通訳には超あせりましたがwwww　実際、通訳しづらい内容ではあったので、ものすごく助かったのは事実です。でも次は英語でマジでチャレンジしたいと心に誓った。言いたいこと言えずにポイズンです。&lt;/p&gt;
-
-&lt;p&gt;赤塚：いい意味の緊張でした（うそです）。途中まで黒曜石使ってるの忘れてたり、手汗がすごかったです。&lt;/p&gt;
-
-&lt;p&gt;出だし固いのが自分の悪い癖で、かおぬきでペースを取り戻し、みんなが盛り上げてくれたのでやりやすかったですwプレゼン終わって後ろに行ったら前のターンの金春さんもぐったりしててww次のターンの小賀さんが戻ってきてやりすぎだとクレーム受けたw&lt;/p&gt;
-
-&lt;p&gt;いとー：あのときそんな心情があったとは！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/26546262654_b43a3ab9ab_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/26546262654_b43a3ab9ab_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こんぱる：普段は1000人の前でも緊張しないし、登壇中は緊張してないつもりだったんだけど、終わった後に胃が痛くてえらい緊張してたということがわかってぐったりなったwww&lt;/p&gt;
-
-&lt;p&gt;どんまい：ぱるるは緊張してる感じが全然なかったです！イビサさんが書いてらっしゃるように韓国の方も英語はネイティブじゃないから、みんなチャレンジしやすさもあったのかなーって感じがしました。&lt;/p&gt;
-
-&lt;p&gt;大谷：私は立花さんの「100回の参加より、1回の登壇」を聞いて、2日目の昼からLT資料作り始めましたｗ&lt;/p&gt;
-
-&lt;p&gt;いとー：ああ・・・神通訳でたことを思い出しました・・・くっそ！絶対リベンジしてやるーっ&lt;/p&gt;
-
-&lt;p&gt;ぎょり：登壇せずに参加して申し訳ないですが、急遽でも英語のコンテンツをやったのがすごいです！！とても良いなと思いました。英語をビビるところがあるところ、韓国という近さもあったからか、みんな英語でチャレンジしてて、くっそー、俺もやってやるぜー！！！って思いましたｗ&lt;/p&gt;
-
-&lt;p&gt;赤塚：韓国の方も日本の知り合いもマサカリ食らう（発表内容についてオーディエンスから突っ込まれる）のが不安で登壇しないと話してましたので、今回のをきっかけに「自分にもできる」と思ってもらえるといいですね。とにかく熱意を伝えることに価値があると思います。ライブなので分からないなら分からないと正直に言えばいい。&lt;/p&gt;
-
-&lt;p&gt;ぎょり：ぶっちゃけ、日本の発表陣、いつもより好きなこと言えてるな、っておもいました。緊張はしてるし、英語とかの言語の壁はあったけど、言いたいこと、伝えたいことを言ってるなーって。&lt;/p&gt;
-
-&lt;p&gt;いとー：あーそれわかる。日本では見れない顔だったりもしてすごく新鮮だったなー&lt;/p&gt;
-
-&lt;p&gt;こんぱる：「You You You!!!」って日本では言えないwww&lt;/p&gt;
-
-&lt;h1 id=&#34;awsかるたが海を渡った日&#34;&gt;AWSかるたが海を渡った日&lt;/h1&gt;
-
-&lt;p&gt;大谷：で、最後はAWSかるた大会ですよ。めっちゃ盛り上がりましたねえ。&lt;/p&gt;
-
-&lt;p&gt;ぎょり：ルールがわかりやすかったですよね！カルタの文化がなくてもわかる！立ち見から参戦、中腰、座る、の流れはまじおもしろかったです！白熱してた！みんな自分の技術力を試したい、競争したいって思ったんだろうなぁと。&lt;/p&gt;
-
-&lt;p&gt;赤塚：あの冷静なチャニーさんも「俺も混ぜろ！」って乱入してましたw&lt;/p&gt;
-
-&lt;p&gt;いとー：いやぁ、登壇ももちろんですが、ほんと麻雀とカルタは持って行った甲斐がありましたね。想像以上によかった感激でしたね。今回の任務は果たしたはず！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/20160524/27151870385_760618f7d4_z.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/20160524/27151870385_760618f7d4_z.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;大谷：向こうでもプレイしてくれるといいですねー。&lt;/p&gt;
-
-&lt;p&gt;いとー：そのFB投稿を心待ちにしてるんですが・・・&lt;/p&gt;
-
-&lt;p&gt;赤塚：もう一回行くしかないですな&lt;/p&gt;
-
-&lt;p&gt;こんぱる：韓国では花札の開発がスタートしてるらしいので、カルタと麻雀のインパクトは相当あったんだと思うよ。任務は果たせた！&lt;/p&gt;
-
-&lt;p&gt;いとー：麻雀担当としては一緖に麻雀をやれなかったのは悔やまれますが・・・なので、もう一回行くしかないですな。&lt;/p&gt;
-
-&lt;p&gt;こんぱる：マットも置いてきたのでいつでもできる！&lt;/p&gt;
-
-&lt;p&gt;いとー：ちょっと臭いマットだけどね。検索でも臭いとかでるwww&lt;/p&gt;
-
-&lt;p&gt;こんぱる：「これゴムくせー！」って盛り上がってるに違いないw&lt;/p&gt;
-
-&lt;p&gt;いとー：麻雀牌やらカルタやら置いてきたのに、帰りの荷物の方が重かった・・・たくさんのお土産までいただいて本当に感謝ですね！！&lt;/p&gt;
-
-&lt;p&gt;こんぱる：ノリ買いすぎやろwww&lt;/p&gt;
-
-&lt;p&gt;いとー：それおとーさんやんww&lt;/p&gt;
-
-&lt;p&gt;こんぱる：まぁなwww うちの子供がモリモリ食べてるw←あとパックなw（いとー）&lt;/p&gt;
-
-&lt;h1 id=&#34;リレーブログ-その3に続きます-https-www-p-united-com-jaws-trips-html&#34;&gt;リレーブログ&lt;a href=&#34;https://www.p-united.com/jaws-trips.html&#34;&gt;その3に続きます&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/28/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;です。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone hive Vol.3 大阪に潜入してきました ～kintone hack編～</title>
-      <link>https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka2/</link>
-      <pubDate>Fri, 17 Jun 2016 17:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka2/</guid>
-      <description>
-
-&lt;h2 id=&#34;kintoneユーザーによるkintoneユーザーのための大規模ユーザー会-kintone-hive-とは-前回のおさらい&#34;&gt;kintoneユーザーによるkintoneユーザーのための大規模ユーザー会！kintone hive とは？（前回のおさらい）&lt;/h2&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font color=&#34;#FF9933&#34;&gt;「hive」&lt;/font&gt;&lt;/b&gt; は蜂の巣という意味ですが、&lt;strong&gt;「活気あふれる場所」&lt;/strong&gt;という意味合いもあるそうです。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF9933&#34;&gt;kintone hive（キントーンハイブ）&lt;/font&gt;&lt;/b&gt;には人とノウハウが集まる活気あふれた場所にしたいという願いがこめられているそう。&lt;/p&gt;
-
-&lt;p&gt;2015年5月/10月と、kintone hiveは2回東京で開催されてきました。&lt;/p&gt;
-
-&lt;p&gt;そして先日、2016年5月26日(木曜日)に東京でkintone hive Vol.3が開催され、昨日6月9日(木曜日)は 大阪で&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hiveが初開催&lt;/font&gt;&lt;/b&gt;されました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-2.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;「ユーザー会」&lt;/strong&gt; ということで、kintoneを導入することで業務がこんな風に改善された！というようなリアルな事例の紹介の場になっています。&lt;/p&gt;
-
-&lt;p&gt;事例発表は、実際に導入に携わったユーザー様ご自身が登壇して発表されるので、まさしく&lt;strong&gt;「生の声」&lt;/strong&gt;が聞けるということですね！&lt;/p&gt;
-
-&lt;p&gt;これはkintone導入を検討されているユーザー様には非常にオイシイ內容です(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;更に更に！kintoneデベロッパーによるライトニングトークタイム &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hack&lt;/font&gt;&lt;/b&gt; もあったりと、kintoneの活用ヒントがふんだんに盛り込こまれた非常に魅力的なコンテンツになっています！
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-今回は前回の&lt;a href=&#34;https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka&#34;&gt;ユーザー様の事例紹介&lt;/a&gt;に引き続き&lt;strong&gt;後半戦！&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;待ちに待った（？） &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hack&lt;/font&gt;&lt;/b&gt;のレポートについてお届けします！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-18.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-18.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;kintoneデベロッパーによるlt-kintone-hack&#34;&gt;kintoneデベロッパーによるLT！kintone hack！&lt;/h2&gt;
-
-&lt;p&gt;kintone hackは&lt;strong&gt;kintoneアプリの開発を行っているデベロッパーさん達による具体的な事例紹介の場&lt;/strong&gt;です！&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;LT（ライトニングトーク）&lt;/strong&gt; なので、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3333FF&#34;&gt;1人あたりの持ち時間は5分！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;5分の間ににどれだけの内容を盛り込めるか。また盛り込むだけではいけません！&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF0000&#34;&gt;いかにオーディエンスを話の中に引き込めるかが重要なポイント&lt;/font&gt;&lt;/b&gt;になってきます！&lt;/p&gt;
-
-&lt;p&gt;ちなみにわたくしもコミュニティの場ではLTをさせて頂く機会もあるのですが、 &lt;del&gt;5分では尺がたりないレベルで…もっと精進しなければと思う所存です。&lt;/del&gt;
-&lt;br&gt;
-&lt;br&gt;
-さて、そんな&lt;strong&gt;kintone hack&lt;/strong&gt;ですが、kintone界隈を代表する（？）錚々たる顔ぶれが揃っていました！&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ジョイゾー山下さん&lt;/li&gt;
-&lt;li&gt;細谷さん&lt;/li&gt;
-&lt;li&gt;NCSサポート＆サービス  平野さん&lt;/li&gt;
-&lt;li&gt;アールスリーインスティテュート 浅賀&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;ジョイゾー山下さん&#34;&gt;ジョイゾー山下さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-13.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-13.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こちらはもう&lt;strong&gt;鉄板＆安定&lt;/strong&gt;ですね！皆さんおなじみkintoneエバンジェリストです(๑•̀ㅂ•́)و✧&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozudev.zendesk.com/hc/ja&#34;&gt;cybozu.com developer network&lt;/a&gt;のTips等でもたくさん投稿が上がっていますよね♪&lt;/p&gt;
-
-&lt;p&gt;今回もたくさんのkintoneの開発事例と、山下さんと言えば&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#6633FF&#34;&gt;IoT！&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;最近よく巷で目にする&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#339999&#34;&gt;JINS MEME&lt;/font&gt;&lt;/b&gt;を着用しての登場です！&lt;/p&gt;
-
-&lt;p&gt;遠くで見るとそうでもないのですが、近くで見ると思いの外&lt;strong&gt;重厚感。。。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;この&lt;strong&gt;JINS MEME&lt;/strong&gt;を利用して取得したデータとkintoneの連携のお話をされていました♪
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-14.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-14.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;具体的にどんなデータが取得できたのかは…&lt;strong&gt;知る人ぞ知る♪&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;またどこかのイベントなり勉強会なりで実演してくれることを望みましょう(●´ϖ`●)&lt;/p&gt;
-
-&lt;h3 id=&#34;細谷さん&#34;&gt;細谷さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-15.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-15.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最近は&lt;strong&gt;サイボウズNPOプログラム&lt;/strong&gt;でかなりご活躍されているイメージです！&lt;/p&gt;
-
-&lt;p&gt;また、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#999900&#34;&gt;CoderDojoやWordPress&lt;/font&gt;&lt;/b&gt;など、コミュニティ活動もかなり精力的にされている&lt;strong&gt;関西を代表するkintoneエバンジェリスト&lt;/strong&gt;(๑•̀ㅂ•́)و✧&lt;/p&gt;
-
-&lt;p&gt;kintone Caféではよくハンズオン講師をされているので、ハンズオンのイメージが強いのですが、今回はkintoneとWordPressの連携事例についてお話されていました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-16.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-16.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;この夏にはDojoCon JapanやWordPressの大きなイベントもありますし、大忙しですね！&lt;/p&gt;
-
-&lt;p&gt;今後の益々のご活躍も&lt;strong&gt;乞うご期待！&lt;/strong&gt;です(p*･ω･)p&lt;/p&gt;
-
-&lt;h3 id=&#34;ncsサポート-サービス-平野さん&#34;&gt;NCSサポート＆サービス  平野さん&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-17.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-17.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;実は関西でkintone開発と言えば、かなりキャリアをお持ちの NSAS様！&lt;/p&gt;
-
-&lt;p&gt;バーコードを活用したカスタマイズについてご紹介頂きました(๑•̀ㅂ•́)و✧&lt;/p&gt;
-
-&lt;p&gt;普段からシステム開発だけではなく、&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#9966CC&#34;&gt;ノベルティグッズを販売するサイトの運営&lt;/font&gt;&lt;/b&gt;を手がけられていたり、事業の幅がほんとに広いです！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.noveltei.com/&#34;&gt;http://www.noveltei.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-そして&lt;strong&gt;ラスト&lt;/strong&gt;は・・・
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-19.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-19.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;アールスリーインスティテュート-浅賀&#34;&gt;アールスリーインスティテュート 浅賀&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;中の人から外の人になった&lt;/strong&gt;ことでおなじみの&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3300&#34;&gt;弊社浅賀&lt;/font&gt;&lt;/b&gt;です！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-20.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-20.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;サイボウズ様を退職後、kintoneエバンジェリストを拝命しての弊社JOINとなりました。&lt;/p&gt;
-
-&lt;p&gt;公の場でこのような形で登壇させて頂くのは、実は転職後&lt;strong&gt;初&lt;/strong&gt;なのです。&lt;/p&gt;
-
-&lt;p&gt;しかし&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#3300CC&#34;&gt;さすがの貫禄。。。&lt;/font&gt;&lt;/b&gt;そして浅賀の&lt;strong&gt;晴舞台&lt;/strong&gt;ということで、弊社よりわたくしと上司まで写真撮影に勤しむ始末…！&lt;/p&gt;
-
-&lt;p&gt;弊社の外部サービスとkintoneを連携した事例や、kintone開発をより便利に！開発者の皆様をハッピーにするツール&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#CC0000&#34;&gt;gusukuの紹介&lt;/font&gt;&lt;/b&gt;をさせて頂きました(๑•̀ㅂ•́)و✧
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-21.jpg&#34; data-lightbox=&#34;hivevol3osaka2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-21.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;実は参加されていたユーザー様の中には、以前浅賀が対応したことのあるユーザー様もいらっしゃったようで。&lt;/p&gt;
-
-&lt;p&gt;弊社にJOINした事実をこのhiveの登壇で初めて知った！という方も。&lt;/p&gt;
-
-&lt;p&gt;いろいろな意味でインパクトのある？登壇になったのかな？という印象でした。&lt;/p&gt;
-
-&lt;p&gt;登壇資料はこちらです♪&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/ftk2Cv8Z2azbAf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/r3it/kintone-hive-vol3&#34; title=&#34;kintone hive vol.3 大阪&#34; target=&#34;_blank&#34;&gt;kintone hive vol.3 大阪&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/r3it&#34; target=&#34;_blank&#34;&gt;R3 institute&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;次回のhiveは&#34;&gt;次回のhiveは・・・&lt;/h2&gt;
-
-&lt;p&gt;次回のhiveは&lt;strong&gt;11月9日(水曜日)！&lt;/strong&gt; &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;Cybozu Days Tokyo&lt;/font&gt;&lt;/b&gt;内で実施されます！&lt;/p&gt;
-
-&lt;p&gt;そしてそしてその中で、この1年で最もキラリと光る活用をしたユーザー企業様を称える&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF9933&#34;&gt;kintone AWARD&lt;/font&gt;&lt;/b&gt;も開催されます！&lt;/p&gt;
-
-&lt;p&gt;もう &lt;a href=&#34;https://kintone.cybozu.com/jp/event/hive2016/05/entry.html&#34;&gt;AWARDのエントリー&lt;/a&gt;も始まっているようですよー！&lt;/p&gt;
-
-&lt;p&gt;今年はどんな企業様が選ばれるのか楽しみですね✧.ﾟ٩(๑&amp;gt;◡&amp;lt;๑)۶:.｡♡&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone Café 神戸 Vol.5 で kintone hiveを再演してきました！</title>
-      <link>https://www.r3it.com/blog/kintone/20160610_kintonecafe-kobe5/</link>
-      <pubDate>Tue, 14 Jun 2016 12:30:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160610_kintonecafe-kobe5/</guid>
-      <description>
-
-&lt;p&gt;2016年6月10日に開催された &lt;a href=&#34;https://kintonecafe-kobe.doorkeeper.jp/events/45189&#34;&gt;kintone Café 神戸 Vol.5&lt;/a&gt; に登壇してきましたので、その模様をお伝えしたいと思います。&lt;/p&gt;
-
-&lt;p&gt;普段はkintone Café 大阪の運営をしていますが、kintone Café 神戸との縁は深く、Vol.2 から毎回参加させて頂いており、ほぼレギュラーメンバーのようになりつつあります(^^)&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-hive-再び&#34;&gt;kintone hive 再び&lt;/h2&gt;
-
-&lt;p&gt;今回は kintone hive Vol.3 大阪の翌日という事で、kintone hive の hack（LT）を再演する事になりました。&lt;/p&gt;
-
-&lt;p&gt;細谷さんからは&lt;font color=&#34;red&#34;&gt; kintone導入事例の紹介&lt;/font&gt;、飛び入り参加のジョイゾー山下さんは&lt;strong&gt;同じ資料は使わない！&lt;/strong&gt;スタンスとの事で、kintone hiveとは別の内容を。&lt;br&gt;
-Hackeyという、鍵を回す事でウェブサービスと連携できるガジェットを使って、kintoneのプロセス管理を一括承認できるデモを実施されました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/yamashitasan.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/yamashitasan.jpg&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/hackey.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/hackey.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;肝心の私のセッションですが、近いうちに&lt;a href=&#34;https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka/&#34;&gt;こちら&lt;/a&gt;の後編が公開されると思いますので、それまでお楽しみに。&lt;br&gt;
-初公開の事例も含め、kintoneを使った成功事例をご紹介しています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/r3asaga.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/r3asaga.png&#34; width=&#34;500&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;バリエーションに富んだセッション&#34;&gt;バリエーションに富んだセッション&lt;/h2&gt;
-
-&lt;p&gt;他にもバリエーションに富んだセッションが多く、参加者の皆さんもとても楽しまれていたようです。&lt;/p&gt;
-
-&lt;p&gt;細谷さんの&lt;strong&gt;「メールワイズ×kintone連携」&lt;/strong&gt;ではkintoneとメールワイズの連携をデモを交えながら紹介されました。&lt;br&gt;
-そのままハンズオンできるのでは？というぐらいの完成度の資料で、参加者の皆さんも必死にメモされていましたよ。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/hosoyasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/hosoyasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/mailwise.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/mailwise.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;神戸デジタル・ラボの山下さんからは&lt;strong&gt;「kintoneで情シス業務を高速化したい」&lt;/strong&gt;と題して、とことん業務の高速化にこだわった話しをお聞かせ頂きました。&lt;br&gt;
-Excelをkintone化するだけは加速しない、頑丈なExcelになっただけ！という思いで、Slackを活用して情報を集約したり、ゴールデンウィークをつぶして開発されたChrome拡張の紹介など、たくさんのアイデアを発表されていました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160610/kdl_yamashitasan.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160610/kdl_yamashitasan.png&#34; width=&#34;400&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最後は、運営の武富さんの誕生日が近いという事で、サプライズのお祝いをして締めくくりました(*ﾟ▽ﾟﾉﾉﾞ☆ﾊﾟﾁﾊﾟﾁﾊﾟﾁ&lt;/p&gt;
-
-&lt;h2 id=&#34;今後のお知らせ&#34;&gt;今後のお知らせ&lt;/h2&gt;
-
-&lt;p&gt;直近では6/25（土）に&lt;a href=&#34;https://kintonecafe-osaka.doorkeeper.jp/events/44449&#34;&gt;kintone Café 関西女子会 Vol.2&lt;/a&gt;が開催されます。
-平日だと参加しにくいという方もいらっしゃると思いますが、今回は子連れ参加もOKとの事。是非ご参加ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintone hive Vol.3 大阪に潜入してきました</title>
-      <link>https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka/</link>
-      <pubDate>Fri, 10 Jun 2016 12:00:30 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/blog/kintone/20160609_kintonehivevol3osaka/</guid>
-      <description>
-
-&lt;h2 id=&#34;kintoneユーザーによるkintoneユーザーのための大規模ユーザー会-kintone-hive-とは&#34;&gt;kintoneユーザーによるkintoneユーザーのための大規模ユーザー会！kintone hive とは？&lt;/h2&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font color=&#34;#FF9933&#34;&gt;「hive」&lt;/font&gt;&lt;/b&gt; は蜂の巣という意味ですが、&lt;strong&gt;「活気あふれる場所」&lt;/strong&gt;という意味合いもあるそうです。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF9933&#34;&gt;kintone hive（キントーンハイブ）&lt;/font&gt;&lt;/b&gt;には人とノウハウが集まる活気あふれた場所にしたいという願いがこめられているそう。&lt;/p&gt;
-
-&lt;p&gt;2015年5月/10月と、kintone hiveは2回東京で開催されてきました。&lt;/p&gt;
-
-&lt;p&gt;そして先日、2016年5月26日(木曜日)に東京でkintone hive Vol.3が開催され、昨日6月9日(木曜日)は 大阪で&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hiveが初開催&lt;/font&gt;&lt;/b&gt;されました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-2.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;「ユーザー会」&lt;/strong&gt; ということで、kintoneを導入することで業務がこんな風に改善された！というようなリアルな事例の紹介の場になっています。&lt;/p&gt;
-
-&lt;p&gt;事例発表は、実際に導入に携わったユーザー様ご自身が登壇して発表されるので、まさしく&lt;strong&gt;「生の声」&lt;/strong&gt;が聞けるということですね！&lt;/p&gt;
-
-&lt;p&gt;これはkintone導入を検討されているユーザー様には非常にオイシイ內容です(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;更に更に！kintoneデベロッパーによるライトニングトークタイム &lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF3333&#34;&gt;kintone hack&lt;/font&gt;&lt;/b&gt; もあったりと、kintoneの活用ヒントがふんだんに盛り込こまれた非常に魅力的なコンテンツになっています！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-3.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-最終的には&lt;strong&gt;定員100名&lt;/strong&gt;を超えたユーザー様がご来場されたようです！皆さんの関心度の高さが窺えますね(p*･ω･)p&lt;/p&gt;
-
-&lt;h2 id=&#34;ユーザー様のリアルなkintone事例紹介&#34;&gt;ユーザー様のリアルなkintone事例紹介&lt;/h2&gt;
-
-&lt;p&gt;Vol.3では、全部で&lt;strong&gt;4社のユーザー企業様&lt;/strong&gt;がそれぞれのkintone導入事例について語られていました！&lt;/p&gt;
-
-&lt;h3 id=&#34;npo法人スマイルスタイル-藤吉様&#34;&gt;NPO法人スマイルスタイル 藤吉様&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-4.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;タイトルは &lt;strong&gt;「仕事をもっと「クリエイティブ」にするシステム導入」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;「ハローライフ」という「『働くこと』『仕事』に対する学びの場」で、イベント管理のためにメールワイズとkintoneを連携したシステムを導入されたお話でした。&lt;/p&gt;
-
-&lt;p&gt;従来Webの申し込みフォームから届いた参加者情報をExcelにまとめ、メールで事前連絡を行うというすべて手動で行っていた事務作業を、kintoneとメールワイズで連携したシステムを導入することで、事務作業の大幅な削減に成功し、人的ミスも減ったとのこと！
-手動で行っていた事務作業は、イベントが開催されるたびに同じ作業を繰り返すので、月に20回以上も同じ作業を行っていたようです。&lt;/p&gt;
-
-&lt;p&gt;ここを自動化できたので、相当な時間短縮につながったとのこと！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-5.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;またサイボウズさんの導入相談Cafeで相談をされて、運用開始までわずか1ヶ月という短期間で稼働できるようになったのも、kintoneというファストシステムならではといった印象でした₍₍ (ง ˘ω˘ )ว ⁾⁾　&lt;/p&gt;
-
-&lt;p&gt;そして、当時実はこの導入相談Cafeで相談を受けたのが&lt;strong&gt;弊社浅賀&lt;/strong&gt;だったとのこと！&lt;/p&gt;
-
-&lt;p&gt;世間はほんとに狭いなと思った瞬間でした。
-&lt;br&gt;
-&lt;br&gt;
-また、導入後に苦労した点も少なからずあったようです。&lt;/p&gt;
-
-&lt;p&gt;操作が簡単というのは、パソコンやインターネットに慣れ親しんだ世代の観点です。&lt;/p&gt;
-
-&lt;p&gt;オフィスにはいろんな世代の方が働いているため、ご年配の方には操作方法等わかりやすい言葉で説明する必要があったとのこと。&lt;/p&gt;
-
-&lt;p&gt;わたしたちが対面開発をさせて頂く時においても、非常に参考になる意見でした。&lt;/p&gt;
-
-&lt;p&gt;今後はイベントの管理だけでなく、どんどん活用範囲を拡大される予定らしいです。&lt;/p&gt;
-
-&lt;p&gt;また、現場からも「こういったことがkintoneでできるのではないか」という前向きな声がたくさん上がってきているようですよ！&lt;/p&gt;
-
-&lt;h3 id=&#34;株式会社トーア紡コーポレーション-中井様&#34;&gt;株式会社トーア紡コーポレーション 中井様&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-6.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-6.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;タイトルは &lt;strong&gt;「kintoneで変わる」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;情シス部門の観点からのお話です。&lt;/p&gt;
-
-&lt;p&gt;ずっと内製でシステム開発をされてきた中で、ある時24/365に耐えられる社内システムの構築が必要となったそうです。&lt;/p&gt;
-
-&lt;p&gt;そんな中で出会ったのがkintone。&lt;/p&gt;
-
-&lt;p&gt;kintoneにすることで、開発のコストが大幅に削減される。
-バグもなく、画面設計も容易、帳票の作成も出来、環境にも依存しない、外部システム連携も出来てしまうといった点で、それまですべて自前で開発してきた中井様は「してやられた感」を感じたそう。&lt;/p&gt;
-
-&lt;p&gt;外部連携やカスタマイズを考えると、kintoneのライセンスはどうしてもスタンダードコースが必須になってしまうので、一般的にはやはり高価なイメージってありますよね。&lt;/p&gt;
-
-&lt;p&gt;しかし運用/保守コストや可用性を考えると安価！確かにそうです。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-7.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-7.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-kintoneを使うと開発してテストまでのフェーズも時間がかからず簡単です。&lt;/p&gt;
-
-&lt;p&gt;そのメリットを存分に活かしてkintoneで出来る可能性をいろいろ模索されているみたいですよ。&lt;/p&gt;
-
-&lt;h3 id=&#34;神戸デジタル-ラボ-武富様&#34;&gt;神戸デジタル・ラボ 武富様&lt;/h3&gt;
-
-&lt;p&gt;タイトルは&lt;strong&gt;「人類 kintone マスター化計画」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;壮大なタイトルで始まった、kintone の導入から社内への浸透までのお話しでした。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-8.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-8.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;部署横断で使われる社内システム「todos」の開発にあたり、コスト削減のために導入したはずの自動生成ツールに問題が多く、改善担当を任された武富さん。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-9.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-9.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ノンプログラミング、サポート体制、クラウド、スマホ対応といったいくつかの条件にマッチしたのが kintone でした。&lt;/p&gt;
-
-&lt;p&gt;とは言え、利用する社員から不安の声が挙がる事はシステムのリプレイスではよくある事。
-武富さんはスムーズな導入のために、いくつかの取り組みをされました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;事業部の代表者で構成されたワーキンググループでの検討&lt;/li&gt;
-&lt;li&gt;モニター利用者を募集してプレリリース&lt;/li&gt;
-&lt;li&gt;利用者向け説明会の開催&lt;/li&gt;
-&lt;li&gt;kintone API を使ったデータ移行&lt;/li&gt;
-&lt;li&gt;積極的にコミュニティ（kintone Café等）に参加して情報収集&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;これらの取り組みにより、新「todos」が完成したわけです。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-12.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-12.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;武富さんの野望はこれだけにはとどまらず、社内で kintone マスター（kintone のアプリが作れる人）を増やしたいという強い思いから、他部署も巻き込んで kintone マスターをどんどん増やしているそうです。&lt;/p&gt;
-
-&lt;p&gt;コツは「近いところからファンを作る」ことだそう。&lt;/p&gt;
-
-&lt;p&gt;今回の登壇を機に、社長も巻き込んでいきたいという熱い想いもあるそうです！&lt;/p&gt;
-
-&lt;h3 id=&#34;株式会社日阪製作所-佐々江様&#34;&gt;株式会社日阪製作所 佐々江様&lt;/h3&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-10.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-10.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-タイトルは&lt;strong&gt;「業務を劇的に変える」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;日阪製作所様は、かなり古くからkintoneを利用されているお客様。&lt;/p&gt;
-
-&lt;p&gt;事業部統合後もシステム統合がなかなか出来ず、業務もそのまま従来のやり方を継続してしまっていた実状があった様子。&lt;/p&gt;
-
-&lt;p&gt;そんな中kintoneと出会い、社内でkintoneプロジェクトが立ち上がったとのこと。&lt;/p&gt;
-
-&lt;p&gt;この立ち上げメンバーの中には、現場で働く非エンジニアの女性の方がおり、そういった現場の女性達の要望を、kintoneで形にしていった様子・変遷をお話されていました。&lt;/p&gt;
-
-&lt;p&gt;最初はやはりkintoneの導入自体には反対の声もあったようですが、地道な取り組みで徐々に社内の中での評価も得ていったようです。&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-11.jpg&#34; data-lightbox=&#34;hivevol3osaka&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160609/20160609-kintonehivevol3osaka-11.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;strong&gt;今ではアプリも営業系・製造系・サービス系、品質保証系、BI系&lt;/strong&gt;と非常に多岐に渡る種類のアプリを運用されています。&lt;/p&gt;
-
-&lt;p&gt;kintoneを利用することで従来バラバラになっていた情報の一元化に成功し、現在もプロジェクト拡大中らしいですよ！&lt;/p&gt;
-
-&lt;h2 id=&#34;まずはユーザー様の事例紹介をご紹介-次は&#34;&gt;まずはユーザー様の事例紹介をご紹介。次は？&lt;/h2&gt;
-
-&lt;p&gt;はい、このブログは後半戦に続きます！&lt;/p&gt;
-
-&lt;p&gt;華麗なるkintoneデベロッパー達のライトニングトークタイム！&lt;strong&gt;kintone hack&lt;/strong&gt; についてもレポートしちゃう予定！(`･⊝･´)&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    
+
+    <link rel="canonical" href="https://www.r3it.com/blog/aws/reinvent2016-report2/">
+
+    
+    <title>AWS re:Invent 2016 参加レポート その2 | アールスリーインスティテュート</title>
+    <meta name="title" content="AWS re:Invent 2016 参加レポート その2 | アールスリーインスティテュート">
+    <meta name="description" content="AWS界隈で最大のeducational conferenceである re:Invent 2016 に参加してきましたので、そのレポートです。後半はキーノートからスタートです！">
+    <meta property="og:title" content="AWS re:Invent 2016 参加レポート その2 | アールスリーインスティテュート"/>
+    <meta property="og:description" content="AWS界隈で最大のeducational conferenceである re:Invent 2016 に参加してきましたので、そのレポートです。後半はキーノートからスタートです！" />
+
+  
+
+    <meta name="keywords" content="AWS, re:Invent2016, reInvent2016, ラスベガス, ">
+
+    <meta property="fb:app_id" content="478756785605950"/>
+    <meta property="og:type" content="article"/>
+
+    <meta property="og:url" content="https://www.r3it.com/blog/aws/reinvent2016-report2/" />
+    
+    <meta property="og:image" content="https://www.r3it.com/images/blog/aws/reinvent2016-report/replay3.jpg" />
+    
+    <meta property="og:site_name" content="アールスリーインスティテュート">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <link rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script>
+    if (location.hostname == "www.r3it.com") {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-24363556-3', 'auto');
+      ga('send', 'pageview');
+
+      var trackOutboundLink = function(e) {
+          ga('send', 'event', 'outbound', 'click', e.href, {
+            'transport': 'beacon'
+          });
+      }
+    }
+    </script>
+</head>
+<body>
+
+<header class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><img src="/images/r3logo_nav.png"></a>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="navbar-collapse collapse" id="bs-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/info/">お知らせ</a></li>
+        <li><a href="/solutions/">ソリューション</a></li>
+        <li><a href="/case/">事例紹介</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="/blog/">ブログ</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/#inquiry"><span class="envelope-style glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="container-fluid" id="breadcrumb-section">
+  <ol class="breadcrumb">
+    <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+    <li><a href="/blog/">R3 Cloud Developers Blog</a></li>
+    <li class="active">AWS re:Invent 2016 参加レポート その2</li>
+  </ol>
+</section>
+
+<section class="container-fluid" id="blog-article">
+  <div class="row">
+  	<div class="col-md-3">
+	
+      <h4><small>タグ一覧</small></h4>
+	  <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+        <ul class="nav bs-docs-sidenav">
+          
+          <li><a href="/tags/aws"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a></li>
+          
+          <li><a href="/tags/cloud"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a></li>
+          
+          <li><a href="/tags/community"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> community</a></li>
+          
+          <li><a href="/tags/etc"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> etc</a></li>
+          
+          <li><a href="/tags/event"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> event</a></li>
+          
+          <li><a href="/tags/gusuku"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> gusuku</a></li>
+          
+          <li><a href="/tags/jawsug"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> jawsug</a></li>
+          
+          <li><a href="/tags/kintone"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> kintone</a></li>
+          
+          <li><a href="/tags/oss"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> oss</a></li>
+          
+          <li><a href="/tags/talend"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> talend</a></li>
+          
+        </ul>
+	  </nav>
+
+      
+<p><a href="/recruitment/"><img src="/images/banner/navyback-kintone.png" width="250" height="250" class="wide-image" alt="採用情報はこちら"></a></p>
+
+	</div>
+  	<div class="col-md-8">
+	  <h1>AWS re:Invent 2016 参加レポート その2</h1>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        <img src="/images/blog/author/nishijima-100x100.png" class="img-circle pull-left" style="margin-right: 20px;">
+        <h5>Posted on 2016-12-13</h5>
+        <h4>
+          
+            <a href="/blog/author/nishijima/">Koichiro Nishijima</a></h4>
+          
+      </div>
+      
+		
+		
+
+<h2 id="その1はこちら-reinvent2016-report1"><a href="../reinvent2016-report1/">その1はこちら</a></h2>
+
+<h1 id="11月30日-andy-jassy-による-keynote">11月30日 Andy Jassy による Keynote！</h1>
+
+<p>昨日と同様、待ち時間は上がる音楽でガンガン盛り上げてくれます。今日は美人DJの<a href="https://soundcloud.com/JENLASHER">Jen Lasher</a>です。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/keynote0.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/keynote0.jpg" width="400" /></a></p>
+
+<p>後ろの一般席に座っていたのですが、某氏に拉致られてあれよあれよという間にツアー参加者用スペースに潜り込んでいました(^_^;)
+最前列付近の特等席でキーノートを拝聴。FPGAをパッケージング出来るF1インスタンスなど、数々の新サービスが発表されました。詳しくは<a href="http://ascii.jp/elem/000/001/277/1277343/">こちら</a>を！（またこのパターン）。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/keynote1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/keynote1.jpg" width="800" /></a></p>
+
+<p>今日のキーノートの最後は、エクサバイト級・100PBのデータ移行に便利な(!?) &ldquo;AWS Snowmobile&rdquo; の登場でオチがつきました（冗談だと言ってくれなかったので落ちてません。マジです(^_^;)</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/keynote2.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/keynote2.jpg" width="400" /></a></p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/keynote3.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/keynote3.jpg" width="400" /></a></p>
+
+<h2 id="セッションの過ごし方">セッションの過ごし方</h2>
+
+<p>キーノートの後は、通常のセッションの開始です。新サービス発表に従って追加されたセッションや、事前に登録しておいたセッションなど、自分の参加したいセッションの場所を探してウロウロします。この頃から、物凄い人口密度になってきます。</p>
+
+<p>各所にあるデジタルサイネージに、各セッションの混み具合などが表示されていますので、これを参考に次のセッションを決めるのもありです。各セッションは登録済みの人と空席待ちの人用の列で整理されているので指示に従って根性で待っていれば、よほどの人気セッションでない限りはおおよそ入ることは出来ると思います。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/display.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/display.jpg" width="400" /></a></p>
+
+<p>人気のセッションは、このような大きな劇場で開催されたりします。凄い・・・。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/theater.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/theater.jpg" width="800" /></a></p>
+
+<p>おやつの時間になれば、様々なおやつがデプロイされてきます。勿論持ったまま・食べながらセッションを聞くことも出来るので、好きなものを好きなだけ取りましょう。その1でも書きましたが、全部あなたのものですので…。</p>
+
+<p>おやつは撤収が早いので取るタイミングは重要です。また、種類はポップコーンやケーキ、フルーツを使ったデザートなど色々ありましたが、「試した範囲ではどれも美味しかった」ことをご報告しておきます。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/oyatsu.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/oyatsu.jpg" width="400" /></a></p>
+
+<h2 id="pub-crawl">Pub Crawl!</h2>
+
+<p>その日の夜は Pub Crawl というイベントです。ベネチアンの飲食店の幾つかをスポンサーが貸し切っていて、IDを見せるとそのお店で自由に飲み食い可能、という素敵なイベントです。店舗はいくつもありますので、アチコチ練り歩きながら歓談しつつ飲み食いするという、なかなか普通では考えられない面白いイベントです。</p>
+
+<p>このごった返しようです（注：ホテルの屋内です）。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/pubcrawl1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/pubcrawl1.jpg" width="400" /></a></p>
+
+<p>「スポンサー様ありがとう」と唱えてから入店します（唱えなくても拒否はされない）。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/pubcrawl2.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/pubcrawl2.jpg" width="400" /></a></p>
+
+<p>素敵なお店ですが、どこか垢抜けない風情の人々に占領されています。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/pubcrawl3.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/pubcrawl3.jpg" width="400" /></a></p>
+
+<p>このBarのスポンサーはIBMさんでしたが、最高でした！</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/pubcrawl4.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/pubcrawl4.jpg" width="400" /></a></p>
+
+<p>その後、ラスベガスで最も格調高いクラブの一つと言われる場所での秘密の会合(?)に参加したりと、長い夜はまだまだ続きます…。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/ugparty.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/ugparty.jpg" width="400" /></a></p>
+
+<h1 id="12月01日-werner-vogels-によるキーノート">12月01日 Werner Vogels によるキーノート！</h1>
+
+<p>月が変わったこともまったく意識せずなだれ込む次の日のキーノートは、日本に何度か来日したこともある Werner Vogels から、エンジニア向けに怒涛のごとく新サービスが発表されました。</p>
+
+<p>これは一人ではまったくカバーしきれませんね…ということで、是非お近くの<a href="https://jaws-ug.jp/">JAWS-UG</a>のイベントにご参加ください。この時期は多数の報告会や振り返りイベントが開催されています！</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/newservices.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/newservices.jpg" width="400" /></a></p>
+
+<h2 id="ミラージュでのランチ">ミラージュでのランチ</h2>
+
+<p>世界最大級のホテル ベネチアンをもってしてもセッション会場が足りないのか、隣の（向かいの）ホテル ミラージュの1階もセッション会場として利用されています。端から端まではとてつもなく距離がありますので、移動時間を読み違えると大変なことになります。セッションを見て回る日は、人によって前後はあるかと思いますが、おおよそ2万歩以上は歩くことになるかと思います。歩きやすい靴が必須です。</p>
+
+<p>さて、この日はミラージュでセッションがありましたので、試しにミラージュのランチを食べてみることにしました。味はご想像におまかせします。そしてこの後お腹を壊しました…。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/mlunch1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/mlunch1.jpg" width="400" /></a></p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/mlunch2.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/mlunch2.jpg" width="400" /></a></p>
+
+<p>そうこうしている間に日が沈みました。ミラージュ側から見たホテル ベネチアンの外観です。見づらいですが手前に写っている旗を背負った道案内のアルバイトの人々は、このあたりの道で50m間隔程度で何十人と立っています。ホテルの内外で彼らを見ますので、恐ろしい量の雇用を創出してますね。。。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/venetian1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/venetian1.jpg" width="400" /></a></p>
+
+<h2 id="re-play-party">re:Play Party!</h2>
+
+<p>さてこの日の夜は、Wernerもお待ちかねのre:Play Partyです。リュックなどを持っていると非常に邪魔になりますので、軽装で行きましょう。</p>
+
+<p>すべてのサイネージが「セッションとかどうでもいいからre:Playに行け」と訴えています。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/replay1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/replay1.jpg" width="400" /></a></p>
+
+<p>TVゲームが楽しめるゾーンや、体を動かすゲームなんかが楽しめるゾーンに別れていますが、我々はダンスフロアに直行しました！前座でまた Jen Lasher に会えましたので最初から最前列でかぶりつきです。2016年のベストDJ、若きEDMシーンの雄 Martin Garrix が爆音でフロアを揺らす中、夜中まで踊り明かしましたとさ…。</p>
+
+<p>都合により、参加者に配布されるFree Tシャツをお土産にゲットしそこねたことだけが悔やまれます（会場入ってすぐのスペースで配布されていますが、列が若干伸びていたので後回しにしたのでした）。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/replay2.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/replay2.jpg" width="400" /></a></p>
+
+<h1 id="12月02日-最終日">12月02日 最終日</h1>
+
+<p>re:Playが終わった翌朝は、会場はややけだるいムードで人も少し減った印象になります。この日は引き上げる or 次の目的地に向かうためにホテルをチェックアウトする人も多いため、ラゲッジを預かってくれるスペースもあります。必要があればお願いして荷物を預かってもらうと良いでしょう。</p>
+
+<p>ぐっと人も減り、歩きやすくなる廊下。登壇者も「金曜日なのに来てくれてありがとう」と言う枕から始まる中、最後に聞いたセッションで、それぞれの re:Invent が終わります（クロージングのセレモニーのようなものはありません）。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/day4.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/day4.jpg" width="400" /></a></p>
+
+<p>この後、午後からの弾丸ツアーでヘリによるグランドキャニオンツアーと、最後の夜のラスベガスを楽しみました。</p>
+
+<h1 id="12月03日-移動日">12月03日 移動日</h1>
+
+<p>さて、この日の早朝便で日本に戻ります。朝の5時にホテルをチェックアウトをし、この時間でも簡単に来てくれるUberで空港に向かいます。今更ながら今回痛感しましたが、Uberは素晴らしいです。空港やホテルにもきっちりライドシェア用スペースが確保されており、周りの人々も空港で荷物を抱えてウロウロしていると &ldquo;Uber? あっちだよ&rdquo; と教えてくれます。</p>
+
+<p>今回の帰りは行きと逆順で戻ります。ラスベガス（マッカラン）(LAS) - サンフランシスコ(SFO) - 関西(KIX) - 那覇(OKA) と、これまた長旅です。SFO - FIX間も、2時間以上乗る時間が増えます。ただ、アメリカは出国審査という概念がないので、サンフランシスコでの乗り換えが時間がタイトだった割にとてもスムーズで、その点では楽勝でした。</p>
+
+<p>向かい側に見える国内線から、こちらの国際線まで歩いてきました（左隣のANAは成田行き）。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/sfo.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/sfo.jpg" width="400" /></a></p>
+
+<p>ということで、帰りは24時間以上かかって沖縄まで戻ってきました。お疲れ様でした。</p>
+
+<h1 id="まとめ">まとめ</h1>
+
+<p>約10年ぶりのアメリカ、事前の入れ知恵もほとんど無くバタバタと渡米した割には、落ち着いて何でも楽しむことが出来た自分に、少しびっくりしました。これは、表通りなら一人で歩いていてもお店に入るのも何も不安を感じない、治安の良さが根底にあるのだと思いますが、本当に気が楽でした。</p>
+
+<p>そして初めての re:Invent への参加でしたが、これ自体もとても楽しめたものの、やはり少々の課題を持って帰ることになりました。</p>
+
+<p>あるともっと楽しめたもの：</p>
+
+<ul>
+<li>英語リスニング力</li>
+<li>英語ディスカッション力</li>
+</ul>
+
+<p>リスニング力は言うまでもないですね。キーノートなど大きめのセッションではかなりゆっくりはっきりと喋ってくれるのであまり問題ないですが、それ以外のセッションではみんな普通にネイティブのスピードでゴチャゴチャっと喋るので、リスニング力が無いと辛いです。</p>
+
+<p>百歩譲ってセッションはスライドがあるのでそれで補完できるとして、街角で・セッションの合間に・スポンサーブースの雑踏の中で・だだだ〜っと早口でまくしたてられると、本当に辛いものがあります（涙）。ぐぐる翻訳は助けてくれないので、自力でなんとかしたいところです。</p>
+
+<p>ディスカッション力は、文字通りディスカッションして、意義あるものを作ろうとするとき、ほしいですね。喧々諤々になったときに、相手に自分の意見を上手く説明して、チームを纏めるレベルの英語力があると、GameDayに参加するにあたっては、色々はかどります（笑）。</p>
+
+<p>re:Inventのセッション自体の内容は、例えばユーザー事例のセッションなどは、規模は違うものの技術的には日本で我々が展開している内容とさほど差があるようには思えませんでした。そのため、逆に登壇している国内の方が少ない（聞いていませんが今年は1セッションも無かった？）のは残念だなぁ、と思いました。</p>
+
+<p>目指せ登壇！ということで、来年は日本から1つでも2つでもセッションへの登壇があればいいな、と思いました。自分？自分ですか…？ ネタがあれば…(^_^;)</p>
+
+<h1 id="オマケ">オマケ</h1>
+
+<p>こちらの報告が1週間送れてしまったのは、戻ってきてすぐ以下を頂戴した故でございます…。</p>
+
+<p>体調管理は万全に、飛行機の機内ではマスクを厳重に！（してましたけどね&hellip;（涙）</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/omake.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/omake.jpg" width="400" /></a></p>
+
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col-md-3">
+  	</div>
+  	<div class="col-md-8">
+
+      <hr noshade>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        関連タグ：
+        <ul class="list-inline">
+          
+          <li><a href="/tags/aws/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a> </li>
+          
+          <li><a href="/tags/cloud/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a> </li>
+          
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">    
+      <div class="col-xs-12 col-sm-12 col-md-6 column">
+        <p>アールスリーインスティテュート  / Mail : <a href="mailto:info@r3it.com">info@r3it.com</a><br />
+        大阪本社<br />
+        Tel : 06-6271-3663 / Fax : 06-6123-7289<br />
+		  〒541-0053<br>
+          大阪府大阪市中央区本町2-3-4-6F</p>
+        <hr noshade>
+        <p>東京支社<br />
+          Tel : 03-6869-6891 / Fax : 03-6869-6892<br>
+          〒108-0023<br>
+          東京都港区芝浦三丁目14番19号 大成企業ビル6階</p>
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/AWS_Logo_Consulting_Partner_DARK.png"><br />
+		AWS Partner Network (APN) <br>コンサルティングパートナー
+      </div>
+      <div class="col-xs-6 col-md-3 column">
+        <img style="max-width:100%" src="/images/cybozu-consulting-si.png"><br />
+		サイボウズ<br> オフィシャルパートナー
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; padding: 20px">&copy; R3 institute All Rights Reserved.</div>
+</footer>
+
+
+<script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/lightbox.css" />
+    <script type="text/javascript" src="/js/lightbox.min.js" charset="utf-8"></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

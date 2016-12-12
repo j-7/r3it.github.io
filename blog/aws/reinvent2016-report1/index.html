@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    
+
+    <link rel="canonical" href="https://www.r3it.com/blog/aws/reinvent2016-report1/">
+
+    
+    <title>AWS re:Invent 2016 参加レポート その1 | アールスリーインスティテュート</title>
+    <meta name="title" content="AWS re:Invent 2016 参加レポート その1 | アールスリーインスティテュート">
+    <meta name="description" content="AWS界隈で最大のeducational conferenceである re:Invent 2016 に参加してきましたので、そのレポートです。前半は現地到着から Tuesday Night Live with James Hamilton まで！">
+    <meta property="og:title" content="AWS re:Invent 2016 参加レポート その1 | アールスリーインスティテュート"/>
+    <meta property="og:description" content="AWS界隈で最大のeducational conferenceである re:Invent 2016 に参加してきましたので、そのレポートです。前半は現地到着から Tuesday Night Live with James Hamilton まで！" />
+
+  
+
+    <meta name="keywords" content="AWS, re:Invent2016, reInvent2016, ラスベガス, ">
+
+    <meta property="fb:app_id" content="478756785605950"/>
+    <meta property="og:type" content="article"/>
+
+    <meta property="og:url" content="https://www.r3it.com/blog/aws/reinvent2016-report1/" />
+    
+    <meta property="og:image" content="https://www.r3it.com/images/blog/aws/reinvent2016-report/alexa.jpg" />
+    
+    <meta property="og:site_name" content="アールスリーインスティテュート">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <link rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script>
+    if (location.hostname == "www.r3it.com") {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-24363556-3', 'auto');
+      ga('send', 'pageview');
+
+      var trackOutboundLink = function(e) {
+          ga('send', 'event', 'outbound', 'click', e.href, {
+            'transport': 'beacon'
+          });
+      }
+    }
+    </script>
+</head>
+<body>
+
+<header class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><img src="/images/r3logo_nav.png"></a>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav class="navbar-collapse collapse" id="bs-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/info/">お知らせ</a></li>
+        <li><a href="/solutions/">ソリューション</a></li>
+        <li><a href="/case/">事例紹介</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="/blog/">ブログ</a></li>
+        <li><a href="/company/">会社概要</a></li>
+        <li><a href="/#inquiry"><span class="envelope-style glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="container-fluid" id="breadcrumb-section">
+  <ol class="breadcrumb">
+    <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+    <li><a href="/blog/">R3 Cloud Developers Blog</a></li>
+    <li class="active">AWS re:Invent 2016 参加レポート その1</li>
+  </ol>
+</section>
+
+<section class="container-fluid" id="blog-article">
+  <div class="row">
+  	<div class="col-md-3">
+	
+      <h4><small>タグ一覧</small></h4>
+	  <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+        <ul class="nav bs-docs-sidenav">
+          
+          <li><a href="/tags/aws"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a></li>
+          
+          <li><a href="/tags/cloud"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a></li>
+          
+          <li><a href="/tags/community"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> community</a></li>
+          
+          <li><a href="/tags/etc"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> etc</a></li>
+          
+          <li><a href="/tags/event"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> event</a></li>
+          
+          <li><a href="/tags/gusuku"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> gusuku</a></li>
+          
+          <li><a href="/tags/jawsug"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> jawsug</a></li>
+          
+          <li><a href="/tags/kintone"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> kintone</a></li>
+          
+          <li><a href="/tags/oss"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> oss</a></li>
+          
+          <li><a href="/tags/talend"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> talend</a></li>
+          
+        </ul>
+	  </nav>
+
+      
+<p><a href="/recruitment/"><img src="/images/banner/navyback-kintone.png" width="250" height="250" class="wide-image" alt="採用情報はこちら"></a></p>
+
+	</div>
+  	<div class="col-md-8">
+	  <h1>AWS re:Invent 2016 参加レポート その1</h1>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        <img src="/images/blog/author/nishijima-100x100.png" class="img-circle pull-left" style="margin-right: 20px;">
+        <h5>Posted on 2016-12-13</h5>
+        <h4>
+          
+            <a href="/blog/author/nishijima/">Koichiro Nishijima</a></h4>
+          
+      </div>
+      
+		
+		
+
+<p>最近お前出不精なんじゃないかと突っ込まれるくらい、沖縄から出ていない西島です、こんにちは（そんなことはありません、多分…）。</p>
+
+<p>毎年この季節になると人々がザワザワするAWS界最大のイベント re:Invent に、今年は縁あって初参加することが出来ましたので、そのレポートです！</p>
+
+<p>次回参加する方へのTIPSを色々と織り交ぜて書きましたので、読んでいてワクワクして「よし、来年は行ってみよう！」というかたの参考になれば幸いです。</p>
+
+<h1 id="11月27日-day-0-移動日">11月27日 Day 0 移動日</h1>
+
+<p>那覇(OKA) - 関西(KIX) - サンフランシスコ(SFO) - ラスベガス（マッカラン）(LAS)という大移動です。今回は特にKIXでの接続があまり良くなかったので、関西空港でしっかり仕事をすることが出来ました。</p>
+
+<p>乗り換え時間が相当あると油断して仕事をしていましたが、関西空港はとても混雑しているので国際線のチェックインは早めにすることをオススメします。</p>
+
+<p>また、<a href="http://www.kansai-airport.or.jp/autogate/">自動化ゲートを通れるようにしておく</a>と行列を横目にサクッと出国・入国が出来るので、こちらもおすすめです。</p>
+
+<p>結局沖縄の自宅を出てから、丁度24時間でマッカラン空港に着きました。空港の中にもスロットマシンがあるイカれた（イカした？）街に上陸です。国内で買ったZIP SIMがようやく動いてホッとしました（何故かSFOでは電波は掴むもののデータ通信が出来ず、愕然としていました…）。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/las.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/las.jpg" width="400" /></a></p>
+
+<h1 id="11月28日-初日はgameday">11月28日 初日はGameDay!</h1>
+
+<p>まずは registration に向かいましょう。この辺の手順は誰も教えてくれませんが、会場であるベネチアンの中は同志がいっぱい居ますのでその真似をするか、キョロキョロしながらその辺を歩いてると係の人が教えてくれます。</p>
+
+<p>この写真は初日の朝は早くなので空いていましたが、この整列用テープを見ると混雑時は相当なことになりそうです。可愛くないと評判の、変な忍者が写ってますね。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/regist.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/regist.jpg" width="400" /></a></p>
+
+<p>次はSWAG(参加者へのプレゼント)です。会期中みんなお揃いで着ることになる（町中でも頻繁に見ます）パーカーと、Echo Dotを貰いました！</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/swag.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/swag.jpg" width="400" /></a></p>
+
+<p>会場では、コーヒーや水はもちろん、WIFIや電源も（あるところなら）自由に利用可能です。ドリンクフリー！と言いたいところですが、単に支払ったカンファレンス代にincludeされているだけですね。というわけで、あなたのコーヒーなので、誰に遠慮する必要もありません。どうぞご自由飲みましょう。</p>
+
+<p>初日 pre day はまだみんな会場に慣れていないらしく、座ってラップトップを開いていると「Hey guy、WIFIのパスワード知ってる？」と頻繁に聞かれますので、答えを用意しておきましょう（パスワードを口頭で教えてあげるか、「印刷物の個々にあるよ！」って教えてあげるとみんなハッピーになります。）。</p>
+
+<h2 id="初日にして主目的-gameday">初日にして主目的！GameDay</h2>
+
+<p>さて、今回の旅の主目的のひとつであるGameDayが初日の午後ぶっ通しでありました。アジェンダはこちらです。</p>
+
+<p><a href="https://reinvent.awsevents.com/activities/gameday/">https://reinvent.awsevents.com/activities/gameday/</a></p>
+
+<p>登録時点で部屋が半分くらい埋まっていました。思いのほか参加人数が多いんだなと関心しました。話は出来ませんでしたが、日本からも数名程度は参加されていた方がいたようです。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/gameday1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/gameday1.jpg" width="400" /></a></p>
+
+<p>お題の発表</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/gameday2.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/gameday2.jpg" width="400" /></a></p>
+
+<p>途中経過のスコアは常にダッシュボードに表示されます。これはもう後半の写真なので、みんな結構疲れてますね。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/gameday3.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/gameday3.jpg" width="400" /></a></p>
+
+<p>内容は、4-5人のチームに分かれてお題をやっつけるハッカソンです。</p>
+
+<p>チームのメンバーとは軽く自己紹介をして、「お昼食べる時間がなかった」とボヤいていたらスニッカーズ？みたいな謎の食べ物をもらったり、まあ和気あいあいと半日（13時から21時まで）過ごしました。カナダから来た彼と、US在住のHPのセールス、そして政府関係の仕事をしてる3人とチームになりました。どうもAWS経験値的には自分が一番あったようなのでビクビクしながら、お題を理解してそれをみんなに説明して、こういうアーキテクチャで解決しよう、というくらいまでは良いのですが、その後みんなでディスカッションが始まると、正直自分の英語力ではまったくついていけず困りました(^_^;) このあたりは課題ですね。</p>
+
+<p>結局、「オレこうやるからお前らこっちから攻めてみ！」と分担し、途中途中で報告しつつワイワイ黙々、という感じのスタイルになりました。レッドブルやらおやつのフードやら、途中色々食べながら楽しく出来たのですが、チームとしての結果は惨敗でした。残念。しかしいい経験になりました。</p>
+
+<p>スポンサーのRedHatさんのツイートにニコニコした顔で小さく写り込んでいましたので、貼っておきますね。</p>
+
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">How&#39;s your team doing at <a href="https://twitter.com/hashtag/AWSGameDay?src=hash">#AWSGameDay</a>? <a href="https://twitter.com/hashtag/reInvent?src=hash">#reInvent</a> <a href="https://t.co/E7tvtJoqSg">pic.twitter.com/E7tvtJoqSg</a></p>&mdash; Red Hat Events (@RedHatEvents) <a href="https://twitter.com/RedHatEvents/status/803369725317287936">2016年11月28日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<h1 id="11月29日-展示オープン-tuesday-night-live-with-james-hamilton">11月29日 展示オープン &amp; Tuesday Night Live with James Hamilton</h1>
+
+<p>いよいよ少しずつ人が増えてきました。今日はBreakout Sessionsも始まり、いくつかのセッションとスポンサーブースの展示も開始します（Global Partner Summitも入れましたがパスしました…今年も日本からプレミア受賞された各社様、おめでとうございます！）。</p>
+
+<p>昨日までと同じロビーとは思えません。人・人・人・・・。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/1129.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/1129.jpg" width="400" /></a></p>
+
+<p>この日はいくつかのセッションに出た後は、展示ブースを回ってお土産のノベルティの調達です。この展示ブースが広大なこと！端が見渡せないレベルで、とてつもなく広いです。</p>
+
+<p>てくてくと歩きつつ、ビール配布場所で好きなビールを頼み（IPAも普通にあります。流石アメリカ！）と、フード配布場所で好きな食べ物を調達しつつ、興味あるブースを覗いては話をしてノベルティを集めます。フードは場所によって種類が違ったりするので、在庫がないところで立ち止まる必要など無く、フラフラしていれば次のフードにありつけます。
+ノベルティは貰いすぎるとカバンに入り切らなくなりますし、ドローンとかデカイものを貰ってもカバンに入らないので、そういう場合には丁重にお断りしましょう(^_^;)</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/central1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/central1.jpg" width="400" /></a></p>
+
+<p>これは翌日の写真ですが、この中をひたすら歩いて探して、我らが kintone ブースにようやくたどり着きました！ 限定30枚しか作られなかったTシャツ貰っちゃいました！（ゴメンネ Nicole 英語ブログ待っててください・・・(^_^;)</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/kintonebooth.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/kintonebooth.jpg" width="400" /></a></p>
+
+<h2 id="tuesday-night-live-with-james-hamilton">Tuesday Night Live with James Hamilton</h2>
+
+<p>この日の締めはHamilton先生によるAWSの物理の話。それにしても会場の広さにビビるのと前座がライブとか、もう意味が分かりません（このあたりから諸々の規模のデカさに、だんだん感覚がヤラれてきます）。</p>
+
+<p>真ん中の通路から見た、前半分でこの椅子の数・・・キーノートと同じ会場と聞いて納得。この後これがすっかり埋まります。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/jhn1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/jhn1.jpg" width="400" /></a></p>
+
+<p>ロックスター登場！喜々として【クラウドの中の「物理」】を語ります。初蔵出しのネタもいっぱい有りました。詳細レポートは是非 <a href="http://ascii.jp/elem/000/001/277/1277229/">TECH.ASCII.jp</a> をご覧ください。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/jhn2.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/jhn2.jpg" width="400" /></a></p>
+
+<h1 id="11月30日-本日はキーノート-その前に">11月30日 本日はキーノート！その前に&hellip;</h1>
+
+<p>新サービスが多数発表されるであろうキーノートが始まる前に、日本からの参加者の皆さんが口をそろえて「マズイ」と言う、会場で提供される朝食にチャレンジしてみました。会期中は pre day を除き（つまり29日から毎日）、会場となっているベネチアンおよびミラージュにて朝食・昼食を自由に食べることが出来ます。誰に聞いても「マズイ」というので、逆に興味が湧いて来たのでチャレンジしてみました（笑）。</p>
+
+<p>通称「餌場」（と勝手に名付けました）の入り口です。朝早いのでまだ人もまばらですね。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/meals1.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/meals1.jpg" width="400" /></a></p>
+
+<p>朝早いと一番奥まで誘導されます。また端のテーブルが見えない・・・。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/meals2.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/meals2.jpg" width="400" /></a></p>
+
+<p>みんな黙々と並んで取っていますが、何やら…な食べ物が並びます。</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/meals3.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/meals3.jpg" width="400" /></a></p>
+
+<p>慎重に地雷を避けてみたものの…どのような味かは、あなたも是非体験してみてください！</p>
+
+<p><a href="/images/blog/aws/reinvent2016-report/meals4.jpg" data-lightbox="pic"><img class="img-thumbnail img-responsive" src="/images/blog/aws/reinvent2016-report/meals4.jpg" width="400" /></a></p>
+
+<h2 id="その2へ続く-reinvent2016-report2"><a href="../reinvent2016-report2/">その2へ続く</a></h2>
+
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col-md-3">
+  	</div>
+  	<div class="col-md-8">
+
+      <hr noshade>
+      
+      <div class="jumbotron" style="padding: 10px 0 35px 15px;">
+        関連タグ：
+        <ul class="list-inline">
+          
+          <li><a href="/tags/aws/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> aws</a> </li>
+          
+          <li><a href="/tags/cloud/"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> cloud</a> </li>
+          
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">    
+      <div class="col-xs-12 col-sm-12 col-md-6 column">
+        <p>アールスリーインスティテュート  / Mail : <a href="mailto:info@r3it.com">info@r3it.com</a><br />
+        大阪本社<br />
+        Tel : 06-6271-3663 / Fax : 06-6123-7289<br />
+		  〒541-0053<br>
+          大阪府大阪市中央区本町2-3-4-6F</p>
+        <hr noshade>
+        <p>東京支社<br />
+          Tel : 03-6869-6891 / Fax : 03-6869-6892<br>
+          〒108-0023<br>
+          東京都港区芝浦三丁目14番19号 大成企業ビル6階</p>
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+        <img style="max-width:100%" src="/images/AWS_Logo_Consulting_Partner_DARK.png"><br />
+		AWS Partner Network (APN) <br>コンサルティングパートナー
+      </div>
+      <div class="col-xs-6 col-md-3 column">
+        <img style="max-width:100%" src="/images/cybozu-consulting-si.png"><br />
+		サイボウズ<br> オフィシャルパートナー
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; padding: 20px">&copy; R3 institute All Rights Reserved.</div>
+</footer>
+
+
+<script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/lightbox.css" />
+    <script type="text/javascript" src="/js/lightbox.min.js" charset="utf-8"></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
