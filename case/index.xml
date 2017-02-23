@@ -5,8 +5,33 @@
     <link>https://www.r3it.com/case/</link>
     <description>Recent content in Case on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Aug 2016 10:00:28 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Aug 2016 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/case/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ヤマハ発動機株式会社様 事例紹介</title>
+      <link>https://www.r3it.com/case/yamaha-motor/</link>
+      <pubDate>Tue, 30 Aug 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/case/yamaha-motor/</guid>
+      <description>
+
+&lt;h1 id=&#34;保守切れをきっかけにbcp対策でコールセンターを3ヶ月でクラウド化&#34;&gt;保守切れをきっかけにBCP対策でコールセンターを3ヶ月でクラウド化&lt;/h1&gt;
+
+&lt;p&gt;2016年8月30日付で弊社のお客様ヤマハ発動機様のkintoneを利用したシステム導入事例が公開されました。&lt;/p&gt;
+
+&lt;p&gt;従来オンプレミス環境で稼働していた既存コールセンターを3ヶ月でクラウドに移行したということで、ハイスピードSIを駆使した開発を実現しています。&lt;/p&gt;
+
+&lt;p&gt;詳細は&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;サイボウズ様のプレスリリース&lt;/a&gt; および &lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&#34;&gt;日経BP ITpro様の取材記事&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;また ASCII.jp 様にも事例取材していただきました（2017年2月22日掲載）。こちらも合わせてご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ascii.jp/elem/000/001/433/1433367/&#34;&gt;kintone三昧 〜コミュニティ発だったヤマハ発動機の販売店向けコールセンター刷新〜&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/iwcallsys_figure.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;（画像転載元：サイボウズ様 プレスリリース）&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>株式会社サイバーエージェント 内部監査室様 事例紹介</title>
