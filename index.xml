@@ -5,8 +5,167 @@
     <link>https://www.r3it.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 08 Feb 2017 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 10:47:28 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>株式会社グッドライフOS様 事例紹介</title>
+      <link>https://www.r3it.com/case/goodlifeos/</link>
+      <pubDate>Thu, 02 Mar 2017 10:47:28 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/case/goodlifeos/</guid>
+      <description>
+
+&lt;h1 id=&#34;2週間4回のセッションで新規事業システムが完成しました-専門知識は不要でした&#34;&gt;2週間4回のセッションで新規事業システムが完成しました。専門知識は不要でした。&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/goodlifeos/aj33.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/goodlifeos/aj33.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;株式会社グッドライフOS 管理本部 総務人事課 マネージャー 三木春樹 様&lt;br&gt;
+株式会社AJ ヒューマンリソース事業部 人事・採用課 松浦翔子 様&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;2週間で新規事業の運用システムを構築する・・・難易度の高いミッションを遂行するために株式会社AJ様が選んだのは『kintone × アールスリーの対面開発』でした。同社の三木様と松浦様に、開発の様子と導入後の効果をうかがいました。&lt;/p&gt;
+
+&lt;h2 id=&#34;aj様の課題-新規事業を1ヶ月で立ち上げろ&#34;&gt;AJ様の課題 / 新規事業を1ヶ月で立ち上げろ！&lt;/h2&gt;
+
+&lt;p&gt;　株式会社AJ様は、2016年4月に株式会社グッドライフOS様（2017年4月〜 株式会社MJEに社名変更予定）の人事を担う会社として設立されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/goodlifeos/logo.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image pull-right&#34; src=&#34;https://www.r3it.com/images/case/goodlifeos/logo.jpg&#34; style=&#34;padding:0; margin-left: 30px;&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;同10月。急遽、同社の強みである「学生との強いパイプ」を活かして新規事業を立ち上げることが決まり、「大阪の学生を東京の会社に紹介するバスツアー、ビスバス」の企画がスタートします。サービス開始までにメンバーに与えられた期限は1ヶ月弱と非常にタイトでした。&lt;/p&gt;
+
+&lt;h2 id=&#34;参加者を-手作業-で集計-間に合わない&#34;&gt;参加者を「手作業」で集計？間に合わない…&lt;/h2&gt;
+
+&lt;p&gt;　新規事業の立ち上げで大きな課題となったのが、利用しているツールがバラバラなことでした。現状の管理方法のまま新規事業を始めると、「学生1人につき1シートで管理しているExcel」と「ファイルメーカーで管理している顧客企業」の紐付け作業を、コピーアンドペースト・目視・手集計を駆使して行なう必要がありました。&lt;/p&gt;
+
+&lt;p&gt;　これでは開始期限に間に合いそうもありませんし、新たな商品が追加されるたびに大変な「紐付け作業」を繰り返すことになってしまいます。日々の業務の中で「Excelやファイルメーカー」に手間とストレスを感じていたこともあり、同社は新規にシステム導入を決意します。&lt;/p&gt;
+
+&lt;h2 id=&#34;システムの-要件決め-という壁&#34;&gt;システムの「要件決め」という壁&lt;/h2&gt;
+
+&lt;p&gt;　AJ様が新システムを乗せる基盤に選んだのは「専門知識が無くてもある程度構築可能なkintone」でした。しかし、全員が人事スタッフなので「システム要件の決め方」がよく分かりません。困って情報システム部門に相談したところ、「要件が決まっていない案件にすぐに人員を割く余裕が無いので、アールスリーに相談してはどうか」と提案されます。&lt;/p&gt;
+
+&lt;h2 id=&#34;アールスリーとのシステム構築-期限はわずか2週間-特急案件スタート&#34;&gt;アールスリーとのシステム構築 / 期限はわずか2週間。特急案件スタート&lt;/h2&gt;
+
+&lt;p&gt;　本件の担当となった弊社アールスリーの担当者は、AJ様との最初の面談で「これはマズイ」と感じます。開発期間が2週間しかなく、「スピード開発が売り」の弊社にとっても厳しい納期だったからです。&lt;/p&gt;
+
+&lt;h3 id=&#34;aj様の状況&#34;&gt;【AJ様の状況】&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;開発期間が2週間&lt;/li&gt;
+&lt;li&gt;担当は人事スタッフのみで開発知識が無い&lt;/li&gt;
+&lt;li&gt;少ない予算で大きい効果を出したい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;作りたいシステム&#34;&gt;【作りたいシステム】&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;新規事業「ビズバス」専用システム（最優先）&lt;/li&gt;
+&lt;li&gt;自社の採用管理システム（第二優先）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;　本件では、２週間で１と２の両方を構築するのは困難と判断し、合計4回の対面開発で最優先の１を完成させることを提案、採用いただきます。&lt;/p&gt;
+
+&lt;h2 id=&#34;希望を伝え-質問に答えると要件が決まっていく&#34;&gt;希望を伝え、質問に答えると要件が決まっていく！&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/goodlifeos/aj0.jpg&#34; data-lightbox=&#34;pic&#34; title=&#34;開発の中心となったAJ人事部マネージャー三木様は「開発はとてもスムーズだった」と微笑む。&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image pull-right&#34; src=&#34;https://www.r3it.com/images/case/goodlifeos/aj0.jpg&#34; style=&#34;padding:0; margin-left: 30px;&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;　「対面開発」とは「お客様の事業目的」や「解消したい悩み」をお聞きしながら、その場でkintoneに機能を実装していくシステム開発手法です。画面を見ながら「もう少しこうしたい」「こんなことはできる？」など、意見を言っていただいている間に「目の前でシステムが形になっていく」ため、とても早く開発が完了します。&lt;/p&gt;
+
+&lt;p&gt;　AJの三木様は、アールスリーとの「対面開発」の様子を詳しく話してくださいました。&lt;/p&gt;
+
+&lt;p&gt;　「私たちは何の準備もせずにアールスリーさんとの開発ミーティングに臨みました。そこで、今回のシステムで実現したいことや、業務上負担に感じていることを伝えました。私がうまく説明できない点はアールスリーさんが質問して整理し、紙に落としてくれたのでシステム要件がすんなり決まりました。&lt;/p&gt;
+
+&lt;p&gt;　開発が始まると、目の前で色々な機能がkintoneに実装されていきました。言ったとおりにできない事には代替案をいただきました。要望していないことでも事業にとってプラスになることは、こういうシーンならこういう機能が欲しくなりませんか？と提案もいただきました。&lt;/p&gt;
+
+&lt;p&gt;　こうして質問と実装を繰り返しているうちに、最初の1回目のミーティングでシステムの大枠が完成しました。わずか2時間の出来事でした。」&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/goodlifeos/aj29.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/goodlifeos/aj29.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;開発スタートと同時に、AJの三木様が事業立ち上げのため３ヶ月の東京出張となったため、本案件はビデオ会議で進められた。「画面を見ながらの開発なので、ビデオ会議でも違和感なく進んだ」と三木様は当時を振り返る。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;２週間で-採用管理システム-も完成&#34;&gt;２週間で「採用管理システム」も完成&lt;/h2&gt;
+
+&lt;p&gt;　開発における「判断ポイント」において三木様の決断が素早いことが好影響し、開発は予想以上のスピードで進みました。結果、4回予定の開発が3回で終わります。そこで、アールスリーは最後の1回でスケジュール上困難とされていた第二優先の「採用管理システム」の構築を提案。これも完成できました。&lt;/p&gt;
+
+&lt;p&gt;　こうして、わずか2週間で当初の希望を全て満たしたシステムができあがり、この時ばかりは誰もが大きな達成感を感じました。開発セッションは4回だったので追加料金も不要でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/goodlifeos/record.jpg&#34; data-lightbox=&#34;pic&#34; title=&#34;顧客や学生の情報を登録し、商品ごとに参加者を抽出できるアプリ。表示されている情報について、アプリ上でディスカッションも可能。&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/goodlifeos/record.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;　「私は、開発は大変な仕事に違いないと考えていましたが、実際にはミーティングに集中して取り組んだだけで希望通りのシステムができました。
+&lt;strong&gt;システム構築の知識が無いので、要件を一緒に考えてもらえたことと、ミーティング中にシステムが形になる様子を画面で見ながら開発できたことが成功の要因と感じています。&lt;/strong&gt; 」と三木様。&lt;/p&gt;
+
+&lt;h1 id=&#34;導入効果&#34;&gt;導入効果&lt;/h1&gt;
+
+&lt;h2 id=&#34;新規事業を期日通りにスタートできた&#34;&gt;新規事業を期日通りにスタートできた&lt;/h2&gt;
+
+&lt;p&gt;「新規事業をスケジュール通りに開始できたのは、2週間で開発できた早さと、システムによる業務効率化があってこそ。」と三木様&lt;/p&gt;
+
+&lt;h2 id=&#34;年100万円の節約-時短などを達成&#34;&gt;年100万円の節約・時短などを達成&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/goodlifeos/aj19.jpg&#34; data-lightbox=&#34;pic&#34; title=&#34;松浦様はシステムを新卒採用でフル活用中。業務効率化・時短・コスト削減・ストレス解消などの効果を得たと語る&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image pull-right&#34; src=&#34;https://www.r3it.com/images/case/goodlifeos/aj19.jpg&#34; style=&#34;padding:0; margin-left: 30px;&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;　新卒採用チームの松浦様は、本システムを「学生カルテの管理」や「対学生活動のログを記録するツール」としてフル活用されています。以前はこの業務をExcelと大手の新卒採用ツールで行っており、膨大な作業時間とツール使用料 年100万円が必要でした。&lt;/p&gt;
+
+&lt;p&gt;　現在は「学生カルテ登録作業」などの時間が部署で1日100分ほども削減され、大手の採用システムの維持コストも「0」になりました。&lt;/p&gt;
+
+&lt;p&gt;　「学生カルテをExcel管理していた時は、データベースから情報を抽出したり、ファイルを読みに行く動作に多くの時間が必要でストレスを感じていました。今はアプリのおかげで本質的な仕事にすぐに着手できるため、仕事の質が上がり気持ちもラクになりました。&lt;/p&gt;
+
+&lt;p&gt;また、これまでのツールでは自分で使いやすくカスタマイズができませんでしたがkintoneは状況に合わせていつでも新しい情報を追加したり、アウトプットの方法（表・リストなど）を変更できる点も助かっています。」松浦様&lt;/p&gt;
+
+&lt;h2 id=&#34;イベントの申込状況をkintoneは一瞬で把握できる&#34;&gt;イベントの申込状況をkintoneは一瞬で把握できる&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/goodlifeos/graph.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/goodlifeos/graph.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;顧客や学生のデータを一瞬で抽出できるようになった。アウトプットの方法も自由自在なので、「数字に基づく顧客アプローチの追求」などKPI管理にも役立っている。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;事業の本質-をとらえたシステムだから応用がきく&#34;&gt;「事業の本質」をとらえたシステムだから応用がきく&lt;/h2&gt;
+
+&lt;p&gt;　今回作ったシステムは、「kintoneアプリで商品を新規登録」すれば、AJ様がお持ちの学生と顧客企業のデータベースから、何度でも参加者を抽出・分析できるように設計されています。&lt;/p&gt;
+
+&lt;p&gt;　新規事業の「ビズバス」は「東京の企業に学生を紹介するビジネス」としては継続しませんでしたが、2017年は新しく開発した商品（AJ様主催の採用イベントなど）に利用されています。今後商品が移り変わっても業務のメインシステムとして利用可能です。&lt;/p&gt;
+
+&lt;p&gt;　アールスリーは、お客様がシステムを活用されるシーンを想像するのが得意です。本件ではAJ様は「新規事業をピボットすることになっても、ある程度対応できるシステム、カスタマイズが必要になっても許容できる予算で実施したい」と考えていらっしゃいました。そのご事情を汲んだシステム構成をご提案したことで、お客様の状況が変わっても無駄にならないシステムとなりました。&lt;/p&gt;
+
+&lt;h2 id=&#34;aj様の評価ポイントまとめ&#34;&gt;AJ様の評価ポイントまとめ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;新規事業システムの構築に、早さ・予算面で最適&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;kintone-対面開発-は早さとコスパを両立する&#34;&gt;→「kintone × 対面開発」は早さとコスパを両立する&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;専門知識が無くても、希望通りのシステムができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;アールスリーなら-こんなことがしたい-があれば大丈夫&#34;&gt;→アールスリーなら「こんなことがしたい」があれば大丈夫&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;「kintone」だからいつでも機能を自力で追加・調整できる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;情報システム部門-に頼れない方に最適&#34;&gt;→ 「情報システム部門」に頼れない方に最適&lt;/h3&gt;
+
+&lt;h2 id=&#34;事業インパクトを追求する-アールスリーの対面開発&#34;&gt;事業インパクトを追求する「アールスリーの対面開発」&lt;/h2&gt;
+
+&lt;p&gt;　一般的なシステム開発は「機能」にフォーカスするので「必要と言われた機能」を指示通りに盛り込みます。一方、私たちアールスリーは「事業に大きなインパクトを与える機能」の提案を大切にしているので、不要と思える機能は「本当に必要ですか？」と率直にお伝えします。結果、稼働後に使いやすいシステムを構築できます。&lt;/p&gt;
+
+&lt;p&gt;　安心して「何を作りたいのか」お話ください。私たちは「お客様の事業の全体像」をとらえるのが得意です。システム構築知識が無くても、要件決めができていなくても、システム部門を頼れなくても大丈夫です。お話をうかがいながら、目の前でシステムを構築する「対面開発」で、御社の事業を全力でお手伝いします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/case/goodlifeos/aj40.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail wide-image&#34; src=&#34;https://www.r3it.com/images/case/goodlifeos/aj40.jpg&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;（右）AJ三木様　（中央）AJ松浦様　（左）本件を担当した弊社 林　 取材：2017年1月&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>【東京】今年初となる日本オプロ様との共催セミナーを開催します！</title>
@@ -1452,38 +1611,6 @@
 &lt;p&gt;gusukuアンバサダー・プログラムはgusukuを応援してくださる方を「アンバサダー」として任命させて頂くプログラムです。&lt;/p&gt;
 
 &lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;https://gusuku.io/ambassador/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、gusuku紹介プログラムを開始</title>
-      <link>https://www.r3it.com/info/2016/gusuku-friends-program-start/</link>
-      <pubDate>Wed, 09 Nov 2016 10:38:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/gusuku-friends-program-start/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_friends.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h1 id=&#34;アールスリー-gusuku紹介プログラムを開始&#34;&gt;アールスリー、gusuku紹介プログラムを開始&lt;/h1&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusuku紹介プログラムを開始いたしました。&lt;/p&gt;
-
-&lt;p&gt;gusuku紹介プログラムは、既にgusukuをご利用の方が新しいお客様を紹介してくださった際に、紹介したほう・されたほう双方に割引が適用されるプログラムです。&lt;/p&gt;
-
-&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;https://gusuku.io/friends/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
 
 &lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
 
