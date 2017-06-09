@@ -5,8 +5,289 @@
     <link>https://www.r3it.com/tags/community/</link>
     <description>Recent content in Community on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Mar 2017 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jun 2017 13:30:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JP_Stripes (Stripe ユーザーグループ）in KOBE キックオフ に参加しました</title>
+      <link>https://www.r3it.com/blog/etc/20170606_jp_stripes_kobe_meetup/</link>
+      <pubDate>Thu, 08 Jun 2017 13:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/etc/20170606_jp_stripes_kobe_meetup/</guid>
+      <description>
+
+&lt;p&gt;こんにちは。リモート勤務で、愛媛在住の沖です。&lt;/p&gt;
+
+&lt;p&gt;今回は、2017年6月6日に開催された&lt;a href=&#34;http://eventregist.com/e/JP_Stripes_Kobe_Vol0&#34;&gt;JP_Stripes (Stripe ユーザーグループ）in KOBE キックオフ&lt;/a&gt;について報告したいと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;開催3日前に参加決定&#34;&gt;開催3日前に参加決定&lt;/h1&gt;
+
+&lt;p&gt;実は、開催の前週が物理出社だったので大阪にいました。&lt;/p&gt;
+
+&lt;p&gt;で、愛媛に戻る前に色々と集まって飲んでいたら、このキックオフの話題になって、あっという間に参加が決まったという（驚&lt;br&gt;
+飲み終わってホテルに戻ってから、急いで参加申し込みとホテル予約を済ませましたよ！&lt;/p&gt;
+
+&lt;p&gt;こういうところもファストです。&lt;/p&gt;
+
+&lt;h1 id=&#34;リモートワーク-モバイルワーク&#34;&gt;リモートワーク？　モバイルワーク？&lt;/h1&gt;
+
+&lt;p&gt;移動手段を検討していて気づいたんですが、愛媛ー神戸だと移動に大体５時間くらいかかるという問題が。。。&lt;/p&gt;
+
+&lt;p&gt;往復で勤務時間(8H/日)以上かかる計算なので、移動中にも仕事が出来るようにバス移動にしてみました。&lt;/p&gt;
+
+&lt;p&gt;結果としては、レスポンスの速さとかは抜きにして、概ね良好。コードも書けたし動作確認も可能。チャットも出来るので、未読などを無くしてからイベントに参加できました。&lt;/p&gt;
+
+&lt;p&gt;ただまぁ、帰りも同じことしたらちょっと酔ったので、ほどほどにしましょう。あと、モニタを見られないように、後ろに人がいないことも要チェック！&lt;/p&gt;
+
+&lt;h1 id=&#34;会場到着&#34;&gt;会場到着&lt;/h1&gt;
+
+&lt;p&gt;googleマップを頼りに会場まで到着&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/blog/etc/20170606_jp_stripes_kobe_meetup/18891596_939207542888005_2912799084324229397_o.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;毎度思いますけど、googleマップが便利すぎて手放せないですね。&lt;/p&gt;
+
+&lt;h1 id=&#34;スタートです&#34;&gt;スタートです&lt;/h1&gt;
+
+&lt;p&gt;なんと30人の枠が満席という盛況ぶり。しかも、飛び入り参加で後半は椅子が足りない状況に。&lt;/p&gt;
+
+&lt;p&gt;やはり、みなさん興味津々ですねー&lt;/p&gt;
+
+&lt;h2 id=&#34;参加者みんなで決済体験&#34;&gt;参加者みんなで決済体験&lt;/h2&gt;
+
+&lt;p&gt;「ビールとおつまみがあるので、飲みたい人はStripeで決済してね」という振りからスタート。&lt;/p&gt;
+
+&lt;p&gt;実は、私の場合は以前にStripe決済をやった事があったので、&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;決済ページに行ってボタン押す&lt;/li&gt;
+&lt;li&gt;メールアドレス入れたらSMSで認証コードが飛んでくる&lt;/li&gt;
+&lt;li&gt;認証コードを入れたらカード情報が自動で入る&lt;/li&gt;
+&lt;li&gt;支払いボタンを押すと支払い完了&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;というお手軽さ！&lt;/p&gt;
+
+&lt;p&gt;２回目の支払いはボタンを押すだけなので、ガチャよりハードルが低い気がしますね。&lt;/p&gt;
+
+&lt;h2 id=&#34;increment&#34;&gt;Increment&lt;/h2&gt;
+
+&lt;p&gt;スタートアップ支援で、業界情報誌も出しているそうです。&lt;/p&gt;
+
+&lt;p&gt;今回は障害対応がテーマ。独断と偏見で要約するとこんな感じです&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Increment　2017年 春号「on-call」
+　特集：障害対応はどうしているか
+・障害切り分けのペストプラクティス
+・１人から１０００人超えまでの、段階的なベストツール紹介
+・CEOが語る、GITLABの障害対応
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;詳しくは、こちらのページ(英語)をどうぞ。&lt;a href=&#34;https://increment.com/&#34;&gt;Increment&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;connect&#34;&gt;Connect&lt;/h2&gt;
+
+&lt;p&gt;通常決済と定期決済しか知らなかったのですが、新サービスのConnectでは多様な決済が可能になったそうです。&lt;/p&gt;
+
+&lt;p&gt;ECサイトの決済を超えて、プラットフォーム決済が可能になったという驚きの状況です。&lt;/p&gt;
+
+&lt;p&gt;これは凄い！&lt;/p&gt;
+
+&lt;p&gt;詳しくは、こちらのページをどうぞ。&lt;a href=&#34;https://stripe.com/connect&#34;&gt;Connect&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sigma&#34;&gt;Sigma&lt;/h2&gt;
+
+&lt;p&gt;SQLでStripeのデータを検索出来るサービスです。&lt;/p&gt;
+
+&lt;p&gt;知りたいデータを取得できるそうで、公式ページにはSQLが公開されてます。しかもSQLは名前をつけて保存可能なので、経理部門が知りたいデータを開発部門が作成して共有とかを想定しているそうです。&lt;/p&gt;
+
+&lt;p&gt;これは、便利！&lt;/p&gt;
+
+&lt;p&gt;詳しくは、こちらのページをどうぞ。&lt;a href=&#34;https://stripe.com/jp/sigma&#34;&gt;Sigma&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;会場での懇親会&#34;&gt;会場での懇親会&lt;/h1&gt;
+
+&lt;p&gt;登壇が終わった後は、会場で名刺交換をしつつ情報交換です。&lt;/p&gt;
+
+&lt;p&gt;「チャリンチャリン(ビジネス)」とは何かという話がすごく盛り上がりました。この言葉って西日本方面だけなんですかね？&lt;/p&gt;
+
+&lt;h2 id=&#34;インシデント発生&#34;&gt;インシデント発生&lt;/h2&gt;
+
+&lt;p&gt;最初のビール決済ですが、実装者側の問題でインシデント発生というのが中の人から指摘があり、切り分けの調査開始。&lt;/p&gt;
+
+&lt;p&gt;すぐに原因が判明し、その場で再デプロイして、参加者は追加決済という対応がおこなわれました。日本版Incrementが出るときには是非事例紹介して欲しいですね。&lt;/p&gt;
+
+&lt;h1 id=&#34;更にディープな懇親会へ&#34;&gt;更にディープな懇親会へ&lt;/h1&gt;
+
+&lt;p&gt;ちなみに、会場の懇親会では盛り上がりすぎて１時間くらいたっても終わらないので、強制的に次の会場へ移動となり、そこでも盛り上がって閉店で追い出されました（苦笑&lt;/p&gt;
+
+&lt;p&gt;決済や各種サービスの色々な話が出たので面白かったのですが、大体書けない内容でしたね。&lt;/p&gt;
+
+&lt;p&gt;勉強会は、懇親会に参加して締めのラーメンまで楽しみましょう！&lt;/p&gt;
+
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;決済処理が簡単に実装できるので、様々なサービスに組み入れて請求業務を簡素化出来そうです。&lt;/p&gt;
+
+&lt;p&gt;しかも、ConnectやSigmaを使えば、会員制サービスとか売買プラットフォームまで構築できますね。&lt;/p&gt;
+
+&lt;p&gt;これから色々と楽しみです！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>コミュニティをまたいだ人のつながりがもたらす力 〜JAWS-UG青森 &amp; kintone Café 八戸 Vol.1に参加してきました！〜</title>
+      <link>https://www.r3it.com/blog/kintone/20170527_JAWS-UG_kintonecafe_hachinohe_vol1/</link>
+      <pubDate>Mon, 05 Jun 2017 11:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20170527_JAWS-UG_kintonecafe_hachinohe_vol1/</guid>
+      <description>
+
+&lt;p&gt;こんにちは、金春です。&lt;/p&gt;
+
+&lt;p&gt;2017年5月27日(土)に開催されたJAWS-UG青森 &amp;amp; kintone Café 八戸 Vol.1に参加してきました！&lt;/p&gt;
+
+&lt;h1 id=&#34;開催の経緯&#34;&gt;開催の経緯&lt;/h1&gt;
+
+&lt;p&gt;昨年からkintone Caféの支部を増やすべく特に東北地方で開催しているいただける方探す活動をしていたのですが、その結果として、kintone Café 秋田が3月25日に開催されました。&lt;/p&gt;
+
+&lt;p&gt;そこに参加されていた八戸の外舘さんが八戸での開催を決意され、同じく八戸の十文字さんとともに八戸でのkintone Caféが立ち上がるということになりました。&lt;/p&gt;
+
+&lt;p&gt;また、秋田のkintone Caféに参加され開催についての色々アドバイスをしてくださった立花さんがリアルタイムで八戸での開催を連絡くれたので、その場で「行くよ！」と返事したところ、じゃぁ同時にJAWS-UGもやろうとなって同日開催になったというのが今回の経緯です。&lt;/p&gt;
+
+&lt;p&gt;複数のコミュニティをまたいで人がつながることによって、今回のような場が作られていくことに、とても感激するとともに、ありがたい想いいっぱいで参加してきました。&lt;/p&gt;
+
+&lt;h1 id=&#34;しかし問題が&#34;&gt;しかし問題が・・・&lt;/h1&gt;
+
+&lt;p&gt;大阪から八戸への移動といえば、伊丹空港から三沢空港へ飛んでそこから電車で移動というのが一般的です。&lt;/p&gt;
+
+&lt;p&gt;しかし、&lt;a href=&#34;http://www.misawa-airport.co.jp/news/三沢空港滑走路補修工事に伴う運休について　　/&#34;&gt;三沢空港滑走路補修工事に伴う運休について （平成２９年５月１１日～７月４日）&lt;/a&gt; ということで、三沢空港の便がすべて運休という事態に・・・。&lt;/p&gt;
+
+&lt;p&gt;仕方ないので、青森空港へ飛んでレンタカーを借りて、八戸に行くという方法を取りましたが。これが意外と旅行気分でよかった、翌日の朝市にも気軽に行けたので、時間がない勉強会での出張はレンタカーでフットワークを軽くするのは良い手だなと知れました。&lt;/p&gt;
+
+&lt;h1 id=&#34;今回の会場&#34;&gt;今回の会場&lt;/h1&gt;
+
+&lt;p&gt;今回の会場は、kintone Café 八戸運営チームの1人である十文字さんの所属されている&lt;a href=&#34;http://www.daily-tohoku.co.jp/&#34;&gt;デーリー東北新聞社&lt;/a&gt;さんのホールをお借りしての開催となりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/1.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/1.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;jaws-ug青森&#34;&gt;JAWS-UG青森&lt;/h1&gt;
+
+&lt;p&gt;ここから、各セッションの模様をダイジェストでお届けします。（いつもながらの写真レポートです）&lt;/p&gt;
+
+&lt;p&gt;JAWS-UG青森は「AWSでフルマネージドサービスとかサーバレスとかその辺を中心に」ということで、マネージド・サービス＆サーバレスの事例のお話はハンズオンなどが行われました。&lt;/p&gt;
+
+&lt;h2 id=&#34;立花さん&#34;&gt;立花さん&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://heptagon.co.jp/&#34;&gt;ヘプタゴン&lt;/a&gt;の立花さんからは、東北地域を中心に実際に手がけてきたサーバレス案件の事例を紹介していただきました。AWS LambdaやRedshiftなどを効果的に使われており、非常に短期間でのリリースも実現されていて、さすが東北唯一のAWSパートナー企業という貫禄でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/2.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/2.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;熊谷さん&#34;&gt;熊谷さん&lt;/h2&gt;
+
+&lt;p&gt;次に、八戸工業大学の熊谷さんから、「AWSをさわったことがない大学生が勉強したこと」として、卒業研究でAWSを使おうとしているというお話がありました。斬新だったのは、登壇者が途中で「ではここからは質問です」と、逆に会場にいるメンバーに対してAWSに関しての質問をするスタイル。急な逆質問に会場に大人たちがざわざわしてしまうという事態に・・・しかし、ヘプタゴンの石澤さんが的確に回答されて、学生さんのセッションとしてとても有意義なセッションになりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/3.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/3.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;金春&#34;&gt;金春&lt;/h2&gt;
+
+&lt;p&gt;その次に、私から「kintoneのデータをAWSでごにょごにょする話」として、弊社でてがけてきたkintoneとAWSをうまく組み合わせるという事例についていくつかご紹介させていただきました。&lt;/p&gt;
+
+&lt;div style=&#34;width: 700px&#34;&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;146686de86a04b969ca0a0dccc932486&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ハンズオン-石澤さん-福井さん&#34;&gt;ハンズオン（石澤さん、福井さん）&lt;/h2&gt;
+
+&lt;p&gt;その後はハンズオンです。講師は、ヘプタゴンの石澤さんと&lt;a href=&#34;https://www.pieceofcake.co.jp/&#34;&gt;ピースオブケイク&lt;/a&gt;の
+福井さんです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/5.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/5.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/4.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/4.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;S3に画像を置く → AWS Lambda起動 → Rekognitionで画像のハッピー具合を認識 → 結果をkintoneに格納&lt;/p&gt;
+
+&lt;p&gt;という面白いハンズオンでした。
+サイボウズから参加されていたおんちゃんことLeeさんも真剣にハンズオンを実施&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/6.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/6.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;各自このハンズオンで登録した画像でハッピー度を計測して1位の人に、Amazon echo dot をプレゼントするという企画もついており、実は私がスコアはトップだったのですがdotを持っていることもあって辞退しまして、2位だった、サイボウズのおんちゃんにdotが贈呈されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/7.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/7.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;對馬さん&#34;&gt;對馬さん&lt;/h2&gt;
+
+&lt;p&gt;最後は、&lt;a href=&#34;https://www.hulft.com/&#34;&gt;セゾン情報システムズ&lt;/a&gt;の對馬さんのLTです。セミナー等で使うAWS環境が気がついたら多額の課金状態になっていて、調べてみたらいらないAMIなどがいっぱいあったという失敗談でした。コミュニティのいいところはこういった失敗談も聞けるところですね。&lt;/p&gt;
+
+&lt;p&gt;ただ、50個所有しているEIPのうち未使用10個残してるのはやりすぎだろ！と盛大に突っ込まれていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/8.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/8.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;kintone-café-八戸-vol-1&#34;&gt;kintone Café 八戸 Vol.1&lt;/h1&gt;
+
+&lt;p&gt;JAWS-UGにつづいて、記念すべきkintone Café 八戸 Vol.1が開催されました。&lt;/p&gt;
+
+&lt;h2 id=&#34;十文字さん&#34;&gt;十文字さん&lt;/h2&gt;
+
+&lt;p&gt;まずは、最初に書かいたような kintone Café 八戸が立ち上がることになった経緯について、十文字さんから説明がありました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/9.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/9.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;leeさん-おんちゃん&#34;&gt;Leeさん（おんちゃん）&lt;/h2&gt;
+
+&lt;p&gt;おんちゃんから、kintoneの概要とデモ。デモは常にリスクが伴うのですが、無事に安定したデモができていました。
+おんちゃんの自己紹介を聞いて、あまりにも流暢な日本語に全員が驚愕していたのが印象的でした。&lt;/p&gt;
+
+&lt;p&gt;あと、嵐ファンのおんちゃんのkintoneの画面は写真が撮れないくらいに嵐カスタマイズが入っていてそれも驚愕でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/10.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/10.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;十文字さん-1&#34;&gt;十文字さん&lt;/h2&gt;
+
+&lt;p&gt;十文字さんからはデーリー東北新聞社さんでどのようにkintoneを使っているかのご紹介がありました。無秩序にアプリができてしまうことを防ぐために、そのシステムの位置づけをきっちり定義した上で、kintoneでやるものやらないものを、そもそもシステムにしないものを整理されているのが印象的でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/11.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/11.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;金春-1&#34;&gt;金春&lt;/h2&gt;
+
+&lt;p&gt;前半のJAWS-UGでは、AWSとの連携の話を中心にしましたので、kintone Caféでは、「kintoneが切り開くシステム開発の未来」として、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;従来のシステム開発の問題点&lt;/li&gt;
+&lt;li&gt;弊社が実践しているハイスピードSIの考え方&lt;/li&gt;
+&lt;li&gt;現場中心でのkintone事例&lt;/li&gt;
+&lt;li&gt;これからのシステム開発者のありかた&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;といった点についてお話させていただきました。（資料はわけあって非公開とさせていただきます）&lt;/p&gt;
+
+&lt;h2 id=&#34;澤田さん&#34;&gt;澤田さん&lt;/h2&gt;
+
+&lt;p&gt;ヘプタゴンの澤田さんからは、ヘプタゴンでkintoneをどう使っているというお話。ライセンス管理のアプリのデモを、社内のレビューをするよりも先に、コミュニティで公開していました。しかも、これ前日に話すことが決まったとのことで、当日必死に資料を準備していた澤田さんが印象的でした。&lt;/p&gt;
+
+&lt;p&gt;ちなみに、澤田さんは学生時代からJAWS-UGに参加しており、その中で知り合ったヘプタゴンでインターンをして、そのまま就職するという、コミュニティが学生さんの就職活動の場としていかに優れているかを示す好例なので、ご興味のある方は澤田さんに話を聞いてみることをオススメします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/12.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/12.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ハンズオン-外舘さん&#34;&gt;ハンズオン（外舘さん）&lt;/h2&gt;
+
+&lt;p&gt;kintone Caféもハンズオン！ 外舘さんから「商品管理アプリ」「顧客管理アプリ」「注文管理アプリ」のハンズオンが行われました。プラグインの使い方も含めた実践的ハンズオンでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/13.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/13.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;おまけ&#34;&gt;おまけ&lt;/h1&gt;
+
+&lt;p&gt;翌日は朝から、&lt;a href=&#34;https://hachinohe-kanko.com/10stories/asaichi/tatehanaganpeki-asaichi&#34;&gt;館鼻岸壁朝市&lt;/a&gt;に行ってきました。普段は何も岸壁に日曜日だけ300店鋪出現するという大きな朝市です。&lt;/p&gt;
+
+&lt;p&gt;魚介類はもちろんのこと、パン屋さん、コーヒー屋さん、インド料理屋さんなどなんでもありの朝市です。せんべい汁やしょうがみそおでんを食べたりと朝市を堪能させてもらいました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/14.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/14.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170527/15.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170527/15.jpg&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>kintone Café 広島 Vol.2 で登壇達成！</title>
@@ -1218,59 +1499,6 @@
 &lt;h1 id=&#34;リレーブログ-その3に続きます-https-www-p-united-com-jaws-trips-html&#34;&gt;リレーブログ&lt;a href=&#34;https://www.p-united.com/jaws-trips.html&#34;&gt;その3に続きます&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;リレーブログ&lt;a href=&#34;http://blog.serverworks.co.jp/tech/2016/06/28/jaws-trips-korea-201605-01/&#34;&gt;その1はこちら&lt;/a&gt;です。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリーはDojoCon Japan 2016 をサポートしています</title>
-      <link>https://www.r3it.com/info/2016/dojoconjapan2016/</link>
-      <pubDate>Tue, 21 Jun 2016 11:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/dojoconjapan2016/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://dojocon.coderdojo.jp/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/community-support/dojoconjapan2016_banner-250-250.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;アールスリーインスティテュートは、DojoCon Japan 2016 ブロンズスポンサーとしてサポートしています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://dojocon.coderdojo.jp/&#34; target=&#34;_blank&#34;&gt;DojoCon Japan 2016 〜THE MORE DOJOS, THE MORE COOL CODERS.〜&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;coderdojoとは&#34;&gt;CoderDojoとは？&lt;/h1&gt;
-
-&lt;p&gt;CoderDojoは、2011年にアイルランドで始まった、子供達にプログラミングを学ぶ場を提供する世界的な非営利活動です。Dojoの数は世界中で1,000以上になります。&lt;/p&gt;
-
-&lt;p&gt;日本でも徐々に増えつつあり、38のDojoがありますが、参加を希望する子供に対してメンターやDojoが常に不足している状態です。
-既に参加倍率が2倍になっているDojoもあり、そのような現状を解決する目的でDojoConの開催が決まりました。&lt;/p&gt;
-
-&lt;h1 id=&#34;dojoconとは&#34;&gt;DojoConとは？&lt;/h1&gt;
-
-&lt;p&gt;CoderDojoのメンターやプログラムに興味がある子供たちをはじめ、活動に共感する人が集まる大規模なイベントです。
-ヨーロッパでは毎年開催され、CoderDojoやプログラミング教育に興味のある人にとって、貴重な体験ができるイベントとなっております。&lt;/p&gt;
-
-&lt;p&gt;今年8月に日本初となるDojoCon Japan 2016が開催される事が決まりました。&lt;br&gt;
-アールスリーインスティテュートは、本イベントの子供向けプログラミングに与える影響を大きいものと考え、サポートする事を決めました。&lt;/p&gt;
-
-&lt;p&gt;子供向けプログラミングに興味のある方は、是非ご参加ください。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリーはハッカーズチャンプルー2016をサポートしています</title>
-      <link>https://www.r3it.com/info/2016/support-hackers-champloo/</link>
-      <pubDate>Thu, 16 Jun 2016 14:00:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/support-hackers-champloo/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://hackers-champloo.org/2016/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/community-support/hc_logo_577x166.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;コミュニティにフルコミットを掲げているアールスリーインスティテュートは、ハッカーズチャンプルー2016 ゴールドスポンサーとしてコミュニティを支援しています。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hackers-champloo.org/2016/&#34;&gt;http://hackers-champloo.org/2016/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2016年6月22日(水)から6月25日(土)までの3泊4日で行われる開発合宿から、25日(土)に行われるカンファレンスまで、様々なバックグラウンドを持ったエンジニア同士のより良い交流と、各カンファレンスセッションによる感度の高いディスカッションや情報交換がなされることを期待しております。&lt;/p&gt;
-
-&lt;p&gt;アールスリーからも2名の社員が開発合宿から参加させて頂き、カンファレンスではその成果発表をさせていただきます。&lt;/p&gt;
-
-&lt;p&gt;当日会場にてお会いできることを、楽しみにしております！&lt;/p&gt;
 </description>
     </item>
     

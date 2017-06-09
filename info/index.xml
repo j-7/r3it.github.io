@@ -5,8 +5,361 @@
     <link>https://www.r3it.com/info/</link>
     <description>Recent content in Info on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 08 Feb 2017 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 19 May 2017 13:00:00 +0900</lastBuildDate>
     <atom:link href="https://www.r3it.com/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>kintone hive tokyoに合わせてkintoneのワークショップ課題を配布いたします</title>
+      <link>https://www.r3it.com/info/2017/kintone-hive-tokyo-vol5/</link>
+      <pubDate>Fri, 19 May 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2017/kintone-hive-tokyo-vol5/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/info/2017/kintone-hive-small.jpg&#34; alt=&#34;kintone hive&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年5月19日(金)に開催される「&lt;a href=&#34;https://kintone.cybozu.com/jp/event/hive/&#34;&gt;kintone hive tokyo vol.5&lt;/a&gt;」にて弊社金春が、立命館大学との取り組みについて発表させていただきます。&lt;/p&gt;
+
+&lt;p&gt;本日は、このkintone hiveの登壇に合わせまして、立命館大学にて昨年度使用しましたkintone実習課題を配布いたします。&lt;/p&gt;
+
+&lt;h2 id=&#34;ダウンロード&#34;&gt;ダウンロード&lt;/h2&gt;
+
+&lt;p&gt;資料はこちらからダウンロードしてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/files/info/2017/kintone_workshop.pdf&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/info/2017/download.png&#34; alt=&#34;&#34; /&gt;&amp;nbsp;kintone_workshop.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;同じ業務を別々の人がkintoneアプリとして作成すると面白い発見が色々ありますので、みなさんも是非トライしてみてください。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;ご注意&#34;&gt;ご注意&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;本資料の権利はアールスリーインスティテュートが所有しています&lt;/li&gt;
+&lt;li&gt;本ページよりダウンロードいただくことで無償でご利用いただけます&lt;/li&gt;
+&lt;li&gt;無断で改変、再配布することはご遠慮ください&lt;/li&gt;
+&lt;li&gt;本資料についてのお問い合わせはご遠慮ください&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、kintoneのアプリ管理サービス「gusuku」に「みみがAIアシスタント」を追加</title>
+      <link>https://www.r3it.com/info/2017/0401/</link>
+      <pubDate>Sat, 01 Apr 2017 07:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2017/0401/</guid>
+      <description>
+
+&lt;p&gt;アールスリーは、kintoneアプリを開発するすべてのかたをお助けするサービス「gusuku」に、公式キャラクター「みみが」に話しかけるだけでkintoneアプリを作成してくれる「みみがAIアシスタント」を追加したことを発表いたします。&lt;/p&gt;
+
+&lt;h2 id=&#34;みみがaiアシスタント機能とは&#34;&gt;みみがAIアシスタント機能とは？&lt;/h2&gt;
+
+&lt;p&gt;弊社が行っている対面開発では、お客様に普段行われている業務ややりたいことを語っていただきながらその場でkintoneアプリを作成していきます。
+この対面開発で蓄積した知見をビッグデータとして活用し、Deep Learningしたことによって「みみがAIアシスタント」が誕生しました。&lt;/p&gt;
+
+&lt;p&gt;お客様は、みみがにやりたい業務を話していただくだけで、みみがが自動的にkintoneにアプリを作成します。
+例えば、このような感じです&lt;/p&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     お客様
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-right&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+     みみが！ええ感じで在庫管理作って？
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     瑞慶覧みみが
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-left&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+     わらわに頼むとはいい度胸じゃ。
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     お客様
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-right&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+     うっ、スンマセン、そこをなんとか・・・
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     瑞慶覧みみが
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-left&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+   仕方ない、gusukuユーザーのおぬしの頼みだ、聞いてしんぜよう。&lt;br&gt;
+   在庫管理とは、意外と簡単そうで難しいのじゃ。ものの管理場所は複数あるのか？
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     お客様
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-right&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+    3拠点あるな。東京、大阪、福岡や。
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     瑞慶覧みみが
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-left&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+   3拠点か。では拠点別に管理できるようにしてやろう。
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;・・・とかなんとか、実際の対面開発のように進みます・・・&lt;/p&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     お客様
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-right&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+    う〜ん、そこもうちょっとええ感じにならん？
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     瑞慶覧みみが
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-left&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+   おぬしもなかなかこだわるな。
+   &lt;/p&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+   これでどうじゃ？
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     お客様
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-right&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+    そうそう、それ！
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;高度なAIによって「そこもうちょっとええ感じ」等の発言でさえお客様の意図を読み取りアプリを作成します。&lt;/p&gt;
+
+&lt;p&gt;もちろん、gusuku帳票機能を使った帳票作成にも対応しております。&lt;/p&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     お客様
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-right&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+    それ、A4の用紙1枚でええ感じに印刷できるようにしといて
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     瑞慶覧みみが
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-left&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+   印刷か、おぬし帳票オプションも契約しておるのか。やるな。
+   &lt;/p&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+   ほれ、これでどうじゃ？
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     お客様
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-right&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+    うんうん、これでいいよ！
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;作成されたアプリは、gusukuの優れたアプリバージョン管理機能によって管理されるため、以前のバージョンに戻したり、本番環境にアプリケーションを配布することも行うことが出来ます。&lt;/p&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     お客様
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-right&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+    よし、これでオーケーやから本番導入しよか？
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;kaiwa&#34;&gt;
+ &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
+   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
+ &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
+     瑞慶覧みみが
+ &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&#34;kaiwa-text-left&#34;&gt;
+   &lt;p class=&#34;kaiwa-text&#34;&gt;
+   うむ、では我が魔法を見せてやろう。本番リリースするぞ。
+   &lt;/p&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;「みみがAIアシスタント」によってお客様はkintoneアプリの管理の手間から解放されることをお約束します。&lt;/p&gt;
+
+&lt;h2 id=&#34;今日は4月1日ですね&#34;&gt;今日は4月1日ですね&lt;/h2&gt;
+
+&lt;p&gt;そうです、今日は4月1日です。残念ながら「みみがAIアシスタント」は実在しません・・・が、将来実現するべくアールスリーでは技術研鑽を続けておりますのでご期待ください。&lt;/p&gt;
+
+&lt;p&gt;それまでは、gusuku使ってくださいね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、西日本地域でkintone universityを実施</title>
+      <link>https://www.r3it.com/info/2017/start-kintone-university/</link>
+      <pubDate>Thu, 16 Mar 2017 13:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2017/start-kintone-university/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/kintone-university/kintoneunivlogo.png&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;kintoneを中心にクラウドを活用したシステム開発「ハイスピードSI」を提唱するアールスリーインスティテュート（大阪府大阪市中央区、代表取締役 加藤忠智）は、ICTコミュニケーションズ株式会社（東京都千代田区、代表取締役CEO 内野良昭）と業務提携し、kintone研修プログラム「&lt;a href=&#34;https://www.ictcom.jp/training/kintone-university/&#34;&gt;kintone university&lt;/a&gt;」を西日本地域で実施することで合意したことを発表いたします。&lt;/p&gt;
+
+&lt;h2 id=&#34;kintone-universityとは&#34;&gt;kintone universityとは&lt;/h2&gt;
+
+&lt;p&gt;ICTコミュニケーションズが独自に開発したテキストにより、
+サイボウズ社が提供する『kintone（キントーン）』を基礎から修得するための研修プログラム。実施回数100回以上　延べ受講者数550名以上の実績。（2017年2月時点）&lt;/p&gt;
+
+&lt;p&gt;「スペシャリスト編」「アプリデザイナー編」など、レベルに合わせて体系化されたカリキュラムで、短期間でkintoneを修得することができます。&lt;/p&gt;
+
+&lt;h2 id=&#34;実施概要&#34;&gt;実施概要&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大阪を皮切りに西日本地域（大阪以外の地域には順次拡大していきます）にてkintone universityの4コース（SP, AD, AD+, DP）を開講します&lt;/li&gt;
+&lt;li&gt;講師は、弊社でkintoneによるシステム開発に従事しているエンジニアが独自の趣向を凝らした形で担当します&lt;/li&gt;
+&lt;li&gt;弊社で受講していただいた場合の特典として、希望者にはサイボウズ公認エバンジェリストを含む弊社エンジニア陣とのkintoneでのシステム開発に関する個別相談を承ります（受講当日のみ）&lt;/li&gt;
+&lt;li&gt;弊社の講習では、通常のプログラムに加えて、弊社のkintone向けアプリ管理サービス「gusuku」の解説を行うことも計画しております&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/kintone-university/univ-201704release.png&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;想定する対象者&#34;&gt;想定する対象者&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自社でkintoneの開発を行うために短期にkintoneのことを理解したい方&lt;/li&gt;
+&lt;li&gt;開発自体は開発会社に依頼するとしても、開発会社と議論をするために一通りkintoneを理解しておきたい方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2017年4月の開講予定&#34;&gt;2017年4月の開講予定&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4月13日(木) SP(スペシャリスト編) 10:00〜17:00 ¥37,800(税込)&lt;/li&gt;
+&lt;li&gt;4月19日(水) AD(アプリデザイナー編) 10:00〜17:00 ¥43,200(税込)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;共に弊社大阪オフィスでの開催となります。&lt;/p&gt;
+
+&lt;p&gt;参加申込は、&lt;a href=&#34;http://bit.ly/r3-kintoneuniv201704&#34;&gt;http://bit.ly/r3-kintoneuniv201704&lt;/a&gt; にて受け付けています。&lt;/p&gt;
+
+&lt;h2 id=&#34;エンドースメント&#34;&gt;エンドースメント&lt;/h2&gt;
+
+&lt;h3 id=&#34;ictコミュニケーションズ株式会社-代表取締役ceo-内野-良昭様&#34;&gt;ICTコミュニケーションズ株式会社 代表取締役CEO 内野 良昭様&lt;/h3&gt;
+
+&lt;p&gt;アールスリーインスティテュート様のkintone universityのパートナーシップを大きな歓迎を持ってお慶び申し上げます。
+弊社ではIT研修15年以上の経験者が多く、kintone universityにおいても受講者から高い満足度アンケートを頂いております。さらに、テキストは成長中のkintoneのアップデートに合わせて改定も随時行っておりますので、アールスリー様からも高い評価を頂いております。
+今回の提携によって、kintone universityの全国展開において西日本エリアへサポート範囲が広がり、kintoneの導入企業様に対しての支援体制が強化されます。
+さらに、kintone開発力の高いアールスリー様ならでは付加価値の提供にも期待しております。&lt;/p&gt;
+
+&lt;h3 id=&#34;サイボウズ株式会社-執行役員-ビジネスマーケティング本部長-林田-保様&#34;&gt;サイボウズ株式会社 執行役員 ビジネスマーケティング本部長 林田 保様&lt;/h3&gt;
+
+&lt;p&gt;サイボウズ株式会社はアールスリーインスティテュートによる西日本地域での「kintone university」実施を心より歓迎いたします。
+kintone universityは、kintoneを活用し自社の業務効率や働き方改革を率先して進めるお客様をサポートする重要な取り組みです。
+本取り組みが多くの地域に拡大することで、多様な業務にご活用下さるお客様が増え、kintoneの可能性が広がることを期待しております。
+今後もパートナー企業様と一層の協力体制を構築し、日本全国のチームワークに貢献してまいります。&lt;/p&gt;
+
+&lt;h2 id=&#34;お問い合わせ&#34;&gt;お問い合わせ&lt;/h2&gt;
+
+&lt;p&gt;担当：池上 / 金春（こんぱる）
+TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
+
+&lt;p&gt;記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>【東京】今年初となる日本オプロ様との共催セミナーを開催します！</title>
@@ -532,115 +885,6 @@ IoTが自社ビジネスにどう関わっていくのかお悩みの方、是�
 &lt;p&gt;会場にて皆様とお会いできることを、楽しみにしております！&lt;/p&gt;
 
 &lt;p&gt;（8月23日修正：当初山形とお知らせしておりましたが、秋田が正しい情報でした。お詫びとともに訂正いたします。）&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>アールスリー、gusukuをBasic認証の設定が行われたkintone環境に対応</title>
-      <link>https://www.r3it.com/info/2016/gusuku-update-0727/</link>
-      <pubDate>Wed, 27 Jul 2016 10:45:06 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/gusuku-update-0727/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuからBasic認証の設定が行われたkintone環境に接続できる機能をリリースいたしました。&lt;/p&gt;
-
-&lt;p&gt;今までのgusukuではアクセス制限された環境に接続するには、IPアドレス制限でgusukuのサーバIPアドレスを許可していただくしか方法がなかったのですが、今回Basic認証の設定に対応したことで、より柔軟にkintoneへの接続を設定していただくことが可能になりました。&lt;/p&gt;
-
-&lt;p&gt;また、今回のBasic認証はExcel帳票オプションおよびデータバックアップオプションのどちらにも対応しております。帳票やデータバックアップオプションをご活用いただいておりますお客様におかれましても、ご利用いただくことが出来るようになっております。ぜひご活用ください。&lt;/p&gt;
-
-&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
-
-&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>kintoneプラグイン活用支援セミナー開催のお知らせ</title>
-      <link>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</link>
-      <pubDate>Mon, 25 Jul 2016 10:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;株式会社アプレッソ様-sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします&#34;&gt;株式会社アプレッソ様、Sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします！&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.appresso.com/&#34;&gt;株式会社アプレッソ様&lt;/a&gt;、&lt;a href=&#34;http://jp.corp-sansan.com/&#34;&gt;Sansan株式会社様&lt;/a&gt;と弊社の3社合同で、kintoneプラグイン活用支援セミナーを開催させていただくことになりましたのでお知らせいたします。&lt;/p&gt;
-
-&lt;p&gt;kintoneはプラグインを利用するとプログラミングを行わなくてもkintoneの活用の幅が一気に広がります。&lt;/p&gt;
-
-&lt;p&gt;今回は、そのようなkintoneの連携プラグインを提供している3社のソリューションをそれぞれご紹介させていただくセミナーとなります。&lt;/p&gt;
-
-&lt;p&gt;弊社からはkintoneのアプリ開発がより便利になる&lt;strong&gt;gusuku&lt;/strong&gt;をご紹介させていただきます。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;そもそもgusukuって何ができるの？&lt;/li&gt;
-&lt;li&gt;名前は知っているけど、どのような機能があるのか知りたい&lt;/li&gt;
-&lt;li&gt;具体的な活用方法を教えてほしい&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;などなど、gusukuについて知りたい方は是非本セミナーへお越し下さい！
-&lt;br&gt;
-&lt;br&gt;
-※セミナー終了後には&lt;strong&gt;個別相談会&lt;/strong&gt;も設けております。&lt;/p&gt;
-
-&lt;p&gt;実際に利用されていて疑問点・不明点がある方も、是非この機会にセミナーにお越し頂き、疑問点を解消して帰って頂ければと思います！
-&lt;br&gt;
-&lt;br&gt;
-お申し込みは以下からお願いいたします。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/762&#34;&gt;【2016/7/29/大阪】ノンプログラミングでここまでできる！kintone プラグイン活用支援セミナー&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>合同AWS勉強会開催のお知らせ</title>
-      <link>https://www.r3it.com/info/2016/swx-r3-joint-study-meeting-0719/</link>
-      <pubDate>Tue, 12 Jul 2016 10:00:00 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/info/2016/swx-r3-joint-study-meeting-0719/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/aws/swx_r3.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;サーバーワークス様と初の合同勉強会を開催いたします&#34;&gt;サーバーワークス様と初の合同勉強会を開催いたします&lt;/h2&gt;
-
-&lt;p&gt;先日&lt;a href=&#34;https://www.r3it.com/info/2016/cloud-diving-service/&#34;&gt;業務提携を発表させて頂きました&lt;/a&gt;サーバーワークス様と合同で、AWSの勉強会を開催することになりましたのでお知らせいたします。&lt;/p&gt;
-
-&lt;p&gt;今回は&lt;strong&gt;「Infrastructure as a Code」&lt;/strong&gt;をテーマにサーバーワークス様とアールスリーとの『あんなこと』や『こんなこと』を聞きながら、実際にワークショップ形式で学習して頂きます。
-&lt;br&gt;
-お申し込みは以下からお願いいたします。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/48973&#34;&gt;https://r3it.doorkeeper.jp/events/48973&lt;/a&gt;&lt;/strong&gt;
-&lt;br&gt;
-&lt;br&gt;
-当日は飲食をしながらのイベントとなります。参加者の皆さんでアルコールを交えながら、楽しくAWSを学んでみませんか？&lt;/p&gt;
-
-&lt;p&gt;AWSに興味のある方ならどなたでも参加&lt;strong&gt;大歓迎&lt;/strong&gt;です。&lt;/p&gt;
-
-&lt;p&gt;当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！&lt;/p&gt;
 </description>
     </item>
     
