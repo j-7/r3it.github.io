@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://www.r3it.com/</loc>
-    <lastmod>2017-07-01T11:00:00+09:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://www.r3it.com/blog/kintone/20170615_gusuku-meetup_osaka_vol1/</loc>
@@ -12,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://www.r3it.com/blog/community/20170623_CMC_Meetup_Tokyo_Vol_5/</loc>
+    <loc>https://www.r3it.com/blog/community/20170623_cmc_meetup_tokyo_vol_5/</loc>
     <lastmod>2017-06-29T19:30:10+09:00</lastmod>
   </url>
   
@@ -37,7 +33,7 @@
   </url>
   
   <url>
-    <loc>https://www.r3it.com/blog/kintone/20170527_JAWS-UG_kintonecafe_hachinohe_vol1/</loc>
+    <loc>https://www.r3it.com/blog/kintone/20170527_jaws-ug_kintonecafe_hachinohe_vol1/</loc>
     <lastmod>2017-06-05T11:30:10+09:00</lastmod>
   </url>
   
@@ -904,6 +900,114 @@
   <url>
     <loc>https://www.r3it.com/blog/author/konparu/</loc>
     <lastmod>2014-11-01T09:36:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/</loc>
+    <lastmod>2017-07-01T11:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/aws/</loc>
+    <lastmod>2017-06-29T19:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/blog/</loc>
+    <lastmod>2017-07-01T11:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/case/</loc>
+    <lastmod>2017-05-30T10:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/cloud/</loc>
+    <lastmod>2017-06-19T11:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/community/</loc>
+    <lastmod>2016-03-22T11:24:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/community/</loc>
+    <lastmod>2017-06-29T19:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/etc/</loc>
+    <lastmod>2017-06-19T11:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/event/</loc>
+    <lastmod>2017-06-19T16:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/gusuku/</loc>
+    <lastmod>2017-07-01T11:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/im/</loc>
+    <lastmod>2015-05-29T14:52:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/info/</loc>
+    <lastmod>2017-06-19T11:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/jawsug/</loc>
+    <lastmod>2017-06-29T19:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/kintone/</loc>
+    <lastmod>2017-07-01T11:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/oss/</loc>
+    <lastmod>2016-03-22T11:24:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/solutions/</loc>
+    <lastmod>2017-01-25T17:30:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/</loc>
+    <lastmod>2017-06-29T19:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.r3it.com/tags/talend/</loc>
+    <lastmod>2016-08-30T14:00:00+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -6,7 +6,9 @@
     <description>Recent content in Info on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 19 Jun 2017 11:00:00 +0900</lastBuildDate>
-    <atom:link href="https://www.r3it.com/info/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.r3it.com/info/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>ハイスピードSIのアールスリー、コーポレートロゴをリニューアル</title>
@@ -14,44 +16,15 @@
       <pubDate>Mon, 19 Jun 2017 11:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/logo_renewal/</guid>
-      <description>
-
-&lt;h1 id=&#34;クラウドを駆使したシステム開発の楽しさを伝える企業へ&#34;&gt;クラウドを駆使したシステム開発の楽しさを伝える企業へ&lt;/h1&gt;
-
-&lt;p&gt;キントーン、AWSを駆使したハイスピードSIを提供するアールスリーインスティテュート（本社：大阪府大阪市 代表取締役：加藤忠智）は、この度新たなブランドイメージ創出へ向けて、新しいコーポレートロゴを決定しました。2017年6月19日より順次、従来のロゴから切り替えて行きます。&lt;/p&gt;
-
-&lt;h2 id=&#34;新しいロゴ&#34;&gt;新しいロゴ&lt;/h2&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/logo_r3.png&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;新しいロゴに込めた想い&#34;&gt;新しいロゴに込めた想い&lt;/h2&gt;
-
-&lt;p&gt;新しいコーポレートロゴは、数々のキントーンでの対面開発で多くのお客様が言われる「今までのシステム開発と違って楽しい！」という言葉を込めました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ハイスピードSIによるシステム開発の楽しさ&lt;/li&gt;
-&lt;li&gt;様々なクラウドサービスを組み合わせるハイスピードSI&lt;/li&gt;
-&lt;li&gt;R3の3つの&amp;rdquo;R&amp;rdquo;（&amp;rdquo;Rapidity&amp;rdquo;, &amp;ldquo;Reliability&amp;rdquo;, &amp;ldquo;Relationship&amp;rdquo;）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;新コーポレートロゴと共に、ハイスピードSIをこれからもご紹介し、お客様にシステム開発の楽しさを体験していただきたいと考えております。&lt;/p&gt;
-
-&lt;p&gt;新コーポレートロゴは、6月20日から21日に開催される「CloudDays九州」にてお披露目いたします。ぜひ会場まで足をお運びください。&lt;/p&gt;
-
-&lt;h2 id=&#34;アールスリーインスティテュートについて&#34;&gt;アールスリーインスティテュートについて&lt;/h2&gt;
-
-&lt;p&gt;アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。&lt;/p&gt;
-
-&lt;h2 id=&#34;本件に関するお問い合わせ&#34;&gt;本件に関するお問い合わせ&lt;/h2&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663&lt;/p&gt;
-
-&lt;p&gt;Mail: info@r3it.com&lt;/p&gt;
-
-&lt;p&gt;担当： 金春（こんぱる）、西島&lt;/p&gt;
-</description>
+      <description>クラウドを駆使したシステム開発の楽しさを伝える企業へ キントーン、AWSを駆使したハイスピードSIを提供するアールスリーインスティテュート（本社：大阪府大阪市 代表取締役：加藤忠智）は、この度新たなブランドイメージ創出へ向けて、新しいコーポレートロゴを決定しました。2017年6月19日より順次、従来のロゴから切り替えて行きます。
+新しいロゴ 新しいロゴに込めた想い 新しいコーポレートロゴは、数々のキントーンでの対面開発で多くのお客様が言われる「今までのシステム開発と違って楽しい！」という言葉を込めました。
+ ハイスピードSIによるシステム開発の楽しさ 様々なクラウドサービスを組み合わせるハイスピードSI R3の3つの&amp;rdquo;R&amp;rdquo;（&amp;rdquo;Rapidity&amp;rdquo;, &amp;ldquo;Reliability&amp;rdquo;, &amp;ldquo;Relationship&amp;rdquo;）  新コーポレートロゴと共に、ハイスピードSIをこれからもご紹介し、お客様にシステム開発の楽しさを体験していただきたいと考えております。
+新コーポレートロゴは、6月20日から21日に開催される「CloudDays九州」にてお披露目いたします。ぜひ会場まで足をお運びください。
+アールスリーインスティテュートについて アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。
+本件に関するお問い合わせ アールスリーインスティテュート
+TEL: 06-6271-3663
+Mail: info@r3it.com
+担当： 金春（こんぱる）、西島</description>
     </item>
     
     <item>
@@ -60,33 +33,12 @@
       <pubDate>Fri, 19 May 2017 13:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/kintone-hive-tokyo-vol5/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/info/2017/kintone-hive-small.jpg&#34; alt=&#34;kintone hive&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2017年5月19日(金)に開催される「&lt;a href=&#34;https://kintone.cybozu.com/jp/event/hive/&#34;&gt;kintone hive tokyo vol.5&lt;/a&gt;」にて弊社金春が、立命館大学との取り組みについて発表させていただきます。&lt;/p&gt;
-
-&lt;p&gt;本日は、このkintone hiveの登壇に合わせまして、立命館大学にて昨年度使用しましたkintone実習課題を配布いたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;ダウンロード&#34;&gt;ダウンロード&lt;/h2&gt;
-
-&lt;p&gt;資料はこちらからダウンロードしてください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/files/info/2017/kintone_workshop.pdf&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/info/2017/download.png&#34; alt=&#34;&#34; /&gt;&amp;nbsp;kintone_workshop.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;同じ業務を別々の人がkintoneアプリとして作成すると面白い発見が色々ありますので、みなさんも是非トライしてみてください。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&#34;ご注意&#34;&gt;ご注意&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;本資料の権利はアールスリーインスティテュートが所有しています&lt;/li&gt;
-&lt;li&gt;本ページよりダウンロードいただくことで無償でご利用いただけます&lt;/li&gt;
-&lt;li&gt;無断で改変、再配布することはご遠慮ください&lt;/li&gt;
-&lt;li&gt;本資料についてのお問い合わせはご遠慮ください&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> 2017年5月19日(金)に開催される「kintone hive tokyo vol.5」にて弊社金春が、立命館大学との取り組みについて発表させていただきます。
+本日は、このkintone hiveの登壇に合わせまして、立命館大学にて昨年度使用しましたkintone実習課題を配布いたします。
+ダウンロード 資料はこちらからダウンロードしてください。
+&amp;nbsp;kintone_workshop.pdf
+同じ業務を別々の人がkintoneアプリとして作成すると面白い発見が色々ありますので、みなさんも是非トライしてみてください。
+ご注意  本資料の権利はアールスリーインスティテュートが所有しています 本ページよりダウンロードいただくことで無償でご利用いただけます 無断で改変、再配布することはご遠慮ください 本資料についてのお問い合わせはご遠慮ください  </description>
     </item>
     
     <item>
@@ -95,243 +47,9 @@
       <pubDate>Sat, 01 Apr 2017 07:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/0401/</guid>
-      <description>
+      <description>&lt;p&gt;アールスリーは、kintoneアプリを開発するすべてのかたをお助けするサービス「gusuku」に、公式キャラクター「みみが」に話しかけるだけでkintoneアプリを作成してくれる「みみがAIアシスタント」を追加したことを発表いたします。&lt;/p&gt;
 
-&lt;p&gt;アールスリーは、kintoneアプリを開発するすべてのかたをお助けするサービス「gusuku」に、公式キャラクター「みみが」に話しかけるだけでkintoneアプリを作成してくれる「みみがAIアシスタント」を追加したことを発表いたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;みみがaiアシスタント機能とは&#34;&gt;みみがAIアシスタント機能とは？&lt;/h2&gt;
-
-&lt;p&gt;弊社が行っている対面開発では、お客様に普段行われている業務ややりたいことを語っていただきながらその場でkintoneアプリを作成していきます。
-この対面開発で蓄積した知見をビッグデータとして活用し、Deep Learningしたことによって「みみがAIアシスタント」が誕生しました。&lt;/p&gt;
-
-&lt;p&gt;お客様は、みみがにやりたい業務を話していただくだけで、みみがが自動的にkintoneにアプリを作成します。
-例えば、このような感じです&lt;/p&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-     みみが！ええ感じで在庫管理作って？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-     わらわに頼むとはいい度胸じゃ。
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-     うっ、スンマセン、そこをなんとか・・・
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   仕方ない、gusukuユーザーのおぬしの頼みだ、聞いてしんぜよう。&lt;br&gt;
-   在庫管理とは、意外と簡単そうで難しいのじゃ。ものの管理場所は複数あるのか？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    3拠点あるな。東京、大阪、福岡や。
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   3拠点か。では拠点別に管理できるようにしてやろう。
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;・・・とかなんとか、実際の対面開発のように進みます・・・&lt;/p&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    う〜ん、そこもうちょっとええ感じにならん？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   おぬしもなかなかこだわるな。
-   &lt;/p&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   これでどうじゃ？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    そうそう、それ！
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;高度なAIによって「そこもうちょっとええ感じ」等の発言でさえお客様の意図を読み取りアプリを作成します。&lt;/p&gt;
-
-&lt;p&gt;もちろん、gusuku帳票機能を使った帳票作成にも対応しております。&lt;/p&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    それ、A4の用紙1枚でええ感じに印刷できるようにしといて
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   印刷か、おぬし帳票オプションも契約しておるのか。やるな。
-   &lt;/p&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   ほれ、これでどうじゃ？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    うんうん、これでいいよ！
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;作成されたアプリは、gusukuの優れたアプリバージョン管理機能によって管理されるため、以前のバージョンに戻したり、本番環境にアプリケーションを配布することも行うことが出来ます。&lt;/p&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    よし、これでオーケーやから本番導入しよか？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   うむ、では我が魔法を見せてやろう。本番リリースするぞ。
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;「みみがAIアシスタント」によってお客様はkintoneアプリの管理の手間から解放されることをお約束します。&lt;/p&gt;
-
-&lt;h2 id=&#34;今日は4月1日ですね&#34;&gt;今日は4月1日ですね&lt;/h2&gt;
-
-&lt;p&gt;そうです、今日は4月1日です。残念ながら「みみがAIアシスタント」は実在しません・・・が、将来実現するべくアールスリーでは技術研鑽を続けておりますのでご期待ください。&lt;/p&gt;
-
-&lt;p&gt;それまでは、gusuku使ってくださいね。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -340,71 +58,14 @@
       <pubDate>Thu, 16 Mar 2017 13:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/start-kintone-university/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/kintone-university/kintoneunivlogo.png&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;kintoneを中心にクラウドを活用したシステム開発「ハイスピードSI」を提唱するアールスリーインスティテュート（大阪府大阪市中央区、代表取締役 加藤忠智）は、ICTコミュニケーションズ株式会社（東京都千代田区、代表取締役CEO 内野良昭）と業務提携し、kintone研修プログラム「&lt;a href=&#34;https://www.ictcom.jp/training/kintone-university/&#34;&gt;kintone university&lt;/a&gt;」を西日本地域で実施することで合意したことを発表いたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-universityとは&#34;&gt;kintone universityとは&lt;/h2&gt;
-
-&lt;p&gt;ICTコミュニケーションズが独自に開発したテキストにより、
-サイボウズ社が提供する『kintone（キントーン）』を基礎から修得するための研修プログラム。実施回数100回以上　延べ受講者数550名以上の実績。（2017年2月時点）&lt;/p&gt;
-
-&lt;p&gt;「スペシャリスト編」「アプリデザイナー編」など、レベルに合わせて体系化されたカリキュラムで、短期間でkintoneを修得することができます。&lt;/p&gt;
-
-&lt;h2 id=&#34;実施概要&#34;&gt;実施概要&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;大阪を皮切りに西日本地域（大阪以外の地域には順次拡大していきます）にてkintone universityの4コース（SP, AD, AD+, DP）を開講します&lt;/li&gt;
-&lt;li&gt;講師は、弊社でkintoneによるシステム開発に従事しているエンジニアが独自の趣向を凝らした形で担当します&lt;/li&gt;
-&lt;li&gt;弊社で受講していただいた場合の特典として、希望者にはサイボウズ公認エバンジェリストを含む弊社エンジニア陣とのkintoneでのシステム開発に関する個別相談を承ります（受講当日のみ）&lt;/li&gt;
-&lt;li&gt;弊社の講習では、通常のプログラムに加えて、弊社のkintone向けアプリ管理サービス「gusuku」の解説を行うことも計画しております&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/kintone-university/univ-201704release.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;想定する対象者&#34;&gt;想定する対象者&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;自社でkintoneの開発を行うために短期にkintoneのことを理解したい方&lt;/li&gt;
-&lt;li&gt;開発自体は開発会社に依頼するとしても、開発会社と議論をするために一通りkintoneを理解しておきたい方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;2017年4月の開講予定&#34;&gt;2017年4月の開講予定&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;4月13日(木) SP(スペシャリスト編) 10:00〜17:00 ¥37,800(税込)&lt;/li&gt;
-&lt;li&gt;4月19日(水) AD(アプリデザイナー編) 10:00〜17:00 ¥43,200(税込)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;共に弊社大阪オフィスでの開催となります。&lt;/p&gt;
-
-&lt;p&gt;参加申込は、&lt;a href=&#34;http://bit.ly/r3-kintoneuniv201704&#34;&gt;http://bit.ly/r3-kintoneuniv201704&lt;/a&gt; にて受け付けています。&lt;/p&gt;
-
-&lt;h2 id=&#34;エンドースメント&#34;&gt;エンドースメント&lt;/h2&gt;
-
-&lt;h3 id=&#34;ictコミュニケーションズ株式会社-代表取締役ceo-内野-良昭様&#34;&gt;ICTコミュニケーションズ株式会社 代表取締役CEO 内野 良昭様&lt;/h3&gt;
-
-&lt;p&gt;アールスリーインスティテュート様のkintone universityのパートナーシップを大きな歓迎を持ってお慶び申し上げます。
-弊社ではIT研修15年以上の経験者が多く、kintone universityにおいても受講者から高い満足度アンケートを頂いております。さらに、テキストは成長中のkintoneのアップデートに合わせて改定も随時行っておりますので、アールスリー様からも高い評価を頂いております。
-今回の提携によって、kintone universityの全国展開において西日本エリアへサポート範囲が広がり、kintoneの導入企業様に対しての支援体制が強化されます。
-さらに、kintone開発力の高いアールスリー様ならでは付加価値の提供にも期待しております。&lt;/p&gt;
-
-&lt;h3 id=&#34;サイボウズ株式会社-執行役員-ビジネスマーケティング本部長-林田-保様&#34;&gt;サイボウズ株式会社 執行役員 ビジネスマーケティング本部長 林田 保様&lt;/h3&gt;
-
-&lt;p&gt;サイボウズ株式会社はアールスリーインスティテュートによる西日本地域での「kintone university」実施を心より歓迎いたします。
-kintone universityは、kintoneを活用し自社の業務効率や働き方改革を率先して進めるお客様をサポートする重要な取り組みです。
-本取り組みが多くの地域に拡大することで、多様な業務にご活用下さるお客様が増え、kintoneの可能性が広がることを期待しております。
-今後もパートナー企業様と一層の協力体制を構築し、日本全国のチームワークに貢献してまいります。&lt;/p&gt;
-
-&lt;h2 id=&#34;お問い合わせ&#34;&gt;お問い合わせ&lt;/h2&gt;
-
-&lt;p&gt;担当：池上 / 金春（こんぱる）
-TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
-
-&lt;p&gt;記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。&lt;/p&gt;
-</description>
+      <description>kintoneを中心にクラウドを活用したシステム開発「ハイスピードSI」を提唱するアールスリーインスティテュート（大阪府大阪市中央区、代表取締役 加藤忠智）は、ICTコミュニケーションズ株式会社（東京都千代田区、代表取締役CEO 内野良昭）と業務提携し、kintone研修プログラム「kintone university」を西日本地域で実施することで合意したことを発表いたします。
+kintone universityとは ICTコミュニケーションズが独自に開発したテキストにより、 サイボウズ社が提供する『kintone（キントーン）』を基礎から修得するための研修プログラム。実施回数100回以上　延べ受講者数550名以上の実績。（2017年2月時点）
+「スペシャリスト編」「アプリデザイナー編」など、レベルに合わせて体系化されたカリキュラムで、短期間でkintoneを修得することができます。
+実施概要  大阪を皮切りに西日本地域（大阪以外の地域には順次拡大していきます）にてkintone universityの4コース（SP, AD, AD+, DP）を開講します 講師は、弊社でkintoneによるシステム開発に従事しているエンジニアが独自の趣向を凝らした形で担当します 弊社で受講していただいた場合の特典として、希望者にはサイボウズ公認エバンジェリストを含む弊社エンジニア陣とのkintoneでのシステム開発に関する個別相談を承ります（受講当日のみ） 弊社の講習では、通常のプログラムに加えて、弊社のkintone向けアプリ管理サービス「gusuku」の解説を行うことも計画しております  想定する対象者  自社でkintoneの開発を行うために短期にkintoneのことを理解したい方 開発自体は開発会社に依頼するとしても、開発会社と議論をするために一通りkintoneを理解しておきたい方  2017年4月の開講予定  4月13日(木) SP(スペシャリスト編) 10:00〜17:00 ¥37,800(税込) 4月19日(水) AD(アプリデザイナー編) 10:00〜17:00 ¥43,200(税込)  共に弊社大阪オフィスでの開催となります。
+参加申込は、http://bit.ly/r3-kintoneuniv201704 にて受け付けています。
+エンドースメント ICTコミュニケーションズ株式会社 代表取締役CEO 内野 良昭様 アールスリーインスティテュート様のkintone universityのパートナーシップを大きな歓迎を持ってお慶び申し上げます。 弊社ではIT研修15年以上の経験者が多く、kintone universityにおいても受講者から高い満足度アンケートを頂いております。さらに、テキストは成長中のkintoneのアップデートに合わせて改定も随時行っておりますので、アールスリー様からも高い評価を頂いております。 今回の提携によって、kintone universityの全国展開において西日本エリアへサポート範囲が広がり、kintoneの導入企業様に対しての支援体制が強化されます。 さらに、kintone開発力の高いアールスリー様ならでは付加価値の提供にも期待しております。
+サイボウズ株式会社 執行役員 ビジネスマーケティング本部長 林田 保様 サイボウズ株式会社はアールスリーインスティテュートによる西日本地域での「kintone university」実施を心より歓迎いたします。 kintone universityは、kintoneを活用し自社の業務効率や働き方改革を率先して進めるお客様をサポートする重要な取り組みです。 本取り組みが多くの地域に拡大することで、多様な業務にご活用下さるお客様が増え、kintoneの可能性が広がることを期待しております。 今後もパートナー企業様と一層の協力体制を構築し、日本全国のチームワークに貢献してまいります。
+お問い合わせ 担当：池上 / 金春（こんぱる） TEL: 06-6271-3663 Email: university@r3it.</description>
     </item>
     
     <item>
@@ -413,54 +74,25 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Wed, 08 Feb 2017 18:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/opro_seminarinfo-0221/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2017/connect.png&#34;&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;2月21日-火-今年初となる日本オプロ様との共催セミナーを開催します&#34;&gt;2月21日（火）今年初となる日本オプロ様との共催セミナーを開催します！&lt;/h1&gt;
-
-&lt;p&gt;2月21日(火曜日)に、&lt;a href=&#34;https://www.opro.net/&#34;&gt;日本オプロ株式会社様&lt;/a&gt; と共催で&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#de9610&#34;&gt;サービス業＆製造業事例紹介『攻めのIT』セミナー&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;を開催します。&lt;/p&gt;
-
-&lt;p&gt;場所はサイボウズ様の日本橋オフィス、カジュアルなBARスペースをお借りしてのセミナーとなります。&lt;/p&gt;
-
-&lt;p&gt;セミナーに関しては普段はカンファレンスルームで行うことが多いので、今回はその意味でも一味ちがったセミナーの雰囲気が味わえると思います。&lt;/p&gt;
-
-&lt;p&gt;オプロ様からはkintoneのデータ活用に主眼を置いた自社ソリューションのご紹介、弊社からはハイスピードSIとkintoneのアプリ開発をハッピーにするツール、gusukuをご紹介します。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;【このような方におすすめです】&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintone活用の幅を広げたい方&lt;/li&gt;
-&lt;li&gt;これからkintoneの導入を検討している方&lt;/li&gt;
-&lt;li&gt;社内での新規事業立ち上げによりIT基盤の構築を検討している方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;また、セミナー後は&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;懇親会&lt;/font&gt;&lt;/b&gt;もあります。&lt;/p&gt;
-
-&lt;p&gt;業務システムで抱えていらっしゃるお困りごと・ご相談ごとなどございましたら、懇親会の場でしっかりお話お聞かせ下さいね。&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;お申込み多数につき募集は締め切らせていただきました。
-たくさんのお申込みありがとうございました。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;
-■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━■&lt;br&gt;
-■ サービス業＆製造業事例紹介『攻めのIT』セミナー&lt;br&gt;
-■ 開催日時： 2017年 2月 21日（火）&lt;br&gt;
-■ セミナー：16:00 〜 18:30（15:30 受付開始） / 懇親会：17:40 〜 18:30&lt;br&gt;
-■ サイボウズ株式会社　サイボウズBAR&lt;br&gt;
-■（東京都中央区日本橋2-7-1 東京日本橋タワー27階）&lt;br&gt;
-■ &lt;br&gt;
-■ お持ち物：名刺1枚、受講票、入館証&lt;br&gt;
-■ 参加費　：無料&lt;br&gt;
-■ 
-&lt;br&gt;
-■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━■&lt;br&gt;
-&lt;/p&gt;
-</description>
+      <description>2月21日（火）今年初となる日本オプロ様との共催セミナーを開催します！ 2月21日(火曜日)に、日本オプロ株式会社様 と共催で
+サービス業＆製造業事例紹介『攻めのIT』セミナー
+を開催します。
+場所はサイボウズ様の日本橋オフィス、カジュアルなBARスペースをお借りしてのセミナーとなります。
+セミナーに関しては普段はカンファレンスルームで行うことが多いので、今回はその意味でも一味ちがったセミナーの雰囲気が味わえると思います。
+オプロ様からはkintoneのデータ活用に主眼を置いた自社ソリューションのご紹介、弊社からはハイスピードSIとkintoneのアプリ開発をハッピーにするツール、gusukuをご紹介します。
+【このような方におすすめです】
+ kintone活用の幅を広げたい方 これからkintoneの導入を検討している方 社内での新規事業立ち上げによりIT基盤の構築を検討している方  また、セミナー後は懇親会もあります。
+業務システムで抱えていらっしゃるお困りごと・ご相談ごとなどございましたら、懇親会の場でしっかりお話お聞かせ下さいね。
+お申込み多数につき募集は締め切らせていただきました。 たくさんのお申込みありがとうございました。
+ ■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━■
+■ サービス業＆製造業事例紹介『攻めのIT』セミナー
+■ 開催日時： 2017年 2月 21日（火）
+■ セミナー：16:00 〜 18:30（15:30 受付開始） / 懇親会：17:40 〜 18:30
+■ サイボウズ株式会社　サイボウズBAR
+■（東京都中央区日本橋2-7-1 東京日本橋タワー27階）
+■ ■ お持ち物：名刺1枚、受講票、入館証
+■ 参加費　：無料
+■ ■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━■</description>
     </item>
     
     <item>
@@ -469,54 +101,25 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Wed, 25 Jan 2017 14:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/jawsdays2017-info/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2017.jaws-ug.jp/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2017/JAWSDAYS_2017_fbcover.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;2017年もコミュニティにフルコミット&#34;&gt;2017年もコミュニティにフルコミット&lt;/h1&gt;
-
-&lt;p&gt;3月11日(土曜日)に、AWSの全国規模のユーザーイベント&lt;b&gt;&lt;font color=&#34;#ff8c00&#34;&gt;JAWS DAYS 2017&lt;/font&gt;&lt;/b&gt;が開催されます。&lt;/p&gt;
-
-&lt;p&gt;その&lt;strong&gt;JAWS DAYS&lt;/strong&gt;で、アールスリーは今年もサポーターを務めさせていただきます。&lt;/p&gt;
-
-&lt;p&gt;業務と両立して、事前準備から精力的に関わっているスタッフもいますよ。&lt;/p&gt;
-
-&lt;h2 id=&#34;jaws-days-とは&#34;&gt;JAWS DAYS とは&lt;/h2&gt;
-
-&lt;p&gt;全国のJAWS-UGメンバーが中心となり、ボランティアベースでイベントの企画、準備を行い、最新技術からビジネス、ライフスタイルなどAWSに関わる幅広いテーマの様々なセッションが開催されます。&lt;/p&gt;
-
-&lt;p&gt;JAWS DAYSは主催JAWS-UG、後援AWSJ（アマゾン ウェブ サービス ジャパン）で行われるJAWS-UG最大のイベントで、今年で&lt;strong&gt;5回目&lt;/strong&gt;となります。&lt;/p&gt;
-
-&lt;p&gt;今年のテーマは&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;FF0000&#34;&gt;「Link Up！」&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;日常ではなかなか会えることができない人たちと出会い、新しい世界が見えてくる…JAWS DAYSにはたくさんの可能性があります。&lt;/p&gt;
-
-&lt;p&gt;あなたもそんなイベントに足を運んでみたくなりませんか？？&lt;/p&gt;
-
-&lt;p&gt;きっと期待は裏切りません♪^^&lt;/p&gt;
-
-&lt;p&gt;是非この機会に会場までお越し下さい！&lt;/p&gt;
-
-&lt;h1 id=&#34;awsだけじゃない-kintoneとawsのコラボレーション&#34;&gt;AWSだけじゃない。kintoneとAWSのコラボレーション&lt;/h1&gt;
-
-&lt;p&gt;今年はコミュニティとの繋がりにも力を入れているJAWS DAYS。&lt;/p&gt;
-
-&lt;p&gt;金春が、JAWS-UGとしてではなく、&lt;b&gt;&lt;font color=&#34;#edc600&#34;&gt;kintone Café&lt;/font&gt;&lt;/b&gt;としての立場から&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;FF0000&#34;&gt;kintoneとAWSとの良い関係&lt;/font&gt;&lt;/b&gt;について、実例を交えながらお話させていただきます。&lt;/p&gt;
-
-&lt;p&gt;こちらのセッションも是非ご覧下さい！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jawsdays2017.jaws-ug.jp/session/1170&#34;&gt;kintoneとAWSのよい関係（仮）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今後もたくさんの企画が続々と公開される予定です。&lt;/p&gt;
-
-&lt;p&gt;会場は東京ですが、大阪・名古屋から出発する片道分の無料バスもあります。&lt;/p&gt;
-
-&lt;p&gt;例年こちらを利用してたくさんの方にお越しいただいています。&lt;/p&gt;
-
-&lt;p&gt;開催まで&lt;strong&gt;45日。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;たくさんの方と会場でお会いできることを楽しみにしています！&lt;/p&gt;
-</description>
+      <description>2017年もコミュニティにフルコミット 3月11日(土曜日)に、AWSの全国規模のユーザーイベントJAWS DAYS 2017が開催されます。
+そのJAWS DAYSで、アールスリーは今年もサポーターを務めさせていただきます。
+業務と両立して、事前準備から精力的に関わっているスタッフもいますよ。
+JAWS DAYS とは 全国のJAWS-UGメンバーが中心となり、ボランティアベースでイベントの企画、準備を行い、最新技術からビジネス、ライフスタイルなどAWSに関わる幅広いテーマの様々なセッションが開催されます。
+JAWS DAYSは主催JAWS-UG、後援AWSJ（アマゾン ウェブ サービス ジャパン）で行われるJAWS-UG最大のイベントで、今年で5回目となります。
+今年のテーマは「Link Up！」
+日常ではなかなか会えることができない人たちと出会い、新しい世界が見えてくる…JAWS DAYSにはたくさんの可能性があります。
+あなたもそんなイベントに足を運んでみたくなりませんか？？
+きっと期待は裏切りません♪^^
+是非この機会に会場までお越し下さい！
+AWSだけじゃない。kintoneとAWSのコラボレーション 今年はコミュニティとの繋がりにも力を入れているJAWS DAYS。
+金春が、JAWS-UGとしてではなく、kintone Caféとしての立場からkintoneとAWSとの良い関係について、実例を交えながらお話させていただきます。
+こちらのセッションも是非ご覧下さい！
+kintoneとAWSのよい関係（仮）
+今後もたくさんの企画が続々と公開される予定です。
+会場は東京ですが、大阪・名古屋から出発する片道分の無料バスもあります。
+例年こちらを利用してたくさんの方にお越しいただいています。
+開催まで45日。
+たくさんの方と会場でお会いできることを楽しみにしています！</description>
     </item>
     
     <item>
@@ -525,30 +128,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Thu, 19 Jan 2017 18:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/gusuku-update-0119/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuアップデート201701をリリースいたしました。&lt;/p&gt;
-
-&lt;p&gt;201701リリースでは、多数のご要望をいただいていた定期バックアップや、Excel帳票の特殊マクロ強化、別環境への移動がスムーズに行えるようになるなど、お客様からのお声を反映しつつ、操作性も改善したアップデートリリースとなっております。&lt;/p&gt;
-
-&lt;p&gt;すべてのアップデートの内容は、&lt;a href=&#34;https://docs.gusuku.io/releases/&#34;&gt;リリースノート&lt;/a&gt;にてご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -557,65 +139,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Tue, 13 Dec 2016 14:30:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-meetup-tokyo-vol1/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/logo_gusuku_meetup.png&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/logo_gusuku_meetup.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/logo_gusuku_meetup.png&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/logo_gusuku_meetup.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-meetup-tokyo-vol-1-開催します&#34;&gt;gusuku Meetup TOKYO Vol.1 開催します！&lt;/h1&gt;
-
-&lt;p&gt;年明け2017年1月20日（金）に東京・サイボウズさんの日本橋オフィスにて&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;gusuku（グスク）に興味があるユーザー様&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;gusukuをすでに利用されているユーザー様&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;を対象にしたミートアップを開催することが決定しました！&lt;/p&gt;
-
-&lt;p&gt;gusukuのユーザー様も徐々に増えてまいりましたが、&lt;/p&gt;
-
-&lt;p&gt;ご利用頂く中で&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;「ここはどうなの？」&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;「こういう使い方できないの？」&lt;/strong&gt; 等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;皆さんいろいろな疑問が沸いていることと思います。&lt;/p&gt;
-
-&lt;p&gt;そんな中、ユーザー様同士がフランクに&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;情報交換・意見交換をし合える場&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;があったらいいのではないか？ということで。&lt;/p&gt;
-
-&lt;p&gt;今回めでたくミートアップを開催することになりました。&lt;/p&gt;
-
-&lt;p&gt;ミートアップの詳細は下記からどうぞ。&lt;/p&gt;
-
-&lt;p&gt;■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-■&lt;/p&gt;
-
-&lt;p&gt;■ &lt;strong&gt;gusuku Meetup TOKYO Vol.1&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;■ 会場：サイボウズ日本橋オフィス（東京日本橋タワー27F）&lt;/p&gt;
-
-&lt;p&gt;■ 日時：&lt;strong&gt;2017 年 1 月 20 日（金）&lt;/strong&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/55200&#34;&gt;https://r3it.doorkeeper.jp/events/55200&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━■&lt;/p&gt;
-
-&lt;p&gt;今回は&lt;strong&gt;軽食&lt;/strong&gt;をご用意しています。&lt;/p&gt;
-
-&lt;p&gt;食べながら、飲みながらgusukuについて仲間同士語り合いましょう！&lt;/p&gt;
-
-&lt;p&gt;gusukuを通じてユーザー様同士の交流が深まることを期待しています。&lt;/p&gt;
-
-&lt;p&gt;尚、当日は&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;gusukuエバンジェリスト&lt;/font&gt;&lt;/b&gt;も参加します。&lt;/p&gt;
-
-&lt;p&gt;gusukuミートアップは、今後も定期的に開催を予定しています。&lt;/p&gt;
-
-&lt;p&gt;今回残念ながら都合がつかず参加できなかった方も、また後日ご参加頂けることを楽しみにしています。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -624,30 +150,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Thu, 10 Nov 2016 10:38:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-ambassador-program-start/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_ambassador_1200x639.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_ambassador_1200x639.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h1 id=&#34;アールスリー-gusukuアンバサダー-プログラムを開始&#34;&gt;アールスリー、gusukuアンバサダー・プログラムを開始&lt;/h1&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日アールスリー、gusukuアンバサダー・プログラムを開始いたしました。&lt;/p&gt;
-
-&lt;p&gt;gusukuアンバサダー・プログラムはgusukuを応援してくださる方を「アンバサダー」として任命させて頂くプログラムです。&lt;/p&gt;
-
-&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;https://gusuku.io/ambassador/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -656,30 +161,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Wed, 09 Nov 2016 10:38:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-friends-program-start/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_friends.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_friends.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h1 id=&#34;アールスリー-gusuku紹介プログラムを開始&#34;&gt;アールスリー、gusuku紹介プログラムを開始&lt;/h1&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusuku紹介プログラムを開始いたしました。&lt;/p&gt;
-
-&lt;p&gt;gusuku紹介プログラムは、既にgusukuをご利用の方が新しいお客様を紹介してくださった際に、紹介したほう・されたほう双方に割引が適用されるプログラムです。&lt;/p&gt;
-
-&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;https://gusuku.io/friends/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -688,46 +172,15 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Mon, 31 Oct 2016 17:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/cybozudays-2016/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/cybozudays2016/cybozudays2016_top.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;11月9日（水）・10日（木）東京、12月6日（火）大阪&lt;/strong&gt;の2会場で開催されるサイボウズ社主催の総合イベント&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FA8072&#34;&gt;『Cybozu Days 2016』&lt;/font&gt;&lt;/b&gt;で出展させて頂きますのでそのお知らせです！&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;11月9日・10日　tokyo　（幕張メッセ）&lt;/li&gt;
-&lt;li&gt;12月6日　　　　osaka　（グランフロント大阪 コングレコンベンションセンター）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;東京は2日間&#34;&gt;東京は2日間！&lt;/h2&gt;
-
-&lt;p&gt;東京1日目は &lt;strong&gt;User&amp;rsquo;s Academy&lt;/strong&gt; として、ユーザーや開発者向けのワークショップが開催されます！&lt;/p&gt;
-
-&lt;p&gt;1日目はブース出展はありませんが、実績豊富なデベロッパが集いトークセッションが繰り広げられる
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;&lt;font size=&#34;6&#34; color=&#34;#FF8C00&#34;&gt;『kintone hack 〜ここまでできるkintone〜』&lt;/font&gt;&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;
-の中の1人として弊社金春が登壇致します。
-&lt;br&gt;
-&lt;br&gt;
-2日目は&lt;strong&gt;総合カンファレンス&lt;/strong&gt;となっており、ブース展示もあります。&lt;/p&gt;
-
-&lt;p&gt;弊社も従来のイベントとはひと味違った企画をご用意して皆様をお出迎え致します。&lt;/p&gt;
-
-&lt;h2 id=&#34;大阪は今回が初開催&#34;&gt;大阪は今回が初開催！&lt;/h2&gt;
-
-&lt;p&gt;遠方で東京にお越し頂くことが難しい方は、是非12月6日（火）に開催される&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;Cybozu Days 2016 osaka&lt;/font&gt;&lt;/b&gt;にお越し下さい！&lt;/p&gt;
-
-&lt;p&gt;今回初開催となる大阪は、ギュッと凝縮された、密度の濃い1日となること間違いなしです。&lt;/p&gt;
-
-&lt;p&gt;皆様に会場でお会いできるのを楽しみにしております！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozuconf.com/&#34;&gt;Cybozu Days 2016 お申込みはこちらから&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>11月9日（水）・10日（木）東京、12月6日（火）大阪の2会場で開催されるサイボウズ社主催の総合イベント
+『Cybozu Days 2016』で出展させて頂きますのでそのお知らせです！
+ 11月9日・10日　tokyo　（幕張メッセ） 12月6日　osaka　（グランフロント大阪 コングレコンベンションセンター）  東京は2日間！ 東京1日目は User&amp;rsquo;s Academy として、ユーザーや開発者向けのワークショップが開催されます！
+1日目はブース出展はありませんが、実績豊富なデベロッパが集いトークセッションが繰り広げられる 『kintone hack 〜ここまでできるkintone〜』 の中の1人として弊社金春が登壇致します。 2日目は総合カンファレンスとなっており、ブース展示もあります。
+弊社も従来のイベントとはひと味違った企画をご用意して皆様をお出迎え致します。
+大阪は今回が初開催！ 遠方で東京にお越し頂くことが難しい方は、是非12月6日（火）に開催されるCybozu Days 2016 osakaにお越し下さい！
+今回初開催となる大阪は、ギュッと凝縮された、密度の濃い1日となること間違いなしです。
+皆様に会場でお会いできるのを楽しみにしております！
+Cybozu Days 2016 お申込みはこちらから</description>
     </item>
     
     <item>
@@ -736,24 +189,13 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Wed, 14 Sep 2016 14:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/nara-iot-seminar/</guid>
-      <description>
-
-&lt;p&gt;IoTを活用した中小企業の事業化支援に力を入れている奈良県が主催で、IoTに関するセミナーが開催されます。&lt;/p&gt;
-
-&lt;p&gt;弊社アールスリーインスティテュートは、IoTチャレンジ応援企業として会場内でブース出展させて頂きます。&lt;/p&gt;
-
-&lt;p&gt;当日は、kintoneとAWSを組み合わせたIoTの活用事例として、オプテックス株式会社様のIoT事例をご紹介させて頂く予定です。&lt;/p&gt;
-
-&lt;h2 id=&#34;iot事業化セミナーについて&#34;&gt;IoT事業化セミナーについて&lt;/h2&gt;
-
-&lt;p&gt;さくらインターネット様を始め、IoTを使った取り組みを進められている企業様の事例を通じて、IoTを身近に感じる事ができるセミナーです。
-IoTが自社ビジネスにどう関わっていくのかお悩みの方、是非ご参加下さい。&lt;/p&gt;
-
-&lt;p&gt;　開催日：2016年9月28日&lt;br&gt;
-　場所　：奈良県文化会館&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;詳しい情報、お申込は&lt;a href=&#34;http://www.pref.nara.jp/item/163208.htm&#34;&gt;奈良県のホームページ&lt;/a&gt;をご覧下さい。&lt;/p&gt;
-</description>
+      <description>IoTを活用した中小企業の事業化支援に力を入れている奈良県が主催で、IoTに関するセミナーが開催されます。
+弊社アールスリーインスティテュートは、IoTチャレンジ応援企業として会場内でブース出展させて頂きます。
+当日は、kintoneとAWSを組み合わせたIoTの活用事例として、オプテックス株式会社様のIoT事例をご紹介させて頂く予定です。
+IoT事業化セミナーについて さくらインターネット様を始め、IoTを使った取り組みを進められている企業様の事例を通じて、IoTを身近に感じる事ができるセミナーです。 IoTが自社ビジネスにどう関わっていくのかお悩みの方、是非ご参加下さい。
+　開催日：2016年9月28日
+場所　：奈良県文化会館
+詳しい情報、お申込は奈良県のホームページをご覧下さい。</description>
     </item>
     
     <item>
@@ -762,78 +204,18 @@ IoTが自社ビジネスにどう関わっていくのかお悩みの方、是�
       <pubDate>Tue, 06 Sep 2016 15:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/the-kansai-recruit-0922/</guid>
-      <description>
+      <description> 
+9月22日（祝日：秋分の日）に開催される、「IT企業合同採用イベント☆ザ･関西！！」のお知らせです。
+関西の元気なIT企業5社が合同勉強会を開催 大阪に拠点を持ち、様々な技術分野を得意とするクラウドやコミュニティの支援に積極的な企業が一同に介し、それぞれ独自のセッションを行う、非常にユニークな勉強会スタイルのイベントです。
+参加すべきかた  関西方面で新しい技術に興味があるかた 社会人のかたで「となりの青い芝を見てみたい」と思っているかた 来年就職活動予定の学生・院生のかたで、インターン/アルバイト先を探しているかた 単純にセッションの内容に興味のあるかた  などなど、ちょっと覗いてみたいな？と思ったかたはどなたでも大歓迎です。参加無料ですが、お飲み物と軽食をご用意してお待ちしております。
+いわゆる一般的な企業説明会などと違い、勉強会スタイルで新しい技術に触れ、ついでに中の人ともゆっくり話が出来る、とってもお得なイベントです。
+是非皆様のご参加をお待ちしております。お申込はこちらです。
 
-&lt;p&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/banner/kansai-recruit1609/banner_970x120.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;9月22日（祝日：秋分の日）に開催される、「IT企業合同採用イベント☆ザ･関西！！」のお知らせです。&lt;/p&gt;
-
-&lt;h2 id=&#34;関西の元気なit企業5社が合同勉強会を開催&#34;&gt;関西の元気なIT企業5社が合同勉強会を開催&lt;/h2&gt;
-
-&lt;p&gt;大阪に拠点を持ち、様々な技術分野を得意とするクラウドやコミュニティの支援に積極的な企業が一同に介し、それぞれ独自のセッションを行う、非常にユニークな勉強会スタイルのイベントです。&lt;/p&gt;
-
-&lt;h2 id=&#34;参加すべきかた&#34;&gt;参加すべきかた&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;関西方面で新しい技術に興味があるかた&lt;/li&gt;
-&lt;li&gt;社会人のかたで「となりの青い芝を見てみたい」と思っているかた&lt;/li&gt;
-&lt;li&gt;来年就職活動予定の学生・院生のかたで、インターン/アルバイト先を探しているかた&lt;/li&gt;
-&lt;li&gt;単純にセッションの内容に興味のあるかた&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;などなど、ちょっと覗いてみたいな？と思ったかたはどなたでも大歓迎です。参加無料ですが、お飲み物と軽食をご用意してお待ちしております。&lt;/p&gt;
-
-&lt;p&gt;いわゆる一般的な企業説明会などと違い、勉強会スタイルで新しい技術に触れ、ついでに中の人ともゆっくり話が出来る、とってもお得なイベントです。&lt;/p&gt;
-
-&lt;p&gt;是非皆様のご参加をお待ちしております。&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;お申込はこちら&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;&lt;img class=&#34;wide-image&#34; width=&#34;400&#34; src=&#34;https://www.r3it.com/images/banner/kansai-recruit1609/photo-1434989407504-46a53b1b8a6d.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;弊社のセッションのご紹介&#34;&gt;弊社のセッションのご紹介&lt;/h1&gt;
-
-&lt;p&gt;各社非常に興味深いセッションが並びます。その中で弊社のセッションとスピーカーをご紹介します。&lt;/p&gt;
-
-&lt;h2 id=&#34;メイントラック-クラウドとgo言語とリモートワーク&#34;&gt;メイントラック：【クラウドとGo言語とリモートワーク】&lt;/h2&gt;
-
-&lt;div class=&#34;media&#34;&gt;
-  &lt;div class=&#34;media-left media-top&#34;&gt;
-    &lt;img class=&#34;media-object&#34; src=&#34;https://www.r3it.com/images/blog/author/nishijima-100x100.png&#34;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;media-body&#34;&gt;
-    &lt;h4 class=&#34;media-heading&#34;&gt;スピーカー：ソリューションアーキテクト 西島&lt;/h4&gt;
-    &lt;p&gt;沖縄の自宅からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。オープンソースとクラフトビールをこよなく愛する。&lt;br&gt;
-    著書（共著）：&lt;a href=&#34;https://www.amazon.co.jp/dp/4839959595/&#34; target=&#34;_blank&#34;&gt;効果的な導入・運用のための　Amazon Web Services活用入門&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;セッション概要&#34;&gt;セッション概要：&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;AWSやkintoneといったクラウドやGo言語などの技術を上手く使いこなして、企業情報システムの未来を作るのは君だ！
-
-弊社アールスリーインスティテュートで日々行われている開発にはJavaからGo言語、JavaScriptを用いたkintoneカスタマイズからAWS上に構築された自社サービスの運営まで色々あります。
-そんな開発を場所にとらわれず行っている日々の日常を少しだけご紹介します。
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;サブセッション-チラ見せします-kintoneって何&#34;&gt;サブセッション：【チラ見せします「kintoneって何？」】&lt;/h2&gt;
-
-&lt;div class=&#34;media&#34;&gt;
-  &lt;div class=&#34;media-left media-top&#34;&gt;
-    &lt;img class=&#34;media-object&#34; src=&#34;https://www.r3it.com/images/blog/author/ikegami-100x100.png&#34;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;media-body&#34;&gt;
-    &lt;h4 class=&#34;media-heading&#34;&gt;スピーカー：クラウドエンジニア　池上&lt;/h4&gt;
-    &lt;p&gt;エンジニアと思われないが正真正銘のエンジニア。&lt;a href=&#34;https://gusuku.io/&#34; target=&#34;_blank&#34;&gt;gusukuエバンジェリスト&lt;/a&gt;。&lt;br&gt;kintoneの勉強会で講師を務めたり、コミュニティの運営したり展示会などのイベントはもとより、勉強会やハッカソンでコスプレして参加したりしています。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;セッション概要-1&#34;&gt;セッション概要：&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;聞いたことがあるかたもないかたも、これからのクラウド時代「kintone（キントーン）」を知らないと社会人人生かなり損します。
-このセッションでは簡単なデモを交えながら、kintoneとはなんぞや？ということをご紹介し、これがこれからの情報システムのありかたの未来をちょっとだけお見せします。
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;会場でお会いできること-お待ちしております-http-kansai-recruit-connpass-com-event-37107&#34;&gt;&lt;a href=&#34;http://kansai-recruit.connpass.com/event/37107/&#34;&gt;会場でお会いできること、お待ちしております&lt;/a&gt;&lt;/h2&gt;
-</description>
+弊社のセッションのご紹介 各社非常に興味深いセッションが並びます。その中で弊社のセッションとスピーカーをご紹介します。
+メイントラック：【クラウドとGo言語とリモートワーク】  スピーカー：ソリューションアーキテクト 西島 沖縄の自宅からリモートワークで参画している根っからのクラウド・コミュニティ大好き人間。オープンソースとクラフトビールをこよなく愛する。
+著書（共著）：効果的な導入・運用のための　Amazon Web Services活用入門   セッション概要： AWSやkintoneといったクラウドやGo言語などの技術を上手く使いこなして、企業情報システムの未来を作るのは君だ！ 弊社アールスリーインスティテュートで日々行われている開発にはJavaからGo言語、JavaScriptを用いたkintoneカスタマイズからAWS上に構築された自社サービスの運営まで色々あります。 そんな開発を場所にとらわれず行っている日々の日常を少しだけご紹介します。  サブセッション：【チラ見せします「kintoneって何？」】  スピーカー：クラウドエンジニア　池上 エンジニアと思われないが正真正銘のエンジニア。gusukuエバンジェリスト。
+kintoneの勉強会で講師を務めたり、コミュニティの運営したり展示会などのイベントはもとより、勉強会やハッカソンでコスプレして参加したりしています。
+  セッション概要： 聞いたことがあるかたもないかたも、これからのクラウド時代「kintone（キントーン）」を知らないと社会人人生かなり損します。 このセッションでは簡単なデモを交えながら、kintoneとはなんぞや？ということをご紹介し、これがこれからの情報システムのありかたの未来をちょっとだけお見せします。  会場でお会いできること、お待ちしております </description>
     </item>
     
     <item>
@@ -842,28 +224,10 @@ IoTが自社ビジネスにどう関わっていくのかお悩みの方、是�
       <pubDate>Tue, 30 Aug 2016 14:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/kintone-casestudy-release-0830/</guid>
-      <description>
+      <description>ハイスピードSI事例公開　ヤマハ発動機様 本日2016年8月30日付で弊社のお客様ヤマハ発動機様のkintoneを利用したシステム導入事例が公開されました。
 
-&lt;h1 id=&#34;ハイスピードsi事例公開-ヤマハ発動機様&#34;&gt;ハイスピードSI事例公開　ヤマハ発動機様&lt;/h1&gt;
-
-&lt;p&gt;本日2016年8月30日付で弊社のお客様ヤマハ発動機様のkintoneを利用したシステム導入事例が公開されました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/iwcallsys_figure.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;（画像転載元：サイボウズ様 プレスリリース）&lt;/a&gt;
-&lt;br&gt;
-従来オンプレで稼働していた既存コールセンターを3ヶ月でクラウドに移行したということで、ハイスピードSIを駆使した開発を実現しています。
-&lt;br&gt;
-オンプレによるリプレースと比較してコスト削減にも繋がったとのこと。
-&lt;br&gt;
-この機会に是非弊社&lt;b&gt;ハイスピードSI&lt;/b&gt;の世界に足を踏み入れてみて下さい！
-&lt;br&gt;&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;https://www.r3it.com/solutions/&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;サイボウズ様　プレスリリース&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;http://group.cybozu.jp/news/16083001.html&lt;/a&gt;&lt;/p&gt;
-&lt;b&gt;日経BP ITpro&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&#34;&gt;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&lt;/a&gt;&lt;/p&gt;
-</description>
+（画像転載元：サイボウズ様 プレスリリース） 従来オンプレで稼働していた既存コールセンターを3ヶ月でクラウドに移行したということで、ハイスピードSIを駆使した開発を実現しています。 オンプレによるリプレースと比較してコスト削減にも繋がったとのこと。 この機会に是非弊社ハイスピードSIの世界に足を踏み入れてみて下さい！ https://www.r3it.com/solutions/ サイボウズ様　プレスリリース http://group.cybozu.jp/news/16083001.html
+日経BP ITpro http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/</description>
     </item>
     
     <item>
@@ -872,30 +236,517 @@ IoTが自社ビジネスにどう関わっていくのかお悩みの方、是�
       <pubDate>Tue, 23 Aug 2016 11:38:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-update-0823/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>アールスリーは東北IT物産展をサポートしています</title>
+      <link>https://www.r3it.com/info/2016/support-tohoku-it-bussanten/</link>
+      <pubDate>Fri, 19 Aug 2016 14:20:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/support-tohoku-it-bussanten/</guid>
+      <description>コミュニティにフルコミットを掲げているアールスリーインスティテュートは、2016年9月10日に開催されます東北IT物産展2016 in 秋田を支援しています。
+http://tohoku.it-bussanten.website/
+東北IT物産展とは？ 東北IT物産展は、デザイン・開発・クラウド・ハードウェア・ビジネス・学生・自治体・地域貢献・コミュニティに関する様々なテーマのセッションを開催し、IT業界のみなさんがレイヤーや職種を超えて「楽しむ」「気づく」「学ぶ」「つながる」イベントを目指しているとのことです。
+東北各県で持ち回りで開催しており、2015年の青森開催に続き、2016年の秋田開催が3回目ということです。
+「kintone基礎ハンズオン」講師として登壇 弊社の金春が「kintoneで強くなる地方企業のIT〜kintone基礎ハンズオン〜」と題しまして、秋田をはじめ東北の皆様にkintoneの基礎からのハンズオンをお届けさせていただきます。
+是非東北の皆様にもkintoneの楽しさを感じていただきたいと思っております。
+kintone Café 秋田Vol.0開催！ このタイミングに合わせまして、kintoneの勉強会コミュニティである kintone Café 秋田 Vol.0 として、東北IT物産展の中でセッションする予定です。詳細は決まり次第またご連絡いたします。
+会場にて皆様とお会いできることを、楽しみにしております！
+（8月23日修正：当初山形とお知らせしておりましたが、秋田が正しい情報でした。お詫びとともに訂正いたします。）</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、gusukuをBasic認証の設定が行われたkintone環境に対応</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0727/</link>
+      <pubDate>Wed, 27 Jul 2016 10:45:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0727/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>kintoneプラグイン活用支援セミナー開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</link>
+      <pubDate>Mon, 25 Jul 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</guid>
+      <description>株式会社アプレッソ様、Sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします！ 株式会社アプレッソ様、Sansan株式会社様と弊社の3社合同で、kintoneプラグイン活用支援セミナーを開催させていただくことになりましたのでお知らせいたします。
+kintoneはプラグインを利用するとプログラミングを行わなくてもkintoneの活用の幅が一気に広がります。
+今回は、そのようなkintoneの連携プラグインを提供している3社のソリューションをそれぞれご紹介させていただくセミナーとなります。
+弊社からはkintoneのアプリ開発がより便利になるgusukuをご紹介させていただきます。
+ そもそもgusukuって何ができるの？ 名前は知っているけど、どのような機能があるのか知りたい 具体的な活用方法を教えてほしい  などなど、gusukuについて知りたい方は是非本セミナーへお越し下さい！ ※セミナー終了後には個別相談会も設けております。
+実際に利用されていて疑問点・不明点がある方も、是非この機会にセミナーにお越し頂き、疑問点を解消して帰って頂ければと思います！ お申し込みは以下からお願いいたします。
+【2016/7/29/大阪】ノンプログラミングでここまでできる！kintone プラグイン活用支援セミナー 当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！</description>
+    </item>
+    
+    <item>
+      <title>合同AWS勉強会開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/swx-r3-joint-study-meeting-0719/</link>
+      <pubDate>Tue, 12 Jul 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/swx-r3-joint-study-meeting-0719/</guid>
+      <description>サーバーワークス様と初の合同勉強会を開催いたします 先日業務提携を発表させて頂きましたサーバーワークス様と合同で、AWSの勉強会を開催することになりましたのでお知らせいたします。
+今回は「Infrastructure as a Code」をテーマにサーバーワークス様とアールスリーとの『あんなこと』や『こんなこと』を聞きながら、実際にワークショップ形式で学習して頂きます。 お申し込みは以下からお願いいたします。
+https://r3it.doorkeeper.jp/events/48973 当日は飲食をしながらのイベントとなります。参加者の皆さんでアルコールを交えながら、楽しくAWSを学んでみませんか？
+AWSに興味のある方ならどなたでも参加大歓迎です。
+当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、クラウド化を支援する設計・導入コンサルティングサービスを提供開始</title>
+      <link>https://www.r3it.com/info/2016/cloud-diving-service/</link>
+      <pubDate>Mon, 04 Jul 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/cloud-diving-service/</guid>
+      <description>「クラウドダイビングサービス」は御社システムのクラウド化をお手伝いします 「クラウドダイビングサービス」は、ビジネスをクラウド化し成果を上げるために必要な、社内の意識改革・最適なシステム設計・業務設計を提供する上流コンサルティングサービスです。
+サービス概要 単に今までのシステムをクラウドの上で動かすことを目的とせず、クラウド的な考え方の社内教育・業務設計まで含め、御社のクラウドシフトをお手伝いいたします。
+構築したシステム運用の外部委託をご希望されるお客様には、弊社もしくはクラウド構築支援サービスを提供しているパートナーとして、株式会社サーバーワークス様をご紹介いたします。
+解決しようとする課題 既存システムをクラウド化するにあたっての課題にて、一番大きいものはなんでしょうか？
+「クラウド化」とは、単に既存のデーターセンターにあるサービスをクラウド上に移行することではありません。それ以前に、社内の従来から行われてきた慣例・考え方を塗り替える必要があります。また、各種クラウドサービスによって固有の最適解やノウハウが必要となり、それに合わせたシステム設計や運用設計、勿論社内エンジニアやユーザーの教育といった全社的な意識改革が必要となってきます。
+本サービスがご提供する価値 本サービスでは、御社のビジネスのクラウド化を推進する際に障害となるものに対して、最適なご提案や設計をご用意いたします。目的は「オンプレミスで動いていたシステムをクラウドに上げる」ことではなく、最適な形でクラウド化することによって得られる「御社のビジネス上の成功」にフォーカスします。御社と力を合わせ、御社の意識改革・既存業務フローや業務システムのモデルチェンジにご協力いたします。
+ご提供する成果物例：
+ 御社ビジネスのクラウド化ロードマップ クラウド導入を社内説明するための説明資料 既存業務システムをクラウド化する際のシステムアーキテクチャ 既存業務フローの再設計 クラウド化されたシステムの運用設計 社内エンジニアの教育プログラム  最終的には、御社内で自律的にクラウド化されたシステムの開発・運用ができることを目指しております。
+アプリケーションの再構築や運用管理を、弊社またはパートナー企業にご依頼いただくことも、もちろん可能です。日本でもっともクラウドインテグレーションの実績が豊富な会社のひとつである、株式会社サーバーワークス様とアライアンスを締結しております。
+エンドースメント 株式会社サーバーワークス 代表取締役 大石 良 様 このたびはアールスリー様のプロフェッショナルサービス提供開始、まことにおめでとうございます。 当社は「クラウドで、世界を、もっと、はたらきやすく」をビジョンとしており、 アールスリー様とご一緒にそのビジョンに向けてお客様のお手伝いを出来ること、非常に嬉しく思っております。  お問い合わせ・お申込にあたり 本サービスに必要な物は「こうありたい」というご担当者の強い意志です。弊社はご担当者の意思を全力でサポートさせていただきます。
+ぜひ、御社のビジネスのクラウド化をお手伝いさせて頂ければと存じます。まずはお問い合わせください。
+お問い合わせ先 アールスリーインスティテュート 担当　林 / 金春（こんぱる）
+TEL: 06-6271-3663 / Email : info@r3it.com
+記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。</description>
+    </item>
+    
+    <item>
+      <title>アールスリーはDojoCon Japan 2016 をサポートしています</title>
+      <link>https://www.r3it.com/info/2016/dojoconjapan2016/</link>
+      <pubDate>Tue, 21 Jun 2016 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/dojoconjapan2016/</guid>
+      <description>アールスリーインスティテュートは、DojoCon Japan 2016 ブロンズスポンサーとしてサポートしています。
+DojoCon Japan 2016 〜THE MORE DOJOS, THE MORE COOL CODERS.〜
+CoderDojoとは？ CoderDojoは、2011年にアイルランドで始まった、子供達にプログラミングを学ぶ場を提供する世界的な非営利活動です。Dojoの数は世界中で1,000以上になります。
+日本でも徐々に増えつつあり、38のDojoがありますが、参加を希望する子供に対してメンターやDojoが常に不足している状態です。 既に参加倍率が2倍になっているDojoもあり、そのような現状を解決する目的でDojoConの開催が決まりました。
+DojoConとは？ CoderDojoのメンターやプログラムに興味がある子供たちをはじめ、活動に共感する人が集まる大規模なイベントです。 ヨーロッパでは毎年開催され、CoderDojoやプログラミング教育に興味のある人にとって、貴重な体験ができるイベントとなっております。
+今年8月に日本初となるDojoCon Japan 2016が開催される事が決まりました。
+アールスリーインスティテュートは、本イベントの子供向けプログラミングに与える影響を大きいものと考え、サポートする事を決めました。
+子供向けプログラミングに興味のある方は、是非ご参加ください。</description>
+    </item>
+    
+    <item>
+      <title>アールスリーはハッカーズチャンプルー2016をサポートしています</title>
+      <link>https://www.r3it.com/info/2016/support-hackers-champloo/</link>
+      <pubDate>Thu, 16 Jun 2016 14:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/support-hackers-champloo/</guid>
+      <description>コミュニティにフルコミットを掲げているアールスリーインスティテュートは、ハッカーズチャンプルー2016 ゴールドスポンサーとしてコミュニティを支援しています。
+http://hackers-champloo.org/2016/
+2016年6月22日(水)から6月25日(土)までの3泊4日で行われる開発合宿から、25日(土)に行われるカンファレンスまで、様々なバックグラウンドを持ったエンジニア同士のより良い交流と、各カンファレンスセッションによる感度の高いディスカッションや情報交換がなされることを期待しております。
+アールスリーからも2名の社員が開発合宿から参加させて頂き、カンファレンスではその成果発表をさせていただきます。
+当日会場にてお会いできることを、楽しみにしております！</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、kintoneのデータバックアップ機能をgusukuにて提供開始</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0609/</link>
+      <pubDate>Thu, 09 Jun 2016 13:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0609/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2016年6月9日 kintone hive Vol.3 大阪 登壇のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/kintone-hive-osaka/</link>
+      <pubDate>Mon, 06 Jun 2016 12:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/kintone-hive-osaka/</guid>
+      <description>弊社アールスリーインスティテュートの浅賀が、kintone hive Vol.3 大阪の hack（kintone デベロッパーによるライトニングトーク）にて登壇することになりました。
+セッション内容については当日のお楽しみとさせて頂きますが、少しだけ概要をご紹介します。
+今回は kintone の導入事例として、東京急行電鉄株式会社様、ヤマハ発動機株式会社様、オプテックス株式会社様の事例をご紹介させていただきたいと思います。初めて公開される事例も含まれますので、是非ご注目ください。
+新規ビジネスの迅速な立ち上げにハイスピードSIがいかに有効だったかをはじめ、何故 kintone で業務システムを構築することがお客様のビジネスメリットになるかをご紹介したいと思います。
+その他のキーワードとしては「入退室管理」「CTI」「IoT」です。詳しくは当日の登壇をご注目ください。
+kintone hive Vol.3 大阪について kintone hive は、ユーザーによる kintone を利用した活用事例の紹介や、kintone デベロッパーによるライトニングトークなど、kintone の活用ヒントがふんだんに盛り込まれたイベントです。
+2014年から東京で開催されてきましたが、今年は大阪での初開催が決まりました。kintoneご契約中のユーザー様はぜひご参加ください。
+　開催日：2016年6月9日
+場所　：ナレッジキャピタル
+対象　：kintone 契約中ユーザー
+詳しい情報、お申込は公式サイトをご覧下さい。
+kintone を更に活用するためにお役に立てる内容になると思いますので、ご参加の皆様は是非ご注目下さい。</description>
+    </item>
+    
+    <item>
+      <title>クラウドコンピューティングEXPO2016に出展いたします</title>
+      <link>https://www.r3it.com/info/2016/cloud-computing-expo-2016/</link>
+      <pubDate>Thu, 28 Apr 2016 09:27:05 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/cloud-computing-expo-2016/</guid>
+      <description>2016年5月11日〜13日に東京ビックサイトにて開催される「クラウドコンピューティングEXPO春」に出展いたします。
+クラウドコンピューティングEXPOとは？ クラウドコンピューティングEXPOは、クラウドコンピューティングに関する製品・サービスが一同に出展する専門展です。
+今回、弊社はサイボウズ様と共同でブース出展させていただきます。
+出展内容 弊社「ハイスピードSI」を中心としたkintone x AWS活用事例を出展いたします。
+またブースセミナーにおいても弊社金春より事例紹介を中心としたkintone x AWSの活用方法についてご紹介させていただきます。
+ジャングルのような楽しい空間にてkintoneの活用そして弊社アールスリーインスティテュートがどのようにみなさんに貢献できるかを知って下さい。
+展示会概要 会場：東京ビックサイト
+会期：2016年5月11日(水)〜5月13日(金) 10:00〜18:00(最終日のみ17:00)
+出展ブース：東ホール 55-44
+招待券お申し込みはこちらから</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、CYBOZU AWARD 2016 特別賞を受賞</title>
+      <link>https://www.r3it.com/info/2016/cybozu-award/</link>
+      <pubDate>Mon, 18 Apr 2016 19:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/cybozu-award/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/cybozu-award/9942.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/cybozu-award/9942.jpg&#34; width=&#34;300&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuアップデート201608をリリースいたしました。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2016年4月21日 gusuku（グスク）活用無料セミナーのお知らせ</title>
+      <link>https://www.r3it.com/info/2016/gusuku-seminar0421/</link>
+      <pubDate>Tue, 12 Apr 2016 15:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-seminar0421/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;201608リリースでは、バックアップデータを元アプリとは別のアプリにリストアできる機能の他、kintoneアプリの設計情報ファイルの大幅な改善、アプリ名配布の有無を選択できるようになるなど、よりかゆいところに手が届くメンテナンスアップデートリリースとなっております。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、NPO法人に対してkintoneアプリ開発支援を特別価格で提供開始</title>
+      <link>https://www.r3it.com/info/2016/highspeedsi4npo/</link>
+      <pubDate>Wed, 06 Apr 2016 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/highspeedsi4npo/</guid>
+      <description>ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、サイボウズ株式会社（本社：東京都中央区、代表取締役社長：青野慶久、以下：サイボウズ）が提供する、クラウド型の業務アプリ開発プラットフォームである「kintone」を活用して業務システムを構築する「ハイスピードSI for NPO」をリリースいたしました。
+「ハイスピードSI for NPO」は、NPO法人のみなさまにたいして、サイボウズ社のkintone（キントーン）を使った業務アプリケーションの構築支援を特別価格で提供するサービスです。
+サイボウズ社の製品は、「サイボウズNPOプログラム」にてこちらも特別価格で利用可能となっております。
+特定非営利活動法人（NPO法人）の課題 本来NPO法人の方々は、それぞれが解決すべき課題に労力のすべてを使うべきだと我々アールスリーインスティテュートは考えています。しかし実際には、ITの力を活用しようと思った場合、ある程度システム構築的な部分に時間を割く必要が出てきてしまいます。
+「ハイスピードSI for NPO」では、そのシステム構築の部分を弊社が特別価格でご提供し、NPO法人がより問題解決に注力できる時間を増やしていただくようにしたいと考えております。
+業務システム開発の進め方 「ハイスピードSI for NPO」は、以下の様な形でkintoneを使ったシステム開発を進めます。
+前提条件
+ 特定非営利活動法人格をお持ちで、 サイボウズNPOプログラムに認定されkintoneをご契約している（もしくはこれから契約される）NPO法人であること お客様事例として組織名公表と事例取材にご同意いただけるNPO法人であること（必ずしも事例として公開するわけではありません） オンライン(Skype等を利用)もしくは弊社に来社いただける方  実際の開発
+ 対面開発 2時間 を最大5回 カスタマイズ無し  開発は対面開発で行いますので、みなさまのご要望をその場で即座に伺い、システムを構築していきます。
+ご提供価格価格
+ 対面開発1時間あたり8,000円(税別) 初回にご要望をお伺いし想定回数をお伝えいたします。実際には実施した回数分のみお支払いいただきます  ご注意点  「ハイスピードSI for NPO」では同時期に受け付けられるプロジェクト数に制限があります。制限を超えるお申し込みをいただいた場合は、プロジェクト開始までお待ちいただくことがありますのでご了承ください。 特別価格でご提供するためお問い合わせはメール（info@r3it.com）のみとさせていただきます ご提案書の作成が必要な場合は、採用不採用に関わらず1時間あたり8,000円(税別)にて実費をご請求させていただきます  お問い合わせ・お申込み アールスリーインスティテュート
+Mail : info@r3it.com
+担当： 林、金春（こんぱる）</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、gusuku 添付ファイル保存プラグインをアップデート</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0405/</link>
+      <pubDate>Tue, 05 Apr 2016 17:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0405/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;すべてのアップデートの内容は、&lt;a href=&#34;https://docs.gusuku.io/releases/&#34;&gt;リリースノート&lt;/a&gt;にてご確認ください。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、ハイスピードSIを超えて素早く業務システムを提供する「超ハイスピードSI」をリリース</title>
+      <link>https://www.r3it.com/info/2016/0401/</link>
+      <pubDate>Fri, 01 Apr 2016 07:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/0401/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/0401/logo_super_highspeedsi_rgb.png&#34;/&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、サイボウズ「kintone」向けプラグインとしてExcel帳票サービスをリリース</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update201603/</link>
+      <pubDate>Tue, 08 Mar 2016 12:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update201603/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【事前登録無料】Cloud Days 2016 東京・大阪に出展！よろず相談所開催いたします</title>
+      <link>https://www.r3it.com/info/2016/clouddays/</link>
+      <pubDate>Tue, 01 Mar 2016 10:27:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/clouddays/</guid>
+      <description> 弊社アールスリーインスティテュートは、弊社は今年もいろいろなイベントに出展いたします。
+まずは3月10日から開催します、Cloud Days 2016 東京・大阪に出展いたします。 ぜひ皆様と直接お会いし、色々なお話を伺えたらと思っております。
+3月10-11日（木・金） Cloud Days 2016 東京 3月17-18日（木・金） Cloud Days 2016 大阪 http://expo.nikkeibp.co.jp/cloud/2016spring/
+3月は10−11日にCloud Days 2016 東京、17-18日にCloud Days 2016 大阪に出展いたします。 クラウドに関する様々なベンダーが一堂に会する、非常に大規模な展示会となります。
+弊社は「AWSとkintoneを使った新しいSIの姿」と題しまして、各種クラウドサービスを駆使した、新しいSIの姿「ハイスピードSI」および各種活用事例をご紹介いたします。
+更に、完全予約制のよろず相談所を開設いたします！詳しくは以下をご覧ください。
+入場料は3,000円ですが、事前登録していただきますと無料になります。ぜひ事前登録の上、ご来場ください。
+ 東京事前登録： http://expo.nikkeibp.co.jp/cloud/2016spring/regist.html 大阪事前登録： http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html  会場にて【アールスリーよろず相談所】を開設いたします いつも慌ただしい展示会会場ですが、今回は事前予約制でゆっくりお話をお伺いできる体制を整えました。
+どのような内容でも構いません、御社内で抱えている問題を、お気軽にご相談ください。 ご予約の際にどのような内容をご相談いただくか、ご一報いただければ幸いです。
+ 東京開催よろず相談予約： https://coubic.com/r3institute/230118 大阪開催よろず相談予約： https://coubic.com/r3institute/322799  よろず相談を予約されたお客様には、ご招待券をお送りいたします！
+大阪会場につきましては、下記のVIPご招待券にてご招待いたします。
+VIPご招待券　進呈いたします 大阪会場のみとなりますが、ご希望のお客様には事前登録無しでセミナー受講が可能、専用窓口で入場など各種特典付きの【VIPご招待券】をお送りいたします。
+https://www.r3it.com/#inquiry
+上記お問い合わせフォームよりご希望の枚数を添えて、お申込ください。
+枚数に限りがございますので、無くなり次第終了とさせていただきます。ご了承ください。
+各イベント会場にて、皆様のお越しをお待ちしております。 </description>
+    </item>
+    
+    <item>
+      <title>Developers Summit 2016（デブサミ2016） サイボウズ特別トラック登壇のお知らせ</title>
+      <link>https://www.r3it.com/info/2016/devsumi0218-19/</link>
+      <pubDate>Thu, 21 Jan 2016 15:27:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/devsumi0218-19/</guid>
+      <description>弊社アールスリーインスティテュートの池上と金春が、Developers Summit 2016（通称デブサミ2016）の、サイボウズ特別トラックのハンズオン講師として登壇することになりました。
+Developers Summit 2016 | デブサミ冬 2016年2月18日（木）・19日（金） 目黒雅叙園
+詳しくはこちらの公式サイトをご覧ください。
+サイボウズ特別トラックにてkintoneハンズオンセッションが多数開催されます。そのうち、弊社が担当させていただくセッションをご紹介します。ぜひご参加ください。
+2月18日16:20～ 【18-F-3】【上級】これでもう怖くない、kintone Promise 【対象者】
+ JavaScript, jQuery, kintone APIの基本的な使い方がわかっていること  2月19日14:10～ 【19-F-2】【中級】kintoneアプリのバージョン管理はgusukuにおまかせ！ 【参加条件】
+ kintoneを使って実際にアプリを作成したことがある方  両セッションとも、詳しくは公式サイトをご確認ください。
+何れのセッションも、kintone開発者の方には非常に役立つハンズオンになるかと思います。 当日会場でお会いできますことを、心よりお待ちしております。</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、サイボウズ「kintone」アプリの利用・開発・運用を支援するサービス gusuku（グスク）を正式リリース</title>
+      <link>https://www.r3it.com/info/2015/gusuku-release/</link>
+      <pubDate>Fri, 06 Nov 2015 09:27:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/gusuku-release/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>東京支社開設のお知らせ</title>
+      <link>https://www.r3it.com/info/2015/tokyo-branch/</link>
+      <pubDate>Fri, 06 Nov 2015 08:30:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/tokyo-branch/</guid>
+      <description>関東近隣の企業様に今までよりさらに身近に ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪府大阪市中央区本町）は、本日東京支社を開設したことをお知らせいたします。
+支社設立の背景 従来から東京都をはじめとする関東近隣の数々のお客様とご一緒させて頂いておりましたが、この度強いご要望により東京支社を開設することとなりました。
+今までもお客様とは距離を意識させない緊密なコミュニケーションを推進してまいりましたが、これによりさらなる信頼関係を築いて行けるものと確信しております。
+また、今後もオンプレミスは勿論のことクラウドを利用したシステム開発や、ビデオカンファレンスを利用したミーティング、リモートワークをはじめとする効率のよい働き方を追求していきます。
+支社のない地域の皆様におかれましても、今後ともより良い関係を築きつつ、問題解決のお手伝いをさせていただければと考えております。
+東京支社所在地 〒108-0023
+東京都港区芝浦三丁目１４番１９号 大成企業ビル６階
+TEL 03-6869-6891 / Fax 03-6869-6892
+会社概要 商号　： アールスリーインスティテュート
+所在地　： 〒541-0053 大阪府大阪市中央区本町2-3-4-6F
+URL　： https://www.r3it.com/
+本件に関するお問い合わせ先 アールスリーインスティテュート　林まで
+TEL： 06-6271-3663
+Email： info@r3it.com</description>
+    </item>
+    
+    <item>
+      <title>gusukuプライベートベータ開始のお知らせ</title>
+      <link>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</link>
+      <pubDate>Tue, 25 Aug 2015 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</guid>
+      <description>gusukuプライベートベータ開始のお知らせ アールスリーインスティテュート（大阪府大阪市、代表取締役 加藤忠智、以下当社）は、本日kintoneでの開発を強力にサポートする「gusuku（グスク）」サービスのプライベートベータの提供を開始いたしました。
+gusuku Webサイト: https://gusuku.io/
+gusuku開発の背景 kintoneは、サイボウズ株式会社の提供するファストシステム開発プラットフォームです。基本的な要素はブラウザ上でドラッグ＆ドロップだけで開発することができ、またクラウドサービスであるため運用環境を用意することなく、すぐに利用を開始することができます。
+当社では、このkintoneを活用し「ハイスピードSI」という開発サービスを提供しておりますが、その中で実際に開発作業を行っていると今のkintoneでは解決できないいくつかの問題が発生します
+ 簡単に安全にアプリを修正できるとはいえ本番運用しているアプリの上で試行錯誤するわけにはいかない 試行錯誤用に開発用アプリを別に作成したとしても、そこで実施した変更を再度本番環境のアプリで行わないといけなくなり、作業漏れやミスの可能性がある 変更した結果が、まずいとなった場合に元に戻す手段がない。最後に行った変更を手作業で１つ１つ戻していく必要がある  こういった問題を解消することを目的に、gusukuを開発いたしました。
+gusukuを利用していただきたい方  kintoneで運用しているアプリをお持ちで、頻繁にアプリに変更を加える方 kintoneで運用しているアプリが多く、それぞれのアプリの管理に手間がかかると感じられている方  プライベートベータへの参加方法 gusukuプライベートベータサービスへの参加は、 https://gusuku.io/ より利用規約をご確認の上、ご登録ください。 現在、FacebookまたはGoogleアカウントでのご利用が可能となっております。
+準備が整い次第、順次ご連絡をさせていただきます。
+gusukuの今後について プライベートベータにてご意見をいただき必要な改修を行った後、本番リリースを行います。本番リリースでは、無料プランと有料プランの両方をご用意する予定となっております。 有料プランの内容・金額等については、順次公開して参ります。
+アールスリーインスティテュートについて アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。
+Web: https://www.r3it.com/
+本件に関するお問い合わせ先 アールスリーインスティテュート
+TEL: 06-6271-3663
+Mail: butler@gusuku.io
+担当： 西島、金春（こんぱる）
+サービス画像</description>
+    </item>
+    
+    <item>
+      <title>Talend Open Studio パートナーに登録されました</title>
+      <link>https://www.r3it.com/info/2015/join-to-tosp/</link>
+      <pubDate>Thu, 06 Aug 2015 17:30:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/join-to-tosp/</guid>
+      <description>弊社アールスリーインスティテュートはこの度、 Talend Open Studio パートナーに登録されました。
+Talend Open Studio パートナー（TOSP）とは Talend Open Studio (TOS)のトレーニング、サポート、コネクタやモジュールの受託開発などを提供するパートナーです。公式サイトはこちらのURLになります。
+https://talend.jp/tosp
+弊社アールスリーインスティテュートでは、以下のコンポーネント・サービスを提供しています。
+ Talend Open Studio 向けの サイボウズ kintone と接続するためのオープンソース コンポーネント&amp;rdquo;kintone Connector for talend&amp;rdquo; の提供 上記コンポーネントを利用した kintone と既存システムのデータ連携システムの構築 Talend Open Studio を利用した基幹システムと Amazon Web Services (AWS) との間でのシステム・データ連携  システム概要イメージ 
+Talend Open Studio と kintone を利用したデータ連携システムの概要は、上記のとおりです。AWS上に構築した基幹システムと、サイボウズ側ネットワークにある kintone アプリ群を、 Talend でデータ連携するイメージです。
+システム間のデータ連携にご興味があるお客様は、是非お問い合わせください。</description>
+    </item>
+    
+    <item>
+      <title>kintone Café 福岡 Vol.5 参加レポート</title>
+      <link>https://www.r3it.com/info/2015/0624_kintonecafe-fukuoka/</link>
+      <pubDate>Wed, 24 Jun 2015 21:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/0624_kintonecafe-fukuoka/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
+&lt;p&gt;6月24日（水）の夜には、Cloud Days 九州の開催に併せて「kintone」の勉強会『kintone Café 福岡 Vol.5』が開かれました。
+従来設定していた定員数より上回り、開催直前になって急遽増枠となるなど、名古屋の時同様に大盛況でした！&lt;/p&gt;
 
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cloud Days 九州 2015 に出展&amp;弊社金春が登壇いたしました</title>
+      <link>https://www.r3it.com/info/2015/clouddays-kyushu/</link>
+      <pubDate>Wed, 24 Jun 2015 10:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/clouddays-kyushu/</guid>
+      <description>&lt;p&gt;Cloud Days 九州 2015 は6月24日・25日の2日間、福岡国際会議場にて開催されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>プレスリリース：Talend用 kintoneコネクターを開発しGitHubに公開</title>
+      <link>https://www.r3it.com/info/2015/kintone-connector-for-talend/</link>
+      <pubDate>Tue, 23 Jun 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/kintone-connector-for-talend/</guid>
+      <description>ビックデータインテグレーションのリーダーであるTalend株式会社（本社：東京都港区、代表取締役社長：有延敬三、以下「Talend」）と、ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は本日、オープンソースソフトウェア版であるTalend Open Studio（以下「TOS」）を活用して、迅速かつ合理的な費用でのオンプレミスとクラウドのデータ連携、移行を推進するために技術、マーケティング面で協業することを発表いたしました。
+Amazon Web Services (AWS)のコンサルティングパートナーであり、サイボウズ（kintone）パートナーでもあるR3は、kintone開発の魅力であるスピードを最大限に発揮するために、カスタマイズを最小限にとどめたハイスピードなシステムインテグレーションを提供しています。R3はTOSを利用して、ハンドコーディングせず、かつ安価に基幹システムとkintoneのデータ連携を実現し、その開発で得られた知見を元にTalend用のkintoneコネクター（kintone connector for talend: kc4t）を今年5月にオープンソースソフトウェアとしてGitHub上に公開しました。（ https://www.r3it.com/community/oss/kc4t/ ）
+Talend 製品は世界最大規模のユーザーコミュニティを基盤とし、800 以上のコンポーネントを持つ商用オープンソースソフトウェアです。Talend は、多くの企業ユーザーから要望のある kintone のコネクターを開発した R3 と協業することにより、Talend 製品によるオンプレミスとクラウドのデータ連携がさらに加速することを期待しています。
+R3 は kc4t の第一弾として kintone からデータを抽出するコンポーネントを実現していますが、Talend との協業により、さらなる機能追加を予定しています。Talend と R3 は協業に基づき、データ連携に手間とコストをかけずにクラウドへの移行を実現するハイスピードかつハイクオリティなシステムインテグレーションを提供し、 顧客企業のデータドリブン経営を支援します。 Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Japan Community: https://talend.jp/)でもご紹介を予定しています。
+Talend について 2006 年フランスで創業した Talend 社は、あらゆる情報資産の効率的な活用を可能にするビックデータ統合/ アプリケーション統合/ビジネスプロセス統合のためのソリューションを開発・提供し、データドリブン経営を支 援しています。Talend の統合ソリューションにより、データドリブンの組織は、あらゆるデータから価値を得ることが出来ます。Talend は、最新のビッグデータプラットフォームをネイティブにサポートすることで、データ統合にまつわる複雑さを排除出来るため、IT 部門は、ビジネス要求により迅速に対応可能になり、発生する費用も想定することが出来ます。Talend のソリューションは、オープンソースのテクノロジーをベースとしており、 拡張性が高く、常に最新であり、データ統合に関する、今後も増大するあらゆる要求を解決します。Talend は米国カリフォルニア州レッドウッド市に本社をおく非公開企業です。
+R3 について 2000年に創業したアールスリーインスティテュートは、関西を中心に全国で活動している、システムによる問題解決チームです。クラウドファースト時代のシステム開発の考え方である「ハイスピードSI」を提唱し、お客様の問題を最も効率的に解決するためのアイデアを、考えに考えるのが弊社のスタンスです。 既存のデータセンターにあるオンプレミスのシステム構築だけではなく、AWSパートナー・kintoneパートナーとしてクラウドを活用した問題解決をご提案しています。 また、「コミュニティにフルコミット」を合言葉に、社員のコミュニティ活動を積極的に支援し、会社としても各種コミュニティ活動を強力に支援しています。
+報道関係者・読者お問い合わせ先 Talend 株式会社 マーケティング 重見英子
+TEL:03-6427-6370 / E-mail:prjp@talend.com
+アールスリーインスティテュート クライアントディベロップメント 林 宏樹</description>
+    </item>
+    
+    <item>
+      <title>kintone Café 名古屋 Vol.1 参加レポート</title>
+      <link>https://www.r3it.com/info/2015/0617_kintonecafe-nagoya/</link>
+      <pubDate>Wed, 17 Jun 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/0617_kintonecafe-nagoya/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6月17日（水）の夜は、サイボウズ様が提供するクラウド型データベース「kintone」の勉強会『kintone Café 名古屋 Vol.1』にて弊社金春がセッションを行いました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cloud Days 名古屋 2015 に出展&amp;弊社金春が登壇いたします</title>
+      <link>https://www.r3it.com/info/2015/clouddays-nagoya/</link>
+      <pubDate>Tue, 16 Jun 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/clouddays-nagoya/</guid>
+      <description>&lt;p&gt;Cloud Days 名古屋 2015 は明日6月17日から2日間にわたって、名古屋市のウインクあいちにて開催されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>kintone hive開催レポート</title>
+      <link>https://www.r3it.com/info/2015/kintone-hive/</link>
+      <pubDate>Fri, 05 Jun 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/kintone-hive/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/kintone-hive1-001.jpg&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/kintone-hive1-001.jpg&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;弊社のkintoneエバンジェリスト金春がライトニングトークさせていただいた【kintoneユーザー会「kintone hive」】のレポートがサイボウズ様のサイトに掲載されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>サイボウズ kintone 全国セミナー in 大阪開催のお知らせ</title>
+      <link>https://www.r3it.com/info/2015/kintone-seminar/</link>
+      <pubDate>Thu, 28 May 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/kintone-seminar/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;アールスリーインスティテュートとサイボウズ株式会社様との共催で、6月11日（木）15時より【サイボウズ kintone 全国セミナー in 大阪】をサイボウズ様の大阪オフィスにて開催させていただく事になりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>東京支社開設予定のお知らせ</title>
+      <link>https://www.r3it.com/info/2015/tokyo-branch-plan/</link>
+      <pubDate>Fri, 15 May 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/tokyo-branch-plan/</guid>
+      <description>関東近隣の企業様に今までよりさらに身近に ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪府大阪市中央区本町）は、2015年内に東京支社を開設予定であることをお知らせいたします。
+支社設立の背景 従来から東京都をはじめとする関東近隣の数々のお客様とご一緒させて頂いておりましたが、この度強いご要望により東京支社を開設する予定となりました。
+今までもお客様とは距離を意識させない緊密なコミュニケーションを推進してまいりましたが、これによりさらなる信頼関係を築いて行けるものと確信しております。
+また、今後もオンプレミスは勿論のことクラウドを利用したシステム開発や、ビデオカンファレンスを利用したミーティング、リモートワークをはじめとする効率のよい働き方を追求していきます。
+支社のない地域の皆様におかれましても、今後ともより良い関係を築きつつ、問題解決のお手伝いをさせていただければと考えております。
+会社概要 商号　： アールスリーインスティテュート
+所在地　： 〒541-0053 大阪府大阪市中央区本町2-3-4-6F
+URL　： https://www.r3it.com/
+本件に関するお問い合わせ先 アールスリーインスティテュート　林まで
+TEL： 06-6271-3663
+Email： info@r3it.com</description>
+    </item>
+    
+    <item>
+      <title>Cloud Days 大阪 2015 に出展&amp;弊社金春が登壇いたします</title>
+      <link>https://www.r3it.com/info/2015/clouddays-osaka/</link>
+      <pubDate>Fri, 27 Feb 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/clouddays-osaka/</guid>
+      <description>CloudDays大阪が3/5〜6に開催されます。 弊社はアマゾンデータサービスジャパン様と一緒に出展いたします。
+AWSとkintoneを組合せてハイスピードSIを実現する方法について出展いたしますのでご興味のある方は是非お越しください。
+事前申込は http://expo.nikkeibp.co.jp/cloud/2015spring/osaka/ からお願いいたします。
+AWSブースでは、
+ 3月5日 13:00〜 3月6日 14:30〜  の2回ステージセッションにて弊社金春がハイスピードSIについて講演いたしますので是非お越しください。
+弊社金春がセミナーに登壇いたします 3月5日 15:00よりQ会場にて弊社金春がサイボウズ様のセミナーにゲストスピーカーとして登壇いたします。
+「kintoneで既存のSIモデルからの脱却～クラウド時代に生き残れるSIビジネスとは～」 として、弊社がkintoneをAWSを使ってどのように新しいSIを実現しようとしているかについてお話する予定です。 こちらのセミナーは事前申込が必要となっておりますので、上記URLで事前登録をお願いいたします。
+当日、会場にて皆様にお会いできるのを楽しみにしております。</description>
+    </item>
+    
+    <item>
+      <title>JAWS-UG Kansai 特別編に弊社金春、大澤が登壇いたします</title>
+      <link>https://www.r3it.com/info/2015/0207_jaws-ug_kansai_special/</link>
+      <pubDate>Mon, 02 Feb 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/0207_jaws-ug_kansai_special/</guid>
+      <description>JAWS-UGとは？ JAWS-UG（Japan AWS User Group）は、AWSを利用するユーザの集まりで、全国に50の支部を持つ世界でも有数のAWSのユーザグループです。
+JAWS-UG Kansai 特別編 「AWSを使い倒せ。AWSのフルマネージドサービス活用によるネイティブクラウドシステムへの誘い」 2015年2月7日(土)に開催される、 JAWS-UG Kansai 特別編 「AWSを使い倒せ。AWSのフルマネージドサービス活用によるネイティブクラウドシステムへの誘い」 に弊社金春、大澤がスピーカーとして登壇します。
+この勉強会では、AWSのフルマネージドサービス（運用はAWSが実施しお客様はサービスを利用するだけで使えるサービス群）についての紹介や、ビッグトラックでは、東急ハンズ様やあきんどスシロー様といったクラウド先進企業の方から、どのようにAWSを利用しているかのご公演もあります。
+金春は、 15:00〜15:30 Amazon RDS for Aurora 17:30〜18:00 Amazon Kinesis
+大澤は、 15:30〜16:00 Amazon SES
+にて、各サービスのご紹介をいたします。</description>
+    </item>
+    
+    <item>
+      <title>kintone Caféの公式ページが立ち上がりました</title>
+      <link>https://www.r3it.com/info/2015/kintone-cafe-official-site/</link>
+      <pubDate>Mon, 19 Jan 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/kintone-cafe-official-site/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/solutions/kintone/kintonelogo_cloud-300x214.png&#34; alt=&#34;kintone&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;kintone Caféとはkintoneを勉強したいあるいはもっと深く勉強したい方が集まるコミュニティです。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> 青森ハッカソンで講師として弊社金春が登壇します</title>
+      <link>https://www.r3it.com/info/2015/aomori_hackathon/</link>
+      <pubDate>Wed, 14 Jan 2015 17:06:49 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/aomori_hackathon/</guid>
+      <description>&lt;p&gt;2015年1月16日〜18日に開催される青森県主催の&lt;a href=&#34;https://www.facebook.com/events/1507353932880080/permalink/1516184455330361/&#34;&gt;青森ハッカソン&lt;/a&gt;に、弊社金春がAWSのハンズオン講師として登壇いたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

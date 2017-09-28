@@ -6,7 +6,9 @@
     <description>Recent content in Gusuku on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 01 Jul 2017 11:00:00 +0900</lastBuildDate>
-    <atom:link href="https://www.r3it.com/tags/gusuku/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.r3it.com/tags/gusuku/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>関西初！gusuku Meetup OSAKA Vol.1をついに開催できました！</title>
@@ -14,88 +16,36 @@
       <pubDate>Sat, 01 Jul 2017 11:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/blog/kintone/20170615_gusuku-meetup_osaka_vol1/</guid>
-      <description>
-
-&lt;p&gt;5月のgusuku Meetup TOKYOに引き続き、6月16日(金曜日)開催の&lt;strong&gt;&lt;span style = &#34;color:#de9610;&#34;&gt;kintone hive osaka vol.3&lt;/span&gt;&lt;/strong&gt;前夜に、&lt;strong&gt;&lt;span style = &#34;color:#FF0000;&#34;&gt;gusuku Meetup OSAKA Vol.1&lt;/span&gt;&lt;/strong&gt;を開催させていただきました！&lt;/p&gt;
-
-&lt;p&gt;大阪含め関西では少しずつkintoneを導入するユーザーが出てきている状況で、一歩進んだ活用はまだまだこれから、というイメージがあったので、gusukuへの関心ももうちょっと先かなーと思っていて、あまり関西でgusukuを大々的にPRする機会がこれまではなかったという実状がありました。&lt;/p&gt;
-
-&lt;p&gt;が、そんなわたしの予想は&lt;strong&gt;いい意味で外れた。。。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-meetup-とは&#34;&gt;gusuku Meetup とは&lt;/h1&gt;
-
-&lt;p&gt;↓の画像参照です。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku_meetup_header_mix_800x319.png&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku_meetup_header_mix_800x319.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;詳細はこちらをご覧下さい → 
-&lt;a href=&#34;https://gusuku.io/meetup/&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;gusuku Meetup&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;前月に東京で開催したgusuku Meetup TOKYO Vol.2の開催報告はこちら！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/blog/kintone/20170518_gusuku-meetup_tokyo_vol2/&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;gusuku Meetup TOKYO Vol.2&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;今回のテーマはタッチ-トライ&#34;&gt;今回のテーマはタッチ＆トライ！&lt;/h1&gt;
-
-&lt;p&gt;記念すべきgusuku Meetup OSAKA Vol.1のテーマは&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;span style = &#34;color:#9460a0;&#34;&gt;『そもそもgusukuってどうやって使うの？実際にトライしてみよう♪初心者向けハンズオン』&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;です。&lt;/p&gt;
-
-&lt;p&gt;gusuku自体を知らない人にもgusukuをまずどうやって利用するかというところを知ってもらうため、基本機能である&lt;strong&gt;アプリ管理とデプロイ機能をハンズオン形式で体験してもらおう！&lt;/strong&gt;という企画です。&lt;/p&gt;
-
-&lt;p&gt;ハンズオン資料のkintoneの操作部分は大々的に省略していたので、参加者の中にkintone自体はじめてという方がいると申し訳ないな&amp;hellip;と若干心配はあったのですが、今回参加いただいた方はみなさんkintoneユーザーさんで、kintoneの基本の知識はお持ちの方ばかりだったので、操作もかなりスムーズでした。&lt;/p&gt;
-
-&lt;p&gt;真剣に操作してくださっています。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-5.jpg&#34; data-lightbox=&#34;gusuku-meetup_osaka1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-5.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-6.jpg&#34; data-lightbox=&#34;gusuku-meetup_osaka1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-6.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;gusukuをすでにフリーアカウントで利用していただいているユーザーさんや、有償で活用してくださっているユーザーさんも参加してくださり、みなさんの意識の高さが窺えました。&lt;/p&gt;
-
-&lt;p&gt;それだけ＋αの活用がしたいと思ってくださっていると思いたい…！&lt;/p&gt;
-
-&lt;p&gt;またデプロイの部分に関する質問も出つつ、リアルタイムでバグ報告も送っていただいたり。&lt;/p&gt;
-
-&lt;p&gt;充実した勉強会となりましたヽ(•̀ω•́ )ゝ✧&lt;/p&gt;
-
-&lt;h2 id=&#34;ビアバッシュ形式でハンズオンをしたものの&#34;&gt;ビアバッシュ形式でハンズオンをしたものの・・・&lt;/h2&gt;
-
-&lt;p&gt;今回はビアバッシュ形式で、飲みつつ食べつつの作業となったのですが、ハンズオン中はみなさん集中されて、あまり食べ物には手を付けられなかったです。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-2.jpg&#34; data-lightbox=&#34;gusuku-meetup_osaka1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-2.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-3.jpg&#34; data-lightbox=&#34;gusuku-meetup_osaka1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;そして残ったごはんは、弊社でお仕事をがんばっているみなさんのお夜食に((o(｡･ω･｡)o))&lt;/p&gt;
-
-&lt;p&gt;ハンズオン中は作業に集中されているということで非常にありがたかったとともに、今後の教訓ができました。
-&lt;br&gt;
-&lt;br&gt;
-&lt;strong&gt;&lt;span style = &#34;font-size:xx-large; color:#0168b3;&#34;&gt;とにかくハンズオンの時のビアバッシュはきつい（教訓&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusukuハンズオンの全容をお見せしちゃいます&#34;&gt;gusukuハンズオンの全容をお見せしちゃいます！&lt;/h1&gt;
-
-&lt;p&gt;実際のハンズオンの内容については、Qiitaに&lt;strong&gt;&lt;span style = &#34;color:#FF0000;&#34;&gt;限定公開&lt;/span&gt;&lt;/strong&gt;でUPさせていただいています。&lt;/p&gt;
-
-&lt;p&gt;この操作を行うと、基本機能であるアプリ管理とデプロイが一通り試せるようになっています。
-&lt;p&gt;&lt;a href=&#34;https://goo.gl/d7cQMy&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;覚えて即実践♪kintoneアプリ管理者がHAPPYになれるgusukuの使い方&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;ちなみに、gusuku Meetup OSAKA Vol.1の本編で利用したサンプルアプリと、アプリにインポートして利用できるサンプルデータも一緒にプレゼントしますよ(＠∀＠)=3&lt;/p&gt;
-
-&lt;p&gt;ご希望の方は、gusukuのサインイン画面からフリーでアカウントを取得していただき、左メニューの中の「ダウンロード」 &amp;gt; 「ハンズオン サンプルアプリ」のページの中からダウンロードが可能です！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-7.png&#34; data-lightbox=&#34;gusuku-meetup_osaka1&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170615/gusuku-meetup_osaka_vol1-7.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;すでにアカウントをお持ちの方はご自身の画面に入っていただくとメニューに追加されていますよ((ヾ(●^▽^●)ﾉ))&lt;/p&gt;
-
-&lt;p&gt;アカウントをお持ちでない方も、是非この機会にフリーアカウントを取得して、gusukuを試してみて下さいね(ノ^∀^)ノ&lt;/p&gt;
-
-&lt;p&gt;バックアップやリストアを試したい方は、サンプルデータをアプリにインポートしていただくと、ご自身でデータを用意いただく必要がないので、お気軽にお試しいただくことが可能です。&lt;/p&gt;
-
-&lt;p&gt;ただしバックアップはオプションとなるため、お試しの場合フォームからの申請が必要となりますのでご注意を！&lt;/p&gt;
-
-&lt;p&gt;お試し期間は&lt;strong&gt;&lt;span style = &#34;color:#FF0000;&#34;&gt;2週間&lt;/span&gt;&lt;/strong&gt;です。&lt;/p&gt;
-
-&lt;p&gt;以下のオプション申し込みフォームより「お問い合わせ内容」で&lt;strong&gt;「オプション契約お申し込み」&lt;/strong&gt;をご選択いただきお申込み下さい。
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/support/&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;gusuku ユーザーサポートフォーム&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;もっともっとgusukuのファンが増えてくれたら嬉しいなと思うgusukuエバどりぃでした(●^∀^●)♡&lt;/p&gt;
-</description>
+      <description>5月のgusuku Meetup TOKYOに引き続き、6月16日(金曜日)開催のkintone hive osaka vol.3前夜に、gusuku Meetup OSAKA Vol.1を開催させていただきました！
+大阪含め関西では少しずつkintoneを導入するユーザーが出てきている状況で、一歩進んだ活用はまだまだこれから、というイメージがあったので、gusukuへの関心ももうちょっと先かなーと思っていて、あまり関西でgusukuを大々的にPRする機会がこれまではなかったという実状がありました。
+が、そんなわたしの予想はいい意味で外れた。。。
+gusuku Meetup とは ↓の画像参照です。 
+詳細はこちらをご覧下さい → gusuku Meetup
+前月に東京で開催したgusuku Meetup TOKYO Vol.2の開催報告はこちら！
+gusuku Meetup TOKYO Vol.2
+今回のテーマはタッチ＆トライ！ 記念すべきgusuku Meetup OSAKA Vol.1のテーマは
+『そもそもgusukuってどうやって使うの？実際にトライしてみよう♪初心者向けハンズオン』
+です。
+gusuku自体を知らない人にもgusukuをまずどうやって利用するかというところを知ってもらうため、基本機能であるアプリ管理とデプロイ機能をハンズオン形式で体験してもらおう！という企画です。
+ハンズオン資料のkintoneの操作部分は大々的に省略していたので、参加者の中にkintone自体はじめてという方がいると申し訳ないな&amp;hellip;と若干心配はあったのですが、今回参加いただいた方はみなさんkintoneユーザーさんで、kintoneの基本の知識はお持ちの方ばかりだったので、操作もかなりスムーズでした。
+真剣に操作してくださっています。 
+gusukuをすでにフリーアカウントで利用していただいているユーザーさんや、有償で活用してくださっているユーザーさんも参加してくださり、みなさんの意識の高さが窺えました。
+それだけ＋αの活用がしたいと思ってくださっていると思いたい…！
+またデプロイの部分に関する質問も出つつ、リアルタイムでバグ報告も送っていただいたり。
+充実した勉強会となりましたヽ(•̀ω•́ )ゝ✧
+ビアバッシュ形式でハンズオンをしたものの・・・ 今回はビアバッシュ形式で、飲みつつ食べつつの作業となったのですが、ハンズオン中はみなさん集中されて、あまり食べ物には手を付けられなかったです。 
+そして残ったごはんは、弊社でお仕事をがんばっているみなさんのお夜食に((o(｡･ω･｡)o))
+ハンズオン中は作業に集中されているということで非常にありがたかったとともに、今後の教訓ができました。 とにかくハンズオンの時のビアバッシュはきつい（教訓
+gusukuハンズオンの全容をお見せしちゃいます！ 実際のハンズオンの内容については、Qiitaに限定公開でUPさせていただいています。
+この操作を行うと、基本機能であるアプリ管理とデプロイが一通り試せるようになっています。 覚えて即実践♪kintoneアプリ管理者がHAPPYになれるgusukuの使い方
+ちなみに、gusuku Meetup OSAKA Vol.1の本編で利用したサンプルアプリと、アプリにインポートして利用できるサンプルデータも一緒にプレゼントしますよ(＠∀＠)=3
+ご希望の方は、gusukuのサインイン画面からフリーでアカウントを取得していただき、左メニューの中の「ダウンロード」 &amp;gt; 「ハンズオン サンプルアプリ」のページの中からダウンロードが可能です！ 
+すでにアカウントをお持ちの方はご自身の画面に入っていただくとメニューに追加されていますよ((ヾ(●^▽^●)ﾉ))
+アカウントをお持ちでない方も、是非この機会にフリーアカウントを取得して、gusukuを試してみて下さいね(ノ^∀^)ノ
+バックアップやリストアを試したい方は、サンプルデータをアプリにインポートしていただくと、ご自身でデータを用意いただく必要がないので、お気軽にお試しいただくことが可能です。
+ただしバックアップはオプションとなるため、お試しの場合フォームからの申請が必要となりますのでご注意を！
+お試し期間は2週間です。
+以下のオプション申し込みフォームより「お問い合わせ内容」で「オプション契約お申し込み」をご選択いただきお申込み下さい。 gusuku ユーザーサポートフォーム</description>
     </item>
     
     <item>
@@ -104,189 +54,16 @@
       <pubDate>Fri, 09 Jun 2017 16:00:10 +0900</pubDate>
       
       <guid>https://www.r3it.com/blog/kintone/20170518_gusuku-meetup_tokyo_vol2/</guid>
-      <description>
-
-&lt;p&gt;5月はGW明けから怒涛のイベントラッシュが続いております。&lt;/p&gt;
-
-&lt;p&gt;すでに季節は6月。梅雨の時期だというのに大阪はなぜか &lt;strong&gt;カンカンに晴れています。&lt;/strong&gt; 日差しが非常に痛いです。。。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://expo.nikkeibp.co.jp/cloud/2017/exhibition/nagoya/&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;Cloud Days 名古屋&lt;/a&gt;に&lt;a href=&#34;http://www.callcenter-japan.com/osaka/&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;コールセンター/CRM デモ＆コンファレンス 2017 in 大阪&lt;/a&gt;を経て、6月はこのあと大阪でのイベントが続きます！&lt;/p&gt;
-
-&lt;p&gt;春の一大イベント！&lt;strong&gt;&lt;span style = &#34;color:#de9610;&#34;&gt;kintone hive tokyo vol.5&lt;/span&gt;&lt;/strong&gt;の前夜に開催されたgusuku Meetup TOKYO Vol.2の様子をどどんとお届けしちゃいますよ((ヾ(＊^▽^＊)ﾉ))&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-meetup-とは&#34;&gt;gusuku Meetup とは&lt;/h1&gt;
-
-&lt;p&gt;↓の画像参照です。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku_meetup_header_mix_800x319.png&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku_meetup_header_mix_800x319.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;詳細はこちらをご覧下さい → 
-&lt;a href=&#34;https://gusuku.io/meetup/&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;gusuku Meetup&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今回は、&lt;strong&gt;&lt;span style = &#34;color:#de9610;&#34;&gt;kintone hive tokyo vol.5&lt;/span&gt;&lt;/strong&gt;が翌日の5月19日(金曜日)に開催されるので、その日程に合わせて開催をしました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-2.jpg&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-2.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;今回はgusukuの&lt;strong&gt;三大機能&lt;/strong&gt;について、各機能をそれぞれ活用されているヘビーユーザーさん達の事例紹介回となりました。&lt;/p&gt;
-
-&lt;p&gt;当日の事例紹介はこのような感じです。&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;タイトル&lt;/th&gt;
-&lt;th&gt;スピーカー&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;gusukuについての概要説明 ＆アップデート&lt;/td&gt;
-&lt;td&gt;弊社より みみが先生&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;gusuku事例紹介1（基本機能活用編）&lt;/td&gt;
-&lt;td&gt;リトルヘルプ合同会社　CTO 兼 宴会部長　斎藤 栄 さん&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;gusuku事例紹介2（Excel帳票活用編）&lt;/td&gt;
-&lt;td&gt;株式会社エブリイ　和田 学 さん&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;gusuku事例紹介3（バックアップ活用編）&lt;/td&gt;
-&lt;td&gt;株式会社エスクリ IT統括部　中根 さん&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h1 id=&#34;gusukuについての概要説明-アップデート&#34;&gt;gusukuについての概要説明＆アップデート&lt;/h1&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-3.jpg&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-3.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-1.jpg&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-1.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-gusuku Meetupは、gusukuを利用されているユーザーさん以外にも、gusukuを知らない方や利用されたことのない方もたくさん参加されます。&lt;/p&gt;
-
-&lt;p&gt;その方たちのために、まずはgusukuがどのようなものでどのような使い方ができるのかをご説明させていただきました♪^^&lt;/p&gt;
-
-&lt;p&gt;その資料がこちらです！&lt;/p&gt;
-
-&lt;p&gt;この資料を見れば、gusukuの三大機能がどんな機能なのか&lt;strong&gt;一目瞭然！&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div style=&#34;width: 65%&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;0e78cd1f5e794b63a6ca5ef2ba62b949&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;
-
-&lt;h1 id=&#34;事例紹介1-基本機能活用編&#34;&gt;事例紹介1：基本機能活用編&lt;/h1&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-4.jpg&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-4.jpg&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
-kintone界隈ではおなじみのクラウドおじさんこと斎藤さん。普段はなんと北海道在住です。&lt;/p&gt;
-
-&lt;p&gt;ですがお仕事やkintone関係で東京には頻繁に来られている様子。
-&lt;br&gt;
-&lt;br&gt;
-実はこの翌日に開催されたkintone hive内のkintone developer達による華麗なる開発事例の彩宴！&lt;strong&gt;&lt;span style = &#34;color:#de9610;&#34;&gt;kintone hack&lt;/span&gt;&lt;/strong&gt;にも登壇されたのですよー。&lt;/p&gt;
-
-&lt;p&gt;今回は個人教室向け顧客管理アプリ&lt;a href=&#34;http://www.tetoco.jp/&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;「お教室マネージャー テトコ on kintone」&lt;/a&gt;のバージョン、デプロイ管理でgusukuをご活用いただいています。&lt;/p&gt;
-
-&lt;p&gt;教室用のアプリのセットがあらかじめ用意されており、各教室ごとにゲストスペースを切り、その上にデプロイして運用されている模様。&lt;/p&gt;
-
-&lt;p&gt;新規作成時はテンプレートから作成されているようなのですが、既存アプリの修正や一部アプリの追加が入った場合は、開発環境にあるアプリから本番環境に移行しなければいけません。&lt;/p&gt;
-
-&lt;p&gt;そこで今回そんなテトコちゃんをフォローするために颯爽と登場したのが紳士な&lt;strong&gt;&lt;span style = &#34;color:#c93a40;&#34;&gt;gusukuくん&lt;/span&gt;&lt;/strong&gt;です(๑ºㅅº๑)&lt;/p&gt;
-
-&lt;p&gt;テトコでのgusukuの運用方法については斎藤さんの当日のスライドをご覧下さい♪&lt;/p&gt;
-
-&lt;p&gt;環境のイメージとしては弊社の事例でも紹介している&lt;a href=&#34;https://www.r3it.com/case/cyberagent/&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;CAさんの事例&lt;/a&gt;が非常に近いと思います。
-ひとまとまりのアプリ群を異なるスペースにデプロイするパターンですね。&lt;/p&gt;
-
-&lt;p&gt;初回のデプロイは既存のスペーステンプレートから行い、その後の細かい調整（アプリ単位でのフォームの修正や、別のアプリをそのスペース内に個別に作成したりするケース）ではgusukuを活用されているそうです。&lt;/p&gt;
-
-&lt;p&gt;このアプリ配布、実はアプリ自体の個数や関連付けが複雑であればあるほど、けっこうひっかかってくる機能になるのですよ。&lt;/p&gt;
-
-&lt;p&gt;ですので、すべてをgusukuで解決しようとせず、kintoneの標準機能を使って簡単にできる部分はkintoneを使い、gusukuを補足的に使う、という点で、kintoneとgusukuを相互補完している、非常に効果的なユースケースだと思います！&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/J7aSys28bWlZsd&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/saitosakae/ss-76112772&#34; title=&#34;テトコちゃんがグスクくんに出会ってハッピーになったお話&#34; target=&#34;_blank&#34;&gt;テトコちゃんがグスクくんに出会ってハッピーになったお話&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.slideshare.net/saitosakae&#34;&gt;Sakae Saito&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;また、gusukuのデプロイ時の制約についてもしっかりご説明いただきました。&lt;/p&gt;
-
-&lt;p&gt;gusukuはkintone APIをベースに各機能が実装されていて、原則kintone APIで未サポートの部分は、gusukuにも実装されていないと考えていただくのが賢明です。&lt;/p&gt;
-
-&lt;p&gt;ただ、kintone側でアップデートによりサポートされるようになったもの（有名どころでいくと&lt;a href=&#34;https://developer.cybozu.io/hc/ja/articles/216972946&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;アプリのプロセス管理の取得&lt;/a&gt;などがそうですね）に関しては、今後追随する予定ではあるのですが&lt;small&gt;&lt;del&gt;諸々対応が追いついておらず…すみません。&lt;/del&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;しかしアップデートの計画の中にはしっかり組み込まれていますので、みなさんアップデートを信じて待っていて下さいヾ(*ΦωΦ)ﾉ&lt;/p&gt;
-
-&lt;h1 id=&#34;事例紹介2-excel帳票活用編&#34;&gt;事例紹介2：Excel帳票活用編&lt;/h1&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-5.jpg&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-5.jpg&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
-Excelの特性を生かしつつ、ご活用いただいているエブリイの和田さんに熱弁していただきました。&lt;/p&gt;
-
-&lt;p&gt;興味関心を持たれているユーザーさんは多いものの、いまいち理屈がわからずうまく活用できていないというお悩みの声も多く聞くExcel帳票。
-&lt;br&gt;
-&lt;br&gt;
-エブリイさんは中・四国を中心に郊外型のスーパーマーケットを多店舗展開している企業さんです。&lt;/p&gt;
-
-&lt;p&gt;安くて新鮮さがウリらしいです。わたしの地元にもあるようですが、 &lt;del&gt;未だかつてお目にかかったことがありません。。。&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;Excel帳票は、各店舗とのやりとりの部分で利用されています。
-&lt;br&gt;
-&lt;br&gt;
-資料はこちら。&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/aDTg9rNEnAUUQ8&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/ManabuWada2/gusukumeetuptokyo-vol2&#34; title=&#34;gusukuMeetupTOKYO Vol.2&#34; target=&#34;_blank&#34;&gt;gusukuMeetupTOKYO Vol.2&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.slideshare.net/ManabuWada2&#34;&gt;Manabu Wada&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Excel帳票を活用いただいているユーザーさんはけっこういるのですが、この会社さんは昨年の kintone hive osaka vol.1で弊社浅賀の登壇がきっかけでgusukuを知ることとなり、そこからExcel帳票の魅力に取り憑かれたようです！&lt;/p&gt;
-
-&lt;p&gt;業務上Excelのフォーマットが必須で完全にクラウド化ができないというような場合に、このExcel帳票は大活躍します。&lt;/p&gt;
-
-&lt;p&gt;そしてマクロや関数など、いわゆるExcel本来の機能も使っていただくことが可能です。Excel使いの皆様にはなかなか魅力的ではないでしょうか？？&lt;/p&gt;
-
-&lt;h1 id=&#34;事例紹介3-バックアップ活用編&#34;&gt;事例紹介3：バックアップ活用編&lt;/h1&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-6.jpg&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/gusuku-meetup_tokyo_vol2-6.jpg&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
-トリを飾っていただいたのは、先日&lt;a href=&#34;https://kintone-sol.cybozu.co.jp/cases/escrit.html&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;サイボウズさんの事例でも取り上げられた&lt;/a&gt;
-エスクリさんです！&lt;/p&gt;
-
-&lt;p&gt;なんと、前回の&lt;strong&gt;&lt;span style = &#34;color:#c93a40&#34;&gt;gusuku Meetup TOKYO Vol.1&lt;/span&gt;&lt;/strong&gt;にご参加いただき、gusukuに出会ってからすぐに試用開始！そして現在はバックアップを本契約してご利用いただいています。&lt;/p&gt;
-
-&lt;p&gt;特に利用において大きな不満はないそう。&lt;/p&gt;
-
-&lt;p&gt;バックアップからリストアをしなければならない事案も現状特に発生はしていないとのことですが、まったくkintoneのデータのバックアップがなく、有事に露頭に迷うよりは、いかなる形であってもバックアップが取られているほうが安心ですよね！
-&lt;br&gt;
-&lt;br&gt;
-しかもこの安心がオプション費用月額10,000円で買えるわけですよ！
-お得だと思いませんか？？？（ﾄﾞﾔﾘﾝｸﾞ&lt;/p&gt;
-
-&lt;p&gt;&lt;div style=&#34;width: 65%&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;a9d259d8a30844ffb8e2b9a17dc2132c&#34; data-ratio=&#34;1.44428772919605&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-meetup-tokyo-vol-2の参加報告ブログも&#34;&gt;gusuku Meetup TOKYO Vol.2の参加報告ブログも&lt;/h1&gt;
-
-&lt;p&gt;同じくgusukuユーザーであるKDLのかなへいちゃんが、ミートアップ開催間もなく自社ブログで参加報告を上げてくれています！&lt;/p&gt;
-
-&lt;p&gt;こちらはかなへいちゃんが業務でgusukuを利用する中での見解もふまえた内容になっていますので、参考になりますよー((ヾ(●^▽^●)ﾉ))&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://blog.ismg.kdl.co.jp/community/gusuku-meetup-tokyo-vol-2&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;gusuku Meetup TOKYO Vol.2に参加しました&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-meetupがなんと大阪でも開催されます&#34;&gt;gusuku Meetupがなんと大阪でも開催されます&lt;/h1&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20170518/logo_gusuku_meetup_osaka.png&#34; data-lightbox=&#34;gusuku-meetup_tokyo2&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20170518/logo_gusuku_meetup_osaka.png&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;strong&gt;「gusuku Meetupを是非大阪でもやってほしい！」&lt;/strong&gt; というお声をいただいたので、この度&lt;strong&gt;&lt;span style = &#34;color:#c93a40&#34;&gt;gusuku Meetup OSAKA Vol.1&lt;/span&gt;&lt;/strong&gt;を弊社で開催させていただくことになりました！&lt;/p&gt;
-
-&lt;p&gt;来たる2017年6月15日(木曜日) &lt;strong&gt;&lt;span style = &#34;color:#de9610;&#34;&gt;kintone hive osaka vol.3&lt;/span&gt;&lt;/strong&gt;の前夜開催となります。&lt;/p&gt;
-
-&lt;p&gt;大阪のミートアップはなんとgusukuを実際に触りながら学べちゃう &lt;strong&gt;ハンズオン形式&lt;/strong&gt; となりますよ！&lt;/p&gt;
-
-&lt;p&gt;事前にご準備いただくものがありますので、みなさんしっかり読んでいただいて当日に備えて下さいね(＠∀＠)=3
-&lt;br&gt;
-&lt;br&gt;
-当日の講師は…&lt;strong&gt;&lt;span style = &#34;color:#d06d8c;&#34;&gt;みみが先生&lt;/span&gt;&lt;/strong&gt;が行います！！！！&lt;/p&gt;
-
-&lt;p&gt;お申込みの詳細は↓をチェックしてくださいね(ノ^∀^)ノ
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;gusuku-meetup-osaka-vol-1&#34;&gt;gusuku Meetup OSAKA Vol.1&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/61125&#34; target=_blank rel=&#34;noopener noreferrer&#34;&gt;gusuku Meetup OSAKA Vol.1 お申し込みはこちらから&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>5月はGW明けから怒涛のイベントラッシュが続いております。
+すでに季節は6月。梅雨の時期だというのに大阪はなぜか カンカンに晴れています。 日差しが非常に痛いです。。。
+Cloud Days 名古屋にコールセンター/CRM デモ＆コンファレンス 2017 in 大阪を経て、6月はこのあと大阪でのイベントが続きます！
+春の一大イベント！kintone hive tokyo vol.5の前夜に開催されたgusuku Meetup TOKYO Vol.2の様子をどどんとお届けしちゃいますよ((ヾ(＊^▽^＊)ﾉ))
+gusuku Meetup とは ↓の画像参照です。 
+詳細はこちらをご覧下さい → gusuku Meetup
+今回は、kintone hive tokyo vol.5が翌日の5月19日(金曜日)に開催されるので、その日程に合わせて開催をしました！ 
+今回はgusukuの三大機能について、各機能をそれぞれ活用されているヘビーユーザーさん達の事例紹介回となりました。
+当日の事例紹介はこのような感じです。
+   タイトル スピーカー     gusukuについての概要説明 ＆アップデート 弊社より みみが先生   gusuku事例紹介1（基本機能活用編） リトルヘルプ合同会社　CTO 兼 宴会部長　斎藤 栄 さん   gusuku事例紹介2（Excel帳票活用編） 株式会社エブリイ　和田 学 さん   gusuku事例紹介3（バックアップ活用編） 株式会社エスクリ IT統括部　中根 さん    gusukuについての概要説明＆アップデート</description>
     </item>
     
     <item>
@@ -295,33 +72,12 @@ Excelの特性を生かしつつ、ご活用いただいているエブリイの
       <pubDate>Fri, 19 May 2017 13:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/kintone-hive-tokyo-vol5/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/info/2017/kintone-hive-small.jpg&#34; alt=&#34;kintone hive&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2017年5月19日(金)に開催される「&lt;a href=&#34;https://kintone.cybozu.com/jp/event/hive/&#34;&gt;kintone hive tokyo vol.5&lt;/a&gt;」にて弊社金春が、立命館大学との取り組みについて発表させていただきます。&lt;/p&gt;
-
-&lt;p&gt;本日は、このkintone hiveの登壇に合わせまして、立命館大学にて昨年度使用しましたkintone実習課題を配布いたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;ダウンロード&#34;&gt;ダウンロード&lt;/h2&gt;
-
-&lt;p&gt;資料はこちらからダウンロードしてください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/files/info/2017/kintone_workshop.pdf&#34;&gt;&lt;img src=&#34;https://www.r3it.com/images/info/2017/download.png&#34; alt=&#34;&#34; /&gt;&amp;nbsp;kintone_workshop.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;同じ業務を別々の人がkintoneアプリとして作成すると面白い発見が色々ありますので、みなさんも是非トライしてみてください。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&#34;ご注意&#34;&gt;ご注意&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;本資料の権利はアールスリーインスティテュートが所有しています&lt;/li&gt;
-&lt;li&gt;本ページよりダウンロードいただくことで無償でご利用いただけます&lt;/li&gt;
-&lt;li&gt;無断で改変、再配布することはご遠慮ください&lt;/li&gt;
-&lt;li&gt;本資料についてのお問い合わせはご遠慮ください&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> 2017年5月19日(金)に開催される「kintone hive tokyo vol.5」にて弊社金春が、立命館大学との取り組みについて発表させていただきます。
+本日は、このkintone hiveの登壇に合わせまして、立命館大学にて昨年度使用しましたkintone実習課題を配布いたします。
+ダウンロード 資料はこちらからダウンロードしてください。
+&amp;nbsp;kintone_workshop.pdf
+同じ業務を別々の人がkintoneアプリとして作成すると面白い発見が色々ありますので、みなさんも是非トライしてみてください。
+ご注意  本資料の権利はアールスリーインスティテュートが所有しています 本ページよりダウンロードいただくことで無償でご利用いただけます 無断で改変、再配布することはご遠慮ください 本資料についてのお問い合わせはご遠慮ください  </description>
     </item>
     
     <item>
@@ -330,243 +86,9 @@ Excelの特性を生かしつつ、ご活用いただいているエブリイの
       <pubDate>Sat, 01 Apr 2017 07:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/0401/</guid>
-      <description>
+      <description>&lt;p&gt;アールスリーは、kintoneアプリを開発するすべてのかたをお助けするサービス「gusuku」に、公式キャラクター「みみが」に話しかけるだけでkintoneアプリを作成してくれる「みみがAIアシスタント」を追加したことを発表いたします。&lt;/p&gt;
 
-&lt;p&gt;アールスリーは、kintoneアプリを開発するすべてのかたをお助けするサービス「gusuku」に、公式キャラクター「みみが」に話しかけるだけでkintoneアプリを作成してくれる「みみがAIアシスタント」を追加したことを発表いたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;みみがaiアシスタント機能とは&#34;&gt;みみがAIアシスタント機能とは？&lt;/h2&gt;
-
-&lt;p&gt;弊社が行っている対面開発では、お客様に普段行われている業務ややりたいことを語っていただきながらその場でkintoneアプリを作成していきます。
-この対面開発で蓄積した知見をビッグデータとして活用し、Deep Learningしたことによって「みみがAIアシスタント」が誕生しました。&lt;/p&gt;
-
-&lt;p&gt;お客様は、みみがにやりたい業務を話していただくだけで、みみがが自動的にkintoneにアプリを作成します。
-例えば、このような感じです&lt;/p&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-     みみが！ええ感じで在庫管理作って？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-     わらわに頼むとはいい度胸じゃ。
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-     うっ、スンマセン、そこをなんとか・・・
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   仕方ない、gusukuユーザーのおぬしの頼みだ、聞いてしんぜよう。&lt;br&gt;
-   在庫管理とは、意外と簡単そうで難しいのじゃ。ものの管理場所は複数あるのか？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    3拠点あるな。東京、大阪、福岡や。
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   3拠点か。では拠点別に管理できるようにしてやろう。
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;・・・とかなんとか、実際の対面開発のように進みます・・・&lt;/p&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    う〜ん、そこもうちょっとええ感じにならん？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   おぬしもなかなかこだわるな。
-   &lt;/p&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   これでどうじゃ？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    そうそう、それ！
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;高度なAIによって「そこもうちょっとええ感じ」等の発言でさえお客様の意図を読み取りアプリを作成します。&lt;/p&gt;
-
-&lt;p&gt;もちろん、gusuku帳票機能を使った帳票作成にも対応しております。&lt;/p&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    それ、A4の用紙1枚でええ感じに印刷できるようにしといて
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   印刷か、おぬし帳票オプションも契約しておるのか。やるな。
-   &lt;/p&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   ほれ、これでどうじゃ？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    うんうん、これでいいよ！
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;作成されたアプリは、gusukuの優れたアプリバージョン管理機能によって管理されるため、以前のバージョンに戻したり、本番環境にアプリケーションを配布することも行うことが出来ます。&lt;/p&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-left&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/customer.png&#34; alt=&#34;お客様&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     お客様
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-right&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-    よし、これでオーケーやから本番導入しよか？
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;kaiwa&#34;&gt;
- &lt;figure class=&#34;kaiwa-img-right&#34;&gt;
-   &lt;img src=&#34;https://www.r3it.com/images/info/2017/0401/mimiga.png&#34; alt=&#34;瑞慶覧みみが&#34;&gt;
- &lt;figcaption class=&#34;kaiwa-img-description&#34;&gt;
-     瑞慶覧みみが
- &lt;/figcaption&gt;
- &lt;/figure&gt;
- &lt;div class=&#34;kaiwa-text-left&#34;&gt;
-   &lt;p class=&#34;kaiwa-text&#34;&gt;
-   うむ、では我が魔法を見せてやろう。本番リリースするぞ。
-   &lt;/p&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;「みみがAIアシスタント」によってお客様はkintoneアプリの管理の手間から解放されることをお約束します。&lt;/p&gt;
-
-&lt;h2 id=&#34;今日は4月1日ですね&#34;&gt;今日は4月1日ですね&lt;/h2&gt;
-
-&lt;p&gt;そうです、今日は4月1日です。残念ながら「みみがAIアシスタント」は実在しません・・・が、将来実現するべくアールスリーでは技術研鑽を続けておりますのでご期待ください。&lt;/p&gt;
-
-&lt;p&gt;それまでは、gusuku使ってくださいね。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -575,71 +97,14 @@ Excelの特性を生かしつつ、ご活用いただいているエブリイの
       <pubDate>Thu, 16 Mar 2017 13:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/start-kintone-university/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/kintone-university/kintoneunivlogo.png&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;kintoneを中心にクラウドを活用したシステム開発「ハイスピードSI」を提唱するアールスリーインスティテュート（大阪府大阪市中央区、代表取締役 加藤忠智）は、ICTコミュニケーションズ株式会社（東京都千代田区、代表取締役CEO 内野良昭）と業務提携し、kintone研修プログラム「&lt;a href=&#34;https://www.ictcom.jp/training/kintone-university/&#34;&gt;kintone university&lt;/a&gt;」を西日本地域で実施することで合意したことを発表いたします。&lt;/p&gt;
-
-&lt;h2 id=&#34;kintone-universityとは&#34;&gt;kintone universityとは&lt;/h2&gt;
-
-&lt;p&gt;ICTコミュニケーションズが独自に開発したテキストにより、
-サイボウズ社が提供する『kintone（キントーン）』を基礎から修得するための研修プログラム。実施回数100回以上　延べ受講者数550名以上の実績。（2017年2月時点）&lt;/p&gt;
-
-&lt;p&gt;「スペシャリスト編」「アプリデザイナー編」など、レベルに合わせて体系化されたカリキュラムで、短期間でkintoneを修得することができます。&lt;/p&gt;
-
-&lt;h2 id=&#34;実施概要&#34;&gt;実施概要&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;大阪を皮切りに西日本地域（大阪以外の地域には順次拡大していきます）にてkintone universityの4コース（SP, AD, AD+, DP）を開講します&lt;/li&gt;
-&lt;li&gt;講師は、弊社でkintoneによるシステム開発に従事しているエンジニアが独自の趣向を凝らした形で担当します&lt;/li&gt;
-&lt;li&gt;弊社で受講していただいた場合の特典として、希望者にはサイボウズ公認エバンジェリストを含む弊社エンジニア陣とのkintoneでのシステム開発に関する個別相談を承ります（受講当日のみ）&lt;/li&gt;
-&lt;li&gt;弊社の講習では、通常のプログラムに加えて、弊社のkintone向けアプリ管理サービス「gusuku」の解説を行うことも計画しております&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/kintone-university/univ-201704release.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;想定する対象者&#34;&gt;想定する対象者&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;自社でkintoneの開発を行うために短期にkintoneのことを理解したい方&lt;/li&gt;
-&lt;li&gt;開発自体は開発会社に依頼するとしても、開発会社と議論をするために一通りkintoneを理解しておきたい方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;2017年4月の開講予定&#34;&gt;2017年4月の開講予定&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;4月13日(木) SP(スペシャリスト編) 10:00〜17:00 ¥37,800(税込)&lt;/li&gt;
-&lt;li&gt;4月19日(水) AD(アプリデザイナー編) 10:00〜17:00 ¥43,200(税込)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;共に弊社大阪オフィスでの開催となります。&lt;/p&gt;
-
-&lt;p&gt;参加申込は、&lt;a href=&#34;http://bit.ly/r3-kintoneuniv201704&#34;&gt;http://bit.ly/r3-kintoneuniv201704&lt;/a&gt; にて受け付けています。&lt;/p&gt;
-
-&lt;h2 id=&#34;エンドースメント&#34;&gt;エンドースメント&lt;/h2&gt;
-
-&lt;h3 id=&#34;ictコミュニケーションズ株式会社-代表取締役ceo-内野-良昭様&#34;&gt;ICTコミュニケーションズ株式会社 代表取締役CEO 内野 良昭様&lt;/h3&gt;
-
-&lt;p&gt;アールスリーインスティテュート様のkintone universityのパートナーシップを大きな歓迎を持ってお慶び申し上げます。
-弊社ではIT研修15年以上の経験者が多く、kintone universityにおいても受講者から高い満足度アンケートを頂いております。さらに、テキストは成長中のkintoneのアップデートに合わせて改定も随時行っておりますので、アールスリー様からも高い評価を頂いております。
-今回の提携によって、kintone universityの全国展開において西日本エリアへサポート範囲が広がり、kintoneの導入企業様に対しての支援体制が強化されます。
-さらに、kintone開発力の高いアールスリー様ならでは付加価値の提供にも期待しております。&lt;/p&gt;
-
-&lt;h3 id=&#34;サイボウズ株式会社-執行役員-ビジネスマーケティング本部長-林田-保様&#34;&gt;サイボウズ株式会社 執行役員 ビジネスマーケティング本部長 林田 保様&lt;/h3&gt;
-
-&lt;p&gt;サイボウズ株式会社はアールスリーインスティテュートによる西日本地域での「kintone university」実施を心より歓迎いたします。
-kintone universityは、kintoneを活用し自社の業務効率や働き方改革を率先して進めるお客様をサポートする重要な取り組みです。
-本取り組みが多くの地域に拡大することで、多様な業務にご活用下さるお客様が増え、kintoneの可能性が広がることを期待しております。
-今後もパートナー企業様と一層の協力体制を構築し、日本全国のチームワークに貢献してまいります。&lt;/p&gt;
-
-&lt;h2 id=&#34;お問い合わせ&#34;&gt;お問い合わせ&lt;/h2&gt;
-
-&lt;p&gt;担当：池上 / 金春（こんぱる）
-TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
-
-&lt;p&gt;記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。&lt;/p&gt;
-</description>
+      <description>kintoneを中心にクラウドを活用したシステム開発「ハイスピードSI」を提唱するアールスリーインスティテュート（大阪府大阪市中央区、代表取締役 加藤忠智）は、ICTコミュニケーションズ株式会社（東京都千代田区、代表取締役CEO 内野良昭）と業務提携し、kintone研修プログラム「kintone university」を西日本地域で実施することで合意したことを発表いたします。
+kintone universityとは ICTコミュニケーションズが独自に開発したテキストにより、 サイボウズ社が提供する『kintone（キントーン）』を基礎から修得するための研修プログラム。実施回数100回以上　延べ受講者数550名以上の実績。（2017年2月時点）
+「スペシャリスト編」「アプリデザイナー編」など、レベルに合わせて体系化されたカリキュラムで、短期間でkintoneを修得することができます。
+実施概要  大阪を皮切りに西日本地域（大阪以外の地域には順次拡大していきます）にてkintone universityの4コース（SP, AD, AD+, DP）を開講します 講師は、弊社でkintoneによるシステム開発に従事しているエンジニアが独自の趣向を凝らした形で担当します 弊社で受講していただいた場合の特典として、希望者にはサイボウズ公認エバンジェリストを含む弊社エンジニア陣とのkintoneでのシステム開発に関する個別相談を承ります（受講当日のみ） 弊社の講習では、通常のプログラムに加えて、弊社のkintone向けアプリ管理サービス「gusuku」の解説を行うことも計画しております  想定する対象者  自社でkintoneの開発を行うために短期にkintoneのことを理解したい方 開発自体は開発会社に依頼するとしても、開発会社と議論をするために一通りkintoneを理解しておきたい方  2017年4月の開講予定  4月13日(木) SP(スペシャリスト編) 10:00〜17:00 ¥37,800(税込) 4月19日(水) AD(アプリデザイナー編) 10:00〜17:00 ¥43,200(税込)  共に弊社大阪オフィスでの開催となります。
+参加申込は、http://bit.ly/r3-kintoneuniv201704 にて受け付けています。
+エンドースメント ICTコミュニケーションズ株式会社 代表取締役CEO 内野 良昭様 アールスリーインスティテュート様のkintone universityのパートナーシップを大きな歓迎を持ってお慶び申し上げます。 弊社ではIT研修15年以上の経験者が多く、kintone universityにおいても受講者から高い満足度アンケートを頂いております。さらに、テキストは成長中のkintoneのアップデートに合わせて改定も随時行っておりますので、アールスリー様からも高い評価を頂いております。 今回の提携によって、kintone universityの全国展開において西日本エリアへサポート範囲が広がり、kintoneの導入企業様に対しての支援体制が強化されます。 さらに、kintone開発力の高いアールスリー様ならでは付加価値の提供にも期待しております。
+サイボウズ株式会社 執行役員 ビジネスマーケティング本部長 林田 保様 サイボウズ株式会社はアールスリーインスティテュートによる西日本地域での「kintone university」実施を心より歓迎いたします。 kintone universityは、kintoneを活用し自社の業務効率や働き方改革を率先して進めるお客様をサポートする重要な取り組みです。 本取り組みが多くの地域に拡大することで、多様な業務にご活用下さるお客様が増え、kintoneの可能性が広がることを期待しております。 今後もパートナー企業様と一層の協力体制を構築し、日本全国のチームワークに貢献してまいります。
+お問い合わせ 担当：池上 / 金春（こんぱる） TEL: 06-6271-3663 Email: university@r3it.</description>
     </item>
     
     <item>
@@ -648,30 +113,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Thu, 19 Jan 2017 18:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2017/gusuku-update-0119/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuアップデート201701をリリースいたしました。&lt;/p&gt;
-
-&lt;p&gt;201701リリースでは、多数のご要望をいただいていた定期バックアップや、Excel帳票の特殊マクロ強化、別環境への移動がスムーズに行えるようになるなど、お客様からのお声を反映しつつ、操作性も改善したアップデートリリースとなっております。&lt;/p&gt;
-
-&lt;p&gt;すべてのアップデートの内容は、&lt;a href=&#34;https://docs.gusuku.io/releases/&#34;&gt;リリースノート&lt;/a&gt;にてご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -680,65 +124,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Tue, 13 Dec 2016 14:30:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-meetup-tokyo-vol1/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/logo_gusuku_meetup.png&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/logo_gusuku_meetup.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2016/logo_gusuku_meetup.png&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/logo_gusuku_meetup.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-meetup-tokyo-vol-1-開催します&#34;&gt;gusuku Meetup TOKYO Vol.1 開催します！&lt;/h1&gt;
-
-&lt;p&gt;年明け2017年1月20日（金）に東京・サイボウズさんの日本橋オフィスにて&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;gusuku（グスク）に興味があるユーザー様&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;gusukuをすでに利用されているユーザー様&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;を対象にしたミートアップを開催することが決定しました！&lt;/p&gt;
-
-&lt;p&gt;gusukuのユーザー様も徐々に増えてまいりましたが、&lt;/p&gt;
-
-&lt;p&gt;ご利用頂く中で&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;「ここはどうなの？」&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;「こういう使い方できないの？」&lt;/strong&gt; 等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;皆さんいろいろな疑問が沸いていることと思います。&lt;/p&gt;
-
-&lt;p&gt;そんな中、ユーザー様同士がフランクに&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;font color=&#34;0000FF&#34;&gt;情報交換・意見交換をし合える場&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;があったらいいのではないか？ということで。&lt;/p&gt;
-
-&lt;p&gt;今回めでたくミートアップを開催することになりました。&lt;/p&gt;
-
-&lt;p&gt;ミートアップの詳細は下記からどうぞ。&lt;/p&gt;
-
-&lt;p&gt;■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-■&lt;/p&gt;
-
-&lt;p&gt;■ &lt;strong&gt;gusuku Meetup TOKYO Vol.1&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;■ 会場：サイボウズ日本橋オフィス（東京日本橋タワー27F）&lt;/p&gt;
-
-&lt;p&gt;■ 日時：&lt;strong&gt;2017 年 1 月 20 日（金）&lt;/strong&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/55200&#34;&gt;https://r3it.doorkeeper.jp/events/55200&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━■&lt;/p&gt;
-
-&lt;p&gt;今回は&lt;strong&gt;軽食&lt;/strong&gt;をご用意しています。&lt;/p&gt;
-
-&lt;p&gt;食べながら、飲みながらgusukuについて仲間同士語り合いましょう！&lt;/p&gt;
-
-&lt;p&gt;gusukuを通じてユーザー様同士の交流が深まることを期待しています。&lt;/p&gt;
-
-&lt;p&gt;尚、当日は&lt;b&gt;&lt;font color=&#34;FF0000&#34;&gt;gusukuエバンジェリスト&lt;/font&gt;&lt;/b&gt;も参加します。&lt;/p&gt;
-
-&lt;p&gt;gusukuミートアップは、今後も定期的に開催を予定しています。&lt;/p&gt;
-
-&lt;p&gt;今回残念ながら都合がつかず参加できなかった方も、また後日ご参加頂けることを楽しみにしています。&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -747,30 +135,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Thu, 10 Nov 2016 10:38:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-ambassador-program-start/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_ambassador_1200x639.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_ambassador_1200x639.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h1 id=&#34;アールスリー-gusukuアンバサダー-プログラムを開始&#34;&gt;アールスリー、gusukuアンバサダー・プログラムを開始&lt;/h1&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日アールスリー、gusukuアンバサダー・プログラムを開始いたしました。&lt;/p&gt;
-
-&lt;p&gt;gusukuアンバサダー・プログラムはgusukuを応援してくださる方を「アンバサダー」として任命させて頂くプログラムです。&lt;/p&gt;
-
-&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/ambassador/&#34;&gt;https://gusuku.io/ambassador/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -779,30 +146,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Wed, 09 Nov 2016 10:38:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-friends-program-start/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_friends.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/gusuku_friends.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h1 id=&#34;アールスリー-gusuku紹介プログラムを開始&#34;&gt;アールスリー、gusuku紹介プログラムを開始&lt;/h1&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusuku紹介プログラムを開始いたしました。&lt;/p&gt;
-
-&lt;p&gt;gusuku紹介プログラムは、既にgusukuをご利用の方が新しいお客様を紹介してくださった際に、紹介したほう・されたほう双方に割引が適用されるプログラムです。&lt;/p&gt;
-
-&lt;p&gt;詳しい内容は、gusuku（グスク）公式サイト &lt;a href=&#34;https://gusuku.io/friends/&#34;&gt;https://gusuku.io/friends/&lt;/a&gt; にてご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;お問い合わせ先&#34;&gt;お問い合わせ先&lt;/h1&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;担当　林 / 金春（こんぱる）&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663 / Email : info@r3it.com&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -811,30 +157,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Tue, 23 Aug 2016 11:38:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-update-0823/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuアップデート201608をリリースいたしました。&lt;/p&gt;
-
-&lt;p&gt;201608リリースでは、バックアップデータを元アプリとは別のアプリにリストアできる機能の他、kintoneアプリの設計情報ファイルの大幅な改善、アプリ名配布の有無を選択できるようになるなど、よりかゆいところに手が届くメンテナンスアップデートリリースとなっております。&lt;/p&gt;
-
-&lt;p&gt;すべてのアップデートの内容は、&lt;a href=&#34;https://docs.gusuku.io/releases/&#34;&gt;リリースノート&lt;/a&gt;にてご確認ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -843,34 +168,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Wed, 27 Jul 2016 10:45:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-update-0727/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日gusukuからBasic認証の設定が行われたkintone環境に接続できる機能をリリースいたしました。&lt;/p&gt;
-
-&lt;p&gt;今までのgusukuではアクセス制限された環境に接続するには、IPアドレス制限でgusukuのサーバIPアドレスを許可していただくしか方法がなかったのですが、今回Basic認証の設定に対応したことで、より柔軟にkintoneへの接続を設定していただくことが可能になりました。&lt;/p&gt;
-
-&lt;p&gt;また、今回のBasic認証はExcel帳票オプションおよびデータバックアップオプションのどちらにも対応しております。帳票やデータバックアップオプションをご活用いただいておりますお客様におかれましても、ご利用いただくことが出来るようになっております。ぜひご活用ください。&lt;/p&gt;
-
-&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
-
-&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -879,42 +179,13 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Mon, 25 Jul 2016 10:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/kintone-plugin-seminar-0729/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/solutions/kintone/gusuku-img.png&#34;/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;株式会社アプレッソ様-sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします&#34;&gt;株式会社アプレッソ様、Sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします！&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.appresso.com/&#34;&gt;株式会社アプレッソ様&lt;/a&gt;、&lt;a href=&#34;http://jp.corp-sansan.com/&#34;&gt;Sansan株式会社様&lt;/a&gt;と弊社の3社合同で、kintoneプラグイン活用支援セミナーを開催させていただくことになりましたのでお知らせいたします。&lt;/p&gt;
-
-&lt;p&gt;kintoneはプラグインを利用するとプログラミングを行わなくてもkintoneの活用の幅が一気に広がります。&lt;/p&gt;
-
-&lt;p&gt;今回は、そのようなkintoneの連携プラグインを提供している3社のソリューションをそれぞれご紹介させていただくセミナーとなります。&lt;/p&gt;
-
-&lt;p&gt;弊社からはkintoneのアプリ開発がより便利になる&lt;strong&gt;gusuku&lt;/strong&gt;をご紹介させていただきます。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;そもそもgusukuって何ができるの？&lt;/li&gt;
-&lt;li&gt;名前は知っているけど、どのような機能があるのか知りたい&lt;/li&gt;
-&lt;li&gt;具体的な活用方法を教えてほしい&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;などなど、gusukuについて知りたい方は是非本セミナーへお越し下さい！
-&lt;br&gt;
-&lt;br&gt;
-※セミナー終了後には&lt;strong&gt;個別相談会&lt;/strong&gt;も設けております。&lt;/p&gt;
-
-&lt;p&gt;実際に利用されていて疑問点・不明点がある方も、是非この機会にセミナーにお越し頂き、疑問点を解消して帰って頂ければと思います！
-&lt;br&gt;
-&lt;br&gt;
-お申し込みは以下からお願いいたします。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cybozu.smktg.jp/public/seminar/view/762&#34;&gt;【2016/7/29/大阪】ノンプログラミングでここまでできる！kintone プラグイン活用支援セミナー&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！&lt;/p&gt;
-</description>
+      <description>株式会社アプレッソ様、Sansan株式会社様と3社合同でkintoneプラグイン活用支援セミナーを開催いたします！ 株式会社アプレッソ様、Sansan株式会社様と弊社の3社合同で、kintoneプラグイン活用支援セミナーを開催させていただくことになりましたのでお知らせいたします。
+kintoneはプラグインを利用するとプログラミングを行わなくてもkintoneの活用の幅が一気に広がります。
+今回は、そのようなkintoneの連携プラグインを提供している3社のソリューションをそれぞれご紹介させていただくセミナーとなります。
+弊社からはkintoneのアプリ開発がより便利になるgusukuをご紹介させていただきます。
+ そもそもgusukuって何ができるの？ 名前は知っているけど、どのような機能があるのか知りたい 具体的な活用方法を教えてほしい  などなど、gusukuについて知りたい方は是非本セミナーへお越し下さい！ ※セミナー終了後には個別相談会も設けております。
+実際に利用されていて疑問点・不明点がある方も、是非この機会にセミナーにお越し頂き、疑問点を解消して帰って頂ければと思います！ お申し込みは以下からお願いいたします。
+【2016/7/29/大阪】ノンプログラミングでここまでできる！kintone プラグイン活用支援セミナー 当日はたくさんの方にお越し頂けることを心よりお待ち申し上げております！</description>
     </item>
     
     <item>
@@ -923,34 +194,9 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Thu, 09 Jun 2016 13:00:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-update-0609/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;https-gusuku-io-https-gusuku-io&#34;&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智）は、本日kintoneのレコードデータと添付ファイルをクラウド上にバックアップするバックアップオプションをリリースいたしました。&lt;/p&gt;
-
-&lt;p&gt;gusuku上の簡単な操作でkintone上のレコードデータ、添付ファイルをアプリ単位でバックアップ・リストアすることが可能となります。CSVファイル形式ではリストアできない項目もきちんとバックアップ・リストアできるので、データ消失への対策となるのはもちろん、アプリケーション開発時のマスターデータ管理をバージョン管理と同等の手軽さで行うことが可能です。&lt;/p&gt;
-
-&lt;p&gt;バックアップオプションは、フリープランも含めすべてのお客様でご契約いただけるオプションとなります。また、1組織あたり20MBまで無料でご利用いただけます。&lt;/p&gt;
-
-&lt;p&gt;お申込は公式サイトの「&lt;a href=&#34;https://gusuku.io/support/&#34;&gt;オプション申込&lt;/a&gt;」にて承ります。&lt;/p&gt;
-
-&lt;p&gt;「バックアップオプション」につきましての詳細は &lt;a href=&#34;https://docs.gusuku.io/option/&#34;&gt;gusuku docs のオプションページ&lt;/a&gt;をご覧ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、配布管理を行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -959,55 +205,19 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Fri, 22 Apr 2016 12:00:10 +0900</pubDate>
       
       <guid>https://www.r3it.com/blog/kintone/20160421_gusuku-seminar/</guid>
-      <description>
+      <description>昨日4月21日(木曜日)はサイボウズ様の東京オフィスにて、午後から2本立てでセミナーを実施いたしました！ 
 
-&lt;p&gt;昨日&lt;b&gt;4月21日(木曜日)&lt;/b&gt;はサイボウズ様の東京オフィスにて、午後から&lt;b&gt;2本立て&lt;/b&gt;でセミナーを実施いたしました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar4.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar4.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar5.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar5.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー（サイボウズ様との共催）&lt;/li&gt;
-&lt;li&gt;gusukuで始める効率的なkintoneアプリ開発 虎の巻
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;活用事例解説セミナーは弊社金春の大阪でもおなじみのセミナーです(๑´ㅂ`๑)&lt;/p&gt;
-
-&lt;p&gt;本記事では、初の試みとなったgusukuの自社セミナー&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#9370DB&#34;&gt;gusukuで始める効率的なkintoneアプリ開発 虎の巻&lt;/font&gt;&lt;/b&gt;についてレポートしたいと思います！&lt;/p&gt;
-
-&lt;h1 id=&#34;セミナー会場について&#34;&gt;セミナー会場について&lt;/h1&gt;
-
-&lt;p&gt;会場はサイボウズさんの東京オフィスはバルスペースをお借りしました。
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar1.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar1.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;バル自体は&lt;b&gt;&lt;font size=&#34;5&#34; color=&#34;#FF66CC&#34;&gt;非常にカジュアルな雰囲気&lt;/font&gt;&lt;/b&gt;で、サイボウズ社の社員さんはランチタイムにも利用されたりしています(๑•̀ㅂ•́)و✧&lt;/p&gt;
-
-&lt;p&gt;プロジェクタを利用して壁に投影もできるのですが、今回は&lt;b&gt;少人数制&lt;/b&gt;で、アットホームな雰囲気のセミナーとなったので、モニタに資料を映してひとつの机を参加者の皆さんで囲んで頂くスタイルを採用しました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar2.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar2.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;セミナーの雰囲気&#34;&gt;セミナーの雰囲気&lt;/h1&gt;
-
-&lt;p&gt;自社セミナーは初の試みだったのでどうなるかとドキドキしていたのですが、ご自身で実際にgusukuを触っていただいて疑問に感じた点や、プラグインの機能等、いろいろな質問を頂きました。&lt;/p&gt;
-
-&lt;p&gt;今回はgusukuの基本機能であるバージョン管理をメインにハンズオンを行ったのですが、すでに利用されている参加者もいらっしゃったのて、わりとスムーズな進行となりました！
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar3.jpg&#34; data-lightbox=&#34;gusuku-seminar&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/20160421/gusuku_seminar3.jpg&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;気づいた点-今後のこと&#34;&gt;気づいた点、今後のこと&lt;/h1&gt;
-
-&lt;p&gt;gusuku自体は&lt;b&gt;&lt;font color=&#34;#99CC99&#34;&gt;kintoneのアプリ開発を便利にするサービス&lt;/font&gt;&lt;/b&gt;なので、弊社としてもわりと&lt;b&gt;開発者には嬉しいサービス&lt;/b&gt;だろうなという思いはあったのですが、自身で講師をしてみて、これは使いようによっては、&lt;b&gt;&lt;font color=&#34;#FF0000&#34;&gt;非開発者、非エンジニアの人でもkintoneを使ってアプリを開発する人には非常に有用なんじゃないかな？&lt;/font&gt;&lt;/b&gt;と思いました(°ω°)&lt;/p&gt;
-
-&lt;p&gt;ハンズオン全体としては、課題点や至らない点も多かったので、参加頂いた皆様には申し訳なかったのですが、この反省を今後活かして、kintoneの利用を今後検討されている皆様、またすでに利用されているものの、課題やお困り事がある皆様に対して、gusukuを広めていけたらなーと思います└(^o^└　)┘&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;gusukuを知りたいからセミナーをやってほしい！&lt;/b&gt;とか&lt;b&gt;自社向けの勉強会でgusukuを学びたい！&lt;/b&gt;というご用命等があればいつでもまいりますので、ご希望がある場合はお気軽にご相談くださいねっฅ(○•ω•○)ฅﾆｬ～ﾝ❣
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-今後もいろいろなアップデートが予定されています！是非是非公式サイトもチェックして下さいね♪&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
+ kintoneを活用した新しい企業向けシステム開発・活用事例解説セミナー（サイボウズ様との共催） gusukuで始める効率的なkintoneアプリ開発 虎の巻   活用事例解説セミナーは弊社金春の大阪でもおなじみのセミナーです(๑´ㅂ`๑)
+本記事では、初の試みとなったgusukuの自社セミナーgusukuで始める効率的なkintoneアプリ開発 虎の巻についてレポートしたいと思います！
+セミナー会場について 会場はサイボウズさんの東京オフィスはバルスペースをお借りしました。 
+バル自体は非常にカジュアルな雰囲気で、サイボウズ社の社員さんはランチタイムにも利用されたりしています(๑•̀ㅂ•́)و✧
+プロジェクタを利用して壁に投影もできるのですが、今回は少人数制で、アットホームな雰囲気のセミナーとなったので、モニタに資料を映してひとつの机を参加者の皆さんで囲んで頂くスタイルを採用しました！ 
+セミナーの雰囲気 自社セミナーは初の試みだったのでどうなるかとドキドキしていたのですが、ご自身で実際にgusukuを触っていただいて疑問に感じた点や、プラグインの機能等、いろいろな質問を頂きました。
+今回はgusukuの基本機能であるバージョン管理をメインにハンズオンを行ったのですが、すでに利用されている参加者もいらっしゃったのて、わりとスムーズな進行となりました！ 
+気づいた点、今後のこと gusuku自体はkintoneのアプリ開発を便利にするサービスなので、弊社としてもわりと開発者には嬉しいサービスだろうなという思いはあったのですが、自身で講師をしてみて、これは使いようによっては、非開発者、非エンジニアの人でもkintoneを使ってアプリを開発する人には非常に有用なんじゃないかな？と思いました(°ω°)
+ハンズオン全体としては、課題点や至らない点も多かったので、参加頂いた皆様には申し訳なかったのですが、この反省を今後活かして、kintoneの利用を今後検討されている皆様、またすでに利用されているものの、課題やお困り事がある皆様に対して、gusukuを広めていけたらなーと思います└(^o^└　)┘
+gusukuを知りたいからセミナーをやってほしい！とか自社向けの勉強会でgusukuを学びたい！というご用命等があればいつでもまいりますので、ご希望がある場合はお気軽にご相談くださいねっฅ(○•ω•○)ฅﾆｬ～ﾝ❣ 今後もいろいろなアップデートが予定されています！是非是非公式サイトもチェックして下さいね♪
+https://gusuku.io/</description>
     </item>
     
     <item>
@@ -1016,65 +226,155 @@ TEL: 06-6271-3663  Email: university@r3it.com&lt;/p&gt;
       <pubDate>Tue, 12 Apr 2016 15:00:06 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/gusuku-seminar0421/</guid>
-      <description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gusuku.io/&#34;&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、gusuku 添付ファイル保存プラグインをアップデート</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update-0405/</link>
+      <pubDate>Tue, 05 Apr 2016 17:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update-0405/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;平素は弊社の gusuku（グスク） をご利用頂き、ありがとうございます。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、ハイスピードSIを超えて素早く業務システムを提供する「超ハイスピードSI」をリリース</title>
+      <link>https://www.r3it.com/info/2016/0401/</link>
+      <pubDate>Fri, 01 Apr 2016 07:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/0401/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2016/0401/logo_super_highspeedsi_rgb.png&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;kintoneアプリ開発でハマり尽くした弊社が開発しました、開発者の皆様の救世主となる、かゆいところに手が届くWebサービスであるgusuku（グスク）の活用方法をハンズオン形式で学んでいただく無料セミナーを開催いたします。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cloud Days Tokyo 2016 に出展してきました！！</title>
+      <link>https://www.r3it.com/blog/kintone/20160310-11_clouddaystokyo2016/</link>
+      <pubDate>Mon, 14 Mar 2016 15:00:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160310-11_clouddaystokyo2016/</guid>
+      <description>デブサミ2016の登壇報告以降ブログ更新が滞っておりすみません。
+2016年3月10日・11日の2日間、Cloud Days Tokyoに出展してまいりましたのでそのご報告をさせて頂きます！
+Cloud Days って？ 日経BP社主催の大規模なITイベントです。今年2016年はクラウド、ビッグデータ、モバイル＆ウエアラブル、セキュリティ＆ガバナンスそしてIoTにフォーカスし、東京・大阪、九州・名古屋・札幌の全国5ヶ所で開催されます。
 
-&lt;h2 id=&#34;参加対象&#34;&gt;参加対象&lt;/h2&gt;
+（近くにテスラが停めてありました。クラウドかIoT!?）
+Cloud Days Tokyo は初出展！ 昨年は大阪、名古屋、九州の3ヶ所で出展させて頂きましたが、今年初の Cloud Daysはなんと東京から！
+今回は昨年の名古屋の時のように、サイボウズさんのパートナーブースで出展させて頂きました。
 
-&lt;p&gt;既にサイボウズkintoneを導入済みで、自社でアプリ作成や運用管理で試行錯誤している企業様におすすめです。gusukuは無料で利用できますので、ハンズオン中にサインアップしていただく事もできますのでお気軽にご参加ください。&lt;/p&gt;
+普段kintone界隈でお世話になっているジョイゾーさんやM-SOLUTIONSさんなども出展されていて、華やかな雰囲気でしたよ！
+M-SOLUTIONSさんのブースではお馴染みのペッパーくんがお出迎え！（写真撮り忘れました・・・）
+サイボウズさんのブースではミニセミナーも！ 今回はサイボウズさんと各パートナー様のペアでセッションが展開されるスタイルでした。
+弊社からは金春が「小さく・はやく」作ることの大切さを訴える、ハイスピードSIについて登壇させていただきました。
 
-&lt;ul&gt;
-&lt;li&gt;「どうやってkintoneアプリの運用管理をしていこう」&lt;/li&gt;
-&lt;li&gt;「他の会社のベストプラクティスを知りたい」&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;といった疑問をお抱えのご担当者の方、ぜひお越しください。
-皆様の疑問にお応えします。&lt;/p&gt;
+（少し引いてみると、この人だかり！）
+kintoneとAWSの連携ソリューションの展示 ブースの方では、kintoneとAWSの連携ソリューションを展示しておりました。
+kintoneと外部サービスとのさまざまな連携パターンを、皆様に知って頂くことが出来たかなと思っております(๑•̀ㅂ•́)و✧
+Cloud Days 2016 東京のまとめ 今回のイベントの参加者で、弊社ブースにお立ち寄り頂いた方にお話をお聞きすると、kintoneの名前自体をご存知ない方、また名前は知っていても使ったことがない方が多かったように思います。
+サイボウズさんの製品ということをご説明させて頂いて初めて知った！という方も。
+ただそういった方にデモをお見せして、こういった使い方が出来るんだよということをお伝えすると、かなり高い確率で興味関心を持って頂けました！
+今週末3月17日(木曜日)・18日(金曜日)はCloud Days 大阪に出展します！
+大阪の皆様！是非会場まで足を運んで下さいね(๑´ㅂ`๑)
+大阪事前登録はこちらです！ http://expo.nikkeibp.co.jp/cloud/2016spring/osaka/regist.html</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、サイボウズ「kintone」向けプラグインとしてExcel帳票サービスをリリース</title>
+      <link>https://www.r3it.com/info/2016/gusuku-update201603/</link>
+      <pubDate>Tue, 08 Mar 2016 12:00:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2016/gusuku-update201603/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;開催日時&#34;&gt;開催日時&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Developers Summit 2016 参加レポート！</title>
+      <link>https://www.r3it.com/blog/kintone/20160218-19_devsumi2016/</link>
+      <pubDate>Wed, 24 Feb 2016 12:00:30 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/blog/kintone/20160218-19_devsumi2016/</guid>
+      <description>「デブサミ、登壇してみない？」
+とボスから言われたのが2016年にはいってすぐの時期でした。 
+「是非やりたいです！」と言ったはいいものの、何のハンズオンをしようかなと考え・・・ …その結果、
+SIをやっている弊社随一のサービス『gusuku』をもっと広めよう！ということで
+僭越ながらgusukuのハンズオンを行わせて頂くことに！ 金春はkintone Promiseのハンズオンセッションで18日に。
+【上級】これでもう怖くない、kintone Promise 
+わたしは19日に登壇させて頂くことに！
+【中級】kintoneアプリのバージョン管理はgusukuにおまかせ！ 
+決戦前日（デブサミ2016 1日目） デブサミ、もといDevelopers Summit は年1回開催される、大規模なITエンジニアのお祭りです。
+関西在住のわたしですが、デブサミ関西ですら1度も参加したことが（実は）ない！（気持ち的には参加したくて仕方なかったのです） そんな雰囲気もわからないままのおのぼりさん状態で、デブサミ2016に参加したわけです…！（震え声
 
-&lt;p&gt;2016年4月21日（木） 18:30 - 20:00&lt;/p&gt;
+翔泳社のブースで巷で話題のIT擬人化計画のPOPを発見！！！！！テンションが上がりました！！！！！
+1日目は金春のセッションだったので、わたしはカメラ要員（しかし撮影スキルは皆無）ということでリラックスモード（おい 
+メェ～ルワイズに乗ってニコニコL(&amp;lsquo;ω&amp;rsquo;)┘三└(&amp;lsquo;ω&amp;rsquo;)｣
+会場の様子とセッション サイボウズさんのトラックは別のフロアにあり、WiFiも使える休憩スペースになっていました。 
+入り口ではメェ～ルワイズもお出迎えしてくれます！ 
+フリードリンクにエクアドル産のバナナも！ちょっとした作業にお勧めのスペースです。 
+ちなみにこのバナナわたしも頂いたのですが、すごく食べごたえがありました！！！！
+ジャングルカフェに寄られた皆さんも、わりとバナナを頬張られていましたよ(っ´ω`c)♡
+その中で、サイボウズさんやジョイゾーさんといった錚々たる面々がセッションを行います。
+1日目のラストで弊社金春が登壇！kintone Promiseについてのセッションです！ 
+あ、こっちじゃないですね。 
 
-&lt;h2 id=&#34;会場&#34;&gt;会場&lt;/h2&gt;
+今回は上級者向けのセッションということもあり、セッション内で時間を取り、参加者に実際にコードを考えて書いてもらう時間がありました。 
+セッション中に書くのはなかなか大変です…そして、わりと一筋縄ではいかない課題が大量にΣ
+ソースコードを見るとその開発者の方向性が垣間見えるのが面白いなと思います|ω・)ｺｯｿﾘ
+決戦当日（デブサミ2016 2日目） そんなこんなでいよいよデブサミ登壇デビューの日がやってまいりました！ いつものLTあるあるのように事故で終われないので、ギリギリまでスピーカー控室で資料の調整をするわたしです。
+ついに決戦の時！ いよいよやってきました！、決戦の時が…！
+当日参加の方もいらっしゃったからなのか、予想以上に席がいっぱいの状態に！ 
+皆様それだけこのサービスに興味を持って頂いていたのだと思うと身が引き締まる思いです…！ 
+こんなところで事故るわけにはいかない…！！！！！！
+と思いつつ、 自己紹介はしっかり（
 
-&lt;p&gt;サイボウズ 日本橋オフィス 27階 cybozu BAR(バル)&lt;/p&gt;
+90分という長丁場でしたが、皆さん終始集中して聞いて頂き、gusukuについても興味を持って頂けました！
+金春とわたしのデブサミ登壇資料はこちらのページにリンクを貼らせて頂いています！
+セルフペースで学習して頂けるような資料にしてますので、ご興味がある方は是非是非ご覧になってみて下さいね！
+最後に 早速その後実務でお試し頂いている方もいらっしゃるようで、ありがたい限りです。
+皆様本当にありがとうございます！（｡╹ω╹｡）
+今回登壇機会を与えてくださった皆様に、この場をお借りして御礼申し上げます(`･⊝･´)
+再掲：資料はこちらで〜す！ ひとりごと なんとなんと…</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、サイボウズ「kintone」アプリの利用・開発・運用を支援するサービス gusuku（グスク）を正式リリース</title>
+      <link>https://www.r3it.com/info/2015/gusuku-release/</link>
+      <pubDate>Fri, 06 Nov 2015 09:27:06 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/gusuku-release/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/kintone/gusuku_logo.png&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;（イベント前に入館に必要なQRコードをメールにてお送りいたします）&lt;/p&gt;
-
-&lt;h2 id=&#34;参加費用は無料です&#34;&gt;参加費用は無料です！&lt;/h2&gt;
-
-&lt;p&gt;セミナー参加は無料です、是非ご参加ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;事前準備&#34;&gt;事前準備&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneアカウント（開発者ライセンスでもハンズオンは可能です）&lt;/li&gt;
-&lt;li&gt;無線LANが利用できるラップトップ、またはタブレット&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://r3it.doorkeeper.jp/events/40278&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;　お申込みはこちらから　&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;主催&#34;&gt;主催&lt;/h2&gt;
-
-&lt;p&gt;アールスリーインスティテュート&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/&#34;&gt;https://www.r3it.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;gusuku-グスク-について&#34;&gt;gusuku（グスク）について&lt;/h1&gt;
-
-&lt;p&gt;「gusuku（グスク）」は kintone 上のアプリケーションのバージョン管理、デプロイを行えるほか、gusuku APIを利用した kintone プラグインを利用することによって、kintone 自体をさらに便利にご活用頂けるプラットフォームとなっております。&lt;/p&gt;
-
-&lt;p&gt;無料のフリープランもございますので、まずお試しいただくことが可能です。すべての kintone アプリ開発者の皆様にご利用いただくことを願っております。&lt;/p&gt;
-
-&lt;p&gt;こちらの公式サイトよりフリープランの「申込」をクリックしてサインインしてください。&lt;/p&gt;
-
-&lt;p&gt;gusuku（グスク）公式サイト： &lt;a href=&#34;https://gusuku.io/&#34;&gt;https://gusuku.io/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>gusukuプライベートベータ開始のお知らせ</title>
+      <link>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</link>
+      <pubDate>Tue, 25 Aug 2015 10:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2015/gusuku-privatebeta-release/</guid>
+      <description>gusukuプライベートベータ開始のお知らせ アールスリーインスティテュート（大阪府大阪市、代表取締役 加藤忠智、以下当社）は、本日kintoneでの開発を強力にサポートする「gusuku（グスク）」サービスのプライベートベータの提供を開始いたしました。
+gusuku Webサイト: https://gusuku.io/
+gusuku開発の背景 kintoneは、サイボウズ株式会社の提供するファストシステム開発プラットフォームです。基本的な要素はブラウザ上でドラッグ＆ドロップだけで開発することができ、またクラウドサービスであるため運用環境を用意することなく、すぐに利用を開始することができます。
+当社では、このkintoneを活用し「ハイスピードSI」という開発サービスを提供しておりますが、その中で実際に開発作業を行っていると今のkintoneでは解決できないいくつかの問題が発生します
+ 簡単に安全にアプリを修正できるとはいえ本番運用しているアプリの上で試行錯誤するわけにはいかない 試行錯誤用に開発用アプリを別に作成したとしても、そこで実施した変更を再度本番環境のアプリで行わないといけなくなり、作業漏れやミスの可能性がある 変更した結果が、まずいとなった場合に元に戻す手段がない。最後に行った変更を手作業で１つ１つ戻していく必要がある  こういった問題を解消することを目的に、gusukuを開発いたしました。
+gusukuを利用していただきたい方  kintoneで運用しているアプリをお持ちで、頻繁にアプリに変更を加える方 kintoneで運用しているアプリが多く、それぞれのアプリの管理に手間がかかると感じられている方  プライベートベータへの参加方法 gusukuプライベートベータサービスへの参加は、 https://gusuku.io/ より利用規約をご確認の上、ご登録ください。 現在、FacebookまたはGoogleアカウントでのご利用が可能となっております。
+準備が整い次第、順次ご連絡をさせていただきます。
+gusukuの今後について プライベートベータにてご意見をいただき必要な改修を行った後、本番リリースを行います。本番リリースでは、無料プランと有料プランの両方をご用意する予定となっております。 有料プランの内容・金額等については、順次公開して参ります。
+アールスリーインスティテュートについて アールスリーインスティテュートは、少数精鋭で効率よくシステム開発を行うことをコンセプトとしている、システムによる問題解決会社です。 当社では、「ハイスピードSI」としてkintoneを用いた新しいシステム開発サービスをご提供しております。様々なシステムを開発してきた当社からだからこそできるkintoneの活用をご提案しております。
+Web: https://www.r3it.com/
+本件に関するお問い合わせ先 アールスリーインスティテュート
+TEL: 06-6271-3663
+Mail: butler@gusuku.io
+担当： 西島、金春（こんぱる）
+サービス画像</description>
     </item>
     
   </channel>

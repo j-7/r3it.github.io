@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://www.r3it.com/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Jun 2017 19:30:10 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.r3it.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aws</title>
+      <link>https://www.r3it.com/tags/aws/</link>
+      <pubDate>Thu, 29 Jun 2017 19:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://www.r3it.com/tags/cloud/</link>
+      <pubDate>Mon, 19 Jun 2017 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>https://www.r3it.com/tags/community/</link>
+      <pubDate>Thu, 29 Jun 2017 19:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Etc</title>
+      <link>https://www.r3it.com/tags/etc/</link>
+      <pubDate>Mon, 19 Jun 2017 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/etc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event</title>
+      <link>https://www.r3it.com/tags/event/</link>
+      <pubDate>Mon, 19 Jun 2017 16:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gusuku</title>
+      <link>https://www.r3it.com/tags/gusuku/</link>
+      <pubDate>Sat, 01 Jul 2017 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/gusuku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jawsug</title>
+      <link>https://www.r3it.com/tags/jawsug/</link>
+      <pubDate>Thu, 29 Jun 2017 19:30:10 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/jawsug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kintone</title>
+      <link>https://www.r3it.com/tags/kintone/</link>
+      <pubDate>Sat, 01 Jul 2017 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/kintone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oss</title>
+      <link>https://www.r3it.com/tags/oss/</link>
+      <pubDate>Tue, 22 Mar 2016 11:24:36 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/oss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talend</title>
+      <link>https://www.r3it.com/tags/talend/</link>
+      <pubDate>Tue, 30 Aug 2016 14:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/tags/talend/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

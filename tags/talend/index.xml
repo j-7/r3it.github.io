@@ -6,7 +6,9 @@
     <description>Recent content in Talend on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 30 Aug 2016 14:00:00 +0900</lastBuildDate>
-    <atom:link href="https://www.r3it.com/tags/talend/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.r3it.com/tags/talend/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>【ハイスピードSI事例公開のお知らせ】ヤマハ発動機様：コールセンターシステムクラウド化</title>
@@ -14,28 +16,10 @@
       <pubDate>Tue, 30 Aug 2016 14:00:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2016/kintone-casestudy-release-0830/</guid>
-      <description>
+      <description>ハイスピードSI事例公開　ヤマハ発動機様 本日2016年8月30日付で弊社のお客様ヤマハ発動機様のkintoneを利用したシステム導入事例が公開されました。
 
-&lt;h1 id=&#34;ハイスピードsi事例公開-ヤマハ発動機様&#34;&gt;ハイスピードSI事例公開　ヤマハ発動機様&lt;/h1&gt;
-
-&lt;p&gt;本日2016年8月30日付で弊社のお客様ヤマハ発動機様のkintoneを利用したシステム導入事例が公開されました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;wide-image&#34; src=&#34;https://www.r3it.com/images/info/2016/iwcallsys_figure.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;（画像転載元：サイボウズ様 プレスリリース）&lt;/a&gt;
-&lt;br&gt;
-従来オンプレで稼働していた既存コールセンターを3ヶ月でクラウドに移行したということで、ハイスピードSIを駆使した開発を実現しています。
-&lt;br&gt;
-オンプレによるリプレースと比較してコスト削減にも繋がったとのこと。
-&lt;br&gt;
-この機会に是非弊社&lt;b&gt;ハイスピードSI&lt;/b&gt;の世界に足を踏み入れてみて下さい！
-&lt;br&gt;&lt;a href=&#34;https://www.r3it.com/solutions/&#34;&gt;https://www.r3it.com/solutions/&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;サイボウズ様　プレスリリース&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;http://group.cybozu.jp/news/16083001.html&#34;&gt;http://group.cybozu.jp/news/16083001.html&lt;/a&gt;&lt;/p&gt;
-&lt;b&gt;日経BP ITpro&lt;/b&gt;
-&lt;p&gt;&lt;a href=&#34;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&#34;&gt;http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/&lt;/a&gt;&lt;/p&gt;
-</description>
+（画像転載元：サイボウズ様 プレスリリース） 従来オンプレで稼働していた既存コールセンターを3ヶ月でクラウドに移行したということで、ハイスピードSIを駆使した開発を実現しています。 オンプレによるリプレースと比較してコスト削減にも繋がったとのこと。 この機会に是非弊社ハイスピードSIの世界に足を踏み入れてみて下さい！ https://www.r3it.com/solutions/ サイボウズ様　プレスリリース http://group.cybozu.jp/news/16083001.html
+日経BP ITpro http://itpro.nikkeibp.co.jp/atcl/news/16/083002500/</description>
     </item>
     
     <item>
@@ -44,154 +28,15 @@
       <pubDate>Thu, 14 Apr 2016 15:30:10 +0900</pubDate>
       
       <guid>https://www.r3it.com/blog/aws/talend-on-lambda/</guid>
-      <description>
-
-&lt;p&gt;長い夏が始まった沖縄よりこんにちは、西島です。皆さんはサーバレスでコード実行が目玉の&lt;a href=&#34;https://aws.amazon.com/jp/lambda/&#34;&gt;AWS Lambda&lt;/a&gt;使ってますか？使ってますよね？&lt;/p&gt;
-
-&lt;p&gt;弊社では、ちょっとした集計報告からS3のストレージと連携した後処理などをはじめ、言語は Node.js から Java8 で書かれたものまで、あらゆるところで Lambda が使われています（実は弊社サービスの&lt;a href=&#34;https://gusuku.io/&#34;&gt;gusuku（グスク）&lt;/a&gt;のExcel帳票サービスもすべてLambdaで書かれています！）。&lt;/p&gt;
-
-&lt;p&gt;そんなLambdaの使い方のひとつで、今日はシステム間連携のバッチジョブを動かすためのTIPSをご紹介したいと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;システム間連携ジョブといえばtalend&#34;&gt;システム間連携ジョブといえばTalend&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社は Talend Open Studio パートナーですので、システム間連携といえば勿論 Talend を利用しています。Talendとは・・・は&lt;a href=&#34;https://jp.talend.com/&#34;&gt;公式サイト&lt;/a&gt;に譲るとして、色々な製品ラインがある中で、弊社は例えば基幹システム（オンプレミス）にあるデータベース、FTPサーバなどと、クラウド側にある例えば kintone などとのデータ連携に Talend を使用しています。&lt;/p&gt;
-
-&lt;p&gt;（Talend と kintone の連携には、拙作の &lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kc4t&lt;/a&gt; というオープンソースのコンポーネントがありますので、ご活用ください！）&lt;/p&gt;
-
-&lt;h1 id=&#34;まずjavaのコードをlambdaで動かすようにする&#34;&gt;まずJavaのコードをLambdaで動かすようにする&lt;/h1&gt;
-
-&lt;p&gt;僕も弊社もJavaを愛していますので、LambdaでJavaがサポートされた時はとても嬉しかったです！ JavaでLambda関数を作る手順はあまり見かけませんが、幾つかの手順を踏めば難しいものではありません。公式ドキュメントは&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/lambda-java-how-to-create-deployment-package.html&#34;&gt;こちら&lt;/a&gt;です。&lt;/p&gt;
-
-&lt;h2 id=&#34;lambdaで動かすポイント&#34;&gt;Lambdaで動かすポイント&lt;/h2&gt;
-
-&lt;p&gt;ポイントとしては、以下を踏まえれば問題ないと思います（AWS SDK Eclipse ツールキットを利用すれば同等のことが出来るのだと思いますが、試していません）。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1つのjarファイルにすべてのクラスファイルをまとめる必要がある&lt;/li&gt;
-&lt;li&gt;つまり、利用している依存ライブラリも全て1つにまとめる&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://maven.apache.org/plugins/maven-shade-plugin/&#34;&gt;maven-shadeプラグイン&lt;/a&gt;便利♪&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;pom.xmlでpackageのゴール時にshadeを実行するように書いておきましょう。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;build&amp;gt;
-  &amp;lt;plugins&amp;gt;
-    &amp;lt;plugin&amp;gt;
-      &amp;lt;artifactId&amp;gt;maven-shade-plugin&amp;lt;/artifactId&amp;gt;
-      &amp;lt;version&amp;gt;2.3&amp;lt;/version&amp;gt;
-      &amp;lt;configuration&amp;gt;
-        &amp;lt;createDependencyReducedPom&amp;gt;true&amp;lt;/createDependencyReducedPom&amp;gt;
-      &amp;lt;/configuration&amp;gt;
-      &amp;lt;executions&amp;gt;
-        &amp;lt;execution&amp;gt;
-          &amp;lt;phase&amp;gt;package&amp;lt;/phase&amp;gt;
-          &amp;lt;goals&amp;gt;
-            &amp;lt;goal&amp;gt;shade&amp;lt;/goal&amp;gt;
-          &amp;lt;/goals&amp;gt;
-        &amp;lt;/execution&amp;gt;
-      &amp;lt;/executions&amp;gt;
-    &amp;lt;/plugin&amp;gt;
-    &amp;lt;plugin&amp;gt;
-      &amp;lt;artifactId&amp;gt;maven-compiler-plugin&amp;lt;/artifactId&amp;gt;
-      &amp;lt;version&amp;gt;2.3.2&amp;lt;/version&amp;gt;
-      &amp;lt;configuration&amp;gt;
-        &amp;lt;source&amp;gt;${java.version}&amp;lt;/source&amp;gt;
-        &amp;lt;target&amp;gt;${java.version}&amp;lt;/target&amp;gt;
-      &amp;lt;/configuration&amp;gt;
-    &amp;lt;/plugin&amp;gt;
-  &amp;lt;/plugins&amp;gt;
-&amp;lt;/build&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;lambda関数の実装&#34;&gt;Lambda関数の実装&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/java-programming-model.html&#34;&gt;公式ドキュメント&lt;/a&gt;を見ると簡潔に書かれています。ここでは参考までにソース雛形を貼っておきます。&lt;/p&gt;
-
-&lt;p&gt;最低限 Context が引数のstaticメソッドがあればLambda関数として登録できます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class App {
-
-    public static String main( Context context ) {
-        // 色々頑張るコード
-
-        return &amp;quot;OK&amp;quot;;
-    }
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;talend-のジョブを-lambda-で動かす&#34;&gt;Talend のジョブを Lambda で動かす&lt;/h1&gt;
-
-&lt;p&gt;前置きが長くなりました。いよいよTalendで作ったジョブをLambdaで実行する際の手順です。&lt;/p&gt;
-
-&lt;h2 id=&#34;lambdaで実行するときのポイント&#34;&gt;Lambdaで実行するときのポイント&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;通常のJavaで書かれたLambda関数と同じく、すべてのクラスを1つのjarファイルにまとめる&lt;/li&gt;
-&lt;li&gt;Talendでジョブを作成。出力されたJavaソースを、自分のプロジェクトにそのままコピーする&lt;/li&gt;
-&lt;li&gt;その時の依存関係は自力でpom.xmlを修正して頑張る&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;lambda上で動くジョブを作成するときの注意&#34;&gt;Lambda上で動くジョブを作成するときの注意&lt;/h2&gt;
-
-&lt;p&gt;「ほぼ」普通のジョブ作成で問題ありません。が、1点、Lambdaからは&amp;rdquo;/tmp&amp;rdquo;にしかファイルを作成できないことに注意しましょう。&lt;/p&gt;
-
-&lt;p&gt;例えば、S3やFTPでファイルを取得して一旦ローカルに保存するような場合、/tmpに常に書き込むようにしましょう。ローカルにテンポラリファイルが必要なら、File.createTempFile メソッドなどを使ってください。&lt;/p&gt;
-
-&lt;h2 id=&#34;ジョブのエクスポート時の注意&#34;&gt;ジョブのエクスポート時の注意&lt;/h2&gt;
-
-&lt;p&gt;実行ジョブを作成するときのオプションで「Javaソース」にチェックを入れておいてください！これがないと、作成したジョブのソースがなくて後で困ります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/export.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/export.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;自分のeclipseプロジェクトに取り込み&#34;&gt;自分のEclipseプロジェクトに取り込み&lt;/h2&gt;
-
-&lt;p&gt;生成されたzip内のソースコードをEclipseのソースフォルダにコピーします。この後は、依存関係を解決すべく試行錯誤が始まります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/src-copy.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/src-copy.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;エラーが多数出ますので、利用されている外部ライブラリをpom.xmlに追加していきます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/errors.png&#34; data-lightbox=&#34;pic&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/blog/aws/talend-on-lambda/errors.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ジョブが依存しているライブラリは、zipの下のlibの中にあります。&lt;/p&gt;
-
-&lt;p&gt;どんなに頑張ってもEclipse上ではエラーが解決できないファイル「ComponentRuntimeContainerBase.java」がありますが、それはざっくり削除で問題ありません。&lt;/p&gt;
-
-&lt;h2 id=&#34;lambdaのハンドラはどうする&#34;&gt;Lambdaのハンドラはどうする？&lt;/h2&gt;
-
-&lt;p&gt;先ほどサンプルで書いたJavaのコードの中から、Talendのジョブを呼び出せばOKです。例えば以下の様な形になります。ここでは戻り値がvoidのメソッドを使っています（これもOK!）。&lt;/p&gt;
-
-&lt;p&gt;例外を投げると自動リトライがかかりますので、リトライすれば次回成功するから例外を投げるのか、エラー報告してジョブ自体を投入し直すのか、開発者側で判断できるので便利ですね！&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class InvokeTalend {
-
-    public static void main( Context context ) throws Exception {
-        final TestJob job = new TestJob(); // talend上でつけたジョブ名がそのままクラス名
-
-        final String[] args = new String[0]; // Context を上書きしたかったら引数で渡してやる。
-
-        job.runJob( args );
-
-        final Exception e = job.getException();
-        if( e != null ) {
-            // 例外に対して何かしたかったら（SNSに投げるとか）ここで行う。
-            throw e; // 例外を投げてリトライ
-        }
-
-   }
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;まとめ&#34;&gt;まとめ&lt;/h1&gt;
-
-&lt;p&gt;Lambdaの実行時間には現在のところ&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/limits.html&#34;&gt;最大5分の制限&lt;/a&gt;がありますので、長大重厚なバッチを走らせるには一工夫が必要です。ですが、シンプルなシステム間の連携やETLを1日1回実行出来ればいいなどという用途には、わざわざEC2でサーバを立てずに実行できますので、非常に便利に活用することが出来ます。&lt;/p&gt;
-
-&lt;p&gt;弊社では kintone だけではなく、オンプレミス（FTP連携サーバもまだまだ多いですよね！）とクラウドを架け橋するような案件もやっております。「こんなこと出来るのかな？」というご相談がありましたら、ぜひお問い合わせください！&lt;/p&gt;
-</description>
+      <description>長い夏が始まった沖縄よりこんにちは、西島です。皆さんはサーバレスでコード実行が目玉のAWS Lambda使ってますか？使ってますよね？
+弊社では、ちょっとした集計報告からS3のストレージと連携した後処理などをはじめ、言語は Node.js から Java8 で書かれたものまで、あらゆるところで Lambda が使われています（実は弊社サービスのgusuku（グスク）のExcel帳票サービスもすべてLambdaで書かれています！）。
+そんなLambdaの使い方のひとつで、今日はシステム間連携のバッチジョブを動かすためのTIPSをご紹介したいと思います。
+システム間連携ジョブといえばTalend 弊社は Talend Open Studio パートナーですので、システム間連携といえば勿論 Talend を利用しています。Talendとは・・・は公式サイトに譲るとして、色々な製品ラインがある中で、弊社は例えば基幹システム（オンプレミス）にあるデータベース、FTPサーバなどと、クラウド側にある例えば kintone などとのデータ連携に Talend を使用しています。
+（Talend と kintone の連携には、拙作の kc4t というオープンソースのコンポーネントがありますので、ご活用ください！）
+まずJavaのコードをLambdaで動かすようにする 僕も弊社もJavaを愛していますので、LambdaでJavaがサポートされた時はとても嬉しかったです！ JavaでLambda関数を作る手順はあまり見かけませんが、幾つかの手順を踏めば難しいものではありません。公式ドキュメントはこちらです。
+Lambdaで動かすポイント ポイントとしては、以下を踏まえれば問題ないと思います（AWS SDK Eclipse ツールキットを利用すれば同等のことが出来るのだと思いますが、試していません）。
+ 1つのjarファイルにすべてのクラスファイルをまとめる必要がある つまり、利用している依存ライブラリも全て1つにまとめる maven-shadeプラグイン便利♪  pom.xmlでpackageのゴール時にshadeを実行するように書いておきましょう。
+&amp;lt;build&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;artifactId&amp;gt;maven-shade-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.3&amp;lt;/version&amp;gt; &amp;lt;configuration&amp;gt; &amp;lt;createDependencyReducedPom&amp;gt;true&amp;lt;/createDependencyReducedPom&amp;gt; &amp;lt;/configuration&amp;gt; &amp;lt;executions&amp;gt; &amp;lt;execution&amp;gt; &amp;lt;phase&amp;gt;package&amp;lt;/phase&amp;gt; &amp;lt;goals&amp;gt; &amp;lt;goal&amp;gt;shade&amp;lt;/goal&amp;gt; &amp;lt;/goals&amp;gt; &amp;lt;/execution&amp;gt; &amp;lt;/executions&amp;gt; &amp;lt;/plugin&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;artifactId&amp;gt;maven-compiler-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.3.2&amp;lt;/version&amp;gt; &amp;lt;configuration&amp;gt; &amp;lt;source&amp;gt;${java.version}&amp;lt;/source&amp;gt; &amp;lt;target&amp;gt;${java.version}&amp;lt;/target&amp;gt; &amp;lt;/configuration&amp;gt; &amp;lt;/plugin&amp;gt; &amp;lt;/plugins&amp;gt; &amp;lt;/build&amp;gt;  Lambda関数の実装 公式ドキュメントを見ると簡潔に書かれています。ここでは参考までにソース雛形を貼っておきます。</description>
     </item>
     
     <item>
@@ -200,86 +45,10 @@
       <pubDate>Tue, 22 Mar 2016 11:24:36 +0900</pubDate>
       
       <guid>https://www.r3it.com/community/oss/tkintoneoutput/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kc4tのTalendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;インストール方法はこちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;機能詳細&#34;&gt;機能詳細&lt;/h2&gt;
-
-&lt;h3 id=&#34;rdbmsからkintoneへレコードの書き込み&#34;&gt;RDBMSからkintoneへレコードの書き込み&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;スキーマのカラム名をkintoneのフィールドコードとみなし、kintoneにレコードを書き込みます&lt;/li&gt;
-&lt;li&gt;CSVファイルなど、スキーマをサポートするデータソースから、1行毎upsertを実行します&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;設定パラメータ&#34;&gt;設定パラメータ&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-config.png&#34; alt=&#34;設定&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;setting-for-kintone&#34;&gt;Setting for kintone&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;API token&lt;/td&gt;
-&lt;td&gt;接続するkintoneアプリの API token。レコード閲覧・追加・編集権限が必要です。&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Sub domain&lt;/td&gt;
-&lt;td&gt;接続するアプリのサブドメイン&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Guest SpaceId&lt;/td&gt;
-&lt;td&gt;もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;kintone AppId&lt;/td&gt;
-&lt;td&gt;アプリID（数値で指定します）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;upsert queries use this Field Code&lt;/td&gt;
-&lt;td&gt;kintoneアプリ上の「プライマリキー」として扱うフィールドコードを指定します。kc4tはこのフィールドコードを使って upsert 処理を行います。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;スキーマとキントーンのフィールドのマッピング方法how-to-mapping-schema-to-kintone-s-fields&#34;&gt;スキーマとキントーンのフィールドのマッピング方法How to mapping schema to kintone&amp;rsquo;s fields&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-metadata.png&#34; alt=&#34;スキーマ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;スキーマのカラムは、キントーンのフィールドと名前でひも付けされます。もしスキーマ側に存在するカラムがキントーン側になかった場合、そのカラムは単純に無視されます（エラーにもなりません）。&lt;/p&gt;
-
-&lt;h2 id=&#34;コンポーネントの接続方法&#34;&gt;コンポーネントの接続方法&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-row.png&#34; alt=&#34;ジョブ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;tKintoneOutput はRowを受け取ります。
-上の例は tFileInputDelimited からRowを受け取っている例です。&lt;/p&gt;
-
-&lt;h2 id=&#34;実行結果&#34;&gt;実行結果&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/kc4t/output-dump.png&#34; alt=&#34;dump&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;処理した全てのフィールドは標準出力にダンプされます。もしエラーが発生した場合、エラーを標準出力に吐いてプログラムは停止します。&lt;/p&gt;
-
-&lt;p&gt;（この挙動は、エラーステータスを返して正常終了するように修正される予定です。）&lt;/p&gt;
-</description>
+      <description>kc4tのTalendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。
+インストール方法はこちらをご確認ください。
+機能詳細 RDBMSからkintoneへレコードの書き込み  スキーマのカラム名をkintoneのフィールドコードとみなし、kintoneにレコードを書き込みます CSVファイルなど、スキーマをサポートするデータソースから、1行毎upsertを実行します  設定パラメータ Setting for kintone    Parameter Description     API token 接続するkintoneアプリの API token。レコード閲覧・追加・編集権限が必要です。   Sub domain 接続するアプリのサブドメイン   Guest SpaceId もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します   kintone AppId アプリID（数値で指定します）   upsert queries use this Field Code kintoneアプリ上の「プライマリキー」として扱うフィールドコードを指定します。kc4tはこのフィールドコードを使って upsert 処理を行います。    スキーマとキントーンのフィールドのマッピング方法How to mapping schema to kintone&amp;rsquo;s fields スキーマのカラムは、キントーンのフィールドと名前でひも付けされます。もしスキーマ側に存在するカラムがキントーン側になかった場合、そのカラムは単純に無視されます（エラーにもなりません）。
+コンポーネントの接続方法 tKintoneOutput はRowを受け取ります。 上の例は tFileInputDelimited からRowを受け取っている例です。</description>
     </item>
     
     <item>
@@ -288,47 +57,8 @@
       <pubDate>Tue, 22 Mar 2016 11:23:36 +0900</pubDate>
       
       <guid>https://www.r3it.com/community/oss/kc4t/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kintone Connector for talend &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;kc4t&lt;/a&gt;は &lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 用のkintone接続コンポーネントです。&lt;/p&gt;
-
-&lt;h2 id=&#34;talendコンポーネント&#34;&gt;Talendコンポーネント&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../tkintoneinput/&#34;&gt;tKintoneInput&lt;/a&gt; | kintoneからJDBC接続可能なRDBMSへのレコードの読み込み&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../tkintoneoutput/&#34;&gt;tKintoneOutput&lt;/a&gt; | RDBMS等からkintoneへレコードの書き込み&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;必要な環境&#34;&gt;必要な環境&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintone SDK for Java version 0.6以降 &lt;a href=&#34;https://github.com/kintone/java-sdk&#34;&gt;https://github.com/kintone/java-sdk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JDK 7以降&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;ダウンロード&#34;&gt;ダウンロード&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします &lt;a href=&#34;https://github.com/r3it/kc4t&#34;&gt;https://github.com/r3it/kc4t&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;コンポーネントのインストール方法&#34;&gt;コンポーネントのインストール方法&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt;を起動します&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;カスタムコンポーネント&amp;rdquo; フォルダを設定します
-
-&lt;ul&gt;
-&lt;li&gt;例として&amp;rdquo;Custom Components&amp;rdquo;という名前のフォルダを、ハードディスクのどこかに作成します&lt;/li&gt;
-&lt;li&gt;Studioの設定画面で Window-&amp;gt; Preferences-&amp;gt; Talend-&amp;gt; Components と遷移します&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;User component folder&amp;rdquo; にいま作成した&amp;rdquo;Custom Components&amp;rdquo;フォルダを設定します&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput および tKintoneOutput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします&lt;/li&gt;
-&lt;li&gt;Component Designerパースペクティブで、それぞれのコンポーネントフォルダを右クリックして、「コンポーネントをパレットにプッシュ」を実行してください。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> kintone Connector for talend kc4tは Talend Open Studio 用のkintone接続コンポーネントです。
+Talendコンポーネント  tKintoneInput | kintoneからJDBC接続可能なRDBMSへのレコードの読み込み tKintoneOutput | RDBMS等からkintoneへレコードの書き込み  必要な環境  kintone SDK for Java version 0.6以降 https://github.com/kintone/java-sdk JDK 7以降  ダウンロード  ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします https://github.com/r3it/kc4t  コンポーネントのインストール方法  Talend Open Studioを起動します &amp;ldquo;カスタムコンポーネント&amp;rdquo; フォルダを設定します  例として&amp;rdquo;Custom Components&amp;rdquo;という名前のフォルダを、ハードディスクのどこかに作成します Studioの設定画面で Window-&amp;gt; Preferences-&amp;gt; Talend-&amp;gt; Components と遷移します &amp;ldquo;User component folder&amp;rdquo; にいま作成した&amp;rdquo;Custom Components&amp;rdquo;フォルダを設定します  ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput および tKintoneOutput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします Component Designerパースペクティブで、それぞれのコンポーネントフォルダを右クリックして、「コンポーネントをパレットにプッシュ」を実行してください。  </description>
     </item>
     
     <item>
@@ -337,171 +67,9 @@
       <pubDate>Fri, 18 Mar 2016 16:23:36 +0900</pubDate>
       
       <guid>https://www.r3it.com/community/oss/tkintoneinput/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.r3it.com/images/community/talend_logo_4c_256.png&#34; alt=&#34;talend&#34; title=&#34;talend&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;kc4tのTalendコンポーネント tKintoneInput は、kintoneからJDBC接続可能なRDBMSへのレコードの読み込みを行うコンポーネントです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;インストール方法はこちら&lt;/a&gt;をご確認ください。&lt;/p&gt;
-
-&lt;h2 id=&#34;機能詳細&#34;&gt;機能詳細&lt;/h2&gt;
-
-&lt;h3 id=&#34;kintoneからjdbc接続可能なrdbmsへのレコードのエクスポート&#34;&gt;kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kintoneアプリを元に自動的にテーブルスキーマを作成します&lt;/li&gt;
-&lt;li&gt;レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします&lt;/li&gt;
-&lt;li&gt;エクスポート時にクエリを指定可能です&lt;/li&gt;
-&lt;li&gt;実行ジョブのステータスはジョブステータス格納用テーブルに記録されます&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;設定パラメータ&#34;&gt;設定パラメータ&lt;/h2&gt;
-
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/config.png&#34; alt=&#34;configuration&#34;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;jdbc設定&#34;&gt;JDBC設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Username&lt;/td&gt;
-&lt;td&gt;JDBC接続時のユーザ名&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Password&lt;/td&gt;
-&lt;td&gt;JDBC接続時のパスワード&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JDBC URL&lt;/td&gt;
-&lt;td&gt;JDBC URL&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Driver Class name&lt;/td&gt;
-&lt;td&gt;JDBCドライバのクラス名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;出力先テーブル名の設定&#34;&gt;出力先テーブル名の設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Export table prefix&lt;/td&gt;
-&lt;td&gt;データをエクスポートするテーブル名の接頭辞&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JobReport table name&lt;/td&gt;
-&lt;td&gt;ジョブ結果を格納するテーブル名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;kintoneの設定&#34;&gt;kintoneの設定&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;API token&lt;/td&gt;
-&lt;td&gt;接続するkintoneアプリの API token&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Sub domain&lt;/td&gt;
-&lt;td&gt;接続するアプリのサブドメイン&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;kintone AppId&lt;/td&gt;
-&lt;td&gt;アプリID（数値で指定します）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Guest SpaceId&lt;/td&gt;
-&lt;td&gt;もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;query&lt;/td&gt;
-&lt;td&gt;クエリパラメータを利用する場合、ここに設定します。何も設定しなければ、コンポーネントはすべてのレコードのエクスポートを試みます。&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;order by field&lt;/td&gt;
-&lt;td&gt;デフォルトは &amp;ldquo;RECORD_NUMBER&amp;rdquo; です。あなたのアプリケーションが &amp;ldquo;RECORD_NUMBER&amp;rdquo; を持っていない場合、ソートに利用するフィールド名を指定してください。&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;retrieve revision field&lt;/td&gt;
-&lt;td&gt;デフォルトは &amp;ldquo;true&amp;rdquo; です。チェックを外すと、REVISIONフィールドを取得しません。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;出力結果&#34;&gt;出力結果&lt;/h2&gt;
-
-&lt;p&gt;&lt;img width=&#34;450&#34; src=&#34;https://www.r3it.com/images/community/kc4t/schema.png&#34; alt=&#34;schema&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;JobId&lt;/td&gt;
-&lt;td&gt;ジョブID（テーブルの接尾詞になります）&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;MainTable&lt;/td&gt;
-&lt;td&gt;エクスポートされたテーブル名&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;SubTables&lt;/td&gt;
-&lt;td&gt;サブテーブルがあった場合、それらのテーブル名がカンマ区切りで入ります。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;現在のところテーブルは削除されません。ジョブが実行されるたびに、新たにテーブルが作成されます。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>kc4tのTalendコンポーネント tKintoneInput は、kintoneからJDBC接続可能なRDBMSへのレコードの読み込みを行うコンポーネントです。
+インストール方法はこちらをご確認ください。
+機能詳細 kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート  kintoneアプリを元に自動的にテーブルスキーマを作成します レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします エクスポート時にクエリを指定可能です 実行ジョブのステータスはジョブステータス格納用テーブルに記録されます  設定パラメータ JDBC設定    Parameter Description     Username JDBC接続時のユーザ名   Password JDBC接続時のパスワード   JDBC URL JDBC URL   Driver Class name JDBCドライバのクラス名    出力先テーブル名の設定    Parameter Description     Export table prefix データをエクスポートするテーブル名の接頭辞   JobReport table name ジョブ結果を格納するテーブル名    kintoneの設定    Parameter Description     API token 接続するkintoneアプリの API token   Sub domain 接続するアプリのサブドメイン   kintone AppId アプリID（数値で指定します）   Guest SpaceId もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します   query クエリパラメータを利用する場合、ここに設定します。何も設定しなければ、コンポーネントはすべてのレコードのエクスポートを試みます。   order by field デフォルトは &amp;ldquo;RECORD_NUMBER&amp;rdquo; です。あなたのアプリケーションが &amp;ldquo;RECORD_NUMBER&amp;rdquo; を持っていない場合、ソートに利用するフィールド名を指定してください。   retrieve revision field デフォルトは &amp;ldquo;true&amp;rdquo; です。チェックを外すと、REVISIONフィールドを取得しません。    出力結果 エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。</description>
     </item>
     
     <item>
@@ -510,34 +78,13 @@
       <pubDate>Thu, 06 Aug 2015 17:30:00 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2015/join-to-tosp/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/TOSP_logo_4c.png&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社アールスリーインスティテュートはこの度、 Talend Open Studio パートナーに登録されました。&lt;/p&gt;
-
-&lt;h1 id=&#34;talend-open-studio-パートナー-tosp-とは&#34;&gt;Talend Open Studio パートナー（TOSP）とは&lt;/h1&gt;
-
-&lt;p&gt;Talend Open Studio (TOS)のトレーニング、サポート、コネクタやモジュールの受託開発などを提供するパートナーです。公式サイトはこちらのURLになります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://talend.jp/tosp&#34;&gt;https://talend.jp/tosp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;弊社アールスリーインスティテュートでは、以下のコンポーネント・サービスを提供しています。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jp.talend.com/products/talend-open-studio&#34;&gt;Talend Open Studio&lt;/a&gt; 向けの &lt;a href=&#34;https://kintone.cybozu.com/jp/&#34;&gt;サイボウズ kintone&lt;/a&gt; と接続するためのオープンソース コンポーネント&amp;rdquo;&lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;kintone Connector for talend&lt;/a&gt;&amp;rdquo; の提供&lt;/li&gt;
-&lt;li&gt;上記コンポーネントを利用した kintone と既存システムのデータ連携システムの構築&lt;/li&gt;
-&lt;li&gt;Talend Open Studio を利用した基幹システムと Amazon Web Services (AWS) との間でのシステム・データ連携&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;システム概要イメージ&#34;&gt;システム概要イメージ&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.r3it.com/images/info/2015/talend-kintone-overview.png&#34; data-lightbox=&#34;pics&#34;&gt;&lt;img class=&#34;img-thumbnail img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2015/talend-kintone-overview.png&#34;  width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Talend Open Studio と kintone を利用したデータ連携システムの概要は、上記のとおりです。AWS上に構築した基幹システムと、サイボウズ側ネットワークにある kintone アプリ群を、 Talend でデータ連携するイメージです。&lt;/p&gt;
-
-&lt;p&gt;システム間のデータ連携にご興味があるお客様は、&lt;a href=&#34;https://www.r3it.com/#inquiry&#34;&gt;是非お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
-</description>
+      <description>弊社アールスリーインスティテュートはこの度、 Talend Open Studio パートナーに登録されました。
+Talend Open Studio パートナー（TOSP）とは Talend Open Studio (TOS)のトレーニング、サポート、コネクタやモジュールの受託開発などを提供するパートナーです。公式サイトはこちらのURLになります。
+https://talend.jp/tosp
+弊社アールスリーインスティテュートでは、以下のコンポーネント・サービスを提供しています。
+ Talend Open Studio 向けの サイボウズ kintone と接続するためのオープンソース コンポーネント&amp;rdquo;kintone Connector for talend&amp;rdquo; の提供 上記コンポーネントを利用した kintone と既存システムのデータ連携システムの構築 Talend Open Studio を利用した基幹システムと Amazon Web Services (AWS) との間でのシステム・データ連携  システム概要イメージ 
+Talend Open Studio と kintone を利用したデータ連携システムの概要は、上記のとおりです。AWS上に構築した基幹システムと、サイボウズ側ネットワークにある kintone アプリ群を、 Talend でデータ連携するイメージです。
+システム間のデータ連携にご興味があるお客様は、是非お問い合わせください。</description>
     </item>
     
     <item>
@@ -546,43 +93,15 @@
       <pubDate>Tue, 23 Jun 2015 17:06:49 +0900</pubDate>
       
       <guid>https://www.r3it.com/info/2015/kintone-connector-for-talend/</guid>
-      <description>
-
-&lt;p&gt;ビックデータインテグレーションのリーダーであるTalend株式会社（本社：東京都港区、代表取締役社長：有延敬三、以下「Talend」）と、ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は本日、オープンソースソフトウェア版であるTalend Open Studio（以下「TOS」）を活用して、迅速かつ合理的な費用でのオンプレミスとクラウドのデータ連携、移行を推進するために技術、マーケティング面で協業することを発表いたしました。&lt;/p&gt;
-
-&lt;p&gt;Amazon Web Services (AWS)のコンサルティングパートナーであり、サイボウズ（kintone）パートナーでもあるR3は、kintone開発の魅力であるスピードを最大限に発揮するために、カスタマイズを最小限にとどめたハイスピードなシステムインテグレーションを提供しています。R3はTOSを利用して、ハンドコーディングせず、かつ安価に基幹システムとkintoneのデータ連携を実現し、その開発で得られた知見を元にTalend用のkintoneコネクター（kintone connector for talend: kc4t）を今年5月にオープンソースソフトウェアとしてGitHub上に公開しました。（ &lt;a href=&#34;https://www.r3it.com/community/oss/kc4t/&#34;&gt;https://www.r3it.com/community/oss/kc4t/&lt;/a&gt; ）&lt;/p&gt;
-
-&lt;p&gt;Talend 製品は世界最大規模のユーザーコミュニティを基盤とし、800 以上のコンポーネントを持つ商用オープンソースソフトウェアです。Talend は、多くの企業ユーザーから要望のある kintone のコネクターを開発した R3 と協業することにより、Talend 製品によるオンプレミスとクラウドのデータ連携がさらに加速することを期待しています。&lt;/p&gt;
-
-&lt;p&gt;R3 は kc4t の第一弾として kintone からデータを抽出するコンポーネントを実現していますが、Talend との協業により、さらなる機能追加を予定しています。Talend と R3 は協業に基づき、データ連携に手間とコストをかけずにクラウドへの移行を実現するハイスピードかつハイクオリティなシステムインテグレーションを提供し、 顧客企業のデータドリブン経営を支援します。
-Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Japan Community: &lt;a href=&#34;https://talend.jp/&#34;&gt;https://talend.jp/&lt;/a&gt;)でもご紹介を予定しています。&lt;/p&gt;
-
-&lt;h2 id=&#34;talend-について&#34;&gt;Talend について&lt;/h2&gt;
-
-&lt;p&gt;2006 年フランスで創業した Talend 社は、あらゆる情報資産の効率的な活用を可能にするビックデータ統合/ アプリケーション統合/ビジネスプロセス統合のためのソリューションを開発・提供し、データドリブン経営を支 援しています。Talend の統合ソリューションにより、データドリブンの組織は、あらゆるデータから価値を得ることが出来ます。Talend は、最新のビッグデータプラットフォームをネイティブにサポートすることで、データ統合にまつわる複雑さを排除出来るため、IT 部門は、ビジネス要求により迅速に対応可能になり、発生する費用も想定することが出来ます。Talend のソリューションは、オープンソースのテクノロジーをベースとしており、 拡張性が高く、常に最新であり、データ統合に関する、今後も増大するあらゆる要求を解決します。Talend は米国カリフォルニア州レッドウッド市に本社をおく非公開企業です。&lt;/p&gt;
-
-&lt;h2 id=&#34;r3-について&#34;&gt;R3 について&lt;/h2&gt;
-
-&lt;p&gt;2000年に創業したアールスリーインスティテュートは、関西を中心に全国で活動している、システムによる問題解決チームです。クラウドファースト時代のシステム開発の考え方である「ハイスピードSI」を提唱し、お客様の問題を最も効率的に解決するためのアイデアを、考えに考えるのが弊社のスタンスです。
-既存のデータセンターにあるオンプレミスのシステム構築だけではなく、AWSパートナー・kintoneパートナーとしてクラウドを活用した問題解決をご提案しています。
-また、「コミュニティにフルコミット」を合言葉に、社員のコミュニティ活動を積極的に支援し、会社としても各種コミュニティ活動を強力に支援しています。&lt;/p&gt;
-
-&lt;h2 id=&#34;報道関係者-読者お問い合わせ先&#34;&gt;報道関係者・読者お問い合わせ先&lt;/h2&gt;
-
-&lt;h3 id=&#34;talend-株式会社&#34;&gt;Talend 株式会社&lt;/h3&gt;
-
-&lt;p&gt;マーケティング 重見英子&lt;/p&gt;
-
-&lt;p&gt;TEL:03-6427-6370 / E-mail:&lt;a href=&#34;mailto:prjp@talend.com&#34;&gt;prjp@talend.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;アールスリーインスティテュート&#34;&gt;アールスリーインスティテュート&lt;/h3&gt;
-
-&lt;p&gt;クライアントディベロップメント 林 宏樹&lt;/p&gt;
-
-&lt;p&gt;TEL: 06-6271-3663 / Email : &lt;a href=&#34;mailto:info@r3it.com&#34;&gt;info@r3it.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;記載されているロゴ、会社名、製品・サービス名は、各社の登録商標または商標です。&lt;/p&gt;
-</description>
+      <description>ビックデータインテグレーションのリーダーであるTalend株式会社（本社：東京都港区、代表取締役社長：有延敬三、以下「Talend」）と、ハイスピードSIを提唱するシステムによる問題解決会社であるアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は本日、オープンソースソフトウェア版であるTalend Open Studio（以下「TOS」）を活用して、迅速かつ合理的な費用でのオンプレミスとクラウドのデータ連携、移行を推進するために技術、マーケティング面で協業することを発表いたしました。
+Amazon Web Services (AWS)のコンサルティングパートナーであり、サイボウズ（kintone）パートナーでもあるR3は、kintone開発の魅力であるスピードを最大限に発揮するために、カスタマイズを最小限にとどめたハイスピードなシステムインテグレーションを提供しています。R3はTOSを利用して、ハンドコーディングせず、かつ安価に基幹システムとkintoneのデータ連携を実現し、その開発で得られた知見を元にTalend用のkintoneコネクター（kintone connector for talend: kc4t）を今年5月にオープンソースソフトウェアとしてGitHub上に公開しました。（ https://www.r3it.com/community/oss/kc4t/ ）
+Talend 製品は世界最大規模のユーザーコミュニティを基盤とし、800 以上のコンポーネントを持つ商用オープンソースソフトウェアです。Talend は、多くの企業ユーザーから要望のある kintone のコネクターを開発した R3 と協業することにより、Talend 製品によるオンプレミスとクラウドのデータ連携がさらに加速することを期待しています。
+R3 は kc4t の第一弾として kintone からデータを抽出するコンポーネントを実現していますが、Talend との協業により、さらなる機能追加を予定しています。Talend と R3 は協業に基づき、データ連携に手間とコストをかけずにクラウドへの移行を実現するハイスピードかつハイクオリティなシステムインテグレーションを提供し、 顧客企業のデータドリブン経営を支援します。 Kc4t に関する情報は今後 Talend の日本のコミュニティ(Talend Japan Community: https://talend.jp/)でもご紹介を予定しています。
+Talend について 2006 年フランスで創業した Talend 社は、あらゆる情報資産の効率的な活用を可能にするビックデータ統合/ アプリケーション統合/ビジネスプロセス統合のためのソリューションを開発・提供し、データドリブン経営を支 援しています。Talend の統合ソリューションにより、データドリブンの組織は、あらゆるデータから価値を得ることが出来ます。Talend は、最新のビッグデータプラットフォームをネイティブにサポートすることで、データ統合にまつわる複雑さを排除出来るため、IT 部門は、ビジネス要求により迅速に対応可能になり、発生する費用も想定することが出来ます。Talend のソリューションは、オープンソースのテクノロジーをベースとしており、 拡張性が高く、常に最新であり、データ統合に関する、今後も増大するあらゆる要求を解決します。Talend は米国カリフォルニア州レッドウッド市に本社をおく非公開企業です。
+R3 について 2000年に創業したアールスリーインスティテュートは、関西を中心に全国で活動している、システムによる問題解決チームです。クラウドファースト時代のシステム開発の考え方である「ハイスピードSI」を提唱し、お客様の問題を最も効率的に解決するためのアイデアを、考えに考えるのが弊社のスタンスです。 既存のデータセンターにあるオンプレミスのシステム構築だけではなく、AWSパートナー・kintoneパートナーとしてクラウドを活用した問題解決をご提案しています。 また、「コミュニティにフルコミット」を合言葉に、社員のコミュニティ活動を積極的に支援し、会社としても各種コミュニティ活動を強力に支援しています。
+報道関係者・読者お問い合わせ先 Talend 株式会社 マーケティング 重見英子
+TEL:03-6427-6370 / E-mail:prjp@talend.com
+アールスリーインスティテュート クライアントディベロップメント 林 宏樹</description>
     </item>
     
   </channel>
