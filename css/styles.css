@@ -244,6 +244,17 @@ a.list-group-item.active,[class*='-info'] {
   border-bottom-left-radius: 4px;
 }
 
+#solutions-kintone-top {
+    background:center no-repeat url('/images/solutions/kintone-header_bga.jpg');
+    background-size: cover;
+    color: white;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    min-height:calc(30% - 1px);
+    padding-top: 100px;
+}
+
 #community-top {
 	padding-top: 10px;
 	background-color: #fff;
@@ -405,6 +416,19 @@ a.list-group-item.active,[class*='-info'] {
     color: #111;
 }
 
+#footernavi {
+	background-color:#e6e6e6;
+    color:#111;
+    min-height:100px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footernavi ul {
+    padding-top: 15px;
+}
+
+
 footer {
 	background-color:#494949;
     color:#ddd;
@@ -564,4 +588,26 @@ p.kaiwa-text:last-child {
   clear: both;
   content: "";
   display: block;
+}
+
+.cse-wrapper * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.cse-wrapper table,
+.cse-wrapper td,
+.cse-wrapper th {
+    border: none;
+    line-height: 1;
+}
+
+.cse-wrapper .gsc-control-cse .gs-result .gs-title,
+.cse-wrapper .gsc-control-cse .gs-result .gs-title * {
+    font-size: 20px;
+}
+
+.cse-wrapper .gsc-result-info {
+    background-color: white;
 }
