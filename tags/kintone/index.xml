@@ -5,10 +5,40 @@
     <link>https://www.r3it.com/tags/kintone/</link>
     <description>Recent content in Kintone on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Jul 2017 11:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Feb 2018 11:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.r3it.com/tags/kintone/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>gusukuシリーズ 新サービス発表・サービス名変更のお知らせ</title>
+      <link>https://www.r3it.com/info/2018/updates_to_our_service_name/</link>
+      <pubDate>Mon, 19 Feb 2018 11:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2018/updates_to_our_service_name/</guid>
+      <description>「ハイスピードSI」を提供するアールスリーインスティテュート（本社：大阪市中央区、代表：加藤忠智、以下「R3」）は、 弊社で昨年秋より開発しており Gajumaru（ガジュマル）と言う名前でお知らせしてきましたサービスの正式名称を gusuku Customine（カスタマイン）とし、本日発表させて頂きました。
+こちらのサービスは、kintoneのカスタマイズをプログラミング無しで行うことの出来るサービスとなっております。詳しくはホームページをご覧ください。
+これに伴い、いままでご利用頂いておりました gusuku のサービス名を gusuku Deploit（デプロイット）と変更し、サービスのラインナップを整理させて頂きました。
+ただし価格・サービス内容などに変更はございません。
+
+引き続きご愛顧賜りますよう、よろしくお願い申し上げます。
+また、Customineのプレビュー版リリースを3月27日に予定しております。
+その日には、サイボウズ様の東京オフィスにてリリース発表会を開催いたします。招待制のプレス向けイベントではございますが、一部席を一般公開いたしますので、ユーザー様、メディア関係者様など、どなたでもご参加頂くことが可能です。
+ご興味がございましたら、ぜひご参加ください。 以下のURLよりお申し込みが可能となっております。
+https://r3it.doorkeeper.jp/events/70880
+以上、よろしくお願いいたします。</description>
+    </item>
+    
+    <item>
+      <title>アールスリー、kintoneアプリに機能を追加出来る 「R3実践kintone(キントーン)プラグイン」を公開</title>
+      <link>https://www.r3it.com/info/2017/r3-kintone-plugin-release/</link>
+      <pubDate>Mon, 06 Nov 2017 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.r3it.com/info/2017/r3-kintone-plugin-release/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://plugins.r3it.com/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://www.r3it.com/images/info/2017/plugins-siteimage.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>関西初！gusuku Meetup OSAKA Vol.1をついに開催できました！</title>
@@ -67,7 +97,7 @@ CMC_Meetupとは？ CMC_Meetupとは、元AWSJでJAWS-UGの仕掛け人である
 kintone Café 大阪の立ち上げと運営方針 ただ、kintone Café大阪は立ち上げから現在の状態になるまで最初から関わっていますので、kintone Café大阪の立ち上げで気をつけていたことについて書いておきたいと思います。
 kintone Café大阪の立ち上げにあたりいくつか守ろうと思ったことがありました
  参加者数にはこだわらない 開催頻度にはこだわる kintoneの特性から初心者向けコンテンツと技術者向けコンテンツを切り分けて開催する できるだけ早い段階で、私以外に主催できる人を見つける  この方針にもとづいて、kintone Café 大阪は2ヶ月に1回の開催をほぼキープしています。また、ありがたいことに仲間も増え、主催してくれる人も増えているため、2ヶ月に1回の開催といえども、自身が主催するのは年に1〜2回で済んでいます。もちろん、運営はみんなでやっていますので何もしていないわけではないですが、持ち回りでやれるというのはとても心強いです。
-参加者数にはこだわらないとは言え、誰も来ないと成立しないので気にしていないわけではないのですが、頻繁に開発していれば特に策を講じなくても徐々に増えていくだろうという仮説が当初からありまして、それを信じてずっとやってきています。
+参加者数にはこだわらないとは言え、誰も来ないと成立しないので気にしていないわけではないのですが、頻繁に開催していれば特に策を講じなくても徐々に増えていくだろうという仮説が当初からありまして、それを信じてずっとやってきています。
 最近は、仮説通り参加者が増えてきており、7月27日(火)開催の、kintone Café 大阪 Vol.13は、募集開始した日に25名の枠が埋まってしまい、慌てて席数を増枠する状況になっています。 まだ、コンテンツによって参加者数にはばらつきがありますが、それはそれでよいと考えていて、人数を追いかけて奇策に出ないように心がけています。
 コミュニティの文化の違い 個々の支部の立ち上げについては上に書いたような方針でうまくいくのですが、これがコミュニティ全体となるとはそうはいかなくなります。 何故かというと、全国規模で考えると地域性やそのプログラムの特性が色濃くコミュニティの文化に反映されるためです。
 AWSはエンジニアを熱狂させる要素の多いサービスで、JAWS-UGも新しい技術に触れるエンジニアの好奇心に支えられているといっても過言ではないと思います。
@@ -1414,39 +1444,6 @@ AWSJのSAさんのお話が聞けるのも貴重かも！？
     </item>
     
     <item>
-      <title>kintone Connector for talend / tKintoneOutput</title>
-      <link>https://www.r3it.com/community/oss/tkintoneoutput/</link>
-      <pubDate>Tue, 22 Mar 2016 11:24:36 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/oss/tkintoneoutput/</guid>
-      <description>kc4tのTalendコンポーネント tKintoneOutput は、RDBMS等からkintoneへレコードの書き込みを行うコンポーネントです。
-インストール方法はこちらをご確認ください。
-機能詳細 RDBMSからkintoneへレコードの書き込み  スキーマのカラム名をkintoneのフィールドコードとみなし、kintoneにレコードを書き込みます CSVファイルなど、スキーマをサポートするデータソースから、1行毎upsertを実行します  設定パラメータ Setting for kintone    Parameter Description     API token 接続するkintoneアプリの API token。レコード閲覧・追加・編集権限が必要です。   Sub domain 接続するアプリのサブドメイン   Guest SpaceId もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します   kintone AppId アプリID（数値で指定します）   upsert queries use this Field Code kintoneアプリ上の「プライマリキー」として扱うフィールドコードを指定します。kc4tはこのフィールドコードを使って upsert 処理を行います。    スキーマとキントーンのフィールドのマッピング方法How to mapping schema to kintone&amp;rsquo;s fields スキーマのカラムは、キントーンのフィールドと名前でひも付けされます。もしスキーマ側に存在するカラムがキントーン側になかった場合、そのカラムは単純に無視されます（エラーにもなりません）。
-コンポーネントの接続方法 tKintoneOutput はRowを受け取ります。 上の例は tFileInputDelimited からRowを受け取っている例です。</description>
-    </item>
-    
-    <item>
-      <title>kintone Connector for talend</title>
-      <link>https://www.r3it.com/community/oss/kc4t/</link>
-      <pubDate>Tue, 22 Mar 2016 11:23:36 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/oss/kc4t/</guid>
-      <description> kintone Connector for talend kc4tは Talend Open Studio 用のkintone接続コンポーネントです。
-Talendコンポーネント  tKintoneInput | kintoneからJDBC接続可能なRDBMSへのレコードの読み込み tKintoneOutput | RDBMS等からkintoneへレコードの書き込み  必要な環境  kintone SDK for Java version 0.6以降 https://github.com/kintone/java-sdk JDK 7以降  ダウンロード  ソースコード/バイナリを含むダウンロードはGitHubリポジトリからお願いします https://github.com/r3it/kc4t  コンポーネントのインストール方法  Talend Open Studioを起動します &amp;ldquo;カスタムコンポーネント&amp;rdquo; フォルダを設定します  例として&amp;rdquo;Custom Components&amp;rdquo;という名前のフォルダを、ハードディスクのどこかに作成します Studioの設定画面で Window-&amp;gt; Preferences-&amp;gt; Talend-&amp;gt; Components と遷移します &amp;ldquo;User component folder&amp;rdquo; にいま作成した&amp;rdquo;Custom Components&amp;rdquo;フォルダを設定します  ダウンロードしたソースの中のsrcフォルダに有る tKintoneInput および tKintoneOutput フォルダを、あなたの &amp;ldquo;Custom Components&amp;rdquo; フォルダにコピーします Component Designerパースペクティブで、それぞれのコンポーネントフォルダを右クリックして、「コンポーネントをパレットにプッシュ」を実行してください。  </description>
-    </item>
-    
-    <item>
-      <title>kintone Connector for talend / tKintoneInput</title>
-      <link>https://www.r3it.com/community/oss/tkintoneinput/</link>
-      <pubDate>Fri, 18 Mar 2016 16:23:36 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/oss/tkintoneinput/</guid>
-      <description>kc4tのTalendコンポーネント tKintoneInput は、kintoneからJDBC接続可能なRDBMSへのレコードの読み込みを行うコンポーネントです。
-インストール方法はこちらをご確認ください。
-機能詳細 kintoneからJDBC接続可能なRDBMSへのレコードのエクスポート  kintoneアプリを元に自動的にテーブルスキーマを作成します レコードを（サブテーブルがある場合は複数の）テーブルにエクスポートします エクスポート時にクエリを指定可能です 実行ジョブのステータスはジョブステータス格納用テーブルに記録されます  設定パラメータ JDBC設定    Parameter Description     Username JDBC接続時のユーザ名   Password JDBC接続時のパスワード   JDBC URL JDBC URL   Driver Class name JDBCドライバのクラス名    出力先テーブル名の設定    Parameter Description     Export table prefix データをエクスポートするテーブル名の接頭辞   JobReport table name ジョブ結果を格納するテーブル名    kintoneの設定    Parameter Description     API token 接続するkintoneアプリの API token   Sub domain 接続するアプリのサブドメイン   kintone AppId アプリID（数値で指定します）   Guest SpaceId もしゲストスペースのアプリケーションの場合、ゲストスペースのIDを指定します   query クエリパラメータを利用する場合、ここに設定します。何も設定しなければ、コンポーネントはすべてのレコードのエクスポートを試みます。   order by field デフォルトは &amp;ldquo;RECORD_NUMBER&amp;rdquo; です。あなたのアプリケーションが &amp;ldquo;RECORD_NUMBER&amp;rdquo; を持っていない場合、ソートに利用するフィールド名を指定してください。   retrieve revision field デフォルトは &amp;ldquo;true&amp;rdquo; です。チェックを外すと、REVISIONフィールドを取得しません。    出力結果 エクスポートJobが成功した場合、以下の結果パラメータが取得可能です。</description>
-    </item>
-    
-    <item>
       <title>執筆者Profile : 浅賀 功次</title>
       <link>https://www.r3it.com/blog/author/asaga/</link>
       <pubDate>Wed, 16 Mar 2016 11:00:00 +0900</pubDate>
@@ -2012,19 +2009,6 @@ R3 について 2000年に創業したアールスリーインスティテュー
 報道関係者・読者お問い合わせ先 Talend 株式会社 マーケティング 重見英子
 TEL:03-6427-6370 / E-mail:prjp@talend.com
 アールスリーインスティテュート クライアントディベロップメント 林 宏樹</description>
-    </item>
-    
-    <item>
-      <title>kintone で作ったアプリをHTMLに埋め込む js2kintone</title>
-      <link>https://www.r3it.com/community/oss/js2kintone/</link>
-      <pubDate>Mon, 22 Jun 2015 18:28:47 +0900</pubDate>
-      
-      <guid>https://www.r3it.com/community/oss/js2kintone/</guid>
-      <description>js2kintone は kintone で作成したアプリをHTMLファイルに埋め込むことが出来るJavaScriptライブラリです。このライブラリを使うことで、kintone で作ったアプリをあなたのWebサイトにそのまま設置することが出来ます。
-ユーザーが入力した問い合わせフォームの内容は、html(js2kintone) → AWS Lambda → kintone と流れてきます。
-js2kintone を利用すると、「月額10円〜レンタルサーバを始める方法」で活用する Amazon S3 で構築したWebサイトに、ほぼ無料で問い合わせフォームを設置することが出来ます。
-ダウンロード  ダウンロードはGitHubリポジトリからお願いします https://github.com/r3it/js2kintone  設置方法と使い方 詳細はこちらをご確認ください。
-有料設置サービスについて 上記ドキュメントを読んで設置方法がわからない方は、有料設置サービスを行っておりますので、弊社 アールスリーインスティテュートまでお問い合わせください。</description>
     </item>
     
     <item>
